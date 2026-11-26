@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "experiment": "supporting_information/s3_conditional_diffusion",
+  "paper_items": [
+    "Table S4"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/full_training_selection_metadata.json",
+      "path": "results/training/selection_summary.json",
+      "role": "Observed validation selections and parameter identities for both completion modes",
+      "kind": "original_file",
+      "bytes": 2221,
+      "sha256": "8b195d946a611c33c867b26c945dad4b427de5889ec5ec8727aa6c27d13e8c5b"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+      "path": "configs/known_full.json",
+      "role": "Repository-root conditional-completion configuration",
+      "kind": "original_file",
+      "bytes": 1354,
+      "sha256": "a3598cf090a11a9596881139a5bd635d0809b344a7c2560d35d56ac39ecff8c5"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/training/completion/selection.json",
+      "path": "results/training/known/completion/selection.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 1997,
+      "sha256": "6ee6b00349c9ab4a99ad5efc4a974bb16f3a50f0406d21cd74c3cf5562006820"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/training/completion/training_epochs.json",
+      "path": "results/training/known/completion/training_epochs.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 168564,
+      "sha256": "94624570352ffc55ab5e8cb8b9ddde8951f2bff801ee14ac490347f7061f5525"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/training/completion/validation.json",
+      "path": "results/training/known/completion/validation.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 557700,
+      "sha256": "110c2cfbf43350d3ea1c5335528f95298c7e853e06c00824f550978c436db4d0"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/training/size/curves.jsonl",
+      "path": "results/training/known/size/curves.jsonl",
+      "role": "Original size-model training and validation curve",
+      "kind": "original_file",
+      "bytes": 244314,
+      "sha256": "3f4936aad24b332de97d887312247e39238c2822d056dbb6a427167a65e7f3c2"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json",
+      "path": "configs/unknown_full.json",
+      "role": "Repository-root conditional-completion configuration",
+      "kind": "original_file",
+      "bytes": 1363,
+      "sha256": "521a0808927d66a8a95d6282754398591fd6a562ddeda4ccabfd2e200ef34b23"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/training/completion/selection.json",
+      "path": "results/training/unknown/completion/selection.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 2013,
+      "sha256": "0840130078a76738d3b4244d58ca8fee78d8f2756d8cf22c1a9e56bc3b5477ce"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/training/completion/training_epochs.json",
+      "path": "results/training/unknown/completion/training_epochs.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 168541,
+      "sha256": "1c174d247a0468074a391ab411772a9e6496f40b58ba230add3d236f545e6cc2"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/training/completion/validation.json",
+      "path": "results/training/unknown/completion/validation.json",
+      "role": "Original training, validation and checkpoint-selection record",
+      "kind": "original_file",
+      "bytes": 561015,
+      "sha256": "2754938074e2dd53c0dce9287a3a9e278f2d2d3db4f18ecbaf9cfdb730ad7e23"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/training/size/curves.jsonl",
+      "path": "results/training/unknown/size/curves.jsonl",
+      "role": "Original size-model training and validation curve",
+      "kind": "original_file",
+      "bytes": 244337,
+      "sha256": "767e5cde6f9fc653327e96cbd93d936ca13f9e0b4493a9d98771d7ebe11c8e58"
+    },
+    {
+      "path": "tables/table_s4.tex",
+      "role": "Table S4: Full-data size-model and diffusion-model settings.",
+      "paper_item": "Table S4",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 50540,
+      "source_character_end": 52386,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "8159af8f76ed6cff4273beb304e2a31b8634ce6c3c4506858d29500d76f3f7a0",
+      "bytes": 1846,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/completion",
+    "src/spectraretro/fusion_reranker"
+  ],
+  "shared_data": [
+    "experiments/spectraretro_inputs",
+    "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation",
+    "experiments/section_4_results/4_1_benchmark/unknown-class/data/evaluation"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "experiment": "supporting_information/s2_spectral_encoder",
+  "paper_items": [
+    "Table S3"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/reaction_center/full_spectral_ablation/configuration.json",
+      "path": "../../../results/reaction_center/full_spectral_ablation/configuration.json",
+      "role": "Original spectral training and selection configuration",
+      "kind": "original_file",
+      "bytes": 1702,
+      "sha256": "ab782498f98d0fed77cd3d09790c1c72a9dbc093b89f3fbf01bd2eb7113a3098",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/full_spectral_ablation/training_curves/full_fspec.jsonl",
+      "path": "../../../results/reaction_center/full_spectral_ablation/training_curves/full_fspec.jsonl",
+      "role": "Recorded spectral model training curves",
+      "kind": "original_file",
+      "bytes": 21962,
+      "sha256": "a02ff34823fe0deb94e380e702baeb50084d4a6382087ddc7ed118fca349dfba",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/full_spectral_ablation/training_curves/no_spectral.jsonl",
+      "path": "../../../results/reaction_center/full_spectral_ablation/training_curves/no_spectral.jsonl",
+      "role": "Recorded spectral model training curves",
+      "kind": "original_file",
+      "bytes": 21851,
+      "sha256": "d63f0e80bc2bf743026cb1a8d306271a16fbdb357c561973dfeecd6c32c74284",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/configuration.json",
+      "path": "../../../results/reaction_center/small_local_propagation/configuration.json",
+      "role": "Original spectral training and selection configuration",
+      "kind": "original_file",
+      "bytes": 4801,
+      "sha256": "105d3f19f6bf01c67ace458e41afc0e593f8f89e266933f6baf9c0f9f529b567",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed0.jsonl",
+      "path": "../../../results/reaction_center/small_local_propagation/training_curves/local_pair_seed0.jsonl",
+      "role": "Recorded spectral model training curves",
+      "kind": "original_file",
+      "bytes": 21882,
+      "sha256": "7bf673bd1369f36972af3acf6843b2a23abd33e844b21917da094728fe669a0a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed1.jsonl",
+      "path": "../../../results/reaction_center/small_local_propagation/training_curves/local_pair_seed1.jsonl",
+      "role": "Recorded spectral model training curves",
+      "kind": "original_file",
+      "bytes": 21858,
+      "sha256": "e86169491202a709e94773eb0c6190e836897539a5a49cccdb8a2a140e17fab0",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed2.jsonl",
+      "path": "../../../results/reaction_center/small_local_propagation/training_curves/local_pair_seed2.jsonl",
+      "role": "Recorded spectral model training curves",
+      "kind": "original_file",
+      "bytes": 21846,
+      "sha256": "eefb70493fc265207eaccdff39750595eda05781929416cf58ef34e6996870d1",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "tables/table_s3.tex",
+      "role": "Table S3: Training configuration of the full-data spectral ablation.",
+      "paper_item": "Table S3",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 33651,
+      "source_character_end": 35074,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "1e04a6ec972cebd5c374262fe597bce6f0c1c6156d4e5d1094776470e7deaa1c",
+      "bytes": 1423,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/reaction_center",
+    "experiments/supporting_information/s2_spectral_encoder/reference_code"
+  ],
+  "shared_data": [
+    "datasets/full",
+    "datasets/small"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

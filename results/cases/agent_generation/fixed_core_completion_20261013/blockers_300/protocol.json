@@ -1,0 +1,41 @@
+{
+  "task": "Fixed-core completion, inspect all 300 draws before ranking",
+  "steps": [
+    "NEMI-07",
+    "TAF-02"
+  ],
+  "original_draws_reused": 30,
+  "new_draws": 270,
+  "total_draws_per_fragment": 300,
+  "seed": 20261013,
+  "batch_size": 8,
+  "sampling_steps": 100,
+  "max_seconds": 2400,
+  "weights": {
+    "size": {
+      "path": "checkpoints/cases/agent/size_model.ckpt",
+      "sha256": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+    },
+    "edm": {
+      "path": "checkpoints/cases/agent/completion_model.ckpt",
+      "sha256": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56"
+    }
+  },
+  "inventory_used": false,
+  "new_training": false,
+  "correct_known_core_is_allowed_input": true,
+  "reference_unknown_size_or_graph_input": false,
+  "RNG_checkpoint_resume": false,
+  "original_draws_not_regenerated": true,
+  "source_sha256": {
+    "source-record:local_continuation_20261011/probe_fixed_core_blockers_300_20261013.py": "d3039c1386b9f08a64d69604d4704a6d66c365b320624ff9b45aa8a2baec50e8",
+    "results/cases/agent_generation/fixed_core_completion_20261013/protocol.json": "49f2abffdd8fe2d12cd112d01ccbba11e93296738649ab3db974166ccfb80b4c",
+    "results/cases/agent_generation/fixed_core_completion_20261013/generation_inputs.json": "3290c1bf04a86994dbe0066545b7362c1edd616c8542a56e89500e038e750030",
+    "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+    "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+    "src/experiments/drug_route_cases/exact_case_memory_worker.py": "f5c207283b4c9f2e732dca37d3c79056336cce5fdfe269721475f5dd0347d1d2",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v3.py": "567d5bf280a13080e05cfaab074afd154d86875df70486ad5e06a40adf838915",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v4.py": "4ae2260d645662c0a96db061b2a1be5026c10d9d0e1eb316715b3577b9012fd2",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v5.py": "2cf0bbd4c955dc074d99d6e81505f40a34a4512f73e25a4b7119649682dfc6d5"
+  }
+}

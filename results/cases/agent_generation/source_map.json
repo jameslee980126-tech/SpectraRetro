@@ -1,0 +1,33 @@
+{
+  "src/experiments/drug_route_cases/sample_latest_fixed_core_20261013.py": {
+    "path": "src/experiments/drug_route_cases/sample_latest_fixed_core_20261013.py",
+    "sha256": "0bfecbdcddd6008b834bb8353f2ea37616e937edf77843d2508f6431bafa38cd",
+    "source_sha256": "4d65d9e6a26118519ca789af1694766ae9e996af99b6fb005e4d29f18938a524"
+  },
+  "src/experiments/drug_route_cases/exact_case_memory_worker.py": {
+    "path": "src/experiments/drug_route_cases/exact_case_memory_worker.py",
+    "sha256": "f5c207283b4c9f2e732dca37d3c79056336cce5fdfe269721475f5dd0347d1d2"
+  },
+  "src/experiments/drug_route_cases/exact_reaction_memory_codec_v3.py": {
+    "path": "src/experiments/drug_route_cases/exact_reaction_memory_codec_v3.py",
+    "sha256": "567d5bf280a13080e05cfaab074afd154d86875df70486ad5e06a40adf838915"
+  },
+  "src/experiments/drug_route_cases/exact_reaction_memory_codec_v4.py": {
+    "path": "src/experiments/drug_route_cases/exact_reaction_memory_codec_v4.py",
+    "sha256": "4ae2260d645662c0a96db061b2a1be5026c10d9d0e1eb316715b3577b9012fd2"
+  },
+  "src/experiments/drug_route_cases/exact_reaction_memory_codec_v5.py": {
+    "path": "src/experiments/drug_route_cases/exact_reaction_memory_codec_v5.py",
+    "sha256": "2cf0bbd4c955dc074d99d6e81505f40a34a4512f73e25a4b7119649682dfc6d5"
+  },
+  "results/cases/agent_generation/inputs/reaction_pairs.json": {
+    "path": "results/cases/agent_generation/inputs/reaction_pairs.json",
+    "sha256": "2ebce5c30cb89e5d4fd00058934d47fe80159ccb880ca640c4f770af0f8bea8b",
+    "source_sha256": "430b3550a046c5d988e16938a703239f09de8f117ffa8a169cac48fed9665a7a"
+  },
+  "results/cases/agent_generation/selected_model_manifest.json": {
+    "path": "results/cases/agent_generation/inputs/selected_model_manifest.json",
+    "sha256": "a85ea5d1e682d33289e8eff71ed02ea3797867815160550a047e0632ab0dfeda",
+    "source_sha256": "de9e70600051095965c4521fa32005a9e92b8f25bf1f3c93b42757902fee3522"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "model": "RetroDiT",
+  "paper": "Order Matters in Retrosynthesis: Structure-aware Generation via Reaction-Center-Guided Discrete Flow Matching",
+  "venue": "ICML 2026",
+  "information_regime": "unknown reaction class",
+  "source": {
+    "url": "https://github.com/zzhnomorebugs/RetroDiT",
+    "commit": "26563106555eb4497ed90c6fae0af93e20c4ebe3",
+    "archive_sha256": "05486e1e3b059d5c06bc169e756e0db9b965a07894a4ad2492cbaa533a8e087d",
+    "license": "MIT"
+  },
+  "released_configuration": {
+    "model": "GraphDiT 8M",
+    "training_max_steps": 150000,
+    "sampling_steps": "20-50",
+    "reaction_class_as_input": false,
+    "reaction_class_as_target": false
+  },
+  "dataset_audit": {
+    "raw_rows": {"train": 74146, "val": 9395, "test": 9250},
+    "processed_rows": {"train": 74119, "val": 9394, "test": 9248},
+    "reaction_class_as_input": false,
+    "reaction_class_as_target": false
+  },
+  "formal_run": {
+    "server": "sh01-ssh.gpuhome.cc:30015",
+    "run_dir": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_earlystop_100k_v2",
+    "batch_size": 24,
+    "min_epochs": 1,
+    "max_steps": 100000,
+    "validation_interval_steps": 10000,
+    "checkpoint_interval_steps": 5000,
+    "validation_top_k": [1, 3, 5, 10],
+    "early_stopping": {
+      "monitor": "val/loss",
+      "mode": "min",
+      "min_delta": 0.002,
+      "patience_validations": 3,
+      "earliest_stop_step": 40000
+    },
+    "estimated_wall_hours_hard_cap": "6-7",
+    "estimated_wall_hours_typical_early_stop": "3-5",
+    "start_time": "2026-08-14T22:13:39+08:00",
+    "launcher_pid": 169496,
+    "observed_gpu_memory_mib": 21511
+  },
+  "superseded_run": {
+    "run_dir": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_150k",
+    "start_time": "2026-08-14T22:01:18+08:00",
+    "stopped_for_reconfiguration": true,
+    "checkpoint_created": false,
+    "files_preserved": true
+  },
+  "superseded_earlystop_v1": {
+    "run_dir": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_earlystop_100k",
+    "start_time": "2026-08-14T22:10:07+08:00",
+    "stopped_for_reconfiguration": true,
+    "reason": "trainer.min_epochs=100 would have delayed callback-based stopping",
+    "checkpoint_created": false,
+    "files_preserved": true
+  },
+  "training_result": {
+    "state": "completed_by_early_stopping",
+    "end_time": "2026-08-15T02:50:10+08:00",
+    "exit_code": 0,
+    "stopped_global_step": 70000,
+    "logged_epoch": 22,
+    "selected_validation_top5_checkpoint": "best_top5acc_model_step30000_acc0.9028.ckpt",
+    "elapsed_wall_time": "4h36m31s"
+  },
+  "formal_inference": {
+    "state": "completed",
+    "start_time": "2026-08-15T18:16:17+08:00",
+    "end_time": "2026-08-16T03:52:49+08:00",
+    "elapsed_wall_time": "9h36m32s",
+    "exit_code": 0,
+    "run_dir": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_earlystop_100k_v2/inference_product_only/formal_top10_50step",
+    "checkpoint_selection": "highest sampled validation deduplicated Top-5",
+    "sampling_steps": 50,
+    "top_k": [1, 3, 5, 10],
+    "processed_test_rows": 9248,
+    "full_frozen_test_denominator": 9250,
+    "ordering_information": "product-only canonical identity permutation repeated for stochastic diffusion sampling",
+    "leakage_audit": "released predicted-reaction-center file had zero product overlap with the frozen CH6 test split; target-derived CH6 reaction-center permutations are not used",
+    "benchmark": {
+      "products": 24,
+      "wall_seconds": 114,
+      "sampling_seconds": 93,
+      "estimated_full_wall_hours": 10
+    },
+    "native_processed_split_metrics": {
+      "denominator": 9248,
+      "top_1": 0.0543,
+      "top_3": 0.1102,
+      "top_5": 0.1460,
+      "top_10": 0.2139,
+      "deduplicated_top_1": 0.0772,
+      "deduplicated_top_3": 0.1338,
+      "deduplicated_top_5": 0.1666,
+      "deduplicated_top_10": 0.2139
+    },
+    "unified_full_test_metrics": {
+      "denominator": 9250,
+      "prediction_rows": 9248,
+      "unsupported_rows_scored_as_zero": 2,
+      "top_1": 0.02745945945945946,
+      "top_3": 0.05978378378378378,
+      "top_5": 0.08227027027027027,
+      "top_10": 0.11740540540540541
+    }
+  },
+  "artifact_sync": {
+    "server_finalized_at": "2026-08-16T03:54:39+08:00",
+    "local_sync_completed_at": "2026-08-16T05:49:02+08:00",
+    "local_dir": "remote_results/对比试验/RetroDiT_ch6_69pct_unknown_20260816",
+    "files": 51,
+    "bytes": 3501245968,
+    "checkpoint_files": 26,
+    "checkpoint_bytes": 3468227570,
+    "all_remote_and_local_sha256_verified": true,
+    "local_analysis_completed_at": "2026-08-16T10:15:06+08:00",
+    "all_local_analysis_sha256_verified": true
+  },
+  "status": "completed_synced_and_locally_verified",
+  "policy": "full-validation-loss early stopping plus a 100k hard cap and resumable 5k-step checkpoints; formal inference excludes test-derived reaction-center information"
+}

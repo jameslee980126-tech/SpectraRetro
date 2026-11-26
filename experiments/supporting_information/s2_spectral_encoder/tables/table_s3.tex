@@ -1,0 +1,36 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.430000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.570000}}@{}}
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S3. Training configuration of the full-data spectral ablation.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Input and class setting & Product graph; class unknown \\
+Atom and bond feature dimensions & 43 and 20 \\
+Pair width and spectral depth & 512; 3 layers \\
+Maximum shortest-path embedding index & 5 \\
+Dropout & 0 \\
+Optimizer and learning rate & Adam; \(10^{-4}\) \\
+Weight decay & 0 \\
+Batch size & 64 \\
+Training budget and seed & 50 epochs; seed 0 \\
+Checkpoint selection & Highest validation center Top-1; earliest epoch for ties \\
+Selected epoch & 46 for both the full and direct no-spectral models \\
+Trainable parameters & 5,349,894 full; 4,557,318 without spectral propagation \\
+Recorded framework and GPU & PyTorch 2.8.0+cu128; NVIDIA GeForce RTX 3090 \\
+\end{longtable}

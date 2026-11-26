@@ -1,0 +1,4 @@
+﻿Target,Complete routes,Steps in assessed order,Bank queries,LLM calls,Assessment time (s)
+Lapatinib,1,5,9,2,9.641
+Nemiralisib,2,8; 9,111,4,20.297
+Tafamidis,2,5; 4,89,4,15.485

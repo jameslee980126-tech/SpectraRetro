@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "new_training": false,
+  "new_diffusion_sampling": false,
+  "reactions": 24,
+  "candidates": 393,
+  "all_candidate_orders_equal": true,
+  "max_score_abs_error": 0.0,
+  "max_chemical_feature_abs_error": 0.0,
+  "max_identity_probability_abs_error": 0.0,
+  "forbidden_inputs_rejected": true,
+  "full_pool_before_topk": true,
+  "fusion_manifest_sha256": "f260878c04ad3bc8a398d86ce32991b1520d72e8ec3b895a84808f0342fea9e8",
+  "fixture_sha256": "b0b206649bf082f9fe5d5e8d1a9aa5769b351338dfdb95dd28cb41a19fba96ff",
+  "versions": {
+    "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1",
+    "rdkit": "2025.09.2",
+    "torch": "2.8.0+cu128"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "scope": "hash-fixed 24 existing validation reactions spanning six metadata classes; packaging replay, not accuracy evidence"
+}

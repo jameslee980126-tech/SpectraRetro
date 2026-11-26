@@ -1,0 +1,53 @@
+/* Route focus is activated only by a structured planning result from chat. */
+.chat-route-mode.chat-open .page,.chat-route-mode.chat-open .footer{margin-right:382px}
+.chat-route-mode .chat-backdrop{display:none!important}
+.chat-route-mode .chat-drawer{inset:94px 12px 12px auto;width:354px;padding:18px;max-width:calc(100vw - 24px)}
+.chat-route-mode .chat-top h2{font-size:23px}
+.chat-route-mode .stage-strip,.chat-route-mode .metric-grid{display:none}
+.chat-route-mode .surface-heading{padding-top:8px;margin-bottom:14px}
+.chat-route-mode .surface-heading h1{font-size:28px;margin:10px 0}
+.chat-route-mode .surface-heading .lead,.chat-route-mode .surface-heading>.smiles{display:none}
+.chat-route-mode .surface-heading .toolbar{gap:8px}
+.chat-route-mode .surface-heading .toolbar{display:none}
+.chat-route-mode #route-root>p,.chat-route-mode #route-root>.field-note{display:none}
+.chat-route-mode .surface-heading .toolbar .button{font-size:11px;padding:8px 12px}
+.chat-route-mode .result-layout{display:block}
+.chat-route-mode .result-layout>aside{padding:0;border:0;background:transparent;margin-bottom:12px}
+.chat-route-mode .result-layout>aside>:not(#route-tabs){display:none!important}
+.chat-route-mode #route-tabs{display:flex;gap:8px;overflow:auto!important;max-height:none!important}
+.chat-route-mode #route-tabs .route-tab{flex:0 0 185px;margin:0;padding:10px 12px}
+.chat-route-mode #route-tabs .route-tab small:nth-of-type(2){display:none}
+.chat-route-mode #route-detail{padding:18px}
+.chat-route-mode #route-detail>.split-title{gap:10px}
+.chat-route-mode #route-detail>.split-title h3{font-size:23px!important;margin:6px 0!important}
+.chat-route-mode #route-detail>.split-title h3,.chat-route-mode #route-detail>.split-title .kicker{display:none}
+.chat-route-mode #route-detail>.split-title>button{display:none}
+.chat-route-mode .connected-route{margin:14px 0}
+.chat-route-mode .connected-viewport{height:calc(100vh - 320px);min-height:380px}
+.chat-route-mode #route-detail>.inline-prompt{display:none}
+.chat-route-results{margin:14px 0;padding:12px;border:1px solid var(--line);border-radius:10px;background:#f1f6ec}
+.chat-route-results>p{font-size:11px;margin:0 0 8px;color:var(--muted)}
+.chat-route-results a{display:block;padding:8px 9px;border-radius:7px;background:#fff;margin-top:6px;font-size:12px;color:var(--teal);text-decoration:none}
+.chat-route-results a small{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+.chat-stage-analyses{display:flex;align-items:center;gap:8px;overflow:auto;margin:8px 0 12px;padding:4px 0}
+.chat-stage-analyses>a{flex:0 0 auto;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:12px;color:var(--teal);text-decoration:none}
+.chat-stage-analyses>a.active{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+@media(max-width:900px){
+ .chat-route-mode.chat-open .page,.chat-route-mode.chat-open .footer{margin-right:0}
+ .chat-route-mode.chat-open .page{padding-bottom:300px}
+ .chat-route-mode .chat-drawer{inset:auto 10px 10px;width:calc(100% - 20px);height:260px;max-height:45vh;padding:12px 16px}
+ .chat-route-mode .chat-top{margin-bottom:6px}
+ .chat-route-mode .chat-top h2,.chat-route-mode .chat-top .kicker,.chat-route-mode .chat-connection{display:none}
+ .chat-route-mode .chat-session-bar{margin:0 0 4px}
+ .chat-route-mode .chat-context,.chat-route-mode .compose-bottom>span{display:none}
+ .chat-route-mode .chat-messages{padding:6px 0}
+ .chat-route-mode .chat-route-results{display:none}
+ .chat-route-mode #chat-input{min-height:42px;max-height:70px}
+ .chat-route-mode .connected-viewport{height:calc(100vh - 450px);min-height:280px}
+ .chat-route-mode .surface-heading h1{font-size:23px}
+ .chat-route-mode .surface-heading .split-title>a{display:none}
+ .chat-route-mode .connected-toolbar>span{display:none}
+ .chat-route-mode .connected-toolbar a:not([download]){display:none}
+ .chat-route-mode .chat-stage-analyses{position:sticky;top:76px;background:var(--bg);z-index:10}
+ .chat-route-mode .surface-heading .toolbar>a:not(#export-json){display:none}
+}

@@ -1,0 +1,5 @@
+metric,value,unit,source_scope
+mean_match_rate_without_prior,16.57,percent,manuscript-reported aggregate
+mean_match_rate_with_prior,23.05,percent,manuscript-reported aggregate
+reactions_with_increased_match_rate,777,reactions,manuscript-reported aggregate
+reactions_with_decreased_match_rate,251,reactions,manuscript-reported aggregate

@@ -1,0 +1,28 @@
+{
+  "source_split": "valid",
+  "rules": {
+    "1": {
+      "low": 0.17391304347826086,
+      "high": 0.2222222222222222,
+      "mode": "tertiles",
+      "n_valid": 2400,
+      "equality_fallback_note": "if cutoffs coincide, groups are <, ==, > cutoff; empty groups reported"
+    },
+    "2": {
+      "low": 0.23214285714285715,
+      "high": 0.2765957446808511,
+      "mode": "tertiles",
+      "n_valid": 9381,
+      "source": "entire eligible original validation population, structure-only, no model predictions"
+    },
+    "3": {
+      "low": 0.2857142857142857,
+      "high": 0.352112676056338,
+      "mode": "tertiles",
+      "n_valid": 2400,
+      "equality_fallback_note": "if cutoffs coincide, groups are <, ==, > cutoff; empty groups reported"
+    }
+  },
+  "selection_uses_predictions": false,
+  "primary_radius": 2
+}

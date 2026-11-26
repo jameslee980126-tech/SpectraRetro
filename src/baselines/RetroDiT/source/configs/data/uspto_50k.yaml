@@ -1,0 +1,23 @@
+defaults:
+  - data_base
+
+_target_: src.data.USPTO
+
+data_root: ${paths.data_dir}/uspto_50k
+
+n_dummy: 10
+max_n_len: 100
+
+graph_vocab: uspto_50k
+forward_syn_model: forward_syn/ReactionT5-trained
+# perm_types: ['formed_bonds','broken_bonds']
+
+
+dataset_target: src.data.USPTODataset
+
+cond_cfg:
+  label:
+    as_input: False
+    as_target: False
+    k_class: 10
+  

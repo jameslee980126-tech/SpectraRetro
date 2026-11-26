@@ -1,0 +1,93 @@
+atom C rad-grids = 90, ang-grids = [ 50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50
+  50  50  50  50  50  50  50  50  50  86  86  86  86  86  86  86  86  86
+  86  86 434 434 434 434 434 434 434 434 590 590 590 590 590 590 590 590
+ 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 434 434
+ 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434]
+atom S rad-grids = 95, ang-grids = [ 50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50
+  50  50  50  50  50  50  50  50  50  50  86  86  86  86  86  86  86  86
+  86  86  86  86  86  86  86 434 434 434 434 434 434 434 434 434 434 434
+ 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590
+ 590 590 590 590 434 434 434 434 434 434 434 434 434 434 434 434 434 434
+ 434 434 434 434 434]
+atom N rad-grids = 90, ang-grids = [ 50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50
+  50  50  50  50  50  50  50  50  50  50  86  86  86  86  86  86  86  86
+  86  86  86  86 434 434 434 434 434 434 434 434 590 590 590 590 590 590
+ 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590
+ 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434]
+atom O rad-grids = 90, ang-grids = [ 50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50
+  50  50  50  50  50  50  50  50  50  86  86  86  86  86  86  86  86  86
+  86  86  86 434 434 434 434 434 434 434 434 590 590 590 590 590 590 590
+ 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 590 434
+ 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434 434]
+atom H rad-grids = 60, ang-grids = [ 50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50  50
+  86  86  86  86  86 350 350 350 350 350 434 434 434 434 434 434 434 434
+ 434 434 434 434 434 434 434 434 434 350 350 350 350 350 350 350 350 350
+ 350 350 350 350 350 350]
+tot_boxes 9114, boxes in each direction [29 19 12]
+Padding 2 grids
+tot grids = 891144
+    CPU time for setting up grids      7.52 sec, wall time      2.17 sec
+nelec by numeric integration = 167.99998618837495
+    CPU time for vxc     88.19 sec, wall time     12.73 sec
+******** <class 'pyscf.df.df.DF'> ********
+auxbasis = def2-universal-jkfit
+max_memory = 24000
+num shells = 678, num cGTOs = 2056
+size of aux basis 2056
+int3c2e [1/1], AO [0:315], nrow = 327645
+    CPU time for cholesky_eri     64.02 sec, wall time      8.72 sec
+    CPU time for df vj and vk     89.99 sec, wall time     12.13 sec
+    CPU time for df vj and vk    167.36 sec, wall time     21.09 sec
+    CPU time for df vj and vk    168.40 sec, wall time     21.29 sec
+    CPU time for df vj and vk    168.86 sec, wall time     21.35 sec
+    CPU time for df vj and vk    168.74 sec, wall time     21.37 sec
+davidson 0 4  |r|= 1.11  e= [0.61875273 0.6225028  0.81447495]  max|de|= 0.814  lindep= 0.997
+    CPU time for df vj and vk    166.03 sec, wall time     20.89 sec
+    CPU time for df vj and vk    167.39 sec, wall time     21.16 sec
+    CPU time for df vj and vk    166.04 sec, wall time     20.91 sec
+Old state -> New state
+    1     ->     0 
+    0     ->     1 
+davidson 1 7  |r|= 0.378  e= [0.52454245 0.59922712 0.62423304]  max|de|= -0.19  lindep= 0.961
+    CPU time for df vj and vk    168.04 sec, wall time     21.16 sec
+    CPU time for df vj and vk    167.59 sec, wall time     21.16 sec
+    CPU time for df vj and vk    168.09 sec, wall time     21.17 sec
+davidson 2 10  |r|= 0.17  e= [0.51952368 0.58093807 0.60137203]  max|de|= -0.0229  lindep= 0.868
+    CPU time for df vj and vk    167.92 sec, wall time     21.25 sec
+    CPU time for df vj and vk    168.09 sec, wall time     21.16 sec
+    CPU time for df vj and vk    166.84 sec, wall time     20.99 sec
+davidson 3 13  |r|= 0.102  e= [0.51656426 0.57286248 0.59474977]  max|de|= -0.00808  lindep= 0.873
+    CPU time for df vj and vk    166.28 sec, wall time     21.52 sec
+    CPU time for df vj and vk    165.24 sec, wall time     20.85 sec
+    CPU time for df vj and vk    164.27 sec, wall time     20.63 sec
+davidson 4 16  |r|= 0.149  e= [0.51548998 0.56694298 0.59266913]  max|de|= -0.00592  lindep= 0.808
+    CPU time for df vj and vk    165.92 sec, wall time     20.85 sec
+    CPU time for df vj and vk    166.81 sec, wall time     20.97 sec
+    CPU time for df vj and vk    166.93 sec, wall time     21.00 sec
+davidson 5 19  |r|= 0.191  e= [0.51495646 0.55127348 0.59087333]  max|de|= -0.0157  lindep= 0.864
+    CPU time for df vj and vk    168.14 sec, wall time     21.14 sec
+    CPU time for df vj and vk    167.37 sec, wall time     21.06 sec
+    CPU time for df vj and vk    166.07 sec, wall time     20.87 sec
+davidson 6 22  |r|= 0.0946  e= [0.51465404 0.54232984 0.58884697]  max|de|= -0.00894  lindep= 0.815
+    CPU time for df vj and vk    164.98 sec, wall time     20.75 sec
+    CPU time for df vj and vk    164.23 sec, wall time     20.67 sec
+    CPU time for df vj and vk    164.40 sec, wall time     20.68 sec
+davidson 7 25  |r|= 0.0717  e= [0.51450476 0.53855102 0.58702221]  max|de|= -0.00378  lindep= 0.734
+    CPU time for df vj and vk    164.61 sec, wall time     20.73 sec
+    CPU time for df vj and vk    165.26 sec, wall time     20.90 sec
+    CPU time for df vj and vk    161.18 sec, wall time     20.38 sec
+root 0 converged  |r|= 0.00591  e= 0.5144580796664745  max|de|= -4.67e-05
+davidson 8 28  |r|= 0.0385  e= [0.51445808 0.53711591 0.58574978]  max|de|= -0.00144  lindep= 0.812
+    CPU time for df vj and vk    158.41 sec, wall time     19.94 sec
+    CPU time for df vj and vk    158.45 sec, wall time     19.92 sec
+davidson 9 30  |r|= 0.026  e= [0.51445047 0.53683319 0.5853137 ]  max|de|= -0.000436  lindep= 0.794
+    CPU time for df vj and vk    156.93 sec, wall time     19.82 sec
+    CPU time for df vj and vk    155.72 sec, wall time     19.59 sec
+root 1 converged  |r|= 0.00841  e= 0.5367621934498715  max|de|= -7.1e-05
+davidson 10 32  |r|= 0.0167  e= [0.51444906 0.53676219 0.58510438]  max|de|= -0.000209  lindep= 0.811
+    CPU time for df vj and vk    155.09 sec, wall time     19.64 sec
+root 2 converged  |r|= 0.00871  e= 0.5850390497630819  max|de|= -6.53e-05
+converged 11 33  |r|= 0.00871  e= [0.51444879 0.53674826 0.58503905]  max|de|= -6.53e-05
+    CPU time for df vj and vk    156.39 sec, wall time     19.75 sec
+    CPU time for df vj and vk    156.52 sec, wall time     19.79 sec
+    CPU time for df vj and vk    157.44 sec, wall time     19.82 sec

@@ -1,0 +1,903 @@
+{
+  "schema_version": 2,
+  "display_count": 42,
+  "items": [
+    {
+      "item": "Figure 1",
+      "title": "Retrosynthetic overview of CHRetroAgent and SpectraRetro",
+      "experiment": "experiments/section_2_dataset/2_dataset/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "datasets/supplementary_data/dataset_class_mapping.json",
+        "results/supporting_information/source_data_figures",
+        "datasets/supplementary_data",
+        "CHRetroAgent",
+        "src/agentic_retrosynthesis",
+        "src/spectraretro",
+        "configs",
+        "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json"
+      ],
+      "display_paths": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_1_retrosynthetic_overview.png"
+      ],
+      "local_artifact_manifest": "experiments/section_2_dataset/2_dataset/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_1_retrosynthetic_overview.png"
+      ],
+      "paper_location": "Introduction and curation of CHRetro"
+    },
+    {
+      "item": "Figure 2",
+      "title": "Chemical coverage and physicochemical diversity of CHRetro",
+      "experiment": "experiments/section_2_dataset/2_dataset/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "datasets/supplementary_data/dataset_class_mapping.json",
+        "results/supporting_information/source_data_figures",
+        "datasets/supplementary_data"
+      ],
+      "display_paths": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_2_chretro_dataset_overview.png"
+      ],
+      "local_artifact_manifest": "experiments/section_2_dataset/2_dataset/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_2_chretro_dataset_overview.png"
+      ],
+      "paper_location": "Introduction and curation of CHRetro"
+    },
+    {
+      "item": "Figure 3",
+      "title": "Incorrect predictions, single-step completions and two-step retrosynthetic routes",
+      "experiment": "experiments/section_4_results/4_5_error_analysis/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/figure8_case_structures.csv",
+        "results/cases/incorrect_predictions",
+        "results/error_analysis",
+        "datasets/supplementary_data/six_successful_cases_verification.json",
+        "results/cases/single_step",
+        "checkpoints/cases/single_multistep",
+        "results/reproduction/single_multistep/source_map.json",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "results/cases/multistep"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_5_error_analysis/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png"
+      ],
+      "paper_location": "Results: analysis of incorrect predictions"
+    },
+    {
+      "item": "Figure 4",
+      "title": "Mechanistic interpretation of reaction-center ranking and synthon completion",
+      "experiment": "experiments/section_4_results/4_4_mechanistic_interpretability/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability",
+        "results/source_data/mechanistic_interpretability/supplement"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_4_mechanistic_interpretability/figures/figure_4_mechanistic_context.png"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_4_mechanistic_interpretability/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_4_mechanistic_interpretability/figures/figure_4_mechanistic_context.png"
+      ],
+      "paper_location": "Results: mechanistic interpretability analysis"
+    },
+    {
+      "item": "Figure 5",
+      "title": "CHRetroAgent routes for lapatinib, nemiralisib and tafamidis",
+      "experiment": "experiments/section_4_results/4_8_chretroagent/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/agent_terminal_inventory.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "results/cases/agent",
+        "checkpoints/cases/agent",
+        "results/cases/agent_generation",
+        "results/cases/agent_assessment"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_8_chretroagent/figures/figure_5_chretroagent_case_studies.png"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_8_chretroagent/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_8_chretroagent/figures/figure_5_chretroagent_case_studies.png"
+      ],
+      "paper_location": "Results: CHRetroAgent for multistep retrosynthetic planning"
+    },
+    {
+      "item": "Figure S1",
+      "title": "Reaction-center Top-1 gains across transformation families and similarity groups",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/figure6_paired_reaction_results.csv",
+        "results/reaction_center",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/ablations",
+        "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+        "checkpoints/ablations/chemical_prior",
+        "results/reproduction/chemical_prior"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s1_full_spectrum_family_gains.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s1_full_spectrum_family_gains.png"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Figure S2",
+      "title": "Effect of chemical prior guidance on heavy-atom bond-graph recovery",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "aggregate_only",
+      "source_paths": [
+        "datasets/full",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/figure6_paired_reaction_results.csv",
+        "results/reaction_center",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/ablations",
+        "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+        "checkpoints/ablations/chemical_prior",
+        "results/reproduction/chemical_prior"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s2_chemical_prior_structural_match.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s2_chemical_prior_structural_match.png"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Figure S3",
+      "title": "Additional incorrect predictions, single-step completions and a two-step route",
+      "experiment": "experiments/supporting_information/s5_agent_cases/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/figure8_case_structures.csv",
+        "results/cases/incorrect_predictions",
+        "results/error_analysis",
+        "datasets/supplementary_data/six_successful_cases_verification.json",
+        "results/cases/single_step",
+        "checkpoints/cases/single_multistep",
+        "results/reproduction/single_multistep/source_map.json",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "results/cases/multistep"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ],
+      "paper_location": "SI §S5"
+    },
+    {
+      "item": "Figure S4",
+      "title": "Robustness of the controlled spatial response",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s4_spatial_robustness.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s4_spatial_robustness.png"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Figure S5",
+      "title": "Electronic redistribution and oxidation-site-dependent model responses",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s5_electronic_validation.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s5_electronic_validation.png"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Figure S6",
+      "title": "Molecular structures used in the electronic calculations",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6a_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6b_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6c_structure_catalog.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6a_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6b_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6c_structure_catalog.png"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Figure S7",
+      "title": "The CHRetroAgent interface",
+      "experiment": "experiments/supporting_information/s8_agent_interface_routes/README.md",
+      "representation": "interface_illustration",
+      "source_paths": [
+        "CHRetroAgent"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s7_chretroagent_interface.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s8_agent_interface_routes/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s7_chretroagent_interface.png"
+      ],
+      "paper_location": "SI §S8"
+    },
+    {
+      "item": "Figure S8",
+      "title": "SpectraRetro method details",
+      "experiment": "experiments/supporting_information/s8_agent_interface_routes/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "src/spectraretro",
+        "src/spectraretro/known-class",
+        "src/spectraretro/unknown-class"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s8_spectraretro_method_details.png"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s8_agent_interface_routes/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s8_spectraretro_method_details.png"
+      ],
+      "paper_location": "SI §S8"
+    },
+    {
+      "item": "Table 1",
+      "title": "Top-k exact-match accuracies (%) of SpectraRetro and baseline models on CHRetro, evaluated on the full dataset and the small-scale evaluation subset.",
+      "experiment": "experiments/section_4_results/4_1_benchmark/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "experiments/spectraretro_inputs",
+        "experiments/section_4_results/4_1_benchmark/baseline_preprocessing_manifests",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/full",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/full",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/small",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/small",
+        "results/baselines/summary.json",
+        "results/paper_tables",
+        "checkpoints/small",
+        "experiments/spectraretro_inputs/small",
+        "configs/experiments/small_completion.json",
+        "results/reproduction/small",
+        "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/baselines/Graph2Edits/full",
+        "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/baselines/TransGraphEdit/full"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_1_benchmark/tables/table_1.tex"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_1_benchmark/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_1_benchmark/tables/table_1.tex"
+      ],
+      "paper_location": "Results: comparison with single-step retrosynthesis methods"
+    },
+    {
+      "item": "Table 2",
+      "title": "Top-k exact-match accuracies (%) across similarity groups on the CHRetro test subset.",
+      "experiment": "experiments/section_4_results/4_3_similarity/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/small",
+        "datasets/supplementary_data/small_stratum_seed_hits.csv",
+        "results/small_summary.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/small",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/small",
+        "checkpoints/small",
+        "experiments/spectraretro_inputs/small",
+        "configs/experiments/small_completion.json"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_3_similarity/tables/table_2.tex"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_3_similarity/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_3_similarity/tables/table_2.tex"
+      ],
+      "paper_location": "Results: prediction across local-similarity strata"
+    },
+    {
+      "item": "Table 3",
+      "title": "Ablation results in the reaction-class-unknown setting. Top-k accuracies are reported as percentages.",
+      "experiment": "experiments/section_4_results/4_2_ablation/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/figure6_paired_reaction_results.csv",
+        "results/reaction_center",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/ablations",
+        "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+        "checkpoints/ablations/chemical_prior",
+        "results/reproduction/chemical_prior"
+      ],
+      "display_paths": [
+        "experiments/section_4_results/4_2_ablation/tables/table_3.tex"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_2_ablation/artifacts.json",
+      "local_display_paths": [
+        "experiments/section_4_results/4_2_ablation/tables/table_3.tex"
+      ],
+      "paper_location": "Results: ablation study"
+    },
+    {
+      "item": "Table S1",
+      "title": "Reaction-family composition of the full CHRetro dataset.",
+      "experiment": "experiments/supporting_information/s1_dataset_evaluation/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/dataset_small_manifest.json",
+        "datasets/split_summary.json",
+        "datasets/supplementary_data/dataset_small_selected_summary.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s1_dataset_evaluation/tables/table_s1.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s1_dataset_evaluation/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s1_dataset_evaluation/tables/table_s1.tex"
+      ],
+      "paper_location": "SI §S1"
+    },
+    {
+      "item": "Table S2",
+      "title": "Reaction-family composition of the small dataset.",
+      "experiment": "experiments/supporting_information/s1_dataset_evaluation/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/dataset_small_manifest.json",
+        "datasets/split_summary.json",
+        "datasets/supplementary_data/dataset_small_selected_summary.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s1_dataset_evaluation/tables/table_s2.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s1_dataset_evaluation/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s1_dataset_evaluation/tables/table_s2.tex"
+      ],
+      "paper_location": "SI §S1"
+    },
+    {
+      "item": "Table S3",
+      "title": "Training configuration of the full-data spectral ablation.",
+      "experiment": "experiments/supporting_information/s2_spectral_encoder/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "datasets/full",
+        "datasets/small",
+        "results/reaction_center/full_spectral_ablation/configuration.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s2_spectral_encoder/tables/table_s3.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s2_spectral_encoder/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s2_spectral_encoder/tables/table_s3.tex"
+      ],
+      "paper_location": "SI §S2"
+    },
+    {
+      "item": "Table S4",
+      "title": "Full-data size-model and diffusion-model settings.",
+      "experiment": "experiments/supporting_information/s3_conditional_diffusion/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "experiments/spectraretro_inputs",
+        "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/data/evaluation",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/training",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/training",
+        "datasets/supplementary_data/full_training_selection_metadata.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s3_conditional_diffusion/tables/table_s4.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s3_conditional_diffusion/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s3_conditional_diffusion/tables/table_s4.tex"
+      ],
+      "paper_location": "SI §S3"
+    },
+    {
+      "item": "Table S5",
+      "title": "Functional and numerical checks of the full-spectrum encoder.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "archived_numerical_checks",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s5.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s5.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S6",
+      "title": "Ablation results in the reaction-class-unknown setting.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s6.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s6.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S7",
+      "title": "Full-test reaction-center Top-1 accuracy across local-similarity groups.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s7.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s7.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S8",
+      "title": "Heavy-atom bond-graph recovery results in Figure S2.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "aggregate_only",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s8.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s8.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S9",
+      "title": "Full-data SpectraRetro complete-precursor recovery.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s9.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s9.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S10",
+      "title": "Small-dataset SpectraRetro results: mean $\\pm$ sample SD in percent over three seeds.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables",
+        "datasets/supplementary_data/main_table1_small_spectraretro.csv",
+        "results/small_summary.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s10.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s10.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S12",
+      "title": "Selected product-weighted matched-bond concordances.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s12.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s12.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S13",
+      "title": "Direction of the DFT electronic-response contrasts.",
+      "experiment": "experiments/supporting_information/s4_additional_results/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability",
+        "results/baselines",
+        "results/reference_tables"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s13.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s4_additional_results/tables/table_s13.tex"
+      ],
+      "paper_location": "SI §S4"
+    },
+    {
+      "item": "Table S14",
+      "title": "CHRetroAgent search and assessment configuration.",
+      "experiment": "experiments/supporting_information/s5_agent_cases/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "results/cases"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s14.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s14.tex"
+      ],
+      "paper_location": "SI §S5"
+    },
+    {
+      "item": "Table S15",
+      "title": "Recorded whole-route assessments for the pharmaceutical cases.",
+      "experiment": "experiments/supporting_information/s5_agent_cases/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "results/cases"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s15.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s15.tex"
+      ],
+      "paper_location": "SI §S5"
+    },
+    {
+      "item": "Table S16",
+      "title": "Structural discrepancies in the three displayed incorrect predictions.",
+      "experiment": "experiments/supporting_information/s5_agent_cases/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "results/cases"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s16.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s16.tex"
+      ],
+      "paper_location": "SI §S5"
+    },
+    {
+      "item": "Table S17",
+      "title": "Reaction-center and complete-precursor-set positions in the two-step conditional-completion examples.",
+      "experiment": "experiments/supporting_information/s5_agent_cases/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "results/cases"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s17.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s5_agent_cases/tables/table_s17.tex"
+      ],
+      "paper_location": "SI §S5"
+    },
+    {
+      "item": "Table S18",
+      "title": "Contents of the accompanying supplementary files.",
+      "experiment": "experiments/supporting_information/s6_file_and_model_definitions/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "datasets/supplementary_data/source_index.csv",
+        "results/source_data/mechanistic_interpretability/supplement/data_index.csv"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s18.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s6_file_and_model_definitions/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s18.tex"
+      ],
+      "paper_location": "SI §S6"
+    },
+    {
+      "item": "Table S19",
+      "title": "Reaction-center feature dictionary in concatenation order.",
+      "experiment": "experiments/supporting_information/s6_file_and_model_definitions/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "src/spectraretro/reaction_center/vendor/stage1/torchdrug/data/feature.py"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s19.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s6_file_and_model_definitions/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s19.tex"
+      ],
+      "paper_location": "SI §S6"
+    },
+    {
+      "item": "Table S20",
+      "title": "Dimensions of the full-spectrum reaction-center modules.",
+      "experiment": "experiments/supporting_information/s6_file_and_model_definitions/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "src/spectraretro/reaction_center/vendor/stage1/torchdrug/models/fspec_faithful_rc.py",
+        "src/spectraretro/unknown-class/reaction_center/run_stage1.py"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s20.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s6_file_and_model_definitions/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s20.tex"
+      ],
+      "paper_location": "SI §S6"
+    },
+    {
+      "item": "Table S21",
+      "title": "Scalar descriptors appended to the composition fingerprints.",
+      "experiment": "experiments/supporting_information/s6_file_and_model_definitions/README.md",
+      "representation": "diagram_or_method_definition",
+      "source_paths": [
+        "src/spectraretro/completion/cycle/unknown_compatibility/observable_feature_snapshot.py"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s21.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s6_file_and_model_definitions/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s6_file_and_model_definitions/tables/table_s21.tex"
+      ],
+      "paper_location": "SI §S6"
+    },
+    {
+      "item": "Table S22",
+      "title": "Chemical-descriptor definitions and product support.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s22.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s22.tex"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Table S23",
+      "title": "Complete reaction-family summary of chemical-context associations.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s23.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s23.tex"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Table S24",
+      "title": "Diffusion-time and coordinate-centering sensitivity.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s24.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s24.tex"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Table S25",
+      "title": "Molecular inventory and fixed-geometry PBE0/def2-TZVP energies.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s25.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s25.tex"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Table S26",
+      "title": "Matched GFN2-xTB, DFT and model responses for the six thiazole N-oxidations.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s26.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s26.tex"
+      ],
+      "paper_location": "SI §S7"
+    },
+    {
+      "item": "Table S27",
+      "title": "Summary of electronic-calculation convergence and integration checks.",
+      "experiment": "experiments/supporting_information/s7_mechanistic_analyses/README.md",
+      "representation": "source_records_and_display",
+      "source_paths": [
+        "results/source_data/mechanistic_interpretability/supplement",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s27.tex"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_display_paths": [
+        "experiments/supporting_information/s7_mechanistic_analyses/tables/table_s27.tex"
+      ],
+      "paper_location": "SI §S7"
+    }
+  ]
+}

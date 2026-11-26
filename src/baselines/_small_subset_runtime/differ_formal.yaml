@@ -1,0 +1,32 @@
+data:
+  data_path: /root/rivermind-data/full_retro_similarity_benchmark_20260919/workspace/experiments/full_retro_similarity_benchmark_20260919/prepared/differ
+  tokeniser_path: /root/rivermind-data/full_retro_similarity_benchmark_20260919/workspace/experiments/full_retro_similarity_benchmark_20260919/prepared/differ
+  task: backward_prediction
+  pad_limit: 20
+  selfies: false
+
+model:
+  d_model: 512
+  num_layers: 6
+  num_heads: 8
+  d_feedforward: 2048
+  activation: gelu
+  max_seq_len: 256
+  dropout: 0.1
+  length_loss: [cross_entropy]
+  add_unk: false
+  coeff_ce: 1.0
+  coeff_vlb: 1.0
+  continuous: false
+  num_timesteps: 100
+  min_time: 0.01
+  noise_schedule: loglinear
+  noise_schedule_args: {}
+
+training:
+  batch_size: 64
+  learning_rate: 0.0001
+  weight_decay: 0.0
+  epochs: 30
+  patience: 30
+  gpus: 1

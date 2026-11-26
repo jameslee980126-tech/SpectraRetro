@@ -1,0 +1,5 @@
+﻿Method,Class setting,Top-1,Top-3,Top-5,Top-10
+DiffER,Unknown,68.29,84.96,86.72,87.69
+DiffER,Known,71.74,87.73,89.38,89.99
+GLN,Unknown,66.30,78.70,82.43,85.97
+RetroXpert,Unknown,66.57,78.09,79.90,81.50

@@ -1,0 +1,10 @@
+diagnostic,observed,unit,scope_or_comparison
+Molecular structures,17.0,structures,"Six parents, six target oxides, five controls"
+Electronic states,34.0,states,Neutral singlet and vertical cation doublet
+SCF-converged states,34.0,of 34 states,Recorded convergence status
+Internally stable states,34.0,of 34 states,Recorded internal-stability status
+States with all three stability roots converged,34.0,of 34 states,Three-root numerical convergence
+Maximum grid-4-to-5 charge difference,9.61656446119008e-06,e,Observed <1e-4
+Maximum grid-4-to-5 f-minus difference,5.459334611046529e-07,dimensionless,Observed <1e-4
+Maximum grid-5 total-charge error,3.071899766537989e-05,e,Observed <1e-4
+Maximum internal-stability eigenpair residual,0.0097750832043516,reported solver norm,<1e-2 recorded solver tolerance

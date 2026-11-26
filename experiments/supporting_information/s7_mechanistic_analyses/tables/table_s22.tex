@@ -1,0 +1,35 @@
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.070000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.220000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.620000}}
+>{\raggedleft\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.090000}}@{}}
+\multicolumn{4}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S22. Chemical-descriptor definitions and product support.}}\label{tab:si-chemical-descriptors}\\[5pt]
+\toprule
+Code & Descriptor & Operational definition & $n_{\rm var}$ \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\textit{Table S22 (continued).}}\\[3pt]
+\toprule
+Code & Descriptor & Operational definition & $n_{\rm var}$ \\
+\midrule
+\endhead
+\midrule\multicolumn{4}{r@{}}{\textit{Continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+F01 & Carbonyl C at bond end & Indicator that either endpoint is the carbon atom of a neutral C=O group. & 59 \\
+F02 & Carbonyl-$\alpha$ C ($sp^3$) & Indicator that an $sp^3$ carbon endpoint is adjacent to a carbonyl carbon through a bond other than the candidate bond. & 605 \\
+F03 & Carbonyl proximity & $1/(1+d)$, where $d$ is the shortest graph distance from either endpoint to a neutral carbonyl carbon in the same connected component; zero when no such carbonyl is present. & 971 \\
+F04 & Benzylic/allylic site & Indicator that an $sp^3$ carbon endpoint is adjacent, outside the candidate bond, to an aromatic carbon or a carbon participating in C=C. & 552 \\
+F05 & Adjacent $\pi$ carbons & Number of distinct carbon atoms in the combined first-neighbor shell that are aromatic or participate in a double or triple bond; endpoints are excluded. & 1390 \\
+F06 & Heteroaryl bond end & Indicator that either endpoint belongs to an entirely aromatic ring containing a heteroatom. & 439 \\
+F07 & Adjacent N/O/S count & Number of distinct N, O, and S atoms in the combined first-neighbor shell, excluding the two endpoints. & 1127 \\
+F08 & Ortho substituent count & Number of distinct ortho positions adjacent through aromatic ring bonds to aromatic-carbon endpoints and bearing an additional nonring heavy-atom substituent; endpoints are excluded. & 503 \\
+F09 & Ring-junction atom & Indicator that either endpoint belongs to at least two RDKit-perceived rings, including fused or spiro junctions. & 36 \\
+F10 & Heavy-atom neighbors & Sum of the numbers of heavy-atom neighbors of the two endpoints, excluding the partner connected by the candidate bond. & 1134 \\
+F11 & Second-shell size & Number of distinct heavy atoms whose minimum graph distance to either endpoint is exactly two bonds. & 1567 \\
+F12 & Bond polarity $|\Delta q|$ & Absolute difference between the Gasteiger partial charges of the two endpoints. & 2022 \\
+F13 & Mean C-end charge & Mean Gasteiger partial charge over the carbon endpoints of the candidate bond. & 2022 \\
+F14 & Mean neighbor charge & Mean Gasteiger partial charge of the distinct heavy atoms in the combined first-neighbor shell, excluding endpoints; missing when no neighbors or no finite charges are available. & 2023 \\
+F15 & Carbon E-state index & Mean Kier--Hall atomic electrotopological-state index over the carbon endpoints, including distance-weighted contributions from other atoms in the molecular graph. & 2025 \\
+F16 & Formal charge sum & Sum of the formal charges of the two endpoints. & 54 \\
+\end{longtable}

@@ -1,0 +1,6574 @@
+{
+  "source_structure": "/root/rivermind-data/dft_electronic_validation_20261109/runs/6972_N_oxide",
+  "source_state": "neutral",
+  "destination_state": "/root/rivermind-data/dft_electronic_validation_20261109/solver_v2/runs/6972_N_oxide/neutral",
+  "molecular_scf_recomputed": false,
+  "source_scf_converged": true,
+  "source_energy_hartree": -1406.8777917124562,
+  "source_raw_sha256": {
+    "protocol.json": "a6ecb6ed8c62939bfdedd7e40a771a0c3dbc342a53c91cf65b346fba64887802",
+    "neutral/molecule.json": "1a875b79534165c1a1c36c43802526475e429cc641d26fb7617ab89d6636d0b3",
+    "neutral/wavefunction.npz": "60d1502752ea99de29c9f1c7c4188b11b09a709e193dbc07ee035ac392f7653f",
+    "neutral/attempts.json": "dd26718659c05e50836e0bd0ef5568aaf7581937b1675b3339c45dabfb0dbcd9"
+  },
+  "source_scf_log_snapshot_sha256": "8a0aa90cbb63b7133c746a08a76577359d24eb1bfa1c963bc0ce0d0c956add84",
+  "source_log_may_continue_appending": true,
+  "source_attempts": [
+    {
+      "attempt": 1,
+      "strategy": "DIIS",
+      "converged": true,
+      "energy_hartree": -1406.8777917124562,
+      "checkpoint": "attempt_1.chk"
+    }
+  ],
+  "xyz_sha256": "80ca4d0b62c052a113a4a47bcfb9a8ab06f65a2969fdfa77dc0413a0720cf9e4",
+  "source_protocol": {
+    "functional": "PBE0",
+    "orbital_basis": "def2-tzvp",
+    "auxiliary_basis": "def2-universal-jkfit",
+    "grid_level": 4,
+    "scf_conv_tol_hartree": 1e-09,
+    "scf_conv_tol_grad": 1e-06,
+    "scf_max_cycle": 200,
+    "max_newton_retries": 1,
+    "solvent": "none (gas phase)",
+    "dispersion": "none"
+  },
+  "pyscf_version": "2.15.0",
+  "verified_electrons": 176.0000000000001,
+  "verified_population_max_abs_change": {
+    "mulliken": 0.0,
+    "meta_lowdin": 1.5276668818842154e-13
+  },
+  "basis_validation": "Physical per-shell metadata, exponents, coefficients, AO labels, cart convention and overlap",
+  "raw_basis_tables_equal": false,
+  "raw_basis_pointer_columns_source": [
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      256,
+      262
+    ],
+    [
+      268,
+      270
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      282
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      288,
+      289
+    ],
+    [
+      290,
+      291
+    ],
+    [
+      292,
+      293
+    ],
+    [
+      294,
+      295
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      296,
+      303
+    ],
+    [
+      310,
+      313
+    ],
+    [
+      316,
+      318
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      322,
+      323
+    ],
+    [
+      324,
+      329
+    ],
+    [
+      334,
+      335
+    ],
+    [
+      336,
+      337
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      340,
+      341
+    ],
+    [
+      342,
+      344
+    ],
+    [
+      346,
+      347
+    ],
+    [
+      348,
+      349
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      256,
+      262
+    ],
+    [
+      268,
+      270
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      282
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      288,
+      289
+    ],
+    [
+      290,
+      291
+    ],
+    [
+      292,
+      293
+    ],
+    [
+      294,
+      295
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      256,
+      262
+    ],
+    [
+      268,
+      270
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      282
+    ],
+    [
+      286,
+      287
+    ],
+    [
+      288,
+      289
+    ],
+    [
+      290,
+      291
+    ],
+    [
+      292,
+      293
+    ],
+    [
+      294,
+      295
+    ],
+    [
+      216,
+      222
+    ],
+    [
+      228,
+      230
+    ],
+    [
+      232,
+      233
+    ],
+    [
+      234,
+      235
+    ],
+    [
+      236,
+      237
+    ],
+    [
+      238,
+      242
+    ],
+    [
+      246,
+      247
+    ],
+    [
+      248,
+      249
+    ],
+    [
+      250,
+      251
+    ],
+    [
+      252,
+      253
+    ],
+    [
+      254,
+      255
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      216,
+      222
+    ],
+    [
+      228,
+      230
+    ],
+    [
+      232,
+      233
+    ],
+    [
+      234,
+      235
+    ],
+    [
+      236,
+      237
+    ],
+    [
+      238,
+      242
+    ],
+    [
+      246,
+      247
+    ],
+    [
+      248,
+      249
+    ],
+    [
+      250,
+      251
+    ],
+    [
+      252,
+      253
+    ],
+    [
+      254,
+      255
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      176,
+      182
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      192,
+      193
+    ],
+    [
+      194,
+      195
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      206,
+      207
+    ],
+    [
+      208,
+      209
+    ],
+    [
+      210,
+      211
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      350,
+      353
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ]
+  ],
+  "raw_basis_pointer_columns_destination": [
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      242,
+      248
+    ],
+    [
+      254,
+      256
+    ],
+    [
+      258,
+      259
+    ],
+    [
+      260,
+      261
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      264,
+      268
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      280,
+      281
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      188,
+      195
+    ],
+    [
+      202,
+      205
+    ],
+    [
+      208,
+      210
+    ],
+    [
+      212,
+      213
+    ],
+    [
+      214,
+      215
+    ],
+    [
+      216,
+      221
+    ],
+    [
+      226,
+      227
+    ],
+    [
+      228,
+      229
+    ],
+    [
+      230,
+      231
+    ],
+    [
+      232,
+      233
+    ],
+    [
+      234,
+      236
+    ],
+    [
+      238,
+      239
+    ],
+    [
+      240,
+      241
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      242,
+      248
+    ],
+    [
+      254,
+      256
+    ],
+    [
+      258,
+      259
+    ],
+    [
+      260,
+      261
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      264,
+      268
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      280,
+      281
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      242,
+      248
+    ],
+    [
+      254,
+      256
+    ],
+    [
+      258,
+      259
+    ],
+    [
+      260,
+      261
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      264,
+      268
+    ],
+    [
+      272,
+      273
+    ],
+    [
+      274,
+      275
+    ],
+    [
+      276,
+      277
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      280,
+      281
+    ],
+    [
+      322,
+      328
+    ],
+    [
+      334,
+      336
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      340,
+      341
+    ],
+    [
+      342,
+      343
+    ],
+    [
+      344,
+      348
+    ],
+    [
+      352,
+      353
+    ],
+    [
+      354,
+      355
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      322,
+      328
+    ],
+    [
+      334,
+      336
+    ],
+    [
+      338,
+      339
+    ],
+    [
+      340,
+      341
+    ],
+    [
+      342,
+      343
+    ],
+    [
+      344,
+      348
+    ],
+    [
+      352,
+      353
+    ],
+    [
+      354,
+      355
+    ],
+    [
+      356,
+      357
+    ],
+    [
+      358,
+      359
+    ],
+    [
+      360,
+      361
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      282,
+      288
+    ],
+    [
+      294,
+      296
+    ],
+    [
+      298,
+      299
+    ],
+    [
+      300,
+      301
+    ],
+    [
+      302,
+      303
+    ],
+    [
+      304,
+      308
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      314,
+      315
+    ],
+    [
+      316,
+      317
+    ],
+    [
+      318,
+      319
+    ],
+    [
+      320,
+      321
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ],
+    [
+      176,
+      179
+    ],
+    [
+      182,
+      183
+    ],
+    [
+      184,
+      185
+    ],
+    [
+      186,
+      187
+    ]
+  ],
+  "shell_validation": [
+    {
+      "shell": 0,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 1,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 2,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 3,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 4,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 5,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 6,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 7,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 8,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 9,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 10,
+      "metadata": {
+        "bas_atom": 0,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 11,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 12,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 13,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 14,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 15,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 16,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 17,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 18,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 19,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 20,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 21,
+      "metadata": {
+        "bas_atom": 1,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 22,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 23,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 24,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 25,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 26,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 27,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 28,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 29,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 30,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 31,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 32,
+      "metadata": {
+        "bas_atom": 2,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 33,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 34,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 35,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 36,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 37,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 38,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 39,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 40,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 41,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 42,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 43,
+      "metadata": {
+        "bas_atom": 3,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 44,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 45,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 46,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 47,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 48,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 49,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 50,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 51,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 52,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 53,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 54,
+      "metadata": {
+        "bas_atom": 4,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 55,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 56,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 57,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 58,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 59,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 60,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 61,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 62,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 63,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 64,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 65,
+      "metadata": {
+        "bas_atom": 5,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 66,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 0,
+        "bas_nprim": 7,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 67,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 68,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 69,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 70,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 71,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 1,
+        "bas_nprim": 5,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 72,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 73,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 74,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 75,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 76,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 2,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 77,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 78,
+      "metadata": {
+        "bas_atom": 6,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 79,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 80,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 81,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 82,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 83,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 84,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 85,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 86,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 87,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 88,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 89,
+      "metadata": {
+        "bas_atom": 7,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 90,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 91,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 92,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 93,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 94,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 95,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 96,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 97,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 98,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 99,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 100,
+      "metadata": {
+        "bas_atom": 8,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 101,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 102,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 103,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 104,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 105,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 106,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 107,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 108,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 109,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 110,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 111,
+      "metadata": {
+        "bas_atom": 9,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 112,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 113,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 114,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 115,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 116,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 117,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 118,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 119,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 120,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 121,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 122,
+      "metadata": {
+        "bas_atom": 10,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 123,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 124,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 125,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 126,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 127,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 128,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 129,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 130,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 131,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 132,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 133,
+      "metadata": {
+        "bas_atom": 11,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 134,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 135,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 136,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 137,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 138,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 139,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 140,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 141,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 142,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 143,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 144,
+      "metadata": {
+        "bas_atom": 12,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 145,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 146,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 147,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 148,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 149,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 150,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 151,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 152,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 153,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 154,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 155,
+      "metadata": {
+        "bas_atom": 13,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 156,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 157,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 158,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 159,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 160,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 161,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 162,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 163,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 164,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 165,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 166,
+      "metadata": {
+        "bas_atom": 14,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 167,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 168,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 169,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 170,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 171,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 172,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 173,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 174,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 175,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 176,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 177,
+      "metadata": {
+        "bas_atom": 15,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 178,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 179,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 180,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 181,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 182,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 183,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 184,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 185,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 186,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 187,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 188,
+      "metadata": {
+        "bas_atom": 16,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 189,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 190,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 191,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 192,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 193,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 194,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 195,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 196,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 197,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 198,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 199,
+      "metadata": {
+        "bas_atom": 17,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 200,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 201,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 202,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 203,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 204,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 205,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 206,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 207,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 208,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 209,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 210,
+      "metadata": {
+        "bas_atom": 18,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 211,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 212,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 213,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 214,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 215,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 216,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 217,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 218,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 219,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 220,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 221,
+      "metadata": {
+        "bas_atom": 19,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 222,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 223,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 224,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 225,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 226,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 227,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 228,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 229,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 230,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 231,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 232,
+      "metadata": {
+        "bas_atom": 20,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 233,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 234,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 235,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 236,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 237,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 238,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 239,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 240,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 241,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 242,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 243,
+      "metadata": {
+        "bas_atom": 21,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 244,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 245,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 246,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 247,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 248,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 249,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 250,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 251,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 252,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 253,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 254,
+      "metadata": {
+        "bas_atom": 22,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 255,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 0,
+        "bas_nprim": 6,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 256,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 0,
+        "bas_nprim": 2,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 257,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 258,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 259,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 260,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 1,
+        "bas_nprim": 4,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 261,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 262,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 263,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 264,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 2,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 265,
+      "metadata": {
+        "bas_atom": 23,
+        "bas_angular": 3,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 266,
+      "metadata": {
+        "bas_atom": 24,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 267,
+      "metadata": {
+        "bas_atom": 24,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 268,
+      "metadata": {
+        "bas_atom": 24,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 269,
+      "metadata": {
+        "bas_atom": 24,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 270,
+      "metadata": {
+        "bas_atom": 25,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 271,
+      "metadata": {
+        "bas_atom": 25,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 272,
+      "metadata": {
+        "bas_atom": 25,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 273,
+      "metadata": {
+        "bas_atom": 25,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 274,
+      "metadata": {
+        "bas_atom": 26,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 275,
+      "metadata": {
+        "bas_atom": 26,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 276,
+      "metadata": {
+        "bas_atom": 26,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 277,
+      "metadata": {
+        "bas_atom": 26,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 278,
+      "metadata": {
+        "bas_atom": 27,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 279,
+      "metadata": {
+        "bas_atom": 27,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 280,
+      "metadata": {
+        "bas_atom": 27,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 281,
+      "metadata": {
+        "bas_atom": 27,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 282,
+      "metadata": {
+        "bas_atom": 28,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 283,
+      "metadata": {
+        "bas_atom": 28,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 284,
+      "metadata": {
+        "bas_atom": 28,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 285,
+      "metadata": {
+        "bas_atom": 28,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 286,
+      "metadata": {
+        "bas_atom": 29,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 287,
+      "metadata": {
+        "bas_atom": 29,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 288,
+      "metadata": {
+        "bas_atom": 29,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 289,
+      "metadata": {
+        "bas_atom": 29,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 290,
+      "metadata": {
+        "bas_atom": 30,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 291,
+      "metadata": {
+        "bas_atom": 30,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 292,
+      "metadata": {
+        "bas_atom": 30,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 293,
+      "metadata": {
+        "bas_atom": 30,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 294,
+      "metadata": {
+        "bas_atom": 31,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 295,
+      "metadata": {
+        "bas_atom": 31,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 296,
+      "metadata": {
+        "bas_atom": 31,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 297,
+      "metadata": {
+        "bas_atom": 31,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 298,
+      "metadata": {
+        "bas_atom": 32,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 299,
+      "metadata": {
+        "bas_atom": 32,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 300,
+      "metadata": {
+        "bas_atom": 32,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 301,
+      "metadata": {
+        "bas_atom": 32,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 302,
+      "metadata": {
+        "bas_atom": 33,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 303,
+      "metadata": {
+        "bas_atom": 33,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 304,
+      "metadata": {
+        "bas_atom": 33,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 305,
+      "metadata": {
+        "bas_atom": 33,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 306,
+      "metadata": {
+        "bas_atom": 34,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 307,
+      "metadata": {
+        "bas_atom": 34,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 308,
+      "metadata": {
+        "bas_atom": 34,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 309,
+      "metadata": {
+        "bas_atom": 34,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 310,
+      "metadata": {
+        "bas_atom": 35,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 311,
+      "metadata": {
+        "bas_atom": 35,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 312,
+      "metadata": {
+        "bas_atom": 35,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 313,
+      "metadata": {
+        "bas_atom": 35,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 314,
+      "metadata": {
+        "bas_atom": 36,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 315,
+      "metadata": {
+        "bas_atom": 36,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 316,
+      "metadata": {
+        "bas_atom": 36,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 317,
+      "metadata": {
+        "bas_atom": 36,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 318,
+      "metadata": {
+        "bas_atom": 37,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 319,
+      "metadata": {
+        "bas_atom": 37,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 320,
+      "metadata": {
+        "bas_atom": 37,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 321,
+      "metadata": {
+        "bas_atom": 37,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 322,
+      "metadata": {
+        "bas_atom": 38,
+        "bas_angular": 0,
+        "bas_nprim": 3,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 323,
+      "metadata": {
+        "bas_atom": 38,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 324,
+      "metadata": {
+        "bas_atom": 38,
+        "bas_angular": 0,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    {
+      "shell": 325,
+      "metadata": {
+        "bas_atom": 38,
+        "bas_angular": 1,
+        "bas_nprim": 1,
+        "bas_nctr": 1,
+        "bas_kappa": 0
+      },
+      "max_exponent_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    }
+  ],
+  "helper_sha256": "dc076375d09eecc09816fe1125597f6417d06c18dd88e3bdcada87f883215b16",
+  "checks_passed": true
+}

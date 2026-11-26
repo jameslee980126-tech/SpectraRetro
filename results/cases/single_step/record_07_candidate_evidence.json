@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-21",
+  "protocol": "Frozen 1500-epoch reference-derived true-center synthons + Stage1 correct-count gate; 300 draws; historical hydrogen-fill chemical matching is a separate diagnostic, not official scoring",
+  "selection": "Post-hoc illustrative selection from existing test outputs; not an independent accuracy estimate; broad functionalization candidates must not be relabeled strict C-H activation",
+  "search_scope": {
+    "complete_test_reactions": 826,
+    "multi_atom_hydrogen_filled_chemical_top10_candidates": 158
+  },
+  "cases": [
+    {
+      "source_row": 9773,
+      "name": "Morpholinophenyl-substituted acylfuran benzoate",
+      "document": "EP2544679B1, Example 24, paragraph [0146]; procedure [0083]",
+      "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP2544679NWB1/document.pdf",
+      "conditions": "LDA, anhydrous THF, argon, -78 to 0 deg C; 50% yield",
+      "classification": "Deprotonative heteroarene acylation with a Weinreb amide; not narrow transition-metal-catalyzed C-H activation",
+      "completion": "Restore N(CH3)-O-CH3: C2 N O, four heavy atoms",
+      "literature_match": "Exact substrate/product structures checked against Example 24 names; conditions recovered by its explicit cross-reference to Example 12. Source dataset reagent field is empty.",
+      "expected_sizes": [
+        4,
+        0
+      ],
+      "expected_official_rank": 2,
+      "product": "COc1cc(-c2ccc(C(=O)C(OC)c3ccc(N4CCOCC4)cc3)o2)cc(OC)c1OC(=O)c1ccccc1",
+      "reactants": "COC(C(=O)N(C)OC)c1ccc(N2CCOCC2)cc1.COc1cc(-c2ccco2)cc(OC)c1OC(=O)c1ccccc1",
+      "product_heavy_atoms": 41,
+      "official_decoded_reference_rank": 2,
+      "hydrogen_filled_original_chemistry_rank": 1,
+      "hydrogen_filled_matching_first_raw_bin_frequency": 69,
+      "stage1_correct_draws": 300,
+      "fragments": [
+        {
+          "uuid": 14268,
+          "added_heavy_atoms": 4,
+          "added_elements": {
+            "C": 2,
+            "O": 1,
+            "N": 1
+          },
+          "correct_size_draws": 252
+        },
+        {
+          "uuid": 14269,
+          "added_heavy_atoms": 0,
+          "added_elements": {},
+          "correct_size_draws": 273
+        }
+      ],
+      "product_only_inference_status": "Not run for this audit; do not transfer historical ranks to the new product-only protocol"
+    },
+    {
+      "source_row": 9181,
+      "name": "Benzofuran-2-carbaldehyde",
+      "document": "Paizs, Katona, Retey, The Interaction of Heteroaryl-Acrylates and Alanines with Phenylalanine Ammonia-Lyase from Parsley, supporting information, PDF pages 3-4, printed pages 1-2",
+      "url": "https://application.wiley-vch.de/contents/jc_2111/2006/f501034_s.pdf",
+      "conditions": "DMF, POCl3, 100 deg C, 10 h plus a second reagent charge and another 10 h; aqueous sodium acetate work-up; 62% yield",
+      "classification": "Vilsmeier-Haack formylation; broad C-H functionalization, not narrow transition-metal C-H activation",
+      "completion": "Restore N(CH3)2 on the formyl fragment to recover DMF: C2 N, three heavy atoms",
+      "literature_match": "Exact benzofuran/DMF/benzofuran-2-carbaldehyde structures and POCl3/aqueous sodium acetate conditions; matching public experiment, not proof this paper was the dataset extraction source.",
+      "expected_sizes": [
+        3,
+        0
+      ],
+      "expected_official_rank": 1,
+      "product": "O=Cc1cc2ccccc2o1",
+      "reactants": "CN(C)C=O.c1ccc2occc2c1",
+      "product_heavy_atoms": 11,
+      "official_decoded_reference_rank": 1,
+      "hydrogen_filled_original_chemistry_rank": 1,
+      "hydrogen_filled_matching_first_raw_bin_frequency": 92,
+      "stage1_correct_draws": 300,
+      "fragments": [
+        {
+          "uuid": 13148,
+          "added_heavy_atoms": 3,
+          "added_elements": {
+            "C": 2,
+            "N": 1
+          },
+          "correct_size_draws": 274
+        },
+        {
+          "uuid": 13149,
+          "added_heavy_atoms": 0,
+          "added_elements": {},
+          "correct_size_draws": 233
+        }
+      ],
+      "product_only_inference_status": "Not run for this audit; do not transfer historical ranks to the new product-only protocol"
+    },
+    {
+      "source_row": 9207,
+      "name": "2-Trifluoroacetyl-4,5-bis(4-fluorophenyl)thiophene",
+      "document": "US4381311, Example 25, Method E, part a",
+      "url": "https://patents.justia.com/patent/4381311",
+      "conditions": "Trifluoroacetic anhydride, trifluoroacetic acid/chloroform, reflux, 12 days total; extra anhydride after 48 h; isolated 10.5 g",
+      "classification": "Electrophilic aromatic trifluoroacetylation; not narrow transition-metal C-H activation",
+      "completion": "Restore O-C(=O)-CF3 to recover trifluoroacetic anhydride: C2 O2 F3, seven heavy atoms",
+      "literature_match": "Exact starting heteroarene/product names and reagent/solvent set. Primary experiment text recovered in indexed search; direct full-page fetch failed. No percentage yield invented from isolated mass.",
+      "expected_sizes": [
+        7,
+        0
+      ],
+      "expected_official_rank": 2,
+      "product": "O=C(c1cc(-c2ccc(F)cc2)c(-c2ccc(F)cc2)s1)C(F)(F)F",
+      "reactants": "Fc1ccc(-c2ccsc2-c2ccc(F)cc2)cc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F",
+      "product_heavy_atoms": 25,
+      "official_decoded_reference_rank": 2,
+      "hydrogen_filled_original_chemistry_rank": 2,
+      "hydrogen_filled_matching_first_raw_bin_frequency": 27,
+      "stage1_correct_draws": 299,
+      "fragments": [
+        {
+          "uuid": 13196,
+          "added_heavy_atoms": 7,
+          "added_elements": {
+            "O": 2,
+            "C": 2,
+            "F": 3
+          },
+          "correct_size_draws": 225
+        },
+        {
+          "uuid": 13197,
+          "added_heavy_atoms": 0,
+          "added_elements": {},
+          "correct_size_draws": 266
+        }
+      ],
+      "product_only_inference_status": "Not run for this audit; do not transfer historical ranks to the new product-only protocol"
+    }
+  ],
+  "input_sha256": {
+    "source-record:paper_redesign/case_screen_all.json": "53cb92f5819fea1e6603e776a105602601163238755f5762a7389ef7d1d09aee",
+    "source-record:analysis_1500/fragment_metrics.csv": "8f21929c834f77774adaf99cce82a0179c03cba2db497e25adc5b91467aa7fda",
+    "results/supporting_information/source_data_agent/geometry_comparison_per_reaction.csv": "1eed13724c7ec08e95aae2205ade5fb7b894cd0f6e011852b8b91898ccda3190"
+  }
+}

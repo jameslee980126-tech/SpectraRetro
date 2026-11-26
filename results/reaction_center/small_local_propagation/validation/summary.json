@@ -1,0 +1,63 @@
+{
+  "split": "validation",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "groups": [
+    {
+      "group": "all",
+      "n_per_seed": 2400,
+      "full_fspec_top1_mean": 0.8581944444444444,
+      "local_pair_top1_mean": 0.8501388888888889,
+      "gain_pp_mean": 0.8055555555555556,
+      "gain_pp_by_seed": [
+        0.7916666666666667,
+        0.625,
+        1.0
+      ],
+      "closest_decoy_gain_pp_mean": -0.4305555555555556
+    },
+    {
+      "group": "low",
+      "n_per_seed": 800,
+      "full_fspec_top1_mean": 0.83875,
+      "local_pair_top1_mean": 0.8320833333333333,
+      "gain_pp_mean": 0.6666666666666666,
+      "gain_pp_by_seed": [
+        1.375,
+        0.125,
+        0.5
+      ],
+      "closest_decoy_gain_pp_mean": -0.12499999999999996
+    },
+    {
+      "group": "medium",
+      "n_per_seed": 800,
+      "full_fspec_top1_mean": 0.8933333333333333,
+      "local_pair_top1_mean": 0.8858333333333334,
+      "gain_pp_mean": 0.75,
+      "gain_pp_by_seed": [
+        1.5,
+        0.5,
+        0.25
+      ],
+      "closest_decoy_gain_pp_mean": 0.125
+    },
+    {
+      "group": "high",
+      "n_per_seed": 800,
+      "full_fspec_top1_mean": 0.8425,
+      "local_pair_top1_mean": 0.8325,
+      "gain_pp_mean": 1.0,
+      "gain_pp_by_seed": [
+        -0.5,
+        1.25,
+        2.25
+      ],
+      "closest_decoy_gain_pp_mean": -1.2916666666666667
+    }
+  ],
+  "limitations": "Validation-selected checkpoints. Descriptive results; same molecules repeated across seeds are not independent extra data. Prior FSpec test results have been viewed historically. Mechanism inference not established."
+}

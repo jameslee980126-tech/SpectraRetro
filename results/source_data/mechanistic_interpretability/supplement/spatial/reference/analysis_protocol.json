@@ -1,0 +1,73 @@
+{
+  "version": "v1_defined_before_mechanistic_model_responses",
+  "objective": "Measure whether the final frozen known-class generator converts altered nonlocal spatial occlusion into a corresponding change of completion-group torsional coordinate correction.",
+  "model": {
+    "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+    "sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+    "selected_epoch": 1580,
+    "associated_formal_known_top1": "7161/9250=77.41621621621621% under the existing frozen protocol",
+    "precision": "FP32 eval no_grad; frozen weights; no optimization"
+  },
+  "data": {
+    "reactions": {"train":74146,"eval":9395,"test":9250,"total":92791},
+    "fragments": {"train":126561,"eval":16059,"test":15830,"total":158450},
+    "primary_evidence_split": "test",
+    "split_policy": "Scan all source records. Analyze all eligible fragments under fixed rules, with train/eval/test and distinct scaffold counts shown separately. The test set is reused post-hoc, not a new blinded sample."
+  },
+  "eligibility": [
+    "At least2 missing atoms; retained coordinates and fixed local core define a noncollinear frame.",
+    "Exactly1 retained-missing boundary, an acyclic single bond allowing completion-group rotation; source full graph sanitizes on a fresh copy.",
+    "Exclude conjugated, amide/ester-like constrained boundary bonds and constrained known branch axes.",
+    "At least1 missing heavy atom more than0.3A away from the completion rotation axis.",
+    "Original model anchor marker equals actual reference assessment boundary; known internal adjacency binds to original data.",
+    "Known branch rotation leaves the boundary and its retained graph-distance<=2 core unchanged; moving side is entirely retained atoms and has an off-axis heavy atom."
+  ],
+  "geometric_intervention": {
+    "A": "Original retained reference coordinates.",
+    "B_candidates": "All eligible retained branch axes with twelve fixed30degree rotations, including the reference0degree state for accounting.",
+    "completion_probe": "The same reference-derived missing-group identity/internal geometry in A and B, rotated through24 fixed15degree torsions around the retained-missing bond. This is a fixed-composition mechanism probe, not a native retrosynthesis prediction.",
+    "known_plausibility": "For known-known graph-distance>2 heavy pairs, minimum distance/(vdW radii sum)>=0.65 and mean squared overlap_B<=overlap_A+0.002. Core coordinates and all retained bond lengths/angles remain unchanged within numerical tolerance.",
+    "steric_readout": "C(theta)=sum over eligible retained-missing heavy pairs(graph distance>2) of max(0,1-d/(Ri+Rj))^2, divided by number of missing heavy atoms. Internal missing geometry is invariant under the probe rotation.",
+    "geometric_preference": "g=-dC/dtheta with theta in radians.",
+    "primary_flip_probe": "g_A*g_B<0; min(abs(g_A),abs(g_B))>=0.001/radian; retained-missing nonbonded minimum distance/(Ri+Rj)>=0.55 in both conditions.",
+    "pair_selection": "Within each fragment choose B by maximum eligible flip-angle count, then sum of minimum absolute gradients, then minimum absolute branch rotation, then lexicographic atom-axis order. No model output is used to select pairs.",
+    "geometry_sensitivities": "Also retain all-angle masks at gradient cutoffs0.0001 and0.01; do not switch primary cutoff after model responses are read.",
+    "energy_scope": "Geometrically screened interventions. Do not label low-energy or force-field validated unless an explicit separate energy calculation succeeds."
+  },
+  "controlled_forward": {
+    "fixed_between_A_B": ["SMILES/current synthon identity", "atom types", "missing count", "reaction class", "composition probability vector", "local core", "diffusion time", "same local-frame Gaussian noise"],
+    "physical_coordinate_noise_to_signal_A": [0.10,0.20,0.40],
+    "primary_physical_noise_to_signal_A": 0.20,
+    "schedule_mapping": "Use the frozen model normalization and noise schedule to select nearest supported t to the requested physical sigma/alpha. Save achieved values and deterministic tie rule before reading responses.",
+    "noise_seeds": [202611050,202611051,202611052],
+    "process": "Normalize as in the original model; known coordinates/elements are clamped; add noise only to missing nodes; call the original scoped known-class conditional denoiser; recover clean coordinates before any bond/SMILES decoding.",
+    "no_reverse_sampling": true,
+    "no_training": true
+  },
+  "readouts": {
+    "torsional_correction": "Project predicted clean-coordinate displacement from the clean completion probe onto the legal rotation tangent; save signed delta_phi in degrees, tangent-fit residual, radial drift, full boundary/internal distance and angle errors.",
+    "primary_paired_response": "R=sign(g_B-g_A)*(delta_phi_B-delta_phi_A). First average over qualified flip angles and paired noise seeds within fragment at primary noise level, then aggregate fragments with equal weight. Positive R is a geometry-consistent change of angular correction.",
+    "secondary_actual_direction_flip": "Both delta_phi_A*g_A and delta_phi_B*g_B positive and each abs(delta_phi)>=0.5degree. Also show thresholds0 and2degrees as prespecified sensitivities.",
+    "secondary_spatial_change": "Measure nonbonded overlap before/after predicted coordinate correction and after legal-torsion projection; report boundary geometry and radial drift together, including unfavorable changes.",
+    "auxiliary_denoising_errors": "Coordinate and element noise-prediction errors separately. These are denoising compatibility diagnostics, not calibrated probabilities, forces or molecular energies."
+  },
+  "controls": [
+    "Identical A repeated at the same t/noise gives the same output within documented FP32 tolerance.",
+    "Common rigid rotation/translation of scaffold, probe and coordinate noise; transform output back and compare invariance/equivariance.",
+    "Preserve paired identity/class/prior/size/local core checks for every intervention.",
+    "Geometric A/B label permutation supplies a response-association null; model outputs themselves remain unchanged."
+  ],
+  "aggregation": "Report fragment/reaction/distinct known-scaffold counts, not just the large number of angle/time/noise probes. Cluster uncertainty by the preserved known-scaffold-plus-boundary identity within each split; do not treat repeated probes as independent molecules. Keep nonfinite outputs and geometry failures in coverage accounting.",
+  "visualization": "Use real coordinates and measured arrays only. Publication-style blue/orange/gray, consistent local frames, all-eligible paired-response distributions, angle-resolved heatmaps and a clearly identified real structural example. Select displayed representative examples by geometry/structural rules before model response, or explicitly label outcome-ranked galleries separately. Export PNG/SVG/PDF and underlying plotted data.",
+  "interpretation": "A diagnostic of the frozen model's spatial-compatibility response for precursor completion-group conformations. It does not change existing official scores or provide a new physical reaction trajectory.",
+  "amendment_before_full_mechanistic_responses": {
+    "date": "2026-11-05",
+    "reason": "After exhaustive geometry-only screening identified3113 eligible completion rotors and208 strict paired interventions, add all3113 baseline-A torsional scans to display the complete eligible cohort. No mechanistic A/B response has been inspected when making this amendment.",
+    "baseline_A": "train2465/eval331/test317 fragments,24 angles x3 fixed seeds x3 fixed noise levels =672408 model states. Static angular agreement is descriptive and remains separate from the strict paired intervention.",
+    "strict_AB_unchanged": "train154/eval16/test38 pairs. Reuse their baseline A states; add208 x24 x3 x3 =44928 B states. Strict geometry selection and primary held-out test analysis are unchanged. Total717336 unique forward states.",
+    "schedule_locked": [{"t":0.07,"achieved_sigma_over_alpha_A":0.0994108},{"t":0.14,"achieved_sigma_over_alpha_A":0.2009809,"primary":true},{"t":0.27,"achieved_sigma_over_alpha_A":0.4042986}],
+    "computation": "Original FP32 CUDA denoiser with TF32 disabled, no_grad, no optimization. Full run uses original nondeterministic aggregation for throughput. Documented identical-input, batch and equivariance tolerances are1e-5A; retain fixed-subset deterministic sensitivity. No altered timestep or replacement noise after a failed state. Record nonfinite states in full coverage.",
+    "representatives": "Retain actual predicted coordinates for20 strict test structures selected by evenly spaced sorted original row indices before reading model responses.",
+    "selection_rule": "All split/time states are executed independent of effect direction; repeated angle/noise/time probes are not independent molecules."
+  }
+}

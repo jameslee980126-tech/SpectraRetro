@@ -1,0 +1,5 @@
+
+# sampling settings
+val_sampling_steps: 10
+test_sampling_steps: 50
+name: null

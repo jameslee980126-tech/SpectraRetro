@@ -1,0 +1,75 @@
+{
+  "ppt_sha256": "e141238c5dff829468423f659a18e7617f3f299b83e663398495644f3c5076e3",
+  "slide": 1,
+  "source": "original embedded PNGs with the first-slide crop",
+  "changes": "uniform scaling, vertical grouping and outer A/B/C labels only",
+  "panels": [
+    {
+      "label": "A",
+      "ppt_asset": "ppt/media/image1.png",
+      "sha256": "a3faee5cb6627bab08851f48501ad0705c3dfb034e5c80a618a0a3db1505d090",
+      "crop_fractions": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_mm": [
+        19,
+        2.0,
+        159,
+        80.75
+      ]
+    },
+    {
+      "label": "B",
+      "ppt_asset": "ppt/media/image3.png",
+      "sha256": "6211e148a41975aec542435d6cd3c126db9ffa51adac0d24bd65dd46f8f5c41b",
+      "crop_fractions": [
+        0,
+        0.12306,
+        0.99315,
+        0.49486
+      ],
+      "target_mm": [
+        19,
+        85.0,
+        159,
+        120.43279896109503
+      ]
+    },
+    {
+      "label": "C",
+      "ppt_asset": "ppt/media/image2.png",
+      "sha256": "68a90ef60b0aec7c4c0359219d203eb62efd0d902b9f724d3cda6cf9021dea51",
+      "crop_fractions": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "target_mm": [
+        19,
+        125.0,
+        159,
+        203.75
+      ]
+    }
+  ],
+  "pdf_sha256": "0bafbb4ecc1b9320513f9a9fc52e8964eb6078925191d415fe3fbf21b30ebeee",
+  "scientific_plot_reconstruction": false,
+  "pdf_image_sizes": [
+    [
+      4000,
+      2250
+    ],
+    [
+      2982,
+      2016
+    ],
+    [
+      4000,
+      2250
+    ]
+  ]
+}

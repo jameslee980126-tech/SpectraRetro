@@ -1,0 +1,35 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.430000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.570000}}@{}}
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S14. CHRetroAgent search and assessment configuration.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Recorded value or implementation limit
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S14 (continued).}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Recorded value or implementation limit
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Actual assessment model identifier & deepseek-flash \\
+Maximum search depth & 12 \\
+Maximum candidates per expansion & 10,000 \\
+Maximum candidate-bank queries & 300 \\
+Maximum search states & 10,000 \\
+Maximum retained routes per case & 3 \\
+Assessment capacity & Up to 8 routes and 16 calls \\
+Assessment sequence & Initial assessment; at most one tool-informed correction per route \\
+Response limit & 2,200 tokens \\
+Request and overall assessment budgets & 45 s and 180 s \\
+Client temperature default & 0 \\
+\end{longtable}

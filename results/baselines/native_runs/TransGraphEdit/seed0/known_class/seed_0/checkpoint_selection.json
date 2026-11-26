@@ -1,0 +1,6 @@
+{
+  "experiment_dir": "/root/rivermind-data/transgraphedit_similarity_paired_20260922/source/TransGraphEdit-main/experiments/C-H Arylation/with_rxn_class/22-09-2026--23-25-21",
+  "best_epoch": 19,
+  "best_valid_full_sequence_accuracy": 0.6587,
+  "rule": "earliest epoch attaining maximum validation accuracy"
+}

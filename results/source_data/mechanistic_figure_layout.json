@@ -1,0 +1,50 @@
+{
+  "figure": 8,
+  "page": 12,
+  "asset": "images/mechanistic_context_readable.pdf",
+  "asset_sha256": "192dc3d4c23b9bb40bdee0efa32c4ae8bc9ffe49f58bcb97fcd3b8c48b1c8902",
+  "width_mm": 177.99999855889212,
+  "height_mm": 214.8689690483941,
+  "layout": "Three aligned 152 mm modules; common left edges, section headings, column grids and compact legends.",
+  "headings": [
+    "Chemical context",
+    "Spatial response",
+    "Electronic effects"
+  ],
+  "scientific_content": "Chemical matrix/network and molecular/ESP renders preserve source image content. Spatial and electronic quantitative charts are vector plots of the unchanged archived source data.",
+  "purple_marker_label": "Qualified angles (10/24); original archived primary_flip_mask preserved.",
+  "source_images": [
+    {
+      "name": "机理可解释性分析1.png",
+      "sha256": "33960e2ef293a8b3f688cd2cf85929093d476b8ac38f4bd3c1d0c301220d6877"
+    },
+    {
+      "name": "机理可解释2.png",
+      "sha256": "29adb34131c3fb8734b67e8712edec261522b6b344c5fd36d55a8a0981d669ea"
+    },
+    {
+      "name": "机理可解释3.png",
+      "sha256": "762f4e1a2e255dfcfb1c03b1ed6a8fb94ee873cc570cfa6fc34695a30f2151ae"
+    }
+  ],
+  "source_tables": [
+    {
+      "name": "steric_geometry_curves.csv",
+      "sha256": "2ea1a2753d894fb2e35bd67bbccc3ca749c74beb93d5d8c97e88fddf622aad50"
+    },
+    {
+      "name": "steric_orientations.csv",
+      "sha256": "2699aee2204e344169b2bf074b469299d5317c3fd86a2de85e1a98f2fc552fc3"
+    },
+    {
+      "name": "steric_fragments.csv",
+      "sha256": "932126d23756aa9284d6f6f03cd88109135b1c0fb99979b7e075dd7ec2e7409b"
+    },
+    {
+      "name": "main_figure_six_pairs.csv",
+      "sha256": "eedf730b9c211e0be7042889c72fc6596f3ccf9536018fbc06f072ef3d039bec"
+    }
+  ],
+  "scientific_calculations_performed": 0,
+  "baseline_commit": "c07e8c7bb4f5e3ce9f10f8828f9fcef6106edfb8"
+}

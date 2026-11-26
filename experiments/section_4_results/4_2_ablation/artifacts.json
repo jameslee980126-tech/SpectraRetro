@@ -1,0 +1,208 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_2_ablation",
+  "paper_items": [
+    "Table 3",
+    "Figure S1",
+    "Figure S2"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure6_paired_reaction_results.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure6_paired_reaction_results.csv",
+      "role": "Figure S1 paired per-reaction ranks and hits for the spectral comparison",
+      "kind": "original_file",
+      "bytes": 3030511,
+      "sha256": "fc65408ab23f317ceea7890162561e0a913423285cdaabe927a305a52a0c77ac",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure6_family_similarity_summary.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure6_family_similarity_summary.csv",
+      "role": "Figure S1 hit counts and percentages by reaction family and similarity stratum",
+      "kind": "original_file",
+      "bytes": 1865,
+      "sha256": "0714d246b89759ebf78a43fe511663ccbdcb8ca704513ccb2302e9c0b67349bf",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure6_original_summary.json",
+      "path": "../../../results/supporting_information/source_data_figures/figure6_original_summary.json",
+      "role": "Figure S1 overall and stratified comparison, with the original evaluation scope",
+      "kind": "original_file",
+      "bytes": 9530,
+      "sha256": "d61892d9e31e2aa1a98b2f5567eb893d0d07c63972b5b239c71a5bddd3ec9081",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure6_similarity_thresholds.json",
+      "path": "../../../results/supporting_information/source_data_figures/figure6_similarity_thresholds.json",
+      "role": "Similarity-stratum thresholds",
+      "kind": "original_file",
+      "bytes": 853,
+      "sha256": "4e1195fadcae3926bdd4b79021e0e2ca4bb65784148e1e408c6cc941b923b818",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+      "path": "../../../results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+      "role": "Reported heavy-atom bond-graph match statistics for Figure S2",
+      "kind": "original_file",
+      "bytes": 341,
+      "sha256": "e0638755928f939e0c6390a071db14943c139c639e33170ab54b51c29e2ff360",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_stage1/reaction_center_results.csv",
+      "path": "../../../results/reference_tables/reproduced_stage1/reaction_center_results.csv",
+      "role": "Saved center-accuracy recount",
+      "kind": "original_file",
+      "bytes": 2019,
+      "sha256": "e89caf6267211ae512a9a5f8197a980fbafb19f686a8f2df2a17d273afc39b31",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_stage1/small_stratified_results.csv",
+      "path": "../../../results/reference_tables/reproduced_stage1/small_stratified_results.csv",
+      "role": "Saved center-accuracy recount",
+      "kind": "original_file",
+      "bytes": 3038,
+      "sha256": "3da14e34c014d996363f75ab260c722d5da66c941baa6a7a63a97ddfc4a8c5dd",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/full_spectral_ablation/configuration.json",
+      "path": "../../../results/reaction_center/full_spectral_ablation/configuration.json",
+      "role": "Original spectral experiment configuration",
+      "kind": "original_file",
+      "bytes": 1702,
+      "sha256": "ab782498f98d0fed77cd3d09790c1c72a9dbc093b89f3fbf01bd2eb7113a3098",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/full_spectral_ablation/test/per_reaction.csv",
+      "path": "../../../results/reaction_center/full_spectral_ablation/test/per_reaction.csv",
+      "role": "Test-set spectral comparison",
+      "kind": "original_file",
+      "bytes": 3030511,
+      "sha256": "fc65408ab23f317ceea7890162561e0a913423285cdaabe927a305a52a0c77ac",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/configuration.json",
+      "path": "../../../results/reaction_center/small_local_propagation/configuration.json",
+      "role": "Original spectral experiment configuration",
+      "kind": "original_file",
+      "bytes": 4801,
+      "sha256": "105d3f19f6bf01c67ace458e41afc0e593f8f89e266933f6baf9c0f9f529b567",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reaction_center/small_local_propagation/test/per_seed.csv",
+      "path": "../../../results/reaction_center/small_local_propagation/test/per_seed.csv",
+      "role": "Test-set spectral comparison",
+      "kind": "original_file",
+      "bytes": 2214,
+      "sha256": "86c47b998418727f2fbfb8ccce5586b216126a27d52e49b60319b49871af2dbe",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/chemical_prior/control/metrics.json",
+      "path": "../../../results/reproduction/chemical_prior/control/metrics.json",
+      "role": "Chemical-prior validation comparison; 2,400 reactions per arm",
+      "kind": "original_file",
+      "bytes": 8420,
+      "sha256": "10a2e52674876912eaa06a46af106ff1cb9fa1302df62fafd5a51479669e8418",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/chemical_prior/control/reaction_metrics.json",
+      "path": "../../../results/reproduction/chemical_prior/control/reaction_metrics.json",
+      "role": "Chemical-prior validation comparison; 2,400 reactions per arm",
+      "kind": "original_file",
+      "bytes": 1841958,
+      "sha256": "e7670ccb8d43295b3c81cd03708f6571115ef5fc5992f99c4260e3076004a9aa",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/chemical_prior/compatibility/metrics.json",
+      "path": "../../../results/reproduction/chemical_prior/compatibility/metrics.json",
+      "role": "Chemical-prior validation comparison; 2,400 reactions per arm",
+      "kind": "original_file",
+      "bytes": 8434,
+      "sha256": "06127f279c3fc77c7f20c188688b4e0e726afe1d28f986e743185b316f2d72af",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/chemical_prior/compatibility/reaction_metrics.json",
+      "path": "../../../results/reproduction/chemical_prior/compatibility/reaction_metrics.json",
+      "role": "Chemical-prior validation comparison; 2,400 reactions per arm",
+      "kind": "original_file",
+      "bytes": 1841614,
+      "sha256": "4e5bd18d5dc91621f710931bf8d15de853d50d154dd5f8b195366476ec982815",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/chemical_prior/protocol.json",
+      "path": "../../../results/reproduction/chemical_prior/protocol.json",
+      "role": "Original paired chemical-prior protocol",
+      "kind": "original_file",
+      "bytes": 6068,
+      "sha256": "05b461430c0efe0f928908f411c52ddd76ef0d6a118db40241ac8aa0c562999c",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_agent/prior_ablation_recomputed.csv",
+      "path": "../../../results/supporting_information/source_data_agent/prior_ablation_recomputed.csv",
+      "role": "Recounted prior-comparison observations",
+      "kind": "original_file",
+      "bytes": 2177,
+      "sha256": "5cfba380f0895c146d52e172a11088a51279ba8761ef5e0d4008a395efcf2c43",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "checkpoints/ablations/chemical_prior/control.pt",
+      "path": "../../../checkpoints/ablations/chemical_prior/control.pt",
+      "role": "chemical_prior_ablation_parameters: checkpoints/ablations/chemical_prior/control.pt",
+      "kind": "original_file",
+      "bytes": 8440549,
+      "sha256": "e3ec65cdea9d532b28362497a1e433e9e6719e751f4438bfc59572de4397cc3a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "checkpoints/ablations/chemical_prior/compatibility.pt",
+      "path": "../../../checkpoints/ablations/chemical_prior/compatibility.pt",
+      "role": "chemical_prior_ablation_parameters: checkpoints/ablations/chemical_prior/compatibility.pt",
+      "kind": "original_file",
+      "bytes": 8442327,
+      "sha256": "0e4aaa7c389c8b0ad50495a4e22bc9ca9214183c61c44924f0936d2704b7202e",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "tables/table_3.tex",
+      "role": "Table 3: Ablation results in the reaction-class-unknown setting. Top-$k$ accuracies are reported as percentages.",
+      "paper_item": "Table 3",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 64968,
+      "source_character_end": 66053,
+      "source_sha256": "17aa11469621e8b811b20773a1dcb4de730e2b0b60b1115bdfd4aae072877ef0",
+      "sha256": "62d5ed140d50b4aa5f7892217c76d8ea7cd96dca6be77da10c0791f5772ede2d",
+      "bytes": 1085,
+      "source_document": "manuscript.tex"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/reaction_center",
+    "src/spectraretro/completion",
+    "results/reaction_center/reproduce.py"
+  ],
+  "shared_data": [
+    "datasets/full",
+    "experiments/spectraretro_inputs",
+    "datasets/supplementary_data/figure6_paired_reaction_results.csv"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "attempt": 1,
+    "strategy": "DIIS",
+    "converged": true,
+    "energy_hartree": -1596.6142306027468,
+    "checkpoint": "attempt_1.chk"
+  }
+]

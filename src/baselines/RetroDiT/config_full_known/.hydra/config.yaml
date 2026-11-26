@@ -1,0 +1,279 @@
+task_name: retrodit_ch6_known_seed42_best_step512
+tags:
+- train
+- ${data.graph_vocab}
+- ${model.sde.name}
+- ${model.net.model_desc}
+train: true
+test: true
+ckpt_path: /root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/train/checkpoints/best_top3acc_model_step512_acc0.9167.ckpt
+seed: 42
+data:
+  _target_: src.data.USPTO
+  data_root: /root/rivermind-data/retrodit_known/data/generative/uspto_50k
+  batch_size: 64
+  sampler_cfg:
+    use_sampler: false
+    bucket_size: 1000
+    max_tokens: 16384
+    max_batch_size: ${..batch_size}
+  num_workers: 0
+  graph_vocab: ch6_69pct_retrodit_known
+  forward_syn_model: null
+  n_dummy: 30
+  max_n_len: 250
+  shuffle_order: false
+  canonicalize: true
+  perm_types:
+  - all
+  external_perm_paths:
+    val: null
+    test: /root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42/rc/predictions/test/retrodit_rc_ch6_known_seed42_strict_root_center_top7_root_top7_temp1p25_agg_split_edge.json
+  perm_prob_sampler:
+    _target_: src.data.ProbSampler
+    _partial_: true
+    sample_single: prob
+    sample_all: prob
+    temperature: 1.0
+  val_top_ks: ${model.val_top_ks}
+  test_top_ks: ${model.test_top_ks}
+  cond_cfg:
+    label:
+      as_input: true
+      as_target: false
+      k_class: 6
+  dataset_target: src.data.USPTODataset
+model:
+  _target_: src.models.RetroGenerativeModule
+  graph_vocab: ${data.graph_vocab}
+  sampling_seed: ${seed}
+  sde:
+    val_sampling_steps: 10
+    test_sampling_steps: 50
+    name: dfm
+    _target_: src.models.DFM
+    from_var:
+    - p_X
+    - p_E
+    to_var:
+    - r_X
+    - r_E
+    conditional: false
+    model_transition: predefined
+    time_distortion: identity
+    train:
+      loss_type: ce
+      lambda_train_x: 1.0
+      lambda_train_e: 10.0
+      kld: false
+      entropy_weight_x: 0.0
+      entropy_weight_e: 0.0
+      p_loss_only: false
+    sample:
+      beam_size: 1
+      beam_temperature: 1.0
+      beam_strategy: greedy
+      alpha: 1.0
+      beta: 1.0
+      eta: 0.0
+      omega: 0.0
+      rdb: general
+      rdb_crit: dummy
+  net:
+    _target_: src.models.GraphDiT
+    graph_vocab: ${data.graph_vocab}
+    extra_cfg:
+      sym_E: false
+      on_data: true
+      on_noise: true
+      use_cycles: false
+      use_eigens: false
+      max_n_len: ${data.max_n_len}
+    cond_cfg: ${data.cond_cfg}
+    x_dim: 256
+    e_dim: 128
+    n_layers: 8
+    n_heads: 4
+    dropout: 0.0
+    symmetry_E: true
+    rotray_emb: true
+    pos_emb: false
+    fix_product_nodes: false
+    block_cfg:
+      module: src.models.net.graph_dit.blocks.DDiTBlock
+    model_desc: rdit-8.3m
+  val_top_ks:
+  - 1
+  - 3
+  - 5
+  - 10
+  test_top_ks:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 20
+  - 50
+  - 100
+  sample_store:
+    _target_: src.utils.sampling_store.ResultStore
+    _partial_: true
+    eval_skip_gen_null: true
+    forward_syn_cfg: null
+  compile: false
+  optimizer:
+    _target_: torch.optim.AdamW
+    _partial_: true
+    lr: 0.0005
+    weight_decay: 1.0e-12
+    amsgrad: true
+  scheduler:
+    _target_: src.models.lr_scheduler.PolyNomialLRScheduler
+    _partial_: true
+    warmup_steps: 500
+    total_steps: ${trainer.max_steps}
+    lr: ${..optimizer.lr}
+    lr_end: 1.0e-05
+    warmup_init_lr: 1.0e-07
+    power: 0.3
+  ckpt_path: null
+callbacks:
+  model_checkpoint:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: null
+    filename: null
+    monitor: null
+    verbose: false
+    save_last: null
+    save_top_k: 1
+    mode: min
+    auto_insert_metric_name: true
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: null
+    save_on_train_epoch_end: null
+  model_checkpoint_by_epoch:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: model_step{step:d}
+    monitor: null
+    verbose: false
+    save_last: null
+    save_top_k: -1
+    mode: min
+    auto_insert_metric_name: false
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: 500
+    save_on_train_epoch_end: null
+  early_stopping:
+    _target_: lightning.pytorch.callbacks.EarlyStopping
+    monitor: val/top_3_accuracy
+    min_delta: 0.0
+    patience: 20
+    verbose: true
+    mode: max
+    strict: true
+    check_finite: true
+    stopping_threshold: null
+    divergence_threshold: null
+    check_on_train_epoch_end: null
+  model_summary:
+    _target_: lightning.pytorch.callbacks.RichModelSummary
+    max_depth: 2
+  model_checkpoint_top3:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: best_top3acc_model_step{step}_acc{val/deduplicate_top_3_accuracy:.4f}
+    monitor: val/deduplicate_top_3_accuracy
+    mode: max
+    verbose: true
+    save_last: true
+    save_top_k: 3
+    every_n_epochs: 1
+    auto_insert_metric_name: false
+    save_weights_only: false
+  model_checkpoint_top5:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: best_top5acc_model_step{step}_acc{val/deduplicate_top_5_accuracy:.4f}
+    monitor: val/deduplicate_top_5_accuracy
+    mode: max
+    verbose: true
+    save_last: false
+    save_top_k: 3
+    every_n_epochs: 1
+    auto_insert_metric_name: false
+    save_weights_only: false
+  model_checkpoint_top10:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: best_top10acc_model_step{step}_acc{val/deduplicate_top_10_accuracy:.4f}
+    monitor: val/deduplicate_top_10_accuracy
+    mode: max
+    verbose: true
+    save_last: false
+    save_top_k: 3
+    every_n_epochs: 1
+    auto_insert_metric_name: false
+    save_weights_only: false
+  model_checkpoint_by_loss:
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: best_loss_model_step{step:d}
+    monitor: val/loss
+    mode: min
+    verbose: true
+    save_last: false
+    save_top_k: 1
+    every_n_epochs: 1
+    auto_insert_metric_name: false
+trainer:
+  _target_: lightning.pytorch.trainer.Trainer
+  default_root_dir: ${paths.output_dir}
+  min_epochs: 100
+  max_epochs: -1
+  max_steps: 150000
+  max_time: null
+  check_val_every_n_epoch: null
+  val_check_interval: 256
+  log_every_n_steps: 5
+  enable_progress_bar: false
+  num_sanity_val_steps: 0
+  use_distributed_sampler: true
+  accelerator: gpu
+  devices: 1
+  accumulate_grad_batches: 1
+  strategy:
+    _target_: lightning.pytorch.strategies.DDPStrategy
+    find_unused_parameters: true
+    timeout:
+      _target_: datetime.timedelta
+      seconds: 86400
+  precision: bf16-mixed
+  num_nodes: 1
+  gradient_clip_val: 1.0
+  gradient_clip_algorithm: norm
+  deterministic: false
+  inference_mode: false
+  detect_anomaly: false
+  sync_batchnorm: false
+  fast_dev_run: false
+  reload_dataloaders_every_n_epochs: 0
+  limit_train_batches: null
+  limit_val_batches: null
+  limit_test_batches: null
+  profiler: null
+paths:
+  root_dir: ${oc.env:PROJECT_ROOT}
+  data_dir: ${paths.root_dir}/data/
+  log_dir: ${paths.root_dir}/logs/
+  output_dir: ${hydra:runtime.output_dir}
+  work_dir: ${hydra:runtime.cwd}
+  pretrain_path: ${paths.root_dir}/ckpts/
+extras:
+  ignore_warnings: false
+  enforce_tags: false
+  print_config: true
+notes: null

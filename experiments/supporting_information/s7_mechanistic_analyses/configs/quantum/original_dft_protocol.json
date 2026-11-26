@@ -1,0 +1,155 @@
+{
+  "created_at": 1794209673.5265996,
+  "scope": "Stage 1: fixed-geometry DFT electronic validation",
+  "structures": 17,
+  "singlepoint_states": 34,
+  "functional": "PBE0",
+  "basis": "def2-tzvp",
+  "auxiliary_basis": "def2-universal-jkfit",
+  "grid_level": 4,
+  "conv_tol_hartree": 1e-09,
+  "conv_tol_grad": 1e-06,
+  "max_scf_cycles": 200,
+  "newton_continuation_max_cycles": 100,
+  "geometry": "Existing GFN2-xTB charge-0 optimized geometry, byte-identical XYZ input",
+  "charge_states": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "charge_states_convention": "[total charge, multiplicity]",
+  "solvent": "gas phase, matching the electronic descriptor comparison",
+  "populations": [
+    "meta-Lowdin",
+    "Mulliken"
+  ],
+  "fminus": "q(cation)-q(neutral)",
+  "scf_stability": "internal tested for each converged state; external not tested",
+  "workers": 4,
+  "threads_per_job": 8,
+  "memory_mb_per_job": 24000,
+  "cpu_sets": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  ],
+  "instance_cpu_quota": 40,
+  "instance_memory_gib": 200,
+  "job_rss_limit_bytes": 34359738368,
+  "pause_new_jobs_memory_bytes": 182536110080,
+  "minimum_free_disk_bytes": 8589934592,
+  "job_wall_limit_seconds": 14400,
+  "batch_wall_limit_seconds": 86400,
+  "pilot_ids": [
+    "6972_neutral",
+    "6972_N_oxide"
+  ],
+  "pilot_gate": "Recorded when the continued pair completes; all four initial jobs require prevalidated method and reuse proofs",
+  "launch_order": "Four validated workers immediately: two continued pilots, then remaining structures",
+  "success_scope": "34 fixed-geometry electronic states; geometry optimization/frequencies and torsion scans are later stages",
+  "failures": "Preserve original outputs, stop new launches on failure, drain running jobs; no automatic repeated scientific runs",
+  "provenance": "All source XYZ hashes, atom correspondence, software versions, checkpoints and SCF logs retained",
+  "phase": "validated_stability_solver_continuation",
+  "original_started_at": 1794209763.9425921,
+  "absolute_deadline": 1794296163.9425921,
+  "initial_workers": 4,
+  "worker_filename": "compute_worker_resume_v4.py",
+  "controller_filename": "phase_controller_v3.py",
+  "strict_guess": "native_plus_lowdiag",
+  "prior_elapsed_seconds": {
+    "6972_N_oxide": 5637.0717396736145,
+    "6972_neutral": 5637.136622905731
+  },
+  "resume_sources": {
+    "6972_N_oxide": "/root/rivermind-data/dft_electronic_validation_20261109/runs/6972_N_oxide",
+    "6972_neutral": "/root/rivermind-data/dft_electronic_validation_20261109/runs/6972_neutral"
+  },
+  "neutral_stability_caches": {
+    "6972_neutral": "/root/rivermind-data/dft_electronic_validation_20261109/stability_lowdiag_benchmark/6972_neutral_neutral"
+  },
+  "startup_validation_files": [
+    {
+      "path": "/root/rivermind-data/dft_electronic_validation_20261109/stability_lowdiag_benchmark/6972_neutral_neutral/result.json",
+      "sha256": "d39374e3572d8155e0324ee7de485e0241a2e45b792073ce6e4efac4a7dec2cb",
+      "passed_path": "passed"
+    },
+    {
+      "path": "/root/rivermind-data/dft_electronic_validation_20261109/preflight/water_resume_v4_cache_receipt.json",
+      "sha256": "34969fc096630deb6abc510073d5e8335924e44b78e4c12d01c4bd2bd6aeee49",
+      "passed_path": "passed"
+    },
+    {
+      "path": "/root/rivermind-data/dft_electronic_validation_20261109/preflight/resume_actual_cache_qa/6972_neutral/result.json",
+      "sha256": "80434b7e23f370ac2c4a1b7a806c619c46d0883d594055c11ed39d7e7769cbc5",
+      "passed_path": "passed"
+    },
+    {
+      "path": "/root/rivermind-data/dft_electronic_validation_20261109/preflight/resume_actual_inputs_qa/6972_N_oxide/result.json",
+      "sha256": "d8510e589045fd2f8a7a9e6c6b0f73d29e5f2ce0e3b2cbb3d1ce9432dfa85b16",
+      "passed_path": "passed"
+    }
+  ],
+  "required_execution_files": [
+    "phase_watchdog.py",
+    "phase_population_queue.py",
+    "strict_stability_lib_v3.py",
+    "resume_scf_lib_v2.py",
+    "stability_cache_lib.py",
+    "postprocess_hirshfeld_v2.py",
+    "summarize_results.py"
+  ],
+  "stability_numerics": {
+    "same_native_hessian": true,
+    "roots": 3,
+    "tolerance": 0.0001,
+    "residual_tolerance": 0.01,
+    "max_cycle": 50,
+    "max_space_argument": 60,
+    "initial_guess": "native dense plus three low-diagonal unit vectors",
+    "acceptance": "all three roots converged plus independent residual checks"
+  },
+  "original_phase_root": "/root/rivermind-data/dft_electronic_validation_20261109",
+  "original_scientific_sources_preserved": true
+}

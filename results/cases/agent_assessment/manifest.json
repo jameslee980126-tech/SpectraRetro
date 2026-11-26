@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "case": "lapatinib",
+      "path": "results/cases/agent_assessment/lapatinib_assessed.json",
+      "sha256": "a8b32def9c01c96cb1219e793aff5cd1f4e7a72f40e4cf8e730b44030fc9e3ed",
+      "routes": 1,
+      "saved_observations": 1,
+      "saved_attempts": 2,
+      "model_alias": "deepseek-flash",
+      "weighted_scores_replayed": true,
+      "immutable_provider_model_version_recorded": false
+    },
+    {
+      "case": "nemiralisib",
+      "path": "results/cases/agent_assessment/nemiralisib_assessed.json",
+      "sha256": "acd3691c5c8fada4f911eefecc86363f57b4f2436d2f916d6fb39077e5442647",
+      "routes": 2,
+      "saved_observations": 2,
+      "saved_attempts": 4,
+      "model_alias": "deepseek-flash",
+      "weighted_scores_replayed": true,
+      "immutable_provider_model_version_recorded": false
+    },
+    {
+      "case": "tafamidis",
+      "path": "results/cases/agent_assessment/tafamidis_assessed.json",
+      "sha256": "f573235196d967a28e3a38c41845bcd76a9628659bcceac02270233aa2a3cb1a",
+      "routes": 2,
+      "saved_observations": 2,
+      "saved_attempts": 4,
+      "model_alias": "deepseek-flash",
+      "weighted_scores_replayed": true,
+      "immutable_provider_model_version_recorded": false
+    }
+  ],
+  "scope": "Saved LLM route evaluations; scores are model assessments, not experimental yields or probabilities."
+}

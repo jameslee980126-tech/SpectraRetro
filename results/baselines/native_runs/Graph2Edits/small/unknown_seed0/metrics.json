@@ -1,0 +1,174 @@
+{
+  "model": "Graph2Edits",
+  "beam_size": 10,
+  "partial_evaluation": false,
+  "artifacts": {
+    "predictions": "/root/rivermind-data/graph2edits_small_3seed_20261019/runs/unknown_seed0/predictions_beam10.txt",
+    "selected_test": "/root/rivermind-data/graph2edits_small_3seed_20261019/raw/test.csv",
+    "selected_test_sha256": "D7F01A2D78656C37A698C4F9F9E64DEC8F9EF3DEEACAA0CA48BDCEFC8D77B614",
+    "native_test_file": "/root/rivermind-data/graph2edits_small_3seed_20261019/shared/data/uspto_50k/test/test.file.kekulized"
+  },
+  "native_original": {
+    "evaluation_semantics": "original_Graph2Edits_prediction_is_correct_flags",
+    "denominator": "native_preprocessing_successes_only",
+    "total_reactions": 2367,
+    "prediction_blocks_present": 2367,
+    "missing_prediction_blocks": 0,
+    "short_prediction_blocks": 88,
+    "missing_beam_candidates": 574,
+    "short_beam_policy": "unfilled ranks receive no hit credit",
+    "precursor_order": "ignored_by_python_set",
+    "duplicate_precursors": "collapsed_as_set",
+    "candidate_ranking": "original_beam_order",
+    "metrics": {
+      "Top-1": 0.6163920574566962,
+      "Top-3": 0.7824250105618927,
+      "Top-5": 0.8174904942965779,
+      "Top-10": 0.8432615124630334
+    },
+    "hits": {
+      "Top-1": 1459,
+      "Top-3": 1852,
+      "Top-5": 1935,
+      "Top-10": 1996
+    }
+  },
+  "legacy78_adapted_canonical": {
+    "evaluation_semantics": "reaction_instance_canonical_precursor_set_exact_match",
+    "reference_family": {
+      "result": "GDiffRetro old-flow Stage1 gate-on Top-1 78.02%",
+      "implementation": "code/known_class/stage2/fast_merge_eval.py",
+      "preserved_principles": [
+        "full precursor identity exact match",
+        "cumulative Top-k hit reporting",
+        "invalid predictions never count as correct"
+      ]
+    },
+    "model_aware_adaptations": {
+      "evaluation_unit": "2400 frozen reaction rows; product-group collapsing is not transferred because Graph2Edits emits one ranked list per reaction",
+      "stage1_gate": "not applicable; Graph2Edits is single-stage and has no comparable post-hoc center-rank gate",
+      "oracle_component_merge": "not applicable; predictions are complete precursor sets",
+      "candidate_ranking": "native beam order and original rank slots retained; canonical duplicates keep their first occurrence without compacting later candidates",
+      "native_preprocessing_failures": "counted as failures in the full denominator"
+    },
+    "canonicalization": {
+      "toolkit": "RDKit 2025.03.6",
+      "graph_sanitization": "enabled",
+      "atom_mapping": "removed",
+      "explicit_hydrogens": "removed",
+      "stereochemistry": "preserved",
+      "precursor_order": "ignored_by_sorting",
+      "duplicate_precursors": "collapsed_as_set",
+      "invalid_candidates": "no_hit_credit_original_rank_slot_preserved",
+      "duplicate_beam_candidates": "first_canonical_occurrence_retained_later_occurrences_consume_rank_slots"
+    },
+    "denominator": "all_frozen_test_reaction_rows",
+    "total_reactions": 2400,
+    "native_preprocessing_supported": 2367,
+    "native_preprocessing_failures": 33,
+    "unsupported_source_rows": [
+      855,
+      883,
+      906,
+      908,
+      939,
+      950,
+      1052,
+      1056,
+      1092,
+      1112,
+      1152,
+      1155,
+      1188,
+      1265,
+      1442,
+      1997,
+      2006,
+      2099,
+      2103,
+      2104,
+      2114,
+      2115,
+      2117,
+      2225,
+      2235,
+      2236,
+      2242,
+      2264,
+      2308,
+      2347,
+      2365,
+      2371,
+      2397
+    ],
+    "unsupported_by_class": {
+      "2": 1,
+      "3": 13,
+      "4": 1,
+      "6": 18
+    },
+    "prediction_blocks_present": 2367,
+    "missing_prediction_blocks": 0,
+    "short_prediction_blocks": 88,
+    "missing_beam_candidates": 574,
+    "short_beam_policy": "unfilled ranks receive no hit credit",
+    "invalid_prediction_occurrences": 273,
+    "duplicate_canonical_prediction_occurrences": 2063,
+    "metrics": {
+      "Top-1": 0.6079166666666667,
+      "Top-3": 0.7716666666666666,
+      "Top-5": 0.80625,
+      "Top-10": 0.8316666666666667
+    },
+    "hits": {
+      "Top-1": 1459,
+      "Top-3": 1852,
+      "Top-5": 1935,
+      "Top-10": 1996
+    },
+    "per_class": {
+      "1": {
+        "total_reactions": 531,
+        "Top-1": 0.6421845574387948,
+        "Top-3": 0.8568738229755178,
+        "Top-5": 0.8907721280602636,
+        "Top-10": 0.9096045197740112
+      },
+      "2": {
+        "total_reactions": 342,
+        "Top-1": 0.7368421052631579,
+        "Top-3": 0.8333333333333334,
+        "Top-5": 0.8538011695906432,
+        "Top-10": 0.8596491228070176
+      },
+      "3": {
+        "total_reactions": 393,
+        "Top-1": 0.5190839694656488,
+        "Top-3": 0.6590330788804071,
+        "Top-5": 0.6844783715012722,
+        "Top-10": 0.7251908396946565
+      },
+      "4": {
+        "total_reactions": 252,
+        "Top-1": 0.5793650793650794,
+        "Top-3": 0.6111111111111112,
+        "Top-5": 0.6428571428571429,
+        "Top-10": 0.6547619047619048
+      },
+      "5": {
+        "total_reactions": 477,
+        "Top-1": 0.519916142557652,
+        "Top-3": 0.779874213836478,
+        "Top-5": 0.8301886792452831,
+        "Top-10": 0.8658280922431866
+      },
+      "6": {
+        "total_reactions": 405,
+        "Top-1": 0.6617283950617284,
+        "Top-3": 0.8074074074074075,
+        "Top-5": 0.8469135802469135,
+        "Top-10": 0.8790123456790123
+      }
+    }
+  }
+}

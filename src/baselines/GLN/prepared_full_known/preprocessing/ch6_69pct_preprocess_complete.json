@@ -1,0 +1,9 @@
+{
+  "model": "GLN",
+  "known_class": true,
+  "template_source": "training_split_only",
+  "template_minimum_count": 1,
+  "external_source_changed": false,
+  "jagged_operator": "repository-external mathematically-equivalent PyTorch compatibility module",
+  "runtime_recovery": "resumed dump_graphs from verified upstream artifacts after legacy RDKit property-cache failure"
+}

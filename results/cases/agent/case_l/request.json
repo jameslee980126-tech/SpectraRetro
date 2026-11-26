@@ -1,0 +1,33 @@
+{
+  "stock": [
+    "CS(=O)(=O)CCN",
+    "Cc1ccc(S(=O)(=O)O)cc1",
+    "NC=O",
+    "Nc1ccc(Br)cc1C(=O)O",
+    "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1",
+    "O=Cc1ccco1"
+  ],
+  "target": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "constraints": {
+    "forbidden_smiles": [],
+    "unavailable_stock": [],
+    "require_forward_check": false
+  },
+  "model_mode": "unknown_class",
+  "case_name": "Lapatinib",
+  "strategy": "model_order",
+  "budgets": {
+    "max_steps": 12,
+    "max_products": 30,
+    "max_generation_calls": 100,
+    "max_paired_draws": 300,
+    "draws_per_call": 10,
+    "sampling_steps": 100,
+    "max_centers": 3,
+    "max_routes": 3,
+    "max_states": 2000,
+    "max_llm_calls": 12,
+    "page_size": 20
+  }
+}

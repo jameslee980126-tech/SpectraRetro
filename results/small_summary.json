@@ -1,0 +1,3678 @@
+{
+  "records": [
+    {
+      "mode": "known",
+      "seed": 0,
+      "arm": "known_seed0",
+      "n": 2400,
+      "percent": {
+        "1": 63.29166666666667,
+        "3": 78.58333333333334,
+        "5": 82.08333333333333,
+        "10": 84.25
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    },
+    {
+      "mode": "known",
+      "seed": 1,
+      "arm": "known_seed1",
+      "n": 2400,
+      "percent": {
+        "1": 65.875,
+        "3": 79.54166666666667,
+        "5": 82.54166666666667,
+        "10": 84.16666666666667
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    },
+    {
+      "mode": "known",
+      "seed": 2,
+      "arm": "known_seed2",
+      "n": 2400,
+      "percent": {
+        "1": 65.58333333333334,
+        "3": 79.33333333333333,
+        "5": 82.75,
+        "10": 84.625
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    },
+    {
+      "mode": "unknown",
+      "seed": 0,
+      "arm": "unknown_seed0",
+      "n": 2400,
+      "percent": {
+        "1": 57.99999999999999,
+        "3": 77.0,
+        "5": 80.20833333333334,
+        "10": 82.16666666666667
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    },
+    {
+      "mode": "unknown",
+      "seed": 1,
+      "arm": "unknown_seed1",
+      "n": 2400,
+      "percent": {
+        "1": 56.58333333333333,
+        "3": 77.125,
+        "5": 80.16666666666666,
+        "10": 82.20833333333334
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    },
+    {
+      "mode": "unknown",
+      "seed": 2,
+      "arm": "unknown_seed2",
+      "n": 2400,
+      "percent": {
+        "1": 57.333333333333336,
+        "3": 76.41666666666667,
+        "5": 80.08333333333333,
+        "10": 82.04166666666667
+      },
+      "scope": "exploratory reference-derived synthon and fixed-scaffold evaluation; test set historically inspected"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_reactions_per_run": 2400,
+  "draws": 300,
+  "steps": 100,
+  "ranking": "fusion; stage1_gated",
+  "scope": "exploratory; test set historically inspected",
+  "aggregates": [
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1519,
+        1581,
+        1574
+      ],
+      "mean_percent": 64.91666666666666,
+      "sample_sd_percentage_points": 1.414827237195804
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1886,
+        1909,
+        1904
+      ],
+      "mean_percent": 79.15277777777777,
+      "sample_sd_percentage_points": 0.5040346475451163
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1970,
+        1981,
+        1986
+      ],
+      "mean_percent": 82.45833333333333,
+      "sample_sd_percentage_points": 0.3410563654946886
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        2022,
+        2020,
+        2031
+      ],
+      "mean_percent": 84.34722222222223,
+      "sample_sd_percentage_points": 0.2441443865450947
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1159,
+        1177,
+        1270
+      ],
+      "mean_percent": 50.08333333333333,
+      "sample_sd_percentage_points": 2.482228501434413
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1719,
+        1752,
+        1790
+      ],
+      "mean_percent": 73.06944444444444,
+      "sample_sd_percentage_points": 1.4803887752634166
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1856,
+        1918,
+        1923
+      ],
+      "mean_percent": 79.125,
+      "sample_sd_percentage_points": 1.5551214672101308
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1955,
+        1979,
+        1997
+      ],
+      "mean_percent": 82.375,
+      "sample_sd_percentage_points": 0.8779711460710615
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        510,
+        504,
+        507
+      ],
+      "mean_percent": 95.48022598870057,
+      "sample_sd_percentage_points": 0.5649717514124291
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        524,
+        524,
+        524
+      ],
+      "mean_percent": 98.68173258003766,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        524,
+        524,
+        525
+      ],
+      "mean_percent": 98.74450721908349,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        524,
+        525
+      ],
+      "mean_percent": 98.80728185812931,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        507,
+        492,
+        497
+      ],
+      "mean_percent": 93.91086001255493,
+      "sample_sd_percentage_points": 1.4383476757551283
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        524,
+        524,
+        524
+      ],
+      "mean_percent": 98.68173258003766,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        524,
+        525
+      ],
+      "mean_percent": 98.80728185812931,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        524,
+        525
+      ],
+      "mean_percent": 98.80728185812931,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        178,
+        164,
+        181
+      ],
+      "mean_percent": 50.97465886939571,
+      "sample_sd_percentage_points": 2.653149627449552
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        206,
+        204,
+        209
+      ],
+      "mean_percent": 60.331384015594544,
+      "sample_sd_percentage_points": 0.735851309480583
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        214,
+        212,
+        216
+      ],
+      "mean_percent": 62.57309941520468,
+      "sample_sd_percentage_points": 0.5847953216374258
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        224,
+        222,
+        222
+      ],
+      "mean_percent": 65.10721247563353,
+      "sample_sd_percentage_points": 0.3376317363682036
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        68,
+        45,
+        161
+      ],
+      "mean_percent": 26.705653021442494,
+      "sample_sd_percentage_points": 17.95886660172234
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        189,
+        188,
+        192
+      ],
+      "mean_percent": 55.45808966861598,
+      "sample_sd_percentage_points": 0.608674268849745
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        198,
+        198,
+        200
+      ],
+      "mean_percent": 58.0896686159844,
+      "sample_sd_percentage_points": 0.3376317363682036
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        212,
+        202,
+        213
+      ],
+      "mean_percent": 61.111111111111114,
+      "sample_sd_percentage_points": 1.7785855351749171
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        184,
+        214,
+        189
+      ],
+      "mean_percent": 49.787955894826126,
+      "sample_sd_percentage_points": 4.0897585924482405
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        289,
+        294,
+        290
+      ],
+      "mean_percent": 74.04580152671755,
+      "sample_sd_percentage_points": 0.6732191631207597
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        307,
+        314,
+        306
+      ],
+      "mean_percent": 78.62595419847328,
+      "sample_sd_percentage_points": 1.1091345912317234
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        317,
+        321,
+        322
+      ],
+      "mean_percent": 81.42493638676845,
+      "sample_sd_percentage_points": 0.6732191631207597
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        151,
+        149,
+        142
+      ],
+      "mean_percent": 37.48939779474131,
+      "sample_sd_percentage_points": 1.2024976148225464
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        249,
+        223,
+        255
+      ],
+      "mean_percent": 61.66242578456319,
+      "sample_sd_percentage_points": 4.328193663163043
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        293,
+        294,
+        295
+      ],
+      "mean_percent": 74.80916030534351,
+      "sample_sd_percentage_points": 0.254452926208657
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        312,
+        314,
+        317
+      ],
+      "mean_percent": 79.98303647158609,
+      "sample_sd_percentage_points": 0.6403591548151611
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        167,
+        161,
+        166
+      ],
+      "mean_percent": 65.34391534391534,
+      "sample_sd_percentage_points": 1.2756151800255233
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        191,
+        191,
+        190
+      ],
+      "mean_percent": 75.66137566137566,
+      "sample_sd_percentage_points": 0.22910724967842827
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        201,
+        195,
+        199
+      ],
+      "mean_percent": 78.7037037037037,
+      "sample_sd_percentage_points": 1.2123216124221787
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        208,
+        203,
+        209
+      ],
+      "mean_percent": 82.01058201058201,
+      "sample_sd_percentage_points": 1.2756151800255233
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        165,
+        164,
+        163
+      ],
+      "mean_percent": 65.07936507936508,
+      "sample_sd_percentage_points": 0.39682539682539897
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        188,
+        188,
+        189
+      ],
+      "mean_percent": 74.73544973544973,
+      "sample_sd_percentage_points": 0.22910724967842006
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        193,
+        190,
+        194
+      ],
+      "mean_percent": 76.32275132275132,
+      "sample_sd_percentage_points": 0.8260579362960877
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        200,
+        196,
+        202
+      ],
+      "mean_percent": 79.1005291005291,
+      "sample_sd_percentage_points": 1.2123216124221865
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        297,
+        302,
+        299
+      ],
+      "mean_percent": 62.75331935709294,
+      "sample_sd_percentage_points": 0.5275915049106074
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        392,
+        396,
+        386
+      ],
+      "mean_percent": 82.04053109713487,
+      "sample_sd_percentage_points": 1.0551830098212138
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        408,
+        413,
+        409
+      ],
+      "mean_percent": 85.9538784067086,
+      "sample_sd_percentage_points": 0.5546648450869127
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        412,
+        417,
+        414
+      ],
+      "mean_percent": 86.86233403214536,
+      "sample_sd_percentage_points": 0.5275915049106074
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        110,
+        109,
+        112
+      ],
+      "mean_percent": 23.13067784765898,
+      "sample_sd_percentage_points": 0.32023589762095267
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        348,
+        349,
+        356
+      ],
+      "mean_percent": 73.58490566037736,
+      "sample_sd_percentage_points": 0.9138152921468967
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        392,
+        400,
+        392
+      ],
+      "mean_percent": 82.7393431167016,
+      "sample_sd_percentage_points": 0.96830233826353
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        408,
+        415,
+        407
+      ],
+      "mean_percent": 85.9538784067086,
+      "sample_sd_percentage_points": 0.9138152921468967
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        183,
+        236,
+        232
+      ],
+      "mean_percent": 53.58024691358025,
+      "sample_sd_percentage_points": 7.287088673270968
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        284,
+        300,
+        305
+      ],
+      "mean_percent": 73.16872427983539,
+      "sample_sd_percentage_points": 2.7085568184204694
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        316,
+        323,
+        331
+      ],
+      "mean_percent": 79.83539094650206,
+      "sample_sd_percentage_points": 1.8532230862876835
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        336,
+        333,
+        339
+      ],
+      "mean_percent": 82.96296296296296,
+      "sample_sd_percentage_points": 0.7407407407407405
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        158,
+        218,
+        195
+      ],
+      "mean_percent": 46.99588477366255,
+      "sample_sd_percentage_points": 7.474320548548195
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        221,
+        280,
+        274
+      ],
+      "mean_percent": 63.78600823045267,
+      "sample_sd_percentage_points": 8.017407267045748
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        255,
+        312,
+        317
+      ],
+      "mean_percent": 72.75720164609054,
+      "sample_sd_percentage_points": 8.504491343533962
+    },
+    {
+      "mode": "known",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        298,
+        328,
+        333
+      ],
+      "mean_percent": 78.93004115226339,
+      "sample_sd_percentage_points": 4.673998638518743
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1610,
+        1673,
+        1664
+      ],
+      "mean_percent": 68.70833333333333,
+      "sample_sd_percentage_points": 1.4197270864500684
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1925,
+        1935,
+        1936
+      ],
+      "mean_percent": 80.5,
+      "sample_sd_percentage_points": 0.2534484387624301
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        2001,
+        2009,
+        2017
+      ],
+      "mean_percent": 83.70833333333333,
+      "sample_sd_percentage_points": 0.3333333333333357
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        2057,
+        2047,
+        2064
+      ],
+      "mean_percent": 85.66666666666667,
+      "sample_sd_percentage_points": 0.3560001560548944
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1228,
+        1251,
+        1344
+      ],
+      "mean_percent": 53.09722222222222,
+      "sample_sd_percentage_points": 2.5591384907454344
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1766,
+        1795,
+        1848
+      ],
+      "mean_percent": 75.125,
+      "sample_sd_percentage_points": 1.7325519071909843
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1882,
+        1944,
+        1952
+      ],
+      "mean_percent": 80.25,
+      "sample_sd_percentage_points": 1.5964370050556638
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1981,
+        2003,
+        2021
+      ],
+      "mean_percent": 83.40277777777777,
+      "sample_sd_percentage_points": 0.8347210667398128
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        519,
+        522
+      ],
+      "mean_percent": 98.30508474576271,
+      "sample_sd_percentage_points": 0.5649717514124291
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        526
+      ],
+      "mean_percent": 98.93283113622097,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        526,
+        525,
+        526
+      ],
+      "mean_percent": 98.9956057752668,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        522,
+        507,
+        512
+      ],
+      "mean_percent": 96.73571876961708,
+      "sample_sd_percentage_points": 1.4383476757551283
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        526,
+        525,
+        526
+      ],
+      "mean_percent": 98.9956057752668,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        526,
+        525,
+        526
+      ],
+      "mean_percent": 98.9956057752668,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        180,
+        167,
+        181
+      ],
+      "mean_percent": 51.461988304093566,
+      "sample_sd_percentage_points": 2.283698735645218
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        208,
+        206,
+        213
+      ],
+      "mean_percent": 61.111111111111114,
+      "sample_sd_percentage_points": 1.0542547589075997
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        217,
+        216,
+        218
+      ],
+      "mean_percent": 63.45029239766082,
+      "sample_sd_percentage_points": 0.29239766081871466
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        227,
+        224,
+        225
+      ],
+      "mean_percent": 65.8869395711501,
+      "sample_sd_percentage_points": 0.44664480457659134
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        70,
+        47,
+        165
+      ],
+      "mean_percent": 27.485380116959064,
+      "sample_sd_percentage_points": 18.2906364596882
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        190,
+        192,
+        196
+      ],
+      "mean_percent": 56.33528265107213,
+      "sample_sd_percentage_points": 0.8932896091531858
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        198,
+        201,
+        204
+      ],
+      "mean_percent": 58.771929824561404,
+      "sample_sd_percentage_points": 0.8771929824561404
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        213,
+        204,
+        215
+      ],
+      "mean_percent": 61.59844054580897,
+      "sample_sd_percentage_points": 1.7132939406673466
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        219,
+        250,
+        223
+      ],
+      "mean_percent": 58.69380831212892,
+      "sample_sd_percentage_points": 4.2906326954849
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        304,
+        306,
+        298
+      ],
+      "mean_percent": 77.01441899915181,
+      "sample_sd_percentage_points": 1.0593720099064305
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        318,
+        323,
+        318
+      ],
+      "mean_percent": 81.3401187446989,
+      "sample_sd_percentage_points": 0.7345423272132641
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        330,
+        331,
+        337
+      ],
+      "mean_percent": 84.64800678541137,
+      "sample_sd_percentage_points": 0.963343230839741
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        171,
+        168,
+        162
+      ],
+      "mean_percent": 42.49363867684478,
+      "sample_sd_percentage_points": 1.166049795154158
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        271,
+        233,
+        280
+      ],
+      "mean_percent": 66.49703138252757,
+      "sample_sd_percentage_points": 6.3477378259771555
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        306,
+        305,
+        305
+      ],
+      "mean_percent": 77.69296013570823,
+      "sample_sd_percentage_points": 0.1469084654426479
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        323,
+        326,
+        328
+      ],
+      "mean_percent": 82.86683630195081,
+      "sample_sd_percentage_points": 0.6403591548151601
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        184,
+        179,
+        185
+      ],
+      "mean_percent": 72.4867724867725,
+      "sample_sd_percentage_points": 1.2756151800255204
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        198,
+        193,
+        197
+      ],
+      "mean_percent": 77.77777777777777,
+      "sample_sd_percentage_points": 1.049901313914523
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        204,
+        200,
+        206
+      ],
+      "mean_percent": 80.68783068783068,
+      "sample_sd_percentage_points": 1.2123216124221787
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        213,
+        209,
+        214
+      ],
+      "mean_percent": 84.12698412698413,
+      "sample_sd_percentage_points": 1.0499013139145204
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        179,
+        179,
+        177
+      ],
+      "mean_percent": 70.76719576719577,
+      "sample_sd_percentage_points": 0.4582144993568483
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        189,
+        188,
+        189
+      ],
+      "mean_percent": 74.86772486772487,
+      "sample_sd_percentage_points": 0.22910724967842006
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        193,
+        191,
+        195
+      ],
+      "mean_percent": 76.58730158730158,
+      "sample_sd_percentage_points": 0.7936507936507908
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        203,
+        198,
+        206
+      ],
+      "mean_percent": 80.29100529100529,
+      "sample_sd_percentage_points": 1.603750747748962
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        305,
+        307,
+        307
+      ],
+      "mean_percent": 64.22082459818309,
+      "sample_sd_percentage_points": 0.24207558456588044
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        399,
+        401,
+        391
+      ],
+      "mean_percent": 83.22851153039832,
+      "sample_sd_percentage_points": 1.1093296901738308
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        416,
+        418,
+        415
+      ],
+      "mean_percent": 87.2816212438854,
+      "sample_sd_percentage_points": 0.32023589762094956
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        419,
+        422,
+        420
+      ],
+      "mean_percent": 88.12019566736548,
+      "sample_sd_percentage_points": 0.32023589762094956
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        120,
+        121,
+        122
+      ],
+      "mean_percent": 25.366876310272538,
+      "sample_sd_percentage_points": 0.20964360587002062
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        367,
+        371,
+        375
+      ],
+      "mean_percent": 77.77777777777777,
+      "sample_sd_percentage_points": 0.8385744234800896
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        399,
+        407,
+        400
+      ],
+      "mean_percent": 84.27672955974843,
+      "sample_sd_percentage_points": 0.9138152921468886
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        413,
+        419,
+        413
+      ],
+      "mean_percent": 87.0020964360587,
+      "sample_sd_percentage_points": 0.7262267536976494
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        197,
+        251,
+        246
+      ],
+      "mean_percent": 57.11934156378601,
+      "sample_sd_percentage_points": 7.367519490546378
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        291,
+        304,
+        312
+      ],
+      "mean_percent": 74.65020576131687,
+      "sample_sd_percentage_points": 2.6169733490674347
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        321,
+        327,
+        334
+      ],
+      "mean_percent": 80.82304526748972,
+      "sample_sd_percentage_points": 1.6065202712710451
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        342,
+        336,
+        342
+      ],
+      "mean_percent": 83.95061728395062,
+      "sample_sd_percentage_points": 0.8553337321327786
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        166,
+        229,
+        206
+      ],
+      "mean_percent": 49.465020576131685,
+      "sample_sd_percentage_points": 7.871600807553998
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        224,
+        286,
+        283
+      ],
+      "mean_percent": 65.26748971193416,
+      "sample_sd_percentage_points": 8.632563952396566
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        260,
+        315,
+        322
+      ],
+      "mean_percent": 73.82716049382717,
+      "sample_sd_percentage_points": 8.384161405604763
+    },
+    {
+      "mode": "known",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        303,
+        331,
+        333
+      ],
+      "mean_percent": 79.58847736625515,
+      "sample_sd_percentage_points": 4.141480041286958
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1392,
+        1358,
+        1376
+      ],
+      "mean_percent": 57.30555555555556,
+      "sample_sd_percentage_points": 0.7087417123429474
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1848,
+        1851,
+        1834
+      ],
+      "mean_percent": 76.84722222222223,
+      "sample_sd_percentage_points": 0.3780738219115584
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1925,
+        1924,
+        1922
+      ],
+      "mean_percent": 80.15277777777777,
+      "sample_sd_percentage_points": 0.06364688465216548
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1972,
+        1973,
+        1969
+      ],
+      "mean_percent": 82.13888888888889,
+      "sample_sd_percentage_points": 0.08673608331108507
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1052,
+        965,
+        1057
+      ],
+      "mean_percent": 42.69444444444444,
+      "sample_sd_percentage_points": 2.155553765749542
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1699,
+        1711,
+        1710
+      ],
+      "mean_percent": 71.11111111111111,
+      "sample_sd_percentage_points": 0.27743033826997354
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1852,
+        1853,
+        1861
+      ],
+      "mean_percent": 77.30555555555556,
+      "sample_sd_percentage_points": 0.20553678592984587
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1923,
+        1924,
+        1924
+      ],
+      "mean_percent": 80.15277777777779,
+      "sample_sd_percentage_points": 0.02405626121623714
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        485,
+        483,
+        483
+      ],
+      "mean_percent": 91.08600125549279,
+      "sample_sd_percentage_points": 0.21745772850833076
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        465,
+        453,
+        460
+      ],
+      "mean_percent": 86.50345260514752,
+      "sample_sd_percentage_points": 1.1351626691792358
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        524,
+        525,
+        525
+      ],
+      "mean_percent": 98.80728185812931,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        155,
+        130,
+        151
+      ],
+      "mean_percent": 42.49512670565302,
+      "sample_sd_percentage_points": 3.926556935376937
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        195,
+        200,
+        196
+      ],
+      "mean_percent": 57.60233918128655,
+      "sample_sd_percentage_points": 0.7736114944633298
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        204,
+        209,
+        204
+      ],
+      "mean_percent": 60.136452241715396,
+      "sample_sd_percentage_points": 0.844079340920509
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        220,
+        217,
+        218
+      ],
+      "mean_percent": 63.8401559454191,
+      "sample_sd_percentage_points": 0.44664480457659056
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        87,
+        31,
+        95
+      ],
+      "mean_percent": 20.760233918128655,
+      "sample_sd_percentage_points": 10.196254838691633
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        181,
+        181,
+        183
+      ],
+      "mean_percent": 53.11890838206627,
+      "sample_sd_percentage_points": 0.3376317363682036
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        193,
+        192,
+        196
+      ],
+      "mean_percent": 56.627680311890835,
+      "sample_sd_percentage_points": 0.608674268849749
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        205,
+        204,
+        203
+      ],
+      "mean_percent": 59.64912280701754,
+      "sample_sd_percentage_points": 0.2923976608187111
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        173,
+        172,
+        157
+      ],
+      "mean_percent": 42.578456318914334,
+      "sample_sd_percentage_points": 2.280632681891223
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        288,
+        286,
+        284
+      ],
+      "mean_percent": 72.7735368956743,
+      "sample_sd_percentage_points": 0.5089058524172998
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        305,
+        301,
+        299
+      ],
+      "mean_percent": 76.75996607294317,
+      "sample_sd_percentage_points": 0.777366530102775
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        310,
+        310,
+        310
+      ],
+      "mean_percent": 78.88040712468194,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        137,
+        136,
+        137
+      ],
+      "mean_percent": 34.77523324851569,
+      "sample_sd_percentage_points": 0.146908465442652
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        248,
+        251,
+        246
+      ],
+      "mean_percent": 63.1891433418151,
+      "sample_sd_percentage_points": 0.6403591548151611
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        286,
+        284,
+        286
+      ],
+      "mean_percent": 72.60390161153519,
+      "sample_sd_percentage_points": 0.293816930885304
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        305,
+        301,
+        302
+      ],
+      "mean_percent": 77.01441899915183,
+      "sample_sd_percentage_points": 0.5296860049532182
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        134,
+        131,
+        132
+      ],
+      "mean_percent": 52.51322751322751,
+      "sample_sd_percentage_points": 0.6061608062110933
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        182,
+        180,
+        183
+      ],
+      "mean_percent": 72.08994708994709,
+      "sample_sd_percentage_points": 0.6061608062110901
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        186,
+        183,
+        189
+      ],
+      "mean_percent": 73.80952380952381,
+      "sample_sd_percentage_points": 1.1904761904761898
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        187,
+        189,
+        193
+      ],
+      "mean_percent": 75.26455026455027,
+      "sample_sd_percentage_points": 1.2123216124221787
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        119,
+        113,
+        113
+      ],
+      "mean_percent": 45.63492063492063,
+      "sample_sd_percentage_points": 1.3746434980705367
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        179,
+        176,
+        177
+      ],
+      "mean_percent": 70.37037037037037,
+      "sample_sd_percentage_points": 0.6061608062110964
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        180,
+        182,
+        181
+      ],
+      "mean_percent": 71.82539682539682,
+      "sample_sd_percentage_points": 0.39682539682539897
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        184,
+        185,
+        188
+      ],
+      "mean_percent": 73.67724867724868,
+      "sample_sd_percentage_points": 0.8260579362960877
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        243,
+        241,
+        248
+      ],
+      "mean_percent": 51.15303983228512,
+      "sample_sd_percentage_points": 0.7558807705375227
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        368,
+        371,
+        362
+      ],
+      "mean_percent": 76.93920335429769,
+      "sample_sd_percentage_points": 0.9607076928628548
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        394,
+        399,
+        394
+      ],
+      "mean_percent": 82.94898672257162,
+      "sample_sd_percentage_points": 0.6051889614147051
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        404,
+        405,
+        401
+      ],
+      "mean_percent": 84.55625436757512,
+      "sample_sd_percentage_points": 0.43640796634510165
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        96,
+        100,
+        100
+      ],
+      "mean_percent": 20.6848357791754,
+      "sample_sd_percentage_points": 0.4841511691317629
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        305,
+        318,
+        317
+      ],
+      "mean_percent": 65.68832983927324,
+      "sample_sd_percentage_points": 1.5165991903711182
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        372,
+        379,
+        383
+      ],
+      "mean_percent": 79.24528301886792,
+      "sample_sd_percentage_points": 1.1672461976582875
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        395,
+        397,
+        394
+      ],
+      "mean_percent": 82.87910552061496,
+      "sample_sd_percentage_points": 0.3202358976209558
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        202,
+        201,
+        205
+      ],
+      "mean_percent": 50.041152263374485,
+      "sample_sd_percentage_points": 0.5139916048064542
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        290,
+        289,
+        284
+      ],
+      "mean_percent": 71.02880658436214,
+      "sample_sd_percentage_points": 0.7937161120158813
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        311,
+        307,
+        311
+      ],
+      "mean_percent": 76.46090534979425,
+      "sample_sd_percentage_points": 0.5702224880885218
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        326,
+        327,
+        322
+      ],
+      "mean_percent": 80.24691358024691,
+      "sample_sd_percentage_points": 0.6532719286579225
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        148,
+        132,
+        152
+      ],
+      "mean_percent": 35.55555555555556,
+      "sample_sd_percentage_points": 2.613087714631694
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        262,
+        260,
+        262
+      ],
+      "mean_percent": 64.52674897119341,
+      "sample_sd_percentage_points": 0.2851112440442568
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        296,
+        291,
+        290
+      ],
+      "mean_percent": 72.18106995884773,
+      "sample_sd_percentage_points": 0.7937161120158813
+    },
+    {
+      "mode": "unknown",
+      "view": "stage1_gated",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        309,
+        312,
+        312
+      ],
+      "mean_percent": 76.79012345679013,
+      "sample_sd_percentage_points": 0.4276668660663934
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1562,
+        1522,
+        1546
+      ],
+      "mean_percent": 64.30555555555556,
+      "sample_sd_percentage_points": 0.8388704928078604
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1911,
+        1912,
+        1899
+      ],
+      "mean_percent": 79.47222222222223,
+      "sample_sd_percentage_points": 0.30142408908626134
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1996,
+        1983,
+        1979
+      ],
+      "mean_percent": 82.75,
+      "sample_sd_percentage_points": 0.37034143405482073
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        2039,
+        2031,
+        2014
+      ],
+      "mean_percent": 84.5,
+      "sample_sd_percentage_points": 0.5319643889501497
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1261,
+        1158,
+        1260
+      ],
+      "mean_percent": 51.09722222222222,
+      "sample_sd_percentage_points": 2.4658547838051637
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1792,
+        1814,
+        1815
+      ],
+      "mean_percent": 75.29166666666667,
+      "sample_sd_percentage_points": 0.5416666666666626
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1918,
+        1916,
+        1920
+      ],
+      "mean_percent": 79.91666666666667,
+      "sample_sd_percentage_points": 0.0833333333333357
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "all",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 2400,
+      "seed_hits": [
+        1981,
+        1982,
+        1975
+      ],
+      "mean_percent": 82.47222222222223,
+      "sample_sd_percentage_points": 0.15774745405000426
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        514,
+        512,
+        512
+      ],
+      "mean_percent": 96.5473948524796,
+      "sample_sd_percentage_points": 0.21745772850833897
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        501,
+        489,
+        495
+      ],
+      "mean_percent": 93.22033898305085,
+      "sample_sd_percentage_points": 1.1299435028248581
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        524,
+        525,
+        525
+      ],
+      "mean_percent": 98.80728185812931,
+      "sample_sd_percentage_points": 0.10872886425416949
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class1",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 531,
+      "seed_hits": [
+        525,
+        525,
+        525
+      ],
+      "mean_percent": 98.87005649717514,
+      "sample_sd_percentage_points": 0.0
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        162,
+        137,
+        160
+      ],
+      "mean_percent": 44.73684210526316,
+      "sample_sd_percentage_points": 4.062118125570119
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        197,
+        203,
+        197
+      ],
+      "mean_percent": 58.18713450292398,
+      "sample_sd_percentage_points": 1.0128952091046066
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        210,
+        214,
+        207
+      ],
+      "mean_percent": 61.500974658869396,
+      "sample_sd_percentage_points": 1.0268668375100143
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        224,
+        220,
+        218
+      ],
+      "mean_percent": 64.5224171539961,
+      "sample_sd_percentage_points": 0.8932896091531858
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        96,
+        36,
+        107
+      ],
+      "mean_percent": 23.294346978557506,
+      "sample_sd_percentage_points": 11.173774259114223
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        186,
+        185,
+        186
+      ],
+      "mean_percent": 54.28849902534113,
+      "sample_sd_percentage_points": 0.1688158681840977
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        196,
+        199,
+        201
+      ],
+      "mean_percent": 58.08966861598441,
+      "sample_sd_percentage_points": 0.7358513094805792
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class2",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 342,
+      "seed_hits": [
+        208,
+        208,
+        205
+      ],
+      "mean_percent": 60.526315789473685,
+      "sample_sd_percentage_points": 0.5064476045523054
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        204,
+        198,
+        191
+      ],
+      "mean_percent": 50.296861747243426,
+      "sample_sd_percentage_points": 1.6555743253556527
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        305,
+        301,
+        301
+      ],
+      "mean_percent": 76.92960135708228,
+      "sample_sd_percentage_points": 0.5876338617706162
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        322,
+        317,
+        317
+      ],
+      "mean_percent": 81.08566581849024,
+      "sample_sd_percentage_points": 0.7345423272132641
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        330,
+        331,
+        326
+      ],
+      "mean_percent": 83.7150127226463,
+      "sample_sd_percentage_points": 0.6732191631207624
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        169,
+        170,
+        171
+      ],
+      "mean_percent": 43.25699745547074,
+      "sample_sd_percentage_points": 0.2544529262086499
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        270,
+        280,
+        274
+      ],
+      "mean_percent": 69.88973706530959,
+      "sample_sd_percentage_points": 1.2807183096303223
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        309,
+        305,
+        305
+      ],
+      "mean_percent": 77.94741306191688,
+      "sample_sd_percentage_points": 0.587633861770608
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class3",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 393,
+      "seed_hits": [
+        326,
+        323,
+        322
+      ],
+      "mean_percent": 82.3579304495335,
+      "sample_sd_percentage_points": 0.5296860049532102
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        182,
+        179,
+        180
+      ],
+      "mean_percent": 71.56084656084657,
+      "sample_sd_percentage_points": 0.6061608062110901
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        194,
+        193,
+        193
+      ],
+      "mean_percent": 76.71957671957672,
+      "sample_sd_percentage_points": 0.22910724967842827
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        201,
+        196,
+        200
+      ],
+      "mean_percent": 78.96825396825396,
+      "sample_sd_percentage_points": 1.049901313914523
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        206,
+        203,
+        205
+      ],
+      "mean_percent": 81.21693121693121,
+      "sample_sd_percentage_points": 0.6061608062110901
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        177,
+        169,
+        170
+      ],
+      "mean_percent": 68.25396825396825,
+      "sample_sd_percentage_points": 1.7297218029923336
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        187,
+        185,
+        186
+      ],
+      "mean_percent": 73.80952380952381,
+      "sample_sd_percentage_points": 0.39682539682539186
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        190,
+        190,
+        191
+      ],
+      "mean_percent": 75.52910052910053,
+      "sample_sd_percentage_points": 0.22910724967842827
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class4",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 252,
+      "seed_hits": [
+        195,
+        197,
+        201
+      ],
+      "mean_percent": 78.43915343915344,
+      "sample_sd_percentage_points": 1.2123216124221787
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        258,
+        256,
+        263
+      ],
+      "mean_percent": 54.297693920335426,
+      "sample_sd_percentage_points": 0.7558807705375267
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        388,
+        391,
+        390
+      ],
+      "mean_percent": 81.6911250873515,
+      "sample_sd_percentage_points": 0.3202358976209558
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        411,
+        410,
+        408
+      ],
+      "mean_percent": 85.88399720475192,
+      "sample_sd_percentage_points": 0.32023589762094956
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        418,
+        417,
+        412
+      ],
+      "mean_percent": 87.14185883997204,
+      "sample_sd_percentage_points": 0.6739099064285786
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        118,
+        120,
+        120
+      ],
+      "mean_percent": 25.01747030048917,
+      "sample_sd_percentage_points": 0.2420755845658825
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        349,
+        367,
+        368
+      ],
+      "mean_percent": 75.75122292103424,
+      "sample_sd_percentage_points": 2.2416512833466706
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        392,
+        394,
+        395
+      ],
+      "mean_percent": 82.52969951083158,
+      "sample_sd_percentage_points": 0.3202358976209558
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class5",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 477,
+      "seed_hits": [
+        408,
+        409,
+        404
+      ],
+      "mean_percent": 85.32494758909853,
+      "sample_sd_percentage_points": 0.5546648450869127
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        242,
+        240,
+        240
+      ],
+      "mean_percent": 59.4238683127572,
+      "sample_sd_percentage_points": 0.2851112440442609
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        302,
+        299,
+        293
+      ],
+      "mean_percent": 73.58024691358025,
+      "sample_sd_percentage_points": 1.1315001715940312
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        327,
+        321,
+        322
+      ],
+      "mean_percent": 79.83539094650206,
+      "sample_sd_percentage_points": 0.7937161120158864
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "fusion",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        336,
+        335,
+        328
+      ],
+      "mean_percent": 82.22222222222223,
+      "sample_sd_percentage_points": 1.0762713440841143
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 1,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        200,
+        174,
+        197
+      ],
+      "mean_percent": 46.99588477366255,
+      "sample_sd_percentage_points": 3.5121956038439293
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 3,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        276,
+        272,
+        276
+      ],
+      "mean_percent": 67.81893004115227,
+      "sample_sd_percentage_points": 0.5702224880885218
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 5,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        306,
+        303,
+        303
+      ],
+      "mean_percent": 75.06172839506172,
+      "sample_sd_percentage_points": 0.4276668660663934
+    },
+    {
+      "mode": "unknown",
+      "view": "stage2_ungated_diagnostic",
+      "method": "frequency",
+      "stratum": "class6",
+      "top_k": 10,
+      "runs": 3,
+      "n_per_run": 405,
+      "seed_hits": [
+        319,
+        320,
+        318
+      ],
+      "mean_percent": 78.76543209876543,
+      "sample_sd_percentage_points": 0.24691358024691112
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "dataset_structural_mining.py": {
+    "imports": [
+      "rdkit",
+      "standard library"
+    ],
+    "inputs": [
+      "CLI-provided atom-mapped source reaction CSV"
+    ],
+    "standalone_with_inputs": true
+  },
+  "dataset_cleaning.py": {
+    "imports": [
+      "rdkit",
+      "dataset_structural_mining"
+    ],
+    "inputs_not_in_whitelist": [
+      "high-confidence mined reactions CSV",
+      "generated RXNMapper map CSV",
+      "original arylation train/valid/test CSVs"
+    ],
+    "standalone_with_whitelist": false
+  },
+  "dataset_center_annotation.py": {
+    "imports": [
+      "numpy",
+      "tqdm",
+      "rdkit",
+      "torch",
+      "torch_scatter",
+      "pandas",
+      "torchdrug"
+    ],
+    "inputs": [
+      "source records passed by calling workflow"
+    ],
+    "standalone_with_whitelist": false
+  },
+  "dataset_small_builder.py": {
+    "imports": [
+      "numpy",
+      "scipy.optimize (inside selection routine)",
+      "standard library"
+    ],
+    "inputs_not_in_whitelist": [
+      "parent train/valid/test CSVs",
+      "data_manifest.json",
+      "purpose_audit/{train,valid,test}_population.json",
+      "purpose_audit/primary_threshold.json",
+      "historical subset indices"
+    ],
+    "standalone_with_whitelist": false
+  },
+  "llm_client.py": {
+    "imports": [
+      "standard library"
+    ],
+    "credentials": "api_key supplied at runtime; no literal key found",
+    "inputs": [
+      "caller-provided endpoint/model and optional authentication"
+    ],
+    "makes_requests_on_import": false
+  },
+  "route_assessment.py": {
+    "imports": [
+      "rdkit",
+      "agentic_retrosynthesis.tool_policy.molecule_observation",
+      ".route_diagram.route_graph",
+      ".route_diagram.chemistry_review"
+    ],
+    "dependencies_not_in_whitelist": [
+      "route_diagram.py",
+      "agentic_retrosynthesis/tool_policy.py"
+    ],
+    "standalone_with_whitelist": false
+  }
+}

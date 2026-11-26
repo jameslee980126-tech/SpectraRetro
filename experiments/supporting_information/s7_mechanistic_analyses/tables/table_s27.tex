@@ -1,0 +1,23 @@
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.440000}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.180000}}>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.380000}}@{}}
+\multicolumn{3}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S27. Summary of electronic-calculation convergence and integration checks.}}\label{tab:s27-quantum-quality}\\[5pt]
+\toprule
+Diagnostic & Observed & Scope or comparison \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\textbf{Table S27 (continued).}}\\
+\toprule
+Diagnostic & Observed & Scope or comparison \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Molecular structures & 17 & 6 parents, 6 target oxides, 5 controls \\
+Electronic states & 34 & 17 neutral singlets and 17 cation doublets \\
+SCF-converged states & 34/34 & Converged at the configured tolerances \\
+Internally stable states & 34/34 & Internal orbital-stability check \\
+States with three converged stability roots & 34/34 & Recorded three-root numerical convergence \\
+Maximum grid-4-to-5 charge difference ($e$) & $9.616564\times10^{-6}$ & Observed $<10^{-4}\,e$ \\
+Maximum grid-4-to-5 $f^-$ difference & $5.459335\times10^{-7}$ & Observed $<10^{-4}$ (dimensionless) \\
+Maximum grid-5 total-charge error ($e$) & $3.071900\times10^{-5}$ & Observed $<10^{-4}\,e$ \\
+Maximum stability eigenpair residual norm & $9.775083\times10^{-3}$ & $<10^{-2}$ (recorded solver norm tolerance) \\
+\end{longtable}

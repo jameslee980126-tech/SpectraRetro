@@ -1,0 +1,10 @@
+{
+  "model": "Retroformer",
+  "source_commit": "4e94540e06f5a0ed52ac7b7c4acdd98e92aeda56",
+  "vocabulary_scope": "frozen_training_split_only",
+  "selected_train_sha256": "957e27d354d6b82f6bc1eab1fda8f5ec365517bede2e4d31112c3677ca50f648",
+  "total_training_rows": 74146,
+  "usable_training_rows": 74146,
+  "shared_vocabulary_tokens": 99,
+  "vocab_sha256": "1d230d42d1048b1d45ae6dc218b4def630cc350e8dcd95162d3f1fc2dd34c0d1"
+}

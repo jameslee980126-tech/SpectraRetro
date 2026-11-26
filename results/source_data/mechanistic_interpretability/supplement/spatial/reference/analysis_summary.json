@@ -1,0 +1,174 @@
+{
+  "electronics": {
+    "model_mode": "Stage1 frozen unknown-class; follow-up reversal-averaged diagnostic readout, not a new official evaluation",
+    "quantum_molecules": 17,
+    "original_quantum_calls": 36,
+    "new_quantum_calls": 15,
+    "unique_target_parents": 6,
+    "off_target_comparisons": 5,
+    "off_target_parent_clusters": 4,
+    "target_positive_score": 5,
+    "target_negative_score": 1,
+    "target_positive_fminus": 6,
+    "target_aligned_sign_two_sided_p": 0.21875,
+    "target_fminus_score_spearman": -0.4285714285714286,
+    "controls_all_more_negative_q": true,
+    "controls_all_larger_fminus": true,
+    "controls_all_larger_score": true,
+    "parent_mean_positive_score": 4,
+    "parent_level_sign_two_sided_p": 0.125,
+    "primary_vs_followup_max_delta_difference": 0.05216618776320914,
+    "ordinary_rgcn_symmetric_target_positive": 5,
+    "no_spectral_all_zero": true,
+    "gasteiger_vs_xtb_charge_contrast_sign_disagreements": 6,
+    "external_212_case_context": {
+      "n": 212,
+      "source_clusters": 19,
+      "accuracy": 0.15837825696316263,
+      "candidate_chance": 0.2047001347708895,
+      "excess_over_chance_ci": [
+        -0.11020298309197095,
+        0.07063882555234481
+      ]
+    },
+    "conclusion": "Position-specific chemical-state response with independent local electronic redistribution; exploratory consistency. Magnitude tracking, exclusive spectral mechanism, and experimental site-selectivity prediction are not established."
+  },
+  "sterics": {
+    "model_mode": "Existing frozen known-class Stage2 checkpoint only; not unknown-class evidence",
+    "checkpoint_sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+    "test_baseline_fragments": 317,
+    "strict_test_fragments": 38,
+    "independent_known_graph_clusters": 22,
+    "selected_primary_angles": 100,
+    "raw_states_replayed": 84888,
+    "maximum_geometry_finite_difference_error": 1.4542544946039015e-10,
+    "seed_aggregation": "Original FP32 mean of three stored noise repeats; float64 angle/fragment means",
+    "maximum_float64_vs_original_seed_mean_difference_deg": 2.543131508048191e-06,
+    "local_core_exactly_preserved": true,
+    "all_test_raw_fragment_means_match_archived": true,
+    "times": [
+      {
+        "t": 0.07,
+        "original": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.4104954054301695,
+          "median": 0.18666356801986694,
+          "ci_low": 0.21365922796432799,
+          "ci_high": 0.7873158926787373,
+          "positive": 37,
+          "negative": 1,
+          "cluster_equal_mean": 0.6031557192601154,
+          "bootstrap_replicates": 20000
+        },
+        "common_center": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.4059236561897396,
+          "median": 0.18807978183031082,
+          "ci_low": 0.21056059712386355,
+          "ci_high": 0.7806356836121099,
+          "positive": 37,
+          "negative": 1,
+          "cluster_equal_mean": 0.5945765662105905,
+          "bootstrap_replicates": 20000
+        },
+        "bidirectional": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.02192982456140351,
+          "median": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.08064516129032258,
+          "positive": 1,
+          "negative": 0,
+          "cluster_equal_mean": 0.03787878787878788,
+          "bootstrap_replicates": 20000
+        }
+      },
+      {
+        "t": 0.14,
+        "original": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.809798798766594,
+          "median": 0.36420178413391113,
+          "ci_low": 0.4089012389798705,
+          "ci_high": 1.5943021483197717,
+          "positive": 36,
+          "negative": 2,
+          "cluster_equal_mean": 1.183672715223584,
+          "bootstrap_replicates": 20000
+        },
+        "common_center": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.7851262261458488,
+          "median": 0.3702461402863264,
+          "ci_low": 0.39042474402450805,
+          "ci_high": 1.553726615637987,
+          "positive": 36,
+          "negative": 2,
+          "cluster_equal_mean": 1.1366821539983378,
+          "bootstrap_replicates": 20000
+        },
+        "bidirectional": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.03932748538011696,
+          "median": 0.0,
+          "ci_low": 0.0008953573028673841,
+          "ci_high": 0.1150797964113181,
+          "positive": 4,
+          "negative": 0,
+          "cluster_equal_mean": 0.06792929292929292,
+          "bootstrap_replicates": 20000
+        }
+      },
+      {
+        "t": 0.27,
+        "original": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 1.6446243633056306,
+          "median": 0.6747668117284775,
+          "ci_low": 0.7160621099869,
+          "ci_high": 3.5792897341769034,
+          "positive": 36,
+          "negative": 2,
+          "cluster_equal_mean": 2.4449266758207155,
+          "bootstrap_replicates": 20000
+        },
+        "common_center": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 1.565990725011894,
+          "median": 0.6956569580361247,
+          "ci_low": 0.6694118452337098,
+          "ci_high": 3.381194696021573,
+          "positive": 35,
+          "negative": 3,
+          "cluster_equal_mean": 2.283231864492832,
+          "bootstrap_replicates": 20000
+        },
+        "bidirectional": {
+          "n": 38,
+          "clusters": 22,
+          "mean": 0.05789473684210527,
+          "median": 0.0,
+          "ci_low": 0.013492063492063491,
+          "ci_high": 0.13600038314176244,
+          "positive": 8,
+          "negative": 0,
+          "cluster_equal_mean": 0.1,
+          "bootstrap_replicates": 20000
+        }
+      }
+    ],
+    "leave_one_cluster_out_min": 0.5338372101105913,
+    "leave_one_cluster_out_max": 0.8933679764615385,
+    "leave_one_cluster_out_all_positive": true,
+    "geometry_only_illustration_uuid": 2632,
+    "conclusion": "A small nonlocal spatial-context response survives common-center control and removing any one known-graph cluster. This is a decoder-free, reference-derived fixed-composition denoising probe, not a force field, barrier prediction, or end-to-end synthesis success."
+  }
+}

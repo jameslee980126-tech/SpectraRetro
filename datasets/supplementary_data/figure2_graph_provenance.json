@@ -1,0 +1,47 @@
+{
+  "source_path": "source-record:stage1/preprocess_dataset.csv",
+  "source_sha256": "115fd2f2896c5e0e9ebae4ea3ad676175af9f1149cac2db00cb53fae9d4d6bce",
+  "source_unchanged": true,
+  "full_records": 92791,
+  "sampled_records": 12000,
+  "preview_seed": 20261011,
+  "sampling": "proportional stratified visual preview, without replacement; no model predictions used",
+  "full_class_counts": {
+    "1": 24568,
+    "2": 13806,
+    "3": 18665,
+    "4": 5438,
+    "5": 15843,
+    "6": 14471
+  },
+  "sample_class_counts": {
+    "1": 3177,
+    "2": 1786,
+    "3": 2414,
+    "4": 703,
+    "5": 2049,
+    "6": 1871
+  },
+  "unique_fingerprint_nodes": 11565,
+  "fingerprint": "2048 Morgan count product block + 2048 product-minus-reactants Morgan count block; radius 2; separate L2 normalization then joint L2 normalization",
+  "agents_included": false,
+  "chirality": false,
+  "rdkit_version": "2026.03.1",
+  "labels_used_in_fingerprint_or_distances": false,
+  "nearest_neighbours": 24,
+  "distance": "cosine",
+  "duplicate_node_policy": "Exact product/difference count fingerprints merged; all selected records represented by node multiplicity; dominant family is colour metadata",
+  "original_knn_components": 1,
+  "component_bridges": [],
+  "bridge_method": "MST on component-mean cosine distances selects component pairs; exact nearest fingerprint pair for each bridge",
+  "tree_method": "minimum spanning tree of the augmented symmetric exact kNN graph",
+  "method_identity": "Custom Morgan-based similarity tree; not rxnfp, not a reproduction of the TMAP software layout",
+  "tree_edges": 11564,
+  "edge_epsilon": 1e-08,
+  "files": {
+    "reaction_features.npz": "75b8cd7b38e1c5cb5847ec640164c6fe2267145225543ae3421a38c61c9ead18",
+    "nodes.csv": "fdb73817b38a20650b469b33bc9e2a74cbe2e7d61de163a82cd09e46013501eb",
+    "selected_reactions.csv": "335512ff2818832efafeacf24c43e22dd79e49c2edc9bfc432d81cef32d547d6",
+    "similarity_tree.npz": "87707e5062cf611a8bc4796a6afd1c64db9d65e812e2098f2cc5e98232f24e93"
+  }
+}

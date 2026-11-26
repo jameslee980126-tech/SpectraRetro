@@ -1,0 +1,12 @@
+defaults:
+  - uspto_50k
+
+data_root: ${paths.data_dir}/uspto_full
+
+n_dummy: 20
+max_n_len: 100
+
+graph_vocab: uspto_full
+forward_syn_model: null
+
+cond_cfg: null

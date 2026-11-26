@@ -1,0 +1,39 @@
+{
+  "archive_name": "TransGraphEdit_ch6_69pct_unknown_20260910_epoch20",
+  "created_at_cst": "2026-09-10T00:21:11.651281+08:00",
+  "model": "TransGraphEdit",
+  "information_regime": "unknown-class (reaction class not supplied)",
+  "dataset": "ch6_69pct chemically complete raw precursor targets",
+  "split_rows": {
+    "train": 74146,
+    "valid": 9395,
+    "test": 9250
+  },
+  "selected_checkpoint": "results/experiment/epoch_20.pt",
+  "checkpoint_alias_for_author_eval": "results/experiment/epoch_78.pt",
+  "training_stopped_after_completed_epoch": 26,
+  "stop_reason": "user-requested inference after approximate convergence",
+  "best_validation_epoch": 20,
+  "best_validation_full_edit_sequence_accuracy": 0.6796,
+  "beam_size": 10,
+  "max_edit_steps": 9,
+  "author_native_metrics": {
+    "Top-1": 0.6249177451195438,
+    "Top-3": 0.8028076332529064,
+    "Top-5": 0.8335161219565694,
+    "Top-10": 0.8564378153103751
+  },
+  "author_native_denominator": 9118,
+  "unified_full_test_metrics": {
+    "Top-1": 0.616,
+    "Top-3": 0.7913513513513514,
+    "Top-5": 0.8216216216216217,
+    "Top-10": 0.8442162162162162
+  },
+  "unified_full_test_denominator": 9250,
+  "native_preprocessing_failures_scored_as_zero": 132,
+  "archive_scope": {
+    "included": "all saved experiment checkpoints, selected checkpoint alias, predictions, metric tables, raw frozen CSVs, native parsed split objects, vocabularies, source, adapters, training and inference logs",
+    "excluded": "22GB regenerable prepared training batch tensor cache"
+  }
+}

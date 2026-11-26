@@ -1,0 +1,740 @@
+{
+  "schema_version": 2,
+  "paper_basis": "JACS manuscript and Supporting Information (S1–S8)",
+  "experiments": [
+    {
+      "id": "section_2_dataset/2_dataset",
+      "title": "CHRetro construction and chemical diversity",
+      "items": [
+        "Figure 1",
+        "Figure 2"
+      ],
+      "code": [
+        "src/data_preparation",
+        "scripts/data/export_frozen_subset.py",
+        "datasets/supplementary_data/dataset_structural_mining.py"
+      ],
+      "data": [
+        "datasets/full",
+        "datasets/small",
+        "datasets/supplementary_data/dataset_class_mapping.json"
+      ],
+      "results": [
+        "results/supporting_information/source_data_figures",
+        "datasets/supplementary_data"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py",
+        "python scripts/reproduce_supporting_analyses.py"
+      ],
+      "scope": "The full and small partitions are included as CSV files. The landscape retains 12,000 sampled reaction records, 11,565 nodes and 11,564 edges. Descriptor populations contain 92,791 reactions and 73,522 normalized products, of which 73,521 have fully specified elements. Figure 1 is a scientific schematic.",
+      "checkpoints": [],
+      "configuration": [
+        "datasets/supplementary_data/dataset_class_mapping.json",
+        "datasets/supplementary_data/dataset_small_selection_plan.json",
+        "datasets/supplementary_data/dataset_small_thresholds.json"
+      ],
+      "local_artifact_manifest": "experiments/section_2_dataset/2_dataset/artifacts.json",
+      "local_material_count": 6,
+      "paper_location": "Introduction and curation of CHRetro",
+      "material_count": 14,
+      "shared_result_count": 8,
+      "figures": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_1_retrosynthetic_overview.png",
+        "experiments/section_2_dataset/2_dataset/figures/figure_2_chretro_dataset_overview.png"
+      ]
+    },
+    {
+      "id": "section_3_methods/3_1_to_3_4_architecture",
+      "title": "SpectraRetro and CHRetroAgent architecture",
+      "items": [
+        "Figure 1"
+      ],
+      "code": [
+        "src/spectraretro/run.py",
+        "src/spectraretro",
+        "src/spectraretro/fusion_reranker",
+        "src/agentic_retrosynthesis"
+      ],
+      "data": [],
+      "results": [],
+      "commands": [
+        "python src/spectraretro/known-class/run.py --check-only",
+        "python src/spectraretro/unknown-class/run.py --check-only"
+      ],
+      "scope": "The diagrams describe the spectral center model, size and composition conditioning, fixed-scaffold 3D completion, candidate ranking, and tool-assisted route planning. Model interfaces and tensor definitions are documented in the linked source and SI.",
+      "checkpoints": [],
+      "configuration": [
+        "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json"
+      ],
+      "local_artifact_manifest": "experiments/section_3_methods/3_1_to_3_4_architecture/artifacts.json",
+      "local_material_count": 2,
+      "paper_location": "Methods: CHRetroAgent and SpectraRetro",
+      "figures": [
+        "experiments/section_2_dataset/2_dataset/figures/figure_1_retrosynthetic_overview.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_1_benchmark",
+      "title": "Full and small-data retrosynthetic prediction",
+      "items": [
+        "Table 1"
+      ],
+      "code": [
+        "src/spectraretro/run.py",
+        "src/spectraretro/known-class/run.py",
+        "src/spectraretro/unknown-class/run.py",
+        "src/baselines",
+        "scripts/reproduce_results.py"
+      ],
+      "data": [
+        "datasets/full",
+        "datasets/small",
+        "experiments/spectraretro_inputs",
+        "experiments/section_4_results/4_1_benchmark/baseline_preprocessing_manifests"
+      ],
+      "checkpoints": [
+        "experiments/section_4_results/4_1_benchmark/models/checkpoints.json"
+      ],
+      "results": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/full",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/full",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/small",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/small",
+        "results/baselines/summary.json",
+        "results/paper_tables",
+        "experiments/section_4_results/4_1_benchmark/tables/table_1.tex"
+      ],
+      "commands": [
+        "python src/spectraretro/unknown-class/run.py",
+        "python src/spectraretro/known-class/run.py",
+        "python scripts/reproduce_results.py --check"
+      ],
+      "scope": "Full-data SpectraRetro uses one seed per mode and 9,250 test reactions. The small partition has 2,400 test reactions and three seeds. Saved reaction-level outcomes, decoded candidate tables, raw coordinate banks and available baseline prediction files are supplied.",
+      "configuration": [
+        "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json",
+        "results/reproduction/small/known_seed0_protocol.json",
+        "results/reproduction/small/known_seed1_protocol.json",
+        "results/reproduction/small/known_seed2_protocol.json",
+        "results/reproduction/small/unknown_seed0_protocol.json",
+        "results/reproduction/small/unknown_seed1_protocol.json",
+        "results/reproduction/small/unknown_seed2_protocol.json",
+        "src/spectraretro/fusion_reranker/manifest.json"
+      ],
+      "experiment_materials": [
+        "checkpoints/small",
+        "experiments/spectraretro_inputs/small",
+        "configs/experiments/small_completion.json",
+        "results/reproduction/small",
+        "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/baselines/Graph2Edits/full",
+        "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/baselines/TransGraphEdit/full"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_1_benchmark/artifacts.json",
+      "local_material_count": 4,
+      "paper_location": "Results: comparison with single-step retrosynthesis methods",
+      "material_count": 39,
+      "shared_result_count": 35
+    },
+    {
+      "id": "section_4_results/4_2_ablation",
+      "title": "Spectral propagation and composition-prior ablations",
+      "items": [
+        "Table 3",
+        "Figure S1",
+        "Figure S2"
+      ],
+      "code": [
+        "src/spectraretro/reaction_center",
+        "src/spectraretro/completion",
+        "results/reaction_center/reproduce.py"
+      ],
+      "data": [
+        "datasets/full",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/figure6_paired_reaction_results.csv"
+      ],
+      "checkpoints": [
+        "experiments/section_4_results/4_2_ablation/models/checkpoints.json"
+      ],
+      "results": [
+        "results/reaction_center",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/ablations",
+        "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+        "experiments/section_4_results/4_2_ablation/tables/table_3.tex"
+      ],
+      "commands": [
+        "python results/reaction_center/reproduce.py --check",
+        "python scripts/reproduce_supporting_analyses.py"
+      ],
+      "scope": "The spectral comparison includes paired reaction-center predictions, similarity strata and training curves. Figure S2 and Table S8 report heavy-atom graph recovery as aggregate statistics. The precursor-recovery records measure complete precursor sets.",
+      "configuration": [
+        "results/supporting_information/source_data_figures/figure6_similarity_thresholds.json",
+        "results/reaction_center/full_spectral_ablation/configuration.json",
+        "results/reaction_center/small_local_propagation/configuration.json",
+        "results/reproduction/chemical_prior/protocol.json"
+      ],
+      "experiment_materials": [
+        "checkpoints/ablations/chemical_prior",
+        "results/reproduction/chemical_prior"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_2_ablation/artifacts.json",
+      "local_material_count": 1,
+      "paper_location": "Results: ablation study",
+      "material_count": 20,
+      "shared_result_count": 19,
+      "figures": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s1_full_spectrum_family_gains.png",
+        "experiments/supporting_information/s4_additional_results/figures/figure_s2_chemical_prior_structural_match.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_3_similarity",
+      "title": "Complete-precursor recovery across similarity strata",
+      "items": [
+        "Table 2"
+      ],
+      "code": [
+        "scripts/data/similarity.py",
+        "scripts/reproduce_results.py"
+      ],
+      "data": [
+        "datasets/small",
+        "datasets/supplementary_data/small_stratum_seed_hits.csv"
+      ],
+      "results": [
+        "results/small_summary.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/small",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/small",
+        "experiments/section_4_results/4_3_similarity/tables/table_2.tex"
+      ],
+      "commands": [
+        "python scripts/reproduce_results.py --check"
+      ],
+      "scope": "Each similarity stratum contains 800 small-test reactions. SpectraRetro rows use seed-level hits and sample standard deviations across three runs. Consult the reported table and model-specific records for baseline values.",
+      "checkpoints": [
+        "experiments/section_4_results/4_3_similarity/models/checkpoints.json"
+      ],
+      "configuration": [
+        "datasets/supplementary_data/dataset_small_thresholds.json"
+      ],
+      "experiment_materials": [
+        "checkpoints/small",
+        "experiments/spectraretro_inputs/small",
+        "configs/experiments/small_completion.json"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_3_similarity/artifacts.json",
+      "local_material_count": 4,
+      "paper_location": "Results: prediction across local-similarity strata",
+      "material_count": 7,
+      "shared_result_count": 3
+    },
+    {
+      "id": "section_4_results/4_4_mechanistic_interpretability",
+      "title": "Chemical context, spatial response and electronic contrasts",
+      "items": [
+        "Figure 4"
+      ],
+      "code": [
+        "scripts/reproduce_mechanistic_tables.py",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/calculation_code"
+      ],
+      "data": [
+        "results/source_data/mechanistic_interpretability"
+      ],
+      "results": [
+        "results/source_data/mechanistic_interpretability/supplement"
+      ],
+      "commands": [
+        "python scripts/reproduce_mechanistic_tables.py"
+      ],
+      "scope": "Includes chemical association records, 38 spatial fragments in 22 scaffold clusters, six primary electronic pairs, five alternative-site controls, 17 fixed geometries and 34 electronic-state records. The table replay checks saved numerical values and molecular pair identities; new model or quantum calculations require their respective environments.",
+      "checkpoints": [],
+      "configuration": [],
+      "local_artifact_manifest": "experiments/section_4_results/4_4_mechanistic_interpretability/artifacts.json",
+      "local_material_count": 23,
+      "paper_location": "Results: mechanistic interpretability analysis",
+      "figures": [
+        "experiments/section_4_results/4_4_mechanistic_interpretability/figures/figure_4_mechanistic_context.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_5_error_analysis",
+      "title": "Incorrect predictions and structural discrepancies",
+      "items": [
+        "Figure 3",
+        "Figure S3"
+      ],
+      "code": [
+        "src/spectraretro/completion",
+        "scripts/reproduce_results.py"
+      ],
+      "data": [
+        "datasets/supplementary_data/figure8_case_structures.csv",
+        "results/cases/incorrect_predictions"
+      ],
+      "results": [
+        "results/error_analysis"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "The selected incorrect predictions are shown in Figure 3a,b and Figure S3a. The case records include predicted and reference structures alongside the population-level error analyses.",
+      "checkpoints": [],
+      "configuration": [],
+      "local_artifact_manifest": "experiments/section_4_results/4_5_error_analysis/artifacts.json",
+      "local_material_count": 2,
+      "paper_location": "Results: analysis of incorrect predictions",
+      "material_count": 19,
+      "shared_result_count": 17,
+      "figures": [
+        "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png",
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_6_single_step_cases",
+      "title": "Six representative C–H activation predictions",
+      "items": [
+        "Figure 3",
+        "Figure S3"
+      ],
+      "code": [
+        "src/experiments/single_multistep_cases"
+      ],
+      "data": [
+        "datasets/supplementary_data/six_successful_cases_verification.json"
+      ],
+      "results": [
+        "results/cases/single_step"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "The case records identify each product, the reaction centers predicted from its molecular graph, the synthons used for completion and the ranks of the resulting precursor candidates.",
+      "checkpoints": [
+        "experiments/section_4_results/4_6_single_step_cases/models/checkpoints.json"
+      ],
+      "configuration": [],
+      "experiment_materials": [
+        "checkpoints/cases/single_multistep",
+        "results/reproduction/single_multistep/source_map.json"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_6_single_step_cases/artifacts.json",
+      "local_material_count": 1,
+      "paper_location": "Results: case studies on representative C–H activation reactions",
+      "material_count": 9,
+      "shared_result_count": 8,
+      "figures": [
+        "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png",
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_7_multistep_cases",
+      "title": "Literature-supported multistep examples",
+      "items": [
+        "Figure 3",
+        "Figure S3"
+      ],
+      "code": [
+        "src/experiments/single_multistep_cases"
+      ],
+      "data": [
+        "datasets/supplementary_data/two_step_figure_evidence.json",
+        "results/cases/multistep"
+      ],
+      "results": [],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "Each recorded node has a selected bond, center probability/rank and local precursor-pair position. The records describe conditional single-step predictions within the illustrated routes.",
+      "checkpoints": [
+        "experiments/section_4_results/4_7_multistep_cases/models/checkpoints.json"
+      ],
+      "configuration": [],
+      "experiment_materials": [
+        "checkpoints/cases/single_multistep",
+        "results/reproduction/single_multistep/source_map.json"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_7_multistep_cases/artifacts.json",
+      "local_material_count": 1,
+      "paper_location": "Results: multistep retrosynthesis prediction for C–H activation",
+      "material_count": 8,
+      "shared_result_count": 7,
+      "figures": [
+        "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png",
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ]
+    },
+    {
+      "id": "section_4_results/4_8_chretroagent",
+      "title": "CHRetroAgent interface and pharmaceutical routes",
+      "items": [
+        "Figure 5"
+      ],
+      "code": [
+        "src/agentic_retrosynthesis",
+        "CHRetroAgent",
+        "datasets/supplementary_data/route_assessment.py"
+      ],
+      "data": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/agent_terminal_inventory.csv"
+      ],
+      "results": [
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "results/cases/agent"
+      ],
+      "commands": [
+        "python CHRetroAgent/preview.py --export outputs/example_route.html",
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "The pharmaceutical records describe supplied candidate banks and step templates, route expansion, and recorded whole-route assessments. Live model and supplier calls use caller configuration. Offline inspection requires no API credentials.",
+      "checkpoints": [
+        "experiments/section_4_results/4_8_chretroagent/models/checkpoints.json"
+      ],
+      "configuration": [
+        "results/cases/agent/protocol.json",
+        "results/cases/agent_generation/protocol.json"
+      ],
+      "experiment_materials": [
+        "checkpoints/cases/agent",
+        "results/cases/agent_generation",
+        "results/cases/agent_assessment"
+      ],
+      "local_artifact_manifest": "experiments/section_4_results/4_8_chretroagent/artifacts.json",
+      "local_material_count": 1,
+      "paper_location": "Results: CHRetroAgent for multistep retrosynthetic planning",
+      "material_count": 18,
+      "shared_result_count": 17,
+      "figures": [
+        "experiments/section_4_results/4_8_chretroagent/figures/figure_5_chretroagent_case_studies.png"
+      ]
+    },
+    {
+      "id": "supporting_information/s1_dataset_evaluation",
+      "title": "S1: Dataset construction and evaluation",
+      "items": [
+        "Table S1",
+        "Table S2"
+      ],
+      "code": [
+        "src/data_preparation",
+        "scripts/data",
+        "datasets/supplementary_data/dataset_cleaning.py",
+        "datasets/supplementary_data/dataset_center_annotation.py"
+      ],
+      "data": [
+        "datasets/full",
+        "datasets/small",
+        "experiments/spectraretro_inputs",
+        "datasets/supplementary_data/dataset_small_manifest.json"
+      ],
+      "results": [
+        "datasets/split_summary.json",
+        "datasets/supplementary_data/dataset_small_selected_summary.json"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "Frozen CSVs, source-row indices, family definitions, selection policy, geometry caches and evaluation inputs are included. Construction scripts document the source processing; original mined/source corpora remain governed by their own access and reuse terms.",
+      "checkpoints": [],
+      "configuration": [
+        "datasets/supplementary_data/dataset_class_mapping.json",
+        "datasets/supplementary_data/dataset_small_selection_plan.json",
+        "datasets/supplementary_data/dataset_small_thresholds.json"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s1_dataset_evaluation/artifacts.json",
+      "local_material_count": 11,
+      "paper_location": "SI §S1"
+    },
+    {
+      "id": "supporting_information/s2_spectral_encoder",
+      "title": "S2: Full-spectrum atom-pair learning",
+      "items": [
+        "Table S3"
+      ],
+      "code": [
+        "src/spectraretro/reaction_center",
+        "experiments/supporting_information/s2_spectral_encoder/reference_code"
+      ],
+      "data": [
+        "datasets/full",
+        "datasets/small"
+      ],
+      "checkpoints": [
+        "experiments/supporting_information/s2_spectral_encoder/models/checkpoints.json"
+      ],
+      "results": [
+        "results/reaction_center/full_spectral_ablation/training_curves/full_fspec.jsonl",
+        "results/reaction_center/full_spectral_ablation/training_curves/no_spectral.jsonl",
+        "results/reaction_center/small_local_propagation/training_curves/local_pair_seed0.jsonl",
+        "results/reaction_center/small_local_propagation/training_curves/local_pair_seed1.jsonl",
+        "results/reaction_center/small_local_propagation/training_curves/local_pair_seed2.jsonl"
+      ],
+      "commands": [
+        "python results/reaction_center/reproduce.py --check"
+      ],
+      "scope": "Includes the full-spectrum implementation, local-pair and no-spectral reference code, features, dimensions and saved training configurations. Original experiment-specific training scripts require their documented input layout.",
+      "configuration": [
+        "results/reaction_center/full_spectral_ablation/configuration.json",
+        "results/reaction_center/small_local_propagation/configuration.json"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s2_spectral_encoder/artifacts.json",
+      "local_material_count": 1,
+      "paper_location": "SI §S2",
+      "material_count": 8,
+      "shared_result_count": 7
+    },
+    {
+      "id": "supporting_information/s3_conditional_diffusion",
+      "title": "S3: Chemical-prior-guided 3D completion",
+      "items": [
+        "Table S4"
+      ],
+      "code": [
+        "src/spectraretro/completion",
+        "src/spectraretro/fusion_reranker"
+      ],
+      "data": [
+        "experiments/spectraretro_inputs",
+        "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/data/evaluation"
+      ],
+      "checkpoints": [
+        "experiments/supporting_information/s3_conditional_diffusion/models/checkpoints.json"
+      ],
+      "results": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/training",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/training",
+        "datasets/supplementary_data/full_training_selection_metadata.json"
+      ],
+      "commands": [
+        "python src/spectraretro/known-class/run.py train --check-only",
+        "python src/spectraretro/unknown-class/run.py train --check-only"
+      ],
+      "scope": "Includes retained/generated masks, anchors, composition prior, size banks, model checkpoints, training curves, selected-epoch metadata, decoding, reaction assembly and ranking. The full reference configuration uses 300 draws per fragment and 100 reverse intervals.",
+      "configuration": [
+        "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json",
+        "src/spectraretro/fusion_reranker/manifest.json"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s3_conditional_diffusion/artifacts.json",
+      "local_material_count": 12,
+      "paper_location": "SI §S3"
+    },
+    {
+      "id": "supporting_information/s4_additional_results",
+      "title": "S4: Supplementary analyses and results",
+      "items": [
+        "Table S5",
+        "Table S6",
+        "Table S7",
+        "Table S8",
+        "Table S9",
+        "Table S10",
+        "Table S12",
+        "Table S13",
+        "Figure S1",
+        "Figure S2"
+      ],
+      "code": [
+        "results/reaction_center/reproduce.py",
+        "scripts/reproduce_supporting_analyses.py",
+        "scripts/reproduce_results.py",
+        "scripts/reproduce_mechanistic_tables.py"
+      ],
+      "data": [
+        "results/diagnostics/spectral_encoder",
+        "results/reaction_center",
+        "results/source_data/mechanistic_interpretability"
+      ],
+      "results": [
+        "results/baselines",
+        "results/reference_tables",
+        "experiments/supporting_information/s4_additional_results/tables"
+      ],
+      "commands": [
+        "python results/reaction_center/reproduce.py --check",
+        "python scripts/reproduce_supporting_analyses.py",
+        "python scripts/reproduce_results.py --check",
+        "python scripts/reproduce_mechanistic_tables.py"
+      ],
+      "scope": "Tables S5–S10 report numerical checks, ablations, graph recovery and complete-precursor recovery. Tables S12–S13 cover chemical and electronic comparisons.",
+      "checkpoints": [],
+      "configuration": [],
+      "local_artifact_manifest": "experiments/supporting_information/s4_additional_results/artifacts.json",
+      "local_material_count": 13,
+      "paper_location": "SI §S4",
+      "material_count": 26,
+      "shared_result_count": 13,
+      "figures": [
+        "experiments/supporting_information/s4_additional_results/figures/figure_s1_full_spectrum_family_gains.png",
+        "experiments/supporting_information/s4_additional_results/figures/figure_s2_chemical_prior_structural_match.png"
+      ]
+    },
+    {
+      "id": "supporting_information/s5_agent_cases",
+      "title": "S5: Agent configuration and case studies",
+      "items": [
+        "Table S14",
+        "Table S15",
+        "Table S16",
+        "Table S17",
+        "Figure S3"
+      ],
+      "code": [
+        "src/agentic_retrosynthesis",
+        "CHRetroAgent/webapp/route_assessment.py"
+      ],
+      "data": [
+        "datasets/supplementary_data/agent_case_inputs.csv",
+        "datasets/supplementary_data/two_step_figure_evidence.json"
+      ],
+      "results": [
+        "datasets/supplementary_data/agent_route_results.csv",
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "results/cases"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "Provides route configuration, pharmaceutical route inputs/outputs, assessment criteria and observed scores, incorrect-prediction structures, and node-level evidence for the two-step examples.",
+      "checkpoints": [
+        "experiments/supporting_information/s5_agent_cases/models/checkpoints.json"
+      ],
+      "configuration": [
+        "results/cases/agent/protocol.json",
+        "results/cases/agent_generation/protocol.json"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s5_agent_cases/artifacts.json",
+      "local_material_count": 5,
+      "paper_location": "SI §S5",
+      "material_count": 22,
+      "shared_result_count": 17,
+      "figures": [
+        "experiments/supporting_information/s5_agent_cases/figures/figure_s3_case_studies_additional.png"
+      ]
+    },
+    {
+      "id": "supporting_information/s6_file_and_model_definitions",
+      "title": "S6: Supplementary files and model definitions",
+      "items": [
+        "Table S18",
+        "Table S19",
+        "Table S20",
+        "Table S21"
+      ],
+      "code": [
+        "src/spectraretro/reaction_center",
+        "src/spectraretro/completion"
+      ],
+      "data": [],
+      "results": [],
+      "commands": [
+        "python scripts/verify_paper_materials.py",
+        "python scripts/verify_release.py"
+      ],
+      "scope": "The feature dictionaries, module dimensions and composition descriptors are retained in the SI and corresponding implementations. File indices describe the actual files and their roles.",
+      "checkpoints": [
+        "experiments/supporting_information/s6_file_and_model_definitions/models/checkpoints.json"
+      ],
+      "configuration": [],
+      "local_artifact_manifest": "experiments/supporting_information/s6_file_and_model_definitions/artifacts.json",
+      "local_material_count": 6,
+      "paper_location": "SI §S6",
+      "file_indices": [
+        "datasets/supplementary_data/source_index.csv",
+        "results/source_data/mechanistic_interpretability/supplement/data_index.csv"
+      ]
+    },
+    {
+      "id": "supporting_information/s7_mechanistic_analyses",
+      "title": "S7: Complete mechanistic data and quantum records",
+      "items": [
+        "Table S22",
+        "Table S23",
+        "Table S24",
+        "Table S25",
+        "Table S26",
+        "Table S27",
+        "Figure S4",
+        "Figure S5",
+        "Figure S6"
+      ],
+      "code": [
+        "scripts/reproduce_mechanistic_tables.py",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/calculation_code"
+      ],
+      "data": [
+        "results/source_data/mechanistic_interpretability/supplement"
+      ],
+      "results": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures",
+        "experiments/supporting_information/s7_mechanistic_analyses/tables"
+      ],
+      "commands": [
+        "python scripts/reproduce_mechanistic_tables.py"
+      ],
+      "scope": "Chemical associations, spatial sensitivity, molecular identities, atom populations, archived XYZ inputs, SCF/stability logs, integration checks and calculation code support the printed summaries. The table replay uses saved values; 34 wavefunction/density-matrix archives and 32 archived SCF restart files are included in the shared quantum source-data directory.",
+      "checkpoints": [],
+      "configuration": [
+        "results/source_data/mechanistic_interpretability/supplement/quantum/original_dft_protocol.json",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/original_hirshfeld_protocol.json",
+        "results/source_data/mechanistic_interpretability/supplement/quantum/software_requirements.lock"
+      ],
+      "experiment_materials": [
+        "results/source_data/mechanistic_interpretability/supplement/quantum/electronic_states.json"
+      ],
+      "local_artifact_manifest": "experiments/supporting_information/s7_mechanistic_analyses/artifacts.json",
+      "local_material_count": 65,
+      "paper_location": "SI §S7",
+      "figures": [
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s4_spatial_robustness.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s5_electronic_validation.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6a_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6b_structure_catalog.png",
+        "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6c_structure_catalog.png"
+      ]
+    },
+    {
+      "id": "supporting_information/s8_agent_interface_routes",
+      "title": "CHRetroAgent interface and SpectraRetro method details",
+      "items": [
+        "Figure S7",
+        "Figure S8"
+      ],
+      "code": [
+        "CHRetroAgent",
+        "src/agentic_retrosynthesis",
+        "src/spectraretro"
+      ],
+      "data": [
+        "datasets/supplementary_data/agent_route_steps.csv",
+        "datasets/supplementary_data/agent_route_results.csv",
+        "results/cases/agent/report.json"
+      ],
+      "configuration": [],
+      "checkpoints": [],
+      "results": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s7_chretroagent_interface.png",
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s8_spectraretro_method_details.png"
+      ],
+      "commands": [
+        "python scripts/verify_paper_materials.py"
+      ],
+      "scope": "Figure S7 shows route visualization, assistant responses and supplier information. Figure S8 presents the reaction-center and three-dimensional completion modules.",
+      "local_artifact_manifest": "experiments/supporting_information/s8_agent_interface_routes/artifacts.json",
+      "paper_location": "SI §S8",
+      "local_material_count": 2,
+      "figures": [
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s7_chretroagent_interface.png",
+        "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s8_spectraretro_method_details.png"
+      ]
+    }
+  ],
+  "layout": "Dataset, methods and results topics with supporting material from SI sections S1–S8."
+}

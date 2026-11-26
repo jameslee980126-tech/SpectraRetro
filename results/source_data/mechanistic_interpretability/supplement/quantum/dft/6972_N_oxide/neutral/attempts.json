@@ -1,0 +1,19 @@
+[
+  {
+    "attempt": 0,
+    "strategy": "Reuse converged archived neutral molecular SCF",
+    "converged": true,
+    "energy_hartree": -1406.8777917124562,
+    "checkpoint": null,
+    "molecular_kernel_called": false,
+    "source_attempts": [
+      {
+        "attempt": 1,
+        "strategy": "DIIS",
+        "converged": true,
+        "energy_hartree": -1406.8777917124562,
+        "checkpoint": "attempt_1.chk"
+      }
+    ]
+  }
+]

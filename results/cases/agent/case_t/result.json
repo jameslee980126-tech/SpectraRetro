@@ -1,0 +1,3964 @@
+{
+  "target": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+  "solved": true,
+  "routes": [
+    {
+      "steps": [
+        {
+          "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "precursors": [
+            "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.2,
+          "model_rank": 1,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-05",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-05_0",
+                    "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                    "draws": [
+                      0,
+                      9,
+                      16,
+                      17,
+                      21,
+                      26
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 48,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 489,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 832,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 881,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1077,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1322,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 6
+          }
+        },
+        {
+          "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+          "precursors": [
+            "Clc1cc(Cl)cc(I)c1",
+            "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.9666666666666667,
+          "model_rank": 1,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-04",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-04_0",
+                    "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 46,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 95,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 144,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 193,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 242,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 291,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 340,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 389,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 438,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 487,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 536,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 585,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 634,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 683,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 732,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 781,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 830,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 879,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 928,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 977,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1026,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1075,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1124,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1173,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1222,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1271,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1320,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1369,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1418,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1467,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-04_1",
+                    "smiles": "Clc1cc(Cl)cc(I)c1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 47,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 96,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 145,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 194,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 243,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 292,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 341,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 390,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 439,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 488,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 537,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 586,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 635,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 684,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 733,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 782,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 831,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 880,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 929,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1027,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1076,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1125,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1174,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1223,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1272,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1321,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1370,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1419,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1468,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 870
+          }
+        },
+        {
+          "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+          "precursors": [
+            "C1COCCN1",
+            "O=C(O)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.4666666666666667,
+          "model_rank": 2,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-03",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-03_0",
+                    "smiles": "O=C(O)c1ccc2ncoc2c1",
+                    "draws": [
+                      8,
+                      10,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      21,
+                      22,
+                      23,
+                      24,
+                      27,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 8,
+                        "raw_index": 436,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 534,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 632,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 681,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 730,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 779,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 828,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 877,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1073,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1122,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1171,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1220,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1367,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1465,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-03_1",
+                    "smiles": "C1COCCN1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 45,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 94,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 143,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 192,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 241,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 290,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 339,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 388,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 437,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 486,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 535,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 584,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 633,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 682,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 731,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 780,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 829,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 878,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 927,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 976,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1025,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1074,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1123,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1172,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1221,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1270,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1319,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1368,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1417,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1466,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 420
+          }
+        },
+        {
+          "product": "O=C(O)c1ccc2ncoc2c1",
+          "precursors": [
+            "COC(OC)OC",
+            "Nc1ccc(C(=O)O)cc1O"
+          ],
+          "model_score": 0.015555555555555555,
+          "model_rank": 2,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-01",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-01_0",
+                    "smiles": "Nc1ccc(C(=O)O)cc1O",
+                    "draws": [
+                      3,
+                      5,
+                      8,
+                      10,
+                      11,
+                      16,
+                      20,
+                      21,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 3,
+                        "raw_index": 187,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 285,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 432,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 530,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 579,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 824,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1020,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1069,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1216,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1265,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1314,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1363,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1412,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1461,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-01_1",
+                    "smiles": "COC(OC)OC",
+                    "draws": [
+                      8
+                    ],
+                    "samples": [
+                      {
+                        "draw": 8,
+                        "raw_index": 433,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 14
+          }
+        }
+      ],
+      "score": 6.0,
+      "starting_materials": [
+        "C1COCCN1",
+        "COC(OC)OC",
+        "Clc1cc(Cl)cc(I)c1",
+        "Nc1ccc(C(=O)O)cc1O"
+      ]
+    },
+    {
+      "steps": [
+        {
+          "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "precursors": [
+            "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.2,
+          "model_rank": 1,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-05",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-05_0",
+                    "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                    "draws": [
+                      0,
+                      9,
+                      16,
+                      17,
+                      21,
+                      26
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 48,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 489,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 832,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 881,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1077,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1322,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 6
+          }
+        },
+        {
+          "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+          "precursors": [
+            "Clc1cc(Cl)cc(I)c1",
+            "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.9666666666666667,
+          "model_rank": 1,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-04",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-04_0",
+                    "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 46,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 95,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 144,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 193,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 242,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 291,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 340,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 389,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 438,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 487,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 536,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 585,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 634,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 683,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 732,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 781,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 830,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 879,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 928,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 977,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1026,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1075,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1124,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1173,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1222,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1271,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1320,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1369,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1418,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1467,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-04_1",
+                    "smiles": "Clc1cc(Cl)cc(I)c1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 47,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 96,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 145,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 194,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 243,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 292,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 341,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 390,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 439,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 488,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 537,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 586,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 635,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 684,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 733,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 782,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 831,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 880,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 929,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1027,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1076,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1125,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1174,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1223,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1272,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1321,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1370,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1419,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1468,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 870
+          }
+        },
+        {
+          "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+          "precursors": [
+            "C1COCCN1",
+            "O=C(Cl)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.5333333333333333,
+          "model_rank": 1,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-03",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-03_0",
+                    "smiles": "O=C(Cl)c1ccc2ncoc2c1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      9,
+                      11,
+                      18,
+                      19,
+                      20,
+                      25,
+                      26,
+                      28
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 44,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 93,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 142,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 191,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 240,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 289,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 338,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 387,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 485,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 583,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 926,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 975,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1024,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1269,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1318,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1416,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-03_1",
+                    "smiles": "C1COCCN1",
+                    "draws": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11,
+                      12,
+                      13,
+                      14,
+                      15,
+                      16,
+                      17,
+                      18,
+                      19,
+                      20,
+                      21,
+                      22,
+                      23,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 45,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 1,
+                        "raw_index": 94,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 143,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 192,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 241,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 290,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 339,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 388,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 437,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 486,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 535,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 584,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 633,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 13,
+                        "raw_index": 682,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 731,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 780,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 829,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 878,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 927,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 976,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1025,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1074,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1123,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1172,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1221,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1270,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1319,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1368,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1417,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1466,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 480
+          }
+        },
+        {
+          "product": "O=C(Cl)c1ccc2ncoc2c1",
+          "precursors": [
+            "O=C(Cl)C(=O)Cl",
+            "O=C(O)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.0026222222222222224,
+          "model_rank": 54,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-02",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-02_0",
+                    "smiles": "O=C(O)c1ccc2ncoc2c1",
+                    "draws": [
+                      0,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      12,
+                      14,
+                      15,
+                      17,
+                      18,
+                      19,
+                      21,
+                      22,
+                      23,
+                      24,
+                      26,
+                      28,
+                      32,
+                      33,
+                      34,
+                      35,
+                      36,
+                      37,
+                      39,
+                      40,
+                      41,
+                      42,
+                      43,
+                      44,
+                      45,
+                      46,
+                      47,
+                      49,
+                      50,
+                      51,
+                      52,
+                      53,
+                      54,
+                      55,
+                      56,
+                      57,
+                      58,
+                      59,
+                      60,
+                      61,
+                      62,
+                      63,
+                      65,
+                      66,
+                      67,
+                      68,
+                      69,
+                      70,
+                      72,
+                      73,
+                      74,
+                      75,
+                      76,
+                      77,
+                      78,
+                      79,
+                      80,
+                      83,
+                      84,
+                      85,
+                      86,
+                      87,
+                      88,
+                      89,
+                      90,
+                      91,
+                      93,
+                      94,
+                      96,
+                      97,
+                      98,
+                      99,
+                      101,
+                      102,
+                      103,
+                      104,
+                      106,
+                      107,
+                      108,
+                      109,
+                      110,
+                      112,
+                      114,
+                      115,
+                      116,
+                      117,
+                      118,
+                      119,
+                      120,
+                      121,
+                      122,
+                      123,
+                      124,
+                      125,
+                      126,
+                      127,
+                      128,
+                      129,
+                      130,
+                      131,
+                      132,
+                      133,
+                      135,
+                      138,
+                      140,
+                      141,
+                      142,
+                      143,
+                      144,
+                      145,
+                      146,
+                      147,
+                      148,
+                      149,
+                      150,
+                      152,
+                      153,
+                      154,
+                      157,
+                      159,
+                      160,
+                      161,
+                      162,
+                      163,
+                      165,
+                      166,
+                      167,
+                      169,
+                      170,
+                      172,
+                      173,
+                      175,
+                      178,
+                      180,
+                      184,
+                      185,
+                      186,
+                      187,
+                      188,
+                      189,
+                      190,
+                      191,
+                      192,
+                      197,
+                      198,
+                      199,
+                      200,
+                      201,
+                      202,
+                      203,
+                      205,
+                      206,
+                      207,
+                      208,
+                      209,
+                      210,
+                      211,
+                      212,
+                      213,
+                      214,
+                      216,
+                      218,
+                      220,
+                      221,
+                      222,
+                      223,
+                      224,
+                      225,
+                      226,
+                      227,
+                      228,
+                      230,
+                      231,
+                      232,
+                      234,
+                      235,
+                      236,
+                      237,
+                      239,
+                      240,
+                      241,
+                      244,
+                      246,
+                      247,
+                      248,
+                      249,
+                      250,
+                      251,
+                      252,
+                      253,
+                      254,
+                      255,
+                      256,
+                      257,
+                      258,
+                      259,
+                      260,
+                      261,
+                      262,
+                      263,
+                      265,
+                      266,
+                      267,
+                      268,
+                      269,
+                      270,
+                      271,
+                      272,
+                      274,
+                      277,
+                      279,
+                      280,
+                      282,
+                      283,
+                      285,
+                      287,
+                      288,
+                      289,
+                      290,
+                      292,
+                      294,
+                      295,
+                      296,
+                      297,
+                      298,
+                      299
+                    ],
+                    "samples": [
+                      {
+                        "draw": 0,
+                        "raw_index": 42,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 2,
+                        "raw_index": 140,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 3,
+                        "raw_index": 189,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 4,
+                        "raw_index": 238,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 287,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 6,
+                        "raw_index": 336,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 7,
+                        "raw_index": 385,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 434,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 9,
+                        "raw_index": 483,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 532,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 12,
+                        "raw_index": 630,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 14,
+                        "raw_index": 728,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 15,
+                        "raw_index": 777,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 17,
+                        "raw_index": 875,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 18,
+                        "raw_index": 924,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 19,
+                        "raw_index": 973,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1071,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 22,
+                        "raw_index": 1120,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 23,
+                        "raw_index": 1169,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1218,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1316,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1414,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 32,
+                        "raw_index": 10,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 33,
+                        "raw_index": 14,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 34,
+                        "raw_index": 18,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 35,
+                        "raw_index": 22,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 36,
+                        "raw_index": 26,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 37,
+                        "raw_index": 30,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 39,
+                        "raw_index": 38,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 40,
+                        "raw_index": 42,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 41,
+                        "raw_index": 46,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 42,
+                        "raw_index": 50,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 43,
+                        "raw_index": 54,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 44,
+                        "raw_index": 58,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 45,
+                        "raw_index": 62,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 46,
+                        "raw_index": 66,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 47,
+                        "raw_index": 70,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 49,
+                        "raw_index": 78,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 50,
+                        "raw_index": 82,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 51,
+                        "raw_index": 86,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 52,
+                        "raw_index": 90,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 53,
+                        "raw_index": 94,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 54,
+                        "raw_index": 98,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 55,
+                        "raw_index": 102,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 56,
+                        "raw_index": 106,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 57,
+                        "raw_index": 110,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 58,
+                        "raw_index": 114,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 59,
+                        "raw_index": 118,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 60,
+                        "raw_index": 122,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 61,
+                        "raw_index": 126,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 62,
+                        "raw_index": 130,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 63,
+                        "raw_index": 134,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 65,
+                        "raw_index": 142,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 66,
+                        "raw_index": 146,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 67,
+                        "raw_index": 150,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 68,
+                        "raw_index": 154,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 69,
+                        "raw_index": 158,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 70,
+                        "raw_index": 162,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 72,
+                        "raw_index": 170,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 73,
+                        "raw_index": 174,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 74,
+                        "raw_index": 178,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 75,
+                        "raw_index": 182,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 76,
+                        "raw_index": 186,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 77,
+                        "raw_index": 190,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 78,
+                        "raw_index": 194,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 79,
+                        "raw_index": 198,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 80,
+                        "raw_index": 202,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 83,
+                        "raw_index": 214,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 84,
+                        "raw_index": 218,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 85,
+                        "raw_index": 222,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 86,
+                        "raw_index": 226,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 87,
+                        "raw_index": 230,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 88,
+                        "raw_index": 234,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 89,
+                        "raw_index": 238,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 90,
+                        "raw_index": 242,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 91,
+                        "raw_index": 246,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 93,
+                        "raw_index": 254,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 94,
+                        "raw_index": 258,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 96,
+                        "raw_index": 266,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 97,
+                        "raw_index": 270,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 98,
+                        "raw_index": 274,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 99,
+                        "raw_index": 278,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 101,
+                        "raw_index": 286,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 102,
+                        "raw_index": 290,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 103,
+                        "raw_index": 294,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 104,
+                        "raw_index": 298,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 106,
+                        "raw_index": 306,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 107,
+                        "raw_index": 310,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 108,
+                        "raw_index": 314,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 109,
+                        "raw_index": 318,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 110,
+                        "raw_index": 322,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 112,
+                        "raw_index": 330,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 114,
+                        "raw_index": 338,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 115,
+                        "raw_index": 342,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 116,
+                        "raw_index": 346,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 117,
+                        "raw_index": 350,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 118,
+                        "raw_index": 354,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 119,
+                        "raw_index": 358,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 120,
+                        "raw_index": 362,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 121,
+                        "raw_index": 366,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 122,
+                        "raw_index": 370,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 123,
+                        "raw_index": 374,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 124,
+                        "raw_index": 378,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 125,
+                        "raw_index": 382,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 126,
+                        "raw_index": 386,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 127,
+                        "raw_index": 390,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 128,
+                        "raw_index": 394,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 129,
+                        "raw_index": 398,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 130,
+                        "raw_index": 402,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 131,
+                        "raw_index": 406,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 132,
+                        "raw_index": 410,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 133,
+                        "raw_index": 414,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 135,
+                        "raw_index": 422,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 138,
+                        "raw_index": 434,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 140,
+                        "raw_index": 442,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 141,
+                        "raw_index": 446,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 142,
+                        "raw_index": 450,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 143,
+                        "raw_index": 454,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 144,
+                        "raw_index": 458,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 145,
+                        "raw_index": 462,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 146,
+                        "raw_index": 466,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 147,
+                        "raw_index": 470,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 148,
+                        "raw_index": 474,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 149,
+                        "raw_index": 478,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 150,
+                        "raw_index": 482,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 152,
+                        "raw_index": 490,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 153,
+                        "raw_index": 494,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 154,
+                        "raw_index": 498,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 157,
+                        "raw_index": 510,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 159,
+                        "raw_index": 518,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 160,
+                        "raw_index": 522,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 161,
+                        "raw_index": 526,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 162,
+                        "raw_index": 530,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 163,
+                        "raw_index": 534,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 165,
+                        "raw_index": 542,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 166,
+                        "raw_index": 546,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 167,
+                        "raw_index": 550,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 169,
+                        "raw_index": 558,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 170,
+                        "raw_index": 562,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 172,
+                        "raw_index": 570,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 173,
+                        "raw_index": 574,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 175,
+                        "raw_index": 582,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 178,
+                        "raw_index": 594,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 180,
+                        "raw_index": 602,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 184,
+                        "raw_index": 610,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 185,
+                        "raw_index": 614,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 186,
+                        "raw_index": 618,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 187,
+                        "raw_index": 622,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 188,
+                        "raw_index": 626,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 189,
+                        "raw_index": 630,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 190,
+                        "raw_index": 634,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 191,
+                        "raw_index": 638,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 192,
+                        "raw_index": 642,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 197,
+                        "raw_index": 662,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 198,
+                        "raw_index": 666,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 199,
+                        "raw_index": 670,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 200,
+                        "raw_index": 674,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 201,
+                        "raw_index": 678,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 202,
+                        "raw_index": 682,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 203,
+                        "raw_index": 686,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 205,
+                        "raw_index": 694,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 206,
+                        "raw_index": 698,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 207,
+                        "raw_index": 702,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 208,
+                        "raw_index": 706,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 209,
+                        "raw_index": 710,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 210,
+                        "raw_index": 714,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 211,
+                        "raw_index": 718,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 212,
+                        "raw_index": 722,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 213,
+                        "raw_index": 726,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 214,
+                        "raw_index": 730,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 216,
+                        "raw_index": 738,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 218,
+                        "raw_index": 746,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 220,
+                        "raw_index": 754,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 221,
+                        "raw_index": 758,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 222,
+                        "raw_index": 762,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 223,
+                        "raw_index": 766,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 224,
+                        "raw_index": 770,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 225,
+                        "raw_index": 774,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 226,
+                        "raw_index": 778,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 227,
+                        "raw_index": 782,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 228,
+                        "raw_index": 786,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 230,
+                        "raw_index": 794,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 231,
+                        "raw_index": 798,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 232,
+                        "raw_index": 802,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 234,
+                        "raw_index": 810,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 235,
+                        "raw_index": 814,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 236,
+                        "raw_index": 818,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 237,
+                        "raw_index": 822,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 239,
+                        "raw_index": 830,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 240,
+                        "raw_index": 834,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 241,
+                        "raw_index": 838,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 244,
+                        "raw_index": 850,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 246,
+                        "raw_index": 858,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 247,
+                        "raw_index": 862,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 248,
+                        "raw_index": 866,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 249,
+                        "raw_index": 870,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 250,
+                        "raw_index": 874,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 251,
+                        "raw_index": 878,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 252,
+                        "raw_index": 882,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 253,
+                        "raw_index": 886,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 254,
+                        "raw_index": 890,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 255,
+                        "raw_index": 894,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 256,
+                        "raw_index": 898,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 257,
+                        "raw_index": 902,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 258,
+                        "raw_index": 906,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 259,
+                        "raw_index": 910,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 260,
+                        "raw_index": 914,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 261,
+                        "raw_index": 918,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 262,
+                        "raw_index": 922,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 263,
+                        "raw_index": 926,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 265,
+                        "raw_index": 934,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 266,
+                        "raw_index": 938,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 267,
+                        "raw_index": 942,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 268,
+                        "raw_index": 946,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 269,
+                        "raw_index": 950,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 270,
+                        "raw_index": 954,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 271,
+                        "raw_index": 958,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 272,
+                        "raw_index": 962,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 274,
+                        "raw_index": 970,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 277,
+                        "raw_index": 982,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 279,
+                        "raw_index": 990,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 280,
+                        "raw_index": 994,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 282,
+                        "raw_index": 1002,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 283,
+                        "raw_index": 1006,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 285,
+                        "raw_index": 1014,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 287,
+                        "raw_index": 1022,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 288,
+                        "raw_index": 1026,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 289,
+                        "raw_index": 1030,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 290,
+                        "raw_index": 1034,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 292,
+                        "raw_index": 1042,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 294,
+                        "raw_index": 1050,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 295,
+                        "raw_index": 1054,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 296,
+                        "raw_index": 1058,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 297,
+                        "raw_index": 1062,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 298,
+                        "raw_index": 1066,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      },
+                      {
+                        "draw": 299,
+                        "raw_index": 1070,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-02_1",
+                    "smiles": "O=C(Cl)C(=O)Cl",
+                    "draws": [
+                      30
+                    ],
+                    "samples": [
+                      {
+                        "draw": 30,
+                        "raw_index": 3,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 236
+          }
+        },
+        {
+          "product": "O=C(O)c1ccc2ncoc2c1",
+          "precursors": [
+            "COC(OC)OC",
+            "Nc1ccc(C(=O)O)cc1O"
+          ],
+          "model_score": 0.015555555555555555,
+          "model_rank": 2,
+          "source": "fixed_known_core_model_completion",
+          "metadata": {
+            "given_known_core_condition": true,
+            "inventory_completion_used": false,
+            "reference_inputs": true,
+            "reference_unknown_structure_input": false,
+            "source_bank": "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json",
+            "source_bank_sha256": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+            "raw_sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+            "support": [
+              {
+                "input_template": "TAF-01",
+                "composition_method": "Cartesian combinations of existing generated fragment banks",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-01_0",
+                    "smiles": "Nc1ccc(C(=O)O)cc1O",
+                    "draws": [
+                      3,
+                      5,
+                      8,
+                      10,
+                      11,
+                      16,
+                      20,
+                      21,
+                      24,
+                      25,
+                      26,
+                      27,
+                      28,
+                      29
+                    ],
+                    "samples": [
+                      {
+                        "draw": 3,
+                        "raw_index": 187,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 5,
+                        "raw_index": 285,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 8,
+                        "raw_index": 432,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 10,
+                        "raw_index": 530,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 11,
+                        "raw_index": 579,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 16,
+                        "raw_index": 824,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 20,
+                        "raw_index": 1020,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 21,
+                        "raw_index": 1069,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 24,
+                        "raw_index": 1216,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 25,
+                        "raw_index": 1265,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 26,
+                        "raw_index": 1314,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 27,
+                        "raw_index": 1363,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 28,
+                        "raw_index": 1412,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      },
+                      {
+                        "draw": 29,
+                        "raw_index": 1461,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  },
+                  {
+                    "uuid": "all_exact_TAF-01_1",
+                    "smiles": "COC(OC)OC",
+                    "draws": [
+                      8
+                    ],
+                    "samples": [
+                      {
+                        "draw": 8,
+                        "raw_index": 433,
+                        "raw_bank_path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "empirical_fragment_frequency_product": 14
+          }
+        }
+      ],
+      "score": 59.0,
+      "starting_materials": [
+        "C1COCCN1",
+        "COC(OC)OC",
+        "Clc1cc(Cl)cc(I)c1",
+        "Nc1ccc(C(=O)O)cc1O",
+        "O=C(Cl)C(=O)Cl"
+      ]
+    }
+  ],
+  "model_calls": 89,
+  "expanded_products": [
+    "C#COC(O)Cl",
+    "CC(=O)C(C)Cl",
+    "CC(C)(O)OCl",
+    "CC(C)=COCl",
+    "CC(C)COCl",
+    "CC(C)OCCl",
+    "CC(Cl)C(O)Cl",
+    "CC(O)(Cl)C=O",
+    "CC(O)(Cl)CCl",
+    "CC(O)(Cl)OCl",
+    "CC(O)C(O)Cl",
+    "CC1(Cl)OC1Cl",
+    "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+    "CC1(O)OC1Cl",
+    "CC1(OCl)OO1",
+    "CC12OC1(Cl)O2",
+    "CC1OC1(Cl)Cl",
+    "CC1OC1(O)Cl",
+    "CC1OC1CCl",
+    "CC1OC1OCl",
+    "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOC(O)Cl",
+    "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOOCCl",
+    "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+    "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CNC(O)(O)Cl",
+    "COC(=O)OCl",
+    "COC(C)CCl",
+    "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COC(C)OCO",
+    "COC(C)OCl",
+    "COC(Cl)OC",
+    "COC(Cl)OCl",
+    "COC(Cl)OO",
+    "COC(O)(Cl)Cl",
+    "COC(O)(O)Cl",
+    "COC(O)OCl",
+    "COC1(C)CCO1",
+    "COC12CC1CO2",
+    "COC1CON1C",
+    "COC1OC1Cl",
+    "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCOCl",
+    "COOC(O)Cl",
+    "ClC(Cl)C(Cl)Cl",
+    "ClC12OC1(Cl)O2",
+    "ClC1OC1(Cl)Cl",
+    "ClOC1(Cl)CO1",
+    "ClOC12CC1O2",
+    "Clc1cc(Cl)cc(Br)c1",
+    "NC(=O)C(O)Cl",
+    "NC(Cl)C(O)Cl",
+    "NC1(O)OC1Cl",
+    "NC12OC1(Cl)O2",
+    "NC1OC1(O)Cl",
+    "Nc1ccc(C(=O)O)cc1N",
+    "O=C(Cl)C(Cl)Cl",
+    "O=C(Cl)C(O)Cl",
+    "O=C(Cl)C(O)O",
+    "O=C(Cl)C1OO1",
+    "O=C(Cl)c1ccc2ncoc2c1",
+    "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)C(O)Cl",
+    "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)c1ccc2ncoc2c1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+    "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+    "O=C1NC1(O)Cl",
+    "OC(Cl)(Cl)CCl",
+    "OC(Cl)C(Cl)Cl",
+    "OC(Cl)C(O)Cl",
+    "OC(Cl)COCl",
+    "OC(O)(Cl)CCl",
+    "OC(O)(Cl)OCl",
+    "OC(O)C(O)Cl",
+    "OC1(Cl)OC1Cl",
+    "OC1OC1(Cl)Cl",
+    "OC1OC1OCl",
+    "OCC(O)(Cl)Cl",
+    "OOC(Cl)OCl",
+    "OOC(O)(O)Cl"
+  ],
+  "candidate_hit_products": [
+    "O=C(Cl)c1ccc2ncoc2c1",
+    "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)c1ccc2ncoc2c1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+    "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+  ],
+  "empty_candidate_products": [
+    "C#COC(O)Cl",
+    "CC(=O)C(C)Cl",
+    "CC(C)(O)OCl",
+    "CC(C)=COCl",
+    "CC(C)COCl",
+    "CC(C)OCCl",
+    "CC(Cl)C(O)Cl",
+    "CC(O)(Cl)C=O",
+    "CC(O)(Cl)CCl",
+    "CC(O)(Cl)OCl",
+    "CC(O)C(O)Cl",
+    "CC1(Cl)OC1Cl",
+    "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+    "CC1(O)OC1Cl",
+    "CC1(OCl)OO1",
+    "CC12OC1(Cl)O2",
+    "CC1OC1(Cl)Cl",
+    "CC1OC1(O)Cl",
+    "CC1OC1CCl",
+    "CC1OC1OCl",
+    "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOC(O)Cl",
+    "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOOCCl",
+    "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+    "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CNC(O)(O)Cl",
+    "COC(=O)OCl",
+    "COC(C)CCl",
+    "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COC(C)OCO",
+    "COC(C)OCl",
+    "COC(Cl)OC",
+    "COC(Cl)OCl",
+    "COC(Cl)OO",
+    "COC(O)(Cl)Cl",
+    "COC(O)(O)Cl",
+    "COC(O)OCl",
+    "COC1(C)CCO1",
+    "COC12CC1CO2",
+    "COC1CON1C",
+    "COC1OC1Cl",
+    "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCOCl",
+    "COOC(O)Cl",
+    "ClC(Cl)C(Cl)Cl",
+    "ClC12OC1(Cl)O2",
+    "ClC1OC1(Cl)Cl",
+    "ClOC1(Cl)CO1",
+    "ClOC12CC1O2",
+    "Clc1cc(Cl)cc(Br)c1",
+    "NC(=O)C(O)Cl",
+    "NC(Cl)C(O)Cl",
+    "NC1(O)OC1Cl",
+    "NC12OC1(Cl)O2",
+    "NC1OC1(O)Cl",
+    "Nc1ccc(C(=O)O)cc1N",
+    "O=C(Cl)C(Cl)Cl",
+    "O=C(Cl)C(O)Cl",
+    "O=C(Cl)C(O)O",
+    "O=C(Cl)C1OO1",
+    "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)C(O)Cl",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+    "O=C1NC1(O)Cl",
+    "OC(Cl)(Cl)CCl",
+    "OC(Cl)C(Cl)Cl",
+    "OC(Cl)C(O)Cl",
+    "OC(Cl)COCl",
+    "OC(O)(Cl)CCl",
+    "OC(O)(Cl)OCl",
+    "OC(O)C(O)Cl",
+    "OC1(Cl)OC1Cl",
+    "OC1OC1(Cl)Cl",
+    "OC1OC1OCl",
+    "OCC(O)(Cl)Cl",
+    "OOC(Cl)OCl",
+    "OOC(O)(O)Cl"
+  ],
+  "stock_size": 5,
+  "errors": [],
+  "trace": [
+    {
+      "event": "expand",
+      "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 16
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+      "candidates": 2
+    },
+    {
+      "event": "expand",
+      "product": "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+      "candidates": 2
+    },
+    {
+      "event": "expand",
+      "product": "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)c1ccc2ncoc2c1",
+      "candidates": 64
+    },
+    {
+      "event": "expand",
+      "product": "Clc1cc(Cl)cc(Br)c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(O)c1ccc2ncoc2c1",
+      "candidates": 10
+    },
+    {
+      "event": "expand",
+      "product": "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)OCO",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1(C)CCO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1(Cl)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC12CC1CO2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1CON1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "Nc1ccc(C(=O)O)cc1N",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OC",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(O)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(=O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C#COC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OCC(O)(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(=O)C(C)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)(O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)=COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)OCCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)C=O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(Cl)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(OCl)OO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOOCCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CNC(O)(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OO",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCOCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COOC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClOC1(Cl)CO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClOC12CC1O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC(=O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC1(O)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC1OC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(O)O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C1OO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C1NC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1OC1OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OOC(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OOC(O)(O)Cl",
+      "candidates": 0
+    }
+  ],
+  "termination": "routes_found"
+}

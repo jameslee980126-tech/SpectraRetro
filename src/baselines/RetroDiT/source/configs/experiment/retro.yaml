@@ -1,0 +1,27 @@
+# @package _global_
+
+defaults:
+  - override /data: uspto_50k
+  - override /model: retro_generative
+  - override /trainer: default
+  - override /logger: wandb
+  - override /callbacks: default
+  - _self_
+
+task_name: ???
+
+tags: 
+  - train
+  - ${data.graph_vocab}
+  - ${model.sde.name}
+  - ${model.net.model_desc}
+
+notes: null
+
+seed: 42
+  
+trainer:
+  accumulate_grad_batches: 1
+  val_check_interval: 256
+
+

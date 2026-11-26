@@ -1,0 +1,10 @@
+{
+  "top_1_accuracy": 0.4387975778546713,
+  "deduplicate_top_1_accuracy": 0.5845588235294118,
+  "top_3_accuracy": 0.6722534602076125,
+  "deduplicate_top_3_accuracy": 0.7723832179930796,
+  "top_5_accuracy": 0.7532439446366782,
+  "deduplicate_top_5_accuracy": 0.8059039792387543,
+  "top_10_accuracy": 0.8280709342560554,
+  "deduplicate_top_10_accuracy": 0.8280709342560554
+}

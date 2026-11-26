@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "arm": "baseline",
+  "best_epoch": 26,
+  "valid": {
+    "overall": {
+      "n": 2400,
+      "cross_entropy": 0.22181770607241988,
+      "top-1 accuracy": 0.9383333333333334,
+      "top-2 accuracy": 0.9875,
+      "top-3 accuracy": 0.9966666666666667,
+      "top-5 accuracy": 0.9983333333333333,
+      "top-10 accuracy": 0.9991666666666666
+    },
+    "by_similarity": {
+      "high": {
+        "n": 800,
+        "cross_entropy": 0.22731008566467736,
+        "top-1 accuracy": 0.9225,
+        "top-2 accuracy": 0.99125,
+        "top-3 accuracy": 0.9975,
+        "top-5 accuracy": 0.9975,
+        "top-10 accuracy": 1.0
+      },
+      "low": {
+        "n": 800,
+        "cross_entropy": 0.26230253592020175,
+        "top-1 accuracy": 0.9425,
+        "top-2 accuracy": 0.98,
+        "top-3 accuracy": 0.99375,
+        "top-5 accuracy": 0.99875,
+        "top-10 accuracy": 0.99875
+      },
+      "medium": {
+        "n": 800,
+        "cross_entropy": 0.17584049663238047,
+        "top-1 accuracy": 0.95,
+        "top-2 accuracy": 0.99125,
+        "top-3 accuracy": 0.99875,
+        "top-5 accuracy": 0.99875,
+        "top-10 accuracy": 0.99875
+      }
+    }
+  },
+  "test": {
+    "overall": {
+      "n": 2400,
+      "cross_entropy": 0.2398457498181619,
+      "top-1 accuracy": 0.93125,
+      "top-2 accuracy": 0.9866666666666667,
+      "top-3 accuracy": 0.9933333333333333,
+      "top-5 accuracy": 0.9970833333333333,
+      "top-10 accuracy": 1.0
+    },
+    "by_similarity": {
+      "high": {
+        "n": 800,
+        "cross_entropy": 0.2974447457552738,
+        "top-1 accuracy": 0.895,
+        "top-2 accuracy": 0.9825,
+        "top-3 accuracy": 0.9925,
+        "top-5 accuracy": 0.99875,
+        "top-10 accuracy": 1.0
+      },
+      "low": {
+        "n": 800,
+        "cross_entropy": 0.2894934110815365,
+        "top-1 accuracy": 0.945,
+        "top-2 accuracy": 0.985,
+        "top-3 accuracy": 0.98875,
+        "top-5 accuracy": 0.9925,
+        "top-10 accuracy": 1.0
+      },
+      "medium": {
+        "n": 800,
+        "cross_entropy": 0.13259909261767544,
+        "top-1 accuracy": 0.95375,
+        "top-2 accuracy": 0.9925,
+        "top-3 accuracy": 0.99875,
+        "top-5 accuracy": 1.0,
+        "top-10 accuracy": 1.0
+      }
+    }
+  },
+  "test_descriptor_coverage": {
+    "rows": 2400,
+    "descriptor_available": 2400,
+    "failures": []
+  },
+  "common_initial_sha256": "348f755f597cd576e889c55849824aab1d15149f5155136005e5a38d488c94e7",
+  "interpretation": "single-seed exploratory high/medium/low similarity pilot"
+}

@@ -1,0 +1,4365 @@
+{
+  "target": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+  "solved": true,
+  "routes": [
+    {
+      "steps": [
+        {
+          "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+          ],
+          "model_score": 0.1,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 3,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-09",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-09_0",
+                    "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 3
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-09",
+              "reaction_family": "deprotection",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Example 1 / Method A second stage (lines 636-637)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 30,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-08",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-08_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-08",
+              "reaction_family": "amide_reduction",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Example 1 / Method A first stage (lines 631-635); general process preceding Scheme 2"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+            "Clc1cccc2[nH]ccc12"
+          ],
+          "model_score": 0.0297,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 2673,
+            "combination_slots": 90000,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-07",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-07_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 9
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-07_1",
+                    "generated_smiles": "Clc1cccc2[nH]ccc12",
+                    "matching_draw_count": 297
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-07",
+              "reaction_family": "Suzuki",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 7 / Method A (lines 617-623)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+            "CC1(C)OBOC1(C)C"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-06",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-06_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-06_1",
+                    "generated_smiles": "CC1(C)OBOC1(C)C",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-06",
+              "reaction_family": "CH_borylation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 6 (lines 612-615)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+            "Clc1cccc2c1cnn2C1CCCCO1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-05",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-05_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-05_1",
+                    "generated_smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-05",
+              "reaction_family": "CH_arylation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Scheme 2; Examples / Intermediate 5 / Method A (lines 595-604)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+          "precursors": [
+            "CC(C)N1CCNCC1",
+            "CCOC(=O)c1cnco1"
+          ],
+          "model_score": 0.25,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 450,
+            "combination_slots": 1800,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-02",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-02_0",
+                    "generated_smiles": "CCOC(=O)c1cnco1",
+                    "matching_draw_count": 1
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-02_1",
+                    "generated_smiles": "CC(C)N1CCNCC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              },
+              {
+                "input_template": "NEMI-02-alt",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-02-alt_0",
+                    "generated_smiles": "CCOC(=O)c1cnco1",
+                    "matching_draw_count": 14
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-02-alt_1",
+                    "generated_smiles": "CC(C)N1CCNCC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-02-alt",
+              "reaction_family": "amidation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 2 / Method B (lines 578-579)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "Clc1cccc2c1cnn2C1CCCCO1",
+          "precursors": [
+            "C1=COCCC1",
+            "Clc1cccc2[nH]ncc12"
+          ],
+          "model_score": 0.43333333333333335,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 390,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-04",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-04_0",
+                    "generated_smiles": "Clc1cccc2[nH]ncc12",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-04_1",
+                    "generated_smiles": "C1=COCCC1",
+                    "matching_draw_count": 13
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-04",
+              "reaction_family": "N_protection",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 4 (lines 590-595)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "Clc1cccc2[nH]ncc12",
+          "precursors": [
+            "CC(C)CCON=O",
+            "Cc1c(N)cccc1Cl"
+          ],
+          "model_score": 0.12,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 108,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-03",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-03_0",
+                    "generated_smiles": "Cc1c(N)cccc1Cl",
+                    "matching_draw_count": 27
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-03_1",
+                    "generated_smiles": "CC(C)CCON=O",
+                    "matching_draw_count": 4
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-03",
+              "reaction_family": "indazole_cyclization",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 3 (lines 580-588)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        }
+      ],
+      "score": 10.0,
+      "starting_materials": [
+        "C1=COCCC1",
+        "CC(C)CCON=O",
+        "CC(C)N1CCNCC1",
+        "CC1(C)OBOC1(C)C",
+        "CCOC(=O)c1cnco1",
+        "Cc1c(N)cccc1Cl",
+        "Clc1cccc2[nH]ccc12"
+      ],
+      "all_edges_documented": true,
+      "experimental_feasibility_verified": false,
+      "model_order_index": 0,
+      "llm_assessment": {
+        "status": "complete",
+        "model": "deepseek-flash",
+        "input_sha256": "6ea88002017b96c654efc3eaa7274da401642f4ae1461bb074f4ce30ab857641",
+        "scores": {
+          "chemical_plausibility": 5.5,
+          "strategic_coherence": 6.0,
+          "route_efficiency": 5.0,
+          "starting_material_suitability": 6.0
+        },
+        "total_score": 5.625,
+        "rationale": "该路线以8步从所列起始原料构建目标分子。逆合成分析显示：最终产物通过还原胺化或烷基化引入异丙基哌嗪甲基（步骤1-2），随后通过Suzuki偶联安装吲哚片段（步骤3），再经Miyaura硼化（步骤4）和另一个Suzuki偶联（步骤5）组装噁唑核心，最后通过酰胺化（步骤6）和THP保护/脱保护（步骤7-8）完成。整体策略合理，但关键步骤（如步骤3和5的Suzuki偶联）缺乏实验条件验证，且步骤1的还原胺化选择性可能受吲哚NH影响。起始原料均为简单芳香族或脂肪族化合物，结构复杂度适中，但部分原料（如THP保护的氯代吲唑）需多步合成，增加了实际可行性风险。",
+        "strengths": [
+          "路线整体连接性良好，所有中间体结构合理，无明显的化学价态错误。",
+          "采用Suzuki偶联和Miyaura硼化等成熟反应构建C-C键，策略上具有模块化优势。",
+          "起始原料如异丙基哌嗪、噁唑羧酸酯和氯代吲哚等均为常见砌块，结构简单。",
+          "THP保护基的使用可提高吲唑氮原子的正交反应性，避免副反应。"
+        ],
+        "concerns": [
+          "所有步骤均无实验条件、产率或供应商数据，无法评估实际可行性和成本。",
+          "步骤1的还原胺化或烷基化可能受吲哚NH和噁唑氮原子的竞争反应影响，区域选择性未知。",
+          "步骤3和5的Suzuki偶联需要硼酸酯和卤代物匹配，但未提供催化剂、配体或碱的信息，反应效率不确定。",
+          "步骤4的Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，且需控制单硼化选择性。",
+          "步骤7的THP保护反应可能因底物溶解性差或空间位阻导致保护不完全。",
+          "步骤8的吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。",
+          "整体路线较长（8步），总产率可能较低，且未考虑保护基操作对效率的影响。",
+          "起始原料的可得性、价格或制备难度均无供应商证据支持，无法评估实际采购可行性。"
+        ],
+        "critical_steps": [
+          {
+            "step": 1,
+            "concern": "还原胺化或烷基化步骤的选择性未知，吲哚NH可能干扰反应，且无实验条件验证。"
+          },
+          {
+            "step": 3,
+            "concern": "Suzuki偶联步骤缺乏催化剂、配体和碱的信息，反应效率不确定，且硼酸酯与氯代吲哚的偶联可能受空间位阻影响。"
+          },
+          {
+            "step": 4,
+            "concern": "Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，单硼化选择性需优化。"
+          },
+          {
+            "step": 5,
+            "concern": "第二个Suzuki偶联步骤同样缺乏条件验证，且底物含有多个杂环，可能发生竞争配位。"
+          },
+          {
+            "step": 7,
+            "concern": "THP保护反应可能因底物溶解性差或空间位阻导致保护不完全，影响后续步骤。"
+          },
+          {
+            "step": 8,
+            "concern": "吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。"
+          }
+        ],
+        "rank": 1
+      }
+    },
+    {
+      "steps": [
+        {
+          "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+          ],
+          "model_score": 0.1,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 3,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-09",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-09_0",
+                    "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 3
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-09",
+              "reaction_family": "deprotection",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Example 1 / Method A second stage (lines 636-637)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 30,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-08",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-08_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-08",
+              "reaction_family": "amide_reduction",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Example 1 / Method A first stage (lines 631-635); general process preceding Scheme 2"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+            "Clc1cccc2[nH]ccc12"
+          ],
+          "model_score": 0.0297,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 2673,
+            "combination_slots": 90000,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-07",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-07_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 9
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-07_1",
+                    "generated_smiles": "Clc1cccc2[nH]ccc12",
+                    "matching_draw_count": 297
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-07",
+              "reaction_family": "Suzuki",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 7 / Method A (lines 617-623)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+            "CC1(C)OBOC1(C)C"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-06",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-06_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-06_1",
+                    "generated_smiles": "CC1(C)OBOC1(C)C",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-06",
+              "reaction_family": "CH_borylation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 6 (lines 612-615)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+          "precursors": [
+            "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+            "Clc1cccc2c1cnn2C1CCCCO1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-05",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-05_0",
+                    "generated_smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-05_1",
+                    "generated_smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-05",
+              "reaction_family": "CH_arylation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Scheme 2; Examples / Intermediate 5 / Method A (lines 595-604)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+          "precursors": [
+            "CC(C)N1CCNCC1",
+            "O=C(O)c1cnco1"
+          ],
+          "model_score": 0.6333333333333333,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 1140,
+            "combination_slots": 1800,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-02",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-02_0",
+                    "generated_smiles": "O=C(O)c1cnco1",
+                    "matching_draw_count": 29
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-02_1",
+                    "generated_smiles": "CC(C)N1CCNCC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              },
+              {
+                "input_template": "NEMI-02-alt",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-02-alt_0",
+                    "generated_smiles": "O=C(O)c1cnco1",
+                    "matching_draw_count": 9
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-02-alt_1",
+                    "generated_smiles": "CC(C)N1CCNCC1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-02",
+              "reaction_family": "amidation",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 2 / Method A (lines 571-578)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": true,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": "carboxylic acid + secondary amine amidation"
+            }
+          }
+        },
+        {
+          "product": "Clc1cccc2c1cnn2C1CCCCO1",
+          "precursors": [
+            "C1=COCCC1",
+            "Clc1cccc2[nH]ncc12"
+          ],
+          "model_score": 0.43333333333333335,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 390,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-04",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-04_0",
+                    "generated_smiles": "Clc1cccc2[nH]ncc12",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-04_1",
+                    "generated_smiles": "C1=COCCC1",
+                    "matching_draw_count": 13
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-04",
+              "reaction_family": "N_protection",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 4 (lines 590-595)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(O)c1cnco1",
+          "precursors": [
+            "CCOC(=O)c1cnco1"
+          ],
+          "model_score": 0.6333333333333333,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 19,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-01",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-01_0",
+                    "generated_smiles": "CCOC(=O)c1cnco1",
+                    "matching_draw_count": 19
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-01",
+              "reaction_family": "ester_hydrolysis",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 1 (web text lines 564-569)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "Clc1cccc2[nH]ncc12",
+          "precursors": [
+            "CC(C)CCON=O",
+            "Cc1c(N)cccc1Cl"
+          ],
+          "model_score": 0.12,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 108,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "NEMI-03",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_NEMI-03_0",
+                    "generated_smiles": "Cc1c(N)cccc1Cl",
+                    "matching_draw_count": 27
+                  },
+                  {
+                    "uuid": "all_exact_NEMI-03_1",
+                    "generated_smiles": "CC(C)CCON=O",
+                    "matching_draw_count": 4
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "NEMI-03",
+              "reaction_family": "indazole_cyclization",
+              "source_url": "https://patents.google.com/patent/EP3303329A1/en",
+              "source_locator": "Examples / Intermediate 3 (lines 580-588)"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        }
+      ],
+      "score": 10.0,
+      "starting_materials": [
+        "C1=COCCC1",
+        "CC(C)CCON=O",
+        "CC(C)N1CCNCC1",
+        "CC1(C)OBOC1(C)C",
+        "CCOC(=O)c1cnco1",
+        "Cc1c(N)cccc1Cl",
+        "Clc1cccc2[nH]ccc12"
+      ],
+      "all_edges_documented": true,
+      "experimental_feasibility_verified": false,
+      "model_order_index": 1,
+      "llm_assessment": {
+        "status": "complete",
+        "model": "deepseek-flash",
+        "input_sha256": "2a9eda02bc17e1ba462ff0dd3a2ee810ddcb4b01bd643921407454065c6da488",
+        "scores": {
+          "chemical_plausibility": 5.5,
+          "strategic_coherence": 6.0,
+          "route_efficiency": 5.0,
+          "starting_material_suitability": 6.0
+        },
+        "total_score": 5.625,
+        "rationale": "该路线以逆合成方向给出，正向合成需从起始原料出发。整体策略合理：先构建吲哚片段，再通过Suzuki偶联连接吲哚与吲唑片段，随后进行酰胺还原和THP脱保护。但多个步骤缺乏实验条件与产率数据，且部分转化（如酰胺还原、THP脱保护、Suzuki偶联）的化学选择性和官能团相容性存在不确定性。起始原料均为结构较简单的砌块，但未提供供应商证据，无法判断其可得性。",
+        "strengths": [
+          "路线汇聚性较好，关键中间体通过Suzuki偶联连接两个复杂片段。",
+          "使用THP保护基保护吲唑氮，避免偶联时副反应。",
+          "酰胺还原为胺的步骤在策略上合理，但需注意还原剂对噁唑环的潜在影响。",
+          "起始原料结构简单，符合终端库存约束，但未提供供应商证据。"
+        ],
+        "concerns": [
+          "所有步骤均未提供实验条件、产率或供应商数据，无法验证可行性。",
+          "步骤1（酰胺还原）可能还原噁唑环或导致其他副反应，需选择温和还原剂。",
+          "步骤3（Suzuki偶联）中硼酸酯与氯代吲哚的偶联效率未知，且氯代物活性较低。",
+          "步骤7（THP保护）使用二氢吡喃和吲唑，需酸催化，可能影响其他官能团。",
+          "步骤9（吲唑环构建）使用亚硝酸异戊酯和邻甲基苯胺，重氮化环化条件可能影响氯原子。",
+          "步骤8（酯水解）条件未明确，可能影响分子中其他酯基或敏感基团。",
+          "步骤5（酰胺缩合）使用HATU等缩合剂，但未提供条件，且噁唑羧酸可能活性较低。",
+          "步骤4（Miyaura硼化）使用B2pin2，需钯催化，可能对氯代物和THP保护基有影响。",
+          "步骤2（酰胺还原）与步骤1类似，但底物不同，需注意选择性。",
+          "步骤6（酰胺缩合）为模板匹配，但未验证实验条件。",
+          "未提供供应商证据，无法判断起始原料是否可购买或易制备。"
+        ],
+        "critical_steps": [
+          {
+            "step": 1,
+            "concern": "酰胺还原为胺，可能还原噁唑环或导致其他副反应，需选择温和还原剂。"
+          },
+          {
+            "step": 3,
+            "concern": "Suzuki偶联中氯代吲哚活性较低，可能影响偶联效率。"
+          },
+          {
+            "step": 7,
+            "concern": "THP保护吲唑氮，酸催化条件可能影响其他官能团。"
+          },
+          {
+            "step": 9,
+            "concern": "吲唑环构建中重氮化环化条件可能影响氯原子。"
+          }
+        ],
+        "rank": 2
+      }
+    }
+  ],
+  "model_calls": 111,
+  "expanded_products": [
+    "Brc1cccc2[nH]ccc12",
+    "C#COC(=O)c1cnco1",
+    "C1CCOCC1",
+    "C=C(C)C(C)C(C)(O)Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(C)COCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(C)OB(CC(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(CC)C(=C)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(CC)COB(CC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(CCC)Nn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C1(C)CC1C",
+    "C=C1C(C)(C)C1(C)B(C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C1C(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "C=C1OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OCC1(C)C",
+    "C=CC(C)(C)C(C)ONc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=CC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(=C)C",
+    "C=CC1(C)CB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "C=COC(=O)c1cnco1",
+    "CB(OC(C)(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CB(OC1(C)C2CC21C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CBOB(OC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CBOB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)B(C)C",
+    "CC(C)C(C)C1(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)C(C)C1(O)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)CC(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)CC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC4(C)CC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OOC4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC(C)(C(C)(C)C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4COC(C)(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C(C)C)C4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C45CC5C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(C)CC45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(CC5)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)C5(CC5C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C(C)C)OC45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C)C(C)(C)C45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5CC56CC6(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OCC(C)(C)C(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC(O)C4(C)OC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC4(C)C(C)(C)C4(C)O)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BCC(C)(C)C4(C)CO4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC(C)(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C5(C)CC54C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C5(C)CO5)CC4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC45CC4(C)C5(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOOC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4CC4(C)C4(C)OC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4OC4(C)C4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(NC(O)N(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OB4CC4(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OOCC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C(C)CC3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)CC34CC4)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)OC3(C)C)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3=CC=CCO3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3C4CCCC43)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC(C)(C)C3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC3C3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC34C3CC34)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC3C3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4CN3CCCC3)o2)CC1",
+    "CC1C2C(Cn3ncc4c(-c5ncc(CN6CCN(C(C)C)CC6)o5)cc(-c5cccc6[nH]ccc56)cc43)C12",
+    "CC1CC1C(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CC1CC1CON=O",
+    "CC1CC2CC2OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+    "CC1ON(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C(C)(C)C1C",
+    "CCC(C)(C)C(Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)OO",
+    "CCC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(C)CC1OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(C)OB(OC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(CC)CBOc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)C",
+    "CCC1(C(C)(C)C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C1(C)OC",
+    "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+    "CCC1(O)OC1(CC)Oc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCCC(C)(C)OB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCCC(CC)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCC1CC1n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCC(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCC(O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCCCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCNC(=O)c1cnco1",
+    "CCON(OCC1CC1)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OC(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OC1(C)CC1C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OCC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)(C)C(C)C",
+    "COC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC(C)(C)CCB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC(C)C(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+    "COC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "COC1CC(C)(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COOC(=O)c1cnco1",
+    "Clc1cccc2[nH]ncc12",
+    "Clc1cccc2c1cnn2C1CCCCO1",
+    "O=C(O)c1cnco1",
+    "O=NOC1C2C3CC312"
+  ],
+  "candidate_hit_products": [
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "Clc1cccc2[nH]ncc12",
+    "Clc1cccc2c1cnn2C1CCCCO1",
+    "O=C(O)c1cnco1"
+  ],
+  "empty_candidate_products": [
+    "Brc1cccc2[nH]ccc12",
+    "C#COC(=O)c1cnco1",
+    "C1CCOCC1",
+    "C=C(C)C(C)C(C)(O)Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(C)COCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(C)OB(CC(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(CC)C(=C)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(CC)COB(CC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C(CCC)Nn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "C=C(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C1(C)CC1C",
+    "C=C1C(C)(C)C1(C)B(C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=C1C(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "C=C1OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OCC1(C)C",
+    "C=CC(C)(C)C(C)ONc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "C=CC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(=C)C",
+    "C=CC1(C)CB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "C=COC(=O)c1cnco1",
+    "CB(OC(C)(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CB(OC1(C)C2CC21C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CBOB(OC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CBOB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)B(C)C",
+    "CC(C)C(C)C1(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)C(C)C1(O)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)CC(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CC(C)CC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC4(C)CC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OOC4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC(C)(C(C)(C)C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4COC(C)(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C(C)C)C4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C45CC5C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(C)CC45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(CC5)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)C5(CC5C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C(C)C)OC45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C)C(C)(C)C45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5CC56CC6(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OCC(C)(C)C(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC(O)C4(C)OC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC4(C)C(C)(C)C4(C)O)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BCC(C)(C)C4(C)CO4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC(C)(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C5(C)CC54C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C5(C)CO5)CC4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC45CC4(C)C5(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOOC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4CC4(C)C4(C)OC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4OC4(C)C4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(NC(O)N(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OB4CC4(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OOCC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C(C)CC3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)CC34CC4)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)OC3(C)C)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3=CC=CCO3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3C4CCCC43)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC(C)(C)C3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC3C3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC34C3CC34)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC3C3CC3)o2)CC1",
+    "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4CN3CCCC3)o2)CC1",
+    "CC1C2C(Cn3ncc4c(-c5ncc(CN6CCN(C(C)C)CC6)o5)cc(-c5cccc6[nH]ccc56)cc43)C12",
+    "CC1CC1C(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CC1CC1CON=O",
+    "CC1CC2CC2OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+    "CC1ON(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C(C)(C)C1C",
+    "CCC(C)(C)C(Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)OO",
+    "CCC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(C)CC1OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(C)OB(OC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(CC)CBOc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)C",
+    "CCC1(C(C)(C)C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C1(C)OC",
+    "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+    "CCC1(O)OC1(CC)Oc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCCC(C)(C)OB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "CCCC(CC)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCC1CC1n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCC(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCC(O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCCCCCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+    "CCNC(=O)c1cnco1",
+    "CCON(OCC1CC1)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OC(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OC1(C)CC1C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(OCC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)(C)C(C)C",
+    "COC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC(C)(C)CCB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC(C)C(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+    "COC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+    "COC1CC(C)(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+    "COOC(=O)c1cnco1",
+    "O=NOC1C2C3CC312"
+  ],
+  "stock_size": 7,
+  "errors": [],
+  "trace": [
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+      "candidates": 22
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "CCCCC(O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 148
+    },
+    {
+      "event": "expand",
+      "product": "C=C(C)COCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "C=C(CC)C(=C)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC(C)(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "C=C(CCC)Nn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+      "candidates": 6
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C(C)CC3CC3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)C(C)C1(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "Clc1cccc2c1cnn2C1CCCCO1",
+      "candidates": 2
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)CC34CC4)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(O)c1cnco1",
+      "candidates": 3
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)OC3(C)C)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C1CCOCC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3=CC=CCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COB(OC(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "Clc1cccc2[nH]ncc12",
+      "candidates": 3
+    },
+    {
+      "event": "expand",
+      "product": "C=COC(=O)c1cnco1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3C4CCCC43)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)(C)C(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C#COC(=O)c1cnco1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC(C)(C)C3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C(C)C(C)C(C)(O)Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1CC1CON=O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCNC(=O)c1cnco1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC3C3CC3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C(C)OB(CC(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=NOC1C2C3CC312",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COOC(=O)c1cnco1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCC3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C(CC)COB(CC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC34C3CC34)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C1(C)CC1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC3C3CC3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C1C(C)(C)C1(C)B(C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4CN3CCCC3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C1C(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1C2C(Cn3ncc4c(-c5ncc(CN6CCN(C(C)C)CC6)o5)cc(-c5cccc6[nH]ccc56)cc43)C12",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=C1OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OCC1(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1CC1C(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=CC(C)(C)C(C)ONc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCCC(CC)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=CC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(=C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCCC1CC1n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C=CC1(C)CB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCCCC(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CB(OC(C)(C)C(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCCCCCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CB(OC1(C)C2CC21C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CBOB(OC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CBOB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)B(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)C(C)C1(O)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)CC(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)CC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OC4(C)CC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B(O)OOC4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC(C)(C(C)(C)C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4CC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4COC(C)(C)C4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C(C)C)C4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C45CC5C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(C)CC45)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C5(CC5)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)C5(CC5C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C(C)C)OC45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5(C)C(C)(C)C45C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5C(C)(C)C5(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC5CC56CC6(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OCC(C)(C)C(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC(O)C4(C)OC4(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BC4(C)C(C)(C)C4(C)O)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BCC(C)(C)C4(C)CO4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C)C5(C)CC54C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC4(C5(C)CO5)CC4)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOC45CC4(C)C5(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(BOOC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4CC4(C)C4(C)OC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(N4OC4(C)C4(C)CC4C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(NC(O)N(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OB4CC4(C)C(C)(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(OOCC(C)(C)C(C)C)cc4c3cnn4C3CCCCO3)o2)CC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1CC2CC2OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)O1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1ON(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C(C)(C)C1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(C)C(Bc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)OO",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(C)CC1OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(C)OB(OC)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(CC)CBOc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC(C)(OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC1(C(C)(C)C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)C1(C)OC",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCC1(O)OC1(CC)Oc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCCC(C)(C)OB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCON(OCC1CC1)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COB(OC1(C)CC1C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COB(OCC(C)(C)C)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COB(c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1)C(C)(C)C(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)(C)CCB(O)c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)C(C)(C)OBc1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1(C)B(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1(C)C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1(C)OB(c2cc(-c3ncc(C(=O)N4CCN(C(C)C)CC4)o3)c3cnn(C4CCCCO4)c3c2)OC1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1CC(C)(C)OB1c1cc(-c2ncc(C(=O)N3CCN(C(C)C)CC3)o2)c2cnn(C3CCCCO3)c2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "Brc1cccc2[nH]ccc12",
+      "candidates": 0
+    }
+  ],
+  "termination": "routes_found",
+  "documented_route_count": 2,
+  "mode": "fixed_core_latest_candidates",
+  "case_id": "nemiralisib",
+  "case_name": "Nemiralisib / GSK2269557",
+  "seconds": 0.172,
+  "search_settings": {
+    "max_depth": 12,
+    "top_k": 10000,
+    "max_routes": 3,
+    "max_model_calls": 300,
+    "max_states": 10000
+  },
+  "one_step_candidates": [
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+      ],
+      "score": 0.1,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 1,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 3,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "matching_draw_count": 3
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCCC(O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.06666666666666667,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 2,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 2,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CCCCC(O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 2
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "C=C(C)COCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 3,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "C=C(C)COCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "C=C(CC)C(=C)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 4,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "C=C(CC)C(=C)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "C=C(CCC)Nn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 5,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "C=C(CCC)Nn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C(C)CC3CC3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 6,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C(C)CC3CC3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)CC34CC4)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 7,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)CC34CC4)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)OC3(C)C)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 8,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3(C)OC3(C)C)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3=CC=CCO3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 9,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3=CC=CCO3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3C4CCCC43)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 10,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3C4CCCC43)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC(C)(C)C3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 11,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC(C)(C)C3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC3C3CC3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 12,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CC3C3CC3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCC3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 13,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCC3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC34C3CC34)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 14,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC34C3CC34)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC3C3CC3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 15,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3OC3C3CC3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4CN3CCCC3)o2)CC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 16,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4CN3CCCC3)o2)CC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC1C2C(Cn3ncc4c(-c5ncc(CN6CCN(C(C)C)CC6)o5)cc(-c5cccc6[nH]ccc56)cc43)C12"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 17,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC1C2C(Cn3ncc4c(-c5ncc(CN6CCN(C(C)C)CC6)o5)cc(-c5cccc6[nH]ccc56)cc43)C12",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC1CC1C(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 18,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CC1CC1C(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCC(CC)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 19,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CCCC(CC)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCC1CC1n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 20,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CCCC1CC1n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCCC(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 21,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CCCCC(=O)n1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCCCCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 22,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "NEMI-09",
+            "fragments": [
+              {
+                "uuid": "all_exact_NEMI-09_0",
+                "generated_smiles": "CCCCCCn1ncc2c(-c3ncc(CN4CCN(C(C)C)CC4)o3)cc(-c3cccc4[nH]ccc34)cc21",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    }
+  ],
+  "model_calls_definition": "candidate-bank queries, not GPU inference calls",
+  "llm_policy": "model_order",
+  "llm_calls": 4,
+  "new_sampling": false,
+  "new_training": false,
+  "sampling_steps": 100,
+  "base_draws_per_fragment": 30,
+  "blocker_draws_per_fragment": 300,
+  "provided_step_templates": 10,
+  "weights_sha256": {
+    "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+    "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+  },
+  "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "terminal_set": "Case-specific literature starting-material boundary",
+  "scope": "Given each step's known core; training-exposed reproduction; not autonomous core discovery or experimental validation",
+  "generation": "Reused latest-weight generated banks; complete precursor sets assembled across draws",
+  "reference_precursors_used_for_search": false,
+  "stock_used_for_candidate_generation": false,
+  "constraints": {},
+  "primary_route_index": 0,
+  "route_assessment": {
+    "status": "complete",
+    "calls": 4,
+    "criteria_weights": {
+      "chemical_plausibility": 0.45,
+      "strategic_coherence": 0.25,
+      "route_efficiency": 0.15,
+      "starting_material_suitability": 0.15
+    },
+    "score_scale": [
+      0,
+      10
+    ],
+    "preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+    "policy": "whole_route_llm_v1",
+    "max_routes": 8,
+    "max_calls": 16,
+    "max_corrections_per_route": 1,
+    "observations": [
+      {
+        "route_index": 0,
+        "input": {
+          "target": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+          "user_preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+          "steps": [
+            {
+              "step": 1,
+              "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.1,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 3,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+                "molecular_weight": 440.551,
+                "heavy_atoms": 33,
+                "rings": 6,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 17,
+                "element_counts": {
+                  "C": 26,
+                  "N": 6,
+                  "O": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 524.669,
+                  "heavy_atoms": 39,
+                  "rings": 7,
+                  "rotatable_bonds": 6,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 22,
+                  "element_counts": {
+                    "C": 31,
+                    "N": 6,
+                    "O": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 2,
+              "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 30,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 524.669,
+                "heavy_atoms": 39,
+                "rings": 7,
+                "rotatable_bonds": 6,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 22,
+                "element_counts": {
+                  "C": 31,
+                  "N": 6,
+                  "O": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 538.652,
+                  "heavy_atoms": 40,
+                  "rings": 7,
+                  "rotatable_bonds": 5,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 21,
+                  "element_counts": {
+                    "C": 31,
+                    "N": 6,
+                    "O": 3
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 3,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "Clc1cccc2[nH]ccc12"
+              ],
+              "model_rank": 1,
+              "model_score": 0.0297,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 2673,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 538.652,
+                "heavy_atoms": 40,
+                "rings": 7,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 21,
+                "element_counts": {
+                  "C": 31,
+                  "N": 6,
+                  "O": 3
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 549.481,
+                  "heavy_atoms": 40,
+                  "rings": 6,
+                  "rotatable_bonds": 5,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 20,
+                  "element_counts": {
+                    "C": 29,
+                    "N": 5,
+                    "O": 5,
+                    "B": 1
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2[nH]ccc12",
+                  "molecular_weight": 151.596,
+                  "heavy_atoms": 10,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 8,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 4,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                "CC1(C)OBOC1(C)C"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 549.481,
+                "heavy_atoms": 40,
+                "rings": 6,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 20,
+                "element_counts": {
+                  "C": 29,
+                  "N": 5,
+                  "O": 5,
+                  "B": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 423.517,
+                  "heavy_atoms": 31,
+                  "rings": 5,
+                  "rotatable_bonds": 4,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 17,
+                  "element_counts": {
+                    "C": 23,
+                    "N": 5,
+                    "O": 3
+                  }
+                },
+                {
+                  "smiles": "CC1(C)OBOC1(C)C",
+                  "molecular_weight": 127.98,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 6,
+                    "O": 2,
+                    "B": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 5,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                "Clc1cccc2c1cnn2C1CCCCO1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 423.517,
+                "heavy_atoms": 31,
+                "rings": 5,
+                "rotatable_bonds": 4,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 17,
+                "element_counts": {
+                  "C": 23,
+                  "N": 5,
+                  "O": 3
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                  "molecular_weight": 223.276,
+                  "heavy_atoms": 16,
+                  "rings": 2,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 9,
+                  "element_counts": {
+                    "C": 11,
+                    "N": 3,
+                    "O": 2
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                  "molecular_weight": 236.702,
+                  "heavy_atoms": 16,
+                  "rings": 3,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 9,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 12,
+                    "N": 2,
+                    "O": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 6,
+              "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+              "precursors": [
+                "CC(C)N1CCNCC1",
+                "CCOC(=O)c1cnco1"
+              ],
+              "model_rank": 2,
+              "model_score": 0.25,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 450,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                "molecular_weight": 223.276,
+                "heavy_atoms": 16,
+                "rings": 2,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 9,
+                "element_counts": {
+                  "C": 11,
+                  "N": 3,
+                  "O": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCNCC1",
+                  "molecular_weight": 128.219,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 7,
+                  "element_counts": {
+                    "C": 7,
+                    "N": 2
+                  }
+                },
+                {
+                  "smiles": "CCOC(=O)c1cnco1",
+                  "molecular_weight": 141.126,
+                  "heavy_atoms": 10,
+                  "rings": 1,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 6,
+                    "O": 3,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 7,
+              "product": "Clc1cccc2c1cnn2C1CCCCO1",
+              "precursors": [
+                "C1=COCCC1",
+                "Clc1cccc2[nH]ncc12"
+              ],
+              "model_rank": 2,
+              "model_score": 0.43333333333333335,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 390,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                "molecular_weight": 236.702,
+                "heavy_atoms": 16,
+                "rings": 3,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 9,
+                "element_counts": {
+                  "Cl": 1,
+                  "C": 12,
+                  "N": 2,
+                  "O": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "C1=COCCC1",
+                  "molecular_weight": 84.118,
+                  "heavy_atoms": 6,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "C": 5,
+                    "O": 1
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2[nH]ncc12",
+                  "molecular_weight": 152.584,
+                  "heavy_atoms": 10,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 7,
+                    "N": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 8,
+              "product": "Clc1cccc2[nH]ncc12",
+              "precursors": [
+                "CC(C)CCON=O",
+                "Cc1c(N)cccc1Cl"
+              ],
+              "model_rank": 1,
+              "model_score": 0.12,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 108,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Clc1cccc2[nH]ncc12",
+                "molecular_weight": 152.584,
+                "heavy_atoms": 10,
+                "rings": 2,
+                "rotatable_bonds": 0,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "Cl": 1,
+                  "C": 7,
+                  "N": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)CCON=O",
+                  "molecular_weight": 117.148,
+                  "heavy_atoms": 8,
+                  "rings": 0,
+                  "rotatable_bonds": 4,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "C": 5,
+                    "O": 2,
+                    "N": 1
+                  }
+                },
+                {
+                  "smiles": "Cc1c(N)cccc1Cl",
+                  "molecular_weight": 141.601,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 7,
+                    "N": 1,
+                    "Cl": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            }
+          ],
+          "starting_materials": [
+            "C1=COCCC1",
+            "CC(C)CCON=O",
+            "CC(C)N1CCNCC1",
+            "CC1(C)OBOC1(C)C",
+            "CCOC(=O)c1cnco1",
+            "Cc1c(N)cccc1Cl",
+            "Clc1cccc2[nH]ccc12"
+          ],
+          "terminal_set_definition": "Case-specific literature starting-material boundary",
+          "constraints": {},
+          "tool_checks": {
+            "connected": true,
+            "all_precursor_branches_retained": true,
+            "terminal_closure": true
+          },
+          "evidence_availability": {
+            "supplier_quotes": "not_provided",
+            "experimental_conditions_and_yields": "not_provided"
+          },
+          "search_cost": 10.0
+        },
+        "input_sha256": "6ea88002017b96c654efc3eaa7274da401642f4ae1461bb074f4ce30ab857641",
+        "attempts": [
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.0,
+                "route_efficiency": 5.0,
+                "starting_material_suitability": 6.5
+              },
+              "total_score": 5.7,
+              "rationale": "该路线以8步从商业可得或文献已知的起始原料构建目标分子。逆合成分析显示：最终产物通过还原胺化或烷基化引入异丙基哌嗪甲基（步骤1-2），随后通过Suzuki偶联安装吲哚片段（步骤3），再经Miyaura硼化（步骤4）和另一个Suzuki偶联（步骤5）组装噁唑核心，最后通过酰胺化（步骤6）和THP保护/脱保护（步骤7-8）完成。整体策略合理，但关键步骤（如步骤3和5的Suzuki偶联）缺乏实验条件验证，且步骤1的还原胺化选择性可能受吲哚NH影响。起始原料均为简单芳香族或脂肪族化合物，结构复杂度适中，但部分原料（如THP保护的氯代吲唑）需多步合成，增加了实际可行性风险。",
+              "strengths": [
+                "路线整体连接性良好，所有中间体结构合理，无明显的化学价态错误。",
+                "采用Suzuki偶联和Miyaura硼化等成熟反应构建C-C键，策略上具有模块化优势。",
+                "起始原料如异丙基哌嗪、噁唑羧酸酯和氯代吲哚等均为常见砌块，结构简单。",
+                "THP保护基的使用可提高吲唑氮原子的正交反应性，避免副反应。"
+              ],
+              "concerns": [
+                "所有步骤均无实验条件、产率或供应商数据，无法评估实际可行性和成本。",
+                "步骤1的还原胺化或烷基化可能受吲哚NH和噁唑氮原子的竞争反应影响，区域选择性未知。",
+                "步骤3和5的Suzuki偶联需要硼酸酯和卤代物匹配，但未提供催化剂、配体或碱的信息，反应效率不确定。",
+                "步骤4的Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，且需控制单硼化选择性。",
+                "步骤7的THP保护反应可能因底物溶解性差或空间位阻导致保护不完全。",
+                "步骤8的吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。",
+                "整体路线较长（8步），总产率可能较低，且未考虑保护基操作对效率的影响。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 1,
+                  "concern": "还原胺化或烷基化步骤的选择性未知，吲哚NH可能干扰反应，且无实验条件验证。"
+                },
+                {
+                  "step": 3,
+                  "concern": "Suzuki偶联步骤缺乏催化剂、配体和碱的信息，反应效率不确定，且硼酸酯与氯代吲哚的偶联可能受空间位阻影响。"
+                },
+                {
+                  "step": 4,
+                  "concern": "Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，单硼化选择性需优化。"
+                },
+                {
+                  "step": 5,
+                  "concern": "第二个Suzuki偶联步骤同样缺乏条件验证，且底物含有多个杂环，可能发生竞争配位。"
+                },
+                {
+                  "step": 7,
+                  "concern": "THP保护反应可能因底物溶解性差或空间位阻导致保护不完全，影响后续步骤。"
+                },
+                {
+                  "step": 8,
+                  "concern": "吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。"
+                }
+              ]
+            },
+            "tool_feedback": [
+              "Supplier availability or ease-of-preparation assertions have no supporting tool evidence; remove them."
+            ]
+          },
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.0,
+                "route_efficiency": 5.0,
+                "starting_material_suitability": 6.0
+              },
+              "total_score": 5.625,
+              "rationale": "该路线以8步从所列起始原料构建目标分子。逆合成分析显示：最终产物通过还原胺化或烷基化引入异丙基哌嗪甲基（步骤1-2），随后通过Suzuki偶联安装吲哚片段（步骤3），再经Miyaura硼化（步骤4）和另一个Suzuki偶联（步骤5）组装噁唑核心，最后通过酰胺化（步骤6）和THP保护/脱保护（步骤7-8）完成。整体策略合理，但关键步骤（如步骤3和5的Suzuki偶联）缺乏实验条件验证，且步骤1的还原胺化选择性可能受吲哚NH影响。起始原料均为简单芳香族或脂肪族化合物，结构复杂度适中，但部分原料（如THP保护的氯代吲唑）需多步合成，增加了实际可行性风险。",
+              "strengths": [
+                "路线整体连接性良好，所有中间体结构合理，无明显的化学价态错误。",
+                "采用Suzuki偶联和Miyaura硼化等成熟反应构建C-C键，策略上具有模块化优势。",
+                "起始原料如异丙基哌嗪、噁唑羧酸酯和氯代吲哚等均为常见砌块，结构简单。",
+                "THP保护基的使用可提高吲唑氮原子的正交反应性，避免副反应。"
+              ],
+              "concerns": [
+                "所有步骤均无实验条件、产率或供应商数据，无法评估实际可行性和成本。",
+                "步骤1的还原胺化或烷基化可能受吲哚NH和噁唑氮原子的竞争反应影响，区域选择性未知。",
+                "步骤3和5的Suzuki偶联需要硼酸酯和卤代物匹配，但未提供催化剂、配体或碱的信息，反应效率不确定。",
+                "步骤4的Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，且需控制单硼化选择性。",
+                "步骤7的THP保护反应可能因底物溶解性差或空间位阻导致保护不完全。",
+                "步骤8的吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。",
+                "整体路线较长（8步），总产率可能较低，且未考虑保护基操作对效率的影响。",
+                "起始原料的可得性、价格或制备难度均无供应商证据支持，无法评估实际采购可行性。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 1,
+                  "concern": "还原胺化或烷基化步骤的选择性未知，吲哚NH可能干扰反应，且无实验条件验证。"
+                },
+                {
+                  "step": 3,
+                  "concern": "Suzuki偶联步骤缺乏催化剂、配体和碱的信息，反应效率不确定，且硼酸酯与氯代吲哚的偶联可能受空间位阻影响。"
+                },
+                {
+                  "step": 4,
+                  "concern": "Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，单硼化选择性需优化。"
+                },
+                {
+                  "step": 5,
+                  "concern": "第二个Suzuki偶联步骤同样缺乏条件验证，且底物含有多个杂环，可能发生竞争配位。"
+                },
+                {
+                  "step": 7,
+                  "concern": "THP保护反应可能因底物溶解性差或空间位阻导致保护不完全，影响后续步骤。"
+                },
+                {
+                  "step": 8,
+                  "concern": "吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。"
+                }
+              ]
+            },
+            "tool_feedback": []
+          }
+        ],
+        "output": {
+          "scores": {
+            "chemical_plausibility": 5.5,
+            "strategic_coherence": 6.0,
+            "route_efficiency": 5.0,
+            "starting_material_suitability": 6.0
+          },
+          "total_score": 5.625,
+          "rationale": "该路线以8步从所列起始原料构建目标分子。逆合成分析显示：最终产物通过还原胺化或烷基化引入异丙基哌嗪甲基（步骤1-2），随后通过Suzuki偶联安装吲哚片段（步骤3），再经Miyaura硼化（步骤4）和另一个Suzuki偶联（步骤5）组装噁唑核心，最后通过酰胺化（步骤6）和THP保护/脱保护（步骤7-8）完成。整体策略合理，但关键步骤（如步骤3和5的Suzuki偶联）缺乏实验条件验证，且步骤1的还原胺化选择性可能受吲哚NH影响。起始原料均为简单芳香族或脂肪族化合物，结构复杂度适中，但部分原料（如THP保护的氯代吲唑）需多步合成，增加了实际可行性风险。",
+          "strengths": [
+            "路线整体连接性良好，所有中间体结构合理，无明显的化学价态错误。",
+            "采用Suzuki偶联和Miyaura硼化等成熟反应构建C-C键，策略上具有模块化优势。",
+            "起始原料如异丙基哌嗪、噁唑羧酸酯和氯代吲哚等均为常见砌块，结构简单。",
+            "THP保护基的使用可提高吲唑氮原子的正交反应性，避免副反应。"
+          ],
+          "concerns": [
+            "所有步骤均无实验条件、产率或供应商数据，无法评估实际可行性和成本。",
+            "步骤1的还原胺化或烷基化可能受吲哚NH和噁唑氮原子的竞争反应影响，区域选择性未知。",
+            "步骤3和5的Suzuki偶联需要硼酸酯和卤代物匹配，但未提供催化剂、配体或碱的信息，反应效率不确定。",
+            "步骤4的Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，且需控制单硼化选择性。",
+            "步骤7的THP保护反应可能因底物溶解性差或空间位阻导致保护不完全。",
+            "步骤8的吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。",
+            "整体路线较长（8步），总产率可能较低，且未考虑保护基操作对效率的影响。",
+            "起始原料的可得性、价格或制备难度均无供应商证据支持，无法评估实际采购可行性。"
+          ],
+          "critical_steps": [
+            {
+              "step": 1,
+              "concern": "还原胺化或烷基化步骤的选择性未知，吲哚NH可能干扰反应，且无实验条件验证。"
+            },
+            {
+              "step": 3,
+              "concern": "Suzuki偶联步骤缺乏催化剂、配体和碱的信息，反应效率不确定，且硼酸酯与氯代吲哚的偶联可能受空间位阻影响。"
+            },
+            {
+              "step": 4,
+              "concern": "Miyaura硼化使用双联硼酸酯，可能产生同源偶联副产物，单硼化选择性需优化。"
+            },
+            {
+              "step": 5,
+              "concern": "第二个Suzuki偶联步骤同样缺乏条件验证，且底物含有多个杂环，可能发生竞争配位。"
+            },
+            {
+              "step": 7,
+              "concern": "THP保护反应可能因底物溶解性差或空间位阻导致保护不完全，影响后续步骤。"
+            },
+            {
+              "step": 8,
+              "concern": "吲唑合成使用亚硝酸异戊酯，可能产生重氮中间体，存在安全风险且区域选择性需验证。"
+            }
+          ]
+        }
+      },
+      {
+        "route_index": 1,
+        "input": {
+          "target": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+          "user_preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+          "steps": [
+            {
+              "step": 1,
+              "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.1,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 3,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+                "molecular_weight": 440.551,
+                "heavy_atoms": 33,
+                "rings": 6,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 17,
+                "element_counts": {
+                  "C": 26,
+                  "N": 6,
+                  "O": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 524.669,
+                  "heavy_atoms": 39,
+                  "rings": 7,
+                  "rotatable_bonds": 6,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 22,
+                  "element_counts": {
+                    "C": 31,
+                    "N": 6,
+                    "O": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 2,
+              "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 30,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 524.669,
+                "heavy_atoms": 39,
+                "rings": 7,
+                "rotatable_bonds": 6,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 22,
+                "element_counts": {
+                  "C": 31,
+                  "N": 6,
+                  "O": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 538.652,
+                  "heavy_atoms": 40,
+                  "rings": 7,
+                  "rotatable_bonds": 5,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 21,
+                  "element_counts": {
+                    "C": 31,
+                    "N": 6,
+                    "O": 3
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 3,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "Clc1cccc2[nH]ccc12"
+              ],
+              "model_rank": 1,
+              "model_score": 0.0297,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 2673,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 538.652,
+                "heavy_atoms": 40,
+                "rings": 7,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 21,
+                "element_counts": {
+                  "C": 31,
+                  "N": 6,
+                  "O": 3
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 549.481,
+                  "heavy_atoms": 40,
+                  "rings": 6,
+                  "rotatable_bonds": 5,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 20,
+                  "element_counts": {
+                    "C": 29,
+                    "N": 5,
+                    "O": 5,
+                    "B": 1
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2[nH]ccc12",
+                  "molecular_weight": 151.596,
+                  "heavy_atoms": 10,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 8,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 4,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                "CC1(C)OBOC1(C)C"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 549.481,
+                "heavy_atoms": 40,
+                "rings": 6,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 20,
+                "element_counts": {
+                  "C": 29,
+                  "N": 5,
+                  "O": 5,
+                  "B": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                  "molecular_weight": 423.517,
+                  "heavy_atoms": 31,
+                  "rings": 5,
+                  "rotatable_bonds": 4,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 17,
+                  "element_counts": {
+                    "C": 23,
+                    "N": 5,
+                    "O": 3
+                  }
+                },
+                {
+                  "smiles": "CC1(C)OBOC1(C)C",
+                  "molecular_weight": 127.98,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 6,
+                    "O": 2,
+                    "B": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 5,
+              "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+              "precursors": [
+                "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                "Clc1cccc2c1cnn2C1CCCCO1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+                "molecular_weight": 423.517,
+                "heavy_atoms": 31,
+                "rings": 5,
+                "rotatable_bonds": 4,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 17,
+                "element_counts": {
+                  "C": 23,
+                  "N": 5,
+                  "O": 3
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                  "molecular_weight": 223.276,
+                  "heavy_atoms": 16,
+                  "rings": 2,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 9,
+                  "element_counts": {
+                    "C": 11,
+                    "N": 3,
+                    "O": 2
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                  "molecular_weight": 236.702,
+                  "heavy_atoms": 16,
+                  "rings": 3,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 9,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 12,
+                    "N": 2,
+                    "O": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 6,
+              "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+              "precursors": [
+                "CC(C)N1CCNCC1",
+                "O=C(O)c1cnco1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.6333333333333333,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 1140,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": true,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": "carboxylic acid + secondary amine amidation"
+              },
+              "product_properties": {
+                "smiles": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+                "molecular_weight": 223.276,
+                "heavy_atoms": 16,
+                "rings": 2,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 9,
+                "element_counts": {
+                  "C": 11,
+                  "N": 3,
+                  "O": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)N1CCNCC1",
+                  "molecular_weight": 128.219,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 7,
+                  "element_counts": {
+                    "C": 7,
+                    "N": 2
+                  }
+                },
+                {
+                  "smiles": "O=C(O)c1cnco1",
+                  "molecular_weight": 113.072,
+                  "heavy_atoms": 8,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 2,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 4,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 7,
+              "product": "Clc1cccc2c1cnn2C1CCCCO1",
+              "precursors": [
+                "C1=COCCC1",
+                "Clc1cccc2[nH]ncc12"
+              ],
+              "model_rank": 2,
+              "model_score": 0.43333333333333335,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 390,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Clc1cccc2c1cnn2C1CCCCO1",
+                "molecular_weight": 236.702,
+                "heavy_atoms": 16,
+                "rings": 3,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 9,
+                "element_counts": {
+                  "Cl": 1,
+                  "C": 12,
+                  "N": 2,
+                  "O": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "C1=COCCC1",
+                  "molecular_weight": 84.118,
+                  "heavy_atoms": 6,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "C": 5,
+                    "O": 1
+                  }
+                },
+                {
+                  "smiles": "Clc1cccc2[nH]ncc12",
+                  "molecular_weight": 152.584,
+                  "heavy_atoms": 10,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 7,
+                    "N": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 8,
+              "product": "O=C(O)c1cnco1",
+              "precursors": [
+                "CCOC(=O)c1cnco1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.6333333333333333,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 19,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(O)c1cnco1",
+                "molecular_weight": 113.072,
+                "heavy_atoms": 8,
+                "rings": 1,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 2,
+                "element_counts": {
+                  "O": 3,
+                  "C": 4,
+                  "N": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CCOC(=O)c1cnco1",
+                  "molecular_weight": 141.126,
+                  "heavy_atoms": 10,
+                  "rings": 1,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 6,
+                    "O": 3,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 9,
+              "product": "Clc1cccc2[nH]ncc12",
+              "precursors": [
+                "CC(C)CCON=O",
+                "Cc1c(N)cccc1Cl"
+              ],
+              "model_rank": 1,
+              "model_score": 0.12,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 108,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Clc1cccc2[nH]ncc12",
+                "molecular_weight": 152.584,
+                "heavy_atoms": 10,
+                "rings": 2,
+                "rotatable_bonds": 0,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "Cl": 1,
+                  "C": 7,
+                  "N": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CC(C)CCON=O",
+                  "molecular_weight": 117.148,
+                  "heavy_atoms": 8,
+                  "rings": 0,
+                  "rotatable_bonds": 4,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 5,
+                  "element_counts": {
+                    "C": 5,
+                    "O": 2,
+                    "N": 1
+                  }
+                },
+                {
+                  "smiles": "Cc1c(N)cccc1Cl",
+                  "molecular_weight": 141.601,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 7,
+                    "N": 1,
+                    "Cl": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            }
+          ],
+          "starting_materials": [
+            "C1=COCCC1",
+            "CC(C)CCON=O",
+            "CC(C)N1CCNCC1",
+            "CC1(C)OBOC1(C)C",
+            "CCOC(=O)c1cnco1",
+            "Cc1c(N)cccc1Cl",
+            "Clc1cccc2[nH]ccc12"
+          ],
+          "terminal_set_definition": "Case-specific literature starting-material boundary",
+          "constraints": {},
+          "tool_checks": {
+            "connected": true,
+            "all_precursor_branches_retained": true,
+            "terminal_closure": true
+          },
+          "evidence_availability": {
+            "supplier_quotes": "not_provided",
+            "experimental_conditions_and_yields": "not_provided"
+          },
+          "search_cost": 10.0
+        },
+        "input_sha256": "2a9eda02bc17e1ba462ff0dd3a2ee810ddcb4b01bd643921407454065c6da488",
+        "attempts": [
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.0,
+                "route_efficiency": 5.0,
+                "starting_material_suitability": 6.5
+              },
+              "total_score": 5.7,
+              "rationale": "该路线以逆合成方向给出，正向合成需从起始原料出发。整体策略合理：先构建吲哚片段，再通过Suzuki偶联连接吲哚与吲唑片段，随后进行酰胺还原和THP脱保护。但多个步骤缺乏实验条件与产率数据，且部分转化（如酰胺还原、THP脱保护、Suzuki偶联）的化学选择性和官能团相容性存在不确定性。起始原料均为结构较简单的商品化或易得砌块，但未提供供应商证据。",
+              "strengths": [
+                "路线汇聚性较好，关键中间体通过Suzuki偶联连接两个复杂片段。",
+                "使用THP保护基保护吲唑氮，避免偶联时副反应。",
+                "酰胺还原为胺的步骤在策略上合理，但需注意还原剂对噁唑环的潜在影响。",
+                "起始原料结构简单，多为常见砌块，符合终端库存约束。"
+              ],
+              "concerns": [
+                "所有步骤均未提供实验条件、产率或供应商数据，无法验证可行性。",
+                "步骤1（酰胺还原）可能还原噁唑环或导致其他副反应，需选择温和还原剂。",
+                "步骤3（Suzuki偶联）中硼酸酯与氯代吲哚的偶联效率未知，且氯代物活性较低。",
+                "步骤7（THP保护）使用二氢吡喃和吲唑，需酸催化，可能影响其他官能团。",
+                "步骤9（吲唑环构建）使用亚硝酸异戊酯和邻甲基苯胺，重氮化环化条件可能影响氯原子。",
+                "步骤8（酯水解）条件未明确，可能影响分子中其他酯基或敏感基团。",
+                "步骤5（酰胺缩合）使用HATU等缩合剂，但未提供条件，且噁唑羧酸可能活性较低。",
+                "步骤4（Miyaura硼化）使用B2pin2，需钯催化，可能对氯代物和THP保护基有影响。",
+                "步骤2（酰胺还原）与步骤1类似，但底物不同，需注意选择性。",
+                "步骤6（酰胺缩合）为模板匹配，但未验证实验条件。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 1,
+                  "concern": "酰胺还原为胺，可能还原噁唑环或导致其他副反应，需选择温和还原剂。"
+                },
+                {
+                  "step": 3,
+                  "concern": "Suzuki偶联中氯代吲哚活性较低，可能影响偶联效率。"
+                },
+                {
+                  "step": 7,
+                  "concern": "THP保护吲唑氮，酸催化条件可能影响其他官能团。"
+                },
+                {
+                  "step": 9,
+                  "concern": "吲唑环构建中重氮化环化条件可能影响氯原子。"
+                }
+              ]
+            },
+            "tool_feedback": [
+              "Supplier availability or ease-of-preparation assertions have no supporting tool evidence; remove them."
+            ]
+          },
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.0,
+                "route_efficiency": 5.0,
+                "starting_material_suitability": 6.0
+              },
+              "total_score": 5.625,
+              "rationale": "该路线以逆合成方向给出，正向合成需从起始原料出发。整体策略合理：先构建吲哚片段，再通过Suzuki偶联连接吲哚与吲唑片段，随后进行酰胺还原和THP脱保护。但多个步骤缺乏实验条件与产率数据，且部分转化（如酰胺还原、THP脱保护、Suzuki偶联）的化学选择性和官能团相容性存在不确定性。起始原料均为结构较简单的砌块，但未提供供应商证据，无法判断其可得性。",
+              "strengths": [
+                "路线汇聚性较好，关键中间体通过Suzuki偶联连接两个复杂片段。",
+                "使用THP保护基保护吲唑氮，避免偶联时副反应。",
+                "酰胺还原为胺的步骤在策略上合理，但需注意还原剂对噁唑环的潜在影响。",
+                "起始原料结构简单，符合终端库存约束，但未提供供应商证据。"
+              ],
+              "concerns": [
+                "所有步骤均未提供实验条件、产率或供应商数据，无法验证可行性。",
+                "步骤1（酰胺还原）可能还原噁唑环或导致其他副反应，需选择温和还原剂。",
+                "步骤3（Suzuki偶联）中硼酸酯与氯代吲哚的偶联效率未知，且氯代物活性较低。",
+                "步骤7（THP保护）使用二氢吡喃和吲唑，需酸催化，可能影响其他官能团。",
+                "步骤9（吲唑环构建）使用亚硝酸异戊酯和邻甲基苯胺，重氮化环化条件可能影响氯原子。",
+                "步骤8（酯水解）条件未明确，可能影响分子中其他酯基或敏感基团。",
+                "步骤5（酰胺缩合）使用HATU等缩合剂，但未提供条件，且噁唑羧酸可能活性较低。",
+                "步骤4（Miyaura硼化）使用B2pin2，需钯催化，可能对氯代物和THP保护基有影响。",
+                "步骤2（酰胺还原）与步骤1类似，但底物不同，需注意选择性。",
+                "步骤6（酰胺缩合）为模板匹配，但未验证实验条件。",
+                "未提供供应商证据，无法判断起始原料是否可购买或易制备。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 1,
+                  "concern": "酰胺还原为胺，可能还原噁唑环或导致其他副反应，需选择温和还原剂。"
+                },
+                {
+                  "step": 3,
+                  "concern": "Suzuki偶联中氯代吲哚活性较低，可能影响偶联效率。"
+                },
+                {
+                  "step": 7,
+                  "concern": "THP保护吲唑氮，酸催化条件可能影响其他官能团。"
+                },
+                {
+                  "step": 9,
+                  "concern": "吲唑环构建中重氮化环化条件可能影响氯原子。"
+                }
+              ]
+            },
+            "tool_feedback": []
+          }
+        ],
+        "output": {
+          "scores": {
+            "chemical_plausibility": 5.5,
+            "strategic_coherence": 6.0,
+            "route_efficiency": 5.0,
+            "starting_material_suitability": 6.0
+          },
+          "total_score": 5.625,
+          "rationale": "该路线以逆合成方向给出，正向合成需从起始原料出发。整体策略合理：先构建吲哚片段，再通过Suzuki偶联连接吲哚与吲唑片段，随后进行酰胺还原和THP脱保护。但多个步骤缺乏实验条件与产率数据，且部分转化（如酰胺还原、THP脱保护、Suzuki偶联）的化学选择性和官能团相容性存在不确定性。起始原料均为结构较简单的砌块，但未提供供应商证据，无法判断其可得性。",
+          "strengths": [
+            "路线汇聚性较好，关键中间体通过Suzuki偶联连接两个复杂片段。",
+            "使用THP保护基保护吲唑氮，避免偶联时副反应。",
+            "酰胺还原为胺的步骤在策略上合理，但需注意还原剂对噁唑环的潜在影响。",
+            "起始原料结构简单，符合终端库存约束，但未提供供应商证据。"
+          ],
+          "concerns": [
+            "所有步骤均未提供实验条件、产率或供应商数据，无法验证可行性。",
+            "步骤1（酰胺还原）可能还原噁唑环或导致其他副反应，需选择温和还原剂。",
+            "步骤3（Suzuki偶联）中硼酸酯与氯代吲哚的偶联效率未知，且氯代物活性较低。",
+            "步骤7（THP保护）使用二氢吡喃和吲唑，需酸催化，可能影响其他官能团。",
+            "步骤9（吲唑环构建）使用亚硝酸异戊酯和邻甲基苯胺，重氮化环化条件可能影响氯原子。",
+            "步骤8（酯水解）条件未明确，可能影响分子中其他酯基或敏感基团。",
+            "步骤5（酰胺缩合）使用HATU等缩合剂，但未提供条件，且噁唑羧酸可能活性较低。",
+            "步骤4（Miyaura硼化）使用B2pin2，需钯催化，可能对氯代物和THP保护基有影响。",
+            "步骤2（酰胺还原）与步骤1类似，但底物不同，需注意选择性。",
+            "步骤6（酰胺缩合）为模板匹配，但未验证实验条件。",
+            "未提供供应商证据，无法判断起始原料是否可购买或易制备。"
+          ],
+          "critical_steps": [
+            {
+              "step": 1,
+              "concern": "酰胺还原为胺，可能还原噁唑环或导致其他副反应，需选择温和还原剂。"
+            },
+            {
+              "step": 3,
+              "concern": "Suzuki偶联中氯代吲哚活性较低，可能影响偶联效率。"
+            },
+            {
+              "step": 7,
+              "concern": "THP保护吲唑氮，酸催化条件可能影响其他官能团。"
+            },
+            {
+              "step": 9,
+              "concern": "吲唑环构建中重氮化环化条件可能影响氯原子。"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "score_semantics": "LLM route evaluation, not a probability or yield",
+    "model": "deepseek-flash",
+    "original_primary_route_index": 1,
+    "usage": {
+      "prompt_tokens": 21176,
+      "completion_tokens": 3179
+    },
+    "seconds": 20.297,
+    "ranking_applied": true,
+    "ranked_original_indices": [
+      0,
+      1
+    ]
+  },
+  "route_selection_policy": "whole_route_llm_v1"
+}

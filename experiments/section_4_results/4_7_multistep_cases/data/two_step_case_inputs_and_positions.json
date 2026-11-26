@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "case_id": "8988",
+      "node": "8988_root",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          11,
+          12
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9997431635856628,
+        "rank": 1
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            32,
+            33
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.00018996320432052016,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            14,
+            15
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 3.6401208490133286e-05,
+          "rank": 3
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            8,
+            9
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 2.298626168339979e-05,
+          "rank": 4
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/recursive_probe/product_only_v1/8988_root/result.json",
+      "source_sha256": "2444a3e1b8a725a575010515f027ceb7951e568356037965658a0fb555a6b70f",
+      "local_precursor_pair_rank": 4,
+      "size_mode": "learned"
+    },
+    {
+      "case_id": "8988",
+      "node": "8988_child1",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          3,
+          5
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.0010979698272421956,
+        "rank": 5
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            0,
+            1
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9113686680793762,
+          "rank": 1
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            2,
+            3
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.0808531641960144,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            5,
+            6
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.0014772755093872547,
+          "rank": 4
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/recursive_probe/oracle_size_20260922/results/oracle_size/8988_child1/result.json",
+      "source_sha256": "deb6452e82e3b96efbbc08dc21507b93d6d209a768023a6c1a9bb51b4e582509",
+      "local_precursor_pair_rank": 9,
+      "size_mode": "oracle"
+    },
+    {
+      "case_id": "9773",
+      "node": "9773_root",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          8,
+          9
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.99996018409729,
+        "rank": 1
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            4,
+            5
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 2.658760604390409e-05,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            11,
+            14
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 1.1078617717430461e-05,
+          "rank": 3
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            9,
+            11
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 1.035610694088973e-06,
+          "rank": 4
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/diverse_candidates_20260921/product_only_v1/9773_root/result.json",
+      "source_sha256": "13c995b378c0de8338707746d3cdd063fdfecc5c7580d24197fc79307ab489c9",
+      "local_precursor_pair_rank": 1,
+      "size_mode": "learned"
+    },
+    {
+      "case_id": "9773",
+      "node": "9773_child1",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          15,
+          16
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 2.7485071996125043e-08,
+        "rank": 7
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            4,
+            5
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9999574422836304,
+          "rank": 1
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            16,
+            18
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 4.189896571915597e-05,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            16,
+            17
+          ],
+          "in_ring": false,
+          "bond_type": "DOUBLE",
+          "probability": 4.3322064158246576e-08,
+          "rank": 6
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/current_triptych_second_step_20260922/results/oracle_size/9773_child1/result.json",
+      "source_sha256": "d9f4f9932f0cd2086ae9b60cb67f21c7d576d8532c4872da08559922a628db84",
+      "local_precursor_pair_rank": 7,
+      "size_mode": "oracle"
+    },
+    {
+      "case_id": "10435",
+      "node": "10435_root",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          1,
+          2
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9996834993362427,
+        "rank": 1
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            16,
+            17
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.0003092322440352291,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            3,
+            4
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 5.102706381876487e-06,
+          "rank": 3
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            8,
+            9
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 2.111177082042559e-06,
+          "rank": 4
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/multistep_campaign_20260922/batch2_results/oracle_size/10435_root/result.json",
+      "source_sha256": "63aabafe9d143eca4a47646a47a302cd8faaa3cacfe2b11f056e154667504727",
+      "local_precursor_pair_rank": 1,
+      "size_mode": "oracle"
+    },
+    {
+      "case_id": "10435",
+      "node": "10435_benzylether",
+      "selected_cut": {
+        "kind": "bond",
+        "atom_indices": [
+          7,
+          8
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 9.045007755048573e-05,
+        "rank": 4
+      },
+      "blue_alternatives": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            3,
+            4
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9901915788650513,
+          "rank": 1
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            0,
+            1
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.0051888064481318,
+          "rank": 2
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            8,
+            9
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.004399443510919809,
+          "rank": 3
+        }
+      ],
+      "source": "experiments/stage2_geometry20k_20260915/multistep_campaign_20260922/batch3_results/learned_size/10435_benzylether/result.json",
+      "source_sha256": "a8e1232caee743fc4e91a70bdc0b6f1bcb351b2a384bc6a49a271827f72119c1",
+      "local_precursor_pair_rank": 10,
+      "size_mode": "learned"
+    }
+  ],
+  "selection_rule": "Selected reference-linked cut plus the three highest-scored OTHER non-ring bonds at each predicted node.",
+  "color_semantics": "Categorical only; same blue does not mean similar probability, strong competition, chemical feasibility, or membership in the supported sampling branches.",
+  "excluded": "Ring bonds, unscored terminal precursors, numerical probability labels and score leader lines.",
+  "preserved": "Continuous route layout, compound identities and numbering, literature conditions, ranks and oracle-size disclosures.",
+  "no_inference": true,
+  "source_manifest_sha256": "af9f290b80fcb4cc5f92008a580b592457578bb0b255929126bae2e11991c825",
+  "qa": {
+    "predicted_nodes": 6,
+    "orange_bonds": 6,
+    "blue_bonds": 18,
+    "numerical_probability_labels": 0,
+    "raw_bond_scores_retained": 172,
+    "png_dpi": 300
+  },
+  "files": {
+    "all_bond_probabilities.csv": "65e413d038d64e8efaff556040d8e9340738ae8938adeb53669d3e857180bb71",
+    "continuous_retrosynthesis_rank_only.pdf": "f4f455972b03c21c584c17c064caef81c1625c7ffc8cffabc8bd71044b5c927e",
+    "continuous_retrosynthesis_rank_only.png": "82b9eae551d6b017386fae25b72aed77a99a6c8f530ce293e8b9069e6562808b",
+    "continuous_retrosynthesis_rank_only.svg": "79fb1b0d5a3650058d390e3d3727152f3b819b68e9a18837ea50ff2d70d14950",
+    "continuous_retrosynthesis_rank_only_preview.png": "d65adb24b1eaaf631629c672f914bfefb58faf0200fc98927cdd7bbf8fe93cd0"
+  },
+  "display_revision": {
+    "source_svg_sha256": "9353cdf5d7ad85297486b8a529adc742d7e44290190d4fc4b9da8cf27fe059ba",
+    "rank_labels": [
+      "Rank 4",
+      "Rank 9",
+      "Rank 1",
+      "Rank 7",
+      "Rank 1",
+      "Rank 10"
+    ],
+    "changed_text_nodes": 7,
+    "molecular_paths_identical": true,
+    "size_conditions": "Preserved in structured node evidence and accompanying caption; omitted from the main image."
+  }
+}

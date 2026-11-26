@@ -1,0 +1,90 @@
+{
+  "state": "complete",
+  "cross_draw": true,
+  "all_candidate_molecules_from_actual_model_banks": true,
+  "all_combination_counts_and_scores_reconstructed": true,
+  "no_reference_filter_for_combinations": true,
+  "stock_not_used_for_generation": true,
+  "route_origins_and_terminals_verified": true,
+  "jobs": {
+    "case_l": [
+      {
+        "reference_steps": [
+          "LAP-05",
+          "LAP-04",
+          "LAP-03",
+          "LAP-02",
+          "LAP-01"
+        ],
+        "all_edges_documented": true
+      }
+    ],
+    "case_n": [
+      {
+        "reference_steps": [
+          "NEMI-09",
+          "NEMI-08",
+          "NEMI-07",
+          "NEMI-06",
+          "NEMI-05",
+          "NEMI-02-alt",
+          "NEMI-04",
+          "NEMI-03"
+        ],
+        "all_edges_documented": true
+      },
+      {
+        "reference_steps": [
+          "NEMI-09",
+          "NEMI-08",
+          "NEMI-07",
+          "NEMI-06",
+          "NEMI-05",
+          "NEMI-02",
+          "NEMI-04",
+          "NEMI-01",
+          "NEMI-03"
+        ],
+        "all_edges_documented": true
+      }
+    ],
+    "case_t": [
+      {
+        "reference_steps": [
+          "TAF-05",
+          "TAF-04",
+          null,
+          "TAF-01"
+        ],
+        "all_edges_documented": false
+      },
+      {
+        "reference_steps": [
+          "TAF-05",
+          "TAF-04",
+          "TAF-03",
+          "TAF-02",
+          "TAF-01"
+        ],
+        "all_edges_documented": true
+      }
+    ]
+  },
+  "correct_complete_precursor_set_ranks": {
+    "NEMI-07": [
+      1
+    ],
+    "TAF-02": [
+      54
+    ]
+  },
+  "effective_generation_banks": {
+    "decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+    "blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+  },
+  "candidate_metadata_source_bank_field_describes_base_bank_only": true,
+  "effective_raw_banks": {
+    "raw_samples.pt": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+    "blockers_300/new_raw_samples.pt": "5a8190e9db3d778618cbf86c8c0f6d5af91480f5da7ab61e8da821d1c3cef190"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "external_case_weights_v1",
+  "arm": "learned_partition_completion_fixed100_80",
+  "reaction_class_input": false,
+  "reference_inputs": false,
+  "fusion_manifest_sha256": "f260878c04ad3bc8a398d86ce32991b1520d72e8ec3b895a84808f0342fea9e8",
+  "stage1": {
+    "path": "source-record:stage1_v4/last.ckpt",
+    "sha256": "bf50eb8dcd317a4aef0d2ad204a1f9bb0350f7857a14d75cc258e278e3f078ec"
+  },
+  "size": {
+    "path": "checkpoints/cases/agent/size_model.ckpt",
+    "sha256": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+  },
+  "edm": {
+    "path": "checkpoints/cases/agent/completion_model.ckpt",
+    "sha256": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56"
+  },
+  "stage1_python": "source-record:physdual/python.exe",
+  "decoder_python": "source-record:physdual/python.exe",
+  "selection_rule": "Fixed final checkpoints; learned masks at live inference",
+  "known_training_contact": true
+}

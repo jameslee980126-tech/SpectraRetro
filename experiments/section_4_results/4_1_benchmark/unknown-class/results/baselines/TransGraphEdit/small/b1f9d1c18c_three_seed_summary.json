@@ -1,0 +1,770 @@
+{
+  "experiment": "TransGraphEdit small known/unknown three seeds",
+  "seed0": "reused original completed run; no retraining",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_rows_per_run": 2400,
+  "arms": {
+    "known_class": {
+      "seeds": {
+        "0": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1453,
+                "Top-3": 1891,
+                "Top-5": 1953,
+                "Top-10": 1997
+              },
+              "metrics": {
+                "Top-1": 0.6054166666666667,
+                "Top-3": 0.7879166666666667,
+                "Top-5": 0.81375,
+                "Top-10": 0.8320833333333333
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 447,
+                "Top-3": 619,
+                "Top-5": 644,
+                "Top-10": 657
+              },
+              "metrics": {
+                "Top-1": 0.55875,
+                "Top-3": 0.77375,
+                "Top-5": 0.805,
+                "Top-10": 0.82125
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 515,
+                "Top-3": 638,
+                "Top-5": 658,
+                "Top-10": 670
+              },
+              "metrics": {
+                "Top-1": 0.64375,
+                "Top-3": 0.7975,
+                "Top-5": 0.8225,
+                "Top-10": 0.8375
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 491,
+                "Top-3": 634,
+                "Top-5": 651,
+                "Top-10": 670
+              },
+              "metrics": {
+                "Top-1": 0.61375,
+                "Top-3": 0.7925,
+                "Top-5": 0.81375,
+                "Top-10": 0.8375
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/with_rxn_class/22-09-2026--23-25-21",
+            "best_epoch": 19,
+            "best_valid_full_sequence_accuracy": 0.6587,
+            "rule": "earliest epoch attaining maximum validation accuracy"
+          },
+          "per_reaction_sha256": "fce8b2fe8e0425df034313c38a2e66eb20f6dcc3f8b0b66eefafd501500e08cb"
+        },
+        "1": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1447,
+                "Top-3": 1887,
+                "Top-5": 1950,
+                "Top-10": 2005
+              },
+              "metrics": {
+                "Top-1": 0.6029166666666667,
+                "Top-3": 0.78625,
+                "Top-5": 0.8125,
+                "Top-10": 0.8354166666666667
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 445,
+                "Top-3": 616,
+                "Top-5": 645,
+                "Top-10": 660
+              },
+              "metrics": {
+                "Top-1": 0.55625,
+                "Top-3": 0.77,
+                "Top-5": 0.80625,
+                "Top-10": 0.825
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 508,
+                "Top-3": 637,
+                "Top-5": 654,
+                "Top-10": 674
+              },
+              "metrics": {
+                "Top-1": 0.635,
+                "Top-3": 0.79625,
+                "Top-5": 0.8175,
+                "Top-10": 0.8425
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 494,
+                "Top-3": 634,
+                "Top-5": 651,
+                "Top-10": 671
+              },
+              "metrics": {
+                "Top-1": 0.6175,
+                "Top-3": 0.7925,
+                "Top-5": 0.81375,
+                "Top-10": 0.83875
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/with_rxn_class/19-10-2026--11-22-30",
+            "best_epoch": 19,
+            "best_valid_full_sequence_accuracy": 0.6715,
+            "completed_epochs": 20,
+            "selected_sha256": "67cc32510ffe7370f7f71c33fd5fb0fe11cde682087f6be96da35b06fd1caff4",
+            "rule": "earliest epoch attaining maximum validation accuracy",
+            "stop_reason": "maximum_epochs",
+            "test_used_for_checkpoint_selection": false
+          },
+          "per_reaction_sha256": "db8948d29dd094a11968f1e485200c5e08261687e466dc5a8fd115726a84759f"
+        },
+        "2": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1397,
+                "Top-3": 1841,
+                "Top-5": 1932,
+                "Top-10": 1993
+              },
+              "metrics": {
+                "Top-1": 0.5820833333333333,
+                "Top-3": 0.7670833333333333,
+                "Top-5": 0.805,
+                "Top-10": 0.8304166666666667
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 420,
+                "Top-3": 604,
+                "Top-5": 642,
+                "Top-10": 659
+              },
+              "metrics": {
+                "Top-1": 0.525,
+                "Top-3": 0.755,
+                "Top-5": 0.8025,
+                "Top-10": 0.82375
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 490,
+                "Top-3": 623,
+                "Top-5": 650,
+                "Top-10": 668
+              },
+              "metrics": {
+                "Top-1": 0.6125,
+                "Top-3": 0.77875,
+                "Top-5": 0.8125,
+                "Top-10": 0.835
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 487,
+                "Top-3": 614,
+                "Top-5": 640,
+                "Top-10": 666
+              },
+              "metrics": {
+                "Top-1": 0.60875,
+                "Top-3": 0.7675,
+                "Top-5": 0.8,
+                "Top-10": 0.8325
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/with_rxn_class/19-10-2026--11-22-30",
+            "best_epoch": 12,
+            "best_valid_full_sequence_accuracy": 0.6477,
+            "completed_epochs": 16,
+            "selected_sha256": "b73cc95a8d1bedb7c0d37b5de881c918be4b643fb1e77f013a44bfb95454737e",
+            "rule": "earliest epoch attaining maximum validation accuracy",
+            "stop_reason": "validation_early_stop",
+            "test_used_for_checkpoint_selection": false
+          },
+          "per_reaction_sha256": "627042283c074f1e92a414d54156546882aa351c08276d3b6b9dbeb7940f9053"
+        }
+      },
+      "aggregate": {
+        "all": {
+          "Top-1": {
+            "mean": 0.5968055555555556,
+            "sample_sd": 0.012810947286222492,
+            "per_seed_values": [
+              0.6054166666666667,
+              0.6029166666666667,
+              0.5820833333333333
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7804166666666666,
+            "sample_sd": 0.011577036657874849,
+            "per_seed_values": [
+              0.7879166666666667,
+              0.78625,
+              0.7670833333333333
+            ]
+          },
+          "Top-5": {
+            "mean": 0.8104166666666667,
+            "sample_sd": 0.004732423621500191,
+            "per_seed_values": [
+              0.81375,
+              0.8125,
+              0.805
+            ]
+          },
+          "Top-10": {
+            "mean": 0.8326388888888889,
+            "sample_sd": 0.002545875386086588,
+            "per_seed_values": [
+              0.8320833333333333,
+              0.8354166666666667,
+              0.8304166666666667
+            ]
+          }
+        },
+        "high": {
+          "Top-1": {
+            "mean": 0.5466666666666666,
+            "sample_sd": 0.01880547349399458,
+            "per_seed_values": [
+              0.55875,
+              0.55625,
+              0.525
+            ]
+          },
+          "Top-3": {
+            "mean": 0.76625,
+            "sample_sd": 0.009921567416492234,
+            "per_seed_values": [
+              0.77375,
+              0.77,
+              0.755
+            ]
+          },
+          "Top-5": {
+            "mean": 0.8045833333333333,
+            "sample_sd": 0.0019094065395649533,
+            "per_seed_values": [
+              0.805,
+              0.80625,
+              0.8025
+            ]
+          },
+          "Top-10": {
+            "mean": 0.8233333333333334,
+            "sample_sd": 0.0019094065395648925,
+            "per_seed_values": [
+              0.82125,
+              0.825,
+              0.82375
+            ]
+          }
+        },
+        "medium": {
+          "Top-1": {
+            "mean": 0.6304166666666667,
+            "sample_sd": 0.01612128510179425,
+            "per_seed_values": [
+              0.64375,
+              0.635,
+              0.6125
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7908333333333334,
+            "sample_sd": 0.010483121354507572,
+            "per_seed_values": [
+              0.7975,
+              0.79625,
+              0.77875
+            ]
+          },
+          "Top-5": {
+            "mean": 0.8175,
+            "sample_sd": 0.0050000000000000044,
+            "per_seed_values": [
+              0.8225,
+              0.8175,
+              0.8125
+            ]
+          },
+          "Top-10": {
+            "mean": 0.8383333333333334,
+            "sample_sd": 0.0038188130791298944,
+            "per_seed_values": [
+              0.8375,
+              0.8425,
+              0.835
+            ]
+          }
+        },
+        "low": {
+          "Top-1": {
+            "mean": 0.6133333333333334,
+            "sample_sd": 0.004389855730355325,
+            "per_seed_values": [
+              0.61375,
+              0.6175,
+              0.60875
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7841666666666667,
+            "sample_sd": 0.014433756729740658,
+            "per_seed_values": [
+              0.7925,
+              0.7925,
+              0.7675
+            ]
+          },
+          "Top-5": {
+            "mean": 0.8091666666666667,
+            "sample_sd": 0.007938566201357314,
+            "per_seed_values": [
+              0.81375,
+              0.81375,
+              0.8
+            ]
+          },
+          "Top-10": {
+            "mean": 0.83625,
+            "sample_sd": 0.0033071891388307306,
+            "per_seed_values": [
+              0.8375,
+              0.83875,
+              0.8325
+            ]
+          }
+        }
+      }
+    },
+    "unknown_class": {
+      "seeds": {
+        "0": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1244,
+                "Top-3": 1745,
+                "Top-5": 1847,
+                "Top-10": 1916
+              },
+              "metrics": {
+                "Top-1": 0.5183333333333333,
+                "Top-3": 0.7270833333333333,
+                "Top-5": 0.7695833333333333,
+                "Top-10": 0.7983333333333333
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 380,
+                "Top-3": 562,
+                "Top-5": 610,
+                "Top-10": 634
+              },
+              "metrics": {
+                "Top-1": 0.475,
+                "Top-3": 0.7025,
+                "Top-5": 0.7625,
+                "Top-10": 0.7925
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 428,
+                "Top-3": 598,
+                "Top-5": 625,
+                "Top-10": 648
+              },
+              "metrics": {
+                "Top-1": 0.535,
+                "Top-3": 0.7475,
+                "Top-5": 0.78125,
+                "Top-10": 0.81
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 436,
+                "Top-3": 585,
+                "Top-5": 612,
+                "Top-10": 634
+              },
+              "metrics": {
+                "Top-1": 0.545,
+                "Top-3": 0.73125,
+                "Top-5": 0.765,
+                "Top-10": 0.7925
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/without_rxn_class/22-09-2026--22-49-28",
+            "best_epoch": 11,
+            "best_valid_full_sequence_accuracy": 0.5729,
+            "rule": "earliest epoch attaining maximum validation accuracy"
+          },
+          "per_reaction_sha256": "685375427bb7dea2bbe6c97abfe8f300b3d9f5f289b77970e28fd39ea06eac2d"
+        },
+        "1": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1201,
+                "Top-3": 1734,
+                "Top-5": 1829,
+                "Top-10": 1917
+              },
+              "metrics": {
+                "Top-1": 0.5004166666666666,
+                "Top-3": 0.7225,
+                "Top-5": 0.7620833333333333,
+                "Top-10": 0.79875
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 363,
+                "Top-3": 563,
+                "Top-5": 600,
+                "Top-10": 633
+              },
+              "metrics": {
+                "Top-1": 0.45375,
+                "Top-3": 0.70375,
+                "Top-5": 0.75,
+                "Top-10": 0.79125
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 422,
+                "Top-3": 589,
+                "Top-5": 619,
+                "Top-10": 645
+              },
+              "metrics": {
+                "Top-1": 0.5275,
+                "Top-3": 0.73625,
+                "Top-5": 0.77375,
+                "Top-10": 0.80625
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 416,
+                "Top-3": 582,
+                "Top-5": 610,
+                "Top-10": 639
+              },
+              "metrics": {
+                "Top-1": 0.52,
+                "Top-3": 0.7275,
+                "Top-5": 0.7625,
+                "Top-10": 0.79875
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/without_rxn_class/19-10-2026--11-22-30",
+            "best_epoch": 9,
+            "best_valid_full_sequence_accuracy": 0.5695,
+            "completed_epochs": 13,
+            "selected_sha256": "2d58ee8b8d7cfc98233f73dd80bdae22c8e60e367d465cf227b99f673686ce6f",
+            "rule": "earliest epoch attaining maximum validation accuracy",
+            "stop_reason": "validation_early_stop",
+            "test_used_for_checkpoint_selection": false
+          },
+          "per_reaction_sha256": "3a03a47d6888da8858621f1ca948b0e4b8950693a6440e4053e55292636cde52"
+        },
+        "2": {
+          "groups": {
+            "all": {
+              "n": 2400,
+              "hits": {
+                "Top-1": 1281,
+                "Top-3": 1764,
+                "Top-5": 1864,
+                "Top-10": 1930
+              },
+              "metrics": {
+                "Top-1": 0.53375,
+                "Top-3": 0.735,
+                "Top-5": 0.7766666666666666,
+                "Top-10": 0.8041666666666667
+              }
+            },
+            "high": {
+              "n": 800,
+              "hits": {
+                "Top-1": 398,
+                "Top-3": 573,
+                "Top-5": 609,
+                "Top-10": 635
+              },
+              "metrics": {
+                "Top-1": 0.4975,
+                "Top-3": 0.71625,
+                "Top-5": 0.76125,
+                "Top-10": 0.79375
+              }
+            },
+            "medium": {
+              "n": 800,
+              "hits": {
+                "Top-1": 444,
+                "Top-3": 591,
+                "Top-5": 631,
+                "Top-10": 648
+              },
+              "metrics": {
+                "Top-1": 0.555,
+                "Top-3": 0.73875,
+                "Top-5": 0.78875,
+                "Top-10": 0.81
+              }
+            },
+            "low": {
+              "n": 800,
+              "hits": {
+                "Top-1": 439,
+                "Top-3": 600,
+                "Top-5": 624,
+                "Top-10": 647
+              },
+              "metrics": {
+                "Top-1": 0.54875,
+                "Top-3": 0.75,
+                "Top-5": 0.78,
+                "Top-10": 0.80875
+              }
+            }
+          },
+          "checkpoint_selection": {
+            "experiment_dir": "<reference-runtime-path> Arylation/without_rxn_class/19-10-2026--11-22-30",
+            "best_epoch": 14,
+            "best_valid_full_sequence_accuracy": 0.5907,
+            "completed_epochs": 18,
+            "selected_sha256": "9ae03763836facc5d1c53767ef75e3610d693cc961c23766145d1a6d91305d22",
+            "rule": "earliest epoch attaining maximum validation accuracy",
+            "stop_reason": "validation_early_stop",
+            "test_used_for_checkpoint_selection": false
+          },
+          "per_reaction_sha256": "e40f0a67420c2e16f785e2189892ec4ee93ec0cea1f9860203217c23dc76a4d2"
+        }
+      },
+      "aggregate": {
+        "all": {
+          "Top-1": {
+            "mean": 0.5175,
+            "sample_sd": 0.016682284349306332,
+            "per_seed_values": [
+              0.5183333333333333,
+              0.5004166666666666,
+              0.53375
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7281944444444445,
+            "sample_sd": 0.006323640243240098,
+            "per_seed_values": [
+              0.7270833333333333,
+              0.7225,
+              0.735
+            ]
+          },
+          "Top-5": {
+            "mean": 0.7694444444444444,
+            "sample_sd": 0.007292658662680572,
+            "per_seed_values": [
+              0.7695833333333333,
+              0.7620833333333333,
+              0.7766666666666666
+            ]
+          },
+          "Top-10": {
+            "mean": 0.8004166666666667,
+            "sample_sd": 0.003254270698294465,
+            "per_seed_values": [
+              0.7983333333333333,
+              0.79875,
+              0.8041666666666667
+            ]
+          }
+        },
+        "high": {
+          "Top-1": {
+            "mean": 0.47541666666666665,
+            "sample_sd": 0.0218779759880418,
+            "per_seed_values": [
+              0.475,
+              0.45375,
+              0.4975
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7075,
+            "sample_sd": 0.007603453162872804,
+            "per_seed_values": [
+              0.7025,
+              0.70375,
+              0.71625
+            ]
+          },
+          "Top-5": {
+            "mean": 0.7579166666666667,
+            "sample_sd": 0.006884463184107608,
+            "per_seed_values": [
+              0.7625,
+              0.75,
+              0.76125
+            ]
+          },
+          "Top-10": {
+            "mean": 0.7925,
+            "sample_sd": 0.0012499999999999734,
+            "per_seed_values": [
+              0.7925,
+              0.79125,
+              0.79375
+            ]
+          }
+        },
+        "medium": {
+          "Top-1": {
+            "mean": 0.5391666666666667,
+            "sample_sd": 0.014215601757693352,
+            "per_seed_values": [
+              0.535,
+              0.5275,
+              0.555
+            ]
+          },
+          "Top-3": {
+            "mean": 0.7408333333333333,
+            "sample_sd": 0.005907269532815803,
+            "per_seed_values": [
+              0.7475,
+              0.73625,
+              0.73875
+            ]
+          },
+          "Top-5": {
+            "mean": 0.78125,
+            "sample_sd": 0.007499999999999951,
+            "per_seed_values": [
+              0.78125,
+              0.77375,
+              0.78875
+            ]
+          },
+          "Top-10": {
+            "mean": 0.8087500000000001,
+            "sample_sd": 0.0021650635094611144,
+            "per_seed_values": [
+              0.81,
+              0.80625,
+              0.81
+            ]
+          }
+        },
+        "low": {
+          "Top-1": {
+            "mean": 0.5379166666666667,
+            "sample_sd": 0.015629166111259196,
+            "per_seed_values": [
+              0.545,
+              0.52,
+              0.54875
+            ]
+          },
+          "Top-3": {
+            "mean": 0.73625,
+            "sample_sd": 0.01205456345124119,
+            "per_seed_values": [
+              0.73125,
+              0.7275,
+              0.75
+            ]
+          },
+          "Top-5": {
+            "mean": 0.7691666666666667,
+            "sample_sd": 0.009464847243000485,
+            "per_seed_values": [
+              0.765,
+              0.7625,
+              0.78
+            ]
+          },
+          "Top-10": {
+            "mean": 0.7999999999999999,
+            "sample_sd": 0.008196798155377496,
+            "per_seed_values": [
+              0.7925,
+              0.79875,
+              0.80875
+            ]
+          }
+        }
+      }
+    }
+  }
+}

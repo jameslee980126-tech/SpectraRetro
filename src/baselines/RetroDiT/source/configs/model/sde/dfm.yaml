@@ -1,0 +1,34 @@
+defaults:
+  - sde_base
+
+_target_: src.models.DFM
+
+
+from_var: ['p_X', 'p_E']
+to_var: ['r_X', 'r_E']
+conditional: False
+model_transition: predefined # predefined | uniform | absorbing 
+time_distortion: identity  # identity, cosine, revcos, polyinc, polydec
+
+train:
+  loss_type: ce       # ce | vlb
+  lambda_train_x: 1.0
+  lambda_train_e: 10.0
+  kld: False
+  entropy_weight_x: 0.0
+  entropy_weight_e: 0.0
+  p_loss_only: False
+sample:
+  beam_size: 1
+  beam_temperature: 1.0
+  beam_strategy: greedy  # stratified | temperature | greedy
+  alpha: 1.
+  beta: 1.
+  eta: 0.
+  omega: 0.
+  rdb: general            # general | column | entry
+  rdb_crit: dummy           # max_marginal | x_t | p_x1_g_xt | x_1 | p_xt_g_x1 | p_xtdt_g_xt | x_0 | xhat_t
+                            # abs_state
+
+
+name: dfm

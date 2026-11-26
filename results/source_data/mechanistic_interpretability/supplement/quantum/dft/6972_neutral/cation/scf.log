@@ -1,0 +1,550 @@
+#INFO: **** input file is /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/compute_worker_resume_v4.py ****
+#!/usr/bin/env python3
+"""Fixed-geometry neutral/cation PBE0 single points; strict stability diagnostics.
+
+The input atom order and geometry are unchanged. Native PySCF Mulliken and
+meta-Lowdin populations are saved separately. This script does not optimize
+geometries or implement Hirshfeld partitioning. A queue must enforce wall time.
+"""
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import json
+import os
+from pathlib import Path
+import platform
+import sys
+import time
+import traceback
+
+
+def utc():
+    return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def sha(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def atomic_json(path, obj):
+    path = Path(path)
+    temp = path.with_suffix(path.suffix + f".{os.getpid()}.tmp")
+    temp.write_text(json.dumps(obj, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8")
+    os.replace(temp, path)
+
+
+def peak_rss_mb():
+    import resource
+    return resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / (1024 if sys.platform != "darwin" else 1024**2)
+
+
+def parse_xyz(path):
+    lines = Path(path).read_text(encoding="utf-8").splitlines()
+    n = int(lines[0].strip())
+    records = [line.split() for line in lines[2:] if line.strip()]
+    if len(records) != n or any(len(record) < 4 for record in records):
+        raise ValueError("XYZ atom count/columns inconsistent")
+    atoms = [(r[0], tuple(float(x) for x in r[1:4])) for r in records]
+    return atoms
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--xyz", required=True)
+    ap.add_argument("--outdir", required=True)
+    ap.add_argument("--threads", type=int, default=8)
+    ap.add_argument("--memory-mb", type=int, default=16000)
+    ap.add_argument("--resume-from", type=Path, help="Reuse an archived converged neutral SCF, without rerunning its kernel")
+    ap.add_argument("--reuse-neutral-stability", type=Path, help="Reuse a validated standalone strict diagnostic for the archived neutral SCF")
+    ap.add_argument("--strict-guess", choices=["native_dense", "native_plus_lowdiag"], default="native_dense")
+    ap.add_argument("--skip-stability", action="store_true", help="Explicitly skip internal SCF stability; diagnostics report not tested")
+    args = ap.parse_args()
+    if args.threads < 1 or args.memory_mb < 256:
+        raise ValueError("Invalid resource allocation")
+    if args.reuse_neutral_stability and (not args.resume_from or args.skip_stability or args.strict_guess != "native_plus_lowdiag"):
+        raise ValueError("Neutral stability cache requires --resume-from and --strict-guess native_plus_lowdiag, with stability enabled")
+    for variable in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS", "NUMEXPR_NUM_THREADS"):
+        os.environ[variable] = str(args.threads)
+    os.environ["OMP_DYNAMIC"] = "FALSE"
+    outdir = Path(args.outdir).resolve()
+    outdir.mkdir(parents=True, exist_ok=True)
+    # Refuse accidental overwrite or scientific re-execution in an existing run.
+    if (outdir / "status.json").exists() or (outdir / "neutral").exists():
+        raise FileExistsError(f"Run directory already contains a calculation: {outdir}")
+    scratch = outdir / "scratch"
+    scratch.mkdir(exist_ok=True)
+    os.environ["TMPDIR"] = str(scratch)
+    os.environ["PYSCF_TMPDIR"] = str(scratch)
+    t0 = time.monotonic()
+    status = {"state": "running", "started_at": utc(), "pid": os.getpid(),
+              "xyz": str(Path(args.xyz).resolve()), "xyz_sha256": sha(args.xyz),
+              "worker_sha256": sha(__file__), "threads": args.threads,
+              "memory_target_mb": args.memory_mb, "stage": "initializing"}
+    atomic_json(outdir / "status.json", status)
+    try:
+        import numpy as np
+        import pyscf
+        from pyscf import dft, gto, lib, scf
+        import strict_stability_lib_v3 as strict_stability_lib
+        import resume_scf_lib_v2 as resume_scf_lib
+        import stability_cache_lib
+        lib.num_threads(args.threads)
+        atoms = parse_xyz(args.xyz)
+        if not np.isfinite(np.asarray([a[1] for a in atoms])).all():
+            raise ValueError("Non-finite coordinates")
+        protocol = {
+            "functional": "PBE0", "orbital_basis": "def2-tzvp",
+            "auxiliary_basis": "def2-universal-jkfit", "density_fitting": "Coulomb and exchange",
+            "grid_level": 4, "grid_pruning": "PySCF default nwchem_prune",
+            "scf_conv_tol_hartree": 1e-9, "scf_conv_tol_grad": 1e-6,
+            "scf_max_cycle": 200, "max_newton_retries": 1,
+            "geometry": "Fixed input XYZ; no geometry optimization",
+            "solvent": "none (gas phase)", "dispersion": "none",
+            "populations": ["Mulliken", "meta-Lowdin (ANO pre-orthogonalization)"],
+            "f_minus_definition": "q(cation +1 doublet)-q(neutral singlet), same coordinates",
+            "atom_indices": "0-based, identical to input XYZ row order",
+            "internal_stability_requested": not args.skip_stability,
+            "stability_diagnostic": "Native orbital Hessian with convergence-checked Davidson, subspace 60",
+            "stability_library_sha256": sha(strict_stability_lib.__file__),
+            "stability_native_equivalent_method": {
+                "hessian": "PySCF native gen_g_hop_rhf/gen_g_hop_uhf, with_symmetry=True",
+                "nroots": 3, "davidson_tolerance": 1e-4, "residual_tolerance": 0.01,
+                "negative_eigenvalue_threshold": -1e-5, "max_cycle": 50,
+                "max_space_argument": 60, "native_max_space_argument": 12,
+                "initial_guess": args.strict_guess,
+                "molecular_scf_parameters_unchanged": True,
+            },
+            "worker_revision": "resume-neutral-scf-strict-stability-v4",
+            "neutral_stability_cache": str(args.reuse_neutral_stability.resolve()) if args.reuse_neutral_stability else None,
+            "stability_cache_helper_sha256": sha(stability_cache_lib.__file__),
+            "resume_from": str(args.resume_from.resolve()) if args.resume_from else None,
+            "resume_helper_sha256": sha(resume_scf_lib.__file__),
+            "neutral_scf_reuse_requested": bool(args.resume_from),
+            "external_stability": "not tested",
+            "pyscf_version": pyscf.__version__, "numpy_version": np.__version__,
+            "libxc_version": getattr(dft.libxc, "__version__", None),
+            "python_version": sys.version, "platform": platform.platform(),
+            "input_sha256": status["xyz_sha256"], "worker_sha256": status["worker_sha256"],
+        }
+        atomic_json(outdir / "protocol.json", protocol)
+        atomic_json(outdir / "atoms.json", [{"index": i, "element": symbol, "xyz_angstrom": xyz}
+                    for i, (symbol, xyz) in enumerate(atoms)])
+        states = {}
+        neutral_orbitals = None
+        for label, charge, spin in (("neutral", 0, 0), ("cation", 1, 1)):
+            stage_t0 = time.monotonic()
+            stage = outdir / label
+            stage.mkdir()
+            status.update(stage=label, updated_at=utc(), elapsed_seconds=time.monotonic()-t0)
+            atomic_json(outdir / "status.json", status)
+            mol = gto.M(atom=atoms, unit="Angstrom", basis=protocol["orbital_basis"],
+                        charge=charge, spin=spin, symmetry=False, cart=False,
+                        max_memory=args.memory_mb, verbose=4, output=str(stage / "scf.log"))
+            mf = (dft.RKS(mol) if spin == 0 else dft.UKS(mol)).density_fit(auxbasis=protocol["auxiliary_basis"])
+            mf.xc = protocol["functional"]
+            mf.grids.level = protocol["grid_level"]
+            mf.conv_tol = protocol["scf_conv_tol_hartree"]
+            mf.conv_tol_grad = protocol["scf_conv_tol_grad"]
+            mf.max_cycle = protocol["scf_max_cycle"]
+            mf.max_memory = args.memory_mb
+            mf.chkfile = str(stage / "attempt_1.chk")
+            history_path = stage / "iterations.jsonl"
+            attempt = 1
+
+            def callback(env):
+                record = {"at": utc(), "attempt": attempt, "elapsed_seconds": time.monotonic()-stage_t0}
+                for key in ("cycle", "e_tot", "norm_gorb", "norm_ddm"):
+                    val = env.get(key)
+                    if val is not None and np.isscalar(val) and np.isfinite(val):
+                        record[key] = int(val) if key == "cycle" else float(val)
+                with open(history_path, "a", encoding="utf-8") as fh:
+                    fh.write(json.dumps(record) + "\n")
+            mf.callback = callback
+            dm0 = None
+            if neutral_orbitals is not None:
+                # Remove one beta electron from the neutral HOMO; both charge
+                # states retain exactly the same atom order and AO basis.
+                coeff, neutral_occ, neutral_energy = neutral_orbitals
+                occ_a = (neutral_occ > 0).astype(float)
+                occ_b = occ_a.copy()
+                homo = np.where(occ_a > 0)[0][np.argmax(neutral_energy[occ_a > 0])]
+                occ_b[homo] = 0.0
+                dm0 = np.asarray([(coeff * occ_a) @ coeff.T, (coeff * occ_b) @ coeff.T])
+            reused_scf = label == "neutral" and args.resume_from is not None
+            if reused_scf:
+                source_attempts, resume_proof = resume_scf_lib.restore_neutral_scf(
+                    mf, args.resume_from, stage, status["xyz_sha256"])
+                atomic_json(stage / "resume_provenance.json", resume_proof)
+                attempts = [{"attempt": 0, "strategy": "Reuse converged archived neutral molecular SCF",
+                             "converged": True, "energy_hartree": float(mf.e_tot),
+                             "checkpoint": None, "molecular_kernel_called": False,
+                             "source_attempts": source_attempts}]
+            else:
+                mf.kernel(dm0=dm0)
+                attempts = [{"attempt": 1, "strategy": "DIIS", "converged": bool(mf.converged),
+                             "energy_hartree": float(mf.e_tot), "checkpoint": "attempt_1.chk"}]
+            if not mf.converged:
+                attempt = 2
+                dm_restart = mf.make_rdm1()
+                mf = mf.newton()
+                mf.chkfile = str(stage / "attempt_2_newton.chk")
+                mf.max_cycle = 100
+                mf.callback = callback
+                mf.kernel(dm0=dm_restart)
+                attempts.append({"attempt": 2, "strategy": "Newton continuation",
+                                 "converged": bool(mf.converged), "energy_hartree": float(mf.e_tot),
+                                 "checkpoint": "attempt_2_newton.chk"})
+            atomic_json(stage / "attempts.json", attempts)
+            dm = np.asarray(mf.make_rdm1())
+            dm_total = dm if dm.ndim == 2 else dm.sum(axis=0)
+            overlap = mf.get_ovlp()
+            electron_count = float(np.einsum("ij,ji->", dm_total, overlap).real)
+            _, q_mulliken = scf.hf.mulliken_pop(mol, dm_total, s=overlap, verbose=0)
+            _, q_meta = scf.hf.mulliken_meta(mol, dm_total, s=overlap, pre_orth_method="ANO", verbose=0)
+            np.savez_compressed(stage / "wavefunction.npz", density=dm, total_density=dm_total,
+                                overlap=overlap, mo_coeff=mf.mo_coeff, mo_occ=mf.mo_occ,
+                                mo_energy_hartree=mf.mo_energy, coords_bohr=mol.atom_coords(),
+                                coords_angstrom=mol.atom_coords(unit="Angstrom"), nuclear_charges=mol.atom_charges(),
+                                mulliken_charges=q_mulliken, meta_lowdin_charges=q_meta)
+            (stage / "molecule.json").write_text(mol.dumps(), encoding="utf-8")
+            orbital_channels = []
+            energies = np.atleast_2d(mf.mo_energy)
+            occupations = np.atleast_2d(mf.mo_occ)
+            for channel, (energy, occ) in enumerate(zip(energies, occupations)):
+                homo_e = float(np.max(energy[occ > 1e-8]))
+                lumo_e = float(np.min(energy[occ < 1e-8]))
+                orbital_channels.append({"channel": "restricted" if spin == 0 else ("alpha" if channel == 0 else "beta"),
+                                         "homo_hartree": homo_e, "lumo_hartree": lumo_e,
+                                         "gap_ev": (lumo_e-homo_e)*27.211386245988})
+            spin_square, spin_multiplicity = (0.0, 1.0) if spin == 0 else tuple(float(v) for v in mf.spin_square())
+            spin_atoms = np.zeros(mol.natm)
+            if spin:
+                spin_ao = np.einsum("ij,ji->i", dm[0]-dm[1], overlap).real
+                for ia, (_, _, p0, p1) in enumerate(mol.aoslice_by_atom()):
+                    spin_atoms[ia] = spin_ao[p0:p1].sum()
+            stability = {"tested": False, "internal_stable": None, "external_tested": False,
+                         "numerically_converged": None, "implementation": "strict_internal_stability"}
+            if mf.converged and not args.skip_stability:
+                status.update(stage=label+"_internal_stability", updated_at=utc())
+                atomic_json(outdir / "status.json", status)
+                cached_stability = label == "neutral" and args.reuse_neutral_stability is not None
+                if cached_stability:
+                    diagnostic, cache_proof = stability_cache_lib.reuse_neutral_stability(
+                        mf, args.reuse_neutral_stability, args.resume_from, stage / "stability", resume_proof)
+                    atomic_json(stage / "stability_reuse_provenance.json", cache_proof)
+                    stability.update(implementation="reused_verified_standalone_cache",
+                                     reuse_provenance="stability_reuse_provenance.json",
+                                     neutral_hessian_recomputed=False,
+                                     cache_helper_sha256=sha(stability_cache_lib.__file__))
+                else:
+                    diagnostic = strict_stability_lib.strict_internal_stability(
+                        mf, stage / "stability", max_space=60, nroots=3, tol=1e-4, max_cycle=50,
+                        initial_guess=args.strict_guess)
+                    stability.update(library_sha256=sha(strict_stability_lib.__file__))
+                stability.update(tested=True, internal_stable=diagnostic["internal_stable"],
+                                 numerically_converged=diagnostic["numerically_converged"],
+                                 passed=diagnostic["passed"], eigenvalues=diagnostic["eigenvalues"],
+                                 davidson_converged=diagnostic["davidson_converged"],
+                                 independent_residual_norms=diagnostic["independent_residual_norms"],
+                                 residual_tolerance=diagnostic["residual_tolerance"],
+                                 diagnostic_result="stability/result.json",
+                                 diagnostic_result_sha256=sha(stage / "stability/result.json"))
+            checks = {"scf_converged": bool(mf.converged),
+                      "finite_energy_and_density": bool(np.isfinite(mf.e_tot) and np.isfinite(dm).all()),
+                      "electron_count": abs(electron_count-mol.nelectron) < 1e-6,
+                      "mulliken_charge_sum": abs(float(q_mulliken.sum())-charge) < 1e-6,
+                      "meta_lowdin_charge_sum": abs(float(q_meta.sum())-charge) < 1e-6,
+                      "spin_electron_count": abs(float(spin_atoms.sum())-spin) < 1e-6,
+                      "internal_stability": (stability["internal_stable"] is True if stability["tested"] else True),
+                      "stability_numerical_convergence": (stability["numerically_converged"] is True if stability["tested"] else True)}
+            warnings = []
+            if spin and abs(spin_square-0.75) > 0.10:
+                warnings.append("UKS <S^2> differs from doublet reference 0.75 by >0.10; review spin contamination")
+            if not stability["tested"]:
+                warnings.append("Internal SCF stability was not tested")
+            record = {"state": label, "charge": charge, "pyscf_spin_nalpha_minus_nbeta": spin,
+                      "molecular_scf_recomputed": not reused_scf,
+                      "resume_provenance": "resume_provenance.json" if reused_scf else None,
+                      "multiplicity_input": spin+1, "nelectron": mol.nelectron,
+                      "integrated_electrons_ao": electron_count, "nalpha_nbeta": list(mol.nelec),
+                      "energy_hartree": float(mf.e_tot), "nao": mol.nao_nr(),
+                      "natoms": mol.natm, "grid_points": len(mf.grids.weights) if mf.grids.weights is not None else None,
+                      "grid_points_note": "Grid not reconstructed during archived SCF/stability reuse" if mf.grids.weights is None else None,
+                      "converged": bool(mf.converged), "attempts": attempts,
+                      "mulliken_charges": q_mulliken.tolist(), "meta_lowdin_charges": q_meta.tolist(),
+                      "mulliken_charge_sum": float(q_mulliken.sum()), "meta_lowdin_charge_sum": float(q_meta.sum()),
+                      "spin_square": spin_square, "spin_effective_multiplicity": spin_multiplicity,
+                      "mulliken_atomic_spin_populations": spin_atoms.tolist(), "orbitals": orbital_channels,
+                      "stability": stability, "checks": checks, "passed": all(checks.values()), "warnings": warnings,
+                      "elapsed_seconds": time.monotonic()-stage_t0, "peak_process_rss_mb": peak_rss_mb(),
+                      "geometry_sha256": status["xyz_sha256"], "completed_at": utc()}
+            atomic_json(stage / "result.json", record)
+            mol.stdout.flush()
+            mol.stdout.close()
+            states[label] = record
+            if not record["passed"]:
+                raise RuntimeError(f"{label} quality checks failed: {checks}")
+            if spin == 0:
+                neutral_orbitals = (np.asarray(mf.mo_coeff).copy(), np.asarray(mf.mo_occ).copy(),
+                                    np.asarray(mf.mo_energy).copy())
+        fminus = {}
+        for key in ("mulliken_charges", "meta_lowdin_charges"):
+            values = np.asarray(states["cation"][key])-np.asarray(states["neutral"][key])
+            if abs(float(values.sum())-1.0) > 1e-6:
+                raise RuntimeError("Condensed Fukui sum inconsistent with removal of one electron")
+            fminus[key.replace("_charges", "")] = {"values": values.tolist(), "sum": float(values.sum())}
+        combined = {"status": "complete", "passed": True, "geometry_sha256": status["xyz_sha256"], "atom_count": len(atoms),
+                    "fixed_geometry": True, "electronic_singlepoints": 2,
+                    "vertical_ionization_energy_ev": (states["cation"]["energy_hartree"]-states["neutral"]["energy_hartree"])*27.211386245988,
+                    "f_minus": fminus, "states": states, "elapsed_seconds": time.monotonic()-t0,
+                    "peak_process_rss_mb": peak_rss_mb(), "completed_at": utc()}
+        atomic_json(outdir / "result.json", combined)
+        artifacts = {str(p.relative_to(outdir)): {"size_bytes": p.stat().st_size, "sha256": sha(p)}
+                     for p in outdir.rglob("*") if p.is_file() and "scratch" not in p.relative_to(outdir).parts
+                     and str(p.relative_to(outdir)) not in {"status.json", "artifact_manifest.json", "launcher.log", "execution_receipt.json"}}
+        atomic_json(outdir / "artifact_manifest.json", artifacts)
+        status.update(state="complete", stage="complete", completed_at=utc(),
+                      elapsed_seconds=time.monotonic()-t0, peak_process_rss_mb=peak_rss_mb())
+        atomic_json(outdir / "status.json", status)
+    except BaseException as exc:
+        status.update(state="failed", failed_at=utc(), error=f"{type(exc).__name__}: {exc}",
+                      elapsed_seconds=time.monotonic()-t0)
+        atomic_json(outdir / "status.json", status)
+        (outdir / "failure_traceback.txt").write_text(traceback.format_exc(), encoding="utf-8")
+        raise
+
+
+if __name__ == "__main__":
+    main()
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='compute-node-redacted', release='5.15.0-161-generic', version='#171-Ubuntu SMP Sat Oct 11 08:17:01 UTC 2025', machine='x86_64')  Threads 8
+Python 3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]
+numpy 2.5.4  scipy 1.18.1  h5py 3.16.0
+Date: Mon Nov  9 17:10:04 2026
+PySCF version 2.15.0
+PySCF path  /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/venv/lib/python3.12/site-packages/pyscf
+
+[ENV] PYSCF_TMPDIR /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/runs/6972_neutral/scratch
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 38
+[INPUT] num. electrons = 167
+[INPUT] charge = 1
+[INPUT] spin (= nelec alpha-beta = 2S) = 1
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = Angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C     -4.316843696806  -2.662471085032   0.559749505714 AA   -8.157652309518  -5.031341165283   1.057773264159 Bohr   0.0
+[INPUT]  2 C     -5.212633068292  -1.514547210761   1.008676273116 AA   -9.850448886923  -2.862079431062   1.906121904536 Bohr   0.0
+[INPUT]  3 C     -4.999877605079  -0.313608245175   0.094341412764 AA   -9.448399329946  -0.592633693786   0.178279432329 Bohr   0.0
+[INPUT]  4 C     -3.553886754168   0.070882390226   0.059540964548 AA   -6.715872643097   0.133948304582   0.112516116188 Bohr   0.0
+[INPUT]  5 C     -3.152137303113   1.371783897701  -0.230898556968 AA   -5.956676209909   2.592295868743  -0.436335035227 Bohr   0.0
+[INPUT]  6 C     -1.812291668836   1.699503581344  -0.256108465725 AA   -3.424734911931   3.211596316457  -0.483974858403 Bohr   0.0
+[INPUT]  7 C     -0.874859995316   0.694919094091   0.024254621994 AA   -1.653245788485   1.313206766563   0.045834592823 Bohr   0.0
+[INPUT]  8 C      0.556499980271   0.888369786313   0.030510917283 AA    1.051632551037   1.678775593471   0.057657277475 Bohr   0.0
+[INPUT]  9 S      1.538428688073  -0.540537872520   0.043008819404 AA    2.907208882632  -1.021468539018   0.081274889614 Bohr   0.0
+[INPUT] 10 C      2.953833929284   0.491337025373   0.055222265390 AA    5.581937143794   0.928492412814   0.104354957564 Bohr   0.0
+[INPUT] 11 C      4.294759934983  -0.038291452769   0.052095537662 AA    8.115920047873  -0.072360358646   0.098446298494 Bohr   0.0
+[INPUT] 12 C      4.552130894957  -1.410098463125   0.066390140312 AA    8.602280674641  -2.664699903977   0.125459182561 Bohr   0.0
+[INPUT] 13 C      5.864431087582  -1.843822269359   0.055497159488 AA   11.082168631915  -3.484319111462   0.104874432124 Bohr   0.0
+[INPUT] 14 C      6.875356004734  -0.892577309347   0.031550430936 AA   12.992539857832  -1.686726659667   0.059621673580 Bohr   0.0
+[INPUT] 15 N      6.645106699739   0.411001651142   0.018997441233 AA   12.557431731019   0.776680557402   0.035899960997 Bohr   0.0
+[INPUT] 16 C      5.396820628842   0.826914352143   0.028877086633 AA   10.198512931914   1.562641654022   0.054569785012 Bohr   0.0
+[INPUT] 17 N      2.677531283260   1.758755455580   0.064641322097 AA    5.059800815317   3.323566131132   0.122154395092 Bohr   0.0
+[INPUT] 18 C      1.356886331355   2.014949770503   0.053182038083 AA    2.564143548427   3.807703221005   0.100499486723 Bohr   0.0
+[INPUT] 19 C      0.927580974433   3.442527022996   0.093132828403 AA    1.752874000035   6.505433249876   0.175995538888 Bohr   0.0
+[INPUT] 20 N     -1.258524068790  -0.548693320553   0.287350508113 AA   -2.378265811187  -1.036880102224   0.543013762089 Bohr   0.0
+[INPUT] 21 C     -2.542926731411  -0.866560145846   0.306302790963 AA   -4.805435077202  -1.637561346112   0.578828386110 Bohr   0.0
+[INPUT] 22 C     -2.847764285629  -2.295649529893   0.607440564493 AA   -5.381494567157  -4.338148889485   1.147896303843 Bohr   0.0
+[INPUT] 23 O     -1.988151544222  -3.105315632927   0.851051385436 AA   -3.757061912710  -5.868196076563   1.608254036405 Bohr   0.0
+[INPUT] 24 H     -4.547040919627  -2.924870937549  -0.478267365233 AA   -8.592662015285  -5.527205021667  -0.903794334608 Bohr   0.0
+[INPUT] 25 H     -4.471432134422  -3.555006976005   1.168209052642 AA   -8.449782118638  -6.717989555567   2.207595165731 Bohr   0.0
+[INPUT] 26 H     -6.258694103867  -1.825398838405   0.983677340823 AA  -11.827217753739  -3.449503872684   1.858880769096 Bohr   0.0
+[INPUT] 27 H     -4.966987878791  -1.239839158518   2.037251104769 AA   -9.386246754950  -2.342956448110   3.849846634980 Bohr   0.0
+[INPUT] 28 H     -5.601960155671   0.536997790365   0.422014182724 AA  -10.586170454943   1.014778753287   0.797491226030 Bohr   0.0
+[INPUT] 29 H     -5.320579786166  -0.569890755688  -0.921936358774 AA  -10.054438619750  -1.076937449172  -1.742207222362 Bohr   0.0
+[INPUT] 30 H     -3.898109956132   2.126633319663  -0.439797051625 AA   -7.366360220531   4.018754541538  -0.831095977963 Bohr   0.0
+[INPUT] 31 H     -1.499901625230   2.699593422776  -0.500836450372 AA   -2.834403285476   5.101492216724  -0.946443724402 Bohr   0.0
+[INPUT] 32 H      3.731024476846  -2.112915924113   0.086347621348 AA    7.050614425287  -3.992832420806   0.163173355854 Bohr   0.0
+[INPUT] 33 H      6.100220519353  -2.896643076423   0.065705303763 AA   11.527746081029  -5.473862095057   0.124165029044 Bohr   0.0
+[INPUT] 34 H      7.917782427983  -1.182289570972   0.022038559742 AA   14.962440302782  -2.234203489066   0.041646842093 Bohr   0.0
+[INPUT] 35 H      5.239508727639   1.896012400814   0.017221746302 AA    9.901236522506   3.582944166318   0.032544383897 Bohr   0.0
+[INPUT] 36 H      1.795281737987   4.051999165493   0.330250403697 AA    3.392590801229   7.657168679748   0.624082815515 Bohr   0.0
+[INPUT] 37 H      0.160698203047   3.598493579102   0.849511754007 AA    0.303675592468   6.800167325509   1.605344554671 Bohr   0.0
+[INPUT] 38 H      0.540716751199   3.758351069354  -0.875538835181 AA    1.021806570731   7.102254201045  -1.654528609913 Bohr   0.0
+
+nuclear repulsion = 1891.67033645573
+number of shells = 315
+number of NR pGTOs = 1195
+number of NR cGTOs = 809
+basis = def2-tzvp
+ecp = {}
+CPU time:        16.42
+
+
+******** <class 'pyscf.df.df_jk.DFUKS'> ********
+method = DFUKS
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = 1e-06
+SCF max_cycles = 200
+direct_scf = False
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/runs/6972_neutral/cation/attempt_1.chk
+max_memory 24000 MB (current use 182 MB)
+number electrons alpha = 84  beta = 83
+XC library pyscf.dft.libxc version 7.1.2
+    S. Lehtola, C. Steigemann, M. J. T. Oliveira, and M. A. L. Marques,  SoftwareX 7, 1–5 (2018)
+XC functionals = PBE0
+    C. Adamo and V. Barone,  J. Chem. Phys. 110, 6158 (1999)
+    M. Ernzerhof and G. E. Scuseria,  J. Chem. Phys. 110, 5029 (1999)
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x7f79c21ce340>
+grids dens level: 4
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x7f79c21ce980>
+small_rho_cutoff = 0
+tot grids = 891144
+******** <class 'pyscf.df.df.DF'> ********
+auxbasis = def2-universal-jkfit
+max_memory = 24000
+init E= -1331.45928870443
+  alpha nocc = 84  HOMO = -0.369867044561231  LUMO = -0.273725503150956
+  beta  nocc = 83  HOMO = -0.373762443159131  LUMO = -0.367697081055722
+  HOMO = -0.369867044561  LUMO = -0.367697081056  gap/eV = 0.05905
+cycle= 1 E= -1331.28208072357  delta_E= 0.177  |g|= 0.551  |ddm|= 1.46
+  alpha nocc = 84  HOMO = -0.268922949792354  LUMO = -0.227814701847842
+  beta  nocc = 83  HOMO = -0.301007613552598  LUMO = -0.268896602917043
+
+WARN: HOMO -0.268922949792354 >= LUMO -0.268896602917043
+
+cycle= 2 E= -1328.45157557785  delta_E= 2.83  |g|= 1.93  |ddm|= 2.56
+  alpha nocc = 84  HOMO = -0.343691720512019  LUMO = -0.19851231437057
+  beta  nocc = 83  HOMO = -0.34721281326096  LUMO = -0.320448217072997
+  HOMO = -0.343691720512  LUMO = -0.320448217073  gap/eV = 0.63249
+cycle= 3 E= -1331.42179974722  delta_E= -2.97  |g|= 0.362  |ddm|= 2.19
+  alpha nocc = 84  HOMO = -0.358697996444247  LUMO = -0.221550889064702
+  beta  nocc = 83  HOMO = -0.358772350738388  LUMO = -0.32514488406052
+  HOMO = -0.358697996444  LUMO = -0.325144884061  gap/eV = 0.91303
+cycle= 4 E= -1331.47416659251  delta_E= -0.0524  |g|= 0.137  |ddm|= 0.536
+  alpha nocc = 84  HOMO = -0.373256656290003  LUMO = -0.215238505080348
+  beta  nocc = 83  HOMO = -0.375194394719704  LUMO = -0.323129585760533
+  HOMO = -0.37325665629  LUMO = -0.323129585761  gap/eV = 1.36403
+cycle= 5 E= -1331.48116084295  delta_E= -0.00699  |g|= 0.0989  |ddm|= 0.268
+  alpha nocc = 84  HOMO = -0.374417874003141  LUMO = -0.216060126952913
+  beta  nocc = 83  HOMO = -0.370520396924054  LUMO = -0.319797279513466
+  HOMO = -0.370520396924  LUMO = -0.319797279513  gap/eV = 1.38025
+cycle= 6 E= -1331.48424417981  delta_E= -0.00308  |g|= 0.0613  |ddm|= 0.117
+  alpha nocc = 84  HOMO = -0.378737365637442  LUMO = -0.219939657088373
+  beta  nocc = 83  HOMO = -0.370523341381097  LUMO = -0.319879505376953
+  HOMO = -0.370523341381  LUMO = -0.319879505377  gap/eV = 1.37809
+cycle= 7 E= -1331.48620360185  delta_E= -0.00196  |g|= 0.0399  |ddm|= 0.109
+  alpha nocc = 84  HOMO = -0.37716186608038  LUMO = -0.223984405036459
+  beta  nocc = 83  HOMO = -0.370829741595479  LUMO = -0.319848015439916
+  HOMO = -0.370829741595  LUMO = -0.31984801544  gap/eV = 1.38728
+cycle= 8 E= -1331.48738316258  delta_E= -0.00118  |g|= 0.0127  |ddm|= 0.126
+  alpha nocc = 84  HOMO = -0.372824546814943  LUMO = -0.225756669941885
+  beta  nocc = 83  HOMO = -0.371897201205438  LUMO = -0.319527538645687
+  HOMO = -0.371897201205  LUMO = -0.319527538646  gap/eV = 1.42505
+cycle= 9 E= -1331.48754407084  delta_E= -0.000161  |g|= 0.00633  |ddm|= 0.0567
+  alpha nocc = 84  HOMO = -0.373904475174313  LUMO = -0.22502034634145
+  beta  nocc = 83  HOMO = -0.372441140888086  LUMO = -0.31929456746839
+  HOMO = -0.372441140888  LUMO = -0.319294567468  gap/eV = 1.44619
+cycle= 10 E= -1331.4875721482  delta_E= -2.81e-05  |g|= 0.00279  |ddm|= 0.0137
+  alpha nocc = 84  HOMO = -0.373835224351993  LUMO = -0.224920585286567
+  beta  nocc = 83  HOMO = -0.372590728028182  LUMO = -0.319099470381488
+  HOMO = -0.372590728028  LUMO = -0.319099470381  gap/eV = 1.45557
+cycle= 11 E= -1331.48758408013  delta_E= -1.19e-05  |g|= 0.00244  |ddm|= 0.0087
+  alpha nocc = 84  HOMO = -0.373427209600546  LUMO = -0.22516003424209
+  beta  nocc = 83  HOMO = -0.372887031137022  LUMO = -0.319095589491823
+  HOMO = -0.372887031137  LUMO = -0.319095589492  gap/eV = 1.46374
+cycle= 12 E= -1331.48759592628  delta_E= -1.18e-05  |g|= 0.00129  |ddm|= 0.0121
+  alpha nocc = 84  HOMO = -0.3732062032453  LUMO = -0.225260897346296
+  beta  nocc = 83  HOMO = -0.37292279020215  LUMO = -0.319091171072643
+  HOMO = -0.372922790202  LUMO = -0.319091171073  gap/eV = 1.46483
+cycle= 13 E= -1331.48759831714  delta_E= -2.39e-06  |g|= 0.000916  |ddm|= 0.005
+  alpha nocc = 84  HOMO = -0.373147141140027  LUMO = -0.225289756073706
+  beta  nocc = 83  HOMO = -0.372904465949761  LUMO = -0.319069007846075
+  HOMO = -0.37290446595  LUMO = -0.319069007846  gap/eV = 1.46494
+cycle= 14 E= -1331.487599208  delta_E= -8.91e-07  |g|= 0.000503  |ddm|= 0.00228
+  alpha nocc = 84  HOMO = -0.373124770035158  LUMO = -0.225274071105332
+  beta  nocc = 83  HOMO = -0.372879845624443  LUMO = -0.319033137435042
+  HOMO = -0.372879845624  LUMO = -0.319033137435  gap/eV = 1.46524
+cycle= 15 E= -1331.48759949269  delta_E= -2.85e-07  |g|= 0.00031  |ddm|= 0.0014
+  alpha nocc = 84  HOMO = -0.373171780708465  LUMO = -0.225289577307313
+  beta  nocc = 83  HOMO = -0.372897277741071  LUMO = -0.319045239499033
+  HOMO = -0.372897277741  LUMO = -0.319045239499  gap/eV = 1.46539
+cycle= 16 E= -1331.48759956894  delta_E= -7.62e-08  |g|= 0.000251  |ddm|= 0.00086
+  alpha nocc = 84  HOMO = -0.373150013039044  LUMO = -0.225300594303128
+  beta  nocc = 83  HOMO = -0.372879419215096  LUMO = -0.319045369492208
+  HOMO = -0.372879419215  LUMO = -0.319045369492  gap/eV = 1.46490
+cycle= 17 E= -1331.4875996296  delta_E= -6.07e-08  |g|= 0.000154  |ddm|= 0.000587
+  alpha nocc = 84  HOMO = -0.37313854364096  LUMO = -0.225305395767089
+  beta  nocc = 83  HOMO = -0.372862018333317  LUMO = -0.31904290733096
+  HOMO = -0.372862018333  LUMO = -0.319042907331  gap/eV = 1.46449
+cycle= 18 E= -1331.48759965152  delta_E= -2.19e-08  |g|= 7.27e-05  |ddm|= 0.000343
+  alpha nocc = 84  HOMO = -0.37314641498904  LUMO = -0.225297338587826
+  beta  nocc = 83  HOMO = -0.372863662874478  LUMO = -0.319038136654001
+  HOMO = -0.372863662874  LUMO = -0.319038136654  gap/eV = 1.46467
+cycle= 19 E= -1331.48759965807  delta_E= -6.55e-09  |g|= 5.97e-05  |ddm|= 0.000264
+  alpha nocc = 84  HOMO = -0.373148946868912  LUMO = -0.225298474751208
+  beta  nocc = 83  HOMO = -0.372863667031282  LUMO = -0.319036659746374
+  HOMO = -0.372863667031  LUMO = -0.319036659746  gap/eV = 1.46471
+cycle= 20 E= -1331.48759966153  delta_E= -3.47e-09  |g|= 4.24e-05  |ddm|= 0.000181
+  alpha nocc = 84  HOMO = -0.37314712102211  LUMO = -0.225301545505671
+  beta  nocc = 83  HOMO = -0.372863093832776  LUMO = -0.319039822499782
+  HOMO = -0.372863093833  LUMO = -0.3190398225  gap/eV = 1.46461
+cycle= 21 E= -1331.48759966229  delta_E= -7.55e-10  |g|= 2.53e-05  |ddm|= 6.46e-05
+  alpha nocc = 84  HOMO = -0.37314706879294  LUMO = -0.225300765958405
+  beta  nocc = 83  HOMO = -0.372861631929995  LUMO = -0.319039543694295
+  HOMO = -0.37286163193  LUMO = -0.319039543694  gap/eV = 1.46457
+cycle= 22 E= -1331.48759966323  delta_E= -9.45e-10  |g|= 1.6e-05  |ddm|= 9.35e-05
+  alpha nocc = 84  HOMO = -0.373148538038076  LUMO = -0.225300371313135
+  beta  nocc = 83  HOMO = -0.372862469524177  LUMO = -0.319039113213414
+  HOMO = -0.372862469524  LUMO = -0.319039113213  gap/eV = 1.46461
+cycle= 23 E= -1331.48759966353  delta_E= -2.91e-10  |g|= 1.1e-05  |ddm|= 6.15e-05
+  alpha nocc = 84  HOMO = -0.37314846135902  LUMO = -0.225299759971356
+  beta  nocc = 83  HOMO = -0.372862307508366  LUMO = -0.319038743076256
+  HOMO = -0.372862307508  LUMO = -0.319038743076  gap/eV = 1.46461
+cycle= 24 E= -1331.48759966361  delta_E= -8.14e-11  |g|= 6.43e-06  |ddm|= 2.08e-05
+  alpha nocc = 84  HOMO = -0.373148990100141  LUMO = -0.22529988060174
+  beta  nocc = 83  HOMO = -0.372862689014225  LUMO = -0.319038998819906
+  HOMO = -0.372862689014  LUMO = -0.31903899882  gap/eV = 1.46462
+cycle= 25 E= -1331.48759966365  delta_E= -4.59e-11  |g|= 4.98e-06  |ddm|= 2.44e-05
+  alpha nocc = 84  HOMO = -0.373148933184265  LUMO = -0.225299808901471
+  beta  nocc = 83  HOMO = -0.37286266391827  LUMO = -0.319039050807298
+  HOMO = -0.372862663918  LUMO = -0.319039050807  gap/eV = 1.46462
+cycle= 26 E= -1331.48759966367  delta_E= -1.55e-11  |g|= 2.83e-06  |ddm|= 8.24e-06
+  alpha nocc = 84  HOMO = -0.373148945075453  LUMO = -0.225299735994045
+  beta  nocc = 83  HOMO = -0.372862658991349  LUMO = -0.319039008140983
+  HOMO = -0.372862658991  LUMO = -0.319039008141  gap/eV = 1.46462
+cycle= 27 E= -1331.48759966368  delta_E= -1.27e-11  |g|= 1.91e-06  |ddm|= 5.13e-06
+  alpha nocc = 84  HOMO = -0.37314907930259  LUMO = -0.225299508275224
+  beta  nocc = 83  HOMO = -0.37286279652245  LUMO = -0.319038935561778
+  HOMO = -0.372862796522  LUMO = -0.319038935562  gap/eV = 1.46462
+cycle= 28 E= -1331.48759966368  delta_E= 1.82e-12  |g|= 1.43e-06  |ddm|= 5.96e-06
+  alpha nocc = 84  HOMO = -0.373149091238144  LUMO = -0.225299562426029
+  beta  nocc = 83  HOMO = -0.372862817133456  LUMO = -0.31903898760001
+  HOMO = -0.372862817133  LUMO = -0.3190389876  gap/eV = 1.46462
+cycle= 29 E= -1331.48759966369  delta_E= -6.37e-12  |g|= 7.73e-07  |ddm|= 2.37e-06
+  alpha nocc = 84  HOMO = -0.373149086558461  LUMO = -0.225299560343072
+  beta  nocc = 83  HOMO = -0.372862805542064  LUMO = -0.319039045702915
+  HOMO = -0.372862805542  LUMO = -0.319039045703  gap/eV = 1.46462
+Extra cycle  E= -1331.48759966368  delta_E= 1.82e-12  |g|= 1.36e-06  |ddm|= 2.23e-06
+converged SCF energy = -1331.48759966368  <S^2> = 0.76830625  2S+1 = 2.0182232

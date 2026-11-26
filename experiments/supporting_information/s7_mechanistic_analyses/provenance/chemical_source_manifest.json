@@ -1,0 +1,50 @@
+[
+  {
+    "file": "factor_catalog.csv",
+    "origin": "results/source_data/mechanistic_interpretability/factor_catalog.csv",
+    "bytes": 4506,
+    "sha256": "f21520ee7a1ce8d45b116417e03eb21fcd895a4b47bb06129168e9eb1741307d"
+  },
+  {
+    "file": "factor_summary.json",
+    "origin": "results/source_data/mechanistic_interpretability/factor_summary.json",
+    "bytes": 1166,
+    "sha256": "8780165a3211fbafb85b9ae8a94eeb70ddeae2d3305f5eaf612037271bea4e5e"
+  },
+  {
+    "file": "mantel_associations.csv",
+    "origin": "results/source_data/mechanistic_interpretability/mantel_associations.csv",
+    "bytes": 8768,
+    "sha256": "e856027fa0fc9b133f9e5386bbeaa58cc0101f6e8acad1b0cb5b866596f29704"
+  },
+  {
+    "file": "chemical_preferences.csv",
+    "origin": "results/source_data/mechanistic_interpretability/chemical_preferences.csv",
+    "bytes": 8224,
+    "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0"
+  },
+  {
+    "file": "descriptor_correlations.csv",
+    "origin": "results/source_data/mechanistic_interpretability/descriptor_correlations.csv",
+    "bytes": 12785,
+    "sha256": "5c000789ce9459d3a01eb009c2bdd40249d5a9b395fed6a41a1fd9298f67d2be"
+  },
+  {
+    "file": "expanded_mantel_products.csv.gz",
+    "origin": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_mantel_products.csv.gz",
+    "bytes": 782533,
+    "sha256": "e8d0af31d09ef553e6118b9035e1d72a70c886d3e919637b1b0a71e966a5a25b"
+  },
+  {
+    "file": "expanded_direction_records.csv.gz",
+    "origin": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_direction_records.csv.gz",
+    "bytes": 195366,
+    "sha256": "d9da05fc7632e9aa7e4c42551cfe6bede9131741ed3b790b2183eb43336a9602"
+  },
+  {
+    "file": "expanded_record_contrasts.csv.gz",
+    "origin": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_record_contrasts.csv.gz",
+    "bytes": 272361,
+    "sha256": "e10c8bb90dac2b0854e7cbfca930949cb20455f96f6dd33ee44e7d4c2e1e9f9a"
+  }
+]

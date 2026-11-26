@@ -1,0 +1,7 @@
+class,reaction_family,tested_factors,products_min,products_max,raw_p_le_0p05,bh_q_lt_0p05
+1,Halogenation,8,20,49,3,2
+2,Alkenylation,9,33,107,4,3
+3,Alkylation,14,22,996,9,9
+4,N-containing,11,39,96,4,3
+5,Arylation,12,32,392,9,9
+6,Acylation,11,80,387,7,7

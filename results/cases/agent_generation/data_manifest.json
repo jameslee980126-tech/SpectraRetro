@@ -1,0 +1,25 @@
+{
+  "stage2": {
+    "train": {
+      "path": "source-record:data/stage2_weighted_train.pt",
+      "sha256": "366f3b8c7dbe0c273c8196eefca7ba4915935439344dd87eea4629d5a5cbd633"
+    },
+    "eval": {
+      "path": "source-record:data/stage2_eval.pt",
+      "sha256": "4461e5ea0353a74515cba8aa6a567ff4e3ea94035cbd6c68d5559e80f4648715"
+    }
+  },
+  "legacy_size_fallback_allowlist": {
+    "train": [],
+    "eval": [
+      "base_full_eval_3523",
+      "base_full_eval_3997",
+      "base_full_eval_3999",
+      "base_full_eval_4001",
+      "base_full_eval_5554",
+      "base_full_eval_5573",
+      "base_full_eval_7000",
+      "base_full_eval_7255"
+    ]
+  }
+}

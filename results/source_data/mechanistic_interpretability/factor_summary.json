@@ -1,0 +1,40 @@
+{
+  "rdkit": "2026.03.1",
+  "selection_rule": "至少一个反应类中有 ≥20 个独立产物在严格匹配键之间出现因素差异，且全体可比产物中中心相对替代键的因素差非常数。筛选不读取模型分数、排序方向或显著性。",
+  "all_candidates": 19,
+  "new_descriptors": 8,
+  "in_main": [
+    "carbonyl_endpoint",
+    "alpha_carbonyl",
+    "carbonyl_proximity",
+    "benzylic_allylic",
+    "pi_neighbors",
+    "heteroaryl_endpoint",
+    "hetero_neighbors",
+    "ortho_substitution",
+    "junction_endpoint",
+    "crowding",
+    "second_shell_heavy",
+    "polarity",
+    "carbon_charge",
+    "neighbor_charge",
+    "carbon_estate",
+    "formal_charge_sum"
+  ],
+  "omitted": [
+    "conjugated",
+    "aromatic_endpoints",
+    "ring_bond"
+  ],
+  "reactions": 9250,
+  "bonds": 196959,
+  "strict_records": 2492,
+  "strict_products": 2055,
+  "mantel_tests": 65,
+  "mantel_raw_significant": 36,
+  "mantel_bh_significant": 33,
+  "pearson_pairs": 120,
+  "conjugated_bonds_all": 130930,
+  "old_eight_cohorts_scores_agree": true,
+  "mapped_endpoints_and_gasteiger_replayed_for_all_bonds": true
+}

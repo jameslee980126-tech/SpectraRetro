@@ -1,0 +1,316 @@
+{
+  "state": "passed_complete_known9250_center_census",
+  "rdkit_version": "2026.03.1",
+  "denominators": {
+    "test_reactions": 9250,
+    "top1_errors": 440,
+    "top10_errors": 2
+  },
+  "top1_hits": 8810,
+  "topk_hits": {
+    "1": 8810,
+    "2": 9165,
+    "3": 9210,
+    "5": 9239,
+    "10": 9248
+  },
+  "rank_histogram": {
+    "1": 8810,
+    "2": 355,
+    "3": 45,
+    "4": 18,
+    "5": 11,
+    "6": 2,
+    "7": 3,
+    "8": 1,
+    "9": 2,
+    "10": 1,
+    "12": 2
+  },
+  "top1_error_rank_groups": {
+    "rank2": 355,
+    "rank3_10": 83,
+    "rank_gt10": 2
+  },
+  "mutually_exclusive_error_categories": [
+    {
+      "code": "symmetry_equivalent_product_bond",
+      "name_zh": "产品图对称等价中心：索引不匹配",
+      "n": 39,
+      "percent_of_440": 8.863636363636363
+    },
+    {
+      "code": "other_recorded_center_same_input",
+      "name_zh": "同产物及类别下另一记录中心",
+      "n": 2,
+      "percent_of_440": 0.45454545454545453
+    },
+    {
+      "code": "other_order_changed_bond",
+      "name_zh": "误选本步另一键级变化键",
+      "n": 16,
+      "percent_of_440": 3.6363636363636362
+    },
+    {
+      "code": "shared_endpoint_preexisting_bond",
+      "name_zh": "误选与真实中心共享端点的已有键",
+      "n": 149,
+      "percent_of_440": 33.86363636363637
+    },
+    {
+      "code": "nearby_disjoint_preexisting_bond",
+      "name_zh": "误选近邻已有键：不共享端点、最短距离1",
+      "n": 98,
+      "percent_of_440": 22.272727272727273
+    },
+    {
+      "code": "distant_disjoint_preexisting_bond",
+      "name_zh": "误选更远已有键：端点距离≥2",
+      "n": 136,
+      "percent_of_440": 30.90909090909091
+    }
+  ],
+  "error_category_priority": [
+    "symmetry_equivalent_product_bond",
+    "other_recorded_center_same_input",
+    "other_order_changed_bond",
+    "shared_endpoint_preexisting_bond",
+    "nearby_disjoint_preexisting_bond",
+    "distant_disjoint_preexisting_bond"
+  ],
+  "same_bond_element_type_diagnostic": {
+    "all_errors": {
+      "n": 440,
+      "same_elements_and_bondtype": 383
+    },
+    "excluding_symmetry_and_other_recorded_center": {
+      "n": 399,
+      "same_elements_and_bondtype": 343
+    },
+    "official_denominator_unchanged": true
+  },
+  "descriptive_crosscuts": {
+    "known_class": {
+      "1": 26,
+      "2": 27,
+      "3": 197,
+      "4": 47,
+      "5": 87,
+      "6": 56
+    },
+    "same_bond_element_type": {
+      "1": 383,
+      "0": 57
+    },
+    "shared_endpoint_count": {
+      "0": 240,
+      "1": 200
+    },
+    "gold_bond_in_ring": {
+      "0": 402,
+      "1": 38
+    },
+    "predicted_bond_in_ring": {
+      "0": 406,
+      "1": 34
+    },
+    "prediction_order_changed_in_record": {
+      "0": 423,
+      "1": 17
+    },
+    "minimum_endpoint_distance": {
+      "1": 100,
+      "2": 60,
+      "4": 19,
+      "6": 4,
+      "3": 28,
+      "0": 200,
+      "9": 5,
+      "5": 12,
+      "7": 6,
+      "10": 2,
+      "8": 2,
+      "13": 1,
+      "17": 1
+    }
+  },
+  "by_class": [
+    {
+      "group": 1,
+      "n": 2438,
+      "top1_errors": 26,
+      "top1_error_percent": 1.066447908121411,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": 2,
+      "n": 1371,
+      "top1_errors": 27,
+      "top1_error_percent": 1.9693654266958425,
+      "top10_errors": 1,
+      "top10_error_percent": 0.07293946024799416
+    },
+    {
+      "group": 3,
+      "n": 1882,
+      "top1_errors": 197,
+      "top1_error_percent": 10.467587672688628,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": 4,
+      "n": 549,
+      "top1_errors": 47,
+      "top1_error_percent": 8.561020036429872,
+      "top10_errors": 1,
+      "top10_error_percent": 0.18214936247723132
+    },
+    {
+      "group": 5,
+      "n": 1574,
+      "top1_errors": 87,
+      "top1_error_percent": 5.527318932655654,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": 6,
+      "n": 1436,
+      "top1_errors": 56,
+      "top1_error_percent": 3.8997214484679668,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    }
+  ],
+  "by_product_size": [
+    {
+      "group": "16-25",
+      "n": 4096,
+      "top1_errors": 202,
+      "top1_error_percent": 4.931640625,
+      "top10_errors": 1,
+      "top10_error_percent": 0.0244140625
+    },
+    {
+      "group": "26-35",
+      "n": 1616,
+      "top1_errors": 98,
+      "top1_error_percent": 6.064356435643564,
+      "top10_errors": 1,
+      "top10_error_percent": 0.06188118811881188
+    },
+    {
+      "group": "<=15",
+      "n": 3111,
+      "top1_errors": 114,
+      "top1_error_percent": 3.664416586306654,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": ">=36",
+      "n": 427,
+      "top1_errors": 26,
+      "top1_error_percent": 6.0889929742388755,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    }
+  ],
+  "by_product_rings": [
+    {
+      "group": "0",
+      "n": 222,
+      "top1_errors": 15,
+      "top1_error_percent": 6.756756756756757,
+      "top10_errors": 1,
+      "top10_error_percent": 0.45045045045045046
+    },
+    {
+      "group": "1",
+      "n": 2820,
+      "top1_errors": 97,
+      "top1_error_percent": 3.4397163120567376,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": "2",
+      "n": 2911,
+      "top1_errors": 152,
+      "top1_error_percent": 5.221573342493988,
+      "top10_errors": 0,
+      "top10_error_percent": 0.0
+    },
+    {
+      "group": ">=3",
+      "n": 3297,
+      "top1_errors": 176,
+      "top1_error_percent": 5.3381862299059755,
+      "top10_errors": 1,
+      "top10_error_percent": 0.030330603579011222
+    }
+  ],
+  "by_multiple_edits": [
+    {
+      "group": 0,
+      "n": 8114,
+      "top1_errors": 357,
+      "top1_error_percent": 4.399802809958097,
+      "top10_errors": 1,
+      "top10_error_percent": 0.012324377618930245
+    },
+    {
+      "group": 1,
+      "n": 1136,
+      "top1_errors": 83,
+      "top1_error_percent": 7.306338028169014,
+      "top10_errors": 1,
+      "top10_error_percent": 0.0880281690140845
+    }
+  ],
+  "input_ambiguity": {
+    "unique_product_class_groups": 7417,
+    "multiple_gold_center_groups": 2,
+    "groups": [
+      {
+        "product_canonical": "CCc1ccc(OC)cn1",
+        "known_class": 3,
+        "reaction_ids": [
+          "test:004864",
+          "test:005594"
+        ],
+        "gold_orbit_count": 2
+      },
+      {
+        "product_canonical": "N#Cc1cc([N+](=O)[O-])cs1",
+        "known_class": 4,
+        "reaction_ids": [
+          "test:005736",
+          "test:005909"
+        ],
+        "gold_orbit_count": 2
+      }
+    ],
+    "errors_matching_other_record": 2
+  },
+  "symmetric_diagnostic": {
+    "count": 39,
+    "previous_explicit_automorphism_witness_path": "source-record:known_center_hard_cases_20261021/symmetry_error_diagnostic.json",
+    "current_colored_isomeric_graph_check_agrees_for_all": true
+  },
+  "evidence_boundaries": [
+    "Frozen index-specific scoring is retained; 39 symmetry-equivalent records remain formal errors.",
+    "The categories describe observable graph discrepancies, not experimentally established chemical causes.",
+    "Same product and class with multiple recorded centers is input ambiguity, not proof of condition causation.",
+    "All 9250 records have one new positive-map bond; multiple graph edits are not multiple independent new reaction centers.",
+    "Counts of graph edits exclude unmapped atoms, H, charge and stereochemistry.",
+    "No model forward, new sampling, training, re-ranking or official metric alteration."
+  ],
+  "source_sha256": {
+    "source-record:prepared/stage1_known_test_predictions.jsonl": "8914525567d7a9bf980c36ad567cc133a029e49f51a7037eeec37943fa68243e",
+    "experiments/spectraretro_inputs/final_test/prepared/test_record_map.csv": "de6906b6ba2568dd9aee212cc156b66429f0deb065ad23b8174d1cef0d425dfe",
+    "experiments/spectraretro_inputs/final_test/prepared/similarity_test_table.csv": "4bd2d133c627abec55c0ad2e3460659c24cf116e61dc2517ae9b64f77378ccf3"
+  }
+}

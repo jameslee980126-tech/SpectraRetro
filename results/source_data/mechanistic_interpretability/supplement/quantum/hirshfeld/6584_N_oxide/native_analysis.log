@@ -1,0 +1,742 @@
+tot grids = 1216944
+Spherically averaged atomic HF for {'C', 'N', 'O', 'S', 'H'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp9hto896a
+max_memory 12000 MB (current use 320 MB)
+atom = C
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -37.2852691175423
+cycle= 1 E= -37.3316491299503  delta_E= -0.0464  |g|=    0  |ddm|= 0.417
+cycle= 2 E= -37.3386686158948  delta_E= -0.00702  |g|=    0  |ddm|= 0.195
+cycle= 3 E= -37.3400976281245  delta_E= -0.00143  |g|=    0  |ddm|= 0.0534
+cycle= 4 E= -37.3401094623504  delta_E= -1.18e-05  |g|=    0  |ddm|= 0.00784
+cycle= 5 E= -37.3401095150855  delta_E= -5.27e-08  |g|=    0  |ddm|= 0.000642
+cycle= 6 E= -37.3401095158364  delta_E= -7.51e-10  |g|=    0  |ddm|= 7.73e-05
+Extra cycle  E= -37.3401095158371  delta_E= -7.03e-13  |g|=    0  |ddm|= 4.39e-06
+Atomic HF for atom  C  converged. SCF energy = -37.3401095158371
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp8gogvj_v
+max_memory 12000 MB (current use 329 MB)
+atom = N
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -53.7932097385072
+cycle= 1 E= -53.8385772874268  delta_E= -0.0454  |g|=    0  |ddm|= 0.381
+cycle= 2 E= -53.8461705715235  delta_E= -0.00759  |g|=    0  |ddm|= 0.179
+cycle= 3 E= -53.8480669509282  delta_E= -0.0019  |g|=    0  |ddm|= 0.0537
+cycle= 4 E= -53.8480838806563  delta_E= -1.69e-05  |g|=    0  |ddm|= 0.00859
+cycle= 5 E= -53.8480839045579  delta_E= -2.39e-08  |g|=    0  |ddm|= 0.000331
+cycle= 6 E= -53.8480839046808  delta_E= -1.23e-10  |g|=    0  |ddm|= 3.88e-05
+Extra cycle  E= -53.848083904681  delta_E= -1.78e-13  |g|=    0  |ddm|= 1.24e-06
+Atomic HF for atom  N  converged. SCF energy = -53.848083904681
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp9m_jq_ll
+max_memory 12000 MB (current use 329 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -74.283308735293
+cycle= 1 E= -74.2924229111704  delta_E= -0.00911  |g|=    0  |ddm|= 0.13
+cycle= 2 E= -74.293621172611  delta_E= -0.0012  |g|=    0  |ddm|= 0.0659
+cycle= 3 E= -74.2939528915603  delta_E= -0.000332  |g|=    0  |ddm|= 0.0205
+cycle= 4 E= -74.2939567639575  delta_E= -3.87e-06  |g|=    0  |ddm|= 0.00381
+cycle= 5 E= -74.2939567652436  delta_E= -1.29e-09  |g|=    0  |ddm|= 5.91e-05
+cycle= 6 E= -74.2939567652462  delta_E= -2.56e-12  |g|=    0  |ddm|= 2.32e-06
+Extra cycle  E= -74.2939567652462  delta_E= -4.26e-14  |g|=    0  |ddm|= 7.94e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2939567652462
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpyunl8lxw
+max_memory 12000 MB (current use 329 MB)
+atom = S
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -397.174574897502
+cycle= 1 E= -397.190224366785  delta_E= -0.0156  |g|=    0  |ddm|= 0.167
+cycle= 2 E= -397.190637318035  delta_E= -0.000413  |g|=    0  |ddm|= 0.0722
+cycle= 3 E= -397.190674102112  delta_E= -3.68e-05  |g|=    0  |ddm|= 0.0091
+cycle= 4 E= -397.190674679812  delta_E= -5.78e-07  |g|=    0  |ddm|= 0.0036
+cycle= 5 E= -397.190674687266  delta_E= -7.45e-09  |g|=    0  |ddm|= 0.000482
+cycle= 6 E= -397.190674687289  delta_E= -2.31e-11  |g|=    0  |ddm|= 1.58e-05
+Extra cycle  E= -397.190674687289  delta_E= 3.41e-13  |g|=    0  |ddm|= 3.12e-07
+Atomic HF for atom  S  converged. SCF energy = -397.190674687289
+
+
+
+******** 1 electron system ********
+Atomic HF for atom  H  converged. SCF energy = -0.499809832231889
+
+ ** Hirshfeld atomic charges  **
+charge of    0C =     -0.09105
+charge of    1C =     -0.05623
+charge of    2C =     -0.00976
+charge of    3C =     -0.07145
+charge of    4C =      0.03351
+charge of    5C =     -0.10982
+charge of    6N =     -0.09054
+charge of    7N =      0.04277
+charge of    8C =     -0.01186
+charge of    9C =     -0.05773
+charge of   10C =      0.00670
+charge of   11C =     -0.12544
+charge of   12N =      0.06362
+charge of   13O =     -0.24631
+charge of   14C =     -0.00444
+charge of   15C =      0.06382
+charge of   16N =      0.01117
+charge of   17C =     -0.05368
+charge of   18N =     -0.16009
+charge of   19C =      0.03681
+charge of   20N =     -0.23042
+charge of   21S =      0.18480
+charge of   22C =      0.01393
+charge of   23C =     -0.11651
+charge of   24N =     -0.19499
+charge of   25C =      0.07962
+charge of   26C =     -0.09184
+charge of   27C =     -0.12809
+charge of   28C =     -0.12710
+charge of   29H =      0.05108
+charge of   30H =      0.05764
+charge of   31H =      0.06230
+charge of   32H =      0.07306
+charge of   33H =      0.06229
+charge of   34H =      0.06277
+charge of   35H =      0.06469
+charge of   36H =      0.05546
+charge of   37H =      0.05971
+charge of   38H =      0.05625
+charge of   39H =      0.05878
+charge of   40H =      0.06739
+charge of   41H =      0.05563
+charge of   42H =      0.08200
+charge of   43H =      0.06507
+charge of   44H =      0.05902
+charge of   45H =      0.05797
+charge of   46H =      0.05672
+charge of   47H =      0.05303
+charge of   48H =      0.04771
+charge of   49H =      0.04409
+charge of   50H =      0.04796
+charge of   51H =      0.04850
+charge of   52H =      0.04457
+charge of   53H =      0.04691
+Spherically averaged atomic HF for {'C', 'N', 'O', 'S', 'H'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpje046ann
+max_memory 12000 MB (current use 382 MB)
+atom = C
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -37.2852691175423
+cycle= 1 E= -37.3316491299503  delta_E= -0.0464  |g|=    0  |ddm|= 0.417
+cycle= 2 E= -37.3386686158948  delta_E= -0.00702  |g|=    0  |ddm|= 0.195
+cycle= 3 E= -37.3400976281246  delta_E= -0.00143  |g|=    0  |ddm|= 0.0534
+cycle= 4 E= -37.3401094623504  delta_E= -1.18e-05  |g|=    0  |ddm|= 0.00784
+cycle= 5 E= -37.3401095150855  delta_E= -5.27e-08  |g|=    0  |ddm|= 0.000642
+cycle= 6 E= -37.3401095158364  delta_E= -7.51e-10  |g|=    0  |ddm|= 7.73e-05
+Extra cycle  E= -37.3401095158371  delta_E= -7.18e-13  |g|=    0  |ddm|= 4.39e-06
+Atomic HF for atom  C  converged. SCF energy = -37.3401095158371
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmphedc42ip
+max_memory 12000 MB (current use 382 MB)
+atom = N
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -53.7932097385072
+cycle= 1 E= -53.8385772874268  delta_E= -0.0454  |g|=    0  |ddm|= 0.381
+cycle= 2 E= -53.8461705715235  delta_E= -0.00759  |g|=    0  |ddm|= 0.179
+cycle= 3 E= -53.8480669509283  delta_E= -0.0019  |g|=    0  |ddm|= 0.0537
+cycle= 4 E= -53.8480838806564  delta_E= -1.69e-05  |g|=    0  |ddm|= 0.00859
+cycle= 5 E= -53.8480839045579  delta_E= -2.39e-08  |g|=    0  |ddm|= 0.000331
+cycle= 6 E= -53.8480839046809  delta_E= -1.23e-10  |g|=    0  |ddm|= 3.88e-05
+Extra cycle  E= -53.848083904681  delta_E= -1.56e-13  |g|=    0  |ddm|= 1.24e-06
+Atomic HF for atom  N  converged. SCF energy = -53.848083904681
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp24mqnstu
+max_memory 12000 MB (current use 382 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -74.283308735293
+cycle= 1 E= -74.2924229111704  delta_E= -0.00911  |g|=    0  |ddm|= 0.13
+cycle= 2 E= -74.2936211726111  delta_E= -0.0012  |g|=    0  |ddm|= 0.0659
+cycle= 3 E= -74.2939528915602  delta_E= -0.000332  |g|=    0  |ddm|= 0.0205
+cycle= 4 E= -74.2939567639576  delta_E= -3.87e-06  |g|=    0  |ddm|= 0.00381
+cycle= 5 E= -74.2939567652437  delta_E= -1.29e-09  |g|=    0  |ddm|= 5.91e-05
+cycle= 6 E= -74.2939567652462  delta_E= -2.49e-12  |g|=    0  |ddm|= 2.32e-06
+Extra cycle  E= -74.2939567652462  delta_E= -2.84e-14  |g|=    0  |ddm|= 7.94e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2939567652462
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpnjx_387_
+max_memory 12000 MB (current use 382 MB)
+atom = S
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -397.174574897502
+cycle= 1 E= -397.190224366785  delta_E= -0.0156  |g|=    0  |ddm|= 0.167
+cycle= 2 E= -397.190637318035  delta_E= -0.000413  |g|=    0  |ddm|= 0.0722
+cycle= 3 E= -397.190674102113  delta_E= -3.68e-05  |g|=    0  |ddm|= 0.0091
+cycle= 4 E= -397.190674679813  delta_E= -5.78e-07  |g|=    0  |ddm|= 0.0036
+cycle= 5 E= -397.190674687266  delta_E= -7.45e-09  |g|=    0  |ddm|= 0.000482
+cycle= 6 E= -397.190674687289  delta_E= -2.29e-11  |g|=    0  |ddm|= 1.58e-05
+Extra cycle  E= -397.190674687288  delta_E= 3.98e-13  |g|=    0  |ddm|= 3.12e-07
+Atomic HF for atom  S  converged. SCF energy = -397.190674687288
+
+
+
+******** 1 electron system ********
+Atomic HF for atom  H  converged. SCF energy = -0.499809832231889
+
+ ** Hirshfeld atomic charges  **
+charge of    0C =     -0.08869
+charge of    1C =     -0.05394
+charge of    2C =      0.00693
+charge of    3C =     -0.02528
+charge of    4C =      0.05290
+charge of    5C =     -0.09852
+charge of    6N =     -0.07682
+charge of    7N =      0.04761
+charge of    8C =      0.02747
+charge of    9C =     -0.03010
+charge of   10C =      0.02941
+charge of   11C =     -0.11111
+charge of   12N =      0.08667
+charge of   13O =     -0.15941
+charge of   14C =      0.05522
+charge of   15C =      0.07223
+charge of   16N =      0.03062
+charge of   17C =     -0.04007
+charge of   18N =     -0.10180
+charge of   19C =      0.07885
+charge of   20N =     -0.19979
+charge of   21S =      0.25312
+charge of   22C =      0.04834
+charge of   23C =     -0.10125
+charge of   24N =     -0.15731
+charge of   25C =      0.11183
+charge of   26C =     -0.08714
+charge of   27C =     -0.12356
+charge of   28C =     -0.11891
+charge of   29H =      0.05259
+charge of   30H =      0.05727
+charge of   31H =      0.07027
+charge of   32H =      0.09333
+charge of   33H =      0.07390
+charge of   34H =      0.07487
+charge of   35H =      0.07013
+charge of   36H =      0.06625
+charge of   37H =      0.07374
+charge of   38H =      0.06847
+charge of   39H =      0.07173
+charge of   40H =      0.08377
+charge of   41H =      0.06045
+charge of   42H =      0.10334
+charge of   43H =      0.08225
+charge of   44H =      0.07179
+charge of   45H =      0.06638
+charge of   46H =      0.05656
+charge of   47H =      0.06361
+charge of   48H =      0.05662
+charge of   49H =      0.05101
+charge of   50H =      0.04396
+charge of   51H =      0.05674
+charge of   52H =      0.05124
+charge of   53H =      0.05229
+tot grids = 1828888
+Spherically averaged atomic HF for {'C', 'N', 'O', 'S', 'H'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpbso5hw6n
+max_memory 12000 MB (current use 419 MB)
+atom = C
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -37.2852691175423
+cycle= 1 E= -37.3316491299503  delta_E= -0.0464  |g|=    0  |ddm|= 0.417
+cycle= 2 E= -37.3386686158948  delta_E= -0.00702  |g|=    0  |ddm|= 0.195
+cycle= 3 E= -37.3400976281246  delta_E= -0.00143  |g|=    0  |ddm|= 0.0534
+cycle= 4 E= -37.3401094623504  delta_E= -1.18e-05  |g|=    0  |ddm|= 0.00784
+cycle= 5 E= -37.3401095150855  delta_E= -5.27e-08  |g|=    0  |ddm|= 0.000642
+cycle= 6 E= -37.3401095158364  delta_E= -7.51e-10  |g|=    0  |ddm|= 7.73e-05
+Extra cycle  E= -37.3401095158372  delta_E= -7.82e-13  |g|=    0  |ddm|= 4.39e-06
+Atomic HF for atom  C  converged. SCF energy = -37.3401095158372
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpd_4mqtsh
+max_memory 12000 MB (current use 419 MB)
+atom = N
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -53.7932097385071
+cycle= 1 E= -53.8385772874268  delta_E= -0.0454  |g|=    0  |ddm|= 0.381
+cycle= 2 E= -53.8461705715234  delta_E= -0.00759  |g|=    0  |ddm|= 0.179
+cycle= 3 E= -53.8480669509282  delta_E= -0.0019  |g|=    0  |ddm|= 0.0537
+cycle= 4 E= -53.8480838806564  delta_E= -1.69e-05  |g|=    0  |ddm|= 0.00859
+cycle= 5 E= -53.8480839045579  delta_E= -2.39e-08  |g|=    0  |ddm|= 0.000331
+cycle= 6 E= -53.8480839046809  delta_E= -1.23e-10  |g|=    0  |ddm|= 3.88e-05
+Extra cycle  E= -53.8480839046809  delta_E= -8.53e-14  |g|=    0  |ddm|= 1.24e-06
+Atomic HF for atom  N  converged. SCF energy = -53.8480839046809
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp06tt8uh3
+max_memory 12000 MB (current use 419 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -74.283308735293
+cycle= 1 E= -74.2924229111704  delta_E= -0.00911  |g|=    0  |ddm|= 0.13
+cycle= 2 E= -74.2936211726111  delta_E= -0.0012  |g|=    0  |ddm|= 0.0659
+cycle= 3 E= -74.2939528915603  delta_E= -0.000332  |g|=    0  |ddm|= 0.0205
+cycle= 4 E= -74.2939567639576  delta_E= -3.87e-06  |g|=    0  |ddm|= 0.00381
+cycle= 5 E= -74.2939567652436  delta_E= -1.29e-09  |g|=    0  |ddm|= 5.91e-05
+cycle= 6 E= -74.2939567652462  delta_E= -2.53e-12  |g|=    0  |ddm|= 2.32e-06
+Extra cycle  E= -74.2939567652461  delta_E= 2.84e-14  |g|=    0  |ddm|= 7.94e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2939567652461
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpzizv_dwq
+max_memory 12000 MB (current use 419 MB)
+atom = S
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -397.174574897502
+cycle= 1 E= -397.190224366785  delta_E= -0.0156  |g|=    0  |ddm|= 0.167
+cycle= 2 E= -397.190637318034  delta_E= -0.000413  |g|=    0  |ddm|= 0.0722
+cycle= 3 E= -397.190674102113  delta_E= -3.68e-05  |g|=    0  |ddm|= 0.0091
+cycle= 4 E= -397.190674679813  delta_E= -5.78e-07  |g|=    0  |ddm|= 0.0036
+cycle= 5 E= -397.190674687265  delta_E= -7.45e-09  |g|=    0  |ddm|= 0.000482
+cycle= 6 E= -397.190674687289  delta_E= -2.32e-11  |g|=    0  |ddm|= 1.58e-05
+Extra cycle  E= -397.190674687289  delta_E=    0  |g|=    0  |ddm|= 3.12e-07
+Atomic HF for atom  S  converged. SCF energy = -397.190674687289
+
+
+
+******** 1 electron system ********
+Atomic HF for atom  H  converged. SCF energy = -0.499809832231889
+
+ ** Hirshfeld atomic charges  **
+charge of    0C =     -0.09105
+charge of    1C =     -0.05623
+charge of    2C =     -0.00976
+charge of    3C =     -0.07145
+charge of    4C =      0.03351
+charge of    5C =     -0.10982
+charge of    6N =     -0.09054
+charge of    7N =      0.04278
+charge of    8C =     -0.01185
+charge of    9C =     -0.05773
+charge of   10C =      0.00670
+charge of   11C =     -0.12544
+charge of   12N =      0.06362
+charge of   13O =     -0.24631
+charge of   14C =     -0.00445
+charge of   15C =      0.06382
+charge of   16N =      0.01117
+charge of   17C =     -0.05368
+charge of   18N =     -0.16009
+charge of   19C =      0.03681
+charge of   20N =     -0.23042
+charge of   21S =      0.18480
+charge of   22C =      0.01393
+charge of   23C =     -0.11651
+charge of   24N =     -0.19499
+charge of   25C =      0.07962
+charge of   26C =     -0.09184
+charge of   27C =     -0.12809
+charge of   28C =     -0.12710
+charge of   29H =      0.05108
+charge of   30H =      0.05764
+charge of   31H =      0.06230
+charge of   32H =      0.07306
+charge of   33H =      0.06229
+charge of   34H =      0.06277
+charge of   35H =      0.06469
+charge of   36H =      0.05546
+charge of   37H =      0.05971
+charge of   38H =      0.05625
+charge of   39H =      0.05878
+charge of   40H =      0.06739
+charge of   41H =      0.05563
+charge of   42H =      0.08200
+charge of   43H =      0.06507
+charge of   44H =      0.05902
+charge of   45H =      0.05797
+charge of   46H =      0.05672
+charge of   47H =      0.05303
+charge of   48H =      0.04771
+charge of   49H =      0.04409
+charge of   50H =      0.04796
+charge of   51H =      0.04850
+charge of   52H =      0.04457
+charge of   53H =      0.04691
+Spherically averaged atomic HF for {'C', 'N', 'O', 'S', 'H'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpmzyqlp8q
+max_memory 12000 MB (current use 384 MB)
+atom = C
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -37.2852691175423
+cycle= 1 E= -37.3316491299503  delta_E= -0.0464  |g|=    0  |ddm|= 0.417
+cycle= 2 E= -37.3386686158948  delta_E= -0.00702  |g|=    0  |ddm|= 0.195
+cycle= 3 E= -37.3400976281246  delta_E= -0.00143  |g|=    0  |ddm|= 0.0534
+cycle= 4 E= -37.3401094623504  delta_E= -1.18e-05  |g|=    0  |ddm|= 0.00784
+cycle= 5 E= -37.3401095150855  delta_E= -5.27e-08  |g|=    0  |ddm|= 0.000642
+cycle= 6 E= -37.3401095158364  delta_E= -7.51e-10  |g|=    0  |ddm|= 7.73e-05
+Extra cycle  E= -37.3401095158372  delta_E= -7.82e-13  |g|=    0  |ddm|= 4.39e-06
+Atomic HF for atom  C  converged. SCF energy = -37.3401095158372
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmpjy6kh7ul
+max_memory 12000 MB (current use 384 MB)
+atom = N
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -53.7932097385072
+cycle= 1 E= -53.8385772874268  delta_E= -0.0454  |g|=    0  |ddm|= 0.381
+cycle= 2 E= -53.8461705715235  delta_E= -0.00759  |g|=    0  |ddm|= 0.179
+cycle= 3 E= -53.8480669509283  delta_E= -0.0019  |g|=    0  |ddm|= 0.0537
+cycle= 4 E= -53.8480838806564  delta_E= -1.69e-05  |g|=    0  |ddm|= 0.00859
+cycle= 5 E= -53.8480839045579  delta_E= -2.39e-08  |g|=    0  |ddm|= 0.000331
+cycle= 6 E= -53.8480839046808  delta_E= -1.23e-10  |g|=    0  |ddm|= 3.88e-05
+Extra cycle  E= -53.848083904681  delta_E= -1.28e-13  |g|=    0  |ddm|= 1.24e-06
+Atomic HF for atom  N  converged. SCF energy = -53.848083904681
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp3uk1qu58
+max_memory 12000 MB (current use 384 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -74.283308735293
+cycle= 1 E= -74.2924229111704  delta_E= -0.00911  |g|=    0  |ddm|= 0.13
+cycle= 2 E= -74.2936211726111  delta_E= -0.0012  |g|=    0  |ddm|= 0.0659
+cycle= 3 E= -74.2939528915603  delta_E= -0.000332  |g|=    0  |ddm|= 0.0205
+cycle= 4 E= -74.2939567639576  delta_E= -3.87e-06  |g|=    0  |ddm|= 0.00381
+cycle= 5 E= -74.2939567652436  delta_E= -1.29e-09  |g|=    0  |ddm|= 5.91e-05
+cycle= 6 E= -74.2939567652461  delta_E= -2.5e-12  |g|=    0  |ddm|= 2.32e-06
+Extra cycle  E= -74.2939567652462  delta_E= -7.11e-14  |g|=    0  |ddm|= 7.94e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2939567652462
+
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /root/rivermind-data/dft_electronic_validation_20261109/solver_v2/hirshfeld/6584_N_oxide/scratch/tmp5awr8jap
+max_memory 12000 MB (current use 384 MB)
+atom = S
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -397.174574897502
+cycle= 1 E= -397.190224366785  delta_E= -0.0156  |g|=    0  |ddm|= 0.167
+cycle= 2 E= -397.190637318035  delta_E= -0.000413  |g|=    0  |ddm|= 0.0722
+cycle= 3 E= -397.190674102113  delta_E= -3.68e-05  |g|=    0  |ddm|= 0.0091
+cycle= 4 E= -397.190674679813  delta_E= -5.78e-07  |g|=    0  |ddm|= 0.0036
+cycle= 5 E= -397.190674687266  delta_E= -7.45e-09  |g|=    0  |ddm|= 0.000482
+cycle= 6 E= -397.190674687288  delta_E= -2.26e-11  |g|=    0  |ddm|= 1.58e-05
+Extra cycle  E= -397.190674687288  delta_E= -1.14e-13  |g|=    0  |ddm|= 3.12e-07
+Atomic HF for atom  S  converged. SCF energy = -397.190674687288
+
+
+
+******** 1 electron system ********
+Atomic HF for atom  H  converged. SCF energy = -0.499809832231889
+
+ ** Hirshfeld atomic charges  **
+charge of    0C =     -0.08869
+charge of    1C =     -0.05394
+charge of    2C =      0.00693
+charge of    3C =     -0.02528
+charge of    4C =      0.05290
+charge of    5C =     -0.09852
+charge of    6N =     -0.07682
+charge of    7N =      0.04761
+charge of    8C =      0.02747
+charge of    9C =     -0.03010
+charge of   10C =      0.02941
+charge of   11C =     -0.11111
+charge of   12N =      0.08667
+charge of   13O =     -0.15941
+charge of   14C =      0.05522
+charge of   15C =      0.07223
+charge of   16N =      0.03062
+charge of   17C =     -0.04006
+charge of   18N =     -0.10180
+charge of   19C =      0.07885
+charge of   20N =     -0.19979
+charge of   21S =      0.25312
+charge of   22C =      0.04834
+charge of   23C =     -0.10125
+charge of   24N =     -0.15731
+charge of   25C =      0.11183
+charge of   26C =     -0.08715
+charge of   27C =     -0.12356
+charge of   28C =     -0.11891
+charge of   29H =      0.05259
+charge of   30H =      0.05726
+charge of   31H =      0.07027
+charge of   32H =      0.09333
+charge of   33H =      0.07390
+charge of   34H =      0.07487
+charge of   35H =      0.07013
+charge of   36H =      0.06625
+charge of   37H =      0.07374
+charge of   38H =      0.06847
+charge of   39H =      0.07173
+charge of   40H =      0.08377
+charge of   41H =      0.06045
+charge of   42H =      0.10334
+charge of   43H =      0.08225
+charge of   44H =      0.07179
+charge of   45H =      0.06639
+charge of   46H =      0.05655
+charge of   47H =      0.06361
+charge of   48H =      0.05662
+charge of   49H =      0.05101
+charge of   50H =      0.04396
+charge of   51H =      0.05674
+charge of   52H =      0.05124
+charge of   53H =      0.05229

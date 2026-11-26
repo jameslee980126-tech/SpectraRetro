@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "experiment": "supporting_information/s6_file_and_model_definitions",
+  "paper_items": [
+    "Table S18",
+    "Table S19",
+    "Table S20",
+    "Table S21"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/source_index.csv",
+      "path": "file_indices/supplementary_file_index.csv",
+      "role": "Canonical file identities for SI Sections S1–S6",
+      "kind": "original_file",
+      "bytes": 9332,
+      "sha256": "7b84540ec61cb14dc12ab6829f98e05e9ac6e81b3846f33e1e8e4a8d0990fa92"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/data_index.csv",
+      "path": "file_indices/mechanistic_file_index.csv",
+      "role": "Canonical file identities for SI Section S7",
+      "kind": "original_file",
+      "bytes": 103414,
+      "sha256": "cb1caff8218874a67c1d0e2847e3422d5012ed3e7339a094aabefd19a4b381a8"
+    },
+    {
+      "path": "tables/table_s18.tex",
+      "role": "Table S18: Contents of the accompanying supplementary files.",
+      "paper_item": "Table S18",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 111214,
+      "source_character_end": 113358,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "49eec0b6cd3af24cbf1ac514ec2f9379e9857ccf4fb531fc2271215bca72edbf",
+      "bytes": 2144,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s19.tex",
+      "role": "Table S19: Reaction-center feature dictionary in concatenation order.",
+      "paper_item": "Table S19",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 113960,
+      "source_character_end": 115653,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "20194e44a2129b6f02b6b90a318bba714c84642ad26211afb7193b090c2c73c4",
+      "bytes": 1693,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s20.tex",
+      "role": "Table S20: Dimensions of the full-spectrum reaction-center modules.",
+      "paper_item": "Table S20",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 116230,
+      "source_character_end": 118052,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "d48bc5b36e5ddb08da265a17083993fc45546e4210d51dc78acfedf888fceffe",
+      "bytes": 1822,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s21.tex",
+      "role": "Table S21: Scalar descriptors appended to the composition fingerprints.",
+      "paper_item": "Table S21",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 118824,
+      "source_character_end": 120727,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "49a4d2ec85de9e983c77d4ca6b6da11a55b6e6575aa7482d8d88ccf126bd26ea",
+      "bytes": 1903,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/reaction_center",
+    "src/spectraretro/completion"
+  ],
+  "shared_data": [],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

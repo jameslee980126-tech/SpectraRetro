@@ -1,0 +1,113 @@
+{
+  "primary_ranking": "original_frozen_evaluator",
+  "diagnostic_ranking": "descending_saved_score_then_ascending_candidate_index",
+  "candidate_domain": "canonical undirected bonds plus atoms",
+  "splits": {
+    "test": {
+      "n": 9250,
+      "models": {
+        "fspec": {
+          "original_metrics": {
+            "top-1 accuracy": 0.8936216235160828,
+            "top-2 accuracy": 0.9717837572097778,
+            "top-3 accuracy": 0.987135112285614,
+            "top-5 accuracy": 0.9966486096382141,
+            "top-10 accuracy": 0.9995675683021545,
+            "cross_entropy": 0.453898549079895
+          },
+          "strict_score_inversions": 142,
+          "direct_topk_diagnostic": {
+            "1": 0.8964324324324324,
+            "2": 0.9721081081081081,
+            "3": 0.9875675675675676,
+            "5": 0.9968648648648649,
+            "10": 0.9996756756756757
+          }
+        },
+        "no_spectral": {
+          "original_metrics": {
+            "top-1 accuracy": 0.6478918790817261,
+            "top-2 accuracy": 0.8418378233909607,
+            "top-3 accuracy": 0.9230270385742188,
+            "top-5 accuracy": 0.9744864702224731,
+            "top-10 accuracy": 0.9968648552894592,
+            "cross_entropy": 0.9705569744110107
+          },
+          "strict_score_inversions": 59,
+          "direct_topk_diagnostic": {
+            "1": 0.6472432432432432,
+            "2": 0.8406486486486486,
+            "3": 0.9217297297297298,
+            "5": 0.9757837837837838,
+            "10": 0.9968648648648649
+          }
+        }
+      },
+      "official_pair_counts": {
+        "both_correct": 5699,
+        "fspec_only": 2567,
+        "both_wrong": 690,
+        "no_spectral_only": 294
+      },
+      "direct_pair_counts_diagnostic": {
+        "both_correct": 5690,
+        "fspec_only": 2602,
+        "both_wrong": 661,
+        "no_spectral_only": 297
+      }
+    },
+    "valid": {
+      "n": 9395,
+      "models": {
+        "fspec": {
+          "original_metrics": {
+            "top-1 accuracy": 0.9116551876068115,
+            "top-2 accuracy": 0.9773284196853638,
+            "top-3 accuracy": 0.9914848804473877,
+            "top-5 accuracy": 0.9970197081565857,
+            "top-10 accuracy": 0.9994678497314453,
+            "cross_entropy": 0.37297001481056213
+          },
+          "strict_score_inversions": 134,
+          "direct_topk_diagnostic": {
+            "1": 0.9116551357104843,
+            "2": 0.9778605641298563,
+            "3": 0.9907397551889303,
+            "5": 0.9968068121341139,
+            "10": 0.9994678020223523
+          }
+        },
+        "no_spectral": {
+          "original_metrics": {
+            "top-1 accuracy": 0.6604577302932739,
+            "top-2 accuracy": 0.8469398617744446,
+            "top-3 accuracy": 0.9244279265403748,
+            "top-5 accuracy": 0.9772219657897949,
+            "top-10 accuracy": 0.9977647662162781,
+            "cross_entropy": 0.9494762420654297
+          },
+          "strict_score_inversions": 59,
+          "direct_topk_diagnostic": {
+            "1": 0.658861096327834,
+            "2": 0.8466205428419372,
+            "3": 0.9255987227248537,
+            "5": 0.9777541245343268,
+            "10": 0.9977647684938797
+          }
+        }
+      },
+      "official_pair_counts": {
+        "no_spectral_only": 254,
+        "both_correct": 5951,
+        "fspec_only": 2614,
+        "both_wrong": 576
+      },
+      "direct_pair_counts_diagnostic": {
+        "no_spectral_only": 277,
+        "both_correct": 5913,
+        "fspec_only": 2652,
+        "both_wrong": 553
+      }
+    }
+  }
+}

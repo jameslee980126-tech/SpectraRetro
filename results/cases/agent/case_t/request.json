@@ -1,0 +1,32 @@
+{
+  "stock": [
+    "C1COCCN1",
+    "COC(OC)OC",
+    "Clc1cc(Cl)cc(I)c1",
+    "Nc1ccc(C(=O)O)cc1O",
+    "O=C(Cl)C(=O)Cl"
+  ],
+  "target": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "constraints": {
+    "forbidden_smiles": [],
+    "unavailable_stock": [],
+    "require_forward_check": false
+  },
+  "model_mode": "unknown_class",
+  "case_name": "Tafamidis",
+  "strategy": "model_order",
+  "budgets": {
+    "max_steps": 12,
+    "max_products": 30,
+    "max_generation_calls": 100,
+    "max_paired_draws": 300,
+    "draws_per_call": 10,
+    "sampling_steps": 100,
+    "max_centers": 3,
+    "max_routes": 3,
+    "max_states": 2000,
+    "max_llm_calls": 12,
+    "page_size": 20
+  }
+}

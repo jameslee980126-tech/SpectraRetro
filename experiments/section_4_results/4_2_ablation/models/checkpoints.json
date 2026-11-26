@@ -1,0 +1,274 @@
+{
+  "path_base": "repository_root",
+  "registry": "checkpoints/WEIGHTS.json",
+  "identity_rule": "Use the experiment-bound SHA-256, role and selection status in each record.",
+  "files": [
+    {
+      "path": "checkpoints/ablations/chemical_prior/compatibility.pt",
+      "bytes": 8442327,
+      "sha256": "0e4aaa7c389c8b0ad50495a4e22bc9ca9214183c61c44924f0936d2704b7202e",
+      "role": "chemical_prior_ablation_parameters",
+      "selection_status": "original_sampling_protocol_sha256_bound",
+      "selection": {
+        "sha256": "0e4aaa7c389c8b0ad50495a4e22bc9ca9214183c61c44924f0936d2704b7202e",
+        "epoch": 96,
+        "steps": 187968,
+        "validation_l2": 0.016853012428623443,
+        "training_protocol_sha256": "a3cb03d8486ec1a89e4d12581f5f191d720f65900e93c99c0d07c2b5fb43ab12"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "05b461430c0efe0f928908f411c52ddd76ef0d6a118db40241ac8aa0c562999c"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/ablations/chemical_prior/control.pt",
+      "bytes": 8440549,
+      "sha256": "e3ec65cdea9d532b28362497a1e433e9e6719e751f4438bfc59572de4397cc3a",
+      "role": "chemical_prior_ablation_parameters",
+      "selection_status": "original_sampling_protocol_sha256_bound",
+      "selection": {
+        "sha256": "e3ec65cdea9d532b28362497a1e433e9e6719e751f4438bfc59572de4397cc3a",
+        "epoch": 96,
+        "steps": 187968,
+        "validation_l2": 0.016287720095204194,
+        "training_protocol_sha256": "a3cb03d8486ec1a89e4d12581f5f191d720f65900e93c99c0d07c2b5fb43ab12"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "05b461430c0efe0f928908f411c52ddd76ef0d6a118db40241ac8aa0c562999c"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/composition_prior.pt",
+      "bytes": 11559640,
+      "sha256": "5fda29c0f1339710d26608e9a257bc106e69b91e03ed1bbe3abb767c9097b589",
+      "role": "shared_composition_prior",
+      "selection_status": "frozen_final_model_contract_bound",
+      "selection": {
+        "role": "shared elemental-composition prior"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "analysis_contract.json",
+          "sha256": "11a1466d15de5b5ca3a752bdb5e1316f86d95ac94a7ccedbf0157346108e9af2"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed0.pth",
+      "bytes": 64292551,
+      "sha256": "67b576cf1c4733a136f939fb7cb38a250e6b1f498de0c2db73798489b68720b5",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 49,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8583333492279053,
+        "seed": 0,
+        "arm": "full_fspec"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "9d7fef63602703cac8dff31cb116e6e1bac0e1bd6334a298214e3b7234593837"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "e5c6c5e145863e7b742b18e518aa773c68d1abae9659a80c62608d341c63ec41"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed1.pth",
+      "bytes": 64292615,
+      "sha256": "3f4698aa885ff331dd54f3bb96a076272540b5d89a464a411e3902b9ba0f49ca",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 49,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8550000190734863,
+        "seed": 1,
+        "arm": "full_fspec"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "909a44dd8fcb29e65200012e5b50727d7070bf8fbf4857d3e8045ad205272fca"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "bdbed1ba9a98d8020da4a7c288003782c1cf46ec7b9f3353ae80a33b8bc995aa"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed2.pth",
+      "bytes": 64292615,
+      "sha256": "f1270bbd6922552c6fe30b179ad574be04eda198736063ca5fdd3ca01bea17ef",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 49,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8612500429153442,
+        "seed": 2,
+        "arm": "full_fspec"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "929e0d90ef94bf026a2558665a0e2914c893594df3b71158febd714aff6bf948"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "2f0e1a5de1abfc509233574933330410dffb03450e26e7f4a2e3b130f5326c3d"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed0.pth",
+      "bytes": 64293383,
+      "sha256": "99dc6e3fec00823f39891c01262c5fb6c76ecac16b3833469e53b7b5a7778773",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 50,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8504166603088379,
+        "seed": 0,
+        "arm": "local_pair"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "1bb5c3ed8ca9df67d7b08c4bcdf02a221d35750bb0f447e2bf16f12e5ded84ea"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "b77aa46f17c28a8b59949be56f5887c18082bc269c17052c86bb505c855cc311"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed1.pth",
+      "bytes": 64293447,
+      "sha256": "95fd182fb73879b89c9f2678b73df1f5e47da6a988ae8aa79c38103d356f8b89",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 40,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8487499952316284,
+        "seed": 1,
+        "arm": "local_pair"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "c018839f8c0fa75618e1ec171644b9e0d74a27da7ca4ed8e4c8927147efcd274"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "5f94e8269f639a70f783153f8358042d3c5a228fd40c3e8b8829043003ca4c1f"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed2.pth",
+      "bytes": 64293447,
+      "sha256": "e6c78336bb0c7150c1a374191fe819fbe3e41b13dccf7f7e422c7d8950900850",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 40,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8512499928474426,
+        "seed": 2,
+        "arm": "local_pair"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "34248fa811b779fa2c6cec0c5d3f87e4345524c8d44c17389dcf47bd7def1008"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "aadc7bd6d4f1480bfa4b0585e45d1665ed04bc51b5c15ad7e1e89092ed6c3533"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/no_spectral_seed0.pth",
+      "bytes": 54767223,
+      "sha256": "2409dfd5b2857bacc24e0e4bfa375e6ef6c40aed947a857a5e117a8410ea8179",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 46,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.6604577302932739,
+        "seed": 0,
+        "arm": "no_spectral"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "f38850f12c5ecd1a083cf95f4fdbc52d2958d773ddde54104cb953c6c9c87772"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "2873b5ef43bd0bf58bc725964b7619c8cd4dbe736f22ebfac2441be95efced96"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/ordinary_rgcn_seed0.pth",
+      "bytes": 46113605,
+      "sha256": "915cf46ef8b7aa8ac876156ea751fd0c71fb3791be1cfed250fe7a8130395260",
+      "role": "reaction_center_ablation",
+      "selection_status": "original_selection_receipt_bound",
+      "selection": {
+        "epoch": 14,
+        "completed_epochs": 50,
+        "rule": "max validation Top1, earliest tie",
+        "value": 0.8832358121871948,
+        "seed": 0,
+        "arm": "ordinary_rgcn"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "69fdeed424f9ab52bf511d95536d4c9c80bca6bb43902d74f0824af89f5ab0b7"
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "3eef715e64156e5c58566844282f56c6f4ede43764dcf9b4b9b579912ac18ac9"
+        }
+      ]
+    }
+  ]
+}

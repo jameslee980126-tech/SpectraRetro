@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "torchdrug-pred"
+version = "0.1.0"
+description = "Native TorchDrug reaction-center prediction with Retro permutation export"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "numpy==1.26.4",
+    "rdkit-pypi==2022.9.5",
+    "torch==2.1.2",
+    "torchdrug==0.2.1",
+    "torch-scatter==2.1.2",
+    "torch-cluster==1.6.3",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+torchdrug-pred = "torchdrug_pred.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

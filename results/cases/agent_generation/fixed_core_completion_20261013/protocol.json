@@ -1,0 +1,43 @@
+{
+  "evaluation_target": "Known-core conditional precursor completion",
+  "allowed_inputs": [
+    "known core atoms, bonds, coordinates, properties and attachment sites"
+  ],
+  "reference_known_core_condition": true,
+  "unknown_reference_size_input": false,
+  "unknown_reference_elements_input": false,
+  "unknown_reference_coordinates_input": false,
+  "unknown_reference_bonds_input": false,
+  "inventory_used": false,
+  "LLM_used": false,
+  "stage1_used": false,
+  "product_only": false,
+  "case_training_contact": true,
+  "draws": 30,
+  "sampling_steps": 100,
+  "batch_size": 8,
+  "seed": 20261012,
+  "max_seconds": 2400,
+  "weights": {
+    "size": {
+      "path": "checkpoints/cases/agent/size_model.ckpt",
+      "sha256": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+    },
+    "edm": {
+      "path": "checkpoints/cases/agent/completion_model.ckpt",
+      "sha256": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56"
+    }
+  },
+  "source_sha256": {
+    "src/experiments/drug_route_cases/sample_latest_fixed_core_20261013.py": "4d65d9e6a26118519ca789af1694766ae9e996af99b6fb005e4d29f18938a524",
+    "src/experiments/drug_route_cases/exact_case_memory_worker.py": "f5c207283b4c9f2e732dca37d3c79056336cce5fdfe269721475f5dd0347d1d2",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v3.py": "567d5bf280a13080e05cfaab074afd154d86875df70486ad5e06a40adf838915",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v4.py": "4ae2260d645662c0a96db061b2a1be5026c10d9d0e1eb316715b3577b9012fd2",
+    "src/experiments/drug_route_cases/exact_reaction_memory_codec_v5.py": "2cf0bbd4c955dc074d99d6e81505f40a34a4512f73e25a4b7119649682dfc6d5",
+    "results/cases/agent_generation/inputs/reaction_pairs.json": "430b3550a046c5d988e16938a703239f09de8f117ffa8a169cac48fed9665a7a",
+    "results/cases/agent_generation/selected_model_manifest.json": "de9e70600051095965c4521fa32005a9e92b8f25bf1f3c93b42757902fee3522"
+  },
+  "new_training": false,
+  "primary_criterion": "All reference precursors occur in one paired draw",
+  "secondary_criterion": "Each reference precursor occurs somewhere in its own generated fragment bank"
+}

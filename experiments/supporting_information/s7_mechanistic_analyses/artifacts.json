@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "experiment": "supporting_information/s7_mechanistic_analyses",
+  "paper_items": [
+    "Table S22",
+    "Table S23",
+    "Table S24",
+    "Table S25",
+    "Table S26",
+    "Table S27",
+    "Figure S4",
+    "Figure S5",
+    "Figure S6"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/chemical_preferences.csv",
+      "path": "results/chemical/chemical_preferences.csv",
+      "role": "Estimated preferences and interval bounds by reaction class and factor",
+      "kind": "original_file",
+      "bytes": 8224,
+      "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/descriptor_correlations.csv",
+      "path": "results/chemical/descriptor_correlations.csv",
+      "role": "Pairwise factor correlations and significance statistics",
+      "kind": "original_file",
+      "bytes": 12785,
+      "sha256": "5c000789ce9459d3a01eb009c2bdd40249d5a9b395fed6a41a1fd9298f67d2be"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/factor_catalog.csv",
+      "path": "data/chemical/factor_catalog.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 4506,
+      "sha256": "f21520ee7a1ce8d45b116417e03eb21fcd895a4b47bb06129168e9eb1741307d"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/mantel_associations.csv",
+      "path": "results/chemical/mantel_associations.csv",
+      "role": "Mantel correlations, permutation p-values and corrected q-values by class and factor",
+      "kind": "original_file",
+      "bytes": 8768,
+      "sha256": "e856027fa0fc9b133f9e5386bbeaa58cc0101f6e8acad1b0cb5b866596f29704"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/Table_S23_family_summary.csv",
+      "path": "results/chemical/Table_S23_family_summary.csv",
+      "role": "Class-level counts of tested factors, products and significant associations",
+      "kind": "original_file",
+      "bytes": 252,
+      "sha256": "368dbeca81498658c485d5cd784d3ef9e9c62846f78546f5d0ac77ffd7e5c6d1"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/chemical_source_manifest.json",
+      "path": "provenance/chemical_source_manifest.json",
+      "role": "Source file names, origins, sizes and SHA-256 identities for the chemical analysis",
+      "kind": "original_file",
+      "bytes": 2068,
+      "sha256": "dc8b3b916e45c66663d3d3eb26fe6a73aa1ef3ab5efe51223aab11a23e23a399"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/factor_summary.json",
+      "path": "results/chemical/factor_summary.json",
+      "role": "Factor selection criteria, counts and observed coverage",
+      "kind": "original_file",
+      "bytes": 1166,
+      "sha256": "8780165a3211fbafb85b9ae8a94eeb70ddeae2d3305f5eaf612037271bea4e5e"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_direction_records.csv.gz",
+      "path": "data/chemical/expanded_direction_records.csv.gz",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 195366,
+      "sha256": "d9da05fc7632e9aa7e4c42551cfe6bede9131741ed3b790b2183eb43336a9602"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_mantel_products.csv.gz",
+      "path": "data/chemical/expanded_mantel_products.csv.gz",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 782533,
+      "sha256": "e8d0af31d09ef553e6118b9035e1d72a70c886d3e919637b1b0a71e966a5a25b"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/chemical/expanded_record_contrasts.csv.gz",
+      "path": "data/chemical/expanded_record_contrasts.csv.gz",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 272361,
+      "sha256": "e10c8bb90dac2b0854e7cbfca930949cb20455f96f6dd33ee44e7d4c2e1e9f9a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/spatial/spatial_cluster_dictionary.csv",
+      "path": "data/spatial/spatial_cluster_dictionary.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 1181,
+      "sha256": "65963e058b2123eee94a0586c98af71912298088b7b4d9acf6301645e1568819"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/spatial/spatial_fragment_details.csv",
+      "path": "data/spatial/spatial_fragment_details.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 4731,
+      "sha256": "0e1cc73498910608fb24a166c1169fe330c0cd6d636c442e5b58c46bd55535e8"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/spatial/spatial_leave_one_cluster_out.csv",
+      "path": "results/spatial/spatial_leave_one_cluster_out.csv",
+      "role": "Steric response estimates after omitting each cluster",
+      "kind": "original_file",
+      "bytes": 1997,
+      "sha256": "49e1f14dba9d0b278f1319a964dc6b84333af051b9dc85d8347b0ef3c73a1c4f"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/spatial/spatial_noise_statistics.csv",
+      "path": "results/spatial/spatial_noise_statistics.csv",
+      "role": "Noise-level and centering comparisons with their observed response statistics",
+      "kind": "original_file",
+      "bytes": 1087,
+      "sha256": "1d54ec48285e70a11d49209425f17a600fa9656c878f0852db8bc450d0160fd8"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/alternative_parent_all_population_contrasts.csv",
+      "path": "data/electronic/alternative_parent_all_population_contrasts.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 6222,
+      "sha256": "dc2f6408e3f9cc249c96899d9b533ae7458d4d406b3c14351ec8692f96c23e68"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/dft_alternative_N_controls.csv",
+      "path": "data/electronic/dft_alternative_N_controls.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 4795,
+      "sha256": "3d66abd88f8dd3b67accac18ac2e62fc001ea25bcd17943568fdf8696bca73f2"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/dft_paired_electronic_comparison.csv",
+      "path": "data/electronic/dft_paired_electronic_comparison.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 13286,
+      "sha256": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/dft_per_structure.csv",
+      "path": "data/electronic/dft_per_structure.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 17909,
+      "sha256": "ece0a291843d878d74b5f989c7b7eb478b8f83acaf556afde2773a5828d6f21d"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/FigS2_source_data.csv",
+      "path": "data/electronic/FigS2_source_data.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 5571,
+      "sha256": "39bc2281601aa77699314291d93bdb62fad77b2cb04c819a359040b67682a84e"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/structure_level_quality_diagnostics.csv",
+      "path": "data/electronic/structure_level_quality_diagnostics.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 2012,
+      "sha256": "884eedf6c5ed482589fb005c331913da630c6b8adefa08224b349381be323d0a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S25_structure_inventory.csv",
+      "path": "data/electronic/Table_S25_structure_inventory.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S26_primary_method_comparison.csv",
+      "path": "data/electronic/Table_S26_primary_method_comparison.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 687,
+      "sha256": "8bc8d5bc20c05ed2992601260780790d1c3ab6ab8c2e6ebfeef17a145144c84a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S27_calculation_quality_summary.csv",
+      "path": "results/electronic/Table_S27_calculation_quality_summary.csv",
+      "role": "Observed calculation quality statistics across structures",
+      "kind": "original_file",
+      "bytes": 815,
+      "sha256": "b654ffe022c86075f3866f94318eafabd83ebe314139720c9e3f337fde05dfb8"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S28_structure_inventory.csv",
+      "path": "data/electronic/source_exports/Table_S28_structure_inventory.csv",
+      "role": "Structure identities, formulas and charge states (original export numbering; the manuscript SI ends at Table S27)",
+      "kind": "original_file",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S29_target_pairs.csv",
+      "path": "data/electronic/source_exports/Table_S29_target_pairs.csv",
+      "role": "Target–parent paired electronic contrasts (original export numbering; the manuscript SI ends at Table S27)",
+      "kind": "original_file",
+      "bytes": 7459,
+      "sha256": "1ea6ddfa2907567007aebe06f311c8c71a6c5c1b798d90eb2b70e944dd74130a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S30_alternative_pairs.csv",
+      "path": "data/electronic/source_exports/Table_S30_alternative_pairs.csv",
+      "role": "Alternative–parent paired electronic contrasts (original export numbering; the manuscript SI ends at Table S27)",
+      "kind": "original_file",
+      "bytes": 6222,
+      "sha256": "dc2f6408e3f9cc249c96899d9b533ae7458d4d406b3c14351ec8692f96c23e68"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S31_target_minus_alternative.csv",
+      "path": "data/electronic/source_exports/Table_S31_target_minus_alternative.csv",
+      "role": "Target–alternative electronic contrasts (original export numbering; the manuscript SI ends at Table S27)",
+      "kind": "original_file",
+      "bytes": 4776,
+      "sha256": "09dbf0f73f789da31260a7cd8271f1c0231693ed83c56c572be4c1274fa98c37"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/Table_S32_convergence_checks.csv",
+      "path": "data/electronic/source_exports/Table_S32_convergence_checks.csv",
+      "role": "Structure-level convergence and stability diagnostics (original export numbering; the manuscript SI ends at Table S27)",
+      "kind": "original_file",
+      "bytes": 2012,
+      "sha256": "884eedf6c5ed482589fb005c331913da630c6b8adefa08224b349381be323d0a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/target_alternative_all_population_contrasts.csv",
+      "path": "data/electronic/target_alternative_all_population_contrasts.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 4776,
+      "sha256": "09dbf0f73f789da31260a7cd8271f1c0231693ed83c56c572be4c1274fa98c37"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/target_parent_all_population_contrasts.csv",
+      "path": "data/electronic/target_parent_all_population_contrasts.csv",
+      "role": "Archived SI mechanistic source observations",
+      "kind": "original_file",
+      "bytes": 7459,
+      "sha256": "1ea6ddfa2907567007aebe06f311c8c71a6c5c1b798d90eb2b70e944dd74130a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/electronic/dft_summary.json",
+      "path": "results/electronic/dft_summary.json",
+      "role": "Electronic calculation outcomes and convergence coverage",
+      "kind": "original_file",
+      "bytes": 58574,
+      "sha256": "4db6e47ce5aab977a643c767033a0be3944d0a7a6531559b80e0fa51205af793"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/dft_34_state_summary.csv",
+      "path": "results/quantum/dft_34_state_summary.csv",
+      "role": "Original quantum-state or atom-population observations",
+      "kind": "original_file",
+      "bytes": 8481,
+      "sha256": "e5925393c8114303c5ae07d308fac5cc8f13ea9896fd0b5923ab12736a660fa6"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/dft_all_atom_populations.csv",
+      "path": "results/quantum/dft_all_atom_populations.csv",
+      "role": "Original quantum-state or atom-population observations",
+      "kind": "original_file",
+      "bytes": 370381,
+      "sha256": "54578e985becbd0e8a58f6ba52efd74807e0ed72a42bb9c6d33e99874dc3a41f"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/structure_inventory.csv",
+      "path": "data/quantum/structure_inventory.csv",
+      "role": "Structures, molecular formulas, charge states and multiplicities in the quantum calculations",
+      "kind": "original_file",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/original_dft_protocol.json",
+      "path": "configs/quantum/original_dft_protocol.json",
+      "role": "Electronic calculation settings and software definitions",
+      "kind": "original_file",
+      "bytes": 4834,
+      "sha256": "4b9b16e1da2cbc18eb48d7661eee304667785f90abb7a408f9f876ade0a0cac3"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/original_hirshfeld_protocol.json",
+      "path": "configs/quantum/original_hirshfeld_protocol.json",
+      "role": "Electronic calculation settings and software definitions",
+      "kind": "original_file",
+      "bytes": 985,
+      "sha256": "fc13b5e8d24a0bfebde7517f31181705e7b9edf398bf47d31bb32abc68908af8"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/software_requirements.lock",
+      "path": "configs/quantum/software_requirements.lock",
+      "role": "Electronic calculation settings and software definitions",
+      "kind": "original_file",
+      "bytes": 87,
+      "sha256": "07501e4efbf2159279b137d3d8610edb466d2fcb7eaaccda8ccdd4ff0f07a6a8"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6584_N_oxide.xyz",
+      "path": "data/quantum/geometries/6584_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4343,
+      "sha256": "c5783256acaaedd8f29b54f676c4af6dc95adc55274e7c8202676340172f5654"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6584_neutral.xyz",
+      "path": "data/quantum/geometries/6584_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4264,
+      "sha256": "742d3e2e0e42fa266e4a354312823a4fd64715224a6e3d355339c61cedd453d4"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6584_off_target_N10.xyz",
+      "path": "data/quantum/geometries/6584_off_target_N10.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4343,
+      "sha256": "73836598b627e43688d11aeef8bae45d42c5f3063d3aba36c6334985a4679947"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6589_N_oxide.xyz",
+      "path": "data/quantum/geometries/6589_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4343,
+      "sha256": "5a0d6f0d6128363dd0a296259a43db1ebb247bc6d752d96e8dde290b83e29fa4"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6589_neutral.xyz",
+      "path": "data/quantum/geometries/6589_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4264,
+      "sha256": "eda669b97e5d0dffb1c3498bd3e23d50ebfa58e2245cd265a4df9e4100baf6c4"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6589_off_target_N10.xyz",
+      "path": "data/quantum/geometries/6589_off_target_N10.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4343,
+      "sha256": "06c787945bb6248df34a855cccd2271e11935949423b248ab92066b3c820d013"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6675_N_oxide.xyz",
+      "path": "data/quantum/geometries/6675_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4580,
+      "sha256": "28bca626fb2226325bd6a79ef3422a929c613628f3825443ddca68156bb57bc6"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6675_neutral.xyz",
+      "path": "data/quantum/geometries/6675_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4501,
+      "sha256": "30613495d50987c14e0548eff06043ac0052d0e1c9782c31a2ea337aa50bdd2a"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6675_off_target_N12.xyz",
+      "path": "data/quantum/geometries/6675_off_target_N12.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4580,
+      "sha256": "a46f3a5da31e789937e898945184203f274e74d9f951633fe3ebd76f4e474ee0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6874_N_oxide.xyz",
+      "path": "data/quantum/geometries/6874_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4264,
+      "sha256": "86dc412526dccf93d205e3805990351b78ec023124f75d63e447de9c5051b67d"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6874_neutral.xyz",
+      "path": "data/quantum/geometries/6874_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 4185,
+      "sha256": "45e4c9c35b3b8f9c309759c0a9d2d4734fed7648346918ec5899cdff3fe14a19"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6972_N_oxide.xyz",
+      "path": "data/quantum/geometries/6972_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3158,
+      "sha256": "80ca4d0b62c052a113a4a47bcfb9a8ab06f65a2969fdfa77dc0413a0720cf9e4"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6972_neutral.xyz",
+      "path": "data/quantum/geometries/6972_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3079,
+      "sha256": "17cb520c0806e032d3b5e12d6c1ba7bff3cbf4ecf37e0824e71f69a186350185"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6972_off_target_N18.xyz",
+      "path": "data/quantum/geometries/6972_off_target_N18.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3158,
+      "sha256": "5a968df9359400fcc4e0353a0827dcc9903df314d1d5da974b9cb0dfbc701478"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/6972_off_target_N9.xyz",
+      "path": "data/quantum/geometries/6972_off_target_N9.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3158,
+      "sha256": "96e4d43d395571f1c909a9796225a9c44b1c857b806284928c840e9e2e58dfbf"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/7804_N_oxide.xyz",
+      "path": "data/quantum/geometries/7804_N_oxide.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3158,
+      "sha256": "7ff82fa9550b4b63ec63a0b2b60b3bb8c46a7f766ac4940cd307cc091f1cf2c4"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/supplement/quantum/geometries/7804_neutral.xyz",
+      "path": "data/quantum/geometries/7804_neutral.xyz",
+      "role": "Original fixed molecular coordinates",
+      "kind": "original_file",
+      "bytes": 3079,
+      "sha256": "e554d939780d83756d3c7be7923c7d72ab332bd0c5aed30c34cff0d36b2550e7"
+    },
+    {
+      "path": "figures/figure_s4_spatial_robustness.png",
+      "source_path": "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s4_spatial_robustness.png",
+      "role": "Figure S4: Robustness of the controlled spatial response",
+      "paper_item": "Figure S4",
+      "kind": "original_file",
+      "sha256": "59fb7908beeefa2b3934518be11ed51d9291707f2697a1ecc896f08544101d16",
+      "bytes": 167057,
+      "source_asset": "Fig/Figure_S4.png"
+    },
+    {
+      "path": "figures/figure_s5_electronic_validation.png",
+      "source_path": "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s5_electronic_validation.png",
+      "role": "Figure S5: Electronic redistribution and oxidation-site-dependent model responses",
+      "paper_item": "Figure S5",
+      "kind": "original_file",
+      "sha256": "251bcd4406d8f9ac4da818a7f5b2b54799d3dbaf4b62917ac202ad2d21804901",
+      "bytes": 975801,
+      "source_asset": "Fig/Figure_S5.png"
+    },
+    {
+      "path": "figures/figure_s6a_structure_catalog.png",
+      "source_path": "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6a_structure_catalog.png",
+      "role": "Figure S6: Molecular structures used in the electronic calculations",
+      "paper_item": "Figure S6",
+      "kind": "original_file",
+      "sha256": "485eba7f6103d80d8aa96bf6983ace27113032aa8077e149e607426443d190b6",
+      "bytes": 1036113,
+      "source_asset": "Fig/Figure_S6a.png"
+    },
+    {
+      "path": "figures/figure_s6b_structure_catalog.png",
+      "source_path": "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6b_structure_catalog.png",
+      "role": "Figure S6: Molecular structures used in the electronic calculations",
+      "paper_item": "Figure S6",
+      "kind": "original_file",
+      "sha256": "f5b9d30a49193ba2e31dc07e3a2e95a265100d123b5aed9e4168283eeb415742",
+      "bytes": 1079148,
+      "source_asset": "Fig/Figure_S6b.png"
+    },
+    {
+      "path": "figures/figure_s6c_structure_catalog.png",
+      "source_path": "experiments/supporting_information/s7_mechanistic_analyses/figures/figure_s6c_structure_catalog.png",
+      "role": "Figure S6: Molecular structures used in the electronic calculations",
+      "paper_item": "Figure S6",
+      "kind": "original_file",
+      "sha256": "3046aa91b090d88a7147e0bc4c63eac9924eeca6326b372c80e4819cb0e2db76",
+      "bytes": 962777,
+      "source_asset": "Fig/Figure_S6c.png"
+    },
+    {
+      "path": "tables/table_s22.tex",
+      "role": "Table S22: Chemical-descriptor definitions and product support.",
+      "paper_item": "Table S22",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 124128,
+      "source_character_end": 127550,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "5309e481c3ebba9a20142ea27ac4e99b017b66458835ca69a9b2b8b4fe6cc325",
+      "bytes": 3422,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s23.tex",
+      "role": "Table S23: Complete reaction-family summary of chemical-context associations.",
+      "paper_item": "Table S23",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 128075,
+      "source_character_end": 129123,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "fefc02e1fb9ff38d7dbd0eaba58dfb3d59c8cf09409a726d9bfc5a6bc9274614",
+      "bytes": 1048,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s24.tex",
+      "role": "Table S24: Diffusion-time and coordinate-centering sensitivity.",
+      "paper_item": "Table S24",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 132637,
+      "source_character_end": 133459,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "cfeded1f29c2d7f8d57cce89944349bcc69c924f08928da8f7b2dba5013422df",
+      "bytes": 822,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s25.tex",
+      "role": "Table S25: Molecular inventory and fixed-geometry PBE0/def2-TZVP energies.",
+      "paper_item": "Table S25",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 135435,
+      "source_character_end": 137783,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "0c2532d8b9a397f7cc8524d4be6e11d8b743c7d3d9bf89925079269f709d7e79",
+      "bytes": 2348,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s26.tex",
+      "role": "Table S26: Matched GFN2-xTB, DFT and model responses for the six thiazole N-oxidations.",
+      "paper_item": "Table S26",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 139698,
+      "source_character_end": 141292,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "0d63bf106d33a951deda0f28601f836e5b8bfa6050c5b51624a19cd6e46f6f58",
+      "bytes": 1594,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s27.tex",
+      "role": "Table S27: Summary of electronic-calculation convergence and integration checks.",
+      "paper_item": "Table S27",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 141889,
+      "source_character_end": 143387,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "be0b77ae8c80ca06a800de1e37b7c2e35c6f5df975017299bfccbb87e14aea3e",
+      "bytes": 1498,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "scripts/reproduce_mechanistic_tables.py",
+    "results/source_data/mechanistic_interpretability/supplement/quantum/calculation_code"
+  ],
+  "shared_data": [
+    "results/source_data/mechanistic_interpretability/supplement"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

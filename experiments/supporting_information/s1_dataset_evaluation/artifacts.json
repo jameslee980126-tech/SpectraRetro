@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "experiment": "supporting_information/s1_dataset_evaluation",
+  "paper_items": [
+    "Table S1",
+    "Table S2"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/dataset_class_mapping.json",
+      "path": "configs/dataset_class_mapping.json",
+      "role": "Frozen data-selection definitions and identities",
+      "kind": "original_file",
+      "bytes": 745,
+      "sha256": "486d37a707fa00ee4d1b05dc403a7ea4ddd29562d398ca267093dbade45d597d"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_selection_plan.json",
+      "path": "configs/dataset_small_selection_plan.json",
+      "role": "Frozen data-selection definitions and identities",
+      "kind": "original_file",
+      "bytes": 1710,
+      "sha256": "302c186bbed05c72a541b1b7dd3d7e179266c23e50eea085b5a0b480a9684ca3"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_thresholds.json",
+      "path": "configs/dataset_small_thresholds.json",
+      "role": "Frozen data-selection definitions and identities",
+      "kind": "original_file",
+      "bytes": 442,
+      "sha256": "5a100027d00c5431f8d8d97a8235cac3f45526b5a1fb255e407263c0d794a4ac"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_manifest.json",
+      "path": "splits/dataset_small_manifest.json",
+      "role": "Subset split protocol, membership counts and parent data identities",
+      "kind": "original_file",
+      "bytes": 3444,
+      "sha256": "67d59d0c25be49fa542c865fbcb0e038104759e698572f868f29d9dd6a9ce401"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_split_summary.json",
+      "path": "results/dataset_split_summary.json",
+      "role": "Recorded dataset composition and split summary",
+      "kind": "original_file",
+      "bytes": 2885,
+      "sha256": "3111c24d71dae13277134e9d957766ba2231fc55914afe7714aff4f9a68e0d60"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_selected_summary.json",
+      "path": "results/dataset_small_selected_summary.json",
+      "role": "Recorded dataset composition and split summary",
+      "kind": "original_file",
+      "bytes": 12395,
+      "sha256": "3e6d801e4f37dd8667b0307967ac43e055768ed4b52b6241d3f50d74607578b3"
+    },
+    {
+      "source_path": "datasets/small/train_index.csv",
+      "path": "splits/train_parent_indices.csv",
+      "role": "Frozen subset assignments with the parent row and stratum of every reaction",
+      "kind": "original_file",
+      "bytes": 1308668,
+      "sha256": "ef7de4fcdda5ff172985d54afdf6f315a4883a75d5b50df9365d6142cfd16415"
+    },
+    {
+      "source_path": "datasets/small/valid_index.csv",
+      "path": "splits/valid_parent_indices.csv",
+      "role": "Frozen subset assignments with the parent row and stratum of every reaction",
+      "kind": "original_file",
+      "bytes": 164449,
+      "sha256": "9a4405e0d64d879b5384e6a1dfaf538eda7c6c91d3c06aac1bceeb23356c687b"
+    },
+    {
+      "source_path": "datasets/small/test_index.csv",
+      "path": "splits/test_parent_indices.csv",
+      "role": "Frozen subset assignments with the parent row and stratum of every reaction",
+      "kind": "original_file",
+      "bytes": 162289,
+      "sha256": "b525da479cd8208366cd43f3d76afccfcadf42b385bd8f63230a9e4d77a8c810"
+    },
+    {
+      "path": "tables/table_s1.tex",
+      "role": "Table S1: Reaction-family composition of the full CHRetro dataset.",
+      "paper_item": "Table S1",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 10210,
+      "source_character_end": 11400,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "3e061888a368e99c21fb885f5f3b482f6fce3bff14dc72005acdc4d8fa0a943a",
+      "bytes": 1190,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s2.tex",
+      "role": "Table S2: Reaction-family composition of the small dataset.",
+      "paper_item": "Table S2",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 13038,
+      "source_character_end": 14191,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "49cf95a8e4166127cbc274884962565467ea244fcfaf1c48e6e3ad2544eb94b7",
+      "bytes": 1153,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "src/data_preparation",
+    "scripts/data",
+    "datasets/supplementary_data/dataset_cleaning.py",
+    "datasets/supplementary_data/dataset_center_annotation.py"
+  ],
+  "shared_data": [
+    "datasets/full",
+    "datasets/small",
+    "experiments/spectraretro_inputs",
+    "datasets/supplementary_data/dataset_small_manifest.json"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

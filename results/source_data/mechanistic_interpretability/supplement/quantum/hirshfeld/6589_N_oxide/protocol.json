@@ -1,0 +1,55 @@
+{
+  "analysis": "Native PySCF Hirshfeld charges on saved molecular density matrices",
+  "molecular_scf_recomputed": false,
+  "script_revision": "v2-empty-ecp-deserialization-repair",
+  "molecule_load_normalizations": [
+    {
+      "state": "neutral",
+      "field": "_ecpbas",
+      "shape_before": [
+        0
+      ],
+      "shape_after": [
+        0,
+        8
+      ],
+      "element_count": 0,
+      "reason": "Restore empty native ECP table after gto.loads"
+    },
+    {
+      "state": "cation",
+      "field": "_ecpbas",
+      "shape_before": [
+        0
+      ],
+      "shape_after": [
+        0,
+        8
+      ],
+      "element_count": 0,
+      "reason": "Restore empty native ECP table after gto.loads"
+    }
+  ],
+  "native_api": "pyscf.scf.hirshfeld.hirshfeld_charges(mol, dm, grids, verbose)",
+  "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+  "reference_is_dft": false,
+  "native_source_url": "https://raw.githubusercontent.com/pyscf/pyscf/v2.15.0/pyscf/scf/hirshfeld.py",
+  "pyscf_version": "2.15.0",
+  "numpy_version": "2.5.4",
+  "native_module_path": "/root/rivermind-data/dft_electronic_validation_20261109/venv/lib/python3.12/site-packages/pyscf/scf/hirshfeld.py",
+  "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+  "grid_levels": [
+    4,
+    5
+  ],
+  "pruning": "nwchem_prune",
+  "charge_sum_tolerance": 0.0001,
+  "grid_charge_tolerance": 0.0001,
+  "grid_fukui_tolerance": 0.0001,
+  "same_grid_for_neutral_and_cation": true,
+  "f_minus_definition": "q(cation +1 doublet)-q(neutral singlet)",
+  "selected_grid": 5,
+  "atom_indices": "0-based original XYZ order",
+  "threads": 8,
+  "memory_target_mb": 12000
+}

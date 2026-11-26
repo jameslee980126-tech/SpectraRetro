@@ -1,0 +1,211 @@
+[
+  {
+    "step_id": "LAP-01",
+    "product": "O=c1[nH]cnc2ccc(Br)cc12",
+    "fragment_uuids": [
+      "all_exact_LAP-01_0",
+      "all_exact_LAP-01_1"
+    ]
+  },
+  {
+    "step_id": "LAP-02",
+    "product": "Clc1ncnc2ccc(Br)cc12",
+    "fragment_uuids": [
+      "all_exact_LAP-02_0"
+    ]
+  },
+  {
+    "step_id": "LAP-03",
+    "product": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+    "fragment_uuids": [
+      "all_exact_LAP-03_0",
+      "all_exact_LAP-03_1"
+    ]
+  },
+  {
+    "step_id": "LAP-04",
+    "product": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "fragment_uuids": [
+      "all_exact_LAP-04_0",
+      "all_exact_LAP-04_1"
+    ]
+  },
+  {
+    "step_id": "LAP-05",
+    "product": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "fragment_uuids": [
+      "all_exact_LAP-05_0",
+      "all_exact_LAP-05_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-01",
+    "product": "O=C(O)c1cnco1",
+    "fragment_uuids": [
+      "all_exact_NEMI-01_0"
+    ]
+  },
+  {
+    "step_id": "NEMI-02",
+    "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-02_0",
+      "all_exact_NEMI-02_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-02-alt",
+    "product": "CC(C)N1CCN(C(=O)c2cnco2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-02-alt_0",
+      "all_exact_NEMI-02-alt_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-03",
+    "product": "Clc1cccc2[nH]ncc12",
+    "fragment_uuids": [
+      "all_exact_NEMI-03_0",
+      "all_exact_NEMI-03_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-04",
+    "product": "Clc1cccc2c1cnn2C1CCCCO1",
+    "fragment_uuids": [
+      "all_exact_NEMI-04_0",
+      "all_exact_NEMI-04_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-05",
+    "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cccc4c3cnn4C3CCCCO3)o2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-05_0",
+      "all_exact_NEMI-05_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-06",
+    "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(B4OC(C)(C)C(C)(C)O4)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-06_0",
+      "all_exact_NEMI-06_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-07",
+    "product": "CC(C)N1CCN(C(=O)c2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-07_0",
+      "all_exact_NEMI-07_1"
+    ]
+  },
+  {
+    "step_id": "NEMI-08",
+    "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4c3cnn4C3CCCCO3)o2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-08_0"
+    ]
+  },
+  {
+    "step_id": "NEMI-09",
+    "product": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+    "fragment_uuids": [
+      "all_exact_NEMI-09_0"
+    ]
+  },
+  {
+    "step_id": "OSI-01",
+    "product": "Cn1cc(-c2ccnc(Cl)n2)c2ccccc21",
+    "fragment_uuids": [
+      "all_exact_OSI-01_0",
+      "all_exact_OSI-01_1"
+    ]
+  },
+  {
+    "step_id": "OSI-02",
+    "product": "COc1cc(F)c([N+](=O)[O-])cc1N",
+    "fragment_uuids": [
+      "all_exact_OSI-02_0"
+    ]
+  },
+  {
+    "step_id": "OSI-03",
+    "product": "COc1cc(F)c([N+](=O)[O-])cc1Nc1nccc(-c2cn(C)c3ccccc23)n1",
+    "fragment_uuids": [
+      "all_exact_OSI-03_0",
+      "all_exact_OSI-03_1"
+    ]
+  },
+  {
+    "step_id": "OSI-04",
+    "product": "COc1cc(N(C)CCN(C)C)c([N+](=O)[O-])cc1Nc1nccc(-c2cn(C)c3ccccc23)n1",
+    "fragment_uuids": [
+      "all_exact_OSI-04_0",
+      "all_exact_OSI-04_1"
+    ]
+  },
+  {
+    "step_id": "OSI-05",
+    "product": "COc1cc(N(C)CCN(C)C)c(N)cc1Nc1nccc(-c2cn(C)c3ccccc23)n1",
+    "fragment_uuids": [
+      "all_exact_OSI-05_0"
+    ]
+  },
+  {
+    "step_id": "OSI-06",
+    "product": "C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C",
+    "fragment_uuids": [
+      "all_exact_OSI-06_0",
+      "all_exact_OSI-06_1"
+    ]
+  },
+  {
+    "step_id": "OSI-07",
+    "product": "C=CC(=O)Nc1cc(Nc2nccc(-c3c(-c4cccc(F)c4)n(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C",
+    "fragment_uuids": [
+      "all_exact_OSI-07_0",
+      "all_exact_OSI-07_1"
+    ]
+  },
+  {
+    "step_id": "TAF-01",
+    "product": "O=C(O)c1ccc2ncoc2c1",
+    "fragment_uuids": [
+      "all_exact_TAF-01_0",
+      "all_exact_TAF-01_1"
+    ]
+  },
+  {
+    "step_id": "TAF-02",
+    "product": "O=C(Cl)c1ccc2ncoc2c1",
+    "fragment_uuids": [
+      "all_exact_TAF-02_0",
+      "all_exact_TAF-02_1"
+    ]
+  },
+  {
+    "step_id": "TAF-03",
+    "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+    "fragment_uuids": [
+      "all_exact_TAF-03_0",
+      "all_exact_TAF-03_1"
+    ]
+  },
+  {
+    "step_id": "TAF-04",
+    "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+    "fragment_uuids": [
+      "all_exact_TAF-04_0",
+      "all_exact_TAF-04_1"
+    ]
+  },
+  {
+    "step_id": "TAF-05",
+    "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "fragment_uuids": [
+      "all_exact_TAF-05_0"
+    ]
+  }
+]

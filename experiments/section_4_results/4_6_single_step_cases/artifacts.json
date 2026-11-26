@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_6_single_step_cases",
+  "paper_items": [
+    "Figure 3",
+    "Figure S3"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/six_successful_cases_verification.json",
+      "path": "data/six_case_inputs_and_positions.json",
+      "role": "Molecular identities and observed candidate positions",
+      "kind": "original_file",
+      "bytes": 28808,
+      "sha256": "e48c8ce37e6db16dd8bf59a909cd0169fdb93dcc71c25da2e833d9fc59abc8b1"
+    },
+    {
+      "source_path": "results/cases/single_step/record_01_case_evidence.json",
+      "path": "../../../results/cases/single_step/record_01_case_evidence.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 28805,
+      "sha256": "8c9434ae6a2662937a945cdabfdc1e5ff5818f0bdbfce2a8c0a1c7c1f830042a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_02_results.json",
+      "path": "../../../results/cases/single_step/record_02_results.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 254623,
+      "sha256": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_03_results.json",
+      "path": "../../../results/cases/single_step/record_03_results.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 109856,
+      "sha256": "7273876f3c2a7879bd188153bda8814beaa236a66cc84fe034544132389be707",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_04_results.json",
+      "path": "../../../results/cases/single_step/record_04_results.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 1147654,
+      "sha256": "551676501a54e66ffdbbbda7abdd2c9d99a2a0de16d4d7182c80909597735811",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_05_results.json",
+      "path": "../../../results/cases/single_step/record_05_results.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 334358,
+      "sha256": "4a16d3b5ede4346bc3617e981e0b0f3d5429851420baa9eacb9cc1b6b5cb1a73",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_06_evidence.json",
+      "path": "../../../results/cases/single_step/record_06_evidence.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 14283,
+      "sha256": "d2d4afdf78ffc6a4a7ce40118ee4befbfc808946fc3ffde8aa2ee1bc7cc63917",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/single_step/record_07_candidate_evidence.json",
+      "path": "../../../results/cases/single_step/record_07_candidate_evidence.json",
+      "role": "Original single-step case observations",
+      "kind": "original_file",
+      "bytes": 6621,
+      "sha256": "17922a678988317b3371adcf55cf055838e7d36d2953ae8cc9e0f26dff47770e",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/single_multistep/source_map.json",
+      "path": "../../../results/reproduction/single_multistep/source_map.json",
+      "role": "Script identities linked to single-step records 02–05 in the shared case implementation",
+      "kind": "original_file",
+      "bytes": 6075,
+      "sha256": "39d4bfe78b7c16a5efad04645e37bd2a0a004e4fced100a4bca38d7879062ccc",
+      "storage": "repository_reference"
+    }
+  ],
+  "shared_code": [
+    "src/experiments/single_multistep_cases"
+  ],
+  "shared_data": [
+    "datasets/supplementary_data/six_successful_cases_verification.json"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

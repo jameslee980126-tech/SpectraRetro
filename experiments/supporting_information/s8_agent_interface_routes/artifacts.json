@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment": "supporting_information/s8_agent_interface_routes",
+  "paper_items": [
+    "Figure S7",
+    "Figure S8"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "path": "figures/figure_s7_chretroagent_interface.png",
+      "source_path": "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s7_chretroagent_interface.png",
+      "role": "Figure S7: The CHRetroAgent interface",
+      "paper_item": "Figure S7",
+      "kind": "original_file",
+      "sha256": "0d40591ef4dad48a768f8f351e7803d7284ac41dc3d6590fa377a75d09537bf2",
+      "bytes": 2897501,
+      "source_asset": "Fig/Figure_S7.png"
+    },
+    {
+      "path": "figures/figure_s8_spectraretro_method_details.png",
+      "source_path": "experiments/supporting_information/s8_agent_interface_routes/figures/figure_s8_spectraretro_method_details.png",
+      "role": "Figure S8: SpectraRetro method details",
+      "paper_item": "Figure S8",
+      "kind": "original_file",
+      "sha256": "755bd2e515080e8b2826f99a2643b440bd523d8aa49f5e918c82ad0a406c83ac",
+      "bytes": 2290994,
+      "source_asset": "Fig/Figure_S8.png"
+    }
+  ],
+  "shared_code": [
+    "CHRetroAgent",
+    "src/agentic_retrosynthesis",
+    "src/spectraretro"
+  ],
+  "shared_data": [
+    "datasets/supplementary_data/agent_route_steps.csv",
+    "datasets/supplementary_data/agent_route_results.csv",
+    "results/cases/agent/report.json"
+  ],
+  "checkpoint_index": null
+}

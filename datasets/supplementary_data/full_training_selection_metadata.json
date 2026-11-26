@@ -1,0 +1,54 @@
+{
+  "unknown": {
+    "state": "verified_independent_terminal_validation_selection",
+    "arm": "unknown_seed0",
+    "checkpoint": {
+      "path": "runs/unknown_seed0/best.pt",
+      "sha256": "b483918f9df9ccdf26b6d838ffbc0c4c8c9c0b129e01c0867fd9f57102c3fcf0",
+      "selected_epoch": 1580,
+      "completed_training_epochs": 1600,
+      "best_validation_l2": 0.00700378403281093,
+      "training_protocol_sha256": "0fda01a77c5122044dfdabc021e9bbb2e698b9db6df591de34978409e01ae508"
+    },
+    "completed_validation_epochs": 845,
+    "completed_training_epochs": 1600,
+    "validation_interval_epochs": 10,
+    "train_records_per_epoch": 126561,
+    "validation_records_per_epoch": 16059,
+    "size_checkpoint": {
+      "path": "runs/size_unknown_seed0/best.pt",
+      "sha256": "e0702f9cf5298fae1127e029953c3c77cb8847e6d3ef30ebcbbf264b12dd5718",
+      "selected_epoch": 42,
+      "best_validation_ce": 0.45680454263310627,
+      "completed_training_epochs": 1000,
+      "class_input": false,
+      "bank_sha256": "bfd61a530212b6a2a300cf515664c2f551b5bd933cf2198249726cc12ebec78d"
+    }
+  },
+  "known": {
+    "state": "verified_independent_terminal_validation_selection",
+    "arm": "known_seed0",
+    "checkpoint": {
+      "path": "runs/known_seed0/best.pt",
+      "sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+      "selected_epoch": 1580,
+      "completed_training_epochs": 1600,
+      "best_validation_l2": 0.0070616891070402026,
+      "training_protocol_sha256": "0fda01a77c5122044dfdabc021e9bbb2e698b9db6df591de34978409e01ae508"
+    },
+    "completed_validation_epochs": 840,
+    "completed_training_epochs": 1600,
+    "validation_interval_epochs": 10,
+    "train_records_per_epoch": 126561,
+    "validation_records_per_epoch": 16059,
+    "size_checkpoint": {
+      "path": "runs/size_known_seed0/best.pt",
+      "sha256": "7078d645561ee936445f897d18ca2bd708aed341319796741d679f87fa560ec3",
+      "selected_epoch": 39,
+      "best_validation_ce": 0.4494239904269,
+      "completed_training_epochs": 1000,
+      "class_input": false,
+      "bank_sha256": "63020165e5a9641d6f24c1f0397e2ce88df05a2b6b690eec6a7d7c1d5f03bbf4"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "dataset": "ch_activation_6class_strict3d_fixed_no_halogen_donor_drop_orig2_20260606",
+  "limit": null,
+  "split_policy": "frozen_source_rows",
+  "vocabulary_and_template_policy": "train_only",
+  "retrosim_policy": {
+    "reaction_format": "mapped_product_contributing_reactants>>mapped_product",
+    "retrieval_product": "atom_map_free_canonical_smiles",
+    "reference": "official proc_data.ipynb and test_similarity.py semantics"
+  },
+  "source_sha256": {
+    "selected_train.csv": "957e27d354d6b82f6bc1eab1fda8f5ec365517bede2e4d31112c3677ca50f648",
+    "selected_eval.csv": "9731bd8cfa1e6865deea5b5498184a823e37908c570769d8d75a4b6152860503",
+    "selected_test.csv": "9fd0e110a733462561be5e1c3be01b45e7b4f2a9c2488d7a7646dc50f9a00de4"
+  },
+  "rows": {
+    "train": 74146,
+    "valid": 9395,
+    "test": 9250
+  },
+  "outputs": {
+    "common/train.jsonl": {
+      "rows": 74146,
+      "sha256": "842f3fd44ce22d5db3046e2e84bc0d7ea3da2f5440343d6cac4de3aa4d5ae87f"
+    },
+    "graph2edits/canonicalized_train.csv": {
+      "rows": 74146,
+      "sha256": "05960b9154e920fb5da07974d7a0c30d775cc05b71fec3fd9a1874bc4f10fd57"
+    },
+    "graphretro/train.csv": {
+      "rows": 74146,
+      "sha256": "af246d8ef02640fdc55be68e2f003ae110e629e55f18aec92b61f33ccf26e7c9"
+    },
+    "retroxpert/canonicalized_csv/train.csv": {
+      "rows": 74146,
+      "sha256": "6309c6b7a5f4c5040748a3d6be70ba8c8de6085e5e0889f2f7b2b646bf138c4e"
+    },
+    "gln/ch_activation_6class_strict3d_fixed_no_halogen_donor_drop_orig2_20260606/raw_train.csv": {
+      "rows": 74146,
+      "sha256": "5383413408c84bc4dc966ee144dfc47d306fdd82d67da0fe3a14de70480c35e2"
+    },
+    "retroformer/raw_train.csv": {
+      "rows": 74146,
+      "sha256": "e6e1dd1aba23a21b4910206d476f05cac292178b22bffa22d0b658335c26ac84"
+    },
+    "retrosim/train.csv": {
+      "rows": 74146,
+      "sha256": "4a79f468ebd1398c417f1b4ebcce7cac0fb10e6154f2be6de54b967cda55997b"
+    },
+    "common/valid.jsonl": {
+      "rows": 9395,
+      "sha256": "1d11493e0a5e83ef75c969a6aa54c507f4399fbc1d77c50fe55a2781b51f5ecd"
+    },
+    "graph2edits/canonicalized_valid.csv": {
+      "rows": 9395,
+      "sha256": "69f6d9f249b240a5934013ed36ce41e107a836f1d51bcaa020a479322518f19c"
+    },
+    "graphretro/eval.csv": {
+      "rows": 9395,
+      "sha256": "2dcc18aa8b5a13c5f62fa7f9b05a297b879bd50b3c81ab580e1f926bd70361ff"
+    },
+    "retroxpert/canonicalized_csv/valid.csv": {
+      "rows": 9395,
+      "sha256": "233d6fc3e391d7c0a67d2e10e6dbdbb02e5149f7461d78346eae11a9f5ce31c1"
+    },
+    "gln/ch_activation_6class_strict3d_fixed_no_halogen_donor_drop_orig2_20260606/raw_val.csv": {
+      "rows": 9395,
+      "sha256": "956b4ff8d783a5e44c2d9fcc3a578200c99c2b22183ab41b42c9a58cf7dd47fe"
+    },
+    "retroformer/raw_val.csv": {
+      "rows": 9395,
+      "sha256": "5fc173ede332b1ec5208061139390ab78c886c8f7757ae7f464e611ecfc0f936"
+    },
+    "retrosim/valid.csv": {
+      "rows": 9395,
+      "sha256": "12e0ad96ef88eeadc3a6ba3777c12b6d05ad65e2cfd74ad3082e4d5c563044d3"
+    },
+    "common/test.jsonl": {
+      "rows": 9250,
+      "sha256": "4adeabedf34209e1f64e8892e94945cdaf1aecee2c394009045f8665b51f784b"
+    },
+    "graph2edits/canonicalized_test.csv": {
+      "rows": 9250,
+      "sha256": "e149ba1fc86b9cccc3b2bfc3f84a2a8a84af3014643544edd9e6ca2ed541963c"
+    },
+    "graphretro/test.csv": {
+      "rows": 9250,
+      "sha256": "22870508edfba9e48089d55b49be160c99e835639bc7149a2e5b3ec6ec251b31"
+    },
+    "retroxpert/canonicalized_csv/test.csv": {
+      "rows": 9250,
+      "sha256": "5b04c00a77544a7aa14e14e963315d244eab0add4e794f54341468118f3a8196"
+    },
+    "gln/ch_activation_6class_strict3d_fixed_no_halogen_donor_drop_orig2_20260606/raw_test.csv": {
+      "rows": 9250,
+      "sha256": "4a33fae8106ac67858a5f92161ac4f402359d6964d7adf24392dbfb0f92b5783"
+    },
+    "retroformer/raw_test.csv": {
+      "rows": 9250,
+      "sha256": "26144b6547679b9de21bb0f8becffdbb421be3320018451476d700ad241ca940"
+    },
+    "retrosim/test.csv": {
+      "rows": 9250,
+      "sha256": "0d0ac00dc3ba8a6be93ede0be4ac88f027d2c89b042190eee2e9653c1d331442"
+    },
+    "retrosim/data_processed.csv": {
+      "rows": 92791,
+      "sha256": "e789078a3982050c2f9ae972856c1b11a6da85c505cbac15b02e0c149db543ad"
+    }
+  }
+}

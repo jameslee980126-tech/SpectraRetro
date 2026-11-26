@@ -1,0 +1,378 @@
+{
+  "protocol": "Original conditional Stage2 + Stage1 correct-count gate, 300 learned-size draws; original ranking unchanged; no retraining or oracle sizes.",
+  "selection": "Post-hoc illustrative successes, not a representative accuracy estimate.",
+  "cases": [
+    {
+      "source_row": 8719,
+      "heavy_atoms": 32,
+      "mw": 449.53600000000023,
+      "new_bond_atom_maps": [
+        6,
+        7
+      ],
+      "carbon_changes": [
+        {
+          "atom_map": 6,
+          "element": "C",
+          "reactant_h": 0,
+          "product_h": 0,
+          "reactant_br": true
+        },
+        {
+          "atom_map": 7,
+          "element": "C",
+          "reactant_h": 1,
+          "product_h": 0,
+          "reactant_br": false
+        }
+      ],
+      "rank": 1,
+      "frequency": 103,
+      "sizes": [
+        {
+          "uuid": 12370,
+          "size": 1,
+          "correct_draws": 160
+        },
+        {
+          "uuid": 12371,
+          "size": 0,
+          "correct_draws": 205
+        }
+      ],
+      "model_probability": 0.9849861264228821,
+      "source": {
+        "case": 8719,
+        "title": "Benzoxazole-naphthyridine intermediate",
+        "precursor2": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12",
+        "precursor3": "CSCCOc1ccc2ocnc2c1",
+        "upstream4": "Oc1ccc2ocnc2c1",
+        "upstream5": "CSCCO",
+        "preparation": [
+          "PPh3, DIAD",
+          "THF, 0 to 50 °C, 5 h",
+          "49.5%"
+        ],
+        "coupling": [
+          "Pd(PPh3)4, Cs2CO3",
+          "DMF, 110 °C, 16 h, N2",
+          "67.9%"
+        ],
+        "source": "US20240025906A1, Example 353, Steps 1 and 2",
+        "url": "https://patents.justia.com/patent/20240025906",
+        "scope": "Exact thioether intermediate; not the downstream sulfoxide named in Example 353.",
+        "warning": "The source catalyst mass (350.9 mg) conflicts with 0.031 mmol / 0.10 eq; no loading is reproduced."
+      },
+      "raw_and_restored_top10": [
+        {
+          "rank": 1,
+          "frequency": 103,
+          "raw": "[C][N]C1=N[C]=C(C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1)Br.[C]1=NC2=[C]C(=[C][C]=C2O1)O[C][C]S[C]",
+          "h_filled": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1"
+        },
+        {
+          "rank": 2,
+          "frequency": 70,
+          "raw": "[C][N]C1=N[C]=[C]C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1.[C]1=NC2=[C]C(=[C][C]=C2O1)O[C][C]S[C]",
+          "h_filled": "CNc1nccc2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1"
+        },
+        {
+          "rank": 3,
+          "frequency": 19,
+          "raw": "[C][N]C1=N[C]=C(C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1)Br.c1(nc2=[C]C(=[C][C]=c2o1)O[C][C]S[C])Br",
+          "h_filled": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2oc(Br)nc2c1"
+        },
+        {
+          "rank": 4,
+          "frequency": 11,
+          "raw": "[C][N]C1=N[C]=[C]C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1.c1(nc2=[C]C(=[C][C]=c2o1)O[C][C]S[C])I",
+          "h_filled": "CNc1nccc2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2oc(I)nc2c1"
+        },
+        {
+          "rank": 5,
+          "frequency": 9,
+          "raw": "[C][N]C1=N[C]=C(C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1)Br.c1(nc2=[C]C(=[C][C]=c2o1)O[C][C]S[C])I",
+          "h_filled": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2oc(I)nc2c1"
+        },
+        {
+          "rank": 6,
+          "frequency": 8,
+          "raw": "[C][N]C1=N[C]=[C]C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1.c1(nc2=[C]C(=[C][C]=c2o1)O[C][C]S[C])Br",
+          "h_filled": "CNc1nccc2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2oc(Br)nc2c1"
+        },
+        {
+          "rank": 7,
+          "frequency": 7,
+          "raw": "[C][N]C1=N[C]=C(C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1)I.[C]1=NC2=[C]C(=[C][C]=C2O1)O[C][C]S[C]",
+          "h_filled": "CNc1ncc(I)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1"
+        },
+        {
+          "rank": 8,
+          "frequency": 3,
+          "raw": "MISSING",
+          "h_filled": null
+        },
+        {
+          "rank": 9,
+          "frequency": 2,
+          "raw": "[C][N]C1=N[C]=[C]C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1.c1(nc2=[C]C(=[C][C]=c2o1)O[C][C]S[C])[S@@](=O)[O]",
+          "h_filled": "CNc1nccc2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2oc([S@@](=O)O)nc2c1"
+        },
+        {
+          "rank": 10,
+          "frequency": 1,
+          "raw": "[C][N]C1=N[C]=[C]C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1.[C]1=NC2=[C]C(=[C][C]=C2O1)O[C][C]S[C].[C][C][C@]1([C]([C])[C]1[C])[C]([N])[C][C]O[C]1[C]2[C]1[C]2.[O][C]([C])[O]",
+          "h_filled": "CC(O)O.CCC1(C(N)CCOC2C3CC32)C(C)C1C.CNc1nccc2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1"
+        }
+      ]
+    },
+    {
+      "source_row": 8987,
+      "heavy_atoms": 38,
+      "mw": 529.0360000000002,
+      "new_bond_atom_maps": [
+        12,
+        13
+      ],
+      "carbon_changes": [
+        {
+          "atom_map": 12,
+          "element": "C",
+          "reactant_h": 0,
+          "product_h": 0,
+          "reactant_br": true
+        },
+        {
+          "atom_map": 13,
+          "element": "C",
+          "reactant_h": 1,
+          "product_h": 0,
+          "reactant_br": false
+        }
+      ],
+      "rank": 1,
+      "frequency": 72,
+      "sizes": [
+        {
+          "uuid": 12795,
+          "size": 1,
+          "correct_draws": 221
+        },
+        {
+          "uuid": 12796,
+          "size": 0,
+          "correct_draws": 195
+        }
+      ],
+      "model_probability": 0.9182060360908508,
+      "source": {
+        "case": 8987,
+        "title": "Tetrahydroindolizine intermediate in BCL-2 research",
+        "precursor2": "CCOC(=O)c1ccc(Cl)cc1Br",
+        "precursor3": "O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2",
+        "upstream4": "O=C(O)c1ccn2c1CCCC2",
+        "upstream5": "Nc1ccc(OCc2ccccc2)cc1",
+        "preparation": [
+          "TBTU, Et3N",
+          "CH2Cl2, r.t., overnight",
+          "41%"
+        ],
+        "coupling": [
+          "PdCl2(PPh3)2, K3PO4, PivOH",
+          "DMA, 135 °C, 30 min",
+          "59%"
+        ],
+        "source": "WO2023129553A1, Preparations 7 and 8 (P7 and P8)",
+        "url": "https://patents.google.com/patent/WO2023129553A1/en",
+        "scope": "Exact P8 intermediate; the model was not evaluated on the full downstream BCL-2 inhibitor.",
+        "warning": "Precursor acid P2 was used crude as a positional-isomer mixture; Preparation 7 isolates the drawn 1-carboxamide. Coupling mixture preheated for 15 min before catalyst addition."
+      },
+      "raw_and_restored_top10": [
+        {
+          "rank": 1,
+          "frequency": 72,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)Br.[C]1=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1Br.O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2"
+        },
+        {
+          "rank": 2,
+          "frequency": 44,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)I.[C]1=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1I.O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2"
+        },
+        {
+          "rank": 3,
+          "frequency": 42,
+          "raw": "[C][C]OC(=O)C1=[C][C]=C([C]=[C]1)Cl.[C]1=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1.O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2"
+        },
+        {
+          "rank": 4,
+          "frequency": 25,
+          "raw": "MISSING",
+          "h_filled": null
+        },
+        {
+          "rank": 5,
+          "frequency": 22,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)Br.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)I",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1Br.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(I)n2c1CCCC2"
+        },
+        {
+          "rank": 6,
+          "frequency": 18,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)I.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)I",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1I.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(I)n2c1CCCC2"
+        },
+        {
+          "rank": 7,
+          "frequency": 13,
+          "raw": "[C][C]OC(=O)C1=[C][C]=C([C]=[C]1)Cl.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)I",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(I)n2c1CCCC2"
+        },
+        {
+          "rank": 8,
+          "frequency": 11,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)Br.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)Br",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1Br.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(Br)n2c1CCCC2"
+        },
+        {
+          "rank": 9,
+          "frequency": 11,
+          "raw": "[C][C]OC(=O)C1=C([C]=C([C]=[C]1)Cl)I.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)Br",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1I.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(Br)n2c1CCCC2"
+        },
+        {
+          "rank": 10,
+          "frequency": 5,
+          "raw": "[C][C]OC(=O)C1=[C][C]=C([C]=[C]1)Cl.C1(=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1)Br",
+          "h_filled": "CCOC(=O)c1ccc(Cl)cc1.O=C(Nc1ccc(OCc2ccccc2)cc1)c1cc(Br)n2c1CCCC2"
+        }
+      ]
+    },
+    {
+      "source_row": 8988,
+      "heavy_atoms": 36,
+      "mw": 506.96100000000024,
+      "new_bond_atom_maps": [
+        12,
+        13
+      ],
+      "carbon_changes": [
+        {
+          "atom_map": 12,
+          "element": "C",
+          "reactant_h": 0,
+          "product_h": 0,
+          "reactant_br": true
+        },
+        {
+          "atom_map": 13,
+          "element": "C",
+          "reactant_h": 1,
+          "product_h": 0,
+          "reactant_br": false
+        }
+      ],
+      "rank": 2,
+      "frequency": 78,
+      "sizes": [
+        {
+          "uuid": 12797,
+          "size": 1,
+          "correct_draws": 217
+        },
+        {
+          "uuid": 12798,
+          "size": 0,
+          "correct_draws": 121
+        }
+      ],
+      "model_probability": 0.9997431635856628,
+      "source": {
+        "case": 8988,
+        "title": "Halogenated pyrrole intermediate in BCL-2 research",
+        "precursor2": "COC(=O)c1cc(F)c(Cl)cc1Br",
+        "precursor3": "Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)ccn1C",
+        "upstream4": "Cc1c(C(=O)O)ccn1C",
+        "upstream5": "Nc1ccc(OCc2ccccc2)cc1",
+        "preparation": [
+          "TBTU, Et3N",
+          "CH2Cl2, r.t., overnight",
+          "54%"
+        ],
+        "coupling": [
+          "PdCl2(PPh3)2, K3PO4, PivOH",
+          "DMA, 135 °C, 30 min",
+          "46%"
+        ],
+        "source": "WO2023129553A1, Preparations 15 and 82 (P15 and P82)",
+        "url": "https://patents.google.com/patent/WO2023129553A1/en",
+        "scope": "Exact P82 intermediate; the model was not evaluated on the full downstream BCL-2 inhibitor.",
+        "warning": "Coupling mixture preheated for 15 min before catalyst addition."
+      },
+      "raw_and_restored_top10": [
+        {
+          "rank": 1,
+          "frequency": 82,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1Br)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)I",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1Br.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(I)n1C"
+        },
+        {
+          "rank": 2,
+          "frequency": 78,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1Br)F.[C]1=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1Br.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)ccn1C"
+        },
+        {
+          "rank": 3,
+          "frequency": 34,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1Br)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)Br",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1Br.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(Br)n1C"
+        },
+        {
+          "rank": 4,
+          "frequency": 34,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=[C]1)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)I",
+          "h_filled": "COC(=O)c1ccc(Cl)c(F)c1.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(I)n1C"
+        },
+        {
+          "rank": 5,
+          "frequency": 31,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=[C]1)F.[C]1=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1",
+          "h_filled": "COC(=O)c1ccc(Cl)c(F)c1.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)ccn1C"
+        },
+        {
+          "rank": 6,
+          "frequency": 12,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=[C]1)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)Br",
+          "h_filled": "COC(=O)c1ccc(Cl)c(F)c1.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(Br)n1C"
+        },
+        {
+          "rank": 7,
+          "frequency": 7,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1I)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)I",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1I.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(I)n1C"
+        },
+        {
+          "rank": 8,
+          "frequency": 6,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1I)F.[C]1=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1I.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)ccn1C"
+        },
+        {
+          "rank": 9,
+          "frequency": 3,
+          "raw": "[C]OC(=O)C1=[C]C(=C(Cl)[C]=C1I)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)Br",
+          "h_filled": "COC(=O)c1cc(F)c(Cl)cc1I.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(Br)n1C"
+        },
+        {
+          "rank": 10,
+          "frequency": 1,
+          "raw": "[C]OC(=O)C1=C(C(=C(Cl)[C]=[C]1)F)F.C1(=[C]C(=C([C])N1[C])C(=O)[N]C1=[C][C]=C(O[C]C2=[C][C]=[C][C]=[C]2)[C]=[C]1)I",
+          "h_filled": "COC(=O)c1ccc(Cl)c(F)c1F.Cc1c(C(=O)Nc2ccc(OCc3ccccc3)cc2)cc(I)n1C"
+        }
+      ]
+    }
+  ]
+}

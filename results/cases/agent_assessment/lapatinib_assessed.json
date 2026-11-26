@@ -1,0 +1,1086 @@
+{
+  "target": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+  "solved": true,
+  "routes": [
+    {
+      "steps": [
+        {
+          "product": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+          "precursors": [
+            "CS(=O)(=O)CCN",
+            "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "LAP-05",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_LAP-05_0",
+                    "generated_smiles": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_LAP-05_1",
+                    "generated_smiles": "CS(=O)(=O)CCN",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "LAP-05",
+              "reaction_family": "reductive_amination",
+              "source_url": "https://doi.org/10.1016/j.tetlet.2014.09.039",
+              "source_locator": "p.6010 Scheme 4, final arrow operation 1; p.6009 complete-route paragraph; p.6007 Scheme 1 for structure of reagent 6"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+          "precursors": [
+            "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+            "O=Cc1ccco1"
+          ],
+          "model_score": 1.0,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 900,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "LAP-04",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_LAP-04_0",
+                    "generated_smiles": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_LAP-04_1",
+                    "generated_smiles": "O=Cc1ccco1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "LAP-04",
+              "reaction_family": "CH_arylation",
+              "source_url": "https://doi.org/10.1016/j.tetlet.2014.09.039",
+              "source_locator": "p.6010 Scheme 4, 9 + 2 -> 5; p.6010 note 18; p.6009 isolation discussion"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+          "precursors": [
+            "Clc1ncnc2ccc(Br)cc12",
+            "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1"
+          ],
+          "model_score": 0.7666666666666667,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 690,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "LAP-03",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_LAP-03_0",
+                    "generated_smiles": "Clc1ncnc2ccc(Br)cc12",
+                    "matching_draw_count": 23
+                  },
+                  {
+                    "uuid": "all_exact_LAP-03_1",
+                    "generated_smiles": "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "LAP-03",
+              "reaction_family": "SNAr",
+              "source_url": "https://doi.org/10.1016/j.tetlet.2014.09.039",
+              "source_locator": "p.6009 complete-route paragraph; p.6010 Scheme 4, bracketed 18 + 19 -> 9"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "Clc1ncnc2ccc(Br)cc12",
+          "precursors": [
+            "O=c1[nH]cnc2ccc(Br)cc12"
+          ],
+          "model_score": 0.9666666666666667,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 29,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "LAP-02",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_LAP-02_0",
+                    "generated_smiles": "O=c1[nH]cnc2ccc(Br)cc12",
+                    "matching_draw_count": 29
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "LAP-02",
+              "reaction_family": "deoxychlorination",
+              "source_url": "https://doi.org/10.1016/j.tetlet.2014.09.039",
+              "source_locator": "p.6009 complete-route paragraph; p.6010 Scheme 4, 17 -> bracketed 18"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=c1[nH]cnc2ccc(Br)cc12",
+          "precursors": [
+            "NC=O",
+            "Nc1ccc(Br)cc1C(=O)O"
+          ],
+          "model_score": 0.25666666666666665,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 231,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "LAP-01",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_LAP-01_0",
+                    "generated_smiles": "Nc1ccc(Br)cc1C(=O)O",
+                    "matching_draw_count": 11
+                  },
+                  {
+                    "uuid": "all_exact_LAP-01_1",
+                    "generated_smiles": "NC=O",
+                    "matching_draw_count": 21
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "LAP-01",
+              "reaction_family": "ring_formation",
+              "source_url": "https://doi.org/10.1016/j.tetlet.2014.09.039",
+              "source_locator": "p.6009 complete-route paragraph; p.6010 Scheme 4, 16 -> 17"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        }
+      ],
+      "score": 5.0,
+      "starting_materials": [
+        "CS(=O)(=O)CCN",
+        "NC=O",
+        "Nc1ccc(Br)cc1C(=O)O",
+        "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1",
+        "O=Cc1ccco1"
+      ],
+      "all_edges_documented": true,
+      "experimental_feasibility_verified": false,
+      "model_order_index": 0,
+      "llm_assessment": {
+        "status": "complete",
+        "model": "deepseek-flash",
+        "input_sha256": "a4b1d5ae5fbabbe3d50f3d147c07f69eb765bb78d44acdfa1dbe4b10285a6136",
+        "scores": {
+          "chemical_plausibility": 5.5,
+          "strategic_coherence": 6.5,
+          "route_efficiency": 5.5,
+          "starting_material_suitability": 6.5
+        },
+        "total_score": 5.9,
+        "rationale": "该路线以5步汇聚式合成目标分子，整体策略合理：先构建喹唑啉核心，再通过芳基-芳基偶联引入呋喃醛片段，最后还原胺化连接甲砜基乙胺。各步反应类型常见，但缺乏实验条件与产率数据，且部分步骤存在区域选择性和官能团兼容性风险。起始原料均为结构较简单的化合物，但未提供供应商证据，无法判断其可得性。",
+        "strengths": [
+          "汇聚式路线，最后两步分别引入两个主要片段，便于模块化合成。",
+          "关键中间体4-溴-6-氯喹唑啉可通过文献已知方法制备。",
+          "还原胺化反应为成熟反应，理论上可行。",
+          "起始原料结构简单，无复杂保护基需求。"
+        ],
+        "concerns": [
+          "所有步骤均无实验条件、产率和检索到的文献先例，可行性未经验证。",
+          "步骤2的芳基-芳基偶联需在含氯芳环存在下选择性进行，可能发生竞争性偶联或脱卤；且无硼试剂参与，不能确认为Suzuki偶联。",
+          "步骤1的还原胺化需在含氯、氟和醚键的底物上进行，可能发生脱卤或副反应。",
+          "步骤3的亲核取代反应中，4-氯喹唑啉与苯胺反应可能因苯胺亲核性较低而需要强碱或高温，且存在区域异构体风险。",
+          "步骤4的氯化反应使用三氯氧磷等试剂，条件剧烈，可能影响其他官能团。",
+          "步骤5的环化反应需要优化条件，且起始原料2-氨基-5-溴苯甲酸和甲酰胺的缩合可能产生副产物。",
+          "整体路线未考虑保护基策略，但底物中多数官能团耐受性尚可。",
+          "未提供供应商证据，无法判断起始原料的可得性和成本。"
+        ],
+        "critical_steps": [
+          {
+            "step": 2,
+            "concern": "芳基-芳基偶联需在氯代芳环存在下选择性进行，可能发生竞争反应；且无硼试剂参与，不能确认为Suzuki偶联，反应类型仅为假设。"
+          },
+          {
+            "step": 1,
+            "concern": "还原胺化在复杂底物上进行，可能影响氯、氟等卤素，且无实验数据支持。"
+          },
+          {
+            "step": 3,
+            "concern": "亲核取代反应可能因苯胺亲核性不足而需要苛刻条件，且存在区域选择性问题。"
+          },
+          {
+            "step": 4,
+            "concern": "氯化反应条件剧烈，可能影响底物中其他官能团，且无产率数据。"
+          },
+          {
+            "step": 5,
+            "concern": "环化反应需要优化，起始原料的缩合可能产生副产物，缺乏实验验证。"
+          }
+        ],
+        "rank": 1
+      }
+    }
+  ],
+  "model_calls": 9,
+  "expanded_products": [
+    "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "Clc1ncnc2ccc(Br)cc12",
+    "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+    "N=Nc1ccc(Br)cc1N=O",
+    "Nc1ccc(Br)cc1C(O)O",
+    "O=CBr",
+    "O=CCl",
+    "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "O=c1[nH]cnc2ccc(Br)cc12"
+  ],
+  "candidate_hit_products": [
+    "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "Clc1ncnc2ccc(Br)cc12",
+    "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+    "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+    "O=c1[nH]cnc2ccc(Br)cc12"
+  ],
+  "empty_candidate_products": [
+    "N=Nc1ccc(Br)cc1N=O",
+    "Nc1ccc(Br)cc1C(O)O",
+    "O=CBr",
+    "O=CCl"
+  ],
+  "stock_size": 6,
+  "errors": [],
+  "trace": [
+    {
+      "event": "expand",
+      "product": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "Clc1ncnc2ccc(Br)cc12",
+      "candidates": 1
+    },
+    {
+      "event": "expand",
+      "product": "O=c1[nH]cnc2ccc(Br)cc12",
+      "candidates": 9
+    },
+    {
+      "event": "expand",
+      "product": "Nc1ccc(Br)cc1C(O)O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "N=Nc1ccc(Br)cc1N=O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=CBr",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=CCl",
+      "candidates": 0
+    }
+  ],
+  "termination": "routes_found",
+  "documented_route_count": 1,
+  "mode": "fixed_core_latest_candidates",
+  "case_id": "lapatinib",
+  "case_name": "Lapatinib",
+  "seconds": 0.0,
+  "search_settings": {
+    "max_depth": 12,
+    "top_k": 10000,
+    "max_routes": 3,
+    "max_model_calls": 300,
+    "max_states": 10000
+  },
+  "one_step_candidates": [
+    {
+      "precursors": [
+        "CS(=O)(=O)CCN",
+        "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1"
+      ],
+      "score": 1.0,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 1,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 900,
+        "combination_slots": 900,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "LAP-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_LAP-05_0",
+                "generated_smiles": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+                "matching_draw_count": 30
+              },
+              {
+                "uuid": "all_exact_LAP-05_1",
+                "generated_smiles": "CS(=O)(=O)CCN",
+                "matching_draw_count": 30
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    }
+  ],
+  "model_calls_definition": "candidate-bank queries, not GPU inference calls",
+  "llm_policy": "model_order",
+  "llm_calls": 2,
+  "new_sampling": false,
+  "new_training": false,
+  "sampling_steps": 100,
+  "base_draws_per_fragment": 30,
+  "blocker_draws_per_fragment": 300,
+  "provided_step_templates": 5,
+  "weights_sha256": {
+    "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+    "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+  },
+  "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "terminal_set": "Case-specific literature starting-material boundary",
+  "scope": "Given each step's known core; training-exposed reproduction; not autonomous core discovery or experimental validation",
+  "generation": "Reused latest-weight generated banks; complete precursor sets assembled across draws",
+  "reference_precursors_used_for_search": false,
+  "stock_used_for_candidate_generation": false,
+  "constraints": {},
+  "primary_route_index": 0,
+  "route_assessment": {
+    "status": "complete",
+    "calls": 2,
+    "criteria_weights": {
+      "chemical_plausibility": 0.45,
+      "strategic_coherence": 0.25,
+      "route_efficiency": 0.15,
+      "starting_material_suitability": 0.15
+    },
+    "score_scale": [
+      0,
+      10
+    ],
+    "preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+    "policy": "whole_route_llm_v1",
+    "max_routes": 8,
+    "max_calls": 16,
+    "max_corrections_per_route": 1,
+    "observations": [
+      {
+        "route_index": 0,
+        "input": {
+          "target": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+          "user_preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+          "steps": [
+            {
+              "step": 1,
+              "product": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+              "precursors": [
+                "CS(=O)(=O)CCN",
+                "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+                "molecular_weight": 581.069,
+                "heavy_atoms": 40,
+                "rings": 5,
+                "rotatable_bonds": 11,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 18,
+                "element_counts": {
+                  "C": 29,
+                  "S": 1,
+                  "O": 4,
+                  "N": 4,
+                  "F": 1,
+                  "Cl": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "CS(=O)(=O)CCN",
+                  "molecular_weight": 123.177,
+                  "heavy_atoms": 7,
+                  "rings": 0,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "C": 3,
+                    "S": 1,
+                    "O": 2,
+                    "N": 1
+                  }
+                },
+                {
+                  "smiles": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+                  "molecular_weight": 473.891,
+                  "heavy_atoms": 34,
+                  "rings": 5,
+                  "rotatable_bonds": 7,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 15,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 26,
+                    "N": 3,
+                    "F": 1,
+                    "Cl": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 2,
+              "product": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+              "precursors": [
+                "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+                "O=Cc1ccco1"
+              ],
+              "model_rank": 1,
+              "model_score": 1.0,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 900,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=Cc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1",
+                "molecular_weight": 473.891,
+                "heavy_atoms": 34,
+                "rings": 5,
+                "rotatable_bonds": 7,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 15,
+                "element_counts": {
+                  "O": 3,
+                  "C": 26,
+                  "N": 3,
+                  "F": 1,
+                  "Cl": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+                  "molecular_weight": 458.718,
+                  "heavy_atoms": 28,
+                  "rings": 4,
+                  "rotatable_bonds": 5,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 12,
+                  "element_counts": {
+                    "F": 1,
+                    "C": 21,
+                    "O": 1,
+                    "N": 3,
+                    "Br": 1,
+                    "Cl": 1
+                  }
+                },
+                {
+                  "smiles": "O=Cc1ccco1",
+                  "molecular_weight": 96.085,
+                  "heavy_atoms": 7,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "O": 2,
+                    "C": 5
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 3,
+              "product": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+              "precursors": [
+                "Clc1ncnc2ccc(Br)cc12",
+                "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.7666666666666667,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 690,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Fc1cccc(COc2ccc(Nc3ncnc4ccc(Br)cc34)cc2Cl)c1",
+                "molecular_weight": 458.718,
+                "heavy_atoms": 28,
+                "rings": 4,
+                "rotatable_bonds": 5,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 12,
+                "element_counts": {
+                  "F": 1,
+                  "C": 21,
+                  "O": 1,
+                  "N": 3,
+                  "Br": 1,
+                  "Cl": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "Clc1ncnc2ccc(Br)cc12",
+                  "molecular_weight": 243.491,
+                  "heavy_atoms": 12,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "Cl": 1,
+                    "C": 8,
+                    "N": 2,
+                    "Br": 1
+                  }
+                },
+                {
+                  "smiles": "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1",
+                  "molecular_weight": 251.688,
+                  "heavy_atoms": 17,
+                  "rings": 2,
+                  "rotatable_bonds": 3,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 8,
+                  "element_counts": {
+                    "N": 1,
+                    "C": 13,
+                    "O": 1,
+                    "F": 1,
+                    "Cl": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 4,
+              "product": "Clc1ncnc2ccc(Br)cc12",
+              "precursors": [
+                "O=c1[nH]cnc2ccc(Br)cc12"
+              ],
+              "model_rank": 1,
+              "model_score": 0.9666666666666667,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 29,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "Clc1ncnc2ccc(Br)cc12",
+                "molecular_weight": 243.491,
+                "heavy_atoms": 12,
+                "rings": 2,
+                "rotatable_bonds": 0,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "Cl": 1,
+                  "C": 8,
+                  "N": 2,
+                  "Br": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "O=c1[nH]cnc2ccc(Br)cc12",
+                  "molecular_weight": 225.045,
+                  "heavy_atoms": 12,
+                  "rings": 2,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "O": 1,
+                    "C": 8,
+                    "N": 2,
+                    "Br": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 5,
+              "product": "O=c1[nH]cnc2ccc(Br)cc12",
+              "precursors": [
+                "NC=O",
+                "Nc1ccc(Br)cc1C(=O)O"
+              ],
+              "model_rank": 1,
+              "model_score": 0.25666666666666665,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 231,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=c1[nH]cnc2ccc(Br)cc12",
+                "molecular_weight": 225.045,
+                "heavy_atoms": 12,
+                "rings": 2,
+                "rotatable_bonds": 0,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "O": 1,
+                  "C": 8,
+                  "N": 2,
+                  "Br": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "NC=O",
+                  "molecular_weight": 45.041,
+                  "heavy_atoms": 3,
+                  "rings": 0,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 1,
+                  "element_counts": {
+                    "N": 1,
+                    "C": 1,
+                    "O": 1
+                  }
+                },
+                {
+                  "smiles": "Nc1ccc(Br)cc1C(=O)O",
+                  "molecular_weight": 216.034,
+                  "heavy_atoms": 11,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "N": 1,
+                    "C": 7,
+                    "Br": 1,
+                    "O": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            }
+          ],
+          "starting_materials": [
+            "CS(=O)(=O)CCN",
+            "NC=O",
+            "Nc1ccc(Br)cc1C(=O)O",
+            "Nc1ccc(OCc2cccc(F)c2)c(Cl)c1",
+            "O=Cc1ccco1"
+          ],
+          "terminal_set_definition": "Case-specific literature starting-material boundary",
+          "constraints": {},
+          "tool_checks": {
+            "connected": true,
+            "all_precursor_branches_retained": true,
+            "terminal_closure": true
+          },
+          "evidence_availability": {
+            "supplier_quotes": "not_provided",
+            "experimental_conditions_and_yields": "not_provided"
+          },
+          "search_cost": 5.0
+        },
+        "input_sha256": "a4b1d5ae5fbabbe3d50f3d147c07f69eb765bb78d44acdfa1dbe4b10285a6136",
+        "attempts": [
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 6.5,
+                "strategic_coherence": 7.0,
+                "route_efficiency": 6.0,
+                "starting_material_suitability": 7.5
+              },
+              "total_score": 6.7,
+              "rationale": "该路线以5步汇聚式合成目标分子，整体策略合理：先构建喹唑啉核心，再通过Suzuki偶联引入呋喃醛片段，最后还原胺化连接甲砜基乙胺。各步反应类型常见，但缺乏实验条件与产率数据，且部分步骤存在区域选择性和官能团兼容性风险。起始原料均为结构较简单的商品化或易得化合物，但未提供供应商证据。",
+              "strengths": [
+                "汇聚式路线，最后两步分别引入两个主要片段，便于模块化合成。",
+                "关键中间体4-溴-6-氯喹唑啉可通过文献已知方法制备。",
+                "Suzuki偶联和还原胺化均为成熟反应，理论上可行。",
+                "起始原料结构简单，无复杂保护基需求。"
+              ],
+              "concerns": [
+                "所有步骤均无实验条件、产率和检索到的文献先例，可行性未经验证。",
+                "步骤2的Suzuki偶联需在含氯芳环存在下选择性进行，可能发生竞争性偶联或脱卤。",
+                "步骤1的还原胺化需在含氯、氟和醚键的底物上进行，可能发生脱卤或副反应。",
+                "步骤3的亲核取代反应中，4-氯喹唑啉与苯胺反应可能因苯胺亲核性较低而需要强碱或高温，且存在区域异构体风险。",
+                "步骤4的氯化反应使用三氯氧磷等试剂，条件剧烈，可能影响其他官能团。",
+                "步骤5的环化反应需要优化条件，且起始原料2-氨基-5-溴苯甲酸和甲酰胺的缩合可能产生副产物。",
+                "整体路线未考虑保护基策略，但底物中多数官能团耐受性尚可。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "Suzuki偶联需在氯代芳环存在下选择性进行，可能发生竞争反应，且未提供条件验证。"
+                },
+                {
+                  "step": 1,
+                  "concern": "还原胺化在复杂底物上进行，可能影响氯、氟等卤素，且无实验数据支持。"
+                },
+                {
+                  "step": 3,
+                  "concern": "亲核取代反应可能因苯胺亲核性不足而需要苛刻条件，且存在区域选择性问题。"
+                },
+                {
+                  "step": 4,
+                  "concern": "氯化反应条件剧烈，可能影响底物中其他官能团，且无产率数据。"
+                },
+                {
+                  "step": 5,
+                  "concern": "环化反应需要优化，起始原料的缩合可能产生副产物，缺乏实验验证。"
+                }
+              ]
+            },
+            "tool_feedback": [
+              "No precursor in this route contains boron; a Suzuki identification is unsupported.",
+              "Supplier availability or ease-of-preparation assertions have no supporting tool evidence; remove them."
+            ]
+          },
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.5,
+                "route_efficiency": 5.5,
+                "starting_material_suitability": 6.5
+              },
+              "total_score": 5.9,
+              "rationale": "该路线以5步汇聚式合成目标分子，整体策略合理：先构建喹唑啉核心，再通过芳基-芳基偶联引入呋喃醛片段，最后还原胺化连接甲砜基乙胺。各步反应类型常见，但缺乏实验条件与产率数据，且部分步骤存在区域选择性和官能团兼容性风险。起始原料均为结构较简单的化合物，但未提供供应商证据，无法判断其可得性。",
+              "strengths": [
+                "汇聚式路线，最后两步分别引入两个主要片段，便于模块化合成。",
+                "关键中间体4-溴-6-氯喹唑啉可通过文献已知方法制备。",
+                "还原胺化反应为成熟反应，理论上可行。",
+                "起始原料结构简单，无复杂保护基需求。"
+              ],
+              "concerns": [
+                "所有步骤均无实验条件、产率和检索到的文献先例，可行性未经验证。",
+                "步骤2的芳基-芳基偶联需在含氯芳环存在下选择性进行，可能发生竞争性偶联或脱卤；且无硼试剂参与，不能确认为Suzuki偶联。",
+                "步骤1的还原胺化需在含氯、氟和醚键的底物上进行，可能发生脱卤或副反应。",
+                "步骤3的亲核取代反应中，4-氯喹唑啉与苯胺反应可能因苯胺亲核性较低而需要强碱或高温，且存在区域异构体风险。",
+                "步骤4的氯化反应使用三氯氧磷等试剂，条件剧烈，可能影响其他官能团。",
+                "步骤5的环化反应需要优化条件，且起始原料2-氨基-5-溴苯甲酸和甲酰胺的缩合可能产生副产物。",
+                "整体路线未考虑保护基策略，但底物中多数官能团耐受性尚可。",
+                "未提供供应商证据，无法判断起始原料的可得性和成本。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "芳基-芳基偶联需在氯代芳环存在下选择性进行，可能发生竞争反应；且无硼试剂参与，不能确认为Suzuki偶联，反应类型仅为假设。"
+                },
+                {
+                  "step": 1,
+                  "concern": "还原胺化在复杂底物上进行，可能影响氯、氟等卤素，且无实验数据支持。"
+                },
+                {
+                  "step": 3,
+                  "concern": "亲核取代反应可能因苯胺亲核性不足而需要苛刻条件，且存在区域选择性问题。"
+                },
+                {
+                  "step": 4,
+                  "concern": "氯化反应条件剧烈，可能影响底物中其他官能团，且无产率数据。"
+                },
+                {
+                  "step": 5,
+                  "concern": "环化反应需要优化，起始原料的缩合可能产生副产物，缺乏实验验证。"
+                }
+              ]
+            },
+            "tool_feedback": []
+          }
+        ],
+        "output": {
+          "scores": {
+            "chemical_plausibility": 5.5,
+            "strategic_coherence": 6.5,
+            "route_efficiency": 5.5,
+            "starting_material_suitability": 6.5
+          },
+          "total_score": 5.9,
+          "rationale": "该路线以5步汇聚式合成目标分子，整体策略合理：先构建喹唑啉核心，再通过芳基-芳基偶联引入呋喃醛片段，最后还原胺化连接甲砜基乙胺。各步反应类型常见，但缺乏实验条件与产率数据，且部分步骤存在区域选择性和官能团兼容性风险。起始原料均为结构较简单的化合物，但未提供供应商证据，无法判断其可得性。",
+          "strengths": [
+            "汇聚式路线，最后两步分别引入两个主要片段，便于模块化合成。",
+            "关键中间体4-溴-6-氯喹唑啉可通过文献已知方法制备。",
+            "还原胺化反应为成熟反应，理论上可行。",
+            "起始原料结构简单，无复杂保护基需求。"
+          ],
+          "concerns": [
+            "所有步骤均无实验条件、产率和检索到的文献先例，可行性未经验证。",
+            "步骤2的芳基-芳基偶联需在含氯芳环存在下选择性进行，可能发生竞争性偶联或脱卤；且无硼试剂参与，不能确认为Suzuki偶联。",
+            "步骤1的还原胺化需在含氯、氟和醚键的底物上进行，可能发生脱卤或副反应。",
+            "步骤3的亲核取代反应中，4-氯喹唑啉与苯胺反应可能因苯胺亲核性较低而需要强碱或高温，且存在区域异构体风险。",
+            "步骤4的氯化反应使用三氯氧磷等试剂，条件剧烈，可能影响其他官能团。",
+            "步骤5的环化反应需要优化条件，且起始原料2-氨基-5-溴苯甲酸和甲酰胺的缩合可能产生副产物。",
+            "整体路线未考虑保护基策略，但底物中多数官能团耐受性尚可。",
+            "未提供供应商证据，无法判断起始原料的可得性和成本。"
+          ],
+          "critical_steps": [
+            {
+              "step": 2,
+              "concern": "芳基-芳基偶联需在氯代芳环存在下选择性进行，可能发生竞争反应；且无硼试剂参与，不能确认为Suzuki偶联，反应类型仅为假设。"
+            },
+            {
+              "step": 1,
+              "concern": "还原胺化在复杂底物上进行，可能影响氯、氟等卤素，且无实验数据支持。"
+            },
+            {
+              "step": 3,
+              "concern": "亲核取代反应可能因苯胺亲核性不足而需要苛刻条件，且存在区域选择性问题。"
+            },
+            {
+              "step": 4,
+              "concern": "氯化反应条件剧烈，可能影响底物中其他官能团，且无产率数据。"
+            },
+            {
+              "step": 5,
+              "concern": "环化反应需要优化，起始原料的缩合可能产生副产物，缺乏实验验证。"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "score_semantics": "LLM route evaluation, not a probability or yield",
+    "model": "deepseek-flash",
+    "original_primary_route_index": 0,
+    "usage": {
+      "prompt_tokens": 7227,
+      "completion_tokens": 1376
+    },
+    "seconds": 9.641,
+    "ranking_applied": true,
+    "ranked_original_indices": [
+      0
+    ]
+  },
+  "route_selection_policy": "whole_route_llm_v1"
+}

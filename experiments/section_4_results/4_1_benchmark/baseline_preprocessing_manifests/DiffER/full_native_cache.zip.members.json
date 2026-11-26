@@ -1,0 +1,94 @@
+{
+  "members": [
+    {
+      "path": "shared/known/test/row-index-test.jsonl",
+      "bytes": 12539190,
+      "sha256": "0fbfb5d7ad0899af3ab9ac86b01c63d58e1f51b7af88bb386971c8982db8b40e"
+    },
+    {
+      "path": "shared/known/test/src-test.txt",
+      "bytes": 14766076,
+      "sha256": "f3954fda6008a9c6e1ae2e5972f11b1ca8fed28cf4ad49604eb77804c96fb218"
+    },
+    {
+      "path": "shared/known/test/tgt-test.txt",
+      "bytes": 15013487,
+      "sha256": "1ea75d1271dde7b4b70ef41cd8b6a81b28985328ef62953255ddeb1b15e57757"
+    },
+    {
+      "path": "shared/known/train/row-index-train.jsonl",
+      "bytes": 103212550,
+      "sha256": "ec3b1c9a3cb15e21d7a12d0320c21499f156ded0fe5061ba6ace999ede50d66e"
+    },
+    {
+      "path": "shared/known/train/src-train.txt",
+      "bytes": 118466384,
+      "sha256": "2b308faa220f5a7914119753b2d02a567504bbe0859cb59bf25225524c4bab32"
+    },
+    {
+      "path": "shared/known/train/tgt-train.txt",
+      "bytes": 120550240,
+      "sha256": "4b2d52adb1e6b355f1982f8bbc64fb11e24f43fcdc1d78d00bb9f74ef73da4d4"
+    },
+    {
+      "path": "shared/known/val/row-index-val.jsonl",
+      "bytes": 12737840,
+      "sha256": "e639aad3ecda4bb1b2f5740615283b89b4a3cd616252c0d7aaacd111f4c9304e"
+    },
+    {
+      "path": "shared/known/val/src-val.txt",
+      "bytes": 15019903,
+      "sha256": "1700b9a97ab002cb65c780d188a16cd2e9e5944f70f4819ace783dc36e88a297"
+    },
+    {
+      "path": "shared/known/val/tgt-val.txt",
+      "bytes": 15283739,
+      "sha256": "fb939bea3fca16109bcbc41c255581f7dd91698ffb563ae2a85e9e35a1a7ea4e"
+    },
+    {
+      "path": "shared/unknown/test/row-index-test.jsonl",
+      "bytes": 12539190,
+      "sha256": "0fbfb5d7ad0899af3ab9ac86b01c63d58e1f51b7af88bb386971c8982db8b40e"
+    },
+    {
+      "path": "shared/unknown/test/src-test.txt",
+      "bytes": 13286076,
+      "sha256": "9d83944673985329e6dff564a58018f00dac7d1eac38b2da1cc1395b2419ac38"
+    },
+    {
+      "path": "shared/unknown/test/tgt-test.txt",
+      "bytes": 15013487,
+      "sha256": "1ea75d1271dde7b4b70ef41cd8b6a81b28985328ef62953255ddeb1b15e57757"
+    },
+    {
+      "path": "shared/unknown/train/row-index-train.jsonl",
+      "bytes": 103212550,
+      "sha256": "ec3b1c9a3cb15e21d7a12d0320c21499f156ded0fe5061ba6ace999ede50d66e"
+    },
+    {
+      "path": "shared/unknown/train/src-train.txt",
+      "bytes": 106603024,
+      "sha256": "777d9754ceed4269f794a549379489e32aa8841e95ab0674f2e46ab8c4602e67"
+    },
+    {
+      "path": "shared/unknown/train/tgt-train.txt",
+      "bytes": 120550240,
+      "sha256": "4b2d52adb1e6b355f1982f8bbc64fb11e24f43fcdc1d78d00bb9f74ef73da4d4"
+    },
+    {
+      "path": "shared/unknown/val/row-index-val.jsonl",
+      "bytes": 12737840,
+      "sha256": "e639aad3ecda4bb1b2f5740615283b89b4a3cd616252c0d7aaacd111f4c9304e"
+    },
+    {
+      "path": "shared/unknown/val/src-val.txt",
+      "bytes": 13516703,
+      "sha256": "f7c19fe5c00c3a0bf059ff8c3581e0c3cf8f5322f7a3f631d0928e498d603ec5"
+    },
+    {
+      "path": "shared/unknown/val/tgt-val.txt",
+      "bytes": 15283739,
+      "sha256": "fb939bea3fca16109bcbc41c255581f7dd91698ffb563ae2a85e9e35a1a7ea4e"
+    }
+  ]
+}

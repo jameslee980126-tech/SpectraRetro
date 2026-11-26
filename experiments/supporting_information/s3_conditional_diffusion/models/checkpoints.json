@@ -1,0 +1,136 @@
+{
+  "path_base": "repository_root",
+  "registry": "checkpoints/WEIGHTS.json",
+  "identity_rule": "Use the experiment-bound SHA-256, role and selection status in each record.",
+  "files": [
+    {
+      "path": "checkpoints/composition_prior.pt",
+      "bytes": 11559640,
+      "sha256": "5fda29c0f1339710d26608e9a257bc106e69b91e03ed1bbe3abb767c9097b589",
+      "role": "shared_composition_prior",
+      "selection_status": "frozen_final_model_contract_bound",
+      "selection": {
+        "role": "shared elemental-composition prior"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "analysis_contract.json",
+          "sha256": "11a1466d15de5b5ca3a752bdb5e1316f86d95ac94a7ccedbf0157346108e9af2"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+      "bytes": 8545745,
+      "sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+      "role": "full_set_inference",
+      "selection_status": "validation_replayed_and_test_checkpoint_bound",
+      "selection": {
+        "epoch": 1580,
+        "completed_epochs": 1600,
+        "metric": "validation_l2",
+        "value": 0.0070616891070402026,
+        "rule": "minimum; earliest tie",
+        "observations": 840
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "5e01aa6ec2d772e216615784f4be57fd7ed5ede5e36db43e47db0be454f7c8ca"
+        },
+        {
+          "name": "validation.json",
+          "sha256": "110c2cfbf43350d3ea1c5335528f95298c7e853e06c00824f550978c436db4d0"
+        },
+        {
+          "name": "analysis_contract.json",
+          "sha256": "11a1466d15de5b5ca3a752bdb5e1316f86d95ac94a7ccedbf0157346108e9af2"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/size_model.pt",
+      "bytes": 1238645,
+      "sha256": "7078d645561ee936445f897d18ca2bd708aed341319796741d679f87fa560ec3",
+      "role": "full_set_inference",
+      "selection_status": "validation_replayed_and_test_checkpoint_bound",
+      "selection": {
+        "epoch": 39,
+        "completed_epochs": 1000,
+        "metric": "validation_ce",
+        "value": 0.4494239904269,
+        "rule": "minimum; earliest tie",
+        "observations": 1000
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "5e01aa6ec2d772e216615784f4be57fd7ed5ede5e36db43e47db0be454f7c8ca"
+        },
+        {
+          "name": "curves.jsonl",
+          "sha256": "3f4936aad24b332de97d887312247e39238c2822d056dbb6a427167a65e7f3c2"
+        },
+        {
+          "name": "analysis_contract.json",
+          "sha256": "11a1466d15de5b5ca3a752bdb5e1316f86d95ac94a7ccedbf0157346108e9af2"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/completion_model.pt",
+      "bytes": 8441061,
+      "sha256": "b483918f9df9ccdf26b6d838ffbc0c4c8c9c0b129e01c0867fd9f57102c3fcf0",
+      "role": "full_set_inference",
+      "selection_status": "validation_replayed_and_test_checkpoint_bound",
+      "selection": {
+        "epoch": 1580,
+        "completed_epochs": 1600,
+        "metric": "validation_l2",
+        "value": 0.00700378403281093,
+        "rule": "minimum; earliest tie",
+        "observations": 845
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "3375ada4ec50909bd6fbd3b4e85ce2d39dd29cc14eca1f3c804b16b13a8e5fac"
+        },
+        {
+          "name": "validation.json",
+          "sha256": "2754938074e2dd53c0dce9287a3a9e278f2d2d3db4f18ecbaf9cfdb730ad7e23"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/size_model.pt",
+      "bytes": 1238645,
+      "sha256": "e0702f9cf5298fae1127e029953c3c77cb8847e6d3ef30ebcbbf264b12dd5718",
+      "role": "full_set_inference",
+      "selection_status": "validation_replayed_and_test_checkpoint_bound",
+      "selection": {
+        "epoch": 42,
+        "completed_epochs": 1000,
+        "metric": "validation_ce",
+        "value": 0.45680454263310627,
+        "rule": "minimum; earliest tie",
+        "observations": 1000
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "3375ada4ec50909bd6fbd3b4e85ce2d39dd29cc14eca1f3c804b16b13a8e5fac"
+        },
+        {
+          "name": "curves.jsonl",
+          "sha256": "767e5cde6f9fc653327e96cbd93d936ca13f9e0b4493a9d98771d7ebe11c8e58"
+        }
+      ]
+    }
+  ]
+}

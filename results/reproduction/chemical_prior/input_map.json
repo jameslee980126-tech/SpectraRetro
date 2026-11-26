@@ -1,0 +1,129 @@
+{
+  "/root/retro_stage2_20261009/old/newdata/eval_geometry.pt": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/old/newdata/eval_geometry.pt",
+    "sha256": "d0aca75f276f2afbc23ad74e950a27deceed380d9204b6f9f27262928e7a23e6"
+  },
+  "/root/retro_stage2_20261009/cycle/shared_sizes.npz": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/cycle/shared_sizes.npz",
+    "sha256": "a04bb26a6295571357b13086848b064d9752d5bbbeb1a0215bb22578cff7f59e"
+  },
+  "/root/retro_stage2_20261009/cycle/batch_order.json": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/cycle/batch_order.json",
+    "sha256": "14bf5aab5494d18ab3a2f388e421f6e7141e01f8494ef8d64505ae65557cd5bf"
+  },
+  "/root/retro_stage2_20261009/cycle/unknown_compatibility/eval_prior.npz": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/cycle/unknown_compatibility/eval_prior.npz",
+    "sha256": "aeb79f0c9fe7da0f3a95b728bf245faa01d99a89c9368dd795c5fdbc97f1420e"
+  },
+  "/root/retro_stage2_20261009/work/experiments/mechanism_prior_fspec_edm_20260919/data/stage2/similarity_eval_table.csv": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/work/experiments/mechanism_prior_fspec_edm_20260919/data/stage2/similarity_eval_table.csv",
+    "sha256": "507f2f3814280c8550d61831713279230c6c782c7eafeac022b286ef04912858"
+  },
+  "/root/retro_stage2_20261009/work/experiments/mechanism_prior_fspec_edm_20260919/data/metadata/eval_record_map.csv": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/work/experiments/mechanism_prior_fspec_edm_20260919/data/metadata/eval_record_map.csv",
+    "sha256": "f58ee9dc80654bf30d4ae1af12e85553f5d319294632d6f0b6895cd0bb7ae796"
+  },
+  "/root/retro_stage2_20261009/work/experiments/mechanism_prior_fspec_edm_20260919/runs/stage1_unknown_baseline/valid_predictions.jsonl": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/work/experiments/mechanism_prior_fspec_edm_20260919/runs/stage1_unknown_baseline/valid_predictions.jsonl",
+    "sha256": "fd6a8552c7547dd61477a199d15a4ad067ac58ef0766b8b715e5e582ed09808a"
+  },
+  "/root/retro_stage2_20261009/work/fusion_reranker/manifest.json": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/work/fusion_reranker/manifest.json",
+    "sha256": "f260878c04ad3bc8a398d86ce32991b1520d72e8ec3b895a84808f0342fea9e8"
+  },
+  "/root/retro_stage2_20261009/evals/compatibility/reference_replay.csv": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/evals/compatibility/reference_replay.csv",
+    "sha256": "1ccce0055a36426705a592ea485f61745f9ac3991b636a5294ec302132321e9f"
+  },
+  "/root/retro_stage2_20261009/evals/compatibility/environment_preflight.json": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/evals/compatibility/environment_preflight.json",
+    "sha256": "cb8a932a27bef19ce7ce95c566b0ecc9a80b5cfc5c8f6c9276c9758663fae3d5"
+  },
+  "/root/retro_stage2_20261009/evals/compatibility/reference_replay_manifest.json": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/evals/compatibility/reference_replay_manifest.json",
+    "sha256": "e349c56e4ff71396d455fe6f033b3e7116c455627f50f841cad108345e7ce7aa"
+  },
+  "/root/retro_stage2_20261009/evals/compatibility/selected/control.pt": {
+    "path": "checkpoints/ablations/chemical_prior/control.pt",
+    "sha256": "e3ec65cdea9d532b28362497a1e433e9e6719e751f4438bfc59572de4397cc3a"
+  },
+  "/root/retro_stage2_20261009/evals/compatibility/selected/compatibility.pt": {
+    "path": "checkpoints/ablations/chemical_prior/compatibility.pt",
+    "sha256": "0e4aaa7c389c8b0ad50495a4e22bc9ca9214183c61c44924f0936d2704b7202e"
+  },
+  "/root/retro_stage2_20261009/eval_package/score.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/score.py",
+    "sha256": "00a32451f7d73c5aa075054b6fd5016f6d20d4c0b79d274d0f40753e88f0bef5"
+  },
+  "/root/retro_stage2_20261009/eval_package/analyze.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/analyze.py",
+    "sha256": "ca547074b8949c798a26c8a26ea710e8b34cef72f0bf58e5eaff080f25042632"
+  },
+  "/root/retro_stage2_20261009/eval_package/sample.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/sample.py",
+    "sha256": "f5b1b7e67f5554e2e73c347cc3b340ca4a7c43dcdae95c217a656e66b946d87d"
+  },
+  "/root/retro_stage2_20261009/eval_package/fusion_replay_debug.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/fusion_replay_debug.py",
+    "sha256": "2777e7dc3f193123486911c65f460600b35e0f07b1ef60e247fd144dbe5d6b59"
+  },
+  "/root/retro_stage2_20261009/eval_package/paired_math.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/paired_math.py",
+    "sha256": "145f6a7cba206f08e97753a7813fb37ae770db9d3f0578ca81075bfb404fc374"
+  },
+  "/root/retro_stage2_20261009/eval_package/decode.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/decode.py",
+    "sha256": "c38e62648392cfc43a835b015fbf114220232aa78a7e4688c47f3c83616fa2e5"
+  },
+  "/root/retro_stage2_20261009/eval_package/freeze_eval.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/freeze_eval.py",
+    "sha256": "484becdcf2bce6002c980c026d4b95b7f0dd428d7d39b3cc8078b616ca1ace1d"
+  },
+  "/root/retro_stage2_20261009/eval_package/environment_preflight.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/environment_preflight.py",
+    "sha256": "2a551428c82e3247d6e82bfa3330fc3867aa07474d74611006e053650bbae0dd"
+  },
+  "/root/retro_stage2_20261009/eval_package/reference_replay.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/reference_replay.py",
+    "sha256": "f0d611a15aa57a8bbde41ed16da7ecad0e6f2d089bd56c787c35fe0a7259f2be"
+  },
+  "/root/retro_stage2_20261009/eval_package/validate_raw.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/validate_raw.py",
+    "sha256": "5b7b5e948e72dde3e5421c9125ae3b8c8bf2f1c7255489034f19163c4f7caa0e"
+  },
+  "/root/retro_stage2_20261009/eval_package/portable_common.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/portable_common.py",
+    "sha256": "c128981312f70ec7e4be9cc6089add95fcf540535bc429672d5c085e68fba144"
+  },
+  "/root/retro_stage2_20261009/eval_package/build_cpu_fixtures.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/eval_package/build_cpu_fixtures.py",
+    "sha256": "4d5b1e3d9be069c375561ffd4683c989a7c6f9e53bb0bb92b8787917a93dcafe",
+    "source_sha256": "d3534c7e396c9fa08424955c0f180330ea663b121c6ac005d1b29f1d643239eb"
+  },
+  "/root/retro_stage2_20261009/graph_package/audit_observed_cache.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/graph_package/audit_observed_cache.py",
+    "sha256": "b382b4f23ab5ea3e316025d01dfe51191678d37721d94dc776f479e833e5251b",
+    "source_sha256": "ba6aa0ef798ea17d9b6042836d322f7acfba711dc2c147d0c065dac8671925b3"
+  },
+  "/root/retro_stage2_20261009/graph_package/__init__.py": {
+    "path": "src/spectraretro/completion/graph_package/__init__.py",
+    "sha256": "1eb2de3aa1534f5d3ea9d6bdbf4b70da78ad8d2677b5ad8e46d8ffef6775fc79"
+  },
+  "/root/retro_stage2_20261009/graph_package/verify_graph_cpu.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/graph_package/verify_graph_cpu.py",
+    "sha256": "4f0cf0c1d7d4e2485bcd525d1327ead1a3db90c8a1c19c3ebab99778b9c08720"
+  },
+  "/root/retro_stage2_20261009/graph_package/graph_model.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/graph_package/graph_model.py",
+    "sha256": "da9aeb35b28c3b46124ddd1afe2e5c71f4789c9427705fc792b4a0c91dca8688",
+    "source_sha256": "8a01130aadf0662445a4a4eb9f9486e2a954a5e87fe3d6f852bf1176c510bf7b"
+  },
+  "/root/retro_stage2_20261009/graph_package/graph_data.py": {
+    "path": "src/spectraretro/completion/graph_package/graph_data.py",
+    "sha256": "37c77f7389408971d86bd35d9bc7b3e387e5c97c2205036e9b6e17ace88365c6"
+  },
+  "/root/retro_stage2_20261009/graph_package/write_provenance.py": {
+    "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/graph_package/write_provenance.py",
+    "sha256": "b067acf1cd62ff1a143bdefdca9fc262253736297511721629c6786f8a015a21"
+  }
+}

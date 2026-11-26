@@ -1,0 +1,10 @@
+numpy==1.26.4
+rdkit-pypi==2022.9.5
+torch==2.1.2
+torchdrug==0.2.1
+torch-scatter==2.1.2
+torch-cluster==1.6.3
+tqdm
+
+# This is a separate Python 3.10 environment. Torch-scatter and torch-cluster
+# wheels must match the installed PyTorch and CUDA versions.

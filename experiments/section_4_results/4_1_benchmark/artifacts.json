@@ -1,0 +1,377 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_1_benchmark",
+  "paper_items": [
+    "Table 1"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+      "path": "configs/known_full.json",
+      "role": "Repository-root full benchmark configuration",
+      "kind": "original_file",
+      "bytes": 1354,
+      "sha256": "a3598cf090a11a9596881139a5bd635d0809b344a7c2560d35d56ac39ecff8c5"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/metrics.json",
+      "path": "known-class/results/full/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8713,
+      "sha256": "bc856505c0781465b2525b0811c1554020306f94521bcef689f0b19f2aac8a7d",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/reaction_metrics.json",
+      "path": "known-class/results/full/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 7109792,
+      "sha256": "2ec6609d7f2d1546c231d90fc5dd2097a20b4852c459cc9fcb6a75fdfb87c9b8",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed0/metrics.json",
+      "path": "known-class/results/small/seed0/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 11228,
+      "sha256": "e184370eb4463ffc4f17ef6fe95ec49cca0cdbaa002686e2c662949a24f7fae0",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed0/reaction_metrics.json",
+      "path": "known-class/results/small/seed0/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 2018093,
+      "sha256": "880625ffe36d37e4d9de4d9203eaf1cd81ca18a09181bef8ffb485b568c9ba6a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed1/metrics.json",
+      "path": "known-class/results/small/seed1/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8566,
+      "sha256": "974c90aa96f0acb587e6121565d022803b7c32e9dd98b051c6418c39cdc4f2f5",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed1/reaction_metrics.json",
+      "path": "known-class/results/small/seed1/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 1848441,
+      "sha256": "d815e36fa40e427477da40585c79999f54263edd9d5237805c8098c187c5dc05",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed2/metrics.json",
+      "path": "known-class/results/small/seed2/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8533,
+      "sha256": "300b6cc06df2338d7eaea5d1a8fee9ef9dd616e3dac069fc2e8dd2954517e4dd",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/results/small/seed2/reaction_metrics.json",
+      "path": "known-class/results/small/seed2/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 1848484,
+      "sha256": "c1e72e1e9b9463cbc5865113edde4aef095768d02483fd9e6b9ceef2060658b2",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json",
+      "path": "configs/unknown_full.json",
+      "role": "Repository-root full benchmark configuration",
+      "kind": "original_file",
+      "bytes": 1363,
+      "sha256": "521a0808927d66a8a95d6282754398591fd6a562ddeda4ccabfd2e200ef34b23"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/full/metrics.json",
+      "path": "unknown-class/results/full/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8708,
+      "sha256": "1aa4649ebbc61341f7ac69f1c80ead01861618a5f18c17b6ff72b92178298389",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/full/reaction_metrics.json",
+      "path": "unknown-class/results/full/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 6855111,
+      "sha256": "832beb318630cb66f686c2a37d1e185f898618382fe0f00a94029af11ae0d492",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed0/metrics.json",
+      "path": "unknown-class/results/small/seed0/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 11273,
+      "sha256": "5630752ac921b01db2ee5d8f745535233b53405dedc341574d96b4361cbcc9d8",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed0/reaction_metrics.json",
+      "path": "unknown-class/results/small/seed0/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 2026367,
+      "sha256": "f478396f0083eb3db79db3fd360f68d3c847f093ed25aa4a421f957ea11a2e55",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed1/metrics.json",
+      "path": "unknown-class/results/small/seed1/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8543,
+      "sha256": "0a1cab46bde525d3ebf65b30068c798bb461f8a00e30ee1f6b851abd3dbdcc1d",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed1/reaction_metrics.json",
+      "path": "unknown-class/results/small/seed1/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 1856641,
+      "sha256": "e7ca05bc471a4602f0e9f3bec145aec5779b8bfe720613bea0c4a420a372902f",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed2/metrics.json",
+      "path": "unknown-class/results/small/seed2/metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 8547,
+      "sha256": "fa966941a63571421b857daf88cefcc13e65a8c5214fb041bdf3e2054451eac9",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed2/reaction_metrics.json",
+      "path": "unknown-class/results/small/seed2/reaction_metrics.json",
+      "role": "Protocol-specific saved benchmark observations",
+      "kind": "original_file",
+      "bytes": 1856587,
+      "sha256": "f81c143479764535e6fb68d9796e4ab14abe74185e91280e050815daca932d99",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/known_seed0_protocol.json",
+      "path": "../../../results/reproduction/small/known_seed0_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 41399,
+      "sha256": "8a26daae6e454205f017c6e820d65a462089e909c8ac70505c2fc73997349578",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/known_seed1_protocol.json",
+      "path": "../../../results/reproduction/small/known_seed1_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 39323,
+      "sha256": "578bd0d5190380c316c3ff175b7b7c028d1b9d668edfad59fd5996b1ef1314b6",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/known_seed2_protocol.json",
+      "path": "../../../results/reproduction/small/known_seed2_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 39323,
+      "sha256": "0007df4b8ac8e742abd9bdff35a8b89adf1083e02994e0d2912db0be95912e95",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/unknown_seed0_protocol.json",
+      "path": "../../../results/reproduction/small/unknown_seed0_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 41412,
+      "sha256": "25379bdb0f1bf7b82c02a862ad48b4381556bb58694a4ca329aca996b0671c76",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/unknown_seed1_protocol.json",
+      "path": "../../../results/reproduction/small/unknown_seed1_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 39330,
+      "sha256": "1e3921404e819b956638ecc03206dde6cf461fe473e2c59d0fdac49749a8ec51",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/small/unknown_seed2_protocol.json",
+      "path": "../../../results/reproduction/small/unknown_seed2_protocol.json",
+      "role": "Original per-mode, per-seed small-set protocol",
+      "kind": "original_file",
+      "bytes": 39331,
+      "sha256": "8fd6971e63a185c38b69d615210c936df0554cf7d65a14e913528ddf67403775",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "configs/experiments/small_completion.json",
+      "path": "provenance/small_completion.json",
+      "role": "Run, checkpoint, frozen input and protocol paths for each small-set evaluation",
+      "kind": "original_file",
+      "bytes": 27832,
+      "sha256": "832dd9532932043f872744bccba0e151436fa908a6a365e7521f685dffe4c2d4"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/baselines.csv",
+      "path": "../../../results/reference_tables/reproduced_results/baselines.csv",
+      "role": "Saved table replay from reaction-level records",
+      "kind": "original_file",
+      "bytes": 30092,
+      "sha256": "71e177532a06e142c7177451ad91d3ae01a8a895768ba7f188bf1963a6fae0b6",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_full.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_full.csv",
+      "role": "Saved table replay from reaction-level records",
+      "kind": "original_file",
+      "bytes": 17844,
+      "sha256": "09b4654ee4c54aa65c8e4953b9e421c58e5a73ad42cfb5a41188269e3d1fd15f",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small.csv",
+      "role": "Saved table replay from reaction-level records",
+      "kind": "original_file",
+      "bytes": 60218,
+      "sha256": "ff5b82218395441823205639851c5f2c74fb929bb15d74092d8774909459839e",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small_summary.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small_summary.csv",
+      "role": "Saved table replay from reaction-level records",
+      "kind": "original_file",
+      "bytes": 19478,
+      "sha256": "8303eea55175cff3e6dd1d0113e0ad3467c361f7673fd25a254b9a36074ae762",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/paper_tables/table1_reported.csv",
+      "path": "../../../results/paper_tables/table1_reported.csv",
+      "role": "Manuscript-reported Table 1, with its original identity",
+      "kind": "original_file",
+      "bytes": 10763,
+      "sha256": "8d90b5dac7f2f56a56aef978438245ff630b388d698e266544d7a99297d827eb",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/baselines/summary.json",
+      "path": "../../../results/baselines/summary.json",
+      "role": "Baseline metrics and evidence coverage",
+      "kind": "original_file",
+      "bytes": 37475,
+      "sha256": "c2bf05004c8d748ff57435095690fd0700502bbf7fba89443fc43c7c005d7151",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+      "path": "known-class/checkpoints/completion_model.pt",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+      "kind": "original_file",
+      "bytes": 8545745,
+      "sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/size_model.pt",
+      "path": "known-class/checkpoints/size_model.pt",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/known-class/checkpoints/size_model.pt",
+      "kind": "original_file",
+      "bytes": 1238645,
+      "sha256": "7078d645561ee936445f897d18ca2bd708aed341319796741d679f87fa560ec3",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/reaction_center.pth",
+      "path": "known-class/checkpoints/reaction_center.pth",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/known-class/checkpoints/reaction_center.pth",
+      "kind": "original_file",
+      "bytes": 64488227,
+      "sha256": "e4c31b6c4a2980171eafa19bdef47b1726169cdd39e155e30ea3971b8032ca50",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/completion_model.pt",
+      "path": "unknown-class/checkpoints/completion_model.pt",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/completion_model.pt",
+      "kind": "original_file",
+      "bytes": 8441061,
+      "sha256": "b483918f9df9ccdf26b6d838ffbc0c4c8c9c0b129e01c0867fd9f57102c3fcf0",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/size_model.pt",
+      "path": "unknown-class/checkpoints/size_model.pt",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/size_model.pt",
+      "kind": "original_file",
+      "bytes": 1238645,
+      "sha256": "e0702f9cf5298fae1127e029953c3c77cb8847e6d3ef30ebcbbf264b12dd5718",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/reaction_center.pth",
+      "path": "unknown-class/checkpoints/reaction_center.pth",
+      "role": "full_set_inference: experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/reaction_center.pth",
+      "kind": "original_file",
+      "bytes": 64293383,
+      "sha256": "3493b56d5d8664a48df4ff6fe3183e26fca5ab163243150ccd56ee295f0672fd",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "checkpoints/composition_prior.pt",
+      "path": "../../../checkpoints/composition_prior.pt",
+      "role": "shared_composition_prior: checkpoints/composition_prior.pt",
+      "kind": "original_file",
+      "bytes": 11559640,
+      "sha256": "5fda29c0f1339710d26608e9a257bc106e69b91e03ed1bbe3abb767c9097b589",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "tables/table_1.tex",
+      "role": "Table 1: Top-$k$ exact-match accuracies (\\%) of SpectraRetro and baseline models on CHRetro, evaluated on the full dataset and the small-scale evaluation subset.",
+      "paper_item": "Table 1",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 43303,
+      "source_character_end": 46574,
+      "source_sha256": "17aa11469621e8b811b20773a1dcb4de730e2b0b60b1115bdfd4aae072877ef0",
+      "sha256": "b5101fe043da2fd76516ed40bde3514610d622c4b8c344cf5e6be99aec295d35",
+      "bytes": 3271,
+      "source_document": "manuscript.tex"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/run.py",
+    "src/spectraretro/known-class/run.py",
+    "src/spectraretro/unknown-class/run.py",
+    "src/baselines",
+    "scripts/reproduce_results.py"
+  ],
+  "shared_data": [
+    "datasets/full",
+    "datasets/small",
+    "experiments/spectraretro_inputs",
+    "experiments/section_4_results/4_1_benchmark/baseline_preprocessing_manifests"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "file": "descriptor_correlations.csv",
+    "sha256": "5c000789ce9459d3a01eb009c2bdd40249d5a9b395fed6a41a1fd9298f67d2be",
+    "bytes": 12785
+  },
+  {
+    "file": "electronic_pairs.csv",
+    "sha256": "2d3382cf57b15bfe77e62737c6708fe06c569ba2162aa44c877693435509e108",
+    "bytes": 618
+  },
+  {
+    "file": "factor_catalog.csv",
+    "sha256": "f21520ee7a1ce8d45b116417e03eb21fcd895a4b47bb06129168e9eb1741307d",
+    "bytes": 4506
+  },
+  {
+    "file": "factor_summary.json",
+    "sha256": "8780165a3211fbafb85b9ae8a94eeb70ddeae2d3305f5eaf612037271bea4e5e",
+    "bytes": 1166
+  },
+  {
+    "file": "mantel_associations.csv",
+    "sha256": "e856027fa0fc9b133f9e5386bbeaa58cc0101f6e8acad1b0cb5b866596f29704",
+    "bytes": 8768
+  },
+  {
+    "file": "steric_fragments.csv",
+    "sha256": "932126d23756aa9284d6f6f03cd88109135b1c0fb99979b7e075dd7ec2e7409b",
+    "bytes": 5710
+  },
+  {
+    "file": "steric_geometry_curves.csv",
+    "sha256": "2ea1a2753d894fb2e35bd67bbccc3ca749c74beb93d5d8c97e88fddf622aad50",
+    "bytes": 65858
+  },
+  {
+    "file": "steric_orientations.csv",
+    "sha256": "2699aee2204e344169b2bf074b469299d5317c3fd86a2de85e1a98f2fc552fc3",
+    "bytes": 21244
+  },
+  {
+    "file": "chemical_preferences.csv",
+    "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0",
+    "bytes": 8224
+  },
+  {
+    "file": "dft_per_structure.csv",
+    "sha256": "ece0a291843d878d74b5f989c7b7eb478b8f83acaf556afde2773a5828d6f21d",
+    "bytes": 17909
+  },
+  {
+    "file": "dft_paired_electronic_comparison.csv",
+    "sha256": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da",
+    "bytes": 13286
+  },
+  {
+    "file": "dft_alternative_N_controls.csv",
+    "sha256": "3d66abd88f8dd3b67accac18ac2e62fc001ea25bcd17943568fdf8696bca73f2",
+    "bytes": 4795
+  },
+  {
+    "file": "dft_summary.json",
+    "sha256": "4db6e47ce5aab977a643c767033a0be3944d0a7a6531559b80e0fa51205af793",
+    "bytes": 58574
+  },
+  {
+    "file": "electronic_within_parent_controls.csv",
+    "sha256": "e6e4966de757d91048e8f8f2d4775b59372a44c0df9149554535da4d7c92342e",
+    "bytes": 486
+  },
+  {
+    "file": "electronic_all_perturbations.csv",
+    "sha256": "fcb1e17c2060ff6c41c6da890bb2be96ff1c8d5fd7fd150457fe3dba164b4fe1",
+    "bytes": 2579
+  },
+  {
+    "file": "steric_leave_one_cluster_out.csv",
+    "sha256": "b1543296628528ffd2416b052dde15c27e7e9c7a25c8642b2badbca47920bba3",
+    "bytes": 1312
+  },
+  {
+    "file": "steric_test_fragment_replay.csv",
+    "sha256": "1a75ca16963073dde3e1f299bb61bd8aeab10d2c734f17b71c2295d75bf62ff9",
+    "bytes": 12234
+  },
+  {
+    "file": "steric_test_angle_replay.csv",
+    "sha256": "e50f2b3fbbcdce07de251f53f6e96a2ec4d1c920722fdeb42bced02d0262a60f",
+    "bytes": 153977
+  },
+  {
+    "file": "analysis_summary.json",
+    "sha256": "69f03781d926d9e0554fb29c94e4ade0a2df12a040118f98b7cfb889d01067b0",
+    "bytes": 6409
+  },
+  {
+    "file": "joined_38_fragments.csv",
+    "sha256": "5dc86af54552d0b56bd9e4b84ad377f6780008ac17c555083566bf7612949494",
+    "bytes": 43386
+  },
+  {
+    "file": "outcome_link_summary.json",
+    "sha256": "b1d497a25da562c27f9e5946b7d829925faf424e2977928f59ee7d8d348bf5db",
+    "bytes": 8255
+  },
+  {
+    "file": "main_figure_six_pairs.csv",
+    "sha256": "eedf730b9c211e0be7042889c72fc6596f3ccf9536018fbc06f072ef3d039bec",
+    "bytes": 2654
+  },
+  {
+    "file": "supplement/manifest.json",
+    "bytes": 80592,
+    "sha256": "b7ba85474f8e0cc02ce47eb13f5bae8c28f40bb0e2e34273fe22de18bc6b7618"
+  }
+]

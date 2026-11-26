@@ -1,0 +1,34 @@
+{
+  "stock": [
+    "C1=COCCC1",
+    "CC(C)CCON=O",
+    "CC(C)N1CCNCC1",
+    "CC1(C)OBOC1(C)C",
+    "CCOC(=O)c1cnco1",
+    "Cc1c(N)cccc1Cl",
+    "Clc1cccc2[nH]ccc12"
+  ],
+  "target": "CC(C)N1CCN(Cc2cnc(-c3cc(-c4cccc5[nH]ccc45)cc4[nH]ncc34)o2)CC1",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "constraints": {
+    "forbidden_smiles": [],
+    "unavailable_stock": [],
+    "require_forward_check": false
+  },
+  "model_mode": "unknown_class",
+  "case_name": "Nemiralisib / GSK2269557",
+  "strategy": "model_order",
+  "budgets": {
+    "max_steps": 12,
+    "max_products": 30,
+    "max_generation_calls": 100,
+    "max_paired_draws": 300,
+    "draws_per_call": 10,
+    "sampling_steps": 100,
+    "max_centers": 3,
+    "max_routes": 3,
+    "max_states": 2000,
+    "max_llm_calls": 12,
+    "page_size": 20
+  }
+}

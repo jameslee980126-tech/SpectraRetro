@@ -1,0 +1,376 @@
+{
+  "files": [
+    {
+      "file": "results/reaction_center/full_spectral_ablation/test/full_fspec_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/test_results/full/full_fspec_seed0.json",
+      "sha256": "f80b46545938cea33074451543a503ebdc69729bccc7e293eddf39e5d076da38",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/test/no_spectral_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/no_spectral_20260914/test_predictions.json",
+      "sha256": "e9666c4fb436e2c7351c1b3820a665f6ca6d468c9a36366ab8faa9051c1d9418",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/validation/full_fspec_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/runs/full/full_fspec_seed0/valid_predictions.json",
+      "sha256": "f555d875b97440bbb29310240ab5aa460c76722e5de6ec6faeda7b6ecc2e3742",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/validation/no_spectral_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/runs/full/no_spectral_seed0/valid_predictions.json",
+      "sha256": "5047f735174a7097a9ab28cc5ace23921be9a9a71c27165324d38f439d1ad92e",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/test/per_reaction.csv",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/no_spectral_analysis_20260914/test_final/per_sample.csv",
+      "sha256": "fc65408ab23f317ceea7890162561e0a913423285cdaabe927a305a52a0c77ac",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/test/stratified_summary.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/no_spectral_analysis_20260914/test_final/summary.json",
+      "sha256": "aeee59289263e7354c1a03044666e9042dae744008c0004a48a6458218afe1ab",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/validation/per_reaction.csv",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/no_spectral_analysis_20260914/validation_final/per_sample.csv",
+      "sha256": "a8deab61232df3b6e19193cb211cc8ef05d6d277aab51554828b9d5a85705157",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/validation/stratified_summary.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/no_spectral_analysis_20260914/validation_final/summary.json",
+      "sha256": "0076cd72be6ffec0e180923228e9088e3ebfc6ea5cd1248b05d40ff99552cb76",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/original_and_direct_metrics.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/no_spectral_20260914/PAIR_RESULTS.json",
+          "sha256": "968b65841165456d13636c3e6d5f629212db6154a8bee0ef0986ad4a031d2afa"
+        }
+      ],
+      "sha256": "d09854a12771235fccb4ac5ca3e5c8e62c3f6ba01c1a5fa4edfb6e10d460c2e7",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/direct_score_stratified.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/no_spectral_analysis_20260914/DIRECT_SCORE_DIAGNOSTIC.json",
+          "sha256": "01352079d3118ee99f9769438c73a627e619e11554c1ac77698b8beee1ff4cbe"
+        }
+      ],
+      "sha256": "c504a0d3fed204fe2217d8b9059d9d7369661349b7f39c12bfc72d9220005001",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/configuration.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_final_complete_20260914/runs/full/full_fspec_seed0/manifest.json",
+          "sha256": "6ef900b0c2d68736a2647f79630f240db69a17aece2f04248f616592757b13b6"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/runs/full/no_spectral_seed0/manifest.json",
+          "sha256": "2873b5ef43bd0bf58bc725964b7619c8cd4dbe736f22ebfac2441be95efced96"
+        }
+      ],
+      "sha256": "ab782498f98d0fed77cd3d09790c1c72a9dbc093b89f3fbf01bd2eb7113a3098",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/training_curves/full_fspec.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_final_complete_20260914/runs/full/full_fspec_seed0/metrics.jsonl",
+      "sha256": "a02ff34823fe0deb94e380e702baeb50084d4a6382087ddc7ed118fca349dfba",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_spectral_ablation/training_curves/no_spectral.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/runs/full/no_spectral_seed0/metrics.jsonl",
+      "sha256": "d63f0e80bc2bf743026cb1a8d306271a16fbdb357c561973dfeecd6c32c74284",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/full_fspec_seed0.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/full_fspec_seed0.json",
+      "sha256": "ce31ba85b54b7cbcdbf1fd454f7e544a2c026f241a7da5c56bedfbebacceb472",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/full_fspec_seed0.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed0/valid_predictions.json",
+      "sha256": "1ee486dcfb7d9f089350196a06a6a76473b4b18bb487c06a94598979f399d016",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/local_pair_seed0.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/local_pair_seed0.json",
+      "sha256": "dede095785025e091badaa973e6874690f51b2fa0a2b639d9634f13dfd18612a",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/local_pair_seed0.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed0_complete/runs/subset/local_pair_seed0/valid_predictions.json",
+      "sha256": "724b452ed0864c993b347c3aa37916e56cd48e09c34d5668c274b1482adca204",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed0.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed0_complete/runs/subset/local_pair_seed0/metrics.jsonl",
+      "sha256": "7bf673bd1369f36972af3acf6843b2a23abd33e844b21917da094728fe669a0a",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/seed0_stratified_summary.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_seed0/review.json",
+          "sha256": "64fa02d098710e65bd355f8bd596efe9991336c99f709b1fbf9cdc648decc557"
+        }
+      ],
+      "sha256": "64dd8c86bb4f7cbaeceac0d021b3f6e04317f18e672743ea9889383eb2aeb571",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/full_fspec_seed1.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/full_fspec_seed1.json",
+      "sha256": "8f1bdeee1ee0f927e221dcec3101c5fbcd3d2a6bce39c6a2a95d50a363898fa1",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/full_fspec_seed1.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed1/valid_predictions.json",
+      "sha256": "59ea908b03fbe4fa941873c9a25a63ae5c68c05f49010c5fe6c374a25eac404e",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/local_pair_seed1.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/local_pair_seed1.json",
+      "sha256": "21c1f80baed4a60f04d679b4f6368dc34b616f41efd602745d05baccabc2b702",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/local_pair_seed1.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed1_complete/runs/subset/local_pair_seed1/valid_predictions.json",
+      "sha256": "57f4e7fb308009bcb6f3f2039a27429b723348d240c4a4073143b5b95e7d4ed3",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed1.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed1_complete/runs/subset/local_pair_seed1/metrics.jsonl",
+      "sha256": "e86169491202a709e94773eb0c6190e836897539a5a49cccdb8a2a140e17fab0",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/seed1_stratified_summary.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_seed1/review.json",
+          "sha256": "add3822105f0d778ad797457270eabe0b8587a0ff96dfdd76e3be2855ef395f8"
+        }
+      ],
+      "sha256": "8e36fcf57a2167f6a0397b664a123778c2c45597719dfd2cfe098c2434646441",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/full_fspec_seed2.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/full_fspec_seed2.json",
+      "sha256": "b3fe55bdadc5a5d3ebf03b3bf15a079f4f5f562e58e8e1edc9458acd5baa8c9e",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/full_fspec_seed2.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed2/valid_predictions.json",
+      "sha256": "cf816c3aecaab0783a7b4dc70582476fa711bcf118229082165d5fd683021d66",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/local_pair_seed2.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_final_test_complete/test_results/subset/local_pair_seed2.json",
+      "sha256": "f8a6644d81b6bc971c7f9f48e174697f175f4f2e8450e37cc839d1a92fe90ef6",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/local_pair_seed2.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed2_complete/runs/subset/local_pair_seed2/valid_predictions.json",
+      "sha256": "70d5fa01490caa26c12f19e66bbd369054dbe81b6c880a182b6ac4c84cc94d37",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/training_curves/local_pair_seed2.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed2_complete/runs/subset/local_pair_seed2/metrics.jsonl",
+      "sha256": "eefb70493fc265207eaccdff39750595eda05781929416cf58ef34e6996870d1",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/seed2_stratified_summary.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_seed2/review.json",
+          "sha256": "811c846164bd53d6319d3bc10ae342ed177f59543604e784509f1a4fa1c0058a"
+        }
+      ],
+      "sha256": "df8eff6cf73c7021ecb912cb74a01e0a37f10fd0dac11a56d18643baa807e6de",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/summary.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_final_test/summary.json",
+          "sha256": "44630d7ad8365d4d18c0ebb36997fd7709198be1817fd0debd54f35ffed74732"
+        }
+      ],
+      "sha256": "090137adae4692578023df29ba92b8d9196c871e8c4b7498ee665645dfe47d8c",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/per_seed.csv",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_final_test/per_seed.csv",
+      "sha256": "86c47b998418727f2fbfb8ccce5586b216126a27d52e49b60319b49871af2dbe",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/summary.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/paired_reviews/subset_three_seed/summary.json",
+          "sha256": "66d6a7d388c759919f2f13a08b06e4733838448b972d38666bfb000409a4048a"
+        }
+      ],
+      "sha256": "9587dc5bfa6a99b46e4d660489200a1723f0658c1fcb663879472f8e72668e53",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/configuration.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed0/manifest.json",
+          "sha256": "e5c6c5e145863e7b742b18e518aa773c68d1abae9659a80c62608d341c63ec41"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed1/manifest.json",
+          "sha256": "bdbed1ba9a98d8020da4a7c288003782c1cf46ec7b9f3353ae80a33b8bc995aa"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/subset/baseline_seed2/manifest.json",
+          "sha256": "2f0e1a5de1abfc509233574933330410dffb03450e26e7f4a2e3b130f5326c3d"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed0_complete/runs/subset/local_pair_seed0/manifest.json",
+          "sha256": "b77aa46f17c28a8b59949be56f5887c18082bc269c17052c86bb505c855cc311"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed1_complete/runs/subset/local_pair_seed1/manifest.json",
+          "sha256": "5f94e8269f639a70f783153f8358042d3c5a228fd40c3e8b8829043003ca4c1f"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/subset_seed2_complete/runs/subset/local_pair_seed2/manifest.json",
+          "sha256": "aadc7bd6d4f1480bfa4b0585e45d1665ed04bc51b5c15ad7e1e89092ed6c3533"
+        }
+      ],
+      "sha256": "105d3f19f6bf01c67ace458e41afc0e593f8f89e266933f6baf9c0f9f529b567",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/test/similarity.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/subset/data/test_similarity.json",
+      "sha256": "1d07b6b8280a3406fa1f47ec9a626a0251b0eae51b9e61d4fa985d47f0b9a5cd",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/small_local_propagation/validation/similarity.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/subset/data/valid_similarity.json",
+      "sha256": "533486c7690299b99ce56edf68e7e486ae4f9e02d2097fa9d6e559aa741dae19",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/test/rgcn_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_final_complete_20260914/test_results/full/ordinary_rgcn_seed0.json",
+      "sha256": "64778b353217437efa670e7c4d85d06cc8612378c4878221119e2983dff959cb",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/test/per_reaction.csv",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/full_pair_diagnostics_20260914/test_final/per_sample.csv",
+      "sha256": "462eca3b79d0167510ed81faad72b5b7ab30643fd06c9d40d1a7f22d02011719",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/test/stratified_summary.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/full_pair_diagnostics_20260914/test_final/summary.json",
+      "sha256": "569eb8fac722168a0e2a6c1c3243598d3ff013cefbaa70dedb35d68f262d6c53",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/validation/rgcn_predictions.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_ordinary_rgcn_seed0_complete/runs/full/ordinary_rgcn_seed0/valid_predictions.json",
+      "sha256": "78991211736093df0858963197a6bccae75018cfdd181efcef7bd0b7562fa787",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/validation/per_reaction.csv",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/full_pair_diagnostics_20260914/validation_final/per_sample.csv",
+      "sha256": "9116d9d1034d5954844e7d7e547e79e0123fec157d34549deab217e87eda8e22",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/validation/stratified_summary.json",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/full_pair_diagnostics_20260914/validation_final/summary.json",
+      "sha256": "b7f35b7338778810824740fe6b02360b8f9d9e5b0564f5641f2d9bbadf289ff3",
+      "format": "byte_identical"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/direct_score_diagnostic.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/full_pair_diagnostics_20260914/FINAL_SCORE_SENSITIVITY.json",
+          "sha256": "13d6cb2b39d4b165ed896a73299b3cacc06d5305ef9b5107fa43fd8b6e5bc3e5"
+        }
+      ],
+      "sha256": "b04f9aae6acffd93ff6e5439c4e871b0c3750a785e73c0d8398b23de62bdc313",
+      "format": "selected_scientific_fields"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/configuration.json",
+      "source_files": [
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_ordinary_rgcn_seed0_complete/runs/full/ordinary_rgcn_seed0/manifest.json",
+          "sha256": "3eef715e64156e5c58566844282f56c6f4ede43764dcf9b4b9b579912ac18ac9"
+        },
+        {
+          "path": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_ordinary_rgcn_seed0_complete/runs/full/ordinary_rgcn_seed0/result.json",
+          "sha256": "69fdeed424f9ab52bf511d95536d4c9c80bca6bb43902d74f0824af89f5ab0b7"
+        }
+      ],
+      "sha256": "01bd6e410cbe2690e58f6250e58795bf8d313f91fb3374908175b8717b35bcc0",
+      "format": "scientific_configuration_with_repository_relative_paths",
+      "source_sha256": "0de8a65d1f08bf24dbc7b13e435928ecac1866cf4411d98be48ee9c5207f3e5c"
+    },
+    {
+      "file": "results/reaction_center/full_rgcn_comparison/training_curves/rgcn.jsonl",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_ordinary_rgcn_seed0_complete/runs/full/ordinary_rgcn_seed0/metrics.jsonl",
+      "sha256": "725c11e877ee6e0f6ff35143a26b71eb57ccd17321572eb44ee5c268527b1b58",
+      "format": "byte_identical"
+    },
+    {
+      "file": "src/spectraretro/reaction_center/ablations/local_pair.py",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/local_pair.py",
+      "sha256": "c56a6cd5f993e5c1e7ce4de74f325b7abcf06225f5001ac999f9d0ddc2b3e17b",
+      "format": "byte_identical"
+    },
+    {
+      "file": "src/spectraretro/reaction_center/ablations/spectral_deletion.py",
+      "source": "experiments/stage1_full_spectral_ablation_20260913/server_artifacts/full_no_spectral_seed0_complete/no_spectral_20260914/historical_models_ablation.py",
+      "sha256": "c79d863b62582e28102cc4329f4dfabe1f180e557d25701d8a026c4271d43c49",
+      "format": "byte_identical"
+    }
+  ]
+}

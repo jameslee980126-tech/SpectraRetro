@@ -1,0 +1,7 @@
+﻿Task and population,Configuration,Top-1 (%),Top-3 (%),Top-5 (%)
+"Center identification, full test set",Without full-spectrum learning,64.79,92.30,97.45
+"Center identification, full test set",With full-spectrum learning,89.36,98.71,99.66
+"Complete-precursor recovery, small test set",Without full-spectrum learning,43.17,74.33,78.33
+"Complete-precursor recovery, small test set",With full-spectrum learning,60.13,76.46,79.50
+"Complete-precursor recovery, small validation set",Without chemical-prior guidance,54.96,72.13,75.08
+"Complete-precursor recovery, small validation set",With chemical-prior guidance,60.75,73.79,75.71

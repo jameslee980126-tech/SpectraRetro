@@ -1,0 +1,79 @@
+{
+  "model": "GLN",
+  "beam_size": 10,
+  "artifacts": {
+    "predictions_jsonl": "<reference-runtime-path>",
+    "predictions_sha256": "45DDE9F4762D31AB08D9D6D0BB7256FB2FCF48FCD036E1C8E9AC3DE60262CC6B",
+    "selected_test": "<reference-runtime-path>",
+    "selected_test_sha256": "9FD0E110A733462561BE5E1C3BE01B45E7B4F2A9C2488D7A7646DC50F9A00DE4"
+  },
+  "unified_canonical": {
+    "denominator": "all_frozen_test_rows",
+    "total_reactions": 9250,
+    "prediction_rows_present": 9250,
+    "missing_prediction_rows": 0,
+    "invalid_prediction_occurrences": 0,
+    "duplicate_prediction_occurrences": 27170,
+    "candidate_ranking": "model_native_order",
+    "rank_slot_policy": "invalid_and_duplicate_candidates_consume_original_model_rank",
+    "canonical_deduplication": "first_occurrence_retained_without_rank_compaction",
+    "precursor_comparison": "map_free_stereo_preserving_order_independent_set",
+    "Top-1": 0.7048648648648649,
+    "Top-3": 0.8113513513513514,
+    "Top-5": 0.8460540540540541,
+    "Top-10": 0.8728648648648649,
+    "by_class": {
+      "1": {
+        "total_reactions": 2438,
+        "Top-1": 0.7251845775225595,
+        "Top-3": 0.8785890073831009,
+        "Top-5": 0.9290401968826907,
+        "Top-10": 0.9634946677604594
+      },
+      "2": {
+        "total_reactions": 1371,
+        "Top-1": 0.8176513493800146,
+        "Top-3": 0.8789204959883297,
+        "Top-5": 0.8964259664478483,
+        "Top-10": 0.9022611232676878
+      },
+      "3": {
+        "total_reactions": 1882,
+        "Top-1": 0.7167906482465463,
+        "Top-3": 0.781615302869288,
+        "Top-5": 0.8071200850159405,
+        "Top-10": 0.832624867162593
+      },
+      "4": {
+        "total_reactions": 549,
+        "Top-1": 0.18214936247723132,
+        "Top-3": 0.2204007285974499,
+        "Top-5": 0.23861566484517305,
+        "Top-10": 0.2459016393442623
+      },
+      "5": {
+        "total_reactions": 1574,
+        "Top-1": 0.6994917407878017,
+        "Top-3": 0.8335451080050826,
+        "Top-5": 0.8824650571791613,
+        "Top-10": 0.9186785260482846
+      },
+      "6": {
+        "total_reactions": 1436,
+        "Top-1": 0.7527855153203342,
+        "Top-3": 0.8732590529247911,
+        "Top-5": 0.9004178272980501,
+        "Top-10": 0.9331476323119777
+      }
+    }
+  },
+  "native_from_export": {
+    "available": true,
+    "supported_rows": 9250,
+    "rows_with_native_hit_rank": 8072,
+    "Top-1": 0.7046486486486486,
+    "Top-3": 0.8111351351351351,
+    "Top-5": 0.8458378378378378,
+    "Top-10": 0.8726486486486487
+  }
+}

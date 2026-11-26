@@ -1,0 +1,185 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_8_chretroagent",
+  "paper_items": [
+    "Figure 5"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/agent_case_inputs.csv",
+      "path": "../../../datasets/supplementary_data/agent_case_inputs.csv",
+      "role": "Pharmaceutical targets or recorded terminal inventory",
+      "kind": "original_file",
+      "bytes": 586,
+      "sha256": "972fd10bd033460a9f29dc61796c7a8425d43431bfb3ee68355542a5f51da6fb",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/agent_terminal_inventory.csv",
+      "path": "../../../datasets/supplementary_data/agent_terminal_inventory.csv",
+      "role": "Pharmaceutical targets or recorded terminal inventory",
+      "kind": "original_file",
+      "bytes": 554,
+      "sha256": "75a160ecc0572eaf3d2290775472e8e8c6006beaeab43782bc7f13bf0072344d",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/agent_route_steps.csv",
+      "path": "../../../datasets/supplementary_data/agent_route_steps.csv",
+      "role": "Observed pharmaceutical-route steps and whole-route scores",
+      "kind": "original_file",
+      "bytes": 8428,
+      "sha256": "c8a061b318ef52eb70f65417960f1ef231ce7f0b9483beeb153325bd8c1dd998",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/agent_route_results.csv",
+      "path": "../../../datasets/supplementary_data/agent_route_results.csv",
+      "role": "Observed pharmaceutical-route steps and whole-route scores",
+      "kind": "original_file",
+      "bytes": 1498,
+      "sha256": "f8473cc286e53d9d412dda13fc95d64825e7da707decdd468a94fd2fe6c6f81a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_assessment/lapatinib_assessed.json",
+      "path": "../../../results/cases/agent_assessment/lapatinib_assessed.json",
+      "role": "Saved route-assessment inputs and outputs",
+      "kind": "original_file",
+      "bytes": 47556,
+      "sha256": "a8b32def9c01c96cb1219e793aff5cd1f4e7a72f40e4cf8e730b44030fc9e3ed",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_assessment/manifest.json",
+      "path": "../../../results/cases/agent_assessment/manifest.json",
+      "role": "Index of assessed routes with case-specific file identities, scoring coverage and backend identification",
+      "kind": "original_file",
+      "bytes": 1404,
+      "sha256": "c18e99e21f0419541647f3f494d64c91be068581d796a543a16f540f686c1b45",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_assessment/nemiralisib_assessed.json",
+      "path": "../../../results/cases/agent_assessment/nemiralisib_assessed.json",
+      "role": "Saved route-assessment inputs and outputs",
+      "kind": "original_file",
+      "bytes": 195111,
+      "sha256": "acd3691c5c8fada4f911eefecc86363f57b4f2436d2f916d6fb39077e5442647",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_assessment/tafamidis_assessed.json",
+      "path": "../../../results/cases/agent_assessment/tafamidis_assessed.json",
+      "role": "Saved route-assessment inputs and outputs",
+      "kind": "original_file",
+      "bytes": 114793,
+      "sha256": "f573235196d967a28e3a38c41845bcd76a9628659bcceac02270233aa2a3cb1a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/artifact_sha256.json",
+      "path": "../../../results/cases/agent/artifact_sha256.json",
+      "role": "Original path and checksum inventory for route artifacts",
+      "kind": "original_file",
+      "bytes": 1778,
+      "sha256": "531728d794f6ce62a1f049321731ba65a6a1daf1fb15901bdbcffac7e73d9b06",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/candidate_pools.json",
+      "path": "../../../results/cases/agent/candidate_pools.json",
+      "role": "Original agent route records",
+      "kind": "original_file",
+      "bytes": 11543901,
+      "sha256": "010600078a99e42451d36b88d3e26f2ff731a98a2ea828bf3f636f26fa19bdf2",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/combination_audit.json",
+      "path": "../../../results/cases/agent/combination_audit.json",
+      "role": "Original agent route records",
+      "kind": "original_file",
+      "bytes": 2147,
+      "sha256": "2e19a28185709a30ab90fd7a68cc34aa6f00436f243160653a04cb602bf392bf",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/input_product_mapping.json",
+      "path": "../../../results/cases/agent/input_product_mapping.json",
+      "role": "Link between route steps, molecular products and input fragments",
+      "kind": "original_file",
+      "bytes": 4938,
+      "sha256": "5615741f0b8e6f592ad4534ac8ef1eda15cecfcf612a39a947b7541ba3a2234b",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/protocol.json",
+      "path": "../../../results/cases/agent/protocol.json",
+      "role": "Evaluation conditions and starting-material inventory for the drug route cases",
+      "kind": "original_file",
+      "bytes": 2733,
+      "sha256": "d933459d1528130435fb0cf5d42e27e0a6ff6bec2cd5da0f92b74733fed3c6af",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent/report.json",
+      "path": "../../../results/cases/agent/report.json",
+      "role": "Original agent route records",
+      "kind": "original_file",
+      "bytes": 2798,
+      "sha256": "d942c679eee7d4c956999bbfa2d58e74dff2d3857ad7a51127cd3a6fc3b10554",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_generation/protocol.json",
+      "path": "../../../results/cases/agent_generation/protocol.json",
+      "role": "Archived conditional route-generation protocol or model identities",
+      "kind": "original_file",
+      "bytes": 8461,
+      "sha256": "861cc6111cee00bb854d760e981147ddba6871cc7efb7c4f348189ca2b44883f",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_generation/selected_model_manifest.json",
+      "path": "../../../results/cases/agent_generation/selected_model_manifest.json",
+      "role": "Original selected parameter identities for the conditional route-generation arm",
+      "kind": "original_file",
+      "bytes": 962,
+      "sha256": "a85ea5d1e682d33289e8eff71ed02ea3797867815160550a047e0632ab0dfeda",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/agent_generation/whole_routes/requests.json",
+      "path": "../../../results/cases/agent_generation/whole_routes/requests.json",
+      "role": "Recorded route-search requests for the drug cases",
+      "kind": "original_file",
+      "bytes": 3870,
+      "sha256": "c8106a486e0a82e9ff04396a7d295268bd09635929d207b11c8d529508b3ff72",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "figures/figure_5_chretroagent_case_studies.png",
+      "source_path": "experiments/section_4_results/4_8_chretroagent/figures/figure_5_chretroagent_case_studies.png",
+      "role": "Figure 5: CHRetroAgent routes for lapatinib, nemiralisib and tafamidis",
+      "paper_item": "Figure 5",
+      "kind": "original_file",
+      "sha256": "6188a0d4aa33830e173bd921dd314e03282d1f6b9ccf79611cea1f9dc1ba340b",
+      "bytes": 1145008,
+      "source_asset": "Fig/Figure_5.png"
+    }
+  ],
+  "shared_code": [
+    "src/agentic_retrosynthesis",
+    "CHRetroAgent",
+    "datasets/supplementary_data/route_assessment.py"
+  ],
+  "shared_data": [
+    "datasets/supplementary_data/agent_case_inputs.csv",
+    "datasets/supplementary_data/agent_terminal_inventory.csv"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

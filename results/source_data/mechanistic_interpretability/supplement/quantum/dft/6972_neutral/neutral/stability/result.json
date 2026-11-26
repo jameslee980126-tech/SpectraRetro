@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "passed": true,
+  "numerically_converged": true,
+  "internal_stable": true,
+  "checks": {
+    "source_density_verified": true,
+    "all_three_roots_returned": true,
+    "davidson_all_roots_converged": true,
+    "independent_residuals_passed": true,
+    "finite_eigenvalues_and_residuals": true,
+    "immutable_source_files_unchanged": true
+  },
+  "eigenvalues": [
+    0.5144487872331237,
+    0.5367482570086288,
+    0.5850390497630819
+  ],
+  "davidson_converged": [
+    true,
+    true,
+    true
+  ],
+  "independent_residual_norms": [
+    0.001360295212023389,
+    0.004006698700041999,
+    0.00871471909354889
+  ],
+  "residual_tolerance": 0.01,
+  "hessian_calls": 36,
+  "elapsed_seconds": 1366.264805585146,
+  "initial_orthonormal_trial_rayleigh_quotients": [
+    4.395367440990204,
+    0.7508396361573624,
+    0.7012296683883785,
+    0.6246094567253174
+  ],
+  "seed_indices_0based": [
+    83,
+    167,
+    82
+  ],
+  "preconditioner_diagonal_at_unit_seeds": [
+    0.6029918619187866,
+    0.6206134684243715,
+    0.7458106806967604
+  ],
+  "last_nonterminal_iteration": {
+    "cycle": 10,
+    "subspace": 32,
+    "elapsed_seconds": 1223.6996206082404,
+    "hessian_calls": 32,
+    "eigenvalues": [
+      0.5144490570231495,
+      0.5367621934498715,
+      0.58510437575822
+    ],
+    "residual_norms": [
+      0.0016825247924090218,
+      0.008414051237275818,
+      0.016725461552223014
+    ],
+    "converged": [
+      true,
+      true,
+      false
+    ]
+  },
+  "state_dir": "/root/rivermind-data/dft_electronic_validation_20261109/runs/6972_neutral/neutral",
+  "source_scf_energy_hartree": -1331.76117725411,
+  "molecular_scf_recomputed": false,
+  "completed_at": "2026-11-09T08:59:31.290361+00:00"
+}

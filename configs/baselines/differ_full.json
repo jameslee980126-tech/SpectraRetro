@@ -1,0 +1,61 @@
+{
+  "model": "DiffER single categorical diffusion",
+  "source_commit": "024246cb729417e52d0878f7a2b97941e165ad33",
+  "modes": [
+    "known",
+    "unknown"
+  ],
+  "seed_per_mode": 0,
+  "train": 74146,
+  "valid": 9395,
+  "test": 9250,
+  "test_denominator": "all9250 reaction rows, unsupported rows count as failures",
+  "training_augmentation": 20,
+  "test_augmentation": 5,
+  "samples_per_test_augmentation": 10,
+  "validation": "all9395 reactions, first canonical input per row, one native predicted-length draw, fixed validation RNG1998",
+  "known": "prepend [RXN_1]..[RXN_6] to product encoder input; target unchanged",
+  "unknown": "no reaction class passed to model",
+  "vocabulary": "training inputs and targets only, separate per mode",
+  "model_config": {
+    "d_model": 512,
+    "num_layers": 6,
+    "num_heads": 8,
+    "d_feedforward": 2048,
+    "activation": "gelu",
+    "max_seq_len": 256,
+    "dropout": 0.1,
+    "length_loss": [
+      "cross_entropy"
+    ],
+    "coeff_ce": 1.0,
+    "coeff_vlb": 1.0,
+    "continuous": false,
+    "num_timesteps": 100,
+    "noise_schedule": "loglinear",
+    "noise_schedule_args": {}
+  },
+  "batch_size": 64,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "pad_limit": 20,
+  "early_stop": {
+    "max_epochs": 30,
+    "min_validations": 5,
+    "min_delta": 0.01,
+    "patience": 4,
+    "selection": "strict highest validation mol_accuracy, earliest tie"
+  },
+  "scoring": "primary original raw draw slots Top1/3/5/10; secondary frozen native plurality ranking over50 draws; no test-label ranking",
+  "budget_seconds": {
+    "overall": 129600,
+    "preprocessing": 10800,
+    "training_per_mode": 64800,
+    "inference_per_mode": 43200,
+    "scoring": 3600
+  },
+  "native_candidate_budget": 50,
+  "inference_base_microbatch": 64,
+  "inference_precision": "float32",
+  "execution": "Independent calculation in a new output workspace; stage limits are relative to each new invocation"
+}

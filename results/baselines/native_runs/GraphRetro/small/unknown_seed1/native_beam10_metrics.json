@@ -1,0 +1,10 @@
+{
+  "model": "GraphRetro",
+  "beam_width": 10,
+  "reaction_class": "unknown",
+  "total_native_test_rows": 2400,
+  "Top-1": 0.51875,
+  "Top-3": 0.6979166666666666,
+  "Top-5": 0.7333333333333333,
+  "Top-10": 0.75375
+}

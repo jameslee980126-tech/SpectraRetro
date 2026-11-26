@@ -1,0 +1,193 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_5_error_analysis",
+  "paper_items": [
+    "Figure 3",
+    "Figure S3"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/figure8_case_structures.csv",
+      "path": "data/case_structures.csv",
+      "role": "Structures used for the current Figure 3 and Figure S3 cases",
+      "kind": "original_file",
+      "bytes": 3304,
+      "sha256": "d8484e2abf0dd37461ea8397841d71af617b5627317cb3b857a35c665debbffa"
+    },
+    {
+      "source_path": "results/cases/incorrect_predictions/case_independent_check.json",
+      "path": "../../../results/cases/incorrect_predictions/case_independent_check.json",
+      "role": "Observed prediction discrepancies and model-binding record",
+      "kind": "original_file",
+      "bytes": 14205,
+      "sha256": "e9f85cccb7f9b528649979f51b8e3aaaf98c07e2369a5287ca2e17c7703390e5",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/incorrect_predictions/figure_data.json",
+      "path": "../../../results/cases/incorrect_predictions/figure_data.json",
+      "role": "Figure 3 and Figure S3 case records, display transformations and source identities",
+      "kind": "original_file",
+      "bytes": 2590,
+      "sha256": "775fe0408caaa55585044ec7b443356138e471a2f2e0ab7a1e7da1b4b11943e1",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/incorrect_predictions/weight_binding_review.json",
+      "path": "../../../results/cases/incorrect_predictions/weight_binding_review.json",
+      "role": "Model identity evidence for the selected error cases",
+      "kind": "original_file",
+      "bytes": 31459,
+      "sha256": "47055d8e14a7bf97cf985c2065f00e33c6aa0e1857b20bf94871cfab6613fb66",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/center_error_details.json",
+      "path": "../../../results/error_analysis/center_error_details.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 615202,
+      "sha256": "cd410474088b33bd41cb868b1318c3ef0fdbb3c9d7139319c4e4659269d7a356",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/center_summary.json",
+      "path": "../../../results/error_analysis/center_summary.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 8388,
+      "sha256": "275ac5cdab7a9b46b620ea0183bbd9d6129250e00984068b540b1a6985c70c13",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/chemistry_ambiguity_groups.json",
+      "path": "../../../results/error_analysis/chemistry_ambiguity_groups.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 450901,
+      "sha256": "60eca0ca80ace85cd883005c51dd2b8718ef87f76bec80972ed1c85bc5ca6755",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/chemistry_summary.json",
+      "path": "../../../results/error_analysis/chemistry_summary.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 554113,
+      "sha256": "5762ec995ec21a5d56f1182e6219b7bd2eb3b82f80fb129e011433c9122e1838",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/retro_summary.json",
+      "path": "../../../results/error_analysis/retro_summary.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 5587,
+      "sha256": "7bb87b14051fb75d395f3062d2bc2eb6246518f23174787aa2ba202a2452b30b",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/top1_structural_summary.json",
+      "path": "../../../results/error_analysis/top1_structural_summary.json",
+      "role": "Archived incorrect-prediction analysis",
+      "kind": "original_file",
+      "bytes": 4150,
+      "sha256": "68338399efc449725f0ca4f106405210e711052a91585fbf4df3ab3cd1a538ca",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/center_all440_errors.csv",
+      "path": "../../../results/error_analysis/center_all440_errors.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 318939,
+      "sha256": "749ed905248a8743a6ef43427e1bc64a20e0bd46b632216490d2084cf9e653de",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/center_all9250.csv",
+      "path": "../../../results/error_analysis/center_all9250.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 6048263,
+      "sha256": "9e3289d97a9c9503e3ee0eecb8bfc05951e885c0d061b48039c4df1fb80e0c12",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/center_top10_errors.csv",
+      "path": "../../../results/error_analysis/center_top10_errors.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 2397,
+      "sha256": "40593e7ff065d9e77d9450741e357c294de69be3245e92a96980442c215ffb24",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/chemistry_all9250.csv",
+      "path": "../../../results/error_analysis/chemistry_all9250.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 5190258,
+      "sha256": "6377bfaa63be8896f8cbe74a00538e5c41f51959063280c6c447cb8ffdf11d27",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/retro_all9250.csv",
+      "path": "../../../results/error_analysis/retro_all9250.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 5045514,
+      "sha256": "51b721be22e9ad1b07e19e727e4f7b65ef8f3fea081dd69f71677ed55132fd64",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/retro_top10_errors.csv",
+      "path": "../../../results/error_analysis/retro_top10_errors.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 418723,
+      "sha256": "45abe5c6e615cf1f424e9c29b4e50cc8b4cd842d559062313acf1ba24ff42810",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/retro_top1_errors.csv",
+      "path": "../../../results/error_analysis/retro_top1_errors.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 1279271,
+      "sha256": "aae3ff286d7dc6d1bc73cc279c7009561624b038a02d2c043a7a2b4b2c77a559",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/error_analysis/top1_structural_phenotypes.csv",
+      "path": "../../../results/error_analysis/top1_structural_phenotypes.csv",
+      "role": "Archived incorrect-prediction data",
+      "kind": "original_file",
+      "bytes": 1674895,
+      "sha256": "ca46e001b9aa02365dad863b04aead154958b05bc8b981e75d496a21adc8b568",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "figures/figure_3_case_studies_combined.png",
+      "source_path": "experiments/section_4_results/4_5_error_analysis/figures/figure_3_case_studies_combined.png",
+      "role": "Figure 3: Incorrect predictions, single-step completions and two-step retrosynthetic routes",
+      "paper_item": "Figure 3",
+      "kind": "original_file",
+      "sha256": "a36099c28d6b1332e7109fd832fc1b32e60e71d5b28ad965b20c81593e920497",
+      "bytes": 2073141,
+      "source_asset": "Fig/Figure_3.png"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/completion",
+    "scripts/reproduce_results.py"
+  ],
+  "shared_data": [
+    "datasets/supplementary_data/figure8_case_structures.csv",
+    "results/cases/incorrect_predictions"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

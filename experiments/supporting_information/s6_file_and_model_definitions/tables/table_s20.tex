@@ -1,0 +1,34 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.340000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.660000}}@{}}
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S20. Dimensions of the full-spectrum reaction-center modules.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dimensions and operation
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dimensions and operation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Symmetric pair seed & \(108\rightarrow512\rightarrow512\); 108 = \(2\times43+20+2\) \\
+Shortest-path embedding & 6 categories, each with 512 channels \\
+Pair-message linear layer & \(512\rightarrow512\) with bias \\
+Bond encoder in each spectral layer & \(20\rightarrow512\rightarrow512\) \\
+Eigenvalue-pair network & \(2\rightarrow512\rightarrow512\); average swapped eigenvalue inputs \\
+Residual update network & \(512\rightarrow512\rightarrow512\) followed by ReLU \\
+Atom pooling & Row mean plus \((1+\epsilon_{\mathrm{pool}})\) times diagonal; \(512\rightarrow512\rightarrow512\) MLP \\
+Class-unknown bond and atom heads & Two separate \(512\rightarrow512\rightarrow1\) networks \\
+Class-known bond and atom heads & Shared 16-channel class embedding; two separate \(528\rightarrow512\rightarrow1\) networks \\
+Pair tensor & \(N\times N\times512\); three independently parameterized spectral layers \\
+Hidden activations & GELU within pair, bond, frequency, update, and pooling MLPs; ReLU within scoring heads; dropout 0 \\
+\end{longtable}

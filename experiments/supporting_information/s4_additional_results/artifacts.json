@@ -1,0 +1,290 @@
+{
+  "schema_version": 2,
+  "experiment": "supporting_information/s4_additional_results",
+  "paper_items": [
+    "Table S5",
+    "Table S6",
+    "Table S7",
+    "Table S8",
+    "Table S9",
+    "Table S10",
+    "Table S12",
+    "Table S13",
+    "Figure S1",
+    "Figure S2"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/reference_tables/reproduced_results/baselines.csv",
+      "path": "../../../results/reference_tables/reproduced_results/baselines.csv",
+      "role": "Archived protocol-specific benchmark recount",
+      "kind": "original_file",
+      "bytes": 30092,
+      "sha256": "71e177532a06e142c7177451ad91d3ae01a8a895768ba7f188bf1963a6fae0b6",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_full.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_full.csv",
+      "role": "Archived protocol-specific benchmark recount",
+      "kind": "original_file",
+      "bytes": 17844,
+      "sha256": "09b4654ee4c54aa65c8e4953b9e421c58e5a73ad42cfb5a41188269e3d1fd15f",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small.csv",
+      "role": "Archived protocol-specific benchmark recount",
+      "kind": "original_file",
+      "bytes": 60218,
+      "sha256": "ff5b82218395441823205639851c5f2c74fb929bb15d74092d8774909459839e",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small_summary.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small_summary.csv",
+      "role": "Archived protocol-specific benchmark recount",
+      "kind": "original_file",
+      "bytes": 19478,
+      "sha256": "8303eea55175cff3e6dd1d0113e0ad3467c361f7673fd25a254b9a36074ae762",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_stage1/reaction_center_results.csv",
+      "path": "../../../results/reference_tables/reproduced_stage1/reaction_center_results.csv",
+      "role": "Archived center-model recount",
+      "kind": "original_file",
+      "bytes": 2019,
+      "sha256": "e89caf6267211ae512a9a5f8197a980fbafb19f686a8f2df2a17d273afc39b31",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_stage1/small_stratified_results.csv",
+      "path": "../../../results/reference_tables/reproduced_stage1/small_stratified_results.csv",
+      "role": "Archived center-model recount",
+      "kind": "original_file",
+      "bytes": 3038,
+      "sha256": "3da14e34c014d996363f75ab260c722d5da66c941baa6a7a63a97ddfc4a8c5dd",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/baselines/summary.json",
+      "path": "../../../results/baselines/summary.json",
+      "role": "Baseline scoring protocols and original evidence coverage",
+      "kind": "original_file",
+      "bytes": 37475,
+      "sha256": "c2bf05004c8d748ff57435095690fd0700502bbf7fba89443fc43c7c005d7151",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/diagnostics/spectral_encoder/recorded_diagnostics.json",
+      "path": "../../../results/diagnostics/spectral_encoder/recorded_diagnostics.json",
+      "role": "Original numerical encoder checks",
+      "kind": "original_file",
+      "bytes": 3586,
+      "sha256": "dd7a4d187889659c23a8016a0c9ac29c94ce67f4ef3b7e075e5234aa4f2d62a3",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/diagnostics/spectral_encoder/trained_input_contract.json",
+      "path": "../../../results/diagnostics/spectral_encoder/trained_input_contract.json",
+      "role": "Two-reaction CPU diagnostic for checkpoint loading and prediction invariance under reaction-class changes",
+      "kind": "original_file",
+      "bytes": 382,
+      "sha256": "a4470a785c6013838b794e4eed8078d8b4087ff05c59930cae5c477f87e67720",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+      "path": "../../../results/supporting_information/source_data_figures/reported_figure7_summary.csv",
+      "role": "Reported Figure S2 / Table S8 aggregates",
+      "kind": "original_file",
+      "bytes": 341,
+      "sha256": "e0638755928f939e0c6390a071db14943c139c639e33170ab54b51c29e2ff360",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/chemical_preferences.csv",
+      "path": "results/chemical_preferences.csv",
+      "role": "Estimated preferences and interval bounds by reaction class and factor",
+      "kind": "original_file",
+      "bytes": 8224,
+      "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/dft_paired_electronic_comparison.csv",
+      "path": "data/dft_paired_electronic_comparison.csv",
+      "role": "Chemical or electronic observations for supplementary tables",
+      "kind": "original_file",
+      "bytes": 13286,
+      "sha256": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_agent/geometry_comparison_per_reaction.csv",
+      "path": "../../../results/supporting_information/source_data_agent/geometry_comparison_per_reaction.csv",
+      "role": "Saved paired comparison under its stated evaluation protocol",
+      "kind": "original_file",
+      "bytes": 358117,
+      "sha256": "1eed13724c7ec08e95aae2205ade5fb7b894cd0f6e011852b8b91898ccda3190",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_agent/geometry_comparison_summary.json",
+      "path": "../../../results/supporting_information/source_data_agent/geometry_comparison_summary.json",
+      "role": "Saved paired comparison under its stated evaluation protocol",
+      "kind": "original_file",
+      "bytes": 26223,
+      "sha256": "50b3e86bd47908b62bdc89de4fb928a314a13083c3f177677a7bf38cdc9496e0",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_agent/prior_ablation_recomputed.csv",
+      "path": "../../../results/supporting_information/source_data_agent/prior_ablation_recomputed.csv",
+      "role": "Saved paired comparison under its stated evaluation protocol",
+      "kind": "original_file",
+      "bytes": 2177,
+      "sha256": "5cfba380f0895c146d52e172a11088a51279ba8761ef5e0d4008a395efcf2c43",
+      "storage": "repository_reference"
+    },
+    {
+      "path": "results/precursor_recovery/manuscript_small.csv",
+      "source_path": "datasets/supplementary_data/main_table1_small_spectraretro.csv",
+      "kind": "original_file",
+      "role": "Table S10 manuscript-reported small-set values, by class mode",
+      "bytes": 138,
+      "sha256": "862c321f9b5248707724961f318604cd042dc91b707ba94ddbc55c1e2bd9eef8"
+    },
+    {
+      "path": "figures/figure_s1_full_spectrum_family_gains.png",
+      "source_path": "experiments/supporting_information/s4_additional_results/figures/figure_s1_full_spectrum_family_gains.png",
+      "role": "Figure S1: Reaction-center Top-1 gains across transformation families and similarity groups",
+      "paper_item": "Figure S1",
+      "kind": "original_file",
+      "sha256": "35ecd6bd30193fbfa1684dcdf912fdfd8d77924546bbb74aa053772b4a9e09e3",
+      "bytes": 422773,
+      "source_asset": "Fig/Figure_S1.png"
+    },
+    {
+      "path": "figures/figure_s2_chemical_prior_structural_match.png",
+      "source_path": "experiments/supporting_information/s4_additional_results/figures/figure_s2_chemical_prior_structural_match.png",
+      "role": "Figure S2: Effect of chemical prior guidance on heavy-atom bond-graph recovery",
+      "paper_item": "Figure S2",
+      "kind": "original_file",
+      "sha256": "f4a70cc7f19f481c799a2d0677fc25fc29eb6fc761b478354d7b836d312f3755",
+      "bytes": 1361493,
+      "source_asset": "Fig/Figure_S2.png"
+    },
+    {
+      "path": "tables/table_s5.tex",
+      "role": "Table S5: Functional and numerical checks of the full-spectrum encoder.",
+      "paper_item": "Table S5",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 56804,
+      "source_character_end": 58639,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "eb2de3e0f33cb5df27fb47e0a9b0f057559da3ce259517d4c92fd7c9395bf5f7",
+      "bytes": 1835,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s6.tex",
+      "role": "Table S6: Ablation results in the reaction-class-unknown setting.",
+      "paper_item": "Table S6",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 60209,
+      "source_character_end": 62276,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "faf4cc5e3930cef25a0ba485813542415b623eb388a2fbab31167039ec6c980a",
+      "bytes": 2067,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s7.tex",
+      "role": "Table S7: Full-test reaction-center Top-1 accuracy across local-similarity groups.",
+      "paper_item": "Table S7",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 66126,
+      "source_character_end": 67761,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "de2bbd12ec52d40be37d2f2ee2896560867bd9f3bb4f4478c33a849eb8db6c7d",
+      "bytes": 1635,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s8.tex",
+      "role": "Table S8: Heavy-atom bond-graph recovery results in Figure S2.",
+      "paper_item": "Table S8",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 70777,
+      "source_character_end": 71586,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "1134cae1db6933d2bae473cb93475facce1cc5e215507e95f184295bcd6e7909",
+      "bytes": 809,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s9.tex",
+      "role": "Table S9: Full-data SpectraRetro complete-precursor recovery.",
+      "paper_item": "Table S9",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 74241,
+      "source_character_end": 75778,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "d5962d92d068fe4395f534b97bf94eb1c7b004210eac7ec273e508b3d992bc30",
+      "bytes": 1537,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s10.tex",
+      "role": "Table S10: Small-dataset SpectraRetro results: mean $\\pm$ sample SD in percent over three seeds.",
+      "paper_item": "Table S10",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 76676,
+      "source_character_end": 77690,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "4bf21861368a9aea8a953f12c4e7fdfa12ac62af77d6d26a3dc93cfff684fa70",
+      "bytes": 1014,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s12.tex",
+      "role": "Table S12: Selected product-weighted matched-bond concordances.",
+      "paper_item": "Table S12",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 80870,
+      "source_character_end": 81264,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "4a22519b92030148f2956fb222abf78516444c9634677c7fcd801f99837a0e6a",
+      "bytes": 394,
+      "source_document": "SI.tex"
+    },
+    {
+      "path": "tables/table_s13.tex",
+      "role": "Table S13: Direction of the DFT electronic-response contrasts.",
+      "paper_item": "Table S13",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 85688,
+      "source_character_end": 86022,
+      "source_sha256": "94cda4223acf7c18feba4ed0977849fe9fecd0aeee55271a8ae6f3af95c48d2a",
+      "sha256": "da0002cafb32cab6917d5d4a89fc13eb0dc3b7749ea5b80a41317c1d9b29bb03",
+      "bytes": 334,
+      "source_document": "SI.tex"
+    }
+  ],
+  "shared_code": [
+    "results/reaction_center/reproduce.py",
+    "scripts/reproduce_supporting_analyses.py",
+    "scripts/reproduce_results.py",
+    "scripts/reproduce_mechanistic_tables.py"
+  ],
+  "shared_data": [
+    "results/diagnostics/spectral_encoder",
+    "results/reaction_center",
+    "results/source_data/mechanistic_interpretability"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

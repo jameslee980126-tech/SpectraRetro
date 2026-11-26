@@ -1,0 +1,35 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.300000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.430000}}
+>{\raggedleft\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.270000}}@{}}
+\multicolumn{3}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S5. Functional and numerical checks of the full-spectrum encoder.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Check
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evaluation scope
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Recorded result
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Check
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evaluation scope
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Recorded result
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Set the spectral response to zero & Two molecular fixtures & Maximum logit change $\approx$106.73 \\
+Replace the response by its mean across frequency pairs & Same two fixtures & Maximum logit change $\approx$122.72 \\
+Task-gradient norm of frequency encoder 1 & Trained checkpoint diagnostic & \(\approx 9.96\times 10^{-5}\) \\
+Task-gradient norm of frequency encoder 2 & Same diagnostic & \(\approx 8.46\times 10^{-5}\) \\
+Task-gradient norm of frequency encoder 3 & Same diagnostic & \(\approx 4.33\times 10^{-5}\) \\
+Atom reindexing & 10 molecules, 5 permutations each, 2 reconstruction procedures & Maximum aligned logit difference \(\approx 1.45\times 10^{-4}\) \\
+Basis rotation within a repeated-eigenvalue subspace & Double precision; frequency dropout 0 & Maximum output difference \(\approx 7.99\times 10^{-15}\) \\
+\end{longtable}

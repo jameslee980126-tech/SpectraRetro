@@ -1,0 +1,100 @@
+{
+  "state": "passed",
+  "rdkit": "2026.03.1",
+  "formal_denominator": 9250,
+  "top1_errors": {
+    "n": 2089,
+    "hierarchical_counts": {
+      "total_heavy_atom_count": 791,
+      "no_molecular_top1": 524,
+      "reference_not_parseable": 286,
+      "prediction_not_parseable": 13,
+      "connectivity_or_bond_order": 32,
+      "heavy_element_composition": 426,
+      "fragment_allocation": 8,
+      "canonical_equivalent": 9
+    },
+    "comparable_native_graphs": 1266,
+    "overlapping_tags": {
+      "ring_count_mismatch": 24,
+      "disconnected_component_count_mismatch": 2,
+      "per_fragment_count_mismatch": 808,
+      "halogen_collapsed_heavy_graph_equal": 295,
+      "carboxyl_or_ester_count_decreased": 131,
+      "amide_count_decreased": 39,
+      "nitrile_count_decreased": 10,
+      "sulfonyl_count_decreased": 8,
+      "boc_like_count_decreased": 6
+    },
+    "heavy_count_direction": {
+      "over": 223,
+      "under": 568,
+      "equal": 475
+    }
+  },
+  "top10_errors": {
+    "n": 626,
+    "hierarchical_counts": {
+      "total_heavy_atom_count": 268,
+      "no_molecular_top1": 194,
+      "prediction_not_parseable": 4,
+      "reference_not_parseable": 89,
+      "heavy_element_composition": 67,
+      "connectivity_or_bond_order": 1,
+      "fragment_allocation": 3
+    },
+    "comparable_native_graphs": 339,
+    "overlapping_tags": {
+      "ring_count_mismatch": 21,
+      "disconnected_component_count_mismatch": 2,
+      "per_fragment_count_mismatch": 276,
+      "halogen_collapsed_heavy_graph_equal": 42,
+      "carboxyl_or_ester_count_decreased": 46,
+      "amide_count_decreased": 17,
+      "nitrile_count_decreased": 2,
+      "sulfonyl_count_decreased": 6,
+      "boc_like_count_decreased": 4
+    },
+    "heavy_count_direction": {
+      "over": 45,
+      "under": 223,
+      "equal": 71
+    }
+  },
+  "labels": {
+    "no_molecular_top1": "首选含MISSING占位符",
+    "reference_not_parseable": "原生参考不可标准解析",
+    "prediction_not_parseable": "首选分子不可标准解析",
+    "canonical_equivalent": "原串不同、标准分子图等价",
+    "stereochemistry_only": "仅立体信息不同",
+    "hydrogen_charge_radical_state": "重原子图相同，H/电荷/自由基状态不同",
+    "total_heavy_atom_count": "重原子总数量不同",
+    "heavy_element_composition": "总数量相同、元素组成不同",
+    "fragment_allocation": "总体组成相同、条件片段间组成分配不同",
+    "connectivity_or_bond_order": "各片段组成相同、连接或键级不同"
+  },
+  "hierarchy_order": [
+    "no_molecular_top1",
+    "reference_not_parseable",
+    "prediction_not_parseable",
+    "canonical_equivalent",
+    "stereochemistry_only",
+    "hydrogen_charge_radical_state",
+    "total_heavy_atom_count",
+    "heavy_element_composition",
+    "fragment_allocation",
+    "connectivity_or_bond_order"
+  ],
+  "definitions": {
+    "hierarchical": "First failed comparison in declared order. Mutually exclusive descriptive differences; not unique chemical causes.",
+    "reference": "Frozen XYZ-decoded reference used by original official score; standard parsing may fail. Original experimental SMILES remain separately available.",
+    "abstract_heavy_graph": "RDKit graph serialization ignoring H, formal charge, radical electrons and stereo, retaining atom element/isotope and bond types. Never used to repair predictions or change metrics.",
+    "fragment_allocation": "Overall heavy-element composition agrees but per-conditioned-fragment composition differs. This does not alone prove chemical role reversal.",
+    "overlapping_tags": "Nonexclusive observations among the stated comparable native-graph denominator. Ring count is not full ring topology.",
+    "group_counts": "SMARTS counts in native decoded graphs, not prevalence in original experimental molecules or proven causal functional-group mechanisms."
+  },
+  "source_sha256": {
+    "retro_ranked_errors.jsonl": "c6faaea2be8195241008e1ea39e8d997b0e5f07000a449601ed5099a65e0bb69"
+  },
+  "new_model_execution": false
+}

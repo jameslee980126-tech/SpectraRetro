@@ -1,0 +1,38 @@
+# Preserve scientific file bytes across operating systems.
+* -text
+# Model parameters and binary scientific resources use Git LFS.
+*.chk filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+# Large prediction and preprocessing records.
+"/experiments/spectraretro_inputs/data/train_metadata.json" filter=lfs diff=lfs merge=lfs -text
+"/datasets/full/train.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/known-class/data/center_predictions.jsonl" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/known-class/results/full/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/known-class/results/small/seed0/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/known-class/results/small/seed1/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/known-class/results/small/seed2/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/results/baselines/checkpoint_selection/Graph2Edits/full_known/pred_results_1.txt" filter=lfs diff=lfs merge=lfs -text
+"/results/baselines/checkpoint_selection/TransGraphEdit/full_known/pred_results_1.txt" filter=lfs diff=lfs merge=lfs -text
+"/results/baselines/native_runs/DiffER/full/known/native_samples_batches.jsonl" filter=lfs diff=lfs merge=lfs -text
+"/results/baselines/native_runs/DiffER/full/unknown/native_samples_batches.jsonl" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/DiffER/preprocessed_small_unknown/train/row-index-train.jsonl" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/DiffER/preprocessed_small_unknown/train/src-train.txt" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/DiffER/preprocessed_small_unknown/train/tgt-train.txt" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/RetroDiT/source/data/uspto_full/test_json/gnn_pred_20260104/pred_rc_usptofull_top3.json" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/RetroDiT/source/data/uspto_full/test_json/gnn_pred_20260104/pred_rc_usptofull_top5.json" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/Retroformer/preprocessed_full_unknown/ch6_69pct/additional/retroformer_unknown/raw_train.csv" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/Retroformer/preprocessed_full_unknown/ch6_69pct/stage1/selected_train.csv" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/RetroSim/prepared_full_known/dataset/retrosim/data_processed.csv" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/RetroSim/prepared_full_known/dataset/retrosim/train.csv" filter=lfs diff=lfs merge=lfs -text
+"/src/baselines/TransGraphEdit/preprocessed_full_unknown/raw/selected_train.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/unknown-class/data/center_predictions.jsonl" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/unknown-class/results/full/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed0/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed1/result.csv" filter=lfs diff=lfs merge=lfs -text
+"/experiments/section_4_results/4_1_benchmark/unknown-class/results/small/seed2/result.csv" filter=lfs diff=lfs merge=lfs -text

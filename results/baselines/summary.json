@@ -1,0 +1,1229 @@
+{
+  "records": [
+    {
+      "model": "DiffER",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 57.13513513513514,
+        "5": 75.53513513513514,
+        "10": 79.7081081081081
+      },
+      "hits": {
+        "1": 5285,
+        "5": 6987,
+        "10": 7373
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "one controlled seed0 run",
+      "protocol": "unified_raw_slots; original invalid and duplicate slots retained; 5 input enumerations x10 draws=50 candidate budget; not native_plurality",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/DiffER/full/94d2b853ed_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/DiffER/full/bd5a7e2c0b_final_topk.csv",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/DiffER/full/a1fbf5c10d_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "DiffER",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 62.86486486486486,
+        "5": 79.6,
+        "10": 83.41621621621621
+      },
+      "hits": {
+        "1": 5815,
+        "5": 7363,
+        "10": 7716
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "one controlled seed0 run",
+      "protocol": "unified_raw_slots; original invalid and duplicate slots retained; 5 input enumerations x10 draws=50 candidate budget; not native_plurality",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/DiffER/full/444c949318_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/DiffER/full/bd5a7e2c0b_final_topk.csv",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/DiffER/full/0a4e2c87ce_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "GLN",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 66.3027027027027,
+        "5": 82.43243243243244,
+        "10": 85.96756756756757
+      },
+      "hits": {
+        "1": 6133,
+        "5": 7625,
+        "10": 7952
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "one controlled seed0 run",
+      "protocol": "unified_canonical; all frozen rows and original model rank slots; map-free stereo-preserving set comparison",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GLN/full/4d3c578d3f_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GLN/full/c64e7a8a27_final_topk.csv",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GLN/full/beam10_per_reaction.csv",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GLN/full/beam10_predictions.jsonl"
+      ]
+    },
+    {
+      "model": "RetroXpert",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 66.57297297297298,
+        "5": 79.9027027027027,
+        "10": 81.5027027027027
+      },
+      "hits": {
+        "1": 6158,
+        "5": 7391,
+        "10": 7539
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "Stage1 native seed parameter not applied; Stage2 controlled seed0; one run only",
+      "protocol": "unified_canonical; all frozen rows and original model rank slots; map-free stereo-preserving set comparison",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroXpert/full/ef14791f3e_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroXpert/full/c64e7a8a27_final_topk.csv",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroXpert/full/beam10_per_reaction.csv",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroXpert/full/beam10_predictions.jsonl"
+      ]
+    },
+    {
+      "model": "GLN",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 70.48648648648648,
+        "5": 84.6054054054054,
+        "10": 87.28648648648648
+      },
+      "hits": {
+        "1": 6520,
+        "5": 7826,
+        "10": 8074
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_canonical; all frozen rows and original model rank slots; map-free stereo-preserving set comparison",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/GLN/full/76ea3d9844_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/GLN/full/1bc0eb26a5_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "RetroXpert",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 69.67567567567568,
+        "5": 84.51891891891891,
+        "10": 85.7945945945946
+      },
+      "hits": {
+        "1": 6445,
+        "5": 7818,
+        "10": 7936
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_canonical; all frozen rows and original model rank slots; map-free stereo-preserving set comparison",
+      "evidence": "saved_metrics_and_rank_replay",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/RetroXpert/full/67715253d0_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/RetroXpert/full/fb3e3dc463_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "GraphRetro",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 62.075675675675676,
+        "3": 76.21621621621621,
+        "5": 78.03243243243243,
+        "10": 78.8108108108108
+      },
+      "hits": {
+        "1": 5742,
+        "3": 7050,
+        "5": 7218,
+        "10": 7290
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/GraphRetro/full/288e0df348_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/GraphRetro/full/3fd798ea8a_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "TransGraphEdit",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 68.02162162162162,
+        "3": 82.82162162162162,
+        "5": 84.75675675675676,
+        "10": 85.9027027027027
+      },
+      "hits": {
+        "1": 6292,
+        "3": 7661,
+        "5": 7840,
+        "10": 7946
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/TransGraphEdit/full/b7d49e2a9b_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/TransGraphEdit/full/bd54656fe8_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "TransGraphEdit",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 61.6,
+        "3": 79.13513513513513,
+        "5": 82.16216216216216,
+        "10": 84.42162162162163
+      },
+      "hits": {
+        "1": 5698,
+        "3": 7320,
+        "5": 7600,
+        "10": 7809
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/TransGraphEdit/full/5779f38eef_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/TransGraphEdit/full/513a7a6435_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "GraphRetro",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 58.33513513513513,
+        "3": 73.77297297297298,
+        "5": 76.31351351351351,
+        "10": 77.80540540540541
+      },
+      "hits": {
+        "1": 5396,
+        "3": 6824,
+        "5": 7059,
+        "10": 7197
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "native_saved_ranks",
+      "evidence": "native_saved_ranks",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GraphRetro/full/cda12ff78a_native_beam10_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GraphRetro/full/cd2204bf01_beam10_predictions.jsonl"
+      ]
+    },
+    {
+      "model": "RetroSim",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 66.25945945945946,
+        "3": 84.94054054054054,
+        "5": 89.03783783783784,
+        "10": 91.6972972972973
+      },
+      "hits": {
+        "1": 6129,
+        "3": 7857,
+        "5": 8236,
+        "10": 8482
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/RetroSim/full/32d17e2267_beam50_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/RetroSim/full/609d3eb3e2_beam50_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "Retroformer",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 58.270270270270274,
+        "3": 75.55675675675676,
+        "5": 79.52432432432433,
+        "10": 83.02702702702703
+      },
+      "hits": {
+        "1": 5390,
+        "3": 6989,
+        "5": 7356,
+        "10": 7680
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/Retroformer/full/c81d32d01f_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/Retroformer/full/f27d69a8f3_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "Retroformer",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 59.32972972972973,
+        "3": 75.47027027027028,
+        "5": 78.69189189189188,
+        "10": 82.04324324324324
+      },
+      "hits": {
+        "1": 5488,
+        "3": 6981,
+        "5": 7279,
+        "10": 7589
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/Retroformer/full/f6c47a6c44_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/Retroformer/full/701e1288b5_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "Graph2Edits",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 72.2054054054054,
+        "3": 86.36756756756756,
+        "5": 87.94594594594595,
+        "10": 88.95135135135135
+      },
+      "hits": {
+        "1": 6679,
+        "3": 7989,
+        "5": 8135,
+        "10": 8228
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/Graph2Edits/full/d6a0823c45_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/Graph2Edits/full/99d0a9a150_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "Graph2Edits",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 67.80540540540541,
+        "3": 84.33513513513513,
+        "5": 86.73513513513514,
+        "10": 88.52972972972972
+      },
+      "hits": {
+        "1": 6272,
+        "3": 7801,
+        "5": 8023,
+        "10": 8189
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/Graph2Edits/full/6eaf54126e_beam10_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/Graph2Edits/full/4201b8cec1_beam10_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "RetroSim",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9250,
+      "percent": {
+        "1": 59.6,
+        "3": 77.72972972972973,
+        "5": 83.29729729729729,
+        "10": 88.2054054054054
+      },
+      "hits": {
+        "1": 5513,
+        "3": 7190,
+        "5": 7705,
+        "10": 8159
+      },
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "unified_original_rank_slots",
+      "evidence": "saved_per_reaction_attachment",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroSim/full/c2216e4d7e_beam50_dual_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroSim/full/b54bb7b93e_beam50_per_reaction.csv"
+      ]
+    },
+    {
+      "model": "GDiffRetro",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 7398,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "Stage1 replacement control with reused Stage2 300-sample candidate bank; unique product denominator",
+      "evidence": "no_bound_result_in_distributed_evidence",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GDiffRetro/full/a36120bbc0_gdiffretro_recovered_sources.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GDiffRetro/full/16c69563aa_official_topk_pure_gdiffretro_stage1_20260811.json"
+      ],
+      "availability": "no_bound_result_in_distributed_evidence"
+    },
+    {
+      "model": "RetroDiT",
+      "dataset": "full",
+      "mode": "unknown",
+      "n_per_run": 9248,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "native_frequency_deduplicated_ranking",
+      "evidence": "no_bound_result_in_distributed_evidence",
+      "note": "",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroDiT/full/f44f131262_generated_metrics.json",
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroDiT/full/11c1434d3d_generated_samples.json"
+      ],
+      "availability": "no_bound_result_in_distributed_evidence"
+    },
+    {
+      "model": "GDiffRetro",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": null,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "see evidence convention",
+      "evidence": "no_bound_result_in_distributed_evidence",
+      "note": "",
+      "files": [],
+      "availability": "no_bound_result_in_distributed_evidence"
+    },
+    {
+      "model": "RetroDiT",
+      "dataset": "full",
+      "mode": "known",
+      "n_per_run": null,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "native_frequency_deduplicated_ranking",
+      "evidence": "no_bound_result_in_distributed_evidence",
+      "note": "Located an older native report with 9250 denominator and 9248 candidate records, but product/target multisets differ from the current frozen test. Kept as a separate historical result, not used to fill this formal row.",
+      "files": [],
+      "availability": "no_bound_result_in_distributed_evidence",
+      "related_materials": [
+        "shared/results/baselines/located_native_protocols/RetroDiT_known_other_test_population.json"
+      ]
+    },
+    {
+      "model": "Graph2Edits",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 57.52777777777778,
+        "5": 80.41666666666667,
+        "10": 82.80555555555556
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1459,
+          1935,
+          1996
+        ],
+        [
+          1393,
+          1952,
+          1997
+        ],
+        [
+          1290,
+          1903,
+          1969
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        3.5488489265822114,
+        1.0366546087187258,
+        0.6618751420802118
+      ],
+      "seed_basis": "seeds 0/1/2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Mean of three whole-2400 runs, not high-similarity 800.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/Graph2Edits/small/7bc16778d1_independent_local_RESULTS.json"
+      ]
+    },
+    {
+      "model": "Graph2Edits",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 63.34722222222222,
+        "5": 83.80555555555556,
+        "10": 85.65277777777777
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1533,
+          2004,
+          2054
+        ],
+        [
+          1519,
+          2015,
+          2057
+        ],
+        [
+          1509,
+          2015,
+          2056
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.5023094811118096,
+        0.26461887337858137,
+        0.06364688465216349
+      ],
+      "seed_basis": "seeds 0/1/2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Mean of three whole-2400 runs, not high-similarity 800.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/Graph2Edits/small/7bc16778d1_independent_local_RESULTS.json"
+      ]
+    },
+    {
+      "model": "GraphRetro",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 52.63888888888889,
+        "5": 72.98611111111111,
+        "10": 74.79166666666667
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1245,
+          1760,
+          1809
+        ],
+        [
+          1255,
+          1740,
+          1773
+        ],
+        [
+          1290,
+          1755,
+          1803
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.9845449221359566,
+        0.43368041655544276,
+        0.8036375634160792
+      ],
+      "seed_basis": "historical run (seed unrecorded) + seed1 + seed2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Mean of three whole-2400 runs, not high-similarity 800.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/GraphRetro/small/c178e6f7b1_independent_local_RESULTS.json"
+      ]
+    },
+    {
+      "model": "GraphRetro",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 57.847222222222214,
+        "5": 75.70833333333333,
+        "10": 77.02777777777777
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1376,
+          1809,
+          1848
+        ],
+        [
+          1375,
+          1816,
+          1847
+        ],
+        [
+          1414,
+          1826,
+          1851
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.9264003414251247,
+        0.3560001560548969,
+        0.08673608331108998
+      ],
+      "seed_basis": "historical run (seed unrecorded) + seed1 + seed2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Mean of three whole-2400 runs, not high-similarity 800.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/GraphRetro/small/c178e6f7b1_independent_local_RESULTS.json"
+      ]
+    },
+    {
+      "model": "TransGraphEdit",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 51.74999999999999,
+        "5": 76.94444444444444,
+        "10": 80.04166666666667
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1244,
+          1847,
+          1916
+        ],
+        [
+          1201,
+          1829,
+          1917
+        ],
+        [
+          1281,
+          1864,
+          1930
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        1.6682284349306333,
+        0.7292658662680572,
+        0.32542706982944647
+      ],
+      "seed_basis": "seeds 0/1/2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Whole-small means; known seed2 test-only repair used original selected checkpoint.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/TransGraphEdit/small/b1f9d1c18c_three_seed_summary.json"
+      ]
+    },
+    {
+      "model": "TransGraphEdit",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 59.68055555555556,
+        "5": 81.04166666666667,
+        "10": 83.26388888888889
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1453,
+          1953,
+          1997
+        ],
+        [
+          1447,
+          1950,
+          2005
+        ],
+        [
+          1397,
+          1932,
+          1993
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        1.2810947286222492,
+        0.47324236215001914,
+        0.2545875386086588
+      ],
+      "seed_basis": "seeds 0/1/2",
+      "protocol": "see evidence convention",
+      "evidence": "independently_rescored_complete",
+      "note": "Whole-small means; known seed2 test-only repair used original selected checkpoint.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/TransGraphEdit/small/b1f9d1c18c_three_seed_summary.json"
+      ]
+    },
+    {
+      "model": "RetroSim",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 46.833333333333336,
+        "5": 75.70833333333333,
+        "10": 81.79166666666666
+      },
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "three deterministic repetitions, not independent training seeds",
+      "protocol": "see evidence convention",
+      "evidence": "verified_deterministic_complete",
+      "note": "Three inference repetitions produced byte-identical predictions. These repetitions provide no estimate of variation across training seeds.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/unknown-class/results/baselines/RetroSim/small/4935bb78d4_RESULTS.json"
+      ]
+    },
+    {
+      "model": "RetroSim",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 57.08333333333333,
+        "5": 84.04166666666667,
+        "10": 88.5
+      },
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": "three deterministic repetitions, not independent training seeds",
+      "protocol": "see evidence convention",
+      "evidence": "verified_deterministic_complete",
+      "note": "Three inference repetitions produced byte-identical predictions. These repetitions provide no estimate of variation across training seeds.",
+      "files": [
+        "experiments/section_4_results/4_1_benchmark/known-class/results/baselines/RetroSim/small/4935bb78d4_RESULTS.json"
+      ]
+    },
+    {
+      "model": "GLN",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 56.44444444444444,
+        "5": 73.77777777777777,
+        "10": 77.2361111111111
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1344,
+          1784,
+          1854
+        ],
+        [
+          1365,
+          1777,
+          1856
+        ],
+        [
+          1355,
+          1751,
+          1851
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.43766531268301645,
+        0.72448896420805,
+        0.10485881160098212
+      ],
+      "seed_basis": "3种子：0 / 1 / 2",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "GLN",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 59.12500000000001,
+        "5": 76.18055555555556,
+        "10": 78.43055555555556
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1439,
+          1821,
+          1879
+        ],
+        [
+          1396,
+          1833,
+          1883
+        ],
+        [
+          1422,
+          1831,
+          1885
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.9023503261544895,
+        0.2678791878053597,
+        0.1272937693043258
+      ],
+      "seed_basis": "3种子：0 / 1 / 2",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "Retroformer",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 46.68055555555556,
+        "5": 66.91666666666667,
+        "10": 70.56944444444444
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1092,
+          1577,
+          1668
+        ],
+        [
+          1160,
+          1632,
+          1706
+        ],
+        [
+          1109,
+          1609,
+          1707
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        1.47451341628851,
+        1.150935609744429,
+        0.9264003414251312
+      ],
+      "seed_basis": "3种子：42 / 2026 / 3407",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "Retroformer",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 51.916666666666664,
+        "5": 73.41666666666666,
+        "10": 77.875
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1226,
+          1750,
+          1855
+        ],
+        [
+          1248,
+          1759,
+          1866
+        ],
+        [
+          1264,
+          1777,
+          1886
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        0.7949493345141176,
+        0.5728219618694786,
+        0.654843068562573
+      ],
+      "seed_basis": "3种子：42 / 2026 / 3407",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "DiffER",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 42.77777777777778,
+        "5": 62.68055555555555,
+        "10": 68.16666666666666
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1120,
+          1584,
+          1709
+        ],
+        [
+          1012,
+          1491,
+          1616
+        ],
+        [
+          948,
+          1438,
+          1583
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        3.6222051806006745,
+        3.079483332085533,
+        2.7223993706532714
+      ],
+      "seed_basis": "3种子：0 / 1 / 2",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "DiffER",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 43.708333333333336,
+        "5": 63.44444444444445,
+        "10": 68.95833333333333
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1006,
+          1520,
+          1656
+        ],
+        [
+          1224,
+          1650,
+          1753
+        ],
+        [
+          917,
+          1398,
+          1556
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        6.581355188037728,
+        5.250881760167453,
+        4.104325293042833
+      ],
+      "seed_basis": "3种子：0 / 1 / 2",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "RetroDiT",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2398,
+      "percent": {
+        "1": 22.018348623853214,
+        "5": 39.89435640811788,
+        "10": 43.36947456213511
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          568,
+          988,
+          1061
+        ],
+        [
+          555,
+          1003,
+          1085
+        ],
+        [
+          461,
+          879,
+          974
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        2.434805767638866,
+        2.8222752270002425,
+        2.4355198916511824
+      ],
+      "seed_basis": "3种子：42 / 2026 / 3407",
+      "protocol": "native_frequency_deduplicated_ranking",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs. The native frequency ranking used deduplicated candidates and a denominator of 2398. The raw-slot protocol uses 2400 reactions.",
+      "files": []
+    },
+    {
+      "model": "RetroDiT",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2398,
+      "percent": {
+        "1": 27.314428690575483,
+        "5": 49.08256880733945,
+        "10": 51.139838754517655
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          696,
+          1190,
+          1237
+        ],
+        [
+          708,
+          1226,
+          1277
+        ],
+        [
+          561,
+          1115,
+          1165
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        3.4039700312164336,
+        2.3615671617627636,
+        2.3668386604162106
+      ],
+      "seed_basis": "3种子：42 / 2026 / 3407",
+      "protocol": "native_frequency_deduplicated_ranking",
+      "evidence": "historical_report_reaggregated",
+      "note": "The hit counts are consistent with the rounded per-seed reports. Per-reaction predictions are unavailable for these runs. The native frequency ranking used deduplicated candidates and a denominator of 2398. The raw-slot protocol uses 2400 reactions.",
+      "files": []
+    },
+    {
+      "model": "RetroXpert",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 35.66666666666667,
+        "5": 57.277777777777786,
+        "10": 61.18055555555556
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          921,
+          1412,
+          1504
+        ],
+        [
+          802,
+          1363,
+          1450
+        ],
+        [
+          845,
+          1349,
+          1451
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        2.5107408158638034,
+        1.3783628909903454,
+        1.2871785826775204
+      ],
+      "seed_basis": "Stage1 seeds 0/1/2; Stage2 seed42 for each run",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The original report lists three full two-stage runs. Native candidate predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "RetroXpert",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": 2400,
+      "percent": {
+        "1": 42.59722222222223,
+        "5": 66.31944444444444,
+        "10": 70.45833333333333
+      },
+      "hits": null,
+      "seed_hits": [
+        [
+          1049,
+          1603,
+          1689
+        ],
+        [
+          1075,
+          1635,
+          1725
+        ],
+        [
+          943,
+          1537,
+          1659
+        ]
+      ],
+      "sample_sd_percentage_points": [
+        2.9134903339338405,
+        2.082221925767799,
+        1.376892636821524
+      ],
+      "seed_basis": "Stage1 seeds 0/1/2; Stage2 seed42 for each run",
+      "protocol": "see evidence convention",
+      "evidence": "historical_report_reaggregated",
+      "note": "The original report lists three full two-stage runs. Native candidate predictions are unavailable for these runs.",
+      "files": []
+    },
+    {
+      "model": "GDiffRetro",
+      "dataset": "small",
+      "mode": "unknown",
+      "n_per_run": null,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "see evidence convention",
+      "evidence": "unbound_planning_or_historical_values",
+      "note": "Planning estimates only. No small-set run is linked to this entry.",
+      "files": [],
+      "availability": "no_bound_result_in_distributed_evidence"
+    },
+    {
+      "model": "GDiffRetro",
+      "dataset": "small",
+      "mode": "known",
+      "n_per_run": null,
+      "percent": {},
+      "hits": null,
+      "seed_hits": null,
+      "sample_sd_percentage_points": null,
+      "seed_basis": null,
+      "protocol": "see evidence convention",
+      "evidence": "unbound_planning_or_historical_values",
+      "note": "Planning estimates only. No small-set run is linked to this entry.",
+      "files": [],
+      "availability": "no_bound_result_in_distributed_evidence"
+    }
+  ]
+}

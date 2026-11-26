@@ -1,0 +1,174 @@
+{
+  "states": [
+    {
+      "state": "6584_N_oxide/cation",
+      "result": "dft/6584_N_oxide/cation/result.json",
+      "sha256": "0a1518611278e963c15e6c7cd37472d175f4e68e0c501b9b0374a09c45d7245a"
+    },
+    {
+      "state": "6584_N_oxide/neutral",
+      "result": "dft/6584_N_oxide/neutral/result.json",
+      "sha256": "323b55a0bd4a2f88c4e913a834efe4688f80ed75863309ab9c8b8c2f54d7cfbc"
+    },
+    {
+      "state": "6584_neutral/cation",
+      "result": "dft/6584_neutral/cation/result.json",
+      "sha256": "1163dae0e32e645b2f652e6d6b4e03d97765ddb4c99dbf929dfd8f5c7c655997"
+    },
+    {
+      "state": "6584_neutral/neutral",
+      "result": "dft/6584_neutral/neutral/result.json",
+      "sha256": "48a84791d1319fc28c56c9cff0e81bd0d17e1196e1e17773155cb0bd00419a0b"
+    },
+    {
+      "state": "6584_off_target_N10/cation",
+      "result": "dft/6584_off_target_N10/cation/result.json",
+      "sha256": "61fffa0837ca323dda6ed9404934c7de39d5fc5dfa8ee63ef3540f0a13af431e"
+    },
+    {
+      "state": "6584_off_target_N10/neutral",
+      "result": "dft/6584_off_target_N10/neutral/result.json",
+      "sha256": "be0a565a135d555f3cf2c8d78c06a4ecfc4d1aaeccac70cd2ca529ba2370f3a3"
+    },
+    {
+      "state": "6589_N_oxide/cation",
+      "result": "dft/6589_N_oxide/cation/result.json",
+      "sha256": "9f5ddc1c49eee6ce4ad561e363bd8440ebb965330a105657ea282de1808155ed"
+    },
+    {
+      "state": "6589_N_oxide/neutral",
+      "result": "dft/6589_N_oxide/neutral/result.json",
+      "sha256": "04e38bfeda23d11f8806f127aed8f7d9e9a3a78b82caf0da8ea8f5f04c2b93d4"
+    },
+    {
+      "state": "6589_neutral/cation",
+      "result": "dft/6589_neutral/cation/result.json",
+      "sha256": "61758c5cf51b4974077f98dda77a27d9f65a749bc717cfc6ec8e9f64af5b9ae2"
+    },
+    {
+      "state": "6589_neutral/neutral",
+      "result": "dft/6589_neutral/neutral/result.json",
+      "sha256": "78cde0a06da80abe349b3895544de8ce3c5f1b578e4db207579bd9ffc2da8a79"
+    },
+    {
+      "state": "6589_off_target_N10/cation",
+      "result": "dft/6589_off_target_N10/cation/result.json",
+      "sha256": "f63f9b187cee348569d3597ae42c88b473f32846ee99b418795ae66ed13a4d73"
+    },
+    {
+      "state": "6589_off_target_N10/neutral",
+      "result": "dft/6589_off_target_N10/neutral/result.json",
+      "sha256": "e29a2718bf5e9a53a9702221df82795f7fda5729dd9231f3c1eaf3975a82f650"
+    },
+    {
+      "state": "6675_N_oxide/cation",
+      "result": "dft/6675_N_oxide/cation/result.json",
+      "sha256": "2d1105220c42e03fb0815466950772aa528d9d4617adec7d580e5a4002af4ad3"
+    },
+    {
+      "state": "6675_N_oxide/neutral",
+      "result": "dft/6675_N_oxide/neutral/result.json",
+      "sha256": "5cc352252b2eebd822a746b1101f0da0ebe3cafcb4cb91b2c232ac6228fd021b"
+    },
+    {
+      "state": "6675_neutral/cation",
+      "result": "dft/6675_neutral/cation/result.json",
+      "sha256": "3ab1d88da80419c041c9e62a35b6ef72dc5bb1f3653efbb4903696e7fba84765"
+    },
+    {
+      "state": "6675_neutral/neutral",
+      "result": "dft/6675_neutral/neutral/result.json",
+      "sha256": "59e1cc479f725c75923af4a11cbd11b56bb57872f03532ae30fbdc8f482829b0"
+    },
+    {
+      "state": "6675_off_target_N12/cation",
+      "result": "dft/6675_off_target_N12/cation/result.json",
+      "sha256": "f4aef0bd93c47bc2ef2ed98121ac76c869410ff1e313a39814962a0b28b2902e"
+    },
+    {
+      "state": "6675_off_target_N12/neutral",
+      "result": "dft/6675_off_target_N12/neutral/result.json",
+      "sha256": "87962a00e687a784866da5130b75d5d39f5bc4da8f563a72fbeff3509182db14"
+    },
+    {
+      "state": "6874_N_oxide/cation",
+      "result": "dft/6874_N_oxide/cation/result.json",
+      "sha256": "6e84a982bdbd89c8a2e1ac44094510f4180b156d07b9a806dc9a92f44981b4f7"
+    },
+    {
+      "state": "6874_N_oxide/neutral",
+      "result": "dft/6874_N_oxide/neutral/result.json",
+      "sha256": "c528598ce921737e0824b058fa514fd14ca776e8f1399ecb13c770bc4bfb9755"
+    },
+    {
+      "state": "6874_neutral/cation",
+      "result": "dft/6874_neutral/cation/result.json",
+      "sha256": "ca0f9efade8c4c78e37080e94ad9c2d1b90b972030c3a7f67d45b78b036da64e"
+    },
+    {
+      "state": "6874_neutral/neutral",
+      "result": "dft/6874_neutral/neutral/result.json",
+      "sha256": "ea1aa500cfe060630dce5fa95a9db71fb90b5dfdcb7113aca2b264a41bdc16d2"
+    },
+    {
+      "state": "6972_N_oxide/cation",
+      "result": "dft/6972_N_oxide/cation/result.json",
+      "sha256": "888860b6cd73532f3e081109fc6a5ab0702c2a56721c8386188259b5a2de5a75"
+    },
+    {
+      "state": "6972_N_oxide/neutral",
+      "result": "dft/6972_N_oxide/neutral/result.json",
+      "sha256": "20af0fcf94a67a7d9961473ac0cd2baa9f54b58d66a2b5c09cc4bf89facc2b31"
+    },
+    {
+      "state": "6972_neutral/cation",
+      "result": "dft/6972_neutral/cation/result.json",
+      "sha256": "e062074d8a8a481927f0c9a8e2ec4c3ca9b9cbf07a8aadf2d483f83af47c499a"
+    },
+    {
+      "state": "6972_neutral/neutral",
+      "result": "dft/6972_neutral/neutral/result.json",
+      "sha256": "bc297cd124bba69b8f87294498ae2db824aa87a84147115ffdfe36f353499ffb"
+    },
+    {
+      "state": "6972_off_target_N18/cation",
+      "result": "dft/6972_off_target_N18/cation/result.json",
+      "sha256": "da0ef2b0c01b6bc4760746b90e3f023e95b966ca697437d346f3a7509acd6868"
+    },
+    {
+      "state": "6972_off_target_N18/neutral",
+      "result": "dft/6972_off_target_N18/neutral/result.json",
+      "sha256": "cc99cf907d02b2f039c6da949e5eec0192bf8c71b15df8cba1ac470138a1537d"
+    },
+    {
+      "state": "6972_off_target_N9/cation",
+      "result": "dft/6972_off_target_N9/cation/result.json",
+      "sha256": "15e1ee2a3c9b703905cf8aa77307d0aa69b9355baebdb7088b7770ce6b906d6b"
+    },
+    {
+      "state": "6972_off_target_N9/neutral",
+      "result": "dft/6972_off_target_N9/neutral/result.json",
+      "sha256": "df0669145ade6b9b795b5fd6516af5bab6b59d693b9dac694c4325824c75c384"
+    },
+    {
+      "state": "7804_N_oxide/cation",
+      "result": "dft/7804_N_oxide/cation/result.json",
+      "sha256": "4f7c17cf19104ee314ddc1b01d84d04eabeb2472eddf142a8a081f8074d21749"
+    },
+    {
+      "state": "7804_N_oxide/neutral",
+      "result": "dft/7804_N_oxide/neutral/result.json",
+      "sha256": "6dca84ac1becfd33678e1117a3d5ee27067ef8d3a298d180d1c6733945d12cd4"
+    },
+    {
+      "state": "7804_neutral/cation",
+      "result": "dft/7804_neutral/cation/result.json",
+      "sha256": "67eaf7ceccfc46df19758573879117a48f7b15829bb6608ad46f42835bac5e8e"
+    },
+    {
+      "state": "7804_neutral/neutral",
+      "result": "dft/7804_neutral/neutral/result.json",
+      "sha256": "87c84d4a27ef40daece4c565e5d9c23add8ec7967b4114c1cbb5be7916858bca"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "event": "reconfigured_for_cost_aware_early_stopping",
+  "timestamp": "2026-08-14T22:08:54+08:00",
+  "superseded_run": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_150k",
+  "reason": "The released patience of 20 could not trigger within the 15 planned validation checks.",
+  "checkpoint_created": false,
+  "files_preserved": true,
+  "replacement_run": "/root/rivermind-data/baselines/runs/retrodit_ch6_69pct_unknown_native/formal_8m_earlystop_100k"
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+outputs/
+.venv/
+.env
+.env.*
+!.env.example
+CHRetroAgent/webapp/llm_settings.json
+CHRetroAgent/webapp/llm_settings.local.json
+CHRetroAgent/webapp/data/private/
+*.key

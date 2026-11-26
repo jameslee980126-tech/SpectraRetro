@@ -1,0 +1,55 @@
+{
+  "models": {
+    "full_fspec": {
+      "arm": "full_fspec",
+      "seed": 0,
+      "epochs": 50,
+      "width": 512,
+      "layers": 3,
+      "batch_size": 64,
+      "optimizer": "Adam",
+      "lr": 0.0001,
+      "weight_decay": 0,
+      "dropout": 0,
+      "unknown_class": true,
+      "train_rows": 74146,
+      "valid_rows": 9395,
+      "selection": "max validation Top1, earliest tie",
+      "candidate_domain": "unchanged canonical bonds plus atoms",
+      "parameters": 5349894,
+      "torch": "2.8.0+cu128",
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    "no_spectral": {
+      "arm": "no_spectral",
+      "seed": 0,
+      "epochs": 50,
+      "width": 512,
+      "layers": 3,
+      "batch_size": 64,
+      "optimizer": "Adam",
+      "lr": 0.0001,
+      "weight_decay": 0,
+      "dropout": 0,
+      "unknown_class": true,
+      "train_rows": 74146,
+      "valid_rows": 9395,
+      "selection": "max validation Top1, earliest tie",
+      "candidate_domain": "unchanged canonical bonds plus atoms",
+      "parameters": 4557318,
+      "torch": "2.8.0+cu128"
+    }
+  },
+  "test_reactions": 9250,
+  "selected_epoch": {
+    "full_fspec": 46,
+    "no_spectral": 46
+  },
+  "full_fspec_checkpoint": "checkpoints/stage1/unknown/best.pth",
+  "checkpoint_sha256": {
+    "full_fspec": "3493b56d5d8664a48df4ff6fe3183e26fca5ab163243150ccd56ee295f0672fd",
+    "no_spectral": "2409dfd5b2857bacc24e0e4bfa375e6ef6c40aed947a857a5e117a8410ea8179"
+  },
+  "no_spectral_checkpoint_included": false,
+  "interpretation": "Deletion of the spectral pathway also removes its pair-state propagation; this is not a parameter-matched local-propagation comparison."
+}

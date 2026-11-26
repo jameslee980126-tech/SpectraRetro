@@ -1,0 +1,56 @@
+{
+  "scope": "Archived September 9 spectral encoder checks; separate from subsequent full-data ablation. No new forward or optimizer run performed for this material catalog.",
+  "source_report_sha256": "0ae5b1bd9356579306d6e797a5a1b66b2ba3a012a3da700e3277fc3c03f6691a",
+  "source_checkpoint": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/diagnostics/spectral_encoder_source_checkpoint.pth",
+  "files": [
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/diagnostics/spectral_encoder_source_checkpoint.pth",
+      "sha256": "9437c9b464ad976c1143407d7622da16f7ce971f399e2ff40a0ac0e8e44fedfb",
+      "bytes": 64296292
+    },
+    {
+      "path": "results/diagnostics/spectral_encoder/source/audit_fspec_faithful_architecture_20260909.py",
+      "sha256": "818a3e152f9f928584c1ba45a44c72a0d333c4d380fe3f2ca4b4486bc2b382ae",
+      "bytes": 9401,
+      "original_script_sha256": "3f58d6308c09dda05c41040ef4ca0f9b2bc11d92625a49f05ee2614570b9a7e2"
+    },
+    {
+      "path": "results/diagnostics/spectral_encoder/source/verify_fspec_faithful.py",
+      "sha256": "25372a53d83ed31a00f759f328cbf0818f4faace2de41aae315697c92480080e",
+      "bytes": 6549
+    },
+    {
+      "path": "results/diagnostics/spectral_encoder/source/audit_planar_dual_invariance.py",
+      "sha256": "bcbfeeb39b5a49c02601c4c79a01d387d0f368e7238488038c104da731879dfc",
+      "bytes": 4958
+    },
+    {
+      "path": "results/diagnostics/spectral_encoder/source/fspec_reference_encoder.py",
+      "sha256": "6b606c20d0775153424b203708a4fcee16469cd76a898c660946ffe46346c7f6",
+      "bytes": 6015,
+      "upstream": "https://github.com/xwangxshi/FSpecGNN/blob/193272dad5b1b4cdb6982af0e90fe96c687b7e07/Hom-Cycle-count/src/eigen_model.py"
+    },
+    {
+      "path": "results/diagnostics/spectral_encoder/trained_input_contract.json",
+      "sha256": "a4470a785c6013838b794e4eed8078d8b4087ff05c59930cae5c477f87e67720",
+      "bytes": 382
+    }
+  ],
+  "reported_table": [
+    "| 检查 | 实际结果 | 能说明什么 |",
+    "|---|---|---|",
+    "| 原有结构 verifier | PASS | 小模型首步梯度、形状、有限输出正确 |",
+    "| 91.13% validation checkpoint 严格加载 | PASS | 现模型结构匹配已保存权重 |",
+    "| 训练权重三层频率编码器梯度 | 9.96e-5、8.46e-5、4.33e-5 | 三层频率网络仍接受任务梯度 |",
+    "| 频率滤波置零 | fixture 最大 logit 变化约106.73 | 谱路径实际影响模型输出 |",
+    "| 频率函数改为其均值常数 | fixture 最大 logit 变化约122.72 | 频率依赖性实际影响输出 |",
+    "| 删除 reaction 类别字段 | logit 变化0 | 当前 unknown-class 预测不读取真实类别 |",
+    "| 删除 reactant 输入 | logit 变化0 | 当前预测只需要产品图 |",
+    "| packed batch 与单分子拼回 | pair-edge 最大差0 | 检查样本上的候选对齐正确 |",
+    "| 已训练权重10个分子，各5次重编号、两种重建方式 | 最大 logit 差约1.45e-4，未发现对应键特征变化 | 固定输入到模型的等变性没有出现大幅失效 |",
+    "| 重复特征值子空间旋转，float64、dropout=0 | 最大差7.99e-15 | 当前确定性谱层对基选择稳定 |",
+    "| 同一旋转探针，仅频率网络启用dropout=0.05 | 同随机状态最大差0.163 | 随机频率滤波不再逐次保持基选择不变性 |"
+  ],
+  "precision": "reported rounded values; original script and synthetic fixture definitions retained",
+  "file_path_base": "repository_root"
+}

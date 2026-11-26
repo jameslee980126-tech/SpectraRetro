@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+      "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e",
+      "bytes": 21754923,
+      "role": "data_or_generated_samples"
+    },
+    {
+      "path": "experiments/spectraretro_inputs/chemical_prior/frozen_inputs/old/newdata/eval_geometry.pt",
+      "sha256": "d0aca75f276f2afbc23ad74e950a27deceed380d9204b6f9f27262928e7a23e6",
+      "bytes": 33309073,
+      "role": "data_or_generated_samples"
+    },
+    {
+      "path": "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt",
+      "sha256": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+      "bytes": 857989,
+      "role": "data_or_generated_samples"
+    },
+    {
+      "path": "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt",
+      "sha256": "5a8190e9db3d778618cbf86c8c0f6d5af91480f5da7ab61e8da821d1c3cef190",
+      "bytes": 651805,
+      "role": "data_or_generated_samples"
+    }
+  ]
+}

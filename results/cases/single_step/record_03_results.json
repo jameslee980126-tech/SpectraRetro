@@ -1,0 +1,3645 @@
+{
+  "protocol": {
+    "version": 1,
+    "scope": "Two product-only single-step validation cases; identical root inference to previous three cases; exploratory, not official evaluation",
+    "reaction_class_input": false,
+    "reference_inputs": false,
+    "oracle_size": false,
+    "center_topk": 10,
+    "paired_draws_per_center": 30,
+    "diffusion_intervals": 100,
+    "max_depth": 1,
+    "seed": 0,
+    "embedding": "ETKDGv3 of current product; MMFF94 or UFF; fragment coordinates sliced only from this product",
+    "unsupported": "atom centers, ring bonds, non-single bonds, fragments smaller than two heavy atoms; no backfill beyond original top ten",
+    "ranking": "sum across centers of center_softmax_probability * exact hydrogen-restored precursor-set frequency / 30; ties lexical",
+    "expansion": "None: validate root step only",
+    "leaves": "depth/node-size stop only, not a claim of commercial availability",
+    "decoder": "Windows Open Babel 3.1.0 XYZ, fixed generic hydrogen restoration, RDKit sanitization; reject radicals, charges and disconnected per-fragment outputs",
+    "validation": "structural checks only; not a feasibility predictor or wet-lab validation",
+    "failures": "retain failed slots; no target-guided retries or reseeding; diagnostic runtime failures abort",
+    "size_batching": "each fragment independently to avoid padding-dependent size probabilities",
+    "stage1_correct_center_gate": false,
+    "checkpoints": {
+      "diffusion": "f8e90f34e30d24c5ebc3aa5a250cc1ace339757bc1f792a2b6147e8001b03347",
+      "size": "c754db1ad154be632874319e424fedf535d519e618bf619e6c7f0523a228c5b7"
+    },
+    "stage1_sha256": "a71715eb470c529fc76bf11e4f0d579e12e07e36647fd2300c3e0fa090b28900",
+    "runner_sha256": "4314ec6961342366e2128f0b056a2ebfca4fca15c3c9ecef23bbed89242daf3a",
+    "torch": "2.8.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "roots": [
+      {
+        "id": "9616",
+        "smiles": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)c2cc3cc(Cl)ccc3o2)C1"
+      }
+    ],
+    "shared_engine_sha256": "483c14a8aa80d4a4b4879aac2e8a559be2d82dd139066538f86b0b94e4c1d5e5",
+    "helper_sha256": {
+      "score_product.py": "20d5c91ed4b7bddca6e53b4a8ca24c8835c0aff3419ce3748e7781dde889cf68",
+      "score_next_round.py": "cc0f5d8f7020916ecb80030e7f6e6bba900391a7ffc3428b17e5cc21cccc3b3b",
+      "decode_candidates.py": "911a4c185a4d1dfc741b93fae233ed5fda7e07d9230b03d4b51fa5933b3703c1",
+      "runtime_common.py": "cbdde88b68726671a30b3a14c34bd7cb5ab5bb8cce1d2f403ccd8825a514b70e"
+    }
+  },
+  "nodes": [
+    {
+      "id": "9616_root",
+      "case_id": "9616",
+      "depth": 0,
+      "ancestors": [],
+      "smiles": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+      "stage1": {
+        "id": "9616_root",
+        "smiles": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+        "candidates": [
+          {
+            "kind": "bond",
+            "atom_indices": [
+              13,
+              15
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.9419593811035156,
+            "rank": 1
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              12,
+              13
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.055998269468545914,
+            "rank": 2
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              19,
+              20
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.001242336817085743,
+            "rank": 3
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              12,
+              25
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 0.0006702441023662686,
+            "rank": 4
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              4,
+              12
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 6.453685637097806e-05,
+            "rank": 5
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              0,
+              1
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 1.9820077795884572e-05,
+            "rank": 6
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              10
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417967364948709e-06,
+            "rank": 7
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              9
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417950994044077e-06,
+            "rank": 8
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              11
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417919161729515e-06,
+            "rank": 9
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              4,
+              5
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 6.87655574438395e-06,
+            "rank": 10
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              13,
+              14
+            ],
+            "in_ring": false,
+            "bond_type": "DOUBLE",
+            "probability": 5.901737040403532e-06,
+            "rank": 11
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              1,
+              2
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 2.6623117719282163e-06,
+            "rank": 12
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              2,
+              3
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 1.8487130546418484e-06,
+            "rank": 13
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              1,
+              25
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 1.3754251995123923e-06,
+            "rank": 14
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              17,
+              23
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 6.641728305112338e-07,
+            "rank": 15
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              3,
+              4
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 5.596534720098134e-07,
+            "rank": 16
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              15,
+              16
+            ],
+            "in_ring": true,
+            "bond_type": "DOUBLE",
+            "probability": 1.1059501048293896e-07,
+            "rank": 17
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              22,
+              23
+            ],
+            "in_ring": true,
+            "bond_type": "DOUBLE",
+            "probability": 2.9815108604225316e-08,
+            "rank": 18
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              14
+            ],
+            "probability": 2.7917765876850353e-08,
+            "rank": 19
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              3
+            ],
+            "probability": 1.8256228528912288e-08,
+            "rank": 20
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              12
+            ],
+            "probability": 1.531139304233875e-08,
+            "rank": 21
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              19,
+              21
+            ],
+            "in_ring": true,
+            "bond_type": "DOUBLE",
+            "probability": 1.5035363176707506e-08,
+            "rank": 22
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              25
+            ],
+            "probability": 1.4106162460336691e-08,
+            "rank": 23
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              16
+            ],
+            "probability": 1.3837414769568568e-08,
+            "rank": 24
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              2
+            ],
+            "probability": 1.3408331334119339e-08,
+            "rank": 25
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              5,
+              7
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.869569967373536e-09,
+            "rank": 26
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              22
+            ],
+            "probability": 8.131245898823636e-09,
+            "rank": 27
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              11
+            ],
+            "probability": 6.817886699650444e-09,
+            "rank": 28
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              9
+            ],
+            "probability": 6.817795217273215e-09,
+            "rank": 29
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              10
+            ],
+            "probability": 6.817782338686129e-09,
+            "rank": 30
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              24
+            ],
+            "probability": 5.8422013893277835e-09,
+            "rank": 31
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              17,
+              18
+            ],
+            "in_ring": true,
+            "bond_type": "DOUBLE",
+            "probability": 4.82209916441434e-09,
+            "rank": 32
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              16,
+              17
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 4.7407793246634355e-09,
+            "rank": 33
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              5,
+              6
+            ],
+            "in_ring": false,
+            "bond_type": "DOUBLE",
+            "probability": 4.547082710359973e-09,
+            "rank": 34
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              0
+            ],
+            "probability": 4.540123832441623e-09,
+            "rank": 35
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              13
+            ],
+            "probability": 3.2382194703473033e-09,
+            "rank": 36
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              8
+            ],
+            "probability": 1.8150876357481138e-09,
+            "rank": 37
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              6
+            ],
+            "probability": 1.2340789501408267e-09,
+            "rank": 38
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              15
+            ],
+            "probability": 1.164437879452862e-09,
+            "rank": 39
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              7,
+              8
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 7.227387577302125e-10,
+            "rank": 40
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              23,
+              24
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 5.19787379804626e-10,
+            "rank": 41
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              18,
+              19
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 3.250401892085364e-10,
+            "rank": 42
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              20
+            ],
+            "probability": 2.7620236653369545e-10,
+            "rank": 43
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              18
+            ],
+            "probability": 2.286023315090091e-10,
+            "rank": 44
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              15,
+              24
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 2.2277031608286535e-10,
+            "rank": 45
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              4
+            ],
+            "probability": 1.5414462761764725e-10,
+            "rank": 46
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              5
+            ],
+            "probability": 1.1373307851059167e-10,
+            "rank": 47
+          },
+          {
+            "kind": "bond",
+            "atom_indices": [
+              21,
+              22
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 8.27773821709954e-11,
+            "rank": 48
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              17
+            ],
+            "probability": 7.347011887759436e-11,
+            "rank": 49
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              1
+            ],
+            "probability": 5.583472920123178e-11,
+            "rank": 50
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              21
+            ],
+            "probability": 4.263680727922825e-11,
+            "rank": 51
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              19
+            ],
+            "probability": 3.234537290786044e-11,
+            "rank": 52
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              23
+            ],
+            "probability": 1.6613679182375662e-11,
+            "rank": 53
+          },
+          {
+            "kind": "atom",
+            "atom_indices": [
+              7
+            ],
+            "probability": 1.3332766965121201e-12,
+            "rank": 54
+          }
+        ]
+      },
+      "product_optimization_status": 0,
+      "branches": [
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              13,
+              15
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.9419593811035156,
+            "rank": 1
+          },
+          "draws": [
+            {
+              "draw": 0,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)OC(=[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "C=C(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "C=C(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 1,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)[C@]2([C])[C]O2)[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)[C@]2(C)CO2)C1",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)[C@]2(C)CO2)C1.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 2,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)I"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(I)cc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 3,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "COCOC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "COCOC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 4,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)[N]([C])([C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                null,
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "sanitize_failed",
+                null
+              ]
+            },
+            {
+              "draw": 5,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]([O])N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 6,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 7,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)[N]O[C])[C]1.[C]",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                null,
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "disconnected_fragment",
+                null
+              ]
+            },
+            {
+              "draw": 8,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 9,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)[N]([O])([C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                null,
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "sanitize_failed",
+                null
+              ]
+            },
+            {
+              "draw": 10,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 11,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 12,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)I"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(I)cc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 13,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 14,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)[N]2([C][C]2)[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                null,
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "sanitize_failed",
+                null
+              ]
+            },
+            {
+              "draw": 15,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 16,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 17,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]([O])N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 18,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 19,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)I"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(I)cc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 20,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 21,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)OO[C])[C]1.[C]",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                null,
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "disconnected_fragment",
+                null
+              ]
+            },
+            {
+              "draw": 22,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N2[C]3[C][C]23)[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)N2C3CC32)C1",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)N2C3CC32)C1.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 23,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 24,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 25,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 26,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]([O])OC(=O)[C])[C]1",
+                "C1(=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Br"
+              ],
+              "precursors": [
+                "CC(=O)OC(O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2oc(Br)cc2c1"
+              ],
+              "valid_set": "CC(=O)OC(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 27,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)O[C]([C])[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 28,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N([C])O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 29,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)C(=O)O[C])[C]1",
+                "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "COC(=O)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "Clc1ccc2occc2c1"
+              ],
+              "valid_set": "COC(=O)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+              "reasons": [
+                null,
+                null
+              ]
+            }
+          ],
+          "status": "sampled",
+          "fragments": [
+            {
+              "product_atom_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                25
+              ],
+              "elements": [
+                "C",
+                "N",
+                "C",
+                "C",
+                "N",
+                "C",
+                "O",
+                "O",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "O",
+                "C"
+              ],
+              "anchor_local_index": 13,
+              "coordinates": [
+                [
+                  -0.11976588321684496,
+                  -3.0824968609700014,
+                  -2.098147167699764
+                ],
+                [
+                  -0.6318139866416892,
+                  -2.2098508455376753,
+                  -1.0487751937131322
+                ],
+                [
+                  -1.493417982005174,
+                  -2.930860432497849,
+                  -0.09417597263397082
+                ],
+                [
+                  -2.122627084314431,
+                  -1.9950823461917007,
+                  0.9786151959536392
+                ],
+                [
+                  -1.345415135362038,
+                  -0.7622371674388412,
+                  1.1294057558474937
+                ],
+                [
+                  -1.793154182429349,
+                  0.39636589793886895,
+                  0.492524939331854
+                ],
+                [
+                  -1.0376684664701492,
+                  1.2585251277414966,
+                  0.0587662549075404
+                ],
+                [
+                  -3.1477702287564564,
+                  0.4594286536668024,
+                  0.43166532064679114
+                ],
+                [
+                  -3.8152860955566905,
+                  1.587310361304985,
+                  -0.18763333181223593
+                ],
+                [
+                  -5.313139297021421,
+                  1.2713778732226435,
+                  -0.054447316942146426
+                ],
+                [
+                  -3.522911896253036,
+                  2.8914222336313693,
+                  0.5624220735119094
+                ],
+                [
+                  -3.4692925788008084,
+                  1.6899800355431758,
+                  -1.6773118538912293
+                ],
+                [
+                  0.10962017665878612,
+                  -0.9981052777194188,
+                  1.0710124101388216
+                ],
+                [
+                  0.9321628806681731,
+                  0.1519412220685267,
+                  1.711416710620507
+                ],
+                [
+                  0.46749577070440346,
+                  0.7844505145014178,
+                  2.6669770180751975
+                ],
+                [
+                  0.4710948954952134,
+                  -1.4743200390022053,
+                  -0.362908345199103
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.0009980391478165984,
+                "1": 0.00010751011723186821,
+                "2": 6.551579281222075e-05,
+                "3": 0.047788336873054504,
+                "4": 0.9506383538246155,
+                "5": 4.622671440301929e-06,
+                "6": 1.8826884115696885e-05,
+                "7": 9.848746262974828e-10,
+                "8": 0.0003782743006013334,
+                "9": 1.519262493587803e-09,
+                "10": 3.8022136550353025e-07,
+                "13": 9.457292726722244e-10,
+                "19": 3.387326183434958e-11,
+                "20": 6.03872907234404e-09
+              },
+              "sampled_sizes": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "product_atom_indices": [
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "elements": [
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "Cl",
+                "C",
+                "C",
+                "C",
+                "O"
+              ],
+              "anchor_local_index": 0,
+              "coordinates": [
+                [
+                  2.283938667567141,
+                  0.4097385287162736,
+                  1.2531665545149766
+                ],
+                [
+                  3.113644500653171,
+                  1.4893899393234356,
+                  1.5030979799141606
+                ],
+                [
+                  4.343313938398152,
+                  1.23300165876361,
+                  0.8456404347913674
+                ],
+                [
+                  5.566116216255184,
+                  1.9110772327982264,
+                  0.6978745593282518
+                ],
+                [
+                  6.576754230055173,
+                  1.3001214430496342,
+                  -0.056305288680956175
+                ],
+                [
+                  8.08451253007349,
+                  2.1104140111369145,
+                  -0.2528656589545279
+                ],
+                [
+                  6.3895617612830025,
+                  0.04937328127133463,
+                  -0.6511118354929349
+                ],
+                [
+                  5.178815196712455,
+                  -0.6390288812282466,
+                  -0.5118994197937559
+                ],
+                [
+                  4.191628511379423,
+                  -0.00872278070648335,
+                  0.2420298254863852
+                ],
+                [
+                  2.9533356104189177,
+                  -0.5106249325945407,
+                  0.49688473428211954
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.7590563297271729,
+                "1": 0.24085210263729095,
+                "2": 1.0846775921891094e-06,
+                "3": 6.323779962258413e-05,
+                "4": 2.2450437597854034e-07,
+                "5": 1.0709232611816333e-07,
+                "6": 4.844773471290864e-09,
+                "7": 1.4213693333431365e-08,
+                "8": 2.6885882107308134e-05,
+                "9": 1.0574042752509172e-09,
+                "10": 1.2978824612264184e-11,
+                "13": 3.4669710678725263e-12,
+                "19": 8.451435894434728e-14,
+                "20": 3.460900663276867e-11
+              },
+              "sampled_sizes": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "seed": 1929132318,
+          "valid_pairs": 25
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              12,
+              13
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.055998269468545914,
+            "rank": 2
+          },
+          "draws": [
+            {
+              "draw": 0,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "[C](=O)C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=Cc1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=Cc1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 1,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]1)S(=O)(=O)[C]",
+                "[C](=O)C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)C(S(C)(=O)=O)C1",
+                "O=Cc1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)C(S(C)(=O)=O)C1.O=Cc1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 2,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)([O])C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 3,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 4,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C][C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "CCOC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CCOC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 5,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]1)[C]1[C][C]1",
+                "C(=O)([O])C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)C(C2CC2)C1",
+                "O=C(O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)C(C2CC2)C1.O=C(O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 6,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C][C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "CCOC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CCOC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 7,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "[C](=O)C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=Cc1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=Cc1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 8,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 9,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 10,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 11,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 12,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]=[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "C=COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "C=COC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 13,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C][C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "CCOC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CCOC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 14,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 15,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]1)[C](OO[C][C])O[C][C]",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CCOOC(OCC)C1CN(C)CCN1C(=O)OC(C)(C)C",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CCOOC(OCC)C1CN(C)CCN1C(=O)OC(C)(C)C.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 16,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 17,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 18,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 19,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)N([C])O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "CON(C)C(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.CON(C)C(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 20,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C]([C]1)C(=O)[O]",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)O)C1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)O)C1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 21,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 22,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "[C](=O)C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=Cc1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=Cc1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 23,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C][C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "CCOC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CCOC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 24,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)Cl"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(Cl)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 25,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)([O])C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 26,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 27,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)(C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1)O[C]"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "COC(=O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 28,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "C(=O)([O])C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=C(O)c1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(O)c1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 29,
+              "raw": [
+                "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C][C]1",
+                "[C](=O)C1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+              ],
+              "precursors": [
+                "CN1CCN(C(=O)OC(C)(C)C)CC1",
+                "O=Cc1cc2cc(Cl)ccc2o1"
+              ],
+              "valid_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=Cc1cc2cc(Cl)ccc2o1",
+              "reasons": [
+                null,
+                null
+              ]
+            }
+          ],
+          "status": "sampled",
+          "fragments": [
+            {
+              "product_atom_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                25
+              ],
+              "elements": [
+                "C",
+                "N",
+                "C",
+                "C",
+                "N",
+                "C",
+                "O",
+                "O",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C"
+              ],
+              "anchor_local_index": 12,
+              "coordinates": [
+                [
+                  -0.11976588321684496,
+                  -3.0824968609700014,
+                  -2.098147167699764
+                ],
+                [
+                  -0.6318139866416892,
+                  -2.2098508455376753,
+                  -1.0487751937131322
+                ],
+                [
+                  -1.493417982005174,
+                  -2.930860432497849,
+                  -0.09417597263397082
+                ],
+                [
+                  -2.122627084314431,
+                  -1.9950823461917007,
+                  0.9786151959536392
+                ],
+                [
+                  -1.345415135362038,
+                  -0.7622371674388412,
+                  1.1294057558474937
+                ],
+                [
+                  -1.793154182429349,
+                  0.39636589793886895,
+                  0.492524939331854
+                ],
+                [
+                  -1.0376684664701492,
+                  1.2585251277414966,
+                  0.0587662549075404
+                ],
+                [
+                  -3.1477702287564564,
+                  0.4594286536668024,
+                  0.43166532064679114
+                ],
+                [
+                  -3.8152860955566905,
+                  1.587310361304985,
+                  -0.18763333181223593
+                ],
+                [
+                  -5.313139297021421,
+                  1.2713778732226435,
+                  -0.054447316942146426
+                ],
+                [
+                  -3.522911896253036,
+                  2.8914222336313693,
+                  0.5624220735119094
+                ],
+                [
+                  -3.4692925788008084,
+                  1.6899800355431758,
+                  -1.6773118538912293
+                ],
+                [
+                  0.10962017665878612,
+                  -0.9981052777194188,
+                  1.0710124101388216
+                ],
+                [
+                  0.4710948954952134,
+                  -1.4743200390022053,
+                  -0.362908345199103
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.5872524976730347,
+                "1": 0.18326568603515625,
+                "2": 1.161400450655492e-05,
+                "3": 0.05520438402891159,
+                "4": 0.07346182316541672,
+                "5": 1.600235736987088e-05,
+                "6": 0.0005351800355128944,
+                "7": 2.4280931043563214e-08,
+                "8": 0.10025147348642349,
+                "9": 2.2380388031706389e-07,
+                "10": 9.271495855500689e-07,
+                "13": 1.915265723795301e-09,
+                "19": 3.487444014127483e-11,
+                "20": 1.8964377090924245e-07
+              },
+              "sampled_sizes": [
+                0,
+                4,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                0,
+                0,
+                0,
+                0,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "product_atom_indices": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "elements": [
+                "C",
+                "O",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "Cl",
+                "C",
+                "C",
+                "C",
+                "O"
+              ],
+              "anchor_local_index": 0,
+              "coordinates": [
+                [
+                  0.9321628806681731,
+                  0.1519412220685267,
+                  1.711416710620507
+                ],
+                [
+                  0.46749577070440346,
+                  0.7844505145014178,
+                  2.6669770180751975
+                ],
+                [
+                  2.283938667567141,
+                  0.4097385287162736,
+                  1.2531665545149766
+                ],
+                [
+                  3.113644500653171,
+                  1.4893899393234356,
+                  1.5030979799141606
+                ],
+                [
+                  4.343313938398152,
+                  1.23300165876361,
+                  0.8456404347913674
+                ],
+                [
+                  5.566116216255184,
+                  1.9110772327982264,
+                  0.6978745593282518
+                ],
+                [
+                  6.576754230055173,
+                  1.3001214430496342,
+                  -0.056305288680956175
+                ],
+                [
+                  8.08451253007349,
+                  2.1104140111369145,
+                  -0.2528656589545279
+                ],
+                [
+                  6.3895617612830025,
+                  0.04937328127133463,
+                  -0.6511118354929349
+                ],
+                [
+                  5.178815196712455,
+                  -0.6390288812282466,
+                  -0.5118994197937559
+                ],
+                [
+                  4.191628511379423,
+                  -0.00872278070648335,
+                  0.2420298254863852
+                ],
+                [
+                  2.9533356104189177,
+                  -0.5106249325945407,
+                  0.49688473428211954
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.19340133666992188,
+                "1": 0.35548245906829834,
+                "2": 0.3209071755409241,
+                "3": 0.11974969506263733,
+                "4": 0.008594134822487831,
+                "5": 0.0007139298832044005,
+                "6": 1.9902643543900922e-05,
+                "7": 2.7444348233984783e-06,
+                "8": 0.0011277713347226381,
+                "9": 1.5207076842216338e-07,
+                "10": 2.3886246935944655e-07,
+                "13": 1.7396931184521236e-07,
+                "19": 4.763180516675902e-09,
+                "20": 3.253884131027007e-07
+              },
+              "sampled_sizes": [
+                0,
+                0,
+                1,
+                2,
+                3,
+                1,
+                3,
+                0,
+                2,
+                1,
+                1,
+                2,
+                3,
+                3,
+                1,
+                2,
+                2,
+                1,
+                2,
+                4,
+                2,
+                1,
+                0,
+                3,
+                1,
+                1,
+                2,
+                2,
+                1,
+                0
+              ]
+            }
+          ],
+          "seed": 1690213627,
+          "valid_pairs": 30
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              19,
+              20
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 0.001242336817085743,
+            "rank": 3
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "single_atom_fragment_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              12,
+              25
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 0.0006702441023662686,
+            "rank": 4
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "ring_opening_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              4,
+              12
+            ],
+            "in_ring": true,
+            "bond_type": "SINGLE",
+            "probability": 6.453685637097806e-05,
+            "rank": 5
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "ring_opening_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              0,
+              1
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 1.9820077795884572e-05,
+            "rank": 6
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "single_atom_fragment_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              10
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417967364948709e-06,
+            "rank": 7
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "single_atom_fragment_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              9
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417950994044077e-06,
+            "rank": 8
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "single_atom_fragment_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              8,
+              11
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 8.417919161729515e-06,
+            "rank": 9
+          },
+          "draws": [],
+          "status": "unsupported",
+          "reason": "single_atom_fragment_not_supported"
+        },
+        {
+          "center": {
+            "kind": "bond",
+            "atom_indices": [
+              4,
+              5
+            ],
+            "in_ring": false,
+            "bond_type": "SINGLE",
+            "probability": 6.87655574438395e-06,
+            "rank": 10
+          },
+          "draws": [
+            {
+              "draw": 0,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 1,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 2,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 3,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 4,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 5,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 6,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 7,
+              "raw": [
+                "[C]N1C(=O)[C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CC(C(=O)c2cc3cc(Cl)ccc3o2)NCC1=O",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CC(C(=O)c2cc3cc(Cl)ccc3o2)NCC1=O",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 8,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 9,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 10,
+              "raw": [
+                "[C](=O)N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 11,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 12,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 13,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1[O]",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1O",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1O",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 14,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 15,
+              "raw": [
+                "[C]N1[C][C][N@+]([C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)[O-]",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                null,
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "residual_radicals",
+                null
+              ]
+            },
+            {
+              "draw": 16,
+              "raw": [
+                "[C]N1[C][C]N([C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)O[C]O[C].O=C([O])[C]",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                null,
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "disconnected_fragment",
+                null
+              ]
+            },
+            {
+              "draw": 17,
+              "raw": [
+                "[C]N1[C][C][N@+]([C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)[O-]",
+                "[C](=O)OC([C])([C])[C]Cl"
+              ],
+              "precursors": [
+                null,
+                "CC(C)(CCl)OC=O"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "residual_radicals",
+                null
+              ]
+            },
+            {
+              "draw": 18,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 19,
+              "raw": [
+                "[C]N1[C][C][N@@+]([C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)[O-]",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                null,
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "residual_radicals",
+                null
+              ]
+            },
+            {
+              "draw": 20,
+              "raw": [
+                "[C](N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)S(=O)(=O)[C]",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CS(=O)(=O)CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CS(=O)(=O)CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 21,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 22,
+              "raw": [
+                "[C][N]1([C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)[O]",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                null,
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": null,
+              "reasons": [
+                "sanitize_failed",
+                null
+              ]
+            },
+            {
+              "draw": 23,
+              "raw": [
+                "[C](=O)N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C]Cl)([C])[C]"
+              ],
+              "precursors": [
+                "O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(CCl)OC=O"
+              ],
+              "valid_set": "CC(C)(CCl)OC=O.O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 24,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 25,
+              "raw": [
+                "[C]N1[C][C]N([C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1)Cl",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCN(Cl)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCN(Cl)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 26,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 27,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 28,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "C(=O)(OC([C])([C])[C])Cl"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC(=O)Cl"
+              ],
+              "valid_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            },
+            {
+              "draw": 29,
+              "raw": [
+                "[C]N1[C][C][N][C](C(=O)C2=[C]C3=C([C]=[C]C(=[C]3)Cl)O2)[C]1",
+                "[C](=O)OC([C])([C])[C]"
+              ],
+              "precursors": [
+                "CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+                "CC(C)(C)OC=O"
+              ],
+              "valid_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+              "reasons": [
+                null,
+                null
+              ]
+            }
+          ],
+          "status": "sampled",
+          "fragments": [
+            {
+              "product_atom_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "elements": [
+                "C",
+                "N",
+                "C",
+                "C",
+                "N",
+                "C",
+                "C",
+                "O",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "Cl",
+                "C",
+                "C",
+                "C",
+                "O",
+                "C"
+              ],
+              "anchor_local_index": 4,
+              "coordinates": [
+                [
+                  -0.11976588321684496,
+                  -3.0824968609700014,
+                  -2.098147167699764
+                ],
+                [
+                  -0.6318139866416892,
+                  -2.2098508455376753,
+                  -1.0487751937131322
+                ],
+                [
+                  -1.493417982005174,
+                  -2.930860432497849,
+                  -0.09417597263397082
+                ],
+                [
+                  -2.122627084314431,
+                  -1.9950823461917007,
+                  0.9786151959536392
+                ],
+                [
+                  -1.345415135362038,
+                  -0.7622371674388412,
+                  1.1294057558474937
+                ],
+                [
+                  0.10962017665878612,
+                  -0.9981052777194188,
+                  1.0710124101388216
+                ],
+                [
+                  0.9321628806681731,
+                  0.1519412220685267,
+                  1.711416710620507
+                ],
+                [
+                  0.46749577070440346,
+                  0.7844505145014178,
+                  2.6669770180751975
+                ],
+                [
+                  2.283938667567141,
+                  0.4097385287162736,
+                  1.2531665545149766
+                ],
+                [
+                  3.113644500653171,
+                  1.4893899393234356,
+                  1.5030979799141606
+                ],
+                [
+                  4.343313938398152,
+                  1.23300165876361,
+                  0.8456404347913674
+                ],
+                [
+                  5.566116216255184,
+                  1.9110772327982264,
+                  0.6978745593282518
+                ],
+                [
+                  6.576754230055173,
+                  1.3001214430496342,
+                  -0.056305288680956175
+                ],
+                [
+                  8.08451253007349,
+                  2.1104140111369145,
+                  -0.2528656589545279
+                ],
+                [
+                  6.3895617612830025,
+                  0.04937328127133463,
+                  -0.6511118354929349
+                ],
+                [
+                  5.178815196712455,
+                  -0.6390288812282466,
+                  -0.5118994197937559
+                ],
+                [
+                  4.191628511379423,
+                  -0.00872278070648335,
+                  0.2420298254863852
+                ],
+                [
+                  2.9533356104189177,
+                  -0.5106249325945407,
+                  0.49688473428211954
+                ],
+                [
+                  0.4710948954952134,
+                  -1.4743200390022053,
+                  -0.362908345199103
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.6304457783699036,
+                "1": 0.33084872364997864,
+                "2": 0.00024145867791958153,
+                "3": 0.023169854655861855,
+                "4": 0.005904271267354488,
+                "5": 7.3332863394171e-05,
+                "6": 3.437386476434767e-05,
+                "7": 4.358681326266378e-05,
+                "8": 0.009231994859874249,
+                "9": 4.181204531050753e-06,
+                "10": 1.967070375030744e-06,
+                "13": 9.2327020695393e-08,
+                "19": 5.734144714608647e-09,
+                "20": 5.014510406908812e-07
+              },
+              "sampled_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                8,
+                1,
+                0,
+                1,
+                4,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "product_atom_indices": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "elements": [
+                "C",
+                "O",
+                "O",
+                "C",
+                "C",
+                "C",
+                "C"
+              ],
+              "anchor_local_index": 0,
+              "coordinates": [
+                [
+                  -1.793154182429349,
+                  0.39636589793886895,
+                  0.492524939331854
+                ],
+                [
+                  -1.0376684664701492,
+                  1.2585251277414966,
+                  0.0587662549075404
+                ],
+                [
+                  -3.1477702287564564,
+                  0.4594286536668024,
+                  0.43166532064679114
+                ],
+                [
+                  -3.8152860955566905,
+                  1.587310361304985,
+                  -0.18763333181223593
+                ],
+                [
+                  -5.313139297021421,
+                  1.2713778732226435,
+                  -0.054447316942146426
+                ],
+                [
+                  -3.522911896253036,
+                  2.8914222336313693,
+                  0.5624220735119094
+                ],
+                [
+                  -3.4692925788008084,
+                  1.6899800355431758,
+                  -1.6773118538912293
+                ]
+              ],
+              "size_probabilities": {
+                "0": 0.7779754996299744,
+                "1": 0.20643258094787598,
+                "2": 0.015318244695663452,
+                "3": 0.0002517755201552063,
+                "4": 2.0273306290619075e-05,
+                "5": 6.680589592633623e-08,
+                "6": 2.0104383935404257e-08,
+                "7": 1.5717035149482445e-15,
+                "8": 1.474484747632232e-06,
+                "9": 1.4507796090905628e-15,
+                "10": 1.3550187989881668e-13,
+                "13": 3.1612237326672727e-15,
+                "19": 1.1596117828361715e-18,
+                "20": 1.8529742898485552e-13
+              },
+              "sampled_sizes": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ]
+            }
+          ],
+          "seed": 948938303,
+          "valid_pairs": 25
+        }
+      ],
+      "ranking": [
+        {
+          "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.25118916829427085,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 8,
+              "draws": 30,
+              "weighted_score": 0.25118916829427085
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+          "score": 0.09419593811035157,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 3,
+              "draws": 30,
+              "weighted_score": 0.09419593811035157
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "precursor_set": "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "precursor_set": "C=C(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "precursor_set": "CC(=O)OC(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)N2C3CC32)C1.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)[C@]2(C)CO2)C1.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "precursor_set": "COC(=O)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "precursor_set": "COCOC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.COC(=O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.013066262875994047,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 7,
+              "draws": 30,
+              "weighted_score": 0.013066262875994047
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(Cl)c1cc2cc(Cl)ccc2o1",
+          "score": 0.011199653893709183,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 6,
+              "draws": 30,
+              "weighted_score": 0.011199653893709183
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "precursor_set": "CCOC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+          "score": 0.007466435929139455,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 4,
+              "draws": 30,
+              "weighted_score": 0.007466435929139455
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=Cc1cc2cc(Cl)ccc2o1",
+          "score": 0.007466435929139455,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 4,
+              "draws": 30,
+              "weighted_score": 0.007466435929139455
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.O=C(O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.005599826946854592,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 3,
+              "draws": 30,
+              "weighted_score": 0.005599826946854592
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "precursor_set": "C=COC(=O)c1cc2cc(Cl)ccc2o1.CN1CCN(C(=O)OC(C)(C)C)CC1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "precursor_set": "CCOOC(OCC)C1CN(C)CCN1C(=O)OC(C)(C)C.COC(=O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 20
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)O)C1.COC(=O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 21
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C2CC2)C1.O=C(O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 22
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(S(C)(=O)=O)C1.O=Cc1cc2cc(Cl)ccc2o1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 23
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)CC1.CON(C)C(=O)c1cc2cc(Cl)ccc2o1",
+          "score": 0.0018666089822848638,
+          "supports": [
+            {
+              "center_rank": 2,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.0018666089822848638
+            }
+          ],
+          "rank": 24
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 3.2090593473791768e-06,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 14,
+              "draws": 30,
+              "weighted_score": 3.2090593473791768e-06
+            }
+          ],
+          "rank": 25
+        },
+        {
+          "precursor_set": "CC(C)(C)OC(=O)Cl.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 1.1460926240639917e-06,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 5,
+              "draws": 30,
+              "weighted_score": 1.1460926240639917e-06
+            }
+          ],
+          "rank": 26
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.CN1CC(C(=O)c2cc3cc(Cl)ccc3o2)NCC1=O",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 27
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.CN1CCN(Cl)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 28
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1O",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 29
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.CS(=O)(=O)CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 30
+        },
+        {
+          "precursor_set": "CC(C)(C)OC=O.O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 31
+        },
+        {
+          "precursor_set": "CC(C)(CCl)OC=O.O=CN1CCNC(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+          "score": 2.2921852481279831e-07,
+          "supports": [
+            {
+              "center_rank": 10,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 2.2921852481279831e-07
+            }
+          ],
+          "rank": 32
+        }
+      ],
+      "top10": [
+        {
+          "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.25118916829427085,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 8,
+              "draws": 30,
+              "weighted_score": 0.25118916829427085
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+          "score": 0.09419593811035157,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 3,
+              "draws": 30,
+              "weighted_score": 0.09419593811035157
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "precursor_set": "CON(C)C(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.06279729207356771,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 2,
+              "draws": 30,
+              "weighted_score": 0.06279729207356771
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "precursor_set": "C=C(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "precursor_set": "CC(=O)OC(O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(Br)cc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "precursor_set": "CC(C)OC(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2oc(I)cc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)N2C3CC32)C1.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "precursor_set": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)[C@]2(C)CO2)C1.Clc1ccc2occc2c1",
+          "score": 0.031398646036783856,
+          "supports": [
+            {
+              "center_rank": 1,
+              "count": 1,
+              "draws": 30,
+              "weighted_score": 0.031398646036783856
+            }
+          ],
+          "rank": 10
+        }
+      ],
+      "selected": {
+        "precursor_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+        "score": 0.25118916829427085,
+        "supports": [
+          {
+            "center_rank": 1,
+            "count": 8,
+            "draws": 30,
+            "weighted_score": 0.25118916829427085
+          }
+        ],
+        "rank": 1
+      },
+      "elapsed_seconds": 19.158239126205444,
+      "raw_candidate_count": 180,
+      "status": "generated"
+    }
+  ]
+}

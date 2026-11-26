@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "experiment": "section_3_methods/3_1_to_3_4_architecture",
+  "paper_items": [
+    "Figure 1"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/known-class/configs/full.json",
+      "path": "configs/known_full.json",
+      "role": "Repository-root workflow configuration",
+      "kind": "original_file",
+      "bytes": 1354,
+      "sha256": "a3598cf090a11a9596881139a5bd635d0809b344a7c2560d35d56ac39ecff8c5"
+    },
+    {
+      "source_path": "experiments/section_4_results/4_1_benchmark/unknown-class/configs/full.json",
+      "path": "configs/unknown_full.json",
+      "role": "Repository-root workflow configuration",
+      "kind": "original_file",
+      "bytes": 1363,
+      "sha256": "521a0808927d66a8a95d6282754398591fd6a562ddeda4ccabfd2e200ef34b23"
+    }
+  ],
+  "shared_code": [
+    "src/spectraretro/run.py",
+    "src/spectraretro",
+    "src/spectraretro/fusion_reranker",
+    "src/agentic_retrosynthesis"
+  ],
+  "shared_data": [],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

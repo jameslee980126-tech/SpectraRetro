@@ -1,0 +1,215 @@
+{
+  "path_base": "repository_root",
+  "registry": "checkpoints/WEIGHTS.json",
+  "identity_rule": "Use the experiment-bound SHA-256, role and selection status in each record.",
+  "files": [
+    {
+      "path": "checkpoints/small/composition_prior.pt",
+      "bytes": 11559640,
+      "sha256": "508245b708bbae5c16af7de5195c693141f6f45d9fe7d79abebbc78c2ad5b041",
+      "role": "small_set_auxiliary_parameters",
+      "selection_status": "small_test_preparation_manifest_bound",
+      "selection": {
+        "role": "composition_prior.pt",
+        "preparation_manifest_sha256": "e1e0bc96b626bbeeccf9d6a20d8c28297b87c6717d4eec7d6cdc95082151402b"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "manifest.json",
+          "sha256": "e1e0bc96b626bbeeccf9d6a20d8c28297b87c6717d4eec7d6cdc95082151402b"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/small/known_reaction_center.pth",
+      "bytes": 64488483,
+      "sha256": "d84a3b29c723e41e670501950655b63ff8c16f4451b38204dfb5bdc438d9a372",
+      "role": "small_set_reaction_center",
+      "selection_status": "original_run_result_and_protocol_bound_predictions",
+      "selection": {
+        "epoch": 26,
+        "mode": "known",
+        "predictions_sha256": "aa8740628f7fa4067d4631138320aac12d9893a83878f493c948d73557eb7caf"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "6f5f2557393449d4c2382a0b6363897027004a7f5de7112b445fc2beb9917a65"
+        },
+        {
+          "name": "build_evaluation.py",
+          "sha256": "c7e9a33a8fd1668260cdad5b97c0ccf8ad9db28400ef7103fe706c3e7d59f858"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/small/size_model.ckpt",
+      "bytes": 4966283,
+      "sha256": "f80a63e202a3465fee0d618504adc531448b71b7f1df2103d7637dfa037a17b8",
+      "role": "small_set_auxiliary_parameters",
+      "selection_status": "small_test_preparation_manifest_bound",
+      "selection": {
+        "role": "size_model.ckpt",
+        "preparation_manifest_sha256": "e1e0bc96b626bbeeccf9d6a20d8c28297b87c6717d4eec7d6cdc95082151402b"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "manifest.json",
+          "sha256": "e1e0bc96b626bbeeccf9d6a20d8c28297b87c6717d4eec7d6cdc95082151402b"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/small/unknown_reaction_center.pth",
+      "bytes": 64290039,
+      "sha256": "84bab16a41433edc9e5b3ade079794c209ac5b562d88e610048d7dfe94e648f0",
+      "role": "small_set_reaction_center",
+      "selection_status": "original_run_result_and_protocol_bound_predictions",
+      "selection": {
+        "epoch": 25,
+        "mode": "unknown",
+        "predictions_sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "result.json",
+          "sha256": "67ef85b408f3e5deab1d8eb25978c16ffc16c833fda0849e233e4cce09ba2d98"
+        },
+        {
+          "name": "build_evaluation.py",
+          "sha256": "c7e9a33a8fd1668260cdad5b97c0ccf8ad9db28400ef7103fe706c3e7d59f858"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed0.pt",
+      "bytes": 8547228,
+      "sha256": "35b4b0ecd2a6a7cb3f08ed8b45c60658e71c10cc7860b5d8fe2c13e4d70e860b",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 96,
+        "mode": "known",
+        "seed": 0,
+        "source_checkpoint_sha256": "12b8c40fe5cffab91284f820f0531528664b4f5881b334c46d2e6d645aaa7b27",
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "8a26daae6e454205f017c6e820d65a462089e909c8ac70505c2fc73997349578"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed1.pt",
+      "bytes": 8545041,
+      "sha256": "12275bfc99b2a9bf0109c2fc3e2b657cce3339fb5d394d4628eabbd46cfdb4d2",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 93,
+        "mode": "known",
+        "seed": 1,
+        "source_checkpoint_sha256": null,
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "578bd0d5190380c316c3ff175b7b7c028d1b9d668edfad59fd5996b1ef1314b6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed2.pt",
+      "bytes": 8545041,
+      "sha256": "ed6d1465f8078e154ccc92059ec71347b57b523a524688662053d1f55405c815",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 95,
+        "mode": "known",
+        "seed": 2,
+        "source_checkpoint_sha256": null,
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "0007df4b8ac8e742abd9bdff35a8b89adf1083e02994e0d2912db0be95912e95"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed0.pt",
+      "bytes": 8442896,
+      "sha256": "54afc9d4bf1294f89f97b34fd2fbfa3406aaacd2b7b034e23631a13e30969597",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 96,
+        "mode": "unknown",
+        "seed": 0,
+        "source_checkpoint_sha256": "23514118e81f5f0ca9984cdc7b730a945c15ad76114b3f084f8329f9b561e389",
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "25379bdb0f1bf7b82c02a862ad48b4381556bb58694a4ca329aca996b0671c76"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed1.pt",
+      "bytes": 8440357,
+      "sha256": "ebe64fa0a0a0d878b32c072516a4d3488c87d3709f58c22e763e59c294b07831",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 93,
+        "mode": "unknown",
+        "seed": 1,
+        "source_checkpoint_sha256": null,
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "1e3921404e819b956638ecc03206dde6cf461fe473e2c59d0fdac49749a8ec51"
+        }
+      ]
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed2.pt",
+      "bytes": 8440357,
+      "sha256": "0b3bfdba60378002018cee4006b5c4b18c74c3bad338a640727c408d8f180e7f",
+      "role": "small_set_completion",
+      "selection_status": "formal_test_protocol_checkpoint_bound",
+      "selection": {
+        "epoch": 100,
+        "mode": "unknown",
+        "seed": 2,
+        "source_checkpoint_sha256": null,
+        "note": "Seed-0 test snapshot can differ in serialization from its source checkpoint; use the protocol-bound snapshot."
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "8fd6971e63a185c38b69d615210c936df0554cf7d65a14e913528ddf67403775"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "path_base": "repository_root",
+  "registry": "checkpoints/WEIGHTS.json",
+  "identity_rule": "Use the experiment-bound SHA-256, role and selection status in each record.",
+  "files": [
+    {
+      "path": "checkpoints/cases/agent/completion_model.ckpt",
+      "bytes": 32151947,
+      "sha256": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+      "role": "drug_route_case_parameters",
+      "selection_status": "fixed_core_case_protocol_sha256_bound",
+      "selection": {
+        "selection": "Fixed final checkpoint in the original case protocol",
+        "case_training_contact": true
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "49f2abffdd8fe2d12cd112d01ccbba11e93296738649ab3db974166ccfb80b4c"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/cases/agent/size_model.ckpt",
+      "bytes": 4950987,
+      "sha256": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17",
+      "role": "drug_route_case_parameters",
+      "selection_status": "fixed_core_case_protocol_sha256_bound",
+      "selection": {
+        "selection": "Fixed final checkpoint in the original case protocol",
+        "case_training_contact": true
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "protocol.json",
+          "sha256": "49f2abffdd8fe2d12cd112d01ccbba11e93296738649ab3db974166ccfb80b4c"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/cases/single_multistep/completion_model.ckpt",
+      "bytes": 32309074,
+      "sha256": "f8e90f34e30d24c5ebc3aa5a250cc1ace339757bc1f792a2b6147e8001b03347",
+      "role": "single_multistep_case_parameters",
+      "selection_status": "case_protocol_sha256_bound",
+      "selection": {
+        "role": "completion_model.ckpt"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "results.json",
+          "sha256": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/cases/single_multistep/reaction_center.pth",
+      "bytes": 64297107,
+      "sha256": "a71715eb470c529fc76bf11e4f0d579e12e07e36647fd2300c3e0fa090b28900",
+      "role": "single_multistep_case_parameters",
+      "selection_status": "case_protocol_sha256_bound",
+      "selection": {
+        "role": "reaction_center.pth"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "results.json",
+          "sha256": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590"
+        }
+      ]
+    },
+    {
+      "path": "checkpoints/cases/single_multistep/size_model.ckpt",
+      "bytes": 4935974,
+      "sha256": "c754db1ad154be632874319e424fedf535d519e618bf619e6c7f0523a228c5b7",
+      "role": "single_multistep_case_parameters",
+      "selection_status": "case_protocol_sha256_bound",
+      "selection": {
+        "role": "size_model.ckpt"
+      },
+      "source_identity_verified": true,
+      "source_evidence_fingerprints": [
+        {
+          "name": "results.json",
+          "sha256": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590"
+        }
+      ]
+    }
+  ]
+}

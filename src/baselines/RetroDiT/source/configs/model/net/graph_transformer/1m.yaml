@@ -1,0 +1,22 @@
+defaults:
+  - graph_transformer_base
+
+model_desc: graph-transformer-small
+n_layers: 4
+
+hidden_mlp_dims:
+  X: 128
+  E: 64
+  y: 64
+
+hidden_dims:
+  dx: 128
+  de: 32
+  dy: 32
+  n_head: 8
+  dim_ffX: 128
+  dim_ffE: 64
+  dim_ffy: 64
+
+
+

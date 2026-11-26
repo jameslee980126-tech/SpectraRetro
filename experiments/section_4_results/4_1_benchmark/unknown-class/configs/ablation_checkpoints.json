@@ -1,0 +1,68 @@
+{
+  "checkpoints": [
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed0.pth",
+      "sha256": "67b576cf1c4733a136f939fb7cb38a250e6b1f498de0c2db73798489b68720b5",
+      "bytes": 64292551,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed1.pth",
+      "sha256": "3f4698aa885ff331dd54f3bb96a076272540b5d89a464a411e3902b9ba0f49ca",
+      "bytes": 64292615,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/full_spectral_small_seed2.pth",
+      "sha256": "f1270bbd6922552c6fe30b179ad574be04eda198736063ca5fdd3ca01bea17ef",
+      "bytes": 64292615,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed0.pth",
+      "sha256": "99dc6e3fec00823f39891c01262c5fb6c76ecac16b3833469e53b7b5a7778773",
+      "bytes": 64293383,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed1.pth",
+      "sha256": "95fd182fb73879b89c9f2678b73df1f5e47da6a988ae8aa79c38103d356f8b89",
+      "bytes": 64293447,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/local_pair_seed2.pth",
+      "sha256": "e6c78336bb0c7150c1a374191fe819fbe3e41b13dccf7f7e422c7d8950900850",
+      "bytes": 64293447,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/no_spectral_seed0.pth",
+      "sha256": "2409dfd5b2857bacc24e0e4bfa375e6ef6c40aed947a857a5e117a8410ea8179",
+      "bytes": 54767223,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/ablations/center/ordinary_rgcn_seed0.pth",
+      "sha256": "915cf46ef8b7aa8ac876156ea751fd0c71fb3791be1cfed250fe7a8130395260",
+      "bytes": 46113605,
+      "mode": "unknown",
+      "task": "reaction-center comparison",
+      "selected_by": "original validation criterion; see corresponding experiment material"
+    }
+  ]
+}

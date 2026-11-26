@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_7_multistep_cases",
+  "paper_items": [
+    "Figure 3",
+    "Figure S3"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/two_step_figure_evidence.json",
+      "path": "data/two_step_case_inputs_and_positions.json",
+      "role": "Two-step nodes, reference conditions and observed positions",
+      "kind": "original_file",
+      "bytes": 10675,
+      "sha256": "7d49916ad13643d6d335bc6fe036f9a9f37ca853836bdfa5c336d21282584ae0"
+    },
+    {
+      "source_path": "results/cases/multistep/10435_benzylether.json",
+      "path": "../../../results/cases/multistep/10435_benzylether.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 68485,
+      "sha256": "a8e1232caee743fc4e91a70bdc0b6f1bcb351b2a384bc6a49a271827f72119c1",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/multistep/10435_root.json",
+      "path": "../../../results/cases/multistep/10435_root.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 97436,
+      "sha256": "63aabafe9d143eca4a47646a47a302cd8faaa3cacfe2b11f056e154667504727",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/multistep/8988_child1.json",
+      "path": "../../../results/cases/multistep/8988_child1.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 149113,
+      "sha256": "deb6452e82e3b96efbbc08dc21507b93d6d209a768023a6c1a9bb51b4e582509",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/multistep/8988_root.json",
+      "path": "../../../results/cases/multistep/8988_root.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 181436,
+      "sha256": "2444a3e1b8a725a575010515f027ceb7951e568356037965658a0fb555a6b70f",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/multistep/9773_child1.json",
+      "path": "../../../results/cases/multistep/9773_child1.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 81412,
+      "sha256": "d9f4f9932f0cd2086ae9b60cb67f21c7d576d8532c4872da08559922a628db84",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/cases/multistep/9773_root.json",
+      "path": "../../../results/cases/multistep/9773_root.json",
+      "role": "Original node-level multistep observations",
+      "kind": "original_file",
+      "bytes": 201077,
+      "sha256": "13c995b378c0de8338707746d3cdd063fdfecc5c7580d24197fc79307ab489c9",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reproduction/single_multistep/source_map.json",
+      "path": "../../../results/reproduction/single_multistep/source_map.json",
+      "role": "Script identities linked to single-step records 02–05 in the shared case implementation",
+      "kind": "original_file",
+      "bytes": 6075,
+      "sha256": "39d4bfe78b7c16a5efad04645e37bd2a0a004e4fced100a4bca38d7879062ccc",
+      "storage": "repository_reference"
+    }
+  ],
+  "shared_code": [
+    "src/experiments/single_multistep_cases"
+  ],
+  "shared_data": [
+    "datasets/supplementary_data/two_step_figure_evidence.json",
+    "results/cases/multistep"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

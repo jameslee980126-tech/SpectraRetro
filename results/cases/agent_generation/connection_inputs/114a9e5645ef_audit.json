@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "new_raw_samples_replayed": 1072,
+  "combined_slots": 1200,
+  "original_30_prefix_unchanged": true,
+  "all_300_checked": true,
+  "correct_precursor_counts_recalculated": true,
+  "all_known_atoms_preserved": true,
+  "max_centered_coordinate_error_angstrom": 4.768791521669868e-07,
+  "inventory_used": false,
+  "report_sha256": "eb6ec7a785bb6a8654a797366549438819726e514efe09e8fd5184b735ee1d27",
+  "auditor_sha256": "c9a20a2d069f68c1108fccd4fc2b4f7c6ea4229d28e1d03c9467af350ca5c571"
+}

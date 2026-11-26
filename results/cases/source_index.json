@@ -1,0 +1,141 @@
+{
+  "files": [
+    {
+      "original_source": "experiments/case_studies_success_failure_20260921/case_evidence.json",
+      "path": "results/cases/single_step/record_01_case_evidence.json",
+      "sha256": "8c9434ae6a2662937a945cdabfdc1e5ff5818f0bdbfce2a8c0a1c7c1f830042a"
+    },
+    {
+      "original_source": "experiments/case_studies_success_failure_20260921/product_only_v1/results.json",
+      "path": "results/cases/single_step/record_02_results.json",
+      "sha256": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590"
+    },
+    {
+      "original_source": "experiments/case_studies_success_failure_20260921/product_only_extra_v1/results.json",
+      "path": "results/cases/single_step/record_03_results.json",
+      "sha256": "7273876f3c2a7879bd188153bda8814beaa236a66cc84fe034544132389be707"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/recursive_probe/product_only_v1/results.json",
+      "path": "results/cases/single_step/record_04_results.json",
+      "sha256": "551676501a54e66ffdbbbda7abdd2c9d99a2a0de16d4d7182c80909597735811"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/diverse_candidates_20260921/product_only_v1/results.json",
+      "path": "results/cases/single_step/record_05_results.json",
+      "sha256": "4a16d3b5ede4346bc3617e981e0b0f3d5429851420baa9eacb9cc1b6b5cb1a73"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/large_literature_cases/evidence.json",
+      "path": "results/cases/single_step/record_06_evidence.json",
+      "sha256": "d2d4afdf78ffc6a4a7ce40118ee4befbfc808946fc3ffde8aa2ee1bc7cc63917"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/diverse_candidates_20260921/candidate_evidence.json",
+      "path": "results/cases/single_step/record_07_candidate_evidence.json",
+      "sha256": "17922a678988317b3371adcf55cf055838e7d36d2953ae8cc9e0f26dff47770e",
+      "source_sha256": "5d175bd186c81647b3d1b52f18f7c9cdee1d20cc3a4dc03a4d11cd90bd9c0f92"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/recursive_probe/product_only_v1/8988_root/result.json",
+      "path": "results/cases/multistep/8988_root.json",
+      "sha256": "2444a3e1b8a725a575010515f027ceb7951e568356037965658a0fb555a6b70f"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/paper_redesign/recursive_probe/oracle_size_20260922/results/oracle_size/8988_child1/result.json",
+      "path": "results/cases/multistep/8988_child1.json",
+      "sha256": "deb6452e82e3b96efbbc08dc21507b93d6d209a768023a6c1a9bb51b4e582509"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/diverse_candidates_20260921/product_only_v1/9773_root/result.json",
+      "path": "results/cases/multistep/9773_root.json",
+      "sha256": "13c995b378c0de8338707746d3cdd063fdfecc5c7580d24197fc79307ab489c9"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/testset_literature_shortlist_20260921/current_triptych_second_step_20260922/results/oracle_size/9773_child1/result.json",
+      "path": "results/cases/multistep/9773_child1.json",
+      "sha256": "d9f4f9932f0cd2086ae9b60cb67f21c7d576d8532c4872da08559922a628db84"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/multistep_campaign_20260922/batch2_results/oracle_size/10435_root/result.json",
+      "path": "results/cases/multistep/10435_root.json",
+      "sha256": "63aabafe9d143eca4a47646a47a302cd8faaa3cacfe2b11f056e154667504727"
+    },
+    {
+      "original_source": "experiments/stage2_geometry20k_20260915/multistep_campaign_20260922/batch3_results/learned_size/10435_benzylether/result.json",
+      "path": "results/cases/multistep/10435_benzylether.json",
+      "sha256": "a8e1232caee743fc4e91a70bdc0b6f1bcb351b2a384bc6a49a271827f72119c1"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/artifact_sha256.json",
+      "path": "results/cases/agent/artifact_sha256.json",
+      "sha256": "531728d794f6ce62a1f049321731ba65a6a1daf1fb15901bdbcffac7e73d9b06",
+      "source_sha256": "249e3e412ee0d361b044aa93d3135bc6169621ff90a552d2a18ed550816a3b25",
+      "scope": "Three pharmaceutical targets in Figure 5 and SI S5"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/candidate_pools.json",
+      "path": "results/cases/agent/candidate_pools.json",
+      "sha256": "010600078a99e42451d36b88d3e26f2ff731a98a2ea828bf3f636f26fa19bdf2",
+      "source_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/combination_audit.json",
+      "path": "results/cases/agent/combination_audit.json",
+      "sha256": "2e19a28185709a30ab90fd7a68cc34aa6f00436f243160653a04cb602bf392bf",
+      "source_sha256": "82e45788c382bed4a2ba6f167463eaf066752200a78a5bac65236e2056828bcf",
+      "scope": "Three pharmaceutical targets in Figure 5 and SI S5"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/input_product_mapping.json",
+      "path": "results/cases/agent/input_product_mapping.json",
+      "sha256": "5615741f0b8e6f592ad4534ac8ef1eda15cecfcf612a39a947b7541ba3a2234b"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/protocol.json",
+      "path": "results/cases/agent/protocol.json",
+      "sha256": "d933459d1528130435fb0cf5d42e27e0a6ff6bec2cd5da0f92b74733fed3c6af",
+      "source_sha256": "7ffccae525ce9487036c3875a8805c827fcd5782a705eed50518500a81cafdb6"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/report.json",
+      "path": "results/cases/agent/report.json",
+      "sha256": "d942c679eee7d4c956999bbfa2d58e74dff2d3857ad7a51127cd3a6fc3b10554",
+      "source_sha256": "9d1dc379a1d0f3da8ec8c1fba5eedfb22ad015e5f9050c8cea836d54da156107",
+      "scope": "Three pharmaceutical targets in Figure 5 and SI S5"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_l/request.json",
+      "path": "results/cases/agent/case_l/request.json",
+      "sha256": "aa78ce422f9ca30bc878f3f4c4e35d7b3f62edf0897875a06364d9980e85b0fb"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_l/result.json",
+      "path": "results/cases/agent/case_l/result.json",
+      "sha256": "f3d0701e4deac95855beeb81b712a8354dfdd08253ab7b1a6ff5efcbf8381bd8",
+      "source_sha256": "c52a4cb2a50ed7b92953fcb481f0f737275639c5074c619344e05357466f7b89"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_n/request.json",
+      "path": "results/cases/agent/case_n/request.json",
+      "sha256": "7f0621ba76e5f15ef19799a78b2a58169d6ce462033503e51977dc44e835cc2c"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_n/result.json",
+      "path": "results/cases/agent/case_n/result.json",
+      "sha256": "73316bf20b7bcaa808d31c772d7397344320c0739a050497e7e6d3d69d8e57cd",
+      "source_sha256": "d680e7f66742e2dc44f7966b7081edc1c780241d3650f9ed9a4a36768ebf6046"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_t/request.json",
+      "path": "results/cases/agent/case_t/request.json",
+      "sha256": "9fa506928b3137c892494dfa2fbfaf4f7aee654ab9eaa5f1f7a631a5d20ce594"
+    },
+    {
+      "original_source": "case_partition_completion_20261013/fixed_core_completion_20261013/connected_routes_cross_draw/case_t/result.json",
+      "path": "results/cases/agent/case_t/result.json",
+      "sha256": "1a88829e89bc6e53117562430d28c6a56045909cf9bbd4b4561517c7b235cd25",
+      "source_sha256": "3684ca03430f8a9508a1f2ac6bddd0cac48747b05be7e8ecdddc577405ba7d92"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "overall": {
+    "n": 2400,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 1319,
+        "compatibility_hits": 1458,
+        "control_pct": 54.958333333333336,
+        "compatibility_pct": 60.75,
+        "delta_pp": 5.791666666666667
+      },
+      "fusion_top3": {
+        "control_hits": 1731,
+        "compatibility_hits": 1771,
+        "control_pct": 72.125,
+        "compatibility_pct": 73.79166666666667,
+        "delta_pp": 1.6666666666666667
+      },
+      "fusion_top5": {
+        "control_hits": 1802,
+        "compatibility_hits": 1817,
+        "control_pct": 75.08333333333333,
+        "compatibility_pct": 75.70833333333333,
+        "delta_pp": 0.625
+      },
+      "fusion_top10": {
+        "control_hits": 1823,
+        "compatibility_hits": 1828,
+        "control_pct": 75.95833333333333,
+        "compatibility_pct": 76.16666666666667,
+        "delta_pp": 0.20833333333333334
+      },
+      "pool_coverage": {
+        "control_hits": 1824,
+        "compatibility_hits": 1828,
+        "control_pct": 76.0,
+        "compatibility_pct": 76.16666666666667,
+        "delta_pp": 0.16666666666666666
+      },
+      "frequency_top1": {
+        "control_hits": 935,
+        "compatibility_hits": 1113,
+        "control_pct": 38.958333333333336,
+        "compatibility_pct": 46.375,
+        "delta_pp": 7.416666666666667
+      }
+    }
+  },
+  "class_1": {
+    "n": 531,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 506,
+        "compatibility_hits": 504,
+        "control_pct": 95.29190207156309,
+        "compatibility_pct": 94.91525423728814,
+        "delta_pp": -0.3766478342749529
+      },
+      "fusion_top3": {
+        "control_hits": 519,
+        "compatibility_hits": 519,
+        "control_pct": 97.74011299435028,
+        "compatibility_pct": 97.74011299435028,
+        "delta_pp": 0.0
+      },
+      "fusion_top5": {
+        "control_hits": 519,
+        "compatibility_hits": 519,
+        "control_pct": 97.74011299435028,
+        "compatibility_pct": 97.74011299435028,
+        "delta_pp": 0.0
+      },
+      "fusion_top10": {
+        "control_hits": 519,
+        "compatibility_hits": 519,
+        "control_pct": 97.74011299435028,
+        "compatibility_pct": 97.74011299435028,
+        "delta_pp": 0.0
+      },
+      "pool_coverage": {
+        "control_hits": 519,
+        "compatibility_hits": 519,
+        "control_pct": 97.74011299435028,
+        "compatibility_pct": 97.74011299435028,
+        "delta_pp": 0.0
+      },
+      "frequency_top1": {
+        "control_hits": 497,
+        "compatibility_hits": 495,
+        "control_pct": 93.5969868173258,
+        "compatibility_pct": 93.22033898305085,
+        "delta_pp": -0.3766478342749529
+      }
+    }
+  },
+  "class_2": {
+    "n": 342,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 99,
+        "compatibility_hits": 167,
+        "control_pct": 28.94736842105263,
+        "compatibility_pct": 48.83040935672515,
+        "delta_pp": 19.883040935672515
+      },
+      "fusion_top3": {
+        "control_hits": 181,
+        "compatibility_hits": 208,
+        "control_pct": 52.92397660818713,
+        "compatibility_pct": 60.8187134502924,
+        "delta_pp": 7.894736842105263
+      },
+      "fusion_top5": {
+        "control_hits": 206,
+        "compatibility_hits": 212,
+        "control_pct": 60.23391812865497,
+        "compatibility_pct": 61.98830409356725,
+        "delta_pp": 1.7543859649122806
+      },
+      "fusion_top10": {
+        "control_hits": 211,
+        "compatibility_hits": 213,
+        "control_pct": 61.69590643274854,
+        "compatibility_pct": 62.280701754385966,
+        "delta_pp": 0.5847953216374269
+      },
+      "pool_coverage": {
+        "control_hits": 211,
+        "compatibility_hits": 213,
+        "control_pct": 61.69590643274854,
+        "compatibility_pct": 62.280701754385966,
+        "delta_pp": 0.5847953216374269
+      },
+      "frequency_top1": {
+        "control_hits": 20,
+        "compatibility_hits": 110,
+        "control_pct": 5.847953216374269,
+        "compatibility_pct": 32.16374269005848,
+        "delta_pp": 26.31578947368421
+      }
+    }
+  },
+  "class_3": {
+    "n": 393,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 155,
+        "compatibility_hits": 191,
+        "control_pct": 39.44020356234097,
+        "compatibility_pct": 48.600508905852415,
+        "delta_pp": 9.16030534351145
+      },
+      "fusion_top3": {
+        "control_hits": 255,
+        "compatibility_hits": 274,
+        "control_pct": 64.8854961832061,
+        "compatibility_pct": 69.72010178117048,
+        "delta_pp": 4.8346055979643765
+      },
+      "fusion_top5": {
+        "control_hits": 274,
+        "compatibility_hits": 284,
+        "control_pct": 69.72010178117048,
+        "compatibility_pct": 72.264631043257,
+        "delta_pp": 2.544529262086514
+      },
+      "fusion_top10": {
+        "control_hits": 279,
+        "compatibility_hits": 286,
+        "control_pct": 70.99236641221374,
+        "compatibility_pct": 72.7735368956743,
+        "delta_pp": 1.7811704834605597
+      },
+      "pool_coverage": {
+        "control_hits": 280,
+        "compatibility_hits": 286,
+        "control_pct": 71.2468193384224,
+        "compatibility_pct": 72.7735368956743,
+        "delta_pp": 1.5267175572519085
+      },
+      "frequency_top1": {
+        "control_hits": 120,
+        "compatibility_hits": 142,
+        "control_pct": 30.53435114503817,
+        "compatibility_pct": 36.1323155216285,
+        "delta_pp": 5.597964376590331
+      }
+    }
+  },
+  "class_4": {
+    "n": 252,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 158,
+        "compatibility_hits": 157,
+        "control_pct": 62.698412698412696,
+        "compatibility_pct": 62.301587301587304,
+        "delta_pp": -0.3968253968253968
+      },
+      "fusion_top3": {
+        "control_hits": 195,
+        "compatibility_hits": 193,
+        "control_pct": 77.38095238095238,
+        "compatibility_pct": 76.58730158730158,
+        "delta_pp": -0.7936507936507936
+      },
+      "fusion_top5": {
+        "control_hits": 197,
+        "compatibility_hits": 198,
+        "control_pct": 78.17460317460318,
+        "compatibility_pct": 78.57142857142857,
+        "delta_pp": 0.3968253968253968
+      },
+      "fusion_top10": {
+        "control_hits": 198,
+        "compatibility_hits": 198,
+        "control_pct": 78.57142857142857,
+        "compatibility_pct": 78.57142857142857,
+        "delta_pp": 0.0
+      },
+      "pool_coverage": {
+        "control_hits": 198,
+        "compatibility_hits": 198,
+        "control_pct": 78.57142857142857,
+        "compatibility_pct": 78.57142857142857,
+        "delta_pp": 0.0
+      },
+      "frequency_top1": {
+        "control_hits": 143,
+        "compatibility_hits": 146,
+        "control_pct": 56.74603174603175,
+        "compatibility_pct": 57.93650793650794,
+        "delta_pp": 1.1904761904761905
+      }
+    }
+  },
+  "class_5": {
+    "n": 477,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 251,
+        "compatibility_hits": 263,
+        "control_pct": 52.62054507337526,
+        "compatibility_pct": 55.136268343815516,
+        "delta_pp": 2.5157232704402515
+      },
+      "fusion_top3": {
+        "control_hits": 340,
+        "compatibility_hits": 331,
+        "control_pct": 71.27882599580713,
+        "compatibility_pct": 69.39203354297693,
+        "delta_pp": -1.8867924528301887
+      },
+      "fusion_top5": {
+        "control_hits": 345,
+        "compatibility_hits": 341,
+        "control_pct": 72.32704402515724,
+        "compatibility_pct": 71.48846960167715,
+        "delta_pp": -0.8385744234800838
+      },
+      "fusion_top10": {
+        "control_hits": 346,
+        "compatibility_hits": 342,
+        "control_pct": 72.53668763102725,
+        "compatibility_pct": 71.69811320754717,
+        "delta_pp": -0.8385744234800838
+      },
+      "pool_coverage": {
+        "control_hits": 346,
+        "compatibility_hits": 342,
+        "control_pct": 72.53668763102725,
+        "compatibility_pct": 71.69811320754717,
+        "delta_pp": -0.8385744234800838
+      },
+      "frequency_top1": {
+        "control_hits": 63,
+        "compatibility_hits": 100,
+        "control_pct": 13.20754716981132,
+        "compatibility_pct": 20.964360587002098,
+        "delta_pp": 7.756813417190775
+      }
+    }
+  },
+  "class_6": {
+    "n": 405,
+    "metrics": {
+      "fusion_top1": {
+        "control_hits": 150,
+        "compatibility_hits": 176,
+        "control_pct": 37.03703703703704,
+        "compatibility_pct": 43.45679012345679,
+        "delta_pp": 6.419753086419753
+      },
+      "fusion_top3": {
+        "control_hits": 241,
+        "compatibility_hits": 246,
+        "control_pct": 59.50617283950617,
+        "compatibility_pct": 60.74074074074074,
+        "delta_pp": 1.2345679012345678
+      },
+      "fusion_top5": {
+        "control_hits": 261,
+        "compatibility_hits": 263,
+        "control_pct": 64.44444444444444,
+        "compatibility_pct": 64.93827160493827,
+        "delta_pp": 0.49382716049382713
+      },
+      "fusion_top10": {
+        "control_hits": 270,
+        "compatibility_hits": 270,
+        "control_pct": 66.66666666666667,
+        "compatibility_pct": 66.66666666666667,
+        "delta_pp": 0.0
+      },
+      "pool_coverage": {
+        "control_hits": 270,
+        "compatibility_hits": 270,
+        "control_pct": 66.66666666666667,
+        "compatibility_pct": 66.66666666666667,
+        "delta_pp": 0.0
+      },
+      "frequency_top1": {
+        "control_hits": 92,
+        "compatibility_hits": 120,
+        "control_pct": 22.71604938271605,
+        "compatibility_pct": 29.62962962962963,
+        "delta_pp": 6.91358024691358
+      }
+    }
+  }
+}

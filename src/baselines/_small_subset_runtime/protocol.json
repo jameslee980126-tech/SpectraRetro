@@ -1,0 +1,37 @@
+{
+  "experiment_id": "full_retro_similarity_benchmark_20260919",
+  "created": "2026-09-19",
+  "status": "preflight",
+  "information_regime": "unknown_class_product_only",
+  "dataset": {
+    "root": "experiments/stage1_similarity_rebalanced_20260912/frozen",
+    "counts": {"train": 18370, "valid": 2400, "test": 2400},
+    "similarity_groups_test": {"low": 800, "medium": 800, "high": 800},
+    "sha256": {
+      "train.csv": "3CF1513137EE73D497AF8A9BB2B49B87D47510CF534178424DBD902F60E50222",
+      "valid.csv": "08F0A52E76B1F30DA1449828A54DCA11D2EA3EEFCC401B73C776202181DA3B63",
+      "test.csv": "D7F01A2D78656C37A698C4F9F9E64DEC8F9EF3DEEACAA0CA48BDCEFC8D77B614",
+      "test_index.csv": "B525DA479CD8208366CD43F3D76AFCCFCADF42B385BD8F63230A9E4D77A8C810"
+    }
+  },
+  "models": {
+    "retrodit": {"commit": "19410a70f3897ef1e8fb4ac3d3ef4313f0fe7c69", "route": "predicted_rc_discrete_flow"},
+    "differ_single": {"commit": "024246cb729417e52d0878f7a2b97941e165ad33", "route": "single_categorical_diffusion"},
+    "retrosynflow_prodflow": {"commit": "bd56cda04f0fa089a024f17d19d81d81deba9771", "route": "direct_product_to_reactants"},
+    "retroformer": {"commit": "4e94540e06f5a0ed52ac7b7c4acdd98e92aeda56", "route": "unknown_class_beam10_no_template"}
+  },
+  "evaluation": {
+    "primary": "unified_map_free_stereo_preserving_order_independent_exact_match",
+    "secondary": "model_native",
+    "top_k": [1, 3, 5, 10],
+    "rank_slots_compacted": false,
+    "test_denominator": 2400,
+    "posthoc_protocol_selection": false
+  },
+  "seeds": [0, 1, 2],
+  "server": {
+    "gpus": ["RTX 3090 24GB", "RTX 3090 24GB"],
+    "topology": "PCIe PIX without NVLink",
+    "default_schedule": "one independent model per GPU"
+  }
+}

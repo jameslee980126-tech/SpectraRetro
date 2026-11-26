@@ -1,0 +1,23 @@
+_target_: src.models.GraphTransformer
+
+graph_vocab: ${data.graph_vocab}
+n_dummy: ${data.n_dummy}
+max_n_len: ${data.max_n_len}
+pos_emb: False
+fix_product_nodes: False
+
+extra_cfg:
+  sym_E: False
+  on_data: True
+  on_noise: True
+  use_cycles: True
+  use_eigens: True
+  max_n_len: ${data.max_n_len} # for normalizing eigenvalues
+  
+cond_cfg: ${data.cond_cfg}
+
+n_layers: ???
+hidden_mlp_dims: ???
+hidden_dims: ???
+dropout: 0.1
+model_desc: GraphTransformer

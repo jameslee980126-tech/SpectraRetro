@@ -1,0 +1,12 @@
+{
+  "result.json": "8ab0d68c7aa5d36db7afa994819d200cd37a730798a4745841982942441fe898",
+  "protocol.json": "4caefd31cff4e1140880b8e3fe5b768b9146ba2217ea671b348935640bf50637",
+  "atoms.json": "427cfc227ab4cd4b72fbe2b5f3a092b67e2b154f59aa8659ceb997348790431a",
+  "neutral/molecule.json": "abad10a986326d35f515073a9f4225c1a78357bac1ec2428647067b1c3b3b01a",
+  "neutral/wavefunction.npz": "b99b2e807df1a460c854e574542a64a51d03364ebae5d3f65f1b6df169e4ef22",
+  "neutral/result.json": "48a84791d1319fc28c56c9cff0e81bd0d17e1196e1e17773155cb0bd00419a0b",
+  "cation/molecule.json": "c88b788cfe37bbe418464bb7fd0661dd4d55b00eaf413eca7c54a52319413704",
+  "cation/wavefunction.npz": "fa47611bb758bc18d7138abbd124ca7a6af338960f7522bc62bae3698c496296",
+  "cation/result.json": "1163dae0e32e645b2f652e6d6b4e03d97765ddb4c99dbf929dfd8f5c7c655997",
+  "artifact_manifest.json": "599f03de8d3321e4291d7294d5c17d0fe4495ff714fc9c356f1164d35b9a0454"
+}

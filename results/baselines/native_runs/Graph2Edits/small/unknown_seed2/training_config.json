@@ -1,0 +1,20 @@
+{
+  "dataset": "uspto_50k",
+  "use_rxn_class": false,
+  "atom_message": false,
+  "use_attn": false,
+  "n_heads": 8,
+  "epochs": 50,
+  "mpn_size": 256,
+  "depth": 10,
+  "dropout_mpn": 0.15,
+  "mlp_size": 512,
+  "dropout_mlp": 0.2,
+  "lr": 0.001,
+  "patience": 5,
+  "factor": 0.8,
+  "thresh": 0.01,
+  "max_clip": 10,
+  "print_every": 100,
+  "num_workers": 1
+}

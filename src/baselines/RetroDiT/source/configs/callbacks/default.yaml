@@ -1,0 +1,86 @@
+defaults:
+  - model_checkpoint_by_loss
+  - model_checkpoint_by_epoch   
+  - early_stopping
+  - model_summary
+  - rich_progress_bar
+  - _self_
+
+
+
+# best model by top3 accuracy
+model_checkpoint_top3:
+  _target_: lightning.pytorch.callbacks.ModelCheckpoint
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "best_top3acc_model_step{step}_acc{val/deduplicate_top_3_accuracy:.4f}"
+  monitor: val/deduplicate_top_3_accuracy
+  mode: max
+  verbose: True
+  save_last: True
+  save_top_k: 3
+  every_n_epochs: 1
+  auto_insert_metric_name: False
+  save_weights_only: False
+
+# best model by top5
+model_checkpoint_top5:
+  _target_: lightning.pytorch.callbacks.ModelCheckpoint
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "best_top5acc_model_step{step}_acc{val/deduplicate_top_5_accuracy:.4f}"
+  monitor: val/deduplicate_top_5_accuracy
+  mode: max
+  verbose: True
+  save_last: False
+  save_top_k: 3
+  every_n_epochs: 1
+  auto_insert_metric_name: False
+  save_weights_only: False
+
+# best model by top10
+model_checkpoint_top10:
+  _target_: lightning.pytorch.callbacks.ModelCheckpoint
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "best_top10acc_model_step{step}_acc{val/deduplicate_top_10_accuracy:.4f}"
+  monitor: val/deduplicate_top_10_accuracy
+  mode: max
+  verbose: True
+  save_last: False
+  save_top_k: 3
+  every_n_epochs: 1
+  auto_insert_metric_name: False
+  save_weights_only: False
+
+# best model by loss
+model_checkpoint_by_loss:
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "best_loss_model_step{step:d}"
+  monitor: val/loss
+  mode: min
+  verbose: True
+  save_last: False
+  save_top_k: 1
+  every_n_epochs: 1
+  auto_insert_metric_name: False
+
+# save model by epoch
+model_checkpoint_by_epoch:
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "model_step{step:d}"
+  every_n_epochs: 500
+  save_top_k: -1
+  auto_insert_metric_name: False
+
+early_stopping:
+  monitor: val/top_3_accuracy
+  patience: 20
+  verbose: True
+  mode: max
+
+model_summary:
+  max_depth: 2
+
+# ema:
+#   _target_: lightning.pytorch.callbacks.EMA
+#   decay: 0.999
+#   validate_original_weights: false
+#   cpu_offload: false

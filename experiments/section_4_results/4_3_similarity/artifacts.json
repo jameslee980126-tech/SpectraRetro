@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "experiment": "section_4_results/4_3_similarity",
+  "paper_items": [
+    "Table 2"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "datasets/supplementary_data/small_stratum_seed_hits.csv",
+      "path": "results/small_stratum_seed_hits.csv",
+      "role": "Top-k integer hit counts, means and sample standard deviations across three seeds",
+      "kind": "original_file",
+      "bytes": 2798,
+      "sha256": "7686265769d7786ef3606172417957529861f58114dcddd24890657c4e47795f"
+    },
+    {
+      "source_path": "results/small_summary.json",
+      "path": "../../../results/small_summary.json",
+      "role": "Original small-set summary",
+      "kind": "original_file",
+      "bytes": 84707,
+      "sha256": "3819ed3f2504459e0e5d764beaac83daa7f41fd5c8149e3a1d5bd3ce655dc478",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small.csv",
+      "role": "Recounted per-seed and per-stratum observations",
+      "kind": "original_file",
+      "bytes": 60218,
+      "sha256": "ff5b82218395441823205639851c5f2c74fb929bb15d74092d8774909459839e",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/reference_tables/reproduced_results/main_small_summary.csv",
+      "path": "../../../results/reference_tables/reproduced_results/main_small_summary.csv",
+      "role": "Three-seed means and sample standard deviations",
+      "kind": "original_file",
+      "bytes": 19478,
+      "sha256": "8303eea55175cff3e6dd1d0113e0ad3467c361f7673fd25a254b9a36074ae762",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "configs/experiments/small_completion.json",
+      "path": "provenance/small_completion.json",
+      "role": "Run, checkpoint, frozen input and protocol paths for each small-set evaluation",
+      "kind": "original_file",
+      "bytes": 27832,
+      "sha256": "832dd9532932043f872744bccba0e151436fa908a6a365e7521f685dffe4c2d4"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_thresholds.json",
+      "path": "configs/similarity_thresholds.json",
+      "role": "Frozen similarity selection thresholds",
+      "kind": "original_file",
+      "bytes": 442,
+      "sha256": "5a100027d00c5431f8d8d97a8235cac3f45526b5a1fb255e407263c0d794a4ac"
+    },
+    {
+      "path": "tables/table_2.tex",
+      "role": "Table 2: Top-$k$ exact-match accuracies (\\%) across similarity groups on the CHRetro test subset.",
+      "paper_item": "Table 2",
+      "kind": "verbatim_latex_table",
+      "source_character_start": 49387,
+      "source_character_end": 58437,
+      "source_sha256": "17aa11469621e8b811b20773a1dcb4de730e2b0b60b1115bdfd4aae072877ef0",
+      "sha256": "2cbba4cbabf88ce5bd1bfe897366ef9b53273e7d4400f21292462ad0d141498b",
+      "bytes": 9357,
+      "source_document": "manuscript.tex"
+    }
+  ],
+  "shared_code": [
+    "scripts/data/similarity.py",
+    "scripts/reproduce_results.py"
+  ],
+  "shared_data": [
+    "datasets/small",
+    "datasets/supplementary_data/small_stratum_seed_hits.csv"
+  ],
+  "checkpoint_index": "models/checkpoints.json",
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root. For each table excerpt, source_document identifies the article or SI section and source_sha256 identifies the original LaTeX source."
+}

@@ -1,0 +1,46 @@
+{
+  "rdkit": "2026.03.1",
+  "mode": "known",
+  "source_sha256": {
+    "source-record:known_center_selected_pair_20261021/selected_pair_evidence.json": "6c7fdfd42ce185cf3fa98584db3eb80c9b1c79cb59283606a0e63fdd8da2867a",
+    "source-record:three_error_types_review_20261021/generation_candidates.json": "d9ce3d04a1fd46cbde67db6be7e8cb45c5fc927d0b847e48497b47ec132e35b0",
+    "source-record:three_error_types_review_20261021/third_type_candidates.json": "90a12aa8ad1ffa3fc71532bfa021328d2dd5b7f79b4310e26baf09c21694f6ff"
+  },
+  "schematic_transform": "Only for illustration: clear radical electrons, allow implicit H; preserve atomic identities, all heavy-atom edges and their bond types after native parsing. No scoring changes.",
+  "reference_H_diagnostic_matches_original": {
+    "007779": true,
+    "007180": true
+  },
+  "cases": [
+    {
+      "id": "007221",
+      "product": "[CH3:1][CH2:2][CH2:3][CH:4]([CH2:5][CH2:6][CH3:7])[c:8]1[cH:9][c:10]([CH3:11])[n:12][c:13]2[c:14](-[c:15]3[cH:16][n:17][c:18](-[c:19]4[n:20][cH:21][n:22][n:23]4[CH3:24])[s:25]3)[c:26]([CH3:27])[n:28][n:29]12",
+      "recorded_reactants": "Br[c:15]1[cH:16][n:17][c:18](-[c:19]2[n:20][cH:21][n:22][n:23]2[CH3:24])[s:25]1.[CH3:1][CH2:2][CH2:3][CH:4]([CH2:5][CH2:6][CH3:7])[c:8]1[cH:9][c:10]([CH3:11])[n:12][c:13]2[cH:14][c:26]([CH3:27])[n:28][n:29]12",
+      "predicted_center_maps": [
+        18,
+        19
+      ],
+      "gold_center_maps": [
+        14,
+        15
+      ],
+      "predicted_reactants": null
+    },
+    {
+      "id": "007779",
+      "product": "[cH:1]1[cH:2][cH:3][c:4]2[cH:5][c:6](-[c:7]3[n:8][cH:9][cH:10][o:11]3)[cH:12][cH:13][c:14]2[cH:15]1",
+      "recorded_reactants": "O=C(O)[c:6]1[cH:5][c:4]2[cH:3][cH:2][cH:1][cH:15][c:14]2[cH:13][cH:12]1.[cH:7]1[n:8][cH:9][cH:10][o:11]1",
+      "reference_raw": "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)C(=O)[O].[C]1=N[C]=[C]O1",
+      "top1_raw": "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)Br.[C]1=N[C]=[C]O1",
+      "top1_connectivity_schematic": "Brc1ccc2ccccc2c1.c1cocn1"
+    },
+    {
+      "id": "007180",
+      "product": "[CH3:1][O:2][c:3]1[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10][c:11]1-[c:12]1[cH:13][n:14][cH:15][s:16]1",
+      "recorded_reactants": "Br[c:11]1[c:3]([O:2][CH3:1])[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10]1.[cH:12]1[cH:13][n:14][cH:15][s:16]1",
+      "reference_raw": "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)Br.[C]1=[C]N=[C]S1",
+      "top1_raw": "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)I.[C]1=[C]N=[C]S1",
+      "top1_connectivity_schematic": "COc1cc([N+](=O)[O-])ccc1I.c1cscn1"
+    }
+  ]
+}

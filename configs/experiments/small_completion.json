@@ -1,0 +1,434 @@
+{
+  "kind": "archived_experiment_artifact_configuration",
+  "runs": [
+    {
+      "mode": "known",
+      "training_seed": 0,
+      "protocol": "results/reproduction/small/known_seed0_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed0.pt",
+      "reaction_center_checkpoint": "checkpoints/small/known_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    },
+    {
+      "mode": "known",
+      "training_seed": 1,
+      "protocol": "results/reproduction/small/known_seed1_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed1.pt",
+      "reaction_center_checkpoint": "checkpoints/small/known_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json",
+          "sha256": "c84f9d057039e47e7dbcf62094a7a3cd77af6ac8591b1ab905170ba55e49971d"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl",
+          "sha256": "aa8740628f7fa4067d4631138320aac12d9893a83878f493c948d73557eb7caf"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay.csv": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay.csv",
+          "sha256": "ea679fc3fce2a908d6c752142a4aad6b88ee2e50275fb40e5010a93ce9afcdcf"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    },
+    {
+      "mode": "known",
+      "training_seed": 2,
+      "protocol": "results/reproduction/small/known_seed2_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed2.pt",
+      "reaction_center_checkpoint": "checkpoints/small/known_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json",
+          "sha256": "c84f9d057039e47e7dbcf62094a7a3cd77af6ac8591b1ab905170ba55e49971d"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl",
+          "sha256": "aa8740628f7fa4067d4631138320aac12d9893a83878f493c948d73557eb7caf"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay.csv": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay.csv",
+          "sha256": "ea679fc3fce2a908d6c752142a4aad6b88ee2e50275fb40e5010a93ce9afcdcf"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    },
+    {
+      "mode": "unknown",
+      "training_seed": 0,
+      "protocol": "results/reproduction/small/unknown_seed0_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed0.pt",
+      "reaction_center_checkpoint": "checkpoints/small/unknown_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    },
+    {
+      "mode": "unknown",
+      "training_seed": 1,
+      "protocol": "results/reproduction/small/unknown_seed1_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed1.pt",
+      "reaction_center_checkpoint": "checkpoints/small/unknown_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json",
+          "sha256": "c84f9d057039e47e7dbcf62094a7a3cd77af6ac8591b1ab905170ba55e49971d"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl",
+          "sha256": "aa8740628f7fa4067d4631138320aac12d9893a83878f493c948d73557eb7caf"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay.csv": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay.csv",
+          "sha256": "ea679fc3fce2a908d6c752142a4aad6b88ee2e50275fb40e5010a93ce9afcdcf"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    },
+    {
+      "mode": "unknown",
+      "training_seed": 2,
+      "protocol": "results/reproduction/small/unknown_seed2_protocol.json",
+      "completion_checkpoint": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed2.pt",
+      "reaction_center_checkpoint": "checkpoints/small/unknown_reaction_center.pth",
+      "size_checkpoint": "checkpoints/small/size_model.ckpt",
+      "composition_prior": "checkpoints/small/composition_prior.pt",
+      "inputs": {
+        "experiments/spectraretro_inputs/small/prepared/batch_order.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/batch_order.json",
+          "sha256": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest.json",
+          "sha256": "c37802b29e07f8c2691a1561fecae9f3e7ceab3ab11d12b0ef00a7336ef4a6db"
+        },
+        "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/manifest_before_table_snapshot.json",
+          "sha256": "c84f9d057039e47e7dbcf62094a7a3cd77af6ac8591b1ab905170ba55e49971d"
+        },
+        "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/observed_graph_unavailable.json",
+          "sha256": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded"
+        },
+        "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/shared_sizes_300.npz",
+          "sha256": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876"
+        },
+        "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv",
+          "sha256": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_known_test_predictions.jsonl",
+          "sha256": "aa8740628f7fa4067d4631138320aac12d9893a83878f493c948d73557eb7caf"
+        },
+        "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": {
+          "path": "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl",
+          "sha256": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_geometry.pt": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_geometry.pt",
+          "sha256": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_metadata.json": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_metadata.json",
+          "sha256": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_prior.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_prior.npz",
+          "sha256": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_record_map.csv",
+          "sha256": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+        },
+        "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz": {
+          "path": "experiments/spectraretro_inputs/small/prepared/test_size_probabilities.npz",
+          "sha256": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_bank.npz": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_bank.npz",
+          "sha256": "fb256aaf0b1bb181a8c4b8354ab849997e75896f3a772dee2f882675565d8efc"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay.csv": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay.csv",
+          "sha256": "ea679fc3fce2a908d6c752142a4aad6b88ee2e50275fb40e5010a93ce9afcdcf"
+        },
+        "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json": {
+          "path": "experiments/spectraretro_inputs/small/reference/reference_replay_manifest.json",
+          "sha256": "9bafe08c60b41024b31a4347b806e1d64d186a2ff6ad13a447c01fc1b3792cd3"
+        }
+      }
+    }
+  ],
+  "prepared_inputs": "experiments/spectraretro_inputs/small/prepared",
+  "references": "experiments/spectraretro_inputs/small/reference",
+  "scientific_source": "src/experiments/small_completion"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "complete",
+  "passed": true,
+  "numerically_converged": true,
+  "internal_stable": true,
+  "checks": {
+    "source_scf_converged": true,
+    "all_three_roots_returned": true,
+    "davidson_all_roots_converged": true,
+    "independent_residuals_passed": true,
+    "finite_eigenvalues_and_residuals": true,
+    "live_source_molecular_state_unchanged": true
+  },
+  "eigenvalues": [
+    0.5394997446150975,
+    0.5705589266800327,
+    0.5861115824006571
+  ],
+  "davidson_converged": [
+    true,
+    true,
+    true
+  ],
+  "independent_residual_norms": [
+    0.005921599670856342,
+    0.007125404475426517,
+    0.006163156892776028
+  ],
+  "residual_tolerance": 0.01,
+  "hessian_calls": 29,
+  "elapsed_seconds": 3158.1946297585964,
+  "initial_guess": "native_plus_lowdiag",
+  "seed_indices_0based": [
+    120,
+    241,
+    119
+  ],
+  "initial_orthonormal_trial_rayleigh_quotients": [
+    4.69092738818584,
+    0.7752386757735922,
+    0.7552107326463167,
+    0.8458534662053969
+  ],
+  "last_nonterminal_iteration": {
+    "cycle": 7,
+    "subspace": 25,
+    "elapsed_seconds": 2733.0857483297586,
+    "hessian_calls": 25,
+    "eigenvalues": [
+      0.5395010752752072,
+      0.5705589790430268,
+      0.5861420223229562
+    ],
+    "residual_norms": [
+      0.006375910064872593,
+      0.007093585149645026,
+      0.013619142646743715
+    ],
+    "converged": [
+      true,
+      true,
+      false
+    ]
+  },
+  "source_scf_energy_hartree": -1930.274800808863,
+  "molecular_scf_recomputed": false,
+  "library_sha256": "3824b984f1373b81e737857c6d59d95a7b7aac3316b3f7121babd155473717b0",
+  "completed_at": "2026-11-09T11:11:29.939263+00:00"
+}

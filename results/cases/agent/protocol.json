@@ -1,0 +1,33 @@
+{
+  "task": "Fixed-core model candidates connected into routes",
+  "provided_intermediate_cores": true,
+  "core_prediction_or_LLM_not_tested": true,
+  "stock_used_for_candidate_generation": false,
+  "stock_used_only_for_terminal_membership": true,
+  "supplied_terminal_boundary_from_literature": true,
+  "new_training": false,
+  "new_sampling": false,
+  "candidate_order": "Product of empirical fragment frequencies, canonical tie break",
+  "cross_draw_assembly": true,
+  "correct_precursors_not_used_to_filter_combinations": true,
+  "max_depth": 12,
+  "max_product_queries": 300,
+  "max_states": 10000,
+  "max_routes": 3,
+  "reference_precursors_for_evaluation_only": true,
+  "source_sha256": {
+    "src/experiments/drug_route_cases/721967e25a84_connect_fixed_core_cross_draw_20261013.py": "721967e25a848a8a7a13e5d458456f82b12d44ae2430ade890b9f56efc7adbc5",
+    "results/cases/agent_generation/connection_inputs/849becc52553_audit.json": "849becc52553622b20e84aaab05c0396513dad0cdf7ef3bd27b61da7485fbfd0",
+    "results/cases/agent_generation/fixed_core_completion_20261013/protocol.json": "49f2abffdd8fe2d12cd112d01ccbba11e93296738649ab3db974166ccfb80b4c",
+    "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+    "results/cases/agent_generation/fixed_core_completion_20261013/raw_samples.pt": "5d0b24a9a4dc4b65c2cd0a5300e64002928dc65514fae506b182f14e73ad0082",
+    "results/cases/agent_generation/fixed_core_completion_20261013/generation_inputs.json": "3290c1bf04a86994dbe0066545b7362c1edd616c8542a56e89500e038e750030",
+    "results/cases/agent/input_product_mapping.json": "5615741f0b8e6f592ad4534ac8ef1eda15cecfcf612a39a947b7541ba3a2234b",
+    "results/cases/agent_generation/whole_routes/requests.json": "c8106a486e0a82e9ff04396a7d295268bd09635929d207b11c8d529508b3ff72",
+    "results/cases/agent_generation/connection_inputs/114a9e5645ef_audit.json": "114a9e5645efb82ea0e69c1ce693f7788d22bc9791ff43b4d0f43377464266af",
+    "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/protocol.json": "0b83d93f1e2ed81dd5ee32f757d02324a23e1add634ec5eb78f6d0cd4ee19d23",
+    "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9",
+    "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/new_raw_samples.pt": "5a8190e9db3d778618cbf86c8c0f6d5af91480f5da7ab61e8da821d1c3cef190",
+    "src/experiments/drug_route_cases/e6ad57335d16_connect_fixed_core_routes_20261013.py": "e6ad57335d16e9977cf553bab13a785904ed08ad9830de351f514c4b7e1a74c2"
+  }
+}

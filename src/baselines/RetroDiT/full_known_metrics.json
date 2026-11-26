@@ -1,0 +1,26 @@
+{
+  "protocol": "RetroDiT known-class formal evaluation; two preprocessing drops counted as zero",
+  "frozen_test_denominator": 9250,
+  "successfully_preprocessed_and_evaluated": 9248,
+  "preprocessing_drops_counted_as_zero": 2,
+  "checkpoint": "best_top3acc_model_step512_acc0.9167.ckpt",
+  "primary_metrics": "deduplicated candidate ranking",
+  "raw": {
+    "top_1": {"correct": 3167, "accuracy": 0.34237837837837837, "percent": 34.23783783783784},
+    "top_3": {"correct": 5620, "accuracy": 0.6075675675675676, "percent": 60.75675675675676},
+    "top_5": {"correct": 6463, "accuracy": 0.6987027027027027, "percent": 69.87027027027027},
+    "top_10": {"correct": 7316, "accuracy": 0.790918918918919, "percent": 79.09189189189189},
+    "top_20": {"correct": 7846, "accuracy": 0.8482162162162162, "percent": 84.82162162162162},
+    "top_50": {"correct": 8247, "accuracy": 0.8915675675675676, "percent": 89.15675675675676},
+    "top_100": {"correct": 8457, "accuracy": 0.9142702702702703, "percent": 91.42702702702702}
+  },
+  "deduplicated": {
+    "top_1": {"correct": 5369, "accuracy": 0.5804324324324325, "percent": 58.043243243243246},
+    "top_3": {"correct": 7537, "accuracy": 0.8148108108108109, "percent": 81.48108108108109},
+    "top_5": {"correct": 7913, "accuracy": 0.8554594594594594, "percent": 85.54594594594595},
+    "top_10": {"correct": 8184, "accuracy": 0.8847567567567568, "percent": 88.47567567567567},
+    "top_20": {"correct": 8308, "accuracy": 0.8981621621621622, "percent": 89.81621621621622},
+    "top_50": {"correct": 8445, "accuracy": 0.912972972972973, "percent": 91.29729729729729},
+    "top_100": {"correct": 8457, "accuracy": 0.9142702702702703, "percent": 91.42702702702702}
+  }
+}

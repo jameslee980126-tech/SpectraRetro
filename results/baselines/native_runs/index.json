@@ -1,0 +1,1054 @@
+{
+  "files": [
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/best.pkl",
+      "original_name": "server_results/runs/known/best.pkl",
+      "sha256": "a52a725fda2eb295218401aec6a9c8d633c7ef82d579da2c974195d5ea208063",
+      "bytes": 178106054
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/metrics.json",
+      "original_name": "server_results/runs/known/metrics.json",
+      "sha256": "444c94931895927807d08153a6a7fef689f1bf3ee379d17e33887e377409b671",
+      "bytes": 5309
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/native_samples_batches.jsonl",
+      "original_name": "server_results/runs/known/native_samples_batches.jsonl",
+      "sha256": "b1a420b630596c2ece4022698b952878de206b620ba5bdb0c9c3d2a30356c4a7",
+      "bytes": 29646321
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/per_reaction.csv",
+      "original_name": "server_results/runs/known/per_reaction.csv",
+      "sha256": "0a4e2c87ce14a9c621332d272b15926765c136a3586a9f8020107a1a93c08b4b",
+      "bytes": 154390
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/predictions.jsonl",
+      "original_name": "server_results/runs/known/predictions.jsonl",
+      "sha256": "3d77d36949a93d2bc6868af5c80aee9d39477fcb922f9f1467f7ff6a9729bc33",
+      "bytes": 7049914
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/training_events.jsonl",
+      "original_name": "server_results/runs/known/training_events.jsonl",
+      "sha256": "91745a8960c893ac52f8d866c13f77928262a5e0bae90e560c7711ce04c6314f",
+      "bytes": 541394
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/known/vocabulary.json",
+      "original_name": "server_results/runs/known/vocabulary.json",
+      "sha256": "d931d5ee8bca24162d77a6e3d701b1bb73a2351aed4b973c3bf17fad478caddc",
+      "bytes": 1388
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/best.pkl",
+      "original_name": "server_results/runs/unknown/best.pkl",
+      "sha256": "ed65f7a97d48f81a4ae0242f9f892ae0e0da3b880ce2b51eca9ac9ccabf2b2e9",
+      "bytes": 178081478
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/metrics.json",
+      "original_name": "server_results/runs/unknown/metrics.json",
+      "sha256": "94d2b853ed97940cb205a13cb2e1b19e949e5f5e1df6f851de2bbc51f12750f9",
+      "bytes": 5323
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/native_samples_batches.jsonl",
+      "original_name": "server_results/runs/unknown/native_samples_batches.jsonl",
+      "sha256": "06bbcf258abe0a7ecf06ad3cb817cba563bc9455029a97556d34708b9d0e3bb1",
+      "bytes": 29363237
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/per_reaction.csv",
+      "original_name": "server_results/runs/unknown/per_reaction.csv",
+      "sha256": "a1fbf5c10df97aa442145365a7236cd053ccec9bbc926b1b07d29cd3742d85ea",
+      "bytes": 154206
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/predictions.jsonl",
+      "original_name": "server_results/runs/unknown/predictions.jsonl",
+      "sha256": "2bca8213f761343c44795935465672045a1378b8f8245f86c79d867b671cfa90",
+      "bytes": 7259492
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/training_events.jsonl",
+      "original_name": "server_results/runs/unknown/training_events.jsonl",
+      "sha256": "d2fcb1aa0e1ee618158f3e6d0c7ad50b209ed5c3f1b13633c9e6014c16f85d83",
+      "bytes": 506691
+    },
+    {
+      "model": "DiffER",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/vocabulary.json",
+      "original_name": "server_results/runs/unknown/vocabulary.json",
+      "sha256": "404e9d8b2553ed71bac9d22b63a32414c3ed1353edf484e82ae27a7129024e65",
+      "bytes": 1283
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/best_model.pt",
+      "original_name": "server_results/runs/known_seed0/best_model.pt",
+      "sha256": "7074cbd19c408a17c74b11f8eadc80c4e51ccbc61476c120648d47a2fb767aa2",
+      "bytes": 4980671
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/metrics.json",
+      "original_name": "server_results/runs/known_seed0/metrics.json",
+      "sha256": "06701071cde07b9f16107c0fc9c66a74caf830953209e2da5ba6c4482363166b",
+      "bytes": 5455
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/per_reaction.csv",
+      "original_name": "server_results/runs/known_seed0/per_reaction.csv",
+      "sha256": "381d3bea9a62499c9c51d3ef05c467c6c6d58bf8a4b63fb3e679d7ee894b6d10",
+      "bytes": 262556
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/predictions_beam10.txt",
+      "original_name": "server_results/runs/known_seed0/predictions_beam10.txt",
+      "sha256": "a2e0663cf49288520c55ebaae9b374c4363bcb40adb83beb8b79357a410e519f",
+      "bytes": 5452048
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/training_config.json",
+      "original_name": "server_results/runs/known_seed0/training_config.json",
+      "sha256": "deb25f952de7e541bb0e9945a057ce8a278004b8383d7f8b499843699ce79377",
+      "bytes": 357
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed0/training_events.jsonl",
+      "original_name": "server_results/runs/known_seed0/training_events.jsonl",
+      "sha256": "b0f5bb8f18dec261ca961c644c59265bd987c4aafcbeed664cd4fab0cfe8c7ab",
+      "bytes": 13763
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/best_model.pt",
+      "original_name": "server_results/runs/known_seed1/best_model.pt",
+      "sha256": "34666c18c9619f821178772c0d79442707102d9aa7b8c4b691a9e67ce919a063",
+      "bytes": 4980671
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/metrics.json",
+      "original_name": "server_results/runs/known_seed1/metrics.json",
+      "sha256": "f6d5bd1db44670b1fa800a6a0ee5d080e94f6a1f51878a851216e27938441d32",
+      "bytes": 5466
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/per_reaction.csv",
+      "original_name": "server_results/runs/known_seed1/per_reaction.csv",
+      "sha256": "ccf5567d97ed87c8feb020205c11af2336b6e0cfec68d5a713ec086e7452e0f8",
+      "bytes": 262405
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/predictions_beam10.txt",
+      "original_name": "server_results/runs/known_seed1/predictions_beam10.txt",
+      "sha256": "b797bf6a99804b54f9f170c9bfda854f503f4507fc8fcba88fa6c5e7e74978ef",
+      "bytes": 5570528
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/training_config.json",
+      "original_name": "server_results/runs/known_seed1/training_config.json",
+      "sha256": "deb25f952de7e541bb0e9945a057ce8a278004b8383d7f8b499843699ce79377",
+      "bytes": 357
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed1/training_events.jsonl",
+      "original_name": "server_results/runs/known_seed1/training_events.jsonl",
+      "sha256": "09340cee4318fabf23ef5114bce4fa6fe2d2a9687fe8886200166099df7b1bd0",
+      "bytes": 14522
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/best_model.pt",
+      "original_name": "server_results/runs/known_seed2/best_model.pt",
+      "sha256": "5b6b4f984a692ab3ea730fe7a6a31642f7b241e0c6856db94bf8840a63cf2f00",
+      "bytes": 4980671
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/metrics.json",
+      "original_name": "server_results/runs/known_seed2/metrics.json",
+      "sha256": "a9b24080b4588ee335bc001e87e1fdb4946fdac952e3b45ba72218e74c58955a",
+      "bytes": 5453
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/per_reaction.csv",
+      "original_name": "server_results/runs/known_seed2/per_reaction.csv",
+      "sha256": "55d5f5a5ed9accb14c6db3c7796c3423ac3e9637d24965c0aad5475e93f31456",
+      "bytes": 262738
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/predictions_beam10.txt",
+      "original_name": "server_results/runs/known_seed2/predictions_beam10.txt",
+      "sha256": "9f8516c22db45cd1e6985ef199bf5f5d267b7e501cd709eb2d893118d34cffce",
+      "bytes": 5680994
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/training_config.json",
+      "original_name": "server_results/runs/known_seed2/training_config.json",
+      "sha256": "deb25f952de7e541bb0e9945a057ce8a278004b8383d7f8b499843699ce79377",
+      "bytes": 357
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/known_seed2/training_events.jsonl",
+      "original_name": "server_results/runs/known_seed2/training_events.jsonl",
+      "sha256": "2b95cdbc25763a6a3038cbb5f742ec58eb8726660fcce1742145926d58ed1d6d",
+      "bytes": 14014
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed0/best_model.pt",
+      "sha256": "c5fc5db00c14140067d0b52d85f085561fa035f647731f0482e07191d888fd5f",
+      "bytes": 4960191
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/metrics.json",
+      "original_name": "server_results/runs/unknown_seed0/metrics.json",
+      "sha256": "d571d3d7590319eba1f14d15f424bea0982a10fc8368559fa900582c91075760",
+      "bytes": 5469
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/per_reaction.csv",
+      "original_name": "server_results/runs/unknown_seed0/per_reaction.csv",
+      "sha256": "7bc56d8d525cb95834e25eeb8ec42dce07e2a3ec8c59ee096536072de9c79df0",
+      "bytes": 262203
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/predictions_beam10.txt",
+      "original_name": "server_results/runs/unknown_seed0/predictions_beam10.txt",
+      "sha256": "597e36c8b70e5a5b5448b52884fa64eadf8a435d8bad4b649ed76556b1285e54",
+      "bytes": 5416590
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/training_config.json",
+      "original_name": "server_results/runs/unknown_seed0/training_config.json",
+      "sha256": "c6c6542ef4fbbe7d85aa6094706ab3683964b05bc20a555ab8e24a0d99c6549a",
+      "bytes": 358
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed0/training_events.jsonl",
+      "original_name": "server_results/runs/unknown_seed0/training_events.jsonl",
+      "sha256": "f1245f3ece001d7b81a3529804649a0d92029c830d903f6ae573fba935895cdc",
+      "bytes": 17151
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed1/best_model.pt",
+      "sha256": "7405253f8ab6a97eaa43ec13b99d6b76c2523cb8429528ce044d25362ba6512d",
+      "bytes": 4960191
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/metrics.json",
+      "original_name": "server_results/runs/unknown_seed1/metrics.json",
+      "sha256": "7e0980b0fb6334f44b52e1432d6c3bbde332e139a0a4d3f66b40aee25978db58",
+      "bytes": 5482
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/per_reaction.csv",
+      "original_name": "server_results/runs/unknown_seed1/per_reaction.csv",
+      "sha256": "a61d38516e49dc570d4cdfb1cd84c85658d631b4f97777dd4e30bdbb2a1f744a",
+      "bytes": 262899
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/predictions_beam10.txt",
+      "original_name": "server_results/runs/unknown_seed1/predictions_beam10.txt",
+      "sha256": "11198d9469e6a8147bd863ff516d35ab1d09c09896769b326c8a6bf381b60eb8",
+      "bytes": 5475165
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/training_config.json",
+      "original_name": "server_results/runs/unknown_seed1/training_config.json",
+      "sha256": "c6c6542ef4fbbe7d85aa6094706ab3683964b05bc20a555ab8e24a0d99c6549a",
+      "bytes": 358
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed1/training_events.jsonl",
+      "original_name": "server_results/runs/unknown_seed1/training_events.jsonl",
+      "sha256": "38be3e2ef831d18e64846815c299eecf9f106bfc0ff652caace68969950d4df5",
+      "bytes": 14352
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed2/best_model.pt",
+      "sha256": "6adc1ed751f09affa7e659ce5a35d023f59bad4b643e0610c4e0b8ee83946f0b",
+      "bytes": 4959588
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/metrics.json",
+      "original_name": "server_results/runs/unknown_seed2/metrics.json",
+      "sha256": "bc11099c675bfb65dadef405f66cdfa01dce26970a907beff6a08c46ef04dca2",
+      "bytes": 5466
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/per_reaction.csv",
+      "original_name": "server_results/runs/unknown_seed2/per_reaction.csv",
+      "sha256": "a3f8427b4ed9dc9841a0673a964a928e4119e10b70e6133651ce43de0b158482",
+      "bytes": 261110
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/predictions_beam10.txt",
+      "original_name": "server_results/runs/unknown_seed2/predictions_beam10.txt",
+      "sha256": "a8ecb7d2850087457eaa98b715a047a7e5654c72cc0ce614bdb777a1742a4707",
+      "bytes": 5396120
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/training_config.json",
+      "original_name": "server_results/runs/unknown_seed2/training_config.json",
+      "sha256": "c6c6542ef4fbbe7d85aa6094706ab3683964b05bc20a555ab8e24a0d99c6549a",
+      "bytes": 358
+    },
+    {
+      "model": "Graph2Edits",
+      "path": "results/baselines/native_runs/Graph2Edits/small/unknown_seed2/training_events.jsonl",
+      "original_name": "server_results/runs/unknown_seed2/training_events.jsonl",
+      "sha256": "04f9eb110b15ce3c8b67788c8fb712c135ed7d5dc67dd4e8a070053f1f0d1f45",
+      "bytes": 6795
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/beam10_predictions.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/beam10_predictions.jsonl",
+      "sha256": "cd2204bf01d74e48ae4891a0bcbb82b44a30c87a8365b2b01839b1be6188001b",
+      "bytes": 4881249
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/lg_ind_early_stop.jsonl",
+      "sha256": "ee8c4533f5fcd715958aa21d2ff95e4c65490877ee95d837fc390f89822d26be",
+      "bytes": 4797
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/native_beam10_metrics.json",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/native_beam10_metrics.json",
+      "sha256": "cda12ff78a5e40e0700795af7b6c52263ebb86fb7d50ae24e24c117d702effef",
+      "bytes": 237
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/single_edit_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/single_edit_early_stop.jsonl",
+      "sha256": "91211046af5b0e45e198e341202be4187926ffefac270b5e9522a543c656624c",
+      "bytes": 5573
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/checkpoints/offline-run-20260922_225134-yk6uarcz/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/wandb/offline-run-20260922_225134-yk6uarcz/files/best_model.pt",
+      "sha256": "6c011089b26f82d05795145111ff88b9954e879b0f17ef3c64aa912cd0ba80db",
+      "bytes": 4284469
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/full_unknown/checkpoints/offline-run-20260923_000125-5uw3c32f/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/full_unknown/wandb/offline-run-20260923_000125-5uw3c32f/files/best_model.pt",
+      "sha256": "84d2575029e6c416061ff01215719bfd7721d1795d4a51171be298faceb125fe",
+      "bytes": 3751093
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/beam10_predictions.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/beam10_predictions.jsonl",
+      "sha256": "a4a34cc5aaeadb1a2788448d1143a70e93268085efc0f4de9e1e33dc03549b92",
+      "bytes": 1191240
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/lg_ind_early_stop.jsonl",
+      "sha256": "883c22ae5d5531fc46980185718b948b7770ab11f849046807412a4079d2c78d",
+      "bytes": 7036
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/native_beam10_metrics.json",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/native_beam10_metrics.json",
+      "sha256": "c33e9147f0207803f9ae225a9bae8a8ce8cc9df54f86d2a2ffe783e72eb71551",
+      "bytes": 225
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/single_edit_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/single_edit_early_stop.jsonl",
+      "sha256": "3a5b65ed9f6a02d5d689fc75180d24802ed210ef0e56ddfd9e20f4eff63ea044",
+      "bytes": 4531
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/checkpoints/offline-run-20260922_221733-nhg8zg8z/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/wandb/offline-run-20260922_221733-nhg8zg8z/files/best_model.pt",
+      "sha256": "81594ad27dd107999452f4b136928f0177a9d3a23132ec4cddfdae76d88df5d7",
+      "bytes": 4333109
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_known/checkpoints/offline-run-20260922_223059-b4c60a44/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_known/wandb/offline-run-20260922_223059-b4c60a44/files/best_model.pt",
+      "sha256": "95ceeb686d4bb6bad2fd3e9839150e222698780411667ee4a8900c08ef87ec9a",
+      "bytes": 3375221
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/beam10_predictions.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/beam10_predictions.jsonl",
+      "sha256": "0b0475b92e060bff8b30ec56bc9765d403809d17f4e77683302fd8050be62b09",
+      "bytes": 1217784
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/lg_ind_early_stop.jsonl",
+      "sha256": "6fd5fe09a6a1daaf6609d5c773f6ac8520e9b834690d8e17e7efe1d70826493e",
+      "bytes": 5758
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/native_beam10_metrics.json",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/native_beam10_metrics.json",
+      "sha256": "0036e7ee3064af142fc85043911d97adc08f0e1615d363794acb3c5d4f761f21",
+      "bytes": 204
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/single_edit_early_stop.jsonl",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/single_edit_early_stop.jsonl",
+      "sha256": "8729adf99799e2cf86765e98d41f03e694e900f435cc0465804b65c2d02b9ec0",
+      "bytes": 5286
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/checkpoints/offline-run-20260922_214421-iskepdex/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/wandb/offline-run-20260922_214421-iskepdex/files/best_model.pt",
+      "sha256": "4342ffc680cab1767625bf844815c170877b3846cc48f9f527253b5777aa5969",
+      "bytes": 4284469
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/seed0/small_unknown/checkpoints/offline-run-20260922_220014-05irth2y/best_model.pt",
+      "original_name": "server_results/graphretro_results_20260922/runs/small_unknown/wandb/offline-run-20260922_220014-05irth2y/files/best_model.pt",
+      "sha256": "c101ccf7506371b4e4acb89703cf467f27ce70170a25b961805dcc2bdf2b9a19",
+      "bytes": 3327285
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/beam10_predictions.jsonl",
+      "original_name": "server_results/runs/known_seed1/beam10_predictions.jsonl",
+      "sha256": "035a92b59b8c096f06d807efff67623c43512511c35f89072c3066bcecc59b09",
+      "bytes": 1212617
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/runs/known_seed1/lg_ind_early_stop.jsonl",
+      "sha256": "bc5b377548802239047c7e667e45f04c7ffb417b7835f1035d6605d553a2c9d6",
+      "bytes": 6007
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/native_beam10_metrics.json",
+      "original_name": "server_results/runs/known_seed1/native_beam10_metrics.json",
+      "sha256": "d758e32c659fead3b551018e90526612e0fdb4a215b2da9e81c8c710bffc6abf",
+      "bytes": 211
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/single_edit_early_stop.jsonl",
+      "original_name": "server_results/runs/known_seed1/single_edit_early_stop.jsonl",
+      "sha256": "d8ffca4afe6bd3f3fa49ba089cf321185e7a91273f392fc5467bfaab8e6fd809",
+      "bytes": 5191
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/checkpoints/offline-run-20261019_112224-iwqxzwgl/best_model.pt",
+      "original_name": "server_results/runs/known_seed1/wandb/offline-run-20261019_112224-iwqxzwgl/files/best_model.pt",
+      "sha256": "fc676b6cdac547885c55b13ed4fc7e237ccda5b5ca5eea94dcb423bc1f962d79",
+      "bytes": 4333109
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed1/checkpoints/offline-run-20261019_115118-jrw22rke/best_model.pt",
+      "original_name": "server_results/runs/known_seed1/wandb/offline-run-20261019_115118-jrw22rke/files/best_model.pt",
+      "sha256": "9d7e58d4fa614a5f760582af534ec5664dc49ab8fb46b27ab7827f41f25664b4",
+      "bytes": 3375221
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/beam10_predictions.jsonl",
+      "original_name": "server_results/runs/known_seed2/beam10_predictions.jsonl",
+      "sha256": "6ec0d77870255c26d598d99d4a359baa701991098bb72559448beea187ac59b9",
+      "bytes": 1237164
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/runs/known_seed2/lg_ind_early_stop.jsonl",
+      "sha256": "d45bda515376b4e60119311b9060d4053e6eb73f37e086b7305f9b4740df64e6",
+      "bytes": 5703
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/native_beam10_metrics.json",
+      "original_name": "server_results/runs/known_seed2/native_beam10_metrics.json",
+      "sha256": "8c9d15fd0e560b4907fac9b85fbe6db271140ee78081bd61bf531f1a43f22e2d",
+      "bytes": 222
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/single_edit_early_stop.jsonl",
+      "original_name": "server_results/runs/known_seed2/single_edit_early_stop.jsonl",
+      "sha256": "e3ee7d4df0451853b5a8a39002d004b1fd87bbdd8b4eb86bde86aaeb6846a96c",
+      "bytes": 4488
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/checkpoints/offline-run-20261019_112224-dkgiylc7/best_model.pt",
+      "original_name": "server_results/runs/known_seed2/wandb/offline-run-20261019_112224-dkgiylc7/files/best_model.pt",
+      "sha256": "3b516519068cb723228150f86936f4b28a9e0ff912eeffd662d3d0216646370d",
+      "bytes": 4333109
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/known_seed2/checkpoints/offline-run-20261019_114603-ht3c0db4/best_model.pt",
+      "original_name": "server_results/runs/known_seed2/wandb/offline-run-20261019_114603-ht3c0db4/files/best_model.pt",
+      "sha256": "6dcc96dbf4b069040caf67681063cb673ec185030c78a553fca53a9c7aa73a0f",
+      "bytes": 3375221
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/beam10_predictions.jsonl",
+      "original_name": "server_results/runs/unknown_seed1/beam10_predictions.jsonl",
+      "sha256": "08f6c10b63899399777fb3d710057d5104baae8234a45866074ad5f9be0da5de",
+      "bytes": 1196699
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/runs/unknown_seed1/lg_ind_early_stop.jsonl",
+      "sha256": "050bdf83afc8f361c268cc5f6480537ec64416eb2e7cb500243422daa509b8ef",
+      "bytes": 5010
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/native_beam10_metrics.json",
+      "original_name": "server_results/runs/unknown_seed1/native_beam10_metrics.json",
+      "sha256": "36ab67a05bf46475bfb448ee705ce490ad7bd4b69552f7956049ab6b59eed1d0",
+      "bytes": 216
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/single_edit_early_stop.jsonl",
+      "original_name": "server_results/runs/unknown_seed1/single_edit_early_stop.jsonl",
+      "sha256": "a60d7e43d012ffdc5fdd53e2ac9d6da1198046351d041cf0ed16531dd2f76e2f",
+      "bytes": 4207
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/checkpoints/offline-run-20261019_112224-9vtz8zvf/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed1/wandb/offline-run-20261019_112224-9vtz8zvf/files/best_model.pt",
+      "sha256": "62bd332cf10ecf2609f1564592474b4cb862d0e648d4863e1e54324463e98fdd",
+      "bytes": 4284469
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed1/checkpoints/offline-run-20261019_114345-n9ntyonz/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed1/wandb/offline-run-20261019_114345-n9ntyonz/files/best_model.pt",
+      "sha256": "d6762f8d4e117b90f995b861e94601a2ce66d94c69a53816fbea2b25a149e1a3",
+      "bytes": 3327285
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/beam10_predictions.jsonl",
+      "original_name": "server_results/runs/unknown_seed2/beam10_predictions.jsonl",
+      "sha256": "b5f8a12e3c7d29fea7fcb9656cee5d9016d13977598bd8ccb8a2e4fe1bf02154",
+      "bytes": 1082454
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/lg_ind_early_stop.jsonl",
+      "original_name": "server_results/runs/unknown_seed2/lg_ind_early_stop.jsonl",
+      "sha256": "146fdd7f480242ffefc92da4f0beb11fa67720ed56ff5d6d9a7996e5d492eca6",
+      "bytes": 6700
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/native_beam10_metrics.json",
+      "original_name": "server_results/runs/unknown_seed2/native_beam10_metrics.json",
+      "sha256": "d6082e4e7aa84b89a4a67272b4d28703897a3d20ddd749fc48e0702d3ae78677",
+      "bytes": 202
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/single_edit_early_stop.jsonl",
+      "original_name": "server_results/runs/unknown_seed2/single_edit_early_stop.jsonl",
+      "sha256": "b7f05626cceae22a4fb84f5785b7fdb8ea09806849efc3a10858ae80be30e762",
+      "bytes": 4232
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/checkpoints/offline-run-20261019_112224-zajo077y/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed2/wandb/offline-run-20261019_112224-zajo077y/files/best_model.pt",
+      "sha256": "be2e3b712ab390eb038c5aba0f6c1b04fa4a8f33e40019bb6fd6259f0c63217f",
+      "bytes": 4284469
+    },
+    {
+      "model": "GraphRetro",
+      "path": "results/baselines/native_runs/GraphRetro/small/unknown_seed2/checkpoints/offline-run-20261019_114507-axg79xfc/best_model.pt",
+      "original_name": "server_results/runs/unknown_seed2/wandb/offline-run-20261019_114507-axg79xfc/files/best_model.pt",
+      "sha256": "4cb2d2481babdcfd3ccf6bd849bacaddc3e1a581043a5f707f7ace2746179cd9",
+      "bytes": 3327285
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed0/config.json",
+      "original_name": "cpu_run/server_results/runs/known/seed0/config.json",
+      "sha256": "7b36cac1ab96da93ea5509587f0dd1f55eb7953dd9f104e2ca08e31f41361d8e",
+      "bytes": 561
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed0/metrics.json",
+      "original_name": "cpu_run/server_results/runs/known/seed0/metrics.json",
+      "sha256": "4745d5adc821ef129f37200657d2719810160ae3943478e611704e08ab34f361",
+      "bytes": 3010
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed0/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/known/seed0/per_reaction.csv",
+      "sha256": "2f04931463f4e5da3e723520ff255dcf3f879aa158d961988032b422a9995e7b",
+      "bytes": 91508
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed0/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/known/seed0/predictions.jsonl",
+      "sha256": "1dcab84599b0a382bc30df1ed128337245775197b45c994bbb442d965e5bad29",
+      "bytes": 1213284
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed1/config.json",
+      "original_name": "cpu_run/server_results/runs/known/seed1/config.json",
+      "sha256": "8737a4df9aae3c951ba4068efa3b49afb1b169d0feeb2dce3b924fa157357f39",
+      "bytes": 561
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed1/metrics.json",
+      "original_name": "cpu_run/server_results/runs/known/seed1/metrics.json",
+      "sha256": "4745d5adc821ef129f37200657d2719810160ae3943478e611704e08ab34f361",
+      "bytes": 3010
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed1/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/known/seed1/per_reaction.csv",
+      "sha256": "2f04931463f4e5da3e723520ff255dcf3f879aa158d961988032b422a9995e7b",
+      "bytes": 91508
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed1/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/known/seed1/predictions.jsonl",
+      "sha256": "1dcab84599b0a382bc30df1ed128337245775197b45c994bbb442d965e5bad29",
+      "bytes": 1213284
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed2/config.json",
+      "original_name": "cpu_run/server_results/runs/known/seed2/config.json",
+      "sha256": "3c1f123124c0065ccf5246feeef5a227dd7773d8f9e8c5b8a02441baacb06ce9",
+      "bytes": 561
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed2/metrics.json",
+      "original_name": "cpu_run/server_results/runs/known/seed2/metrics.json",
+      "sha256": "4745d5adc821ef129f37200657d2719810160ae3943478e611704e08ab34f361",
+      "bytes": 3010
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed2/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/known/seed2/per_reaction.csv",
+      "sha256": "2f04931463f4e5da3e723520ff255dcf3f879aa158d961988032b422a9995e7b",
+      "bytes": 91508
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/known/seed2/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/known/seed2/predictions.jsonl",
+      "sha256": "1dcab84599b0a382bc30df1ed128337245775197b45c994bbb442d965e5bad29",
+      "bytes": 1213284
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed0/config.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed0/config.json",
+      "sha256": "a67e6f5fff1b1741335556cbaa5c7ef140e06cfb69ceaa831fedf50e94655ec6",
+      "bytes": 563
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed0/metrics.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed0/metrics.json",
+      "sha256": "c13828035e5cd5b0b85919554eac2530e1bbd30a6498a6c1f2d16cc4b3b6db44",
+      "bytes": 3014
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed0/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/unknown/seed0/per_reaction.csv",
+      "sha256": "793696575418e618e5f529f884d5a047f9cc85f53b77c5b459cd27bd81889133",
+      "bytes": 92156
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed0/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/unknown/seed0/predictions.jsonl",
+      "sha256": "8301e132b7adec6d532eaa1050390d2470c56a8bff081fa9a4b903358513683d",
+      "bytes": 1793363
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed1/config.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed1/config.json",
+      "sha256": "fef0385f71112c0216db6ff08955ee35b83acf2dfa7aa2e5fad6b199fa5b0d1c",
+      "bytes": 563
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed1/metrics.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed1/metrics.json",
+      "sha256": "c13828035e5cd5b0b85919554eac2530e1bbd30a6498a6c1f2d16cc4b3b6db44",
+      "bytes": 3014
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed1/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/unknown/seed1/per_reaction.csv",
+      "sha256": "793696575418e618e5f529f884d5a047f9cc85f53b77c5b459cd27bd81889133",
+      "bytes": 92156
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed1/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/unknown/seed1/predictions.jsonl",
+      "sha256": "8301e132b7adec6d532eaa1050390d2470c56a8bff081fa9a4b903358513683d",
+      "bytes": 1793363
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed2/config.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed2/config.json",
+      "sha256": "a5ced1ed0c7c1d5a1eb9c48b6abbca5908831b2ff41681a4adbf6373edb401d7",
+      "bytes": 563
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed2/metrics.json",
+      "original_name": "cpu_run/server_results/runs/unknown/seed2/metrics.json",
+      "sha256": "c13828035e5cd5b0b85919554eac2530e1bbd30a6498a6c1f2d16cc4b3b6db44",
+      "bytes": 3014
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed2/per_reaction.csv",
+      "original_name": "cpu_run/server_results/runs/unknown/seed2/per_reaction.csv",
+      "sha256": "793696575418e618e5f529f884d5a047f9cc85f53b77c5b459cd27bd81889133",
+      "bytes": 92156
+    },
+    {
+      "model": "RetroSim",
+      "path": "results/baselines/native_runs/RetroSim/small/unknown/seed2/predictions.jsonl",
+      "original_name": "cpu_run/server_results/runs/unknown/seed2/predictions.jsonl",
+      "sha256": "8301e132b7adec6d532eaa1050390d2470c56a8bff081fa9a4b903358513683d",
+      "bytes": 1793363
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/known_class/seed_0/beam10_dual_metrics.json",
+      "original_name": "server_results/complete_20260923/runs/known_class/seed_0/beam10_dual_metrics.json",
+      "sha256": "3b079e9f68413e251f5cd6f5408f775696994b38508566d86efc7546c4a6b525",
+      "bytes": 5678
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/known_class/seed_0/beam10_per_reaction.csv",
+      "original_name": "server_results/complete_20260923/runs/known_class/seed_0/beam10_per_reaction.csv",
+      "sha256": "fce8b2fe8e0425df034313c38a2e66eb20f6dcc3f8b0b66eefafd501500e08cb",
+      "bytes": 260078
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/known_class/seed_0/checkpoint_selection.json",
+      "original_name": "server_results/complete_20260923/runs/known_class/seed_0/checkpoint_selection.json",
+      "sha256": "f83ed08da9383b796085eb3cd87993ea9ac7b2242bb7d302eeec18bdfd0e03f9",
+      "bytes": 310
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/known_class/seed_0/predictions_beam10.txt",
+      "original_name": "server_results/complete_20260923/runs/known_class/seed_0/predictions_beam10.txt",
+      "sha256": "caca0fcf414a49ad6c5b0c3d7d73e8b5a8931608387b05d9ee7e7b4391c95888",
+      "bytes": 5401414
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/known_class/seed_0/selected_epoch_19.pt",
+      "original_name": "server_results/complete_20260923/runs/known_class/seed_0/selected_epoch_19.pt",
+      "sha256": "3f708af3a9da619e71feb107bcb61a141a96ae0824b538f86c517e283c42351e",
+      "bytes": 1851925
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/unknown_class/seed_0/beam10_dual_metrics.json",
+      "original_name": "server_results/complete_20260923/runs/unknown_class/seed_0/beam10_dual_metrics.json",
+      "sha256": "9ec7e4bf95f7d0cf21333115abe7e12aa6f75c53ec2131b04a790fc3b9c91013",
+      "bytes": 5699
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/unknown_class/seed_0/beam10_per_reaction.csv",
+      "original_name": "server_results/complete_20260923/runs/unknown_class/seed_0/beam10_per_reaction.csv",
+      "sha256": "685375427bb7dea2bbe6c97abfe8f300b3d9f5f289b77970e28fd39ea06eac2d",
+      "bytes": 259211
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/unknown_class/seed_0/checkpoint_selection.json",
+      "original_name": "server_results/complete_20260923/runs/unknown_class/seed_0/checkpoint_selection.json",
+      "sha256": "d62736ed584c6370627fad1089832b0e83df9447c2cd6db1fcb0b7fca4146737",
+      "bytes": 313
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/unknown_class/seed_0/predictions_beam10.txt",
+      "original_name": "server_results/complete_20260923/runs/unknown_class/seed_0/predictions_beam10.txt",
+      "sha256": "cf095613df0c568e04a4d574e82b6ea31ff1f9e1ab30109dad2276e622041f2f",
+      "bytes": 5306898
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/seed0/unknown_class/seed_0/selected_epoch_11.pt",
+      "original_name": "server_results/complete_20260923/runs/unknown_class/seed_0/selected_epoch_11.pt",
+      "sha256": "c6c81411ec929717ae1286b912500cb017af196565f2815b8d11327f66c4d47e",
+      "bytes": 1841685
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/beam10_dual_metrics.json",
+      "original_name": "server_results/runs/known_class/seed_1/beam10_dual_metrics.json",
+      "sha256": "485258e39ea333b9e7ad9a9dd77df890eeacc573e14f6470959cde0f359e50f0",
+      "bytes": 5640
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/beam10_per_reaction.csv",
+      "original_name": "server_results/runs/known_class/seed_1/beam10_per_reaction.csv",
+      "sha256": "db8948d29dd094a11968f1e485200c5e08261687e466dc5a8fd115726a84759f",
+      "bytes": 259793
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/checkpoint_selection.json",
+      "original_name": "server_results/runs/known_class/seed_1/checkpoint_selection.json",
+      "sha256": "173c78d174b5a5b477f07adcb8564e76198d47b1b33fee27e3fd19908afe0b3f",
+      "bytes": 498
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/predictions_beam10.txt",
+      "original_name": "server_results/runs/known_class/seed_1/predictions_beam10.txt",
+      "sha256": "955850f600ac42462bfd2e140620ebf6645f731bc53cc9a19615f6960e398a92",
+      "bytes": 5559923
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/selected_epoch_19.pt",
+      "original_name": "server_results/runs/known_class/seed_1/selected_epoch_19.pt",
+      "sha256": "67cc32510ffe7370f7f71c33fd5fb0fe11cde682087f6be96da35b06fd1caff4",
+      "bytes": 1851925
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_1/training_curve.csv",
+      "original_name": "server_results/runs/known_class/seed_1/training_curve.csv",
+      "sha256": "4f45afc0392e9f2b6e77fc6afee87e096394d76f836102bca6f7669f5b186401",
+      "bytes": 1052
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/beam10_dual_metrics.json",
+      "original_name": "server_results/runs/known_class/seed_2/beam10_dual_metrics.json",
+      "sha256": "68630aff92c6137b441e4d2c34681b96e21352a064931ce23e99b9e257083179",
+      "bytes": 5655
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/beam10_per_reaction.csv",
+      "original_name": "server_results/runs/known_class/seed_2/beam10_per_reaction.csv",
+      "sha256": "627042283c074f1e92a414d54156546882aa351c08276d3b6b9dbeb7940f9053",
+      "bytes": 258450
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/checkpoint_selection.json",
+      "original_name": "server_results/runs/known_class/seed_2/checkpoint_selection.json",
+      "sha256": "dd7643c15630b3fb3e6e9e5444ff71028b632cf0dbb1e4babc81f796df9e11d2",
+      "bytes": 505
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/predictions_beam10.txt",
+      "original_name": "server_results/runs/known_class/seed_2/predictions_beam10.txt",
+      "sha256": "df71eccbe209942e2bf7033a851a566ab46ef3fcd6bf4c4526a33533df38dc90",
+      "bytes": 5414395
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/selected_epoch_12.pt",
+      "original_name": "server_results/runs/known_class/seed_2/selected_epoch_12.pt",
+      "sha256": "b73cc95a8d1bedb7c0d37b5de881c918be4b643fb1e77f013a44bfb95454737e",
+      "bytes": 1851925
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/known_class/seed_2/training_curve.csv",
+      "original_name": "server_results/runs/known_class/seed_2/training_curve.csv",
+      "sha256": "ebab305ccf9c6ab148d25c2c7bd82246b151b89fc9e998b7c0f4257612dbee5a",
+      "bytes": 922
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/beam10_dual_metrics.json",
+      "original_name": "server_results/runs/unknown_class/seed_1/beam10_dual_metrics.json",
+      "sha256": "54d964237e47d7d717d4527ad1dae355d5fb80cab6205219969bacd4de6e477e",
+      "bytes": 5655
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/beam10_per_reaction.csv",
+      "original_name": "server_results/runs/unknown_class/seed_1/beam10_per_reaction.csv",
+      "sha256": "3a03a47d6888da8858621f1ca948b0e4b8950693a6440e4053e55292636cde52",
+      "bytes": 259040
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/checkpoint_selection.json",
+      "original_name": "server_results/runs/unknown_class/seed_1/checkpoint_selection.json",
+      "sha256": "d9b0c64f2db3fc2545e1ee0f4579f6e2799d503398d83b7b134e897d85b04dfb",
+      "bytes": 509
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/predictions_beam10.txt",
+      "original_name": "server_results/runs/unknown_class/seed_1/predictions_beam10.txt",
+      "sha256": "8f74bd17bce6a9c32d9ba3ba31eb64d949ed6159ad4eb4fb26babf685a64b072",
+      "bytes": 5294737
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/selected_epoch_9.pt",
+      "original_name": "server_results/runs/unknown_class/seed_1/selected_epoch_9.pt",
+      "sha256": "2d58ee8b8d7cfc98233f73dd80bdae22c8e60e367d465cf227b99f673686ce6f",
+      "bytes": 1841061
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_1/training_curve.csv",
+      "original_name": "server_results/runs/unknown_class/seed_1/training_curve.csv",
+      "sha256": "6348fb3449a4993fde8ef4d873f0ace56bd99874c97e3c860c6550067f0ec65a",
+      "bytes": 830
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/beam10_dual_metrics.json",
+      "original_name": "server_results/runs/unknown_class/seed_2/beam10_dual_metrics.json",
+      "sha256": "93356d2a6424b76e0b7dded28f3a7c4a96a0ac083a8b57177d983611df230ce9",
+      "bytes": 5646
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/beam10_per_reaction.csv",
+      "original_name": "server_results/runs/unknown_class/seed_2/beam10_per_reaction.csv",
+      "sha256": "e40f0a67420c2e16f785e2189892ec4ee93ec0cea1f9860203217c23dc76a4d2",
+      "bytes": 261494
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/checkpoint_selection.json",
+      "original_name": "server_results/runs/unknown_class/seed_2/checkpoint_selection.json",
+      "sha256": "ce3106d3ed91dade947ab6ecc4da82c93cc58ee5c91b6db4e5f25017ad5f56a1",
+      "bytes": 510
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/predictions_beam10.txt",
+      "original_name": "server_results/runs/unknown_class/seed_2/predictions_beam10.txt",
+      "sha256": "ec2f2ae99ed218b8ec9cb83d8b08f2cd28ca2d9a5865059a5bc73954380bbfdf",
+      "bytes": 5402585
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/selected_epoch_14.pt",
+      "original_name": "server_results/runs/unknown_class/seed_2/selected_epoch_14.pt",
+      "sha256": "9ae03763836facc5d1c53767ef75e3610d693cc961c23766145d1a6d91305d22",
+      "bytes": 1841685
+    },
+    {
+      "model": "TransGraphEdit",
+      "path": "results/baselines/native_runs/TransGraphEdit/small/unknown_class/seed_2/training_curve.csv",
+      "original_name": "server_results/runs/unknown_class/seed_2/training_curve.csv",
+      "sha256": "31ba4871c62822e25212ea58a08c603bf9254bc24c94407d95d4f183e7ea8fce",
+      "bytes": 987
+    }
+  ]
+}

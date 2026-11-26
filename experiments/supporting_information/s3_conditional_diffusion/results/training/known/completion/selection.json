@@ -1,0 +1,66 @@
+{
+  "mode": "known",
+  "seed": 0,
+  "selected_epoch": 1580,
+  "completed_epochs": 1600,
+  "best_validation_l2": 0.0070616891070402026,
+  "early_stopping_rule": {
+    "baseline_epoch": 1000,
+    "validation_interval_after_baseline": 100,
+    "patience": 2,
+    "minimum_relative_improvement": 0.001,
+    "test_used": false
+  },
+  "early_stopping_checks": [
+    {
+      "epoch": 1100,
+      "previous_best_l2": 0.007413746252118612,
+      "validation_l2": 0.00743733161844759,
+      "relative_improvement": 0.0,
+      "small_improvement": true,
+      "consecutive_small_improvements": 1
+    },
+    {
+      "epoch": 1200,
+      "previous_best_l2": 0.007413746252118612,
+      "validation_l2": 0.0074018086390116875,
+      "relative_improvement": 0.001610199850515962,
+      "small_improvement": false,
+      "consecutive_small_improvements": 0
+    },
+    {
+      "epoch": 1300,
+      "previous_best_l2": 0.0074018086390116875,
+      "validation_l2": 0.007476894022107648,
+      "relative_improvement": 0.0,
+      "small_improvement": true,
+      "consecutive_small_improvements": 1
+    },
+    {
+      "epoch": 1400,
+      "previous_best_l2": 0.0074018086390116875,
+      "validation_l2": 0.007208007519332366,
+      "relative_improvement": 0.026182941106837162,
+      "small_improvement": false,
+      "consecutive_small_improvements": 0
+    },
+    {
+      "epoch": 1500,
+      "previous_best_l2": 0.007082893882889839,
+      "validation_l2": 0.007189016419552634,
+      "relative_improvement": 0.0,
+      "small_improvement": true,
+      "consecutive_small_improvements": 1
+    },
+    {
+      "epoch": 1600,
+      "previous_best_l2": 0.0070616891070402026,
+      "validation_l2": 0.0072816070185303715,
+      "relative_improvement": 0.0,
+      "small_improvement": true,
+      "consecutive_small_improvements": 2
+    }
+  ],
+  "test_used_for_selection": false,
+  "selected_checkpoint": "known-class/checkpoints/completion_model.pt"
+}

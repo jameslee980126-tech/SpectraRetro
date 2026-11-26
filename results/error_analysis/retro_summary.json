@@ -1,0 +1,128 @@
+{
+  "state": "passed",
+  "scope": "known full9250, saved official stage1_gated fusion; raw precursor diagnosis is reference-synthon-conditioned",
+  "rdkit_version": "2026.03.1",
+  "n": 9250,
+  "top1_errors": 2089,
+  "top10_errors": 626,
+  "top1_partition": {
+    "raw_reference_absent_from_ungated_pool": 460,
+    "reference_coverage_removed_by_center_gate": 96,
+    "reference_in_formal_pool_but_rank_miss": 1533
+  },
+  "top10_partition": {
+    "raw_reference_absent_from_ungated_pool": 460,
+    "reference_coverage_removed_by_center_gate": 96,
+    "reference_in_formal_pool_but_rank_miss": 70
+  },
+  "totals": {
+    "formal_pool_coverage": 8694,
+    "ungated_pool_coverage": 8790,
+    "raw_fragment_pairing_failure": 49,
+    "formal_fusion_top1": 7161,
+    "formal_fusion_top3": 8313,
+    "formal_fusion_top5": 8514,
+    "formal_fusion_top10": 8624,
+    "ungated_fusion_top1": 7420,
+    "ungated_fusion_top3": 8403,
+    "ungated_fusion_top5": 8594,
+    "ungated_fusion_top10": 8712
+  },
+  "raw_absence_diagnostics": {
+    "canonical_equivalent_present_string_mismatch": 7,
+    "correct_size_draws_all_unparseable": 2,
+    "correct_size_parseable_but_no_matching_composition": 129,
+    "matching_size_and_composition_but_no_reference": 64,
+    "native_reference_not_standard_parseable": 100,
+    "supported_target_no_joint_correct_size_draw": 149,
+    "target_size_outside_support": 9
+  },
+  "raw_absence_orthogonal_tags": {
+    "reference_unparseable": 100,
+    "canonical_equivalent_present": 7,
+    "size_support_outside": 15,
+    "no_joint_correct_size": 195,
+    "each_raw_fragment_seen_but_pair_absent": 49,
+    "each_canonical_fragment_seen_but_pair_absent": 38
+  },
+  "all_reference_parseability": {
+    "standard_parseable": 7284,
+    "not_standard_parseable": 1966
+  },
+  "all_parseable_reference_source_heavy_count_mismatches": [],
+  "counterfactual_gate_summary": {
+    "top1_formal_misses_restored_without_gate": 266,
+    "top10_formal_misses_restored_without_gate": 91
+  },
+  "size_support": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    19,
+    20
+  ],
+  "source_hashes": {
+    "table": {
+      "path": "experiments/spectraretro_inputs/final_test/prepared/similarity_test_table.csv",
+      "sha256": "4bd2d133c627abec55c0ad2e3460659c24cf116e61dc2517ae9b64f77378ccf3"
+    },
+    "record_map": {
+      "path": "experiments/spectraretro_inputs/final_test/prepared/test_record_map.csv",
+      "sha256": "de6906b6ba2568dd9aee212cc156b66429f0deb065ad23b8174d1cef0d425dfe"
+    },
+    "metrics": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/reaction_metrics.json",
+      "sha256": "2ec6609d7f2d1546c231d90fc5dd2097a20b4852c459cc9fcb6a75fdfb87c9b8"
+    },
+    "decoded": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/result.csv",
+      "sha256": "07a1cc86c3d97b560fae669a7dd94b171fd01367fa83c46a095810e995ee460f"
+    },
+    "sizes": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation/shared_sizes.npz",
+      "sha256": "63020165e5a9641d6f24c1f0397e2ce88df05a2b6b690eec6a7d7c1d5f03bbf4"
+    },
+    "stage1": {
+      "path": "source-record:prepared/stage1_known_test_predictions.jsonl",
+      "sha256": "8914525567d7a9bf980c36ad567cc133a029e49f51a7037eeec37943fa68243e"
+    },
+    "score_source": {
+      "path": "src/experiments/small_completion/score_test.py",
+      "sha256": "79e31842b62b9860a03932047abe2be8d68416e59be820b6b8e5b672fe3a9f80"
+    },
+    "size_support_evidence": {
+      "path": "source-record:large_completion_failure_review_20261021/size_population_audit.json",
+      "sha256": "bfe7db67943fba52a287aea3dcdc8c6888a20c3fb88fa9b60fe4019113329056"
+    }
+  },
+  "source_bound_checks": [
+    "table",
+    "record_map",
+    "metrics",
+    "decoded",
+    "sizes",
+    "stage1"
+  ],
+  "definitions": {
+    "topk_partition": "Mutually exclusive among formal Top-k misses: reference remains in gated pool; reference covered ungated but removed by gate; no exact raw reference in ungated pool.",
+    "gate": "Exactly official score_test.py: keep first H draws, replace remaining with MISSING; H is count of correct sampled centers. Not per-draw predicted-center-driven generation.",
+    "raw_absence_priority": "Unparseable reference -> source heavy-count mismatch -> canonical equal present -> unsupported size -> no correct joint size -> all correct-size unparsable -> no matching composition -> matching composition but no reference.",
+    "standard_canonical": "RDKit standard sanitization, maps removed, stereochemistry/isotopes/H/radicals retained, disconnected component MULTISET compared; no repairs or rescoring.",
+    "composition": "Per conditioned fragment counts of atomic numbers greater than 1; same heavy composition is not same molecular formula.",
+    "ring_count": "RDKit ring count diagnostic only; same count does not imply correct ring topology.",
+    "fragment_pairing": "All recorded fragment references seen separately among 300 draws but no aligned draw recovers the complete reference pair.",
+    "canonical_count_scope": "Exact count computed only for 460 raw-absent reactions. For raw-present parseable references, coverage=true follows from raw hit; count left empty rather than inventing exact canonical count."
+  },
+  "model_forward_sampling_reranking_performed": false,
+  "official_metrics_changed": false,
+  "elapsed_seconds": 205.7660427093506
+}

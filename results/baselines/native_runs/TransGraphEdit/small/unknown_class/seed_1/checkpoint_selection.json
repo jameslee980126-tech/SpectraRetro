@@ -1,0 +1,10 @@
+{
+  "experiment_dir": "/root/rivermind-data/transgraphedit_remaining_20261019/workers/unknown_class_seed1/experiments/C-H Arylation/without_rxn_class/19-10-2026--11-22-30",
+  "best_epoch": 9,
+  "best_valid_full_sequence_accuracy": 0.5695,
+  "completed_epochs": 13,
+  "selected_sha256": "2d58ee8b8d7cfc98233f73dd80bdae22c8e60e367d465cf227b99f673686ce6f",
+  "rule": "earliest epoch attaining maximum validation accuracy",
+  "stop_reason": "validation_early_stop",
+  "test_used_for_checkpoint_selection": false
+}

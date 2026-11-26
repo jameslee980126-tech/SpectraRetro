@@ -1,0 +1,12 @@
+{
+  "radius": 2,
+  "rule": {
+    "low": 0.23214285714285715,
+    "high": 0.2765957446808511,
+    "mode": "tertiles",
+    "n_valid": 9381,
+    "source": "entire eligible original validation population, structure-only, no model predictions"
+  },
+  "definition": "unchanged rooted 2-hop WL-count similarity; original validation calibration",
+  "calibration_sha256": "bedf0ff4f0e4bf45ff4e5554205df7602da81101513c70c417eb145f59f85d84"
+}

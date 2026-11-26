@@ -1,0 +1,20 @@
+﻿key,zh,short_zh,en,short_en,group,source,definition,finite_products,varying_products,class_1_products,class_2_products,class_3_products,class_4_products,class_5_products,class_6_products,in_main
+carbonyl_endpoint,羰基碳端点,羰基端点,Carbonyl end,C=O end,官能团与局部 π 环境,原八项,任一键端为中性 C=O 的碳。,2055,59,0,7,8,0,32,12,True
+alpha_carbonyl,羰基 α 位 sp³ 碳,羰基 α 位,Carbonyl α-C,C=O α-C,官能团与局部 π 环境,原八项,任一 sp³ 碳端点与目标键之外的羰基碳直接相邻。,2055,605,0,3,498,1,18,85,True
+carbonyl_proximity,羰基邻近度,羰基邻近度,C=O proximity,C=O prox.,官能团与局部 π 环境,本次新增,从任一键端到同一连通片段内最近中性羰基碳的图距离 d，取 1/(1+d)。该片段无羰基记 0。,2055,971,25,63,624,51,196,12,True
+benzylic_allylic,苄位 / 烯丙位,苄 / 烯丙位,Benzylic / allylic,Benzyl/allyl,官能团与局部 π 环境,原八项,任一 sp³ 碳端点与键外芳碳或 C=C 碳相邻。,2055,552,0,9,515,4,6,18,True
+pi_neighbors,近邻不饱和碳数,近邻 π 碳,Adjacent π carbons,π neighbors,官能团与局部 π 环境,本次新增,两端第一邻层中，芳香碳或参与双键、三键的碳原子数，去重并排除键端。,2055,1390,19,64,829,57,209,212,True
+heteroaryl_endpoint,杂芳环端点,杂芳环端点,Heteroaryl end,Heteroaryl,官能团与局部 π 环境,原八项,任一键端属于含杂原子的全芳香环。,2055,439,20,15,139,13,172,80,True
+conjugated,目标键共轭,键共轭,Bond conjugation,Conjugation,官能团与局部 π 环境,原八项,RDKit GetIsConjugated 对目标键给出的布尔标记。,2055,14,0,14,0,0,0,0,False
+hetero_neighbors,近邻 N/O/S 数,近邻 N/O/S,Adjacent N/O/S,N/O/S nbrs.,局部取代与环结构,本次新增,任一键端第一邻层中 N、O、S 的不同原子数，排除两个键端。,2055,1127,19,33,615,66,206,188,True
+ortho_substitution,芳环邻位取代数,邻位取代,Ortho substitution,Ortho subst.,局部取代与环结构,本次新增,芳香碳端沿同环芳香键的邻位中，带有额外非环重原子取代基的位置数。排除目标键的另一端，按位置去重。,2055,503,26,17,190,39,143,88,True
+junction_endpoint,多环交汇端点,多环交汇,Ring junction,Ring junction,局部取代与环结构,本次新增,任一键端属于 RDKit 感知的两个或更多环，包括稠合或螺环交汇位置。,2055,36,0,1,22,2,3,8,True
+crowding,键端重原子邻居数,重原子邻居,Heavy neighbors,Heavy nbrs.,局部取代与环结构,原八项,取两端非目标重原子邻居数之和，沿用原逐键表的定义。,2055,1134,0,60,811,63,64,136,True
+second_shell_heavy,第二邻层重原子数,第二邻层,Second-shell size,2nd shell,局部取代与环结构,本次新增,到最近一个键端恰为两步的不同重原子数。,2055,1567,31,79,892,76,221,268,True
+polarity,两端电荷差 |Δq|,两端 |Δq|,Bond |Δq|,Bond |Δq|,电荷与电子拓扑,原八项,键端 RDKit Gasteiger 部分电荷之差的绝对值。,2054,2022,49,106,995,96,391,387,True
+carbon_charge,碳端平均部分电荷,碳端电荷,Mean C charge,C charge,电荷与电子拓扑,原八项,仅对目标键的碳端点取 Gasteiger 部分电荷平均值。,2054,2022,49,106,995,96,391,387,True
+neighbor_charge,近邻平均部分电荷,近邻电荷,Neighbor charge,Nbr. charge,电荷与电子拓扑,本次新增,两个键端之外的第一邻层重原子去重后的 Gasteiger 平均部分电荷。无邻居或电荷无效时记缺失。,2054,2023,49,107,995,96,391,387,True
+carbon_estate,碳端 E-state,碳端 E-state,Carbon E-state,C E-state,电荷与电子拓扑,本次新增,取目标键碳端点的 Kier–Hall 原子电子拓扑状态指数平均值。指数同时包含价态和分子图中其他原子的距离加权影响。,2055,2025,49,107,996,96,392,387,True
+formal_charge_sum,键端形式电荷和,形式电荷和,Formal charge sum,Formal q,电荷与电子拓扑,已有字段审查,两端原子形式电荷之和。,2055,54,0,0,0,54,0,0,True
+aromatic_endpoints,芳香端点数,芳香端点数,Aromatic ends,Arom. ends,匹配变量核查,已有字段审查,芳香端点个数。严格匹配已经固定了两端芳香性。,2055,0,0,0,0,0,0,0,False
+ring_bond,目标键环内标记,环内键,In-ring bond,Ring bond,匹配变量核查,已有字段审查,目标键是否位于环内。严格匹配已经固定了键的环属性。,2055,0,0,0,0,0,0,0,False

@@ -1,0 +1,4 @@
+{
+  "CCOC(C)=O": [{"precursors": ["CCO", "CC(=O)O"], "score": 0.9, "source": "interface_example"}],
+  "CCO": [{"precursors": ["C=C", "O"], "score": 0.8, "source": "interface_example"}]
+}

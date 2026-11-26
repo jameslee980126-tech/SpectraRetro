@@ -1,0 +1,40 @@
+_target_: ???
+
+data_root: ???
+
+batch_size: 64
+sampler_cfg:
+  use_sampler: False
+  bucket_size: 1000
+  max_tokens: 16384
+  max_batch_size: ${..batch_size}
+num_workers: 1
+
+graph_vocab: ???
+forward_syn_model: null
+
+# dataset settings
+n_dummy: 10
+max_n_len: 100
+shuffle_order: False
+canonicalize: True
+
+
+perm_types: ['all'] # contain: 'all' | 'formed_bonds','broken_bonds', 'bond_order_changes', 'charge_changes','h_count_changes','chirality_changes', 'aromatic_changes','hybridization_changes'
+external_perm_paths:
+  val: null
+  test: null
+
+perm_prob_sampler:
+  _target_: src.data.ProbSampler
+  _partial_: True
+  sample_single: prob #     ['prob', 'greedy']
+  sample_all: prob    #     ['prob', 'all'] 'all' can only be used in the test phase
+  temperature: 1.0
+  
+
+
+val_top_ks: ${model.val_top_ks}
+test_top_ks: ${model.test_top_ks}
+
+cond_cfg: null

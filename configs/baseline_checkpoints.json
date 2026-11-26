@@ -1,0 +1,39 @@
+{
+  "checkpoints": [
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/RetroXpert/full/reaction_center.pt",
+      "sha256": "c96e096625719eb8e69db1e716bc004a6f2078fae2e2d6b213396e3a47419287",
+      "bytes": 10499667
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/RetroXpert/full/sequence_model_step100000.pt",
+      "sha256": "71fcb8756fd264dd005ae21afca4566c309eb6081f38882618319017e91d5ab8",
+      "bytes": 149979391
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/GLN/full/model.dump",
+      "sha256": "df97fb53afedb332aac89044e9b6319951265748ea5d42cead59c24f8c364804",
+      "bytes": 3180493
+    },
+    {
+      "path": "results/baselines/native_runs/DiffER/full/known/best.pkl",
+      "sha256": "a52a725fda2eb295218401aec6a9c8d633c7ef82d579da2c974195d5ea208063",
+      "bytes": 178106054
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/baselines/DiffER/full/vocabulary.json",
+      "sha256": "d931d5ee8bca24162d77a6e3d701b1bb73a2351aed4b973c3bf17fad478caddc",
+      "bytes": 1388
+    },
+    {
+      "path": "results/baselines/native_runs/DiffER/full/unknown/best.pkl",
+      "sha256": "ed65f7a97d48f81a4ae0242f9f892ae0e0da3b880ce2b51eca9ac9ccabf2b2e9",
+      "bytes": 178081478
+    },
+    {
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/DiffER/full/vocabulary.json",
+      "sha256": "404e9d8b2553ed71bac9d22b63a32414c3ed1353edf484e82ae27a7129024e65",
+      "bytes": 1283
+    }
+  ]
+}

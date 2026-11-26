@@ -1,0 +1,75 @@
+{
+  "mode": "known",
+  "checkpoints": [
+    {
+      "id": "known_completion_model",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+      "sha256": "2039a1e12d03c74ef2166d3196912f720249ba3d305310f6f3d3e1332b0706fa",
+      "selected_epoch": 1580,
+      "completed_epochs": 1600,
+      "seed": 0,
+      "task": "synthon-conditioned 3D diffusion",
+      "mode": "known"
+    },
+    {
+      "id": "known_size_model",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/size_model.pt",
+      "sha256": "7078d645561ee936445f897d18ca2bd708aed341319796741d679f87fa560ec3",
+      "selected_epoch": 39,
+      "completed_epochs": 1000,
+      "seed": 0,
+      "class_input": false,
+      "task": "fragment size",
+      "mode": "known"
+    },
+    {
+      "id": "known_DiffER_full_best_pkl",
+      "path": "results/baselines/native_runs/DiffER/full/known/best.pkl",
+      "sha256": "a52a725fda2eb295218401aec6a9c8d633c7ef82d579da2c974195d5ea208063",
+      "bytes": 178106054,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "known_reaction_center",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/reaction_center.pth",
+      "sha256": "e4c31b6c4a2980171eafa19bdef47b1726169cdd39e155e30ea3971b8032ca50",
+      "bytes": 64488227,
+      "task": "full reaction center",
+      "mode": "known"
+    },
+    {
+      "id": "known_initial_model",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/initial_model.pt",
+      "sha256": "1b75a0be03d93561804593228f26930b20630680ff5b474132efc60622decc9f",
+      "bytes": 8545692,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "known_small_seed0",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed0.pt",
+      "sha256": "35b4b0ecd2a6a7cb3f08ed8b45c60658e71c10cc7860b5d8fe2c13e4d70e860b",
+      "bytes": 8547228,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 0,
+      "mode": "known"
+    },
+    {
+      "id": "known_small_seed1",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed1.pt",
+      "sha256": "12275bfc99b2a9bf0109c2fc3e2b657cce3339fb5d394d4628eabbd46cfdb4d2",
+      "bytes": 8545041,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 1,
+      "mode": "known"
+    },
+    {
+      "id": "known_small_seed2",
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/small/seed2.pt",
+      "sha256": "ed6d1465f8078e154ccc92059ec71347b57b523a524688662053d1f55405c815",
+      "bytes": 8545041,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 2,
+      "mode": "known"
+    }
+  ]
+}

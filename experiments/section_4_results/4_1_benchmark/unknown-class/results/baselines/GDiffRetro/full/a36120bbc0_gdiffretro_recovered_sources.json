@@ -1,0 +1,30 @@
+{
+  "source": "<source-path> code\\PhysMoe-Retro\\GDiffRetro-main\\experiment_archive\\unknown_class_20260805_20260812\\03_pure_gdiffretro_stage1_ablation\\metrics\\official_topk_pure_gdiffretro_stage1_20260811.json",
+  "sha256": "16c69563aa5af352e5a776122ba0d1bbb499b03dc77c1b5658f0e7ff3820a6da",
+  "metrics": {
+    "protocol": "official_stage1_count_gating",
+    "n_samples": 300,
+    "evaluated_products": 7398,
+    "stage1_missing_products": 0,
+    "stage1_result": "<source-path>",
+    "top_k": {
+      "1": 0.5317653419843201,
+      "2": 0.6824817518248175,
+      "3": 0.7491213841578805,
+      "4": 0.7839956745066234,
+      "5": 0.8015679913490132,
+      "6": 0.8118410381184104,
+      "7": 0.8188699648553663,
+      "8": 0.8240064882400648,
+      "9": 0.8286023249526899,
+      "10": 0.8329278183292782
+    }
+  },
+  "identity_source": "<source-path> code\\PhysMoe-Retro\\GDiffRetro-main\\experiment_archive\\unknown_class_20260805_20260812\\03_pure_gdiffretro_stage1_ablation\\EXPERIMENT.md",
+  "known_class_60s_candidate": {
+    "value": 69.6649,
+    "identity": "Earlier known-class framework before frozen reranking, oracle-synthon Stage2; not identified as pure GDiffRetro",
+    "source": "<source-path> code\\PhysMoe-Retro\\GDiffRetro-main\\experiment_archive\\unknown_class_20260805_20260812\\08_knownclass_72_98_reference\\EXPERIMENT.md"
+  },
+  "decision": "Fill archived unknown-class control with explicit sample unit/protocol. Leave matched known-class control blank."
+}

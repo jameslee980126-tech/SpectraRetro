@@ -1,0 +1,50 @@
+{
+  "method": "multilevel_tree_force_particle_mesh",
+  "vertices": 11565,
+  "edges": 11564,
+  "seed": 20261011,
+  "levels_coarse_to_fine": [
+    83,
+    142,
+    252,
+    436,
+    752,
+    1294,
+    2255,
+    3898,
+    6754,
+    11565
+  ],
+  "iterations_coarse_to_fine": [
+    240,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    150
+  ],
+  "grid_size": 192,
+  "spatial_neighbors": 8,
+  "elapsed_seconds": 11.663,
+  "max_seconds": 120.0,
+  "time_ceiling_reached": false,
+  "all_input_edges_preserved": true,
+  "class_labels_used": false,
+  "coordinate_distances_are_calibrated_similarity": false,
+  "source_mst_sha256": "87707e5062cf611a8bc4796a6afd1c64db9d65e812e2098f2cc5e98232f24e93",
+  "layout_source_sha256": "9affee3f9108aeeada7306580efe62bd72e31219b8cdf199347084ebdd9dfa1e",
+  "layout_coordinates_sha256": "03e664342da6257823db057810f62181dda3c22adfc90b718307afae3c0238bd",
+  "input_edges_verified_unchanged": true,
+  "output_is_finite": true,
+  "edge_length_quantiles_0_10_50_90_100": [
+    0.0069494961036441726,
+    0.011860839171864602,
+    0.015951511801872292,
+    0.028883386963455663,
+    0.10043017312161277
+  ]
+}

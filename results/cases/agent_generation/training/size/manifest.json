@@ -1,0 +1,127 @@
+{
+  "initialization": {
+    "mode": "new_data_warm_start_not_resume",
+    "parent": "source-record:case_condition_alignment_20261013/training/size/last.ckpt",
+    "parent_sha256": "c57e20750592c08aab5a47794565dbf864cacf911c673de78254c560472c3fa1",
+    "optimizer_reset": true,
+    "epoch_reset": 0,
+    "parent_optimizer_loaded": false,
+    "parent_rng_loaded": false,
+    "data_identity_change_explicitly_allowed": true
+  },
+  "architecture": {
+    "data_path": "",
+    "train_data_prefix": "train",
+    "val_data_prefix": "eval",
+    "in_node_nf": 26,
+    "hidden_nf": 128,
+    "out_node_nf": 14,
+    "n_layers": 3,
+    "batch_size": 8,
+    "lr": 0.0001,
+    "torch_device": "cuda:0",
+    "normalization": "batch_norm",
+    "linker_size2id": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "13": 11,
+      "19": 12,
+      "20": 13
+    },
+    "linker_id2size": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      19,
+      20
+    ]
+  },
+  "train_rows": 120,
+  "eval_rows": 13061,
+  "data_check": {
+    "train": {
+      "all_records_validated": 120,
+      "legacy_fallback_count": 0,
+      "legacy_fallback_records": [],
+      "dropped_records": 0,
+      "external_unsupported_count": 0,
+      "tensor_targets_unchanged": true
+    },
+    "eval": {
+      "all_records_validated": 13061,
+      "legacy_fallback_count": 8,
+      "legacy_fallback_records": [
+        {
+          "uuid": "base_full_eval_3523",
+          "actual_size": 16,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_3997",
+          "actual_size": 18,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_3999",
+          "actual_size": 18,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_4001",
+          "actual_size": 18,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_5554",
+          "actual_size": 12,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_5573",
+          "actual_size": 12,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_7000",
+          "actual_size": 12,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        },
+        {
+          "uuid": "base_full_eval_7255",
+          "actual_size": 12,
+          "legacy_size_loss_target_size": 20,
+          "legacy_size_loss_target_class": 13
+        }
+      ],
+      "dropped_records": 0,
+      "external_unsupported_count": 0,
+      "tensor_targets_unchanged": true
+    }
+  },
+  "protocol_sha256": "acd764f54b9ceb3571b2988a7d2772dc78c8894a5e5e32d5bc1317ab685cdab7"
+}

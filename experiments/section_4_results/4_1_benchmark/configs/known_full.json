@@ -1,0 +1,37 @@
+{
+  "rows": 15830,
+  "reactions": 9250,
+  "draws": 300,
+  "steps": 100,
+  "batch_size": 128,
+  "seed": 0,
+  "class_input": true,
+  "reference_conditioned": true,
+  "batch_order_sha256": "04b7abf61efedaf990f158067db9a59b2ae0f2f1ab23bad4a34262457356f78d",
+  "shared_sizes_sha256": "63020165e5a9641d6f24c1f0397e2ce88df05a2b6b690eec6a7d7c1d5f03bbf4",
+  "mode": "known",
+  "checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/completion_model.pt",
+  "size_checkpoint": "experiments/section_4_results/4_1_benchmark/known-class/checkpoints/size_model.pt",
+  "data_root": "experiments/spectraretro_inputs",
+  "ranking": [
+    "fusion",
+    "frequency"
+  ],
+  "matching": "exact XYZ/Open Babel decoded string",
+  "stage1_gating": true,
+  "pipeline": {
+    "entry": "src/spectraretro/known-class/run.py",
+    "python": {},
+    "center": {
+      "epochs": 50,
+      "patience": 100000,
+      "batch_size": 64,
+      "width": 512,
+      "layers": 3,
+      "seed": 0,
+      "lr": 0.0001
+    },
+    "training_scope": "reaction-center predictor and composition-conditioned completion; fixed auxiliary priors and sampled size bank",
+    "artifact_handoff": "selected training weights -> generation -> coordinate decoding -> complete-reaction evaluation; new center predictions -> evaluation gate"
+  }
+}

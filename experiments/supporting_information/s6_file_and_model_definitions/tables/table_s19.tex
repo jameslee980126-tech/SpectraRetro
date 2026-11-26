@@ -1,0 +1,37 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.280000}}
+>{\raggedleft\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.120000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.600000}}@{}}
+\multicolumn{3}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S19. Reaction-center feature dictionary in concatenation order.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Feature block
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dimensions
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Categories or encoding
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Feature block
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dimensions
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Categories or encoding
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Atom: element & 18 & H, B, C, N, O, F, Mg, Si, P, S, Cl, Cu, Zn, Se, Br, Sn, I; unknown \\
+Atom: total hydrogen count & 7 & One-hot integers 0 through 6 \\
+Atom: total degree & 8 & One-hot integers 0 through 6; unknown \\
+Atom: total valence & 8 & One-hot integers 0 through 7 \\
+Atom: aromaticity and ring membership & 2 & Two binary flags \\
+Bond: type & 4 & Single, double, triple, aromatic \\
+Bond: direction & 7 & NONE, BEGINWEDGE, BEGINDASH, ENDDOWNRIGHT, ENDUPRIGHT, EITHERDOUBLE, UNKNOWN \\
+Bond: stereo & 8 & STEREONONE, STEREOANY, STEREOZ, STEREOE, STEREOCIS, STEREOTRANS, STEREOATROPCW, STEREOATROPCCW \\
+Bond: conjugation & 1 & Binary conjugation flag \\
+\end{longtable}

@@ -1,0 +1,120 @@
+{
+  "state": "complete",
+  "cases": {
+    "case_l": {
+      "case_name": "Lapatinib",
+      "solved": true,
+      "generated_route_count": 1,
+      "generated_routes": [
+        {
+          "reference_steps": [
+            "LAP-05",
+            "LAP-04",
+            "LAP-03",
+            "LAP-02",
+            "LAP-01"
+          ],
+          "all_edges_documented": true
+        }
+      ],
+      "documented_edges_reachable": [
+        "LAP-05",
+        "LAP-04",
+        "LAP-03",
+        "LAP-02",
+        "LAP-01"
+      ],
+      "first_unresolved_documented_frontier": [],
+      "edge_union_is_diagnostic_not_an_autonomous_route": true
+    },
+    "case_n": {
+      "case_name": "Nemiralisib / GSK2269557",
+      "solved": true,
+      "generated_route_count": 2,
+      "generated_routes": [
+        {
+          "reference_steps": [
+            "NEMI-09",
+            "NEMI-08",
+            "NEMI-07",
+            "NEMI-06",
+            "NEMI-05",
+            "NEMI-02-alt",
+            "NEMI-04",
+            "NEMI-03"
+          ],
+          "all_edges_documented": true
+        },
+        {
+          "reference_steps": [
+            "NEMI-09",
+            "NEMI-08",
+            "NEMI-07",
+            "NEMI-06",
+            "NEMI-05",
+            "NEMI-02",
+            "NEMI-04",
+            "NEMI-01",
+            "NEMI-03"
+          ],
+          "all_edges_documented": true
+        }
+      ],
+      "documented_edges_reachable": [
+        "NEMI-09",
+        "NEMI-08",
+        "NEMI-07",
+        "NEMI-06",
+        "NEMI-05",
+        "NEMI-02",
+        "NEMI-02-alt",
+        "NEMI-04",
+        "NEMI-01",
+        "NEMI-03"
+      ],
+      "first_unresolved_documented_frontier": [],
+      "edge_union_is_diagnostic_not_an_autonomous_route": true
+    },
+    "case_t": {
+      "case_name": "Tafamidis",
+      "solved": true,
+      "generated_route_count": 2,
+      "generated_routes": [
+        {
+          "reference_steps": [
+            "TAF-05",
+            "TAF-04",
+            null,
+            "TAF-01"
+          ],
+          "all_edges_documented": false
+        },
+        {
+          "reference_steps": [
+            "TAF-05",
+            "TAF-04",
+            "TAF-03",
+            "TAF-02",
+            "TAF-01"
+          ],
+          "all_edges_documented": true
+        }
+      ],
+      "documented_edges_reachable": [
+        "TAF-05",
+        "TAF-04",
+        "TAF-03",
+        "TAF-02",
+        "TAF-01"
+      ],
+      "first_unresolved_documented_frontier": [],
+      "edge_union_is_diagnostic_not_an_autonomous_route": true
+    }
+  },
+  "new_training": false,
+  "new_sampling": false,
+  "supplied_fixed_cores": true,
+  "stock_not_used_to_construct_candidates": true,
+  "connected_route_sources_audited": true,
+  "conditional_connectivity_test_not_product_only": true
+}

@@ -1,0 +1,8 @@
+defaults:
+  - graph_dit_base
+
+x_dim: 256
+e_dim: 128
+n_layers: 8
+n_heads: 4
+model_desc: rdit-8.3m

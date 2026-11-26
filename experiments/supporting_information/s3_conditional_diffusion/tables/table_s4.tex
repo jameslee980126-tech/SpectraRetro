@@ -1,0 +1,41 @@
+\begin{longtable}[]{@{}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.430000}}
+>{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.570000}}@{}}
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S4. Full-data size-model and diffusion-model settings.}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\multicolumn{2}{@{}p{\linewidth}@{}}{\fontsize{10}{13}\selectfont\textbf{Table S4 (continued).}}\\[5pt]
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Setting
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Diffusion training intervals & 500 \\
+Noise schedule and precision & Second-order polynomial; \(10^{-5}\) \\
+Reverse sampling intervals & 100 \\
+Diffusion optimizer & AdamW with AMSGrad \\
+Learning rate and weight decay & \(2\times10^{-4}\); \(10^{-12}\) \\
+Batch size and seed & 64; seed 0 per class setting \\
+Numerical precision & FP32; TF32 and automatic mixed precision disabled \\
+Completed diffusion epochs & 1,600 per class setting \\
+Selected diffusion epoch & 1,580 per class setting \\
+Selection criterion & Minimum complete-validation masked L2 \\
+Selected validation L2, unknown / known & 0.0070037840 / 0.0070616891 \\
+Size-model optimizer & AdamW with AMSGrad \\
+Size-model learning rate and weight decay & \(10^{-4}\); \(10^{-12}\) \\
+Size-model batch size and seed & 64; seed 0 per class setting \\
+Completed size-model epochs & 1,000 per class setting \\
+Selected size epoch, unknown / known & 42 / 39 \\
+Size-model selection criterion & Minimum validation cross-entropy \\
+\end{longtable}

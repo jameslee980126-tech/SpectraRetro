@@ -1,0 +1,1 @@
+RetroSim is a nonparametric similarity/template-retrieval method and therefore has no trained model checkpoint.

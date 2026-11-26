@@ -1,0 +1,109 @@
+{
+  "full_CHRetro_92791": {
+    "total_rows": 92791,
+    "split_basis": "frozen original reaction-level partitions; not strictly product-disjoint under map-free non-stereochemical normalization",
+    "splits": {
+      "train": {
+        "rows": 74146,
+        "percent": 79.9065,
+        "class_counts": {
+          "1": 19660,
+          "2": 11040,
+          "3": 14932,
+          "4": 4367,
+          "5": 12582,
+          "6": 11565
+        },
+        "sha256": "957e27d354d6b82f6bc1eab1fda8f5ec365517bede2e4d31112c3677ca50f648"
+      },
+      "valid": {
+        "rows": 9395,
+        "percent": 10.1249,
+        "class_counts": {
+          "1": 2470,
+          "2": 1395,
+          "3": 1851,
+          "4": 522,
+          "5": 1687,
+          "6": 1470
+        },
+        "sha256": "9731bd8cfa1e6865deea5b5498184a823e37908c570769d8d75a4b6152860503"
+      },
+      "test": {
+        "rows": 9250,
+        "percent": 9.9686,
+        "class_counts": {
+          "1": 2438,
+          "2": 1371,
+          "3": 1882,
+          "4": 549,
+          "5": 1574,
+          "6": 1436
+        },
+        "sha256": "9fd0e110a733462561be5e1c3be01b45e7b4f2a9c2488d7a7646dc50f9a00de4"
+      }
+    }
+  },
+  "small_similarity_balanced_23170": {
+    "total_rows": 23170,
+    "fraction_of_full_percent": 24.9701,
+    "purpose": "balanced common-support diagnostic subset; not an IID estimate of the parent distribution",
+    "similarity_cutoffs": {
+      "low_upper_exclusive": 0.23214285714285715,
+      "high_lower_inclusive": 0.2765957446808511
+    },
+    "splits": {
+      "train": {
+        "rows": 18370,
+        "similarity_groups": {
+          "low": 6079,
+          "medium": 6063,
+          "high": 6228
+        },
+        "class_counts": {
+          "1": 4882,
+          "2": 2707,
+          "3": 3709,
+          "4": 1083,
+          "5": 3116,
+          "6": 2873
+        },
+        "sha256": "3cf1513137ee73d497af8a9bb2b49b87d47510cf534178424dbd902f60e50222"
+      },
+      "valid": {
+        "rows": 2400,
+        "similarity_groups": {
+          "low": 800,
+          "medium": 800,
+          "high": 800
+        },
+        "class_counts": {
+          "1": 531,
+          "2": 342,
+          "3": 393,
+          "4": 252,
+          "5": 477,
+          "6": 405
+        },
+        "sha256": "08f0a52e76b1f30da1449828a54dca11d2ea3eefcc401b73c776202181da3b63"
+      },
+      "test": {
+        "rows": 2400,
+        "similarity_groups": {
+          "low": 800,
+          "medium": 800,
+          "high": 800
+        },
+        "class_counts": {
+          "1": 531,
+          "2": 342,
+          "3": 393,
+          "4": 252,
+          "5": 477,
+          "6": 405
+        },
+        "sha256": "d7f01a2d78656c37a698c4f9f9e64dec8f9ef3deeacaa0ca48bdcefc8d77b614"
+      }
+    }
+  }
+}

@@ -1,0 +1,3726 @@
+{
+  "schema_version": 1,
+  "file_count": 465,
+  "files": [
+    {
+      "path": "chemical/chemical_preferences.csv",
+      "section": "S7.1",
+      "displays": "Section S4.6; accompanying data",
+      "purpose": "Directional concordance estimates or original within-record concordances and pair counts",
+      "bytes": 8224,
+      "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0"
+    },
+    {
+      "path": "chemical/chemical_source_manifest.json",
+      "section": "S7.1",
+      "displays": "Figure 4a; Tables S22--S23",
+      "purpose": "Chemical-context summary, descriptor correlation, record contrast or provenance record",
+      "bytes": 2068,
+      "sha256": "dc8b3b916e45c66663d3d3eb26fe6a73aa1ef3ab5efe51223aab11a23e23a399"
+    },
+    {
+      "path": "chemical/descriptor_correlations.csv",
+      "section": "S7.1",
+      "displays": "Figure 4a; Tables S22--S23",
+      "purpose": "Chemical-context summary, descriptor correlation, record contrast or provenance record",
+      "bytes": 12785,
+      "sha256": "5c000789ce9459d3a01eb009c2bdd40249d5a9b395fed6a41a1fd9298f67d2be"
+    },
+    {
+      "path": "chemical/expanded_direction_records.csv.gz",
+      "section": "S7.1",
+      "displays": "Section S4.6; accompanying data",
+      "purpose": "Directional concordance estimates or original within-record concordances and pair counts",
+      "bytes": 195366,
+      "sha256": "d9da05fc7632e9aa7e4c42551cfe6bede9131741ed3b790b2183eb43336a9602"
+    },
+    {
+      "path": "chemical/expanded_mantel_products.csv.gz",
+      "section": "S7.1",
+      "displays": "Table S23; Figure 4a",
+      "purpose": "Complete Mantel associations or their exact factor-specific product inputs",
+      "bytes": 782533,
+      "sha256": "e8d0af31d09ef553e6118b9035e1d72a70c886d3e919637b1b0a71e966a5a25b"
+    },
+    {
+      "path": "chemical/expanded_record_contrasts.csv.gz",
+      "section": "S7.1",
+      "displays": "Figure 4a; Tables S22--S23",
+      "purpose": "Chemical-context summary, descriptor correlation, record contrast or provenance record",
+      "bytes": 272361,
+      "sha256": "e10c8bb90dac2b0854e7cbfca930949cb20455f96f6dd33ee44e7d4c2e1e9f9a"
+    },
+    {
+      "path": "chemical/factor_catalog.csv",
+      "section": "S7.1",
+      "displays": "Table S22; Figure 4a",
+      "purpose": "All 19 descriptor definitions and per-family support counts",
+      "bytes": 4506,
+      "sha256": "f21520ee7a1ce8d45b116417e03eb21fcd895a4b47bb06129168e9eb1741307d"
+    },
+    {
+      "path": "chemical/factor_summary.json",
+      "section": "S7.1",
+      "displays": "Figure 4a; Tables S22--S23",
+      "purpose": "Chemical-context summary, descriptor correlation, record contrast or provenance record",
+      "bytes": 1166,
+      "sha256": "8780165a3211fbafb85b9ae8a94eeb70ddeae2d3305f5eaf612037271bea4e5e"
+    },
+    {
+      "path": "chemical/mantel_associations.csv",
+      "section": "S7.1",
+      "displays": "Table S23; Figure 4a",
+      "purpose": "Complete Mantel associations or their exact factor-specific product inputs",
+      "bytes": 8768,
+      "sha256": "e856027fa0fc9b133f9e5386bbeaa58cc0101f6e8acad1b0cb5b866596f29704"
+    },
+    {
+      "path": "chemical/Table_S23_family_summary.csv",
+      "section": "S7.1",
+      "displays": "Table S23",
+      "purpose": "Six-family summary including all 65 estimable tests and their factor-specific product-count ranges",
+      "bytes": 252,
+      "sha256": "368dbeca81498658c485d5cd784d3ef9e9c62846f78546f5d0ac77ffd7e5c6d1"
+    },
+    {
+      "path": "electronic/alternative_parent_all_population_contrasts.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 6222,
+      "sha256": "dc2f6408e3f9cc249c96899d9b533ae7458d4d406b3c14351ec8692f96c23e68"
+    },
+    {
+      "path": "electronic/dft_alternative_N_controls.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 4795,
+      "sha256": "3d66abd88f8dd3b67accac18ac2e62fc001ea25bcd17943568fdf8696bca73f2"
+    },
+    {
+      "path": "electronic/dft_paired_electronic_comparison.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 13286,
+      "sha256": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da"
+    },
+    {
+      "path": "electronic/dft_per_structure.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 17909,
+      "sha256": "ece0a291843d878d74b5f989c7b7eb478b8f83acaf556afde2773a5828d6f21d"
+    },
+    {
+      "path": "electronic/dft_summary.json",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 58574,
+      "sha256": "4db6e47ce5aab977a643c767033a0be3944d0a7a6531559b80e0fa51205af793"
+    },
+    {
+      "path": "electronic/FigS2_source_data.csv",
+      "section": "S7.3",
+      "displays": "Figure S5",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 5571,
+      "sha256": "39bc2281601aa77699314291d93bdb62fad77b2cb04c819a359040b67682a84e"
+    },
+    {
+      "path": "electronic/structure_level_quality_diagnostics.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 2012,
+      "sha256": "884eedf6c5ed482589fb005c331913da630c6b8adefa08224b349381be323d0a"
+    },
+    {
+      "path": "electronic/Table_S25_structure_inventory.csv",
+      "section": "S7.3",
+      "displays": "Table S25",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "path": "electronic/Table_S26_primary_method_comparison.csv",
+      "section": "S7.3",
+      "displays": "Table S26; Figure 4c",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 687,
+      "sha256": "8bc8d5bc20c05ed2992601260780790d1c3ab6ab8c2e6ebfeef17a145144c84a"
+    },
+    {
+      "path": "electronic/Table_S27_calculation_quality_summary.csv",
+      "section": "S7.3",
+      "displays": "Table S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 815,
+      "sha256": "b654ffe022c86075f3866f94318eafabd83ebe314139720c9e3f337fde05dfb8"
+    },
+    {
+      "path": "electronic/Table_S28_structure_inventory.csv",
+      "section": "S7.3",
+      "displays": "Table S25",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "path": "electronic/Table_S29_target_pairs.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Table S26",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 7459,
+      "sha256": "1ea6ddfa2907567007aebe06f311c8c71a6c5c1b798d90eb2b70e944dd74130a"
+    },
+    {
+      "path": "electronic/Table_S30_alternative_pairs.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; accompanying data",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 6222,
+      "sha256": "dc2f6408e3f9cc249c96899d9b533ae7458d4d406b3c14351ec8692f96c23e68"
+    },
+    {
+      "path": "electronic/Table_S31_target_minus_alternative.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; accompanying data",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 4776,
+      "sha256": "09dbf0f73f789da31260a7cd8271f1c0231693ed83c56c572be4c1274fa98c37"
+    },
+    {
+      "path": "electronic/Table_S32_convergence_checks.csv",
+      "section": "S7.3",
+      "displays": "Table S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 2012,
+      "sha256": "884eedf6c5ed482589fb005c331913da630c6b8adefa08224b349381be323d0a"
+    },
+    {
+      "path": "electronic/target_alternative_all_population_contrasts.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 4776,
+      "sha256": "09dbf0f73f789da31260a7cd8271f1c0231693ed83c56c572be4c1274fa98c37"
+    },
+    {
+      "path": "electronic/target_parent_all_population_contrasts.csv",
+      "section": "S7.3",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Full-precision archived electronic calculation or molecular-contrast table",
+      "bytes": 7459,
+      "sha256": "1ea6ddfa2907567007aebe06f311c8c71a6c5c1b798d90eb2b70e944dd74130a"
+    },
+    {
+      "path": "quantum/calculation_code/compute_worker_resume_v4.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 20246,
+      "sha256": "95ac2cec6682eb0efa74a6d78b71cc3cba1485297c80d0bae0531408b4793af4"
+    },
+    {
+      "path": "quantum/calculation_code/postprocess_hirshfeld_v2.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 15000,
+      "sha256": "699fda6f91ee08c8415295ed2e7a5618390af2fe43e2dfd42155e52463c76817"
+    },
+    {
+      "path": "quantum/calculation_code/resume_scf_lib_v2.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 11037,
+      "sha256": "dc076375d09eecc09816fe1125597f6417d06c18dd88e3bdcada87f883215b16"
+    },
+    {
+      "path": "quantum/calculation_code/stability_cache_lib.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 10944,
+      "sha256": "ad8bc44c7cd9914185fd3a8ba85e378f3f869699c96ed6589c5d3421963e9356"
+    },
+    {
+      "path": "quantum/calculation_code/strict_stability_lib_v3.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 11742,
+      "sha256": "3824b984f1373b81e737857c6d59d95a7b7aac3316b3f7121babd155473717b0"
+    },
+    {
+      "path": "quantum/calculation_code/summarize_results.py",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Archived scientific calculation or electronic-analysis implementation",
+      "bytes": 36215,
+      "sha256": "118faa9b5a1aa9104b9e76cdf1f4d55189c23173583f31c8519e3faefa960e31"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7890,
+      "sha256": "67acfd49e558febb00a5d27f3bdae373362f54d18bab5226593fea273aeafe65"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "9813e4488d11990f1076bcf0bf188860dc5e4188673e5c8aaa96393864629cb6"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5621,
+      "sha256": "ef82068666cc5e00925fef66458437ba9ba98924395607b4ea6ad5d03e8440ad"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6723,
+      "sha256": "0a1518611278e963c15e6c7cd37472d175f4e68e0c501b9b0374a09c45d7245a"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38308,
+      "sha256": "333d2dcabbe978ef599b4c47e3c914e6d04cc5a2f68560d9cd2d8108829defd2"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "cdcfcf4825fb8231b48feea37f9fc3544f922a735dc77e1d7bcd2d43216a714b"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1660,
+      "sha256": "c5e7ce0f80b26025a19cc52ffce36578574afdb5a9e44be689e82d9fbaff635f"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1264,
+      "sha256": "f8b2d167354becb87dbe9378028dfa2ff6d304b95cfb3bff34bd6dba9ac6ee1b"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "f8aa42ad9f7bfd306487998abc3741153796df3074365ae2b89fe253a2c689f0"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3718,
+      "sha256": "87a060c4a32c07f2962f832aed2762ba04a8cef2e0a11253044e5cc0fdfa5b05"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5581,
+      "sha256": "323b55a0bd4a2f88c4e913a834efe4688f80ed75863309ab9c8b8c2f54d7cfbc"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32952,
+      "sha256": "4f74f01394c4069b1f266eea3f061614cf7c796509b69d271deaa350af01f989"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1849,
+      "sha256": "7fbaba6c69d50c8270acb4011a27f375dff3ea64d1c194af3db442137ab18cc5"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1643,
+      "sha256": "fb36a483a18c9364c096e90d1ace93723f990b0fcc64bd60cc400523d24b938b"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1092,
+      "sha256": "518e9f47656b45bafe88d0007667452dcb70b85a0d11c115e31abdc8c5982755"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "933edd6f54effb6bfe5de3b574c53624754bd5a8ef338938f892362224459627"
+    },
+    {
+      "path": "quantum/dft/6584_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18219,
+      "sha256": "8a7bd8a22d837aa19f3e8da805bc0db00a0de81191835b95d3e49c27b7368ea3"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7740,
+      "sha256": "427cfc227ab4cd4b72fbe2b5f3a092b67e2b154f59aa8659ceb997348790431a"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "6adc5ef84c1e5c5c4374e3391d2db86b1de520f77e896a5223822f0124b5f0ec"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4980,
+      "sha256": "570196b5e3b4fadd06670fd74871d47c4a280532f22218589f928b05188fcda0"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6632,
+      "sha256": "1163dae0e32e645b2f652e6d6b4e03d97765ddb4c99dbf929dfd8f5c7c655997"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37299,
+      "sha256": "ef6b55337674a2e3aa5693f7ccedb70beb584be0c0a555475c8926ecbe12f700"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "774024052844b2989628f810a51268053e230f685f29ea1dc3a5b521fca5351f"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1659,
+      "sha256": "88bd7abd3b6c39ba0a19fe40b9716b6626f8126d0f39e079d2d2118841eceddd"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1367,
+      "sha256": "a92c293fe9bc5942b5a49712e7f6d66dec51b46906a825b0c763bc4782c9d15c"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "8ea99ee0a5e31ff55f788e317ba2051b1a979d0b47a01cf811ce308109c25940"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3514,
+      "sha256": "0532dc86c9d048b6f93ecf1b53e541abc9c0ca32c5454acc0536b15dc3ceee65"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5525,
+      "sha256": "48a84791d1319fc28c56c9cff0e81bd0d17e1196e1e17773155cb0bd00419a0b"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32668,
+      "sha256": "5016d7c790dd6d11fb046d85dc7a42e673c645627f74be60f372daee05313cb4"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1850,
+      "sha256": "9b55b4eb7f71071d282e7bf870ae89f6ade755f4c9fb399f54ad0795ac2f6b27"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1648,
+      "sha256": "aa7ed8d45065e394ec2fe15a23ec6055ec2d7bff8917ae82de11fa591b2b069f"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1760,
+      "sha256": "0d124da195513818042868d2db85e841e4077a3cfcf0fbf0856879db5849fa86"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "4caefd31cff4e1140880b8e3fe5b768b9146ba2217ea671b348935640bf50637"
+    },
+    {
+      "path": "quantum/dft/6584_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 17978,
+      "sha256": "8ab0d68c7aa5d36db7afa994819d200cd37a730798a4745841982942441fe898"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7878,
+      "sha256": "27cb6ebe94328bb8687a87186a498ea1304d73e6826c7580afc706be86a48ad7"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "5b90aafb1a243e693a4877570c714544c52b4958fcda09eace9918b9c639913b"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5607,
+      "sha256": "dcc49b237728af68ae90ceeeb8fd1b0dc5ae245b067e2d70d9d35f58be3977b4"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6713,
+      "sha256": "61fffa0837ca323dda6ed9404934c7de39d5fc5dfa8ee63ef3540f0a13af431e"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38315,
+      "sha256": "ca4effdc222e7aa20336a2f1ba7c82b761d6b1b5f4236ff916146d4d134454d1"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1861,
+      "sha256": "a778a714067a575d44cd15b46334533d0285d8ebb5dbae865fc4d41a12579b73"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1659,
+      "sha256": "19029d89954118e3219b7191afed134cdb94c75b55f32a8dcd5ee9044ba35d61"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1673,
+      "sha256": "93caa956e519ff0e66feb356b84510cfe266634d1321994d718d2e0a149877df"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "adc1a08baab666576ced4bb199a92af5882c83070b8077513cc751d4afacd120"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3927,
+      "sha256": "a96caf0be30e771104254bd5496c6eafcc879bf6bf586cdcf118b285c19eaa21"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5587,
+      "sha256": "be0a565a135d555f3cf2c8d78c06a4ecfc4d1aaeccac70cd2ca529ba2370f3a3"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 33127,
+      "sha256": "0926472e8889450aa8ee9dcdea491a4a733f86a7091b3d88a2db13fe136a07c2"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1848,
+      "sha256": "d4e5e447724b5fc780aead416e5519cc4154e58a37a7bc4043a9c3087a9911a4"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1646,
+      "sha256": "6e82145d6b2d7b4412a8d39fa3ad1d0ad723d0009306849c106b23c47cd18cfb"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1491,
+      "sha256": "c1762c30bb97662278a0350059fc2f808b3ab23c656b3cafae90b87c6773fc1a"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "214e1a28ebe4081efdaa1cf0b86e73105928fab51da920dccf3b2af4cffcb4de"
+    },
+    {
+      "path": "quantum/dft/6584_off_target_N10/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18215,
+      "sha256": "4be99b742e802caf6d71b2c8b04da0091efdcb2925c61978335aa47493b0981f"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7884,
+      "sha256": "89483dc210f6d9c08002bc01b67d084501058edc5c357dfa4ac3dbf13aaefc3a"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "6425aa83d6f66c7c393f731f211a80fd3a38b5093d239156a78d095f3b6286cd"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5409,
+      "sha256": "60f9752abc81ff04f8d23e3f552008f9f2534827b51008b7992dc6196e2bede8"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6723,
+      "sha256": "9f5ddc1c49eee6ce4ad561e363bd8440ebb965330a105657ea282de1808155ed"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37998,
+      "sha256": "2c452d66f6a80381dee69dfac323899e2b5a9bb0c4f868040f7a5bcb0e85923c"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1862,
+      "sha256": "0210e910e1755b08e2a98053c7bac909a3ab8374b7f4882bf2d00f738d5427c5"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1661,
+      "sha256": "7670d5e481274fe1dd869d324cf33e3470e5b66a88ce3d9b8b6fed6c81e4bfd6"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1430,
+      "sha256": "3f69c8cce669f86abc65b190282009f83682eb27b97b6f663127ad8d2b6ca7ba"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 153,
+      "sha256": "d54da7cfa79aa72a4db16e270a2e4509c993ee5e72c7cd42261215456bfe9f42"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3716,
+      "sha256": "454537bd626add336a5dc56568adedcaf51edec5d28cfb7f703a7ea577d044d6"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5571,
+      "sha256": "04e38bfeda23d11f8806f127aed8f7d9e9a3a78b82caf0da8ea8f5f04c2b93d4"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32953,
+      "sha256": "ffd16472bfa15d2952f30284e24b692122bd3d74fe7dc518c2b51283e3368b5a"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1848,
+      "sha256": "0fd03692f9ea34032a6fd20c368e3cff1bca14dca4ccb0b5aea01659e2a3b472"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1644,
+      "sha256": "a3ea18383f1b36eed27653750df62c28fc7a382aaeba231baafe9b09691bb036"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1158,
+      "sha256": "63338cbd627b0bc25be7d54ac7e48f2d45142bb5bc5acf4bdb19fd181f56e663"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "c9dd4d1fb0c485e52223634005e0fb363714e9227a51d05d5ee4b1022c253bb0"
+    },
+    {
+      "path": "quantum/dft/6589_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18208,
+      "sha256": "df05a21524141add2c352d72a910153e457a5d7c68dc47f653f0bc4b2a5086a0"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7739,
+      "sha256": "685aae2313a458fe1cc02192b6caada087caae6706d271758f98001991eb3bd7"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "4e8bd56e38ad28534d700c957e78e07ab594f98316540812ddc65655722fbfba"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4980,
+      "sha256": "3530f46d1ac9e75e17fa5e5b1f21cd3b0a326d4c608811606e848f0125c69fbe"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6642,
+      "sha256": "61758c5cf51b4974077f98dda77a27d9f65a749bc717cfc6ec8e9f64af5b9ae2"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37294,
+      "sha256": "295cc66464bbd8cc3cf509f299ea686f01d924788a71c489df248a1b98bd1c97"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1860,
+      "sha256": "bcb66d6ae24d7d2fecf2a3a8661dc1facfd61b5514fa556338cce613ccf8c585"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1658,
+      "sha256": "3f7e60797b053f45f2f7c275a4a09f60936fdc457c167d8e8c110f7ee5f2d27f"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1566,
+      "sha256": "076ecdc6dd2f3a0f100904491904b74e4e467159c63090fb9f679c100cd7f114"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "8c5135027df5cc5f21d9dc05dc5458927eabd121682677dfb29179a75f1a2f82"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3513,
+      "sha256": "95ee9714f2979c4ad31f03c9aed4fbde85e60d08e609fed172c407708fae2e1a"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5527,
+      "sha256": "78cde0a06da80abe349b3895544de8ce3c5f1b578e4db207579bd9ffc2da8a79"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32680,
+      "sha256": "16331c006de9fff7e5adb9d6259461d08ad74be881a35408a160349acdb6c7c8"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1849,
+      "sha256": "17d466d0168678fb19d4273a198f642dca406afbb2ac3af4c9d4f02e38c18a0a"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1646,
+      "sha256": "6bc479f0dfd6f64a9c078c82e989b2fd427d550d9e55bc47fc42cae506a13387"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1757,
+      "sha256": "9ae371615b0134ebf581ab69941adbf7af7f6e5e509f00287b27e668520b389e"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "14830950434e60f1d1ceb9758b09b6d094e48293ac6762c5db94c0853b594484"
+    },
+    {
+      "path": "quantum/dft/6589_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 17985,
+      "sha256": "6f330195c8b62d07439ef7a1e2f4b2abfa4660bf742e38ecd1234461fae0d9c9"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7897,
+      "sha256": "9a6041d14091b2e672afd522155bea2cdfe57e6e405140b7bc0629d4ab4e43b8"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "ed3006eb9c85eb88bb4f52c368dd360ccf30bd5abe389d8698e38e79f199dad3"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6026,
+      "sha256": "610e6e812d260d88eec8de14f387e3b848fb5e0e64a311336b9d785b4186d77f"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6709,
+      "sha256": "f63f9b187cee348569d3597ae42c88b473f32846ee99b418795ae66ed13a4d73"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38888,
+      "sha256": "2ee16b4c84a77616d888e5d8d670bb2706825c1bbe3e436118c0b64e6005271a"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "a6e9eea7747021bd87232c7ceade255ae97b6f7c86e2ded5fd211a447006847f"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1660,
+      "sha256": "64e1568866a09c15003ee2ee93c86ae35dd96835c6d777994f6cf9fc5f170c99"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1286,
+      "sha256": "c68d68834228a551349aae085d5aeba942f0b43fb6e8b94231f5dcb510288256"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "000779bae5bd82e4447c9d33cd1931e4c718cb6c29c7cd9164ee26fb534e8839"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3919,
+      "sha256": "d6ddbfd7db93bc0f5a4faaaa1e62650b6e7a52a7141b159f27f02feb832a68a1"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5595,
+      "sha256": "e29a2718bf5e9a53a9702221df82795f7fda5729dd9231f3c1eaf3975a82f650"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 33123,
+      "sha256": "3fb7cabdad2b7d6be2dee0eb387b2fd43eef8c0b2dad4b1182b65c479cf3cba3"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1850,
+      "sha256": "ed11b2c64e4fbbe6a037578c2f450bd2d72599668207a64e353a1be2453ca530"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1645,
+      "sha256": "799c4f048547f2d27f8f0bc1e25905e896c5f02be98626fe38e07f02025262b7"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1492,
+      "sha256": "6bda19fb08649e8a5f7de31e7bf0b6439e10602d6cd3d0242afe2808c6f4658c"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "da8364b16cec5ace29d79a00831a3859f96759073c97842616e662ad44aa8478"
+    },
+    {
+      "path": "quantum/dft/6589_off_target_N10/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18218,
+      "sha256": "09fbde05236fe1c93a236e0a24571cbb45a04dc1e86f058a0c360753c49c28ce"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 8325,
+      "sha256": "30d7415da350896dcd653ef4ca051ffc0e4430a47966c36d8669758dce7a77e7"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "28fcb56a7a9b186dcfb6e0971364ae51e5a9bc7d4376db8e45ca269d89d9c45a"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5196,
+      "sha256": "35591e8e39b73da1c3f4592e7691547229561a877ba70047e0f22b13d15bd9f0"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6966,
+      "sha256": "2d1105220c42e03fb0815466950772aa528d9d4617adec7d580e5a4002af4ad3"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38118,
+      "sha256": "63951f2e09268459019565140a16b8227c87f51703515da44dbe4ba8717c3acb"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "b886b26bd67242b2a0864bb6a215672b3e65ef90a4b53b7e82c605611d2c496c"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1664,
+      "sha256": "d25f1106f0e82c2db42478613e4d4973ff520a9ff88e781ae07b58e24eebea0b"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1996,
+      "sha256": "14b632acb00f471e164eced66dc790539d3facd9569b8a68c53107a5c184421b"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 153,
+      "sha256": "4aff797e4412d93f8fcdb63e8cd517538bc29ced1e738b6a919d34f19803c5ab"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3717,
+      "sha256": "c8bd29c9104bbf307737cf8705365e40f0c6252e13ed69c03750faa795eb0c6e"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5757,
+      "sha256": "5cc352252b2eebd822a746b1101f0da0ebe3cafcb4cb91b2c232ac6228fd021b"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 33358,
+      "sha256": "e614fd2392b7c1e24b1ddeadb45ca849ce3ecde8341c1cc2b462d4034b841a95"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1850,
+      "sha256": "9a6a651e66dfd8ed29132cf4606ab3b1c51b3da3371b537fd3f7a528983e90a1"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1639,
+      "sha256": "eaabf397ded075ce5cdf0e69f0e3d37766cde403acb6de6c40f886471d015e9b"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1196,
+      "sha256": "46adfb45f3253e718d6478460173b64d543c34461cb1d59c2559bb35ac84a09d"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "0190458e5b526d63963e3ca62365148cf6fd5ead479fbfb1b9eb6be6be3d560c"
+    },
+    {
+      "path": "quantum/dft/6675_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18893,
+      "sha256": "7726248cdfc33d3a0c86864a0865a57938727fd8f741aac177573ce6cac60e63"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 8188,
+      "sha256": "08e63d4ea5f86cecb3adde2e5b197d9d20d21c480088ba60bc996b7fa60a5601"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "0041ac7d616fcd57e104f112e4b2e667681058c682cc6d56ac74d786e35e7561"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4774,
+      "sha256": "35d3ea63b073297f76d1c5cbb3e022f2075059b67e918b89f1cbe1da01563b79"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6884,
+      "sha256": "3ab1d88da80419c041c9e62a35b6ef72dc5bb1f3653efbb4903696e7fba84765"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37398,
+      "sha256": "e51b235300bbb825d4f8dfff96a65e5b2b9364d1968a399cd3ecc33b08049690"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1862,
+      "sha256": "188f96bb57dd58d4b88cf0906bcad12b6f921de4dd1517d8f491c530865e1868"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1660,
+      "sha256": "849b298172f90c023973c315947a60f71a898854e4c3afbadb70f71e5e48387d"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1263,
+      "sha256": "e1cc4c38d8cb4de24965173265db83e3ad5b4ce3a35284394ea9e22de0de6251"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "f624ab9188204f7919061b30c31071507ee1bcf6aefe997adaa99fc94de909f9"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3513,
+      "sha256": "67f849568ebf684a0e813f1a18219f181139b2a4669e04d5deaa293492777bd9"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5715,
+      "sha256": "59e1cc479f725c75923af4a11cbd11b56bb57872f03532ae30fbdc8f482829b0"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 33079,
+      "sha256": "1f83be82f2786ff42ce4c9b454c2649bc837439e5abffb1cc46fddd11030e13a"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1850,
+      "sha256": "3cf847e5a083b54d2f5a9a7d6ac95b1115559a033afaef01179ef4a042f05255"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1649,
+      "sha256": "b21fa1248b8ea07c196e9a07eb1487dc627fe70bfb0f8f8386d1f5797d3e004a"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1194,
+      "sha256": "17737aba47859c7dfecd1d44a578c7002bf1c3c3b7c5ce6f2c38cfa7b955eb14"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "b820cd9dd94e67c2519d79487ff200ceed86ed430925a9692e8352de55f5a9b6"
+    },
+    {
+      "path": "quantum/dft/6675_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18673,
+      "sha256": "6cae92c10f5861a8c339c886633398ad88b583edb3e94452df84c63be741cb6b"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 8325,
+      "sha256": "7148cf1c2abd62551b8f4304b6e89833f61c01b5403b2aec123df62df57a81be"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "a87bbf3fdaa41aedd1215c15d74fb1272f7006d2ed6a722d86a37dc29ce9ba61"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5199,
+      "sha256": "7db3ac55adcb0930db9d54c1147a07006f0448a9cbfe7617c3517c6ab67a3820"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6949,
+      "sha256": "f4aef0bd93c47bc2ef2ed98121ac76c869410ff1e313a39814962a0b28b2902e"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38131,
+      "sha256": "e67ead75a8844eccc7e852cb973b2cf634a6fa2ce18e0761f6d8c090873d7d09"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "b2f157b67195286106903b11b58e6c66ffe5b20df1b2fe8e8e3a8af3e533bce8"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1663,
+      "sha256": "0f3f8393a78eefcd4736917caac1b0a7f88fd254aad149f464a3bf5ba5f558dc"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2425,
+      "sha256": "69753a98d724dc20632004f5a24a726e1fbcc93718b07ac20ff4b97fb7cf55c3"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "b1c4652abff681c6b7c83a622064aac0b2aaf753417b76f8ceb8cc08d51cdcc1"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3707,
+      "sha256": "77af48bff3934b962fdeadc25bf0be27a963e11d11f137c82dbb602bd3d384b7"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5749,
+      "sha256": "87962a00e687a784866da5130b75d5d39f5bc4da8f563a72fbeff3509182db14"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 33367,
+      "sha256": "5eab0572d5c853bc754d9b46c0edeea3eaa061f212cf43b3fc142d938e2a5c08"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1848,
+      "sha256": "86821292540d30061697c49f09aee58ad2ea92e3e16dacbe57f05a7cbf00ae66"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1646,
+      "sha256": "1737dbcbe41ea448bf1abb633cef6d50bdf23d5915435d4a0d99b408041395e5"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1490,
+      "sha256": "2724eacedc0d41665900129a6b41a66fc3c4a6789ff6f2c29cb6bdba6f354d42"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "fdc15b3011f1e4d62ab66ede69e2d2d615091f1441c8d6958e66757957c94fc7"
+    },
+    {
+      "path": "quantum/dft/6675_off_target_N12/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18858,
+      "sha256": "998e6bdfe63fb3776e7ba66487820371530d19b03431cfda758c85c7c78ed1c7"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7744,
+      "sha256": "53f8a8589674589bea6cbb568e36ccaceed928f1687d5f29296288ffced0f5b0"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "a77de2ea84b1246ea03c8a87fcb793d635a6becf7dd6318a43526e61dcc18b43"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6024,
+      "sha256": "32755db0ca191902b345de2fa0980c187fc1c76e6747e88bb3c47448e8e180b6"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6642,
+      "sha256": "6e84a982bdbd89c8a2e1ac44094510f4180b156d07b9a806dc9a92f44981b4f7"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38736,
+      "sha256": "62cdca0c77ccbb6bbc65fb30513225da769c8803de15369168384931374433dc"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "32d6fa86f2a79188a71432553ce0c087f2983ee78e6535e653bf2d3075c1e16d"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1658,
+      "sha256": "143f811492853278283d6c9883248bf170b5291848885c554250f7b121fda223"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1726,
+      "sha256": "a7f01cf8382fe267820c37126ca8666575b3c755f82a71f6a659ee1808653b58"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "41c9e67fb99044b48e01c502425bfbef0e83467d60781374ac92dbf708ad7459"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3509,
+      "sha256": "bcf7afebf079a47881a8eb10f91b940da76cc418465a4ad544e2e1eff9bd4ec7"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5522,
+      "sha256": "c528598ce921737e0824b058fa514fd14ca776e8f1399ecb13c770bc4bfb9755"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32666,
+      "sha256": "1074ed2094c9754b596bce227a0dd2122a43579b8541713b08b63e58dc97113a"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1849,
+      "sha256": "a19461c1212943a80f121e973b2509d82f76e754087ca99359c9f7eaaffc512e"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1647,
+      "sha256": "69fb3d805a6bdce7d226ab95d154a69a50cae6a315d2fa5c6d9e44133059463c"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2160,
+      "sha256": "521f54122927dbe372b3523f4014ce6062fb0a9028fa03cef5addc8ff29e8c9c"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "edf735e94cd3b74f49e08a5501b23283359707cc283ef275b16820fa84524d22"
+    },
+    {
+      "path": "quantum/dft/6874_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 18002,
+      "sha256": "c1f707fefcc4d0c30ff0eb014f4be3e580caec371e0eb78263aa40bd92e56658"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7598,
+      "sha256": "1c959b2d2be5e56886aad53856e100a357edf25f37d2e66126ed573cde28ef11"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "f4ddef19cacf29b13277af9bd30f9b95b5db38e5215bcfda5e651e4e865c3149"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5200,
+      "sha256": "e8537e557dba3248dbc0587fead0edabf98e7eca038946584013a604d5ca2cd0"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6573,
+      "sha256": "ca0f9efade8c4c78e37080e94ad9c2d1b90b972030c3a7f67d45b78b036da64e"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37446,
+      "sha256": "46236c06dca2dc59427ce1672a365e0e7d11b2edfc6c05b9054698cf8d128e16"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1859,
+      "sha256": "5566219706d5e18d43f1279c9ee069e9ce8e7abd6e958d3af4c1071e36575698"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1663,
+      "sha256": "be6801fb44ca0a420a490874e098fe92ff13ad67515d4f4ee181116277afc2c5"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1367,
+      "sha256": "da0603c811b102e415d7fc7c9dc210bac0970a4aa545e4869a8e0caaf1b69bfa"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "eb1aeda7dac416d17668587f4de93c129eba112e4f59bf475919af93e4ff4c5a"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3726,
+      "sha256": "158e6e66f9d1f210d08d05f6b6036007b462f8775102e7c087900891af877205"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5468,
+      "sha256": "ea1aa500cfe060630dce5fa95a9db71fb90b5dfdcb7113aca2b264a41bdc16d2"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 32700,
+      "sha256": "d9a0c8461a20fb6ed891a00acec4e765a63900083385948afaae207406016a68"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1849,
+      "sha256": "5aec8fee6aff08a68441352f902259ddf9c1d9a0b323973ab745eee352a8a311"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1645,
+      "sha256": "d29a75c5dfdfbc811bb409062dde5e39504b87835baac741a799974dd9627306"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1645,
+      "sha256": "54ab12403fabff0bb8874e29fa3c8db473dba857a093fb01fbddf3b3b3b68da5"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "9750e03d55987f76e705c9130fc04fa6e8e029f099a3bb40e84f6dc721d677f6"
+    },
+    {
+      "path": "quantum/dft/6874_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 17772,
+      "sha256": "052a9c58b0eb3786d8e5796124448f175b5dab7486b15a7d4595fdcfa01a51e3"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5698,
+      "sha256": "b6f5ac401f75986e9eb55fa3703852f19ceb460ed80ee8af1fa7a52c6c5d25a9"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "0f4f2c1bc951286917df7367a0972e9436710968dd926ff0ab290e2f889c1189"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6419,
+      "sha256": "7548b9d71ef7695197c2b66305aad36da54d18c875ec82cb49fbb4c4d7e90511"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5560,
+      "sha256": "888860b6cd73532f3e081109fc6a5ab0702c2a56721c8386188259b5a2de5a75"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37386,
+      "sha256": "f5f093d22f077e5165e8468d7488cfea8139d902c8990141998f82260d94de64"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1858,
+      "sha256": "8efd5b74028822471b7b1c636a9575a3364b0351ee09954d130068494befecd5"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1661,
+      "sha256": "3b1320451ab0c977368a621c039c08067e941ff091773816a696c76dd832483e"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1064,
+      "sha256": "9b152830fbcfff4ed735be17e2c25fafc1d8337a68f5048f0ca9cb39e29c80a8"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 433,
+      "sha256": "2f2a042162388313f464eef43096ca7842d04de740fd1be30d180bb83901cfa7"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5028,
+      "sha256": "20af0fcf94a67a7d9961473ac0cd2baa9f54b58d66a2b5c09cc4bf89facc2b31"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/resume_provenance.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 108815,
+      "sha256": "fefafa271c18e8f45a225e9b5f93bfb7b5a81919372519f89b94e6e5c4693f52"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 27016,
+      "sha256": "16b8edeaa05171b2ee47714073ea594fe29e28150a3ed0aa35a3f54ea3808922"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1847,
+      "sha256": "7024388e3c54547d1e63785a35442bfcabc09423267713a0eab01d234bd69492"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1647,
+      "sha256": "27626d0a77569becaae6d0d874db509f1ac22f38d791b9a775d5ad435b566b76"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1929,
+      "sha256": "6adbb5700290789e8e954d1eefc65870a10caca96866d8417783e216e56d5a71"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2211,
+      "sha256": "f0175ab30b6ada70ba6cf0ed8508b6bcbbcbb4e18c6b5be7571a03ff3efebda4"
+    },
+    {
+      "path": "quantum/dft/6972_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 15263,
+      "sha256": "1d93a75989cbbe6f886fd682104ac17772ad61ea39cb8aa064ddc93bcce737cb"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5542,
+      "sha256": "58bc95642165b8949d1b44aa06ba05eaf08f14348cb0e69e17e9cb2ae44efe0f"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "4969b3cb9bb39bca8860f4ec714e0930596ef410cb5109734f30231aaf8c2586"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6001,
+      "sha256": "f7bc2e864578bc66dffd0024ce7b3b3eee6e03202914c53491911ca3ac264d58"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5481,
+      "sha256": "e062074d8a8a481927f0c9a8e2ec4c3ca9b9cbf07a8aadf2d483f83af47c499a"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 36665,
+      "sha256": "060465dd7e842ca8e5459d2b6f9da808749588385a3e35211f731c4f6a96adec"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1858,
+      "sha256": "ddc6af98e274d3ac854622353ac42c8455970983e7778a1615e70f5636020fd0"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1658,
+      "sha256": "b129825a97389117ad09adbd4166efdeed0acf7cbea2761febf662f782ad6931"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1400,
+      "sha256": "b4da434d48ab46e5d5146cea2e7613d70f3b9bb28e72dd4da694d5c1d83910c5"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 433,
+      "sha256": "6c69c111d89658f79456ff086fb24646740ab6282002fbc271a282250d2b103e"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5123,
+      "sha256": "bc297cd124bba69b8f87294498ae2db824aa87a84147115ffdfe36f353499ffb"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/resume_provenance.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 105207,
+      "sha256": "8d8a2776997661108819bb9494e923ee949262b801bcf2b02ba17402db577f2a"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 26770,
+      "sha256": "cd2bc7b4b6c3f67677a74646895a3862e97df1b14bf1244c8e4cb8707268bf57"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1605,
+      "sha256": "54cd0f55b37942f6d45130b26c907ab980f7e4b68d4954eec6085f5e1a585153"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1729,
+      "sha256": "d39374e3572d8155e0324ee7de485e0241a2e45b792073ce6e4efac4a7dec2cb"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6446,
+      "sha256": "6be1d60c3f5fa2eee1f70f4bfbe280d246e562da2cf4201efc0aa81bd895eab8"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/neutral/stability_reuse_provenance.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2901,
+      "sha256": "2676b28477585a8dc2804904dd73938153a48690a67ae8327aad1befe12e4319"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2313,
+      "sha256": "fa1e3d288c22b4af611d0e8f8d38480a4e8ac12986265446aa8b5455b80ce5f6"
+    },
+    {
+      "path": "quantum/dft/6972_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 15195,
+      "sha256": "9d0cf5e85031dc055b7e391e17d27327846bb77b051d16c9cde53c2a7d51571a"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5700,
+      "sha256": "7513a8e190b86bc8c5d8aa57067c5284ba2d62568864025a22b51cd3a42f3506"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "99f85a71cf660bf6d15a05d154a94560f366064996d598200f797e872e6e44f5"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5801,
+      "sha256": "23aca987084768767207765bd2a1f9be520141bcd5d1aec41f5ac80a48fcfd69"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5557,
+      "sha256": "da0ef2b0c01b6bc4760746b90e3f023e95b966ca697437d346f3a7509acd6868"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 36539,
+      "sha256": "3f075e8e985131d08e094c20ae12f4aca68ec06aeb1afbaeb7319f646f687f33"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1857,
+      "sha256": "bf4af5bcd800d611aa2af1fcc6cf2219ec9fe5bfded0d57fbf13c2b779d62dfb"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1662,
+      "sha256": "36724d92f4b52450b901976c8f5cb40155611e6a043aaf4d159048eb1d084b7a"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1063,
+      "sha256": "52d8c5be03193d5703cdbf46e9f53f6fbdaab7090a0c07a3927b9586300661aa"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 153,
+      "sha256": "cb6f1e734df697f0a9bbacd69ca348a939984f7bf96b45b7b89407294cd1cb03"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3929,
+      "sha256": "29ca1a3f8ee727b17bd63085bb6ba122a78ba770bd4fd1f56fed52c1f504e0e8"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4705,
+      "sha256": "cc99cf907d02b2f039c6da949e5eec0192bf8c71b15df8cba1ac470138a1537d"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 31124,
+      "sha256": "97311ba9e299de76cdae35b7a966d93d2bb6a059ee7a6cd336cf0cf7b22941a2"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1847,
+      "sha256": "48ec2f4517265d71bee0c2613e60fc5df7167959d0480161aa0b6ddef3cb4868"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1645,
+      "sha256": "c161ca1ac7f95054cdc43b204a1bf445f8b0f341d591bfd133b6b01e2ce60e60"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1339,
+      "sha256": "d3539084505ff6bf7f27e5bd0719c3f3a4e7f0ecd68f9d908e81caf44924ab66"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "879d70c6ad05b93f893206d076a5cf3aae4da21f91654b9138e7c2f29e9620d4"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N18/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 14893,
+      "sha256": "f47f73c160dfb0f31f09240ebbc594219304bf78d8380514fffddf27673bc649"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5696,
+      "sha256": "1839aa2afe62284cbf905fa8e6be379ed4ab7850678aaa6bab0f619b9e8e6afa"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 153,
+      "sha256": "0d5582abf1d0f87758c896bcfa8fdf94cc53e717cd38427e24568cacaf52d0ab"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 7054,
+      "sha256": "08a1464ef5fad2de25de83536738bbad1fb0cae4a1af41cd8e96ae7784bdea13"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5543,
+      "sha256": "15e1ee2a3c9b703905cf8aa77307d0aa69b9355baebdb7088b7770ce6b906d6b"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 38256,
+      "sha256": "237cac0f49e51eb0e82955aae698338e971b27baa2ee48a48d971637d9e3ad40"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1858,
+      "sha256": "2edcb1a4089ccc6be4c4ee830fb378d70365df22301e393514e72e5944334a8e"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1662,
+      "sha256": "66343f9a08aed7cb75e971ff40c76cba1e19214267bf5f553a1cf8d8fbfd1807"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1329,
+      "sha256": "0a228ac3a85388a64261d66bfcb6a1f0246e9f1407edd944f76b30882f77d236"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "c447a2e32ff8ae09dad5acb45146481974d5e1e15c8c44db060a9aa83306dbb4"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4136,
+      "sha256": "9b1354cb4be812b53d3d8dcd32fbf28ca84e8cdcd23b363848d7752734ed1f13"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4704,
+      "sha256": "df0669145ade6b9b795b5fd6516af5bab6b59d693b9dac694c4325824c75c384"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 31276,
+      "sha256": "b39f7150677847ee9e680c92348cb99f70ec00800e5028c20dda45639cd1031a"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1848,
+      "sha256": "d77a84ab3781499cf3d43d7afbce4ffae9dbddb17a84ab33e50cd75e5150b47b"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1643,
+      "sha256": "40828c54cffafd1e05df2008105940a486239a4988bd5835c6c752c5593d71fc"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1558,
+      "sha256": "8834f3f1a36461d3030c0b3028bf239e109af05da4d10cb13efdb3a106d8f874"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "43152b5dd93c5bf0f85ec49ab6f6659d932c76d88b355ff2486ca0f26ea35a3a"
+    },
+    {
+      "path": "quantum/dft/6972_off_target_N9/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 14864,
+      "sha256": "35fc9168e47f41ab0c950c6ecb828da4982c2d92fd36f62a8cdc7430fb80c1ff"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5694,
+      "sha256": "f3f976cd5103786c6e2c715682ad6f1d11f06300cd6f9c9524c7448e59ce63d7"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "d044738e8b13e34e2120092fd3e1bceef132c79f7ced2459a97fa2f0b830ed52"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 6220,
+      "sha256": "ff7674f93403fce18e56ba49ba36e8c41a03563dfe16d71216d2d2b357b14785"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5574,
+      "sha256": "4f7c17cf19104ee314ddc1b01d84d04eabeb2472eddf142a8a081f8074d21749"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 37101,
+      "sha256": "90fd15e2a4add2dfbca7f43266883f672ad26c911062d0c216616e79e68ab8a8"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1856,
+      "sha256": "2e3f55ca8b2305fa04d7a39c3844baae3db4d1e968a34fe531ecff15b39c0806"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1659,
+      "sha256": "79191b7ab036cb32b99638398399284ba520f34ea2343bb46a68b8758f31f1c7"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1466,
+      "sha256": "026029f29bf521aaa01f4bd90f1c28eb2a5d12f7494756dc5d7589e4de61a0f7"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "743ff7ba1c38b55be9c91f1ba65330cc79ff6231c70fe095ba081f5df2c6cd60"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3718,
+      "sha256": "8e2f0ad58a2766d4808f470ec1837550b37a920db2ff7acc612a5de74a6314cf"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4713,
+      "sha256": "6dca84ac1becfd33678e1117a3d5ee27067ef8d3a298d180d1c6733945d12cd4"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 30958,
+      "sha256": "fb630bc8113ccb22ae7daf34889d1c53120dd1788b89dc18a7460c4d514c3d3c"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1847,
+      "sha256": "86e8edd74a89ed436774ed2d733794e061319a11ab08fd1f79ab1072922d2dac"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1641,
+      "sha256": "e32e5522636fe9d918615cf45b2c283ff76fea9e375fb4cd32e8225e9668ec53"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1792,
+      "sha256": "163d1bdb164496302107a7bd4c6f02aba219e05a20e49ce0525f3b5fe3d0cf97"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "b766085aebd57f41768b8da68ff14c0cc03508a79d2e5b86d6b2a497fc6845ed"
+    },
+    {
+      "path": "quantum/dft/7804_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 14918,
+      "sha256": "88500ab55ce71e6cf969a35d43040c02a27f963f0a542656f53a15c40d80a492"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/atoms.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5554,
+      "sha256": "5b71fb33e69dc600ed34d09814d0ff09d2cd39bcb1114d43b2d21f801cc3af5a"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 154,
+      "sha256": "3e56a86db161b96dc586e523767c2e99b093ee3491854add787f0ca3dfa9d14a"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4767,
+      "sha256": "a7b43e9fdb8643af850651c6f9854c51737214de08493538f69c74ab212ec4ca"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 5467,
+      "sha256": "67eaf7ceccfc46df19758573879117a48f7b15829bb6608ad46f42835bac5e8e"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 34949,
+      "sha256": "2ce79de41a21a0cdb0fa6bc63760685f43a68a0f4217b1f5a595d959dccf21d1"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1858,
+      "sha256": "33ff0b2647b4a5ac6043eb7fd360b9c2f120f02efe50dcd02c21805e2c236fa3"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1657,
+      "sha256": "73f03ef184be5e996181972b7e7b99876e10eeadeff28ea4d444e224df89d412"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/cation/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1200,
+      "sha256": "b87a974949f7087e5af5c0d1fad97897466dac40979532f882b683dc8236c935"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/attempts.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 153,
+      "sha256": "8fdc4f0582d46ca005eca8bb522b971d2f9967863f87d9dce80d136bb47964a4"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/iterations.jsonl",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 3308,
+      "sha256": "c37f91168fe00db8b408373a12b810f5a81dbde1b04e657f7742365708d7b98f"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 4645,
+      "sha256": "87c84d4a27ef40daece4c565e5d9c23add8ec7967b4114c1cbb5be7916858bca"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/scf.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 30523,
+      "sha256": "15baec87446bec756b4d8543c0613b4b36135c53aabad55d6ab5cc97019f62a4"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/stability/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1848,
+      "sha256": "ec02b70653d019de47669fb78c4bf2ca2736a7ac8f360901a23ba6ef55e89512"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/stability/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1643,
+      "sha256": "f5f2964e25dc8e739171dbcbf6c47b5c2b0ec0b1f07f6f51e3b2fc918ec5c53d"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/neutral/stability/strict_stability.log",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 1263,
+      "sha256": "de3706fe0df88eafc311ecc7d72e68398eb7216211cdc72c415e1674ff6c3da5"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 2141,
+      "sha256": "157a8f9782b1556dc09106a84550d4db95964169be581c48c83f8df1ac1826f0"
+    },
+    {
+      "path": "quantum/dft/7804_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Tables S25--S27",
+      "purpose": "Completed PBE0/def2-TZVP electronic-state result, SCF log or internal-stability record",
+      "bytes": 14653,
+      "sha256": "7a9a39a820260247811e96f10a5059338ab75f225776e178b8024e5e4197629b"
+    },
+    {
+      "path": "quantum/dft_34_state_summary.csv",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 8481,
+      "sha256": "e5925393c8114303c5ae07d308fac5cc8f13ea9896fd0b5923ab12736a660fa6"
+    },
+    {
+      "path": "quantum/dft_all_atom_populations.csv",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 370381,
+      "sha256": "54578e985becbd0e8a58f6ba52efd74807e0ed72a42bb9c6d33e99874dc3a41f"
+    },
+    {
+      "path": "quantum/geometries/6584_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4343,
+      "sha256": "c5783256acaaedd8f29b54f676c4af6dc95adc55274e7c8202676340172f5654"
+    },
+    {
+      "path": "quantum/geometries/6584_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4264,
+      "sha256": "742d3e2e0e42fa266e4a354312823a4fd64715224a6e3d355339c61cedd453d4"
+    },
+    {
+      "path": "quantum/geometries/6584_off_target_N10.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4343,
+      "sha256": "73836598b627e43688d11aeef8bae45d42c5f3063d3aba36c6334985a4679947"
+    },
+    {
+      "path": "quantum/geometries/6589_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4343,
+      "sha256": "5a0d6f0d6128363dd0a296259a43db1ebb247bc6d752d96e8dde290b83e29fa4"
+    },
+    {
+      "path": "quantum/geometries/6589_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4264,
+      "sha256": "eda669b97e5d0dffb1c3498bd3e23d50ebfa58e2245cd265a4df9e4100baf6c4"
+    },
+    {
+      "path": "quantum/geometries/6589_off_target_N10.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4343,
+      "sha256": "06c787945bb6248df34a855cccd2271e11935949423b248ab92066b3c820d013"
+    },
+    {
+      "path": "quantum/geometries/6675_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4580,
+      "sha256": "28bca626fb2226325bd6a79ef3422a929c613628f3825443ddca68156bb57bc6"
+    },
+    {
+      "path": "quantum/geometries/6675_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4501,
+      "sha256": "30613495d50987c14e0548eff06043ac0052d0e1c9782c31a2ea337aa50bdd2a"
+    },
+    {
+      "path": "quantum/geometries/6675_off_target_N12.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4580,
+      "sha256": "a46f3a5da31e789937e898945184203f274e74d9f951633fe3ebd76f4e474ee0"
+    },
+    {
+      "path": "quantum/geometries/6874_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4264,
+      "sha256": "86dc412526dccf93d205e3805990351b78ec023124f75d63e447de9c5051b67d"
+    },
+    {
+      "path": "quantum/geometries/6874_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 4185,
+      "sha256": "45e4c9c35b3b8f9c309759c0a9d2d4734fed7648346918ec5899cdff3fe14a19"
+    },
+    {
+      "path": "quantum/geometries/6972_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3158,
+      "sha256": "80ca4d0b62c052a113a4a47bcfb9a8ab06f65a2969fdfa77dc0413a0720cf9e4"
+    },
+    {
+      "path": "quantum/geometries/6972_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3079,
+      "sha256": "17cb520c0806e032d3b5e12d6c1ba7bff3cbf4ecf37e0824e71f69a186350185"
+    },
+    {
+      "path": "quantum/geometries/6972_off_target_N18.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3158,
+      "sha256": "5a968df9359400fcc4e0353a0827dcc9903df314d1d5da974b9cb0dfbc701478"
+    },
+    {
+      "path": "quantum/geometries/6972_off_target_N9.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3158,
+      "sha256": "96e4d43d395571f1c909a9796225a9c44b1c857b806284928c840e9e2e58dfbf"
+    },
+    {
+      "path": "quantum/geometries/7804_N_oxide.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3158,
+      "sha256": "7ff82fa9550b4b63ec63a0b2b60b3bb8c46a7f766ac4940cd307cc091f1cf2c4"
+    },
+    {
+      "path": "quantum/geometries/7804_neutral.xyz",
+      "section": "S7.3--S7.4",
+      "displays": "Table S25; Figure S6",
+      "purpose": "Unchanged GFN2-xTB-optimized Cartesian input geometry in angstroms",
+      "bytes": 3079,
+      "sha256": "e554d939780d83756d3c7be7923c7d72ab332bd0c5aed30c34cff0d36b2550e7"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5534,
+      "sha256": "dcea702326753831990a4f19ae77bbaf12316521edd97bf0a1f84b426644b494"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5535,
+      "sha256": "e5c01248069969cdb33fe4966ae7e50b89e03df5c86f05ae5df893d62d31fc62"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27328,
+      "sha256": "e5a5248f12ade74522ea00a96897172322eaef251a7c552df879339b09cd7ecc"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5564,
+      "sha256": "5e787ab46c607d3320e1120c9dc142835ac086995fc9c630c6d49dab908c2a32"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "40153b80e725af59a089163553310b82b55f839e0cd8ffe4cf592e7a45556315"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5458,
+      "sha256": "f494d8bf0e02eb29e6713af8cd92aeced0af5a7db4c681afa9b8754edffec72c"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5453,
+      "sha256": "5afa96df65facde0e155607025dbe823eccf257bff90ea3f3f43a2329cb218d3"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 22236,
+      "sha256": "9b5a562f03406e4ac4abc22c7116a34be7b72ea054c71a51aa43e03284d5123c"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5481,
+      "sha256": "b6b87b9acba71a1a07cfda2e594281588f3d0b14e5007653eb090845a54f14d4"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "8147d903861609a4df0c57ee9dbc873dea289e6a0f051a355d6da99b6988ec1d"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5524,
+      "sha256": "3001ea80617d5d6f9b6adbb483c72129789b8309fc5efe752f5cfe8c85c57447"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5521,
+      "sha256": "6309d7969dffd45ce5297a4a20da6eefec2c7d8717b4ff748e808eb6aa3425a0"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27441,
+      "sha256": "d906ffcff3280e1018da719fd715d7026b2bbc0da36fc9f3d5df98c193964dff"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5555,
+      "sha256": "e379fc3c5b153d9e52865a9a4cccddecc5df451fea990a8951d5af9156325b86"
+    },
+    {
+      "path": "quantum/hirshfeld/6584_off_target_N10/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "c77b98293deddc2a7ff33c218d277f57fee10d978b3bbea5243b96bc8a35090d"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5537,
+      "sha256": "e8e8218a63948929bcd061292e7f27fe906a3a3addcf9bdf3d8b71ba2042ce8a"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5537,
+      "sha256": "5e23aa324adc5fb649c34a8072ede022a6dd8b3b9e7d9a6ea7a1014f6c2264a0"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 32295,
+      "sha256": "a2a0de02d7da2ebabe089c8f9ed96e271820da5f49bb8ed513c894a24686cc97"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5567,
+      "sha256": "d26699c5d3fcdddf9fa82ba59c3298a7df033d4ca4cf863b141edcd2b1c155db"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "e8c3f212d3fbda40e06d689b8f0423de20bc75d2eb3e645e07f5152ab355a17b"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5451,
+      "sha256": "793d7de2cbed58f0189a70bbf24e551fafea382cd3b7929614b7071d6104f0e8"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5458,
+      "sha256": "98e18309c81a64e56239941b66570e20e32b91b25de14f98314cde52565a9031"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27211,
+      "sha256": "b0e781c5ddb9b779845bdf06990ff3db6b290d81fb8f98abfdedc1d5cbb1c882"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5486,
+      "sha256": "53bb65c2dd936b86031809eecf6ca6cfd7287324fc3152e9f63a68d13ef58419"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "64bd288a310477d7c4a45aace9dab999cc0b96146e9750aab8413216a6b17691"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5523,
+      "sha256": "4e4b2daed0ae514f977c8296710850d79d2c9d9a83e0b5bb2db63165b4607353"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5544,
+      "sha256": "f5ce9ac5bccc437c4cf27ce09557597b91a110aea551ab8bfb5a6058000c654f"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 32443,
+      "sha256": "0b28018fc70dec90de0af7f9ebb2066e861802eaab40e8effa52957dd9ea6278"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5578,
+      "sha256": "f379176158c0888022eb5f889c95264cb0352c5c0a9026e004542ac738111e53"
+    },
+    {
+      "path": "quantum/hirshfeld/6589_off_target_N10/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "62b8b1719eb380027e92a8161404c7f219325806619512979d28165c2c5a281d"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5778,
+      "sha256": "89986c927663391068c585cb26737045d68c5c79050f742dc5b826f1224254b1"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5787,
+      "sha256": "f18584579a0a9f1b3b58cb658445bb8b1f7e61d801799bd3f5d3221716667848"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27701,
+      "sha256": "035327cff6de650af43d3b8fdfe9b76edc245af46912f99dbb3f8c3824bf0310"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5816,
+      "sha256": "a89836ec39daeaed2cd20fc7fde0fad7dd2b7e3aa83e9e104cbfc75e8f84682d"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "5f3c0ed4a323e53110804c97856eadc94057c952fc1e5c5d6a78eaaa39cf534b"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5697,
+      "sha256": "16016798b5791968443b648fdc8dbd62b6d01c1c2b30e83d62b65bf3b81116fc"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5699,
+      "sha256": "7b9b744a5da5578e6f29c55033f08206799784d7976dc377363f87447a736c78"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 22613,
+      "sha256": "ffec9aa4845bc511899cb30efb046b117081e5d1b5b628435c0b5257f8c6849e"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5728,
+      "sha256": "e95d2598673e4db0f7d8c94854606676dc1e411527f522a3eee161163a197b40"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "1ee9af5cc3a7df960f8fc0576a0105c75131fce489b9e01f93c567013c8b3a4b"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5781,
+      "sha256": "443738a6bf2ae4ade6a180e492401be2f41123ff37af2dee6f982dc91de3123d"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5788,
+      "sha256": "0f6f49ed1f4f36285f69df5cbdb7446770f7a374a176b14da4284ba7d6059c07"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27806,
+      "sha256": "24e74fbef2fcc2255ffffe25d11087b8969a30fef6a93fe866ffc090b1c41109"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5825,
+      "sha256": "6d2345a2562fd4e11fe52a325de7df18ff59222abe085d990f7d13335a7eca34"
+    },
+    {
+      "path": "quantum/hirshfeld/6675_off_target_N12/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "8974ddf92cdb68f8324788cc36d9b9f9dacad8db1b776d940b00139f67266ce8"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5472,
+      "sha256": "359106292f4c48ef6b9e4c961b7aec6369fe9eca0ffb20f91edc22016716600d"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5476,
+      "sha256": "11930a96023bbae8e823b835c6c0d8095418cc5a3e93bb15337656cebe1c81b8"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27205,
+      "sha256": "cd53c25e6c57f1020760cbcdb0bad721c2892f2d80e74583dad56d41b0a7b390"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5504,
+      "sha256": "fc0c8eedeece91f6e94e33dab737af0d7fcb5c99c6e37b041bfa1c18530a875c"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "08ea0f28f75d2efd78c6d839441f746e5b8355fdbd0d019cb2e4d89e70215ce0"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5378,
+      "sha256": "7df977952c75d364a2ee2b9d0c0c788808013202777b98059d3997db2547ad00"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5394,
+      "sha256": "715a95432d95a7cd3a14fa866a5e5c934b438382126d34cad27bc56b9a6acc0f"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 27081,
+      "sha256": "72f5df529bb1b35a8822cbeb423444a7f3472dd7117e2cf9bc85d2e589c52d10"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 5420,
+      "sha256": "4400adfc2f5732aa523b62c1d3f60d9c2d9ac2328cd1c1c015a929d3f05e4184"
+    },
+    {
+      "path": "quantum/hirshfeld/6874_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "6fd9ad4136f0a1ef96b990e71e6b6f6a68cdfd5d53a181dc461c3993b09595da"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4258,
+      "sha256": "0174cb0484c0090f7c259b873eedbaa56ee1a17f89f5e9e44fc7fdb807a8d322"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4266,
+      "sha256": "18e2d33893adf6c08fc65169320cb29b31120c598493e8b61fa2d7a922619c51"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 25471,
+      "sha256": "3dda070bccba574c2142390b742d579143480093336e96a7ce0b7467a2560e2e"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4281,
+      "sha256": "a8e0e98f8edcba2f04c658ac1deaf0950e667f319c2dc9f0f8cfaf07265183ba"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "c872dae5f3a20e145ce3e22d3d0572f81c6bd24aaf787dbbf05ee6c59bee2208"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4175,
+      "sha256": "3cddd3bcf99c4b07ee9ef19ffe012bd98765d7e8061a05b0e1c78d7207d5ff05"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4164,
+      "sha256": "0ab53942cb0182ebd9f3141fe3ac04447a4f82351ebb6ece82fd9be4353e72ac"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 25342,
+      "sha256": "38cb20392361a8cece3c0b2b6c8a45808d6ce4a6d00e9a72dc80d3ddef432447"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4177,
+      "sha256": "e38babcd296677af545c652d38b44b34082c411ea6da0235aeb52528e689de43"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "f74d11a7341305121bcec732da4472362ad602a79588ec6fe2a1e3e0bef74d41"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4257,
+      "sha256": "b237433aab529f3dfb746a7e23734503f9d44cb3a80f90807a798808c1bd3533"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4255,
+      "sha256": "3931456172c7e5fa514cb7b3c0170064859bc28c87886b0bfc2efc1362b05719"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 25580,
+      "sha256": "ed12c6e5597a32ff66ffa0a6d5fb132a9cf6b2c6ceaca69e4ddfb221d4e6ee1f"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4277,
+      "sha256": "5ea33a17c425ce547c68e09686d431e888cbcd8c9af715e0409f4f03a4cfe947"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N18/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "50da81a73d614921f39e6893d6d93bc65dfd25c105bba2046d01d4e273ea6271"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4258,
+      "sha256": "36fca771b0221888c5219656f203713f46af06f02dc37a6f7a3e30cdbd2fb7b6"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4256,
+      "sha256": "3beec52f0f5ba226ea08ec3d4724a19c08357391d252d7005d9e49bb12cc1ede"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 25560,
+      "sha256": "55dd3153449ec8dea5399e863dcf49415143d8835488395644dbb78762f7f79c"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4275,
+      "sha256": "59ad43157b6915d7697044b8b8612ac2041ce1edc1e8ded4af57fbc597118c10"
+    },
+    {
+      "path": "quantum/hirshfeld/6972_off_target_N9/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "ba33f13aaf02db58b63eacbc72bd06adfe80350faed78232372b38e9eeb85ad2"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4272,
+      "sha256": "e7fed8520be666ba7e8049ddc98d2b964cf36d614bf25f939428f547a06e92a5"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4283,
+      "sha256": "1536685fd5d27e320a37a9fdfa890c678a306f3cbcb85bb0d226fb96711ce8fd"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 30151,
+      "sha256": "443cd5560f5dbcbae9c1d7febf24f3b4e66b90145920363e44850b6a455c8b5d"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4299,
+      "sha256": "d4a16af670915ca324e191426e9a929ba1be26b4095d18a7bb97c4f470b41507"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_N_oxide/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "316bc6edfa2ad9f02f78a9db167782b10c3ac82229ef2f668e0dbcaa65e44e3e"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/grid_4.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4181,
+      "sha256": "4f66cda51bdfdaee73c14cf7fe242442a99ccc8674ff0fc88b0c59781a22698b"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/grid_5.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4179,
+      "sha256": "efb6c2c52d9d562cc7112e7264d2b97b7333dd3b51c49d3ee0d1e429b884fac1"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/native_analysis.log",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 25063,
+      "sha256": "1915b91205c416f8995c26b7ba87cf5cf96ef24ec297960aaa8f1b8f120ccb42"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/protocol.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 1756,
+      "sha256": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/result.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 4192,
+      "sha256": "74a7f860770741e732e0bc1a3d516c2e7370edca0a0a74bd3ea7cd77d8fb8091"
+    },
+    {
+      "path": "quantum/hirshfeld/7804_neutral/source_binding.json",
+      "section": "S7.3",
+      "displays": "Table S27; Figure S5",
+      "purpose": "Archived Hirshfeld integration and grid-convergence records",
+      "bytes": 924,
+      "sha256": "053a9daacdf6c43341a30ae096e83d8eb7e790883f302a433ad6e4287f873b1a"
+    },
+    {
+      "path": "quantum/manifest.json",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 69999,
+      "sha256": "2e751b463e56513175f434b4588ed60546496765288f3025948ba0a6949eca71"
+    },
+    {
+      "path": "quantum/original_dft_protocol.json",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 4834,
+      "sha256": "4b9b16e1da2cbc18eb48d7661eee304667785f90abb7a408f9f876ade0a0cac3"
+    },
+    {
+      "path": "quantum/original_hirshfeld_protocol.json",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 985,
+      "sha256": "fc13b5e8d24a0bfebde7517f31181705e7b9edf398bf47d31bb32abc68908af8"
+    },
+    {
+      "path": "quantum/README.md",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 2098,
+      "sha256": "e70af69dc7a581c46a280a2df37aadc18e4d20addbbcdd3b9b9de82d7f28806b"
+    },
+    {
+      "path": "quantum/software_requirements.lock",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 87,
+      "sha256": "07501e4efbf2159279b137d3d8610edb466d2fcb7eaaccda8ccdd4ff0f07a6a8"
+    },
+    {
+      "path": "quantum/structure_inventory.csv",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 7627,
+      "sha256": "f1b12114f79fb2449aabaf134ca85a0873d786a2b58a7d5ba215ce92971f31e0"
+    },
+    {
+      "path": "quantum/structure_manifest.json",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 366126,
+      "sha256": "258fac7e7f43a6c4656293d1f2c5e8a92a1f8af0ca23b1aab5b217a3418843f0"
+    },
+    {
+      "path": "quantum/xtb_all_atom_q_fminus.csv",
+      "section": "S7.3--S7.4",
+      "displays": "Figure S5; Tables S25--S27",
+      "purpose": "Electronic-state inventory, atom populations, structural mapping or method provenance",
+      "bytes": 45240,
+      "sha256": "3d621de4a8a15292591ec80318b58122b335c563643807628bfd16169a29e5b3"
+    },
+    {
+      "path": "spatial/reference/analysis_protocol.json",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 9040,
+      "sha256": "8a9a85de4df665711eb16591f2551833bdd6e9631289f27853a5fc5dade616cb"
+    },
+    {
+      "path": "spatial/reference/analysis_summary.json",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 6409,
+      "sha256": "69f03781d926d9e0554fb29c94e4ade0a2df12a040118f98b7cfb889d01067b0"
+    },
+    {
+      "path": "spatial/reference/joined_38_fragments.csv",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 43386,
+      "sha256": "5dc86af54552d0b56bd9e4b84ad377f6780008ac17c555083566bf7612949494"
+    },
+    {
+      "path": "spatial/reference/steric_fragments.csv",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 5710,
+      "sha256": "932126d23756aa9284d6f6f03cd88109135b1c0fb99979b7e075dd7ec2e7409b"
+    },
+    {
+      "path": "spatial/reference/steric_leave_one_cluster_out.csv",
+      "section": "S7.2",
+      "displays": "Figure S4b; accompanying data",
+      "purpose": "Complete leave-one-scaffold-cluster-out responses",
+      "bytes": 1312,
+      "sha256": "b1543296628528ffd2416b052dde15c27e7e9c7a25c8642b2badbca47920bba3"
+    },
+    {
+      "path": "spatial/reference/steric_orientations.csv",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 21244,
+      "sha256": "2699aee2204e344169b2bf074b469299d5317c3fd86a2de85e1a98f2fc552fc3"
+    },
+    {
+      "path": "spatial/reference/steric_test_fragment_replay.csv",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 12234,
+      "sha256": "1a75ca16963073dde3e1f299bb61bd8aeab10d2c734f17b71c2295d75bf62ff9"
+    },
+    {
+      "path": "spatial/spatial_cluster_dictionary.csv",
+      "section": "S7.2",
+      "displays": "Figure S4; Table S24",
+      "purpose": "Cluster dictionary or unchanged original spatial source/reference file",
+      "bytes": 1181,
+      "sha256": "65963e058b2123eee94a0586c98af71912298088b7b4d9acf6301645e1568819"
+    },
+    {
+      "path": "spatial/spatial_fragment_details.csv",
+      "section": "S7.2",
+      "displays": "Figure 4b; accompanying data",
+      "purpose": "All 38 fragment-level controlled responses and linked generation outcomes",
+      "bytes": 4731,
+      "sha256": "0e1cc73498910608fb24a166c1169fe330c0cd6d636c442e5b58c46bd55535e8"
+    },
+    {
+      "path": "spatial/spatial_leave_one_cluster_out.csv",
+      "section": "S7.2",
+      "displays": "Figure S4b; accompanying data",
+      "purpose": "Complete leave-one-scaffold-cluster-out responses",
+      "bytes": 1997,
+      "sha256": "49e1f14dba9d0b278f1319a964dc6b84333af051b9dc85d8347b0ef3c73a1c4f"
+    },
+    {
+      "path": "spatial/spatial_noise_statistics.csv",
+      "section": "S7.2",
+      "displays": "Figure S4a; Table S24",
+      "purpose": "Diffusion-time and coordinate-centering summary statistics",
+      "bytes": 1087,
+      "sha256": "1d54ec48285e70a11d49209425f17a600fa9656c878f0852db8bc450d0160fd8"
+    },
+    {
+      "path": "structures/structure_identities.csv",
+      "section": "S7.4",
+      "displays": "Figure S6; Table S25",
+      "purpose": "Mapped chemical identities, molecular formulas and oxidation-site correspondence",
+      "bytes": 6534,
+      "sha256": "e48e54337c55d5cba9ae03c63fc806a9f97020940701598e54bc6598a5ad81ce"
+    },
+    {
+      "path": "quantum/electronic_states.json",
+      "section": "S7.3--S7.4",
+      "displays": "Tables S25--S27",
+      "purpose": "Links the 34 electronic states to their original calculation result.",
+      "sha256": "73ca227e66f72a13012fceaf6724eaf735bdadb4521044813f5536fb7e88613f",
+      "bytes": 6617
+    }
+  ]
+}

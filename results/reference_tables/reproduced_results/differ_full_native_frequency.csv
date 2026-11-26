@@ -1,0 +1,9 @@
+model,dataset,mode,protocol,top_k,hits,n,percent
+DiffER,full,known,native_plurality,1,6636,9250,71.74054054054054
+DiffER,full,known,native_plurality,3,8115,9250,87.72972972972973
+DiffER,full,known,native_plurality,5,8268,9250,89.38378378378378
+DiffER,full,known,native_plurality,10,8324,9250,89.98918918918919
+DiffER,full,unknown,native_plurality,1,6317,9250,68.2918918918919
+DiffER,full,unknown,native_plurality,3,7859,9250,84.96216216216216
+DiffER,full,unknown,native_plurality,5,8022,9250,86.72432432432433
+DiffER,full,unknown,native_plurality,10,8111,9250,87.68648648648649

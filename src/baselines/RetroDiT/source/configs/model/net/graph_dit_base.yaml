@@ -1,0 +1,31 @@
+_target_: src.models.GraphDiT
+
+graph_vocab: ${data.graph_vocab}
+
+extra_cfg:
+  sym_E: False
+  on_data: True
+  on_noise: True
+  use_cycles: False
+  use_eigens: False
+  max_n_len: ${data.max_n_len} # for normalizing eigenvalues
+
+cond_cfg: ${data.cond_cfg}
+
+
+x_dim: ???
+e_dim: ???
+n_layers: ???
+n_heads: ???
+dropout: 0.0
+symmetry_E: True
+rotray_emb: True
+
+pos_emb: False
+fix_product_nodes: False
+
+block_cfg:
+  module: src.models.net.graph_dit.blocks.DDiTBlock
+
+
+model_desc: GraphDiT

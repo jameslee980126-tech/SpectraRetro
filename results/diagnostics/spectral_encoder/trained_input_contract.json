@@ -1,0 +1,11 @@
+{
+  "scope": "Two mapped fixture reactions; CPU inference using archived trained seed0 checkpoint; not full-test reevaluation",
+  "node_feature_dim": 43,
+  "edge_feature_dim": 20,
+  "changed_class_max_abs_diff": 0.0,
+  "deleted_class_max_abs_diff": 0.0,
+  "repeat_max_abs_diff": 0.0,
+  "num_candidates": 92,
+  "parameter_count": 5349894,
+  "strict_checkpoint_load": true
+}

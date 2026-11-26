@@ -1,0 +1,333 @@
+{
+  "status": "passed",
+  "scope": "Independent read-only check of saved known-mode Stage1 draws, original decoded CSV, formal per-reaction flags and size bank for panels B/C. No new candidate generation or model forward.",
+  "rdkit": "2026.03.1",
+  "no_training_no_sampling_no_reranker_forward": true,
+  "conditioning_boundary": {
+    "B_C_reference_synthon_conditioned": true,
+    "basis": "Actual input fragments and anchors are read from prepared similarity_test_table.csv and bound by uuid/reaction_id via test_record_map.csv. These are the saved reference-derived fixed fragments, not alternate reactants reconstructed from wrong center proposals.",
+    "claim_allowed": "Isolate completion coverage (B) and reranking of already generated candidates (C) under this saved reference-fragment protocol.",
+    "claim_not_allowed": "Strict product-only end-to-end examples or proof that erroneous Stage1 proposals produced these candidates.",
+    "raw_representation": "Original decoded SMILES contain radicals. Formal exact-string counts and canonical checks preserve them. Hydrogen-restored normal molecules are only separately labeled connectivity diagnostics, never substitute scored outputs.",
+    "coordinates_limit": "Per-draw decoded heavy-atom increments were checked against the saved shared size arrays; native XYZ coordinates were not re-decoded."
+  },
+  "cases": [
+    {
+      "reaction_id": "test:007779",
+      "panel": "B",
+      "stage1": {
+        "gold_index": 5,
+        "rank": 1,
+        "gold_probability_saved": 1.0,
+        "correct_draws_independently_counted": 300,
+        "total_draws": 300
+      },
+      "reference": {
+        "raw": "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)C(=O)[O].[C]1=N[C]=[C]O1",
+        "standard_sanitizes": true,
+        "canonical_preserving_radicals_H_stereo": "[O]C(=O)c1[c][c]c2[c][c][c][c]c2[c]1.[c]1[c]o[c]n1",
+        "radical_electrons": 11,
+        "has_radicals": true,
+        "H_restoration_diagnostic_only": "O=C(O)c1ccc2ccccc2c1.c1cocn1"
+      },
+      "raw_reference_count": 0,
+      "canonical_reference_count": 0,
+      "frequency_reference_rank_recomputed": null,
+      "fusion_reference_rank_from_saved_frozen_replay": null,
+      "fusion_top1": {
+        "raw": "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)Br.[C]1=N[C]=[C]O1",
+        "standard_sanitizes": true,
+        "canonical_preserving_radicals_H_stereo": "Brc1[c][c]c2[c][c][c][c]c2[c]1.[c]1[c]o[c]n1",
+        "radical_electrons": 10,
+        "has_radicals": true,
+        "H_restoration_diagnostic_only": "Brc1ccc2ccccc2c1.c1cocn1",
+        "raw_count_independently_counted": 216,
+        "frequency_rank_recomputed": 1,
+        "saved_fusion_rank": 1
+      },
+      "unique_candidates_recomputed": 31,
+      "all_saved_candidate_frequency_and_baseline_ranks_match_raw": true,
+      "saved_fusion_order_matches_saved_scores": true,
+      "formal_metrics_all_views_topk_match": true,
+      "fusion_ranking_limit": "Exact fusion ranks read from existing frozen replay and checked against saved scores and formal Top-k flags; no ranker forward recomputed in this independent check.",
+      "original_reaction_smiles": "O=C(O)[c:6]1[cH:5][c:4]2[cH:3][cH:2][cH:1][cH:15][c:14]2[cH:13][cH:12]1.[cH:7]1[n:8][cH:9][cH:10][o:11]1>>[cH:1]1[cH:2][cH:3][c:4]2[cH:5][c:6](-[c:7]3[n:8][cH:9][cH:10][o:11]3)[cH:12][cH:13][c:14]2[cH:15]1",
+      "source_reactants_canonical": "O=C(O)c1ccc2ccccc2c1.c1cocn1",
+      "fragments": [
+        {
+          "uuid": "13009",
+          "raw_row_location": {
+            "data_row_zero_based": 7805,
+            "physical_line_one_based": 7807
+          },
+          "source_table_row": "9104",
+          "original_reference_molecule": "O=C(O)[c:6]1[cH:5][c:4]2[cH:3][cH:2][cH:1][cH:15][c:14]2[cH:13][cH:12]1",
+          "fixed_reference_synthon": "[cH:1]1[cH:2][cH:3][c:4]2[cH:5][c:6][cH:12][cH:13][c:14]2[cH:15]1",
+          "anchors": "5",
+          "true_hidden_heavy_atoms": 3,
+          "fixed_reference_heavy_atoms": 10,
+          "reference_raw": "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)C(=O)[O]",
+          "raw_reference_fragment_count": 0,
+          "size_bank_distribution": {
+            "3": 62,
+            "1": 226,
+            "4": 3,
+            "0": 8,
+            "8": 1
+          },
+          "decoded_size_increment_distribution": {
+            "3": 62,
+            "1": 226,
+            "4": 3,
+            "0": 8,
+            "8": 1
+          },
+          "decoded_sizes_match_bank_all_300": true,
+          "correct_size_count": 62,
+          "correct_size_standard_parseable_count": 54,
+          "correct_size_same_element_composition_count": 0,
+          "correct_size_composition_distribution": {
+            "{'B': 1, 'C': 10, 'O': 2}": 42,
+            "{'B': 1, 'C': 10, 'Cl': 1, 'O': 1}": 9,
+            "{'B': 1, 'C': 11, 'O': 1}": 2,
+            "{'C': 11, 'Cl': 1, 'O': 1}": 1
+          },
+          "top_fragment_raw_counts": [
+            [
+              "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)Br",
+              217
+            ],
+            [
+              "[C]1=[C]C2=C([C]=[C]1)[C]=C([C]=[C]2)B([O])[O]",
+              25
+            ],
+            [
+              "[C]1=[C]C2=C([C]=[C]1)[C]=[C][C]=[C]2",
+              8
+            ]
+          ]
+        },
+        {
+          "uuid": "13010",
+          "raw_row_location": {
+            "data_row_zero_based": 2763,
+            "physical_line_one_based": 2765
+          },
+          "source_table_row": "9104",
+          "original_reference_molecule": "[cH:7]1[n:8][cH:9][cH:10][o:11]1",
+          "fixed_reference_synthon": "[c:7]1[n:8][cH:9][cH:10][o:11]1",
+          "anchors": "0",
+          "true_hidden_heavy_atoms": 0,
+          "fixed_reference_heavy_atoms": 5,
+          "reference_raw": "[C]1=N[C]=[C]O1",
+          "raw_reference_fragment_count": 299,
+          "size_bank_distribution": {
+            "0": 299,
+            "1": 1
+          },
+          "decoded_size_increment_distribution": {
+            "0": 299,
+            "1": 1
+          },
+          "decoded_sizes_match_bank_all_300": true,
+          "correct_size_count": 299,
+          "correct_size_standard_parseable_count": 299,
+          "correct_size_same_element_composition_count": 299,
+          "correct_size_composition_distribution": {
+            "{'C': 3, 'N': 1, 'O': 1}": 299
+          },
+          "top_fragment_raw_counts": [
+            [
+              "[C]1=N[C]=[C]O1",
+              299
+            ],
+            [
+              "C1(=N[C]=[C]O1)Br",
+              1
+            ]
+          ]
+        }
+      ],
+      "reference_H_diagnostic_matches_original": true
+    },
+    {
+      "reaction_id": "test:007180",
+      "panel": "C",
+      "stage1": {
+        "gold_index": 10,
+        "rank": 1,
+        "gold_probability_saved": 1.0,
+        "correct_draws_independently_counted": 300,
+        "total_draws": 300
+      },
+      "reference": {
+        "raw": "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)Br.[C]1=[C]N=[C]S1",
+        "standard_sanitizes": true,
+        "canonical_preserving_radicals_H_stereo": "[C]Oc1[c]c([N+](=O)[O-])[c][c]c1Br.[c]1[c]s[c]n1",
+        "radical_electrons": 9,
+        "has_radicals": true,
+        "H_restoration_diagnostic_only": "COc1cc([N+](=O)[O-])ccc1Br.c1cscn1"
+      },
+      "raw_reference_count": 188,
+      "canonical_reference_count": 188,
+      "frequency_reference_rank_recomputed": 1,
+      "fusion_reference_rank_from_saved_frozen_replay": 2,
+      "fusion_top1": {
+        "raw": "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)I.[C]1=[C]N=[C]S1",
+        "standard_sanitizes": true,
+        "canonical_preserving_radicals_H_stereo": "[C]Oc1[c]c([N+](=O)[O-])[c][c]c1I.[c]1[c]s[c]n1",
+        "radical_electrons": 9,
+        "has_radicals": true,
+        "H_restoration_diagnostic_only": "COc1cc([N+](=O)[O-])ccc1I.c1cscn1",
+        "raw_count_independently_counted": 42,
+        "frequency_rank_recomputed": 2,
+        "saved_fusion_rank": 1
+      },
+      "unique_candidates_recomputed": 19,
+      "all_saved_candidate_frequency_and_baseline_ranks_match_raw": true,
+      "saved_fusion_order_matches_saved_scores": true,
+      "formal_metrics_all_views_topk_match": true,
+      "fusion_ranking_limit": "Exact fusion ranks read from existing frozen replay and checked against saved scores and formal Top-k flags; no ranker forward recomputed in this independent check.",
+      "original_reaction_smiles": "Br[c:11]1[c:3]([O:2][CH3:1])[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10]1.[cH:12]1[cH:13][n:14][cH:15][s:16]1>CC(=O)N(C)C.CC(=O)[O-].[K+].c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1>[CH3:1][O:2][c:3]1[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10][c:11]1-[c:12]1[cH:13][n:14][cH:15][s:16]1",
+      "source_reactants_canonical": "COc1cc([N+](=O)[O-])ccc1Br.c1cscn1",
+      "fragments": [
+        {
+          "uuid": "11826",
+          "raw_row_location": {
+            "data_row_zero_based": 8905,
+            "physical_line_one_based": 8907
+          },
+          "source_table_row": "8373",
+          "original_reference_molecule": "Br[c:11]1[c:3]([O:2][CH3:1])[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10]1",
+          "fixed_reference_synthon": "[CH3:1][O:2][c:3]1[cH:4][c:5]([N+:6](=[O:7])[O-:8])[cH:9][cH:10][c:11]1",
+          "anchors": "10",
+          "true_hidden_heavy_atoms": 1,
+          "fixed_reference_heavy_atoms": 11,
+          "reference_raw": "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)Br",
+          "raw_reference_fragment_count": 207,
+          "size_bank_distribution": {
+            "1": 277,
+            "0": 15,
+            "4": 1,
+            "5": 3,
+            "8": 3,
+            "13": 1
+          },
+          "decoded_size_increment_distribution": {
+            "1": 277,
+            "0": 15,
+            "4": 1,
+            "5": 3,
+            "8": 3,
+            "13": 1
+          },
+          "decoded_sizes_match_bank_all_300": true,
+          "correct_size_count": 277,
+          "correct_size_standard_parseable_count": 277,
+          "correct_size_same_element_composition_count": 209,
+          "correct_size_composition_distribution": {
+            "{'C': 7, 'Cl': 1, 'N': 1, 'O': 3}": 13,
+            "{'C': 7, 'I': 1, 'N': 1, 'O': 3}": 49,
+            "{'Br': 1, 'C': 7, 'N': 1, 'O': 3}": 209,
+            "{'C': 7, 'N': 2, 'O': 3}": 4,
+            "{'C': 8, 'N': 1, 'O': 3}": 2
+          },
+          "top_fragment_raw_counts": [
+            [
+              "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)Br",
+              207
+            ],
+            [
+              "[C]OC1=C([C]=[C]C(=[C]1)N(=O)=O)I",
+              49
+            ],
+            [
+              "[C]OC1=[C][C]=[C]C(=[C]1)N(=O)=O",
+              15
+            ]
+          ]
+        },
+        {
+          "uuid": "11827",
+          "raw_row_location": {
+            "data_row_zero_based": 2715,
+            "physical_line_one_based": 2717
+          },
+          "source_table_row": "8373",
+          "original_reference_molecule": "[cH:12]1[cH:13][n:14][cH:15][s:16]1",
+          "fixed_reference_synthon": "[c:12]1[cH:13][n:14][cH:15][s:16]1",
+          "anchors": "0",
+          "true_hidden_heavy_atoms": 0,
+          "fixed_reference_heavy_atoms": 5,
+          "reference_raw": "[C]1=[C]N=[C]S1",
+          "raw_reference_fragment_count": 273,
+          "size_bank_distribution": {
+            "0": 273,
+            "1": 26,
+            "3": 1
+          },
+          "decoded_size_increment_distribution": {
+            "0": 273,
+            "1": 26,
+            "3": 1
+          },
+          "decoded_sizes_match_bank_all_300": true,
+          "correct_size_count": 273,
+          "correct_size_standard_parseable_count": 273,
+          "correct_size_same_element_composition_count": 273,
+          "correct_size_composition_distribution": {
+            "{'C': 3, 'N': 1, 'S': 1}": 273
+          },
+          "top_fragment_raw_counts": [
+            [
+              "[C]1=[C]N=[C]S1",
+              273
+            ],
+            [
+              "C1(=[C]N=[C]S1)Br",
+              26
+            ],
+            [
+              "C1(=[C]N=[C]S1)B([O])[O]",
+              1
+            ]
+          ]
+        }
+      ],
+      "reference_H_diagnostic_matches_original": true
+    }
+  ],
+  "source_files": {
+    "decoded": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/result.csv",
+      "sha256": "07a1cc86c3d97b560fae669a7dd94b171fd01367fa83c46a095810e995ee460f"
+    },
+    "metrics": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/results/full/reaction_metrics.json",
+      "sha256": "2ec6609d7f2d1546c231d90fc5dd2097a20b4852c459cc9fcb6a75fdfb87c9b8"
+    },
+    "sizes": {
+      "path": "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation/shared_sizes.npz",
+      "sha256": "63020165e5a9641d6f24c1f0397e2ce88df05a2b6b690eec6a7d7c1d5f03bbf4"
+    },
+    "table": {
+      "path": "experiments/spectraretro_inputs/final_test/prepared/similarity_test_table.csv",
+      "sha256": "4bd2d133c627abec55c0ad2e3460659c24cf116e61dc2517ae9b64f77378ccf3"
+    },
+    "mapping": {
+      "path": "experiments/spectraretro_inputs/final_test/prepared/test_record_map.csv",
+      "sha256": "de6906b6ba2568dd9aee212cc156b66429f0deb065ad23b8174d1cef0d425dfe"
+    },
+    "centers": {
+      "path": "source-record:prepared/stage1_known_test_predictions.jsonl",
+      "sha256": "8914525567d7a9bf980c36ad567cc133a029e49f51a7037eeec37943fa68243e"
+    },
+    "B_prior": {
+      "path": "source-record:three_error_types_review_20261021/generation_candidates.json",
+      "sha256": "d9ce3d04a1fd46cbde67db6be7e8cb45c5fc927d0b847e48497b47ec132e35b0"
+    },
+    "C_prior": {
+      "path": "source-record:three_error_types_review_20261021/third_type_candidates.json",
+      "sha256": "90a12aa8ad1ffa3fc71532bfa021328d2dd5b7f79b4310e26baf09c21694f6ff"
+    }
+  }
+}

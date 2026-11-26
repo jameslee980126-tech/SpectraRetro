@@ -1,0 +1,16 @@
+{
+  "mode": "unknown",
+  "seed": 2,
+  "seed_applicability": "inference has no stochastic sampling or learned weights",
+  "jobs": 6,
+  "parallel_backend": "fork_process_pool_ordered_map",
+  "max_precedents": 100,
+  "beam": 50,
+  "fingerprint": "Morgan2Feat",
+  "similarity": "Tanimoto",
+  "early_stopping": "not applicable: nonparametric, exit after all 2400 queries",
+  "hard_limit_seconds": 7200,
+  "unknown_input": "product_only",
+  "known_input": "product_and_true_class",
+  "cache_sha256": "fe2434934c4b2f000cb68c5ecbd1d7250ef514c46effc366eb556a0114148c82"
+}

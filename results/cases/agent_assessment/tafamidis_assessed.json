@@ -1,0 +1,2859 @@
+{
+  "target": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+  "solved": true,
+  "routes": [
+    {
+      "steps": [
+        {
+          "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "precursors": [
+            "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.2,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 6,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-05",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-05_0",
+                    "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                    "matching_draw_count": 6
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-05",
+              "reaction_family": "amide_hydrolysis",
+              "source_url": "https://doi.org/10.1002/chem.201101091",
+              "source_locator": "Main article p10120 Scheme 9 and same Tafamidis paragraph: HF/pyridine amide hydrolysis; SI transcription Tafamidis paragraph"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+          "precursors": [
+            "Clc1cc(Cl)cc(I)c1",
+            "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.9666666666666667,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 870,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-04",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-04_0",
+                    "generated_smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_TAF-04_1",
+                    "generated_smiles": "Clc1cc(Cl)cc(I)c1",
+                    "matching_draw_count": 29
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-04",
+              "reaction_family": "CH_arylation",
+              "source_url": "https://doi.org/10.1002/chem.201101091",
+              "source_locator": "Main article p10120 Scheme 9 and paragraph beginning Tafamidis; SI transcription section titled Scheme 8, compound SI-2"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+          "precursors": [
+            "C1COCCN1",
+            "O=C(Cl)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.5333333333333333,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 480,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-03",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-03_0",
+                    "generated_smiles": "O=C(Cl)c1ccc2ncoc2c1",
+                    "matching_draw_count": 16
+                  },
+                  {
+                    "uuid": "all_exact_TAF-03_1",
+                    "generated_smiles": "C1COCCN1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-03",
+              "reaction_family": "amidation",
+              "source_url": "https://nagoya.repo.nii.ac.jp/record/20987/files/k11190_thesis.pdf",
+              "source_locator": "Kei Muto 2015 Nagoya University thesis, Chapter1 section4-5-2 Synthesis of Tafamidis; printed p53/PDF p59 (ring closure, acid chloride, morpholine amidation), product11 characterization continues printed p54/PDF p60. Official journal SI page remains unknown."
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(Cl)c1ccc2ncoc2c1",
+          "precursors": [
+            "O=C(Cl)C(=O)Cl",
+            "O=C(O)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.0026222222222222224,
+          "model_rank": 54,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 54,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 236,
+            "combination_slots": 90000,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-02",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-02_0",
+                    "generated_smiles": "O=C(O)c1ccc2ncoc2c1",
+                    "matching_draw_count": 236
+                  },
+                  {
+                    "uuid": "all_exact_TAF-02_1",
+                    "generated_smiles": "O=C(Cl)C(=O)Cl",
+                    "matching_draw_count": 1
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-02",
+              "reaction_family": "acid_chloride_formation",
+              "source_url": "https://nagoya.repo.nii.ac.jp/record/20987/files/k11190_thesis.pdf",
+              "source_locator": "Kei Muto 2015 Nagoya University thesis, Chapter1 section4-5-2 Synthesis of Tafamidis; printed p53/PDF p59 (ring closure, acid chloride, morpholine amidation), product11 characterization continues printed p54/PDF p60. Official journal SI page remains unknown."
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(O)c1ccc2ncoc2c1",
+          "precursors": [
+            "COC(OC)OC",
+            "Nc1ccc(C(=O)O)cc1O"
+          ],
+          "model_score": 0.015555555555555555,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 14,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-01",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-01_0",
+                    "generated_smiles": "Nc1ccc(C(=O)O)cc1O",
+                    "matching_draw_count": 14
+                  },
+                  {
+                    "uuid": "all_exact_TAF-01_1",
+                    "generated_smiles": "COC(OC)OC",
+                    "matching_draw_count": 1
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-01",
+              "reaction_family": "ring_formation",
+              "source_url": "https://nagoya.repo.nii.ac.jp/record/20987/files/k11190_thesis.pdf",
+              "source_locator": "Kei Muto 2015 Nagoya University thesis, Chapter1 section4-5-2 Synthesis of Tafamidis; printed p53/PDF p59 (ring closure, acid chloride, morpholine amidation), product11 characterization continues printed p54/PDF p60. Official journal SI page remains unknown."
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        }
+      ],
+      "score": 59.0,
+      "starting_materials": [
+        "C1COCCN1",
+        "COC(OC)OC",
+        "Clc1cc(Cl)cc(I)c1",
+        "Nc1ccc(C(=O)O)cc1O",
+        "O=C(Cl)C(=O)Cl"
+      ],
+      "all_edges_documented": true,
+      "experimental_feasibility_verified": false,
+      "model_order_index": 1,
+      "llm_assessment": {
+        "status": "complete",
+        "model": "deepseek-flash",
+        "input_sha256": "1a70ec492450ab24f5ac0e6d804df32e81607dc3373ef65082ae60c785b2ab46",
+        "scores": {
+          "chemical_plausibility": 6.5,
+          "strategic_coherence": 7.0,
+          "route_efficiency": 6.0,
+          "starting_material_suitability": 7.0
+        },
+        "total_score": 6.625,
+        "rationale": "该路线以5-氨基水杨酸为起始原料，经缩合环化构建苯并噁唑核心，随后依次进行酰氯化、吗啉酰胺化、与二氯碘苯的偶联以及酯水解得到目标产物。整体策略合理，但关键偶联步骤缺乏具体条件验证，且酰氯中间体稳定性可能影响后续步骤。所有起始原料仅根据库存边界判断，未评估实际可得性。",
+        "strengths": [
+          "起始原料均为结构简单的小分子，符合库存约束。",
+          "苯并噁唑环的构建采用原甲酸三甲酯与邻氨基酚的缩合，是经典可靠的方法。",
+          "酰胺化步骤使用酰氯与吗啉，反应可行性高。",
+          "最终水解步骤将酰胺转化为羧酸，与目标结构一致。"
+        ],
+        "concerns": [
+          "步骤2的偶联反应（二氯碘苯与苯并噁唑）缺乏具体条件，可能为Suzuki或直接芳基化，但无实验证据支持。",
+          "步骤4中酰氯中间体可能不稳定，且未提供反应条件，存在水解或副反应风险。",
+          "步骤1的酰胺化使用酰氯，但未说明碱和溶剂，可能影响收率。",
+          "整体路线未涉及保护基策略，但官能团相容性尚可。",
+          "所有步骤均无实验产率或条件数据，无法评估实际效率。",
+          "未提供供应商证据，无法断言起始原料的商业可得性或易制备性。"
+        ],
+        "critical_steps": [
+          {
+            "step": 2,
+            "concern": "偶联反应类型不明确，缺乏条件验证，可能无法实现或产率低。"
+          },
+          {
+            "step": 4,
+            "concern": "酰氯中间体的生成与后续反应条件未知，可能因水解或分解导致失败。"
+          }
+        ],
+        "rank": 1
+      }
+    },
+    {
+      "steps": [
+        {
+          "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "precursors": [
+            "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.2,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 6,
+            "combination_slots": 30,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-05",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-05_0",
+                    "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                    "matching_draw_count": 6
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-05",
+              "reaction_family": "amide_hydrolysis",
+              "source_url": "https://doi.org/10.1002/chem.201101091",
+              "source_locator": "Main article p10120 Scheme 9 and same Tafamidis paragraph: HF/pyridine amide hydrolysis; SI transcription Tafamidis paragraph"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+          "precursors": [
+            "Clc1cc(Cl)cc(I)c1",
+            "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+          ],
+          "model_score": 0.9666666666666667,
+          "model_rank": 1,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 1,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 870,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-04",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-04_0",
+                    "generated_smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                    "matching_draw_count": 30
+                  },
+                  {
+                    "uuid": "all_exact_TAF-04_1",
+                    "generated_smiles": "Clc1cc(Cl)cc(I)c1",
+                    "matching_draw_count": 29
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-04",
+              "reaction_family": "CH_arylation",
+              "source_url": "https://doi.org/10.1002/chem.201101091",
+              "source_locator": "Main article p10120 Scheme 9 and paragraph beginning Tafamidis; SI transcription section titled Scheme 8, compound SI-2"
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        },
+        {
+          "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+          "precursors": [
+            "C1COCCN1",
+            "O=C(O)c1ccc2ncoc2c1"
+          ],
+          "model_score": 0.4666666666666667,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 420,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-03",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-03_0",
+                    "generated_smiles": "O=C(O)c1ccc2ncoc2c1",
+                    "matching_draw_count": 14
+                  },
+                  {
+                    "uuid": "all_exact_TAF-03_1",
+                    "generated_smiles": "C1COCCN1",
+                    "matching_draw_count": 30
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": null,
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": true,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": "carboxylic acid + secondary amine amidation"
+            }
+          }
+        },
+        {
+          "product": "O=C(O)c1ccc2ncoc2c1",
+          "precursors": [
+            "COC(OC)OC",
+            "Nc1ccc(C(=O)O)cc1O"
+          ],
+          "model_score": 0.015555555555555555,
+          "model_rank": 2,
+          "source": "latest_case_fixed_core_generated_bank",
+          "metadata": {
+            "given_known_core_condition": true,
+            "case_training_contact": true,
+            "inventory_completion_used": false,
+            "reference_unknown_structure_input": false,
+            "cross_draw_assembly": true,
+            "new_sampling": false,
+            "candidate_bank_rank": 2,
+            "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+            "weights_sha256": {
+              "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+              "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+            },
+            "empirical_fragment_frequency_product": 14,
+            "combination_slots": 900,
+            "score_definition": "product of fragment frequencies; not calibrated confidence",
+            "support": [
+              {
+                "input_template": "TAF-01",
+                "fragments": [
+                  {
+                    "uuid": "all_exact_TAF-01_0",
+                    "generated_smiles": "Nc1ccc(C(=O)O)cc1O",
+                    "matching_draw_count": 14
+                  },
+                  {
+                    "uuid": "all_exact_TAF-01_1",
+                    "generated_smiles": "COC(OC)OC",
+                    "matching_draw_count": 1
+                  }
+                ]
+              }
+            ],
+            "effective_generation_banks": {
+              "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+              "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+            },
+            "literature_match": {
+              "step_id": "TAF-01",
+              "reaction_family": "ring_formation",
+              "source_url": "https://nagoya.repo.nii.ac.jp/record/20987/files/k11190_thesis.pdf",
+              "source_locator": "Kei Muto 2015 Nagoya University thesis, Chapter1 section4-5-2 Synthesis of Tafamidis; printed p53/PDF p59 (ring closure, acid chloride, morpholine amidation), product11 characterization continues printed p54/PDF p60. Official journal SI page remains unknown."
+            },
+            "chemistry_review": {
+              "structures_valid": true,
+              "forward_template_match": null,
+              "experimental_feasibility_verified": false,
+              "conditions_verified": false,
+              "template_name": null
+            }
+          }
+        }
+      ],
+      "score": 6.0,
+      "starting_materials": [
+        "C1COCCN1",
+        "COC(OC)OC",
+        "Clc1cc(Cl)cc(I)c1",
+        "Nc1ccc(C(=O)O)cc1O"
+      ],
+      "all_edges_documented": false,
+      "experimental_feasibility_verified": false,
+      "model_order_index": 0,
+      "llm_assessment": {
+        "status": "complete",
+        "model": "deepseek-flash",
+        "input_sha256": "12e99bac8c7b1b33639920681757494fa4d829d7b06eb16af30bec571f5aa568",
+        "scores": {
+          "chemical_plausibility": 5.5,
+          "strategic_coherence": 6.5,
+          "route_efficiency": 5.5,
+          "starting_material_suitability": 7.5
+        },
+        "total_score": 6.05,
+        "rationale": "该路线以4-氨基-2-羟基苯甲酸为起始原料，经原甲酸三甲酯环化构建苯并噁唑核心，随后通过酰胺缩合引入吗啉基团，再与1,3-二氯-5-碘苯进行偶联，最后酯水解得到目标羧酸。工具检查确认路线中无任何前体含硼，因此步骤2不能认定为Suzuki偶联；该步骤的反应类型和可行性缺乏证据支持，是整条路线的关键不确定性。其余步骤在结构上合理，但均无实验条件、产率或供应商数据。",
+        "strengths": [
+          "起始原料4-氨基-2-羟基苯甲酸结构简单，适合作为苯并噁唑构建前体。",
+          "苯并噁唑环化步骤（原甲酸三甲酯）为文献常见方法，结构上可行。",
+          "酰胺缩合步骤有正向模板匹配，表明结构一致性良好。",
+          "最终酯水解为标准转化，通常可行。"
+        ],
+        "concerns": [
+          "工具确认路线中无含硼前体，步骤2不能认定为Suzuki偶联；该步骤的实际反应类型和可行性未知，缺乏实验条件和产率数据。",
+          "酰胺化步骤（步骤3）中底物含酚羟基，可能干扰酰胺化反应，需要选择性保护或温和条件，但未提供相关证据。",
+          "所有步骤均无实验条件、产率或供应商信息，无法评估实际可行性和成本。",
+          "步骤4的环化反应使用原甲酸三甲酯，但未提供酸催化剂等条件，且区域选择性需验证。",
+          "整条路线未涉及保护基策略，酚羟基在后续步骤中的稳定性未知。"
+        ],
+        "critical_steps": [
+          {
+            "step": 2,
+            "concern": "工具确认无含硼前体，不能认定为Suzuki偶联；该步骤反应类型和可行性未知，且1,3-二氯-5-碘苯的位阻和电子效应可能影响偶联效率。"
+          },
+          {
+            "step": 3,
+            "concern": "酰胺化步骤中酚羟基可能竞争反应，导致选择性差或需要额外保护/脱保护步骤，增加路线长度。"
+          },
+          {
+            "step": 4,
+            "concern": "环化步骤使用原甲酸三甲酯，但未提供酸催化剂和反应条件，且底物中氨基和羟基的相对反应性需验证。"
+          }
+        ],
+        "rank": 2
+      }
+    }
+  ],
+  "model_calls": 89,
+  "expanded_products": [
+    "C#COC(O)Cl",
+    "CC(=O)C(C)Cl",
+    "CC(C)(O)OCl",
+    "CC(C)=COCl",
+    "CC(C)COCl",
+    "CC(C)OCCl",
+    "CC(Cl)C(O)Cl",
+    "CC(O)(Cl)C=O",
+    "CC(O)(Cl)CCl",
+    "CC(O)(Cl)OCl",
+    "CC(O)C(O)Cl",
+    "CC1(Cl)OC1Cl",
+    "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+    "CC1(O)OC1Cl",
+    "CC1(OCl)OO1",
+    "CC12OC1(Cl)O2",
+    "CC1OC1(Cl)Cl",
+    "CC1OC1(O)Cl",
+    "CC1OC1CCl",
+    "CC1OC1OCl",
+    "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOC(O)Cl",
+    "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOOCCl",
+    "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+    "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CNC(O)(O)Cl",
+    "COC(=O)OCl",
+    "COC(C)CCl",
+    "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COC(C)OCO",
+    "COC(C)OCl",
+    "COC(Cl)OC",
+    "COC(Cl)OCl",
+    "COC(Cl)OO",
+    "COC(O)(Cl)Cl",
+    "COC(O)(O)Cl",
+    "COC(O)OCl",
+    "COC1(C)CCO1",
+    "COC12CC1CO2",
+    "COC1CON1C",
+    "COC1OC1Cl",
+    "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCOCl",
+    "COOC(O)Cl",
+    "ClC(Cl)C(Cl)Cl",
+    "ClC12OC1(Cl)O2",
+    "ClC1OC1(Cl)Cl",
+    "ClOC1(Cl)CO1",
+    "ClOC12CC1O2",
+    "Clc1cc(Cl)cc(Br)c1",
+    "NC(=O)C(O)Cl",
+    "NC(Cl)C(O)Cl",
+    "NC1(O)OC1Cl",
+    "NC12OC1(Cl)O2",
+    "NC1OC1(O)Cl",
+    "Nc1ccc(C(=O)O)cc1N",
+    "O=C(Cl)C(Cl)Cl",
+    "O=C(Cl)C(O)Cl",
+    "O=C(Cl)C(O)O",
+    "O=C(Cl)C1OO1",
+    "O=C(Cl)c1ccc2ncoc2c1",
+    "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)C(O)Cl",
+    "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)c1ccc2ncoc2c1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+    "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+    "O=C1NC1(O)Cl",
+    "OC(Cl)(Cl)CCl",
+    "OC(Cl)C(Cl)Cl",
+    "OC(Cl)C(O)Cl",
+    "OC(Cl)COCl",
+    "OC(O)(Cl)CCl",
+    "OC(O)(Cl)OCl",
+    "OC(O)C(O)Cl",
+    "OC1(Cl)OC1Cl",
+    "OC1OC1(Cl)Cl",
+    "OC1OC1OCl",
+    "OCC(O)(Cl)Cl",
+    "OOC(Cl)OCl",
+    "OOC(O)(O)Cl"
+  ],
+  "candidate_hit_products": [
+    "O=C(Cl)c1ccc2ncoc2c1",
+    "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)c1ccc2ncoc2c1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+    "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+  ],
+  "empty_candidate_products": [
+    "C#COC(O)Cl",
+    "CC(=O)C(C)Cl",
+    "CC(C)(O)OCl",
+    "CC(C)=COCl",
+    "CC(C)COCl",
+    "CC(C)OCCl",
+    "CC(Cl)C(O)Cl",
+    "CC(O)(Cl)C=O",
+    "CC(O)(Cl)CCl",
+    "CC(O)(Cl)OCl",
+    "CC(O)C(O)Cl",
+    "CC1(Cl)OC1Cl",
+    "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+    "CC1(O)OC1Cl",
+    "CC1(OCl)OO1",
+    "CC12OC1(Cl)O2",
+    "CC1OC1(Cl)Cl",
+    "CC1OC1(O)Cl",
+    "CC1OC1CCl",
+    "CC1OC1OCl",
+    "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOC(O)Cl",
+    "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CCOOCCl",
+    "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+    "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "CNC(O)(O)Cl",
+    "COC(=O)OCl",
+    "COC(C)CCl",
+    "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COC(C)OCO",
+    "COC(C)OCl",
+    "COC(Cl)OC",
+    "COC(Cl)OCl",
+    "COC(Cl)OO",
+    "COC(O)(Cl)Cl",
+    "COC(O)(O)Cl",
+    "COC(O)OCl",
+    "COC1(C)CCO1",
+    "COC12CC1CO2",
+    "COC1CON1C",
+    "COC1OC1Cl",
+    "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "COCCOCl",
+    "COOC(O)Cl",
+    "ClC(Cl)C(Cl)Cl",
+    "ClC12OC1(Cl)O2",
+    "ClC1OC1(Cl)Cl",
+    "ClOC1(Cl)CO1",
+    "ClOC12CC1O2",
+    "Clc1cc(Cl)cc(Br)c1",
+    "NC(=O)C(O)Cl",
+    "NC(Cl)C(O)Cl",
+    "NC1(O)OC1Cl",
+    "NC12OC1(Cl)O2",
+    "NC1OC1(O)Cl",
+    "Nc1ccc(C(=O)O)cc1N",
+    "O=C(Cl)C(Cl)Cl",
+    "O=C(Cl)C(O)Cl",
+    "O=C(Cl)C(O)O",
+    "O=C(Cl)C1OO1",
+    "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+    "O=C(O)C(O)Cl",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+    "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+    "O=C1NC1(O)Cl",
+    "OC(Cl)(Cl)CCl",
+    "OC(Cl)C(Cl)Cl",
+    "OC(Cl)C(O)Cl",
+    "OC(Cl)COCl",
+    "OC(O)(Cl)CCl",
+    "OC(O)(Cl)OCl",
+    "OC(O)C(O)Cl",
+    "OC1(Cl)OC1Cl",
+    "OC1OC1(Cl)Cl",
+    "OC1OC1OCl",
+    "OCC(O)(Cl)Cl",
+    "OOC(Cl)OCl",
+    "OOC(O)(O)Cl"
+  ],
+  "stock_size": 5,
+  "errors": [],
+  "trace": [
+    {
+      "event": "expand",
+      "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 16
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+      "candidates": 2
+    },
+    {
+      "event": "expand",
+      "product": "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+      "candidates": 2
+    },
+    {
+      "event": "expand",
+      "product": "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)c1ccc2ncoc2c1",
+      "candidates": 64
+    },
+    {
+      "event": "expand",
+      "product": "Clc1cc(Cl)cc(Br)c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(O)c1ccc2ncoc2c1",
+      "candidates": 10
+    },
+    {
+      "event": "expand",
+      "product": "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)OCO",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1(C)CCO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1(Cl)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC12CC1CO2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1CON1C",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "Nc1ccc(C(=O)O)cc1N",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OC",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(O)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(=O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "C#COC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OCC(O)(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(=O)C(C)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)(O)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)=COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(C)OCCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)C=O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(Cl)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1(OCl)OO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC12OC1(Cl)O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CC1OC1OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CCOOCCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "CNC(O)(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(C)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC(Cl)OO",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COC1OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COCCOCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "COOC(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClC(Cl)C(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClOC1(Cl)CO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "ClOC12CC1O2",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC(=O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC(Cl)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC1(O)OC1Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "NC1OC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C(O)O",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(Cl)C1OO1",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C(O)C(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "O=C1NC1(O)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)(Cl)CCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC(Cl)COCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1OC1(Cl)Cl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OC1OC1OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OOC(Cl)OCl",
+      "candidates": 0
+    },
+    {
+      "event": "expand",
+      "product": "OOC(O)(O)Cl",
+      "candidates": 0
+    }
+  ],
+  "termination": "routes_found",
+  "documented_route_count": 1,
+  "mode": "fixed_core_latest_candidates",
+  "case_id": "tafamidis",
+  "case_name": "Tafamidis",
+  "seconds": 0.047,
+  "search_settings": {
+    "max_depth": 12,
+    "top_k": 10000,
+    "max_routes": 3,
+    "max_model_calls": 300,
+    "max_states": 10000
+  },
+  "one_step_candidates": [
+    {
+      "precursors": [
+        "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+      ],
+      "score": 0.2,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 1,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 6,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                "matching_draw_count": 6
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.06666666666666667,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 2,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 2,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CCCN(CC)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 2
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.06666666666666667,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 3,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 2,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CN(CC1OO1)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 2
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1"
+      ],
+      "score": 0.06666666666666667,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 4,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 2,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=COCC1",
+                "matching_draw_count": 2
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 5,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CC1(NC(=O)c2ccc3nc(-c4cc(Cl)cc(Cl)c4)oc3c2)COO1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 6,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CCOCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 7,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CN(C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)C1CC1O",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 8,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "CN(CCCO)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 9,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "COC(C)CNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 10,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "COCC1CN1C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 11,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "COCCCNC(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 12,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "COCCN(C)C(=O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 13,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(NC1CC12CC2)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 14,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1C=CCCC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 15,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CC2OC2C1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    },
+    {
+      "precursors": [
+        "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1"
+      ],
+      "score": 0.03333333333333333,
+      "source": "latest_case_fixed_core_generated_bank",
+      "metadata": {
+        "given_known_core_condition": true,
+        "case_training_contact": true,
+        "inventory_completion_used": false,
+        "reference_unknown_structure_input": false,
+        "cross_draw_assembly": true,
+        "new_sampling": false,
+        "candidate_bank_rank": 16,
+        "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+        "weights_sha256": {
+          "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+          "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+        },
+        "empirical_fragment_frequency_product": 1,
+        "combination_slots": 30,
+        "score_definition": "product of fragment frequencies; not calibrated confidence",
+        "support": [
+          {
+            "input_template": "TAF-05",
+            "fragments": [
+              {
+                "uuid": "all_exact_TAF-05_0",
+                "generated_smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCCOC1",
+                "matching_draw_count": 1
+              }
+            ]
+          }
+        ],
+        "effective_generation_banks": {
+          "results/cases/agent_generation/fixed_core_completion_20261013/decoded_bank.json": "c21e22a1782c965aab4525f78493fd0ec5753fac910e6b67054ad79c630b6248",
+          "results/cases/agent_generation/fixed_core_completion_20261013/blockers_300/combined_decoded_bank.json": "27a1eb2a07335711177e5f8e0d9b8c6ce5a1164dcb4e2c720de413daecf539f9"
+        }
+      }
+    }
+  ],
+  "model_calls_definition": "candidate-bank queries, not GPU inference calls",
+  "llm_policy": "model_order",
+  "llm_calls": 4,
+  "new_sampling": false,
+  "new_training": false,
+  "sampling_steps": 100,
+  "base_draws_per_fragment": 30,
+  "blocker_draws_per_fragment": 300,
+  "provided_step_templates": 5,
+  "weights_sha256": {
+    "edm": "7d43cdf2b3f9b730198ae059745d23fbe41413ea2c6fdb17292ac7ad4c31ba56",
+    "size": "67303500b8b73d2dae49f186d96bad15219a49d38179513de01f33f52ecfff17"
+  },
+  "candidate_bank_sha256": "1859132045740e014557402a923de92cf6f71249dfa0f32ede852b207723c045",
+  "stock_source": "Literature-specified starting-material boundary; conceptual stock, supplier availability not verified",
+  "terminal_set": "Case-specific literature starting-material boundary",
+  "scope": "Given each step's known core; training-exposed reproduction; not autonomous core discovery or experimental validation",
+  "generation": "Reused latest-weight generated banks; complete precursor sets assembled across draws",
+  "reference_precursors_used_for_search": false,
+  "stock_used_for_candidate_generation": false,
+  "constraints": {},
+  "primary_route_index": 0,
+  "route_assessment": {
+    "status": "complete",
+    "calls": 4,
+    "criteria_weights": {
+      "chemical_plausibility": 0.45,
+      "strategic_coherence": 0.25,
+      "route_efficiency": 0.15,
+      "starting_material_suitability": 0.15
+    },
+    "score_scale": [
+      0,
+      10
+    ],
+    "preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+    "policy": "whole_route_llm_v1",
+    "max_routes": 8,
+    "max_calls": 16,
+    "max_corrections_per_route": 1,
+    "observations": [
+      {
+        "route_index": 0,
+        "input": {
+          "target": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "user_preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+          "steps": [
+            {
+              "step": 1,
+              "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+              "precursors": [
+                "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.2,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 6,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "molecular_weight": 308.12,
+                "heavy_atoms": 20,
+                "rings": 3,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 6,
+                "element_counts": {
+                  "O": 3,
+                  "C": 14,
+                  "N": 1,
+                  "Cl": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                  "molecular_weight": 377.227,
+                  "heavy_atoms": 25,
+                  "rings": 4,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 10,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 18,
+                    "N": 2,
+                    "Cl": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 2,
+              "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+              "precursors": [
+                "Clc1cc(Cl)cc(I)c1",
+                "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.9666666666666667,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 870,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                "molecular_weight": 377.227,
+                "heavy_atoms": 25,
+                "rings": 4,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 10,
+                "element_counts": {
+                  "O": 3,
+                  "C": 18,
+                  "N": 2,
+                  "Cl": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "Clc1cc(Cl)cc(I)c1",
+                  "molecular_weight": 272.9,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "Cl": 2,
+                    "C": 6,
+                    "I": 1
+                  }
+                },
+                {
+                  "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                  "molecular_weight": 232.239,
+                  "heavy_atoms": 17,
+                  "rings": 3,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 8,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 12,
+                    "N": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 3,
+              "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+              "precursors": [
+                "C1COCCN1",
+                "O=C(O)c1ccc2ncoc2c1"
+              ],
+              "model_rank": 2,
+              "model_score": 0.4666666666666667,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 420,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": true,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": "carboxylic acid + secondary amine amidation"
+              },
+              "product_properties": {
+                "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                "molecular_weight": 232.239,
+                "heavy_atoms": 17,
+                "rings": 3,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 8,
+                "element_counts": {
+                  "O": 3,
+                  "C": 12,
+                  "N": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "C1COCCN1",
+                  "molecular_weight": 87.122,
+                  "heavy_atoms": 6,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 4,
+                    "O": 1,
+                    "N": 1
+                  }
+                },
+                {
+                  "smiles": "O=C(O)c1ccc2ncoc2c1",
+                  "molecular_weight": 163.132,
+                  "heavy_atoms": 12,
+                  "rings": 2,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 8,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 4,
+              "product": "O=C(O)c1ccc2ncoc2c1",
+              "precursors": [
+                "COC(OC)OC",
+                "Nc1ccc(C(=O)O)cc1O"
+              ],
+              "model_rank": 2,
+              "model_score": 0.015555555555555555,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 14,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(O)c1ccc2ncoc2c1",
+                "molecular_weight": 163.132,
+                "heavy_atoms": 12,
+                "rings": 2,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "O": 3,
+                  "C": 8,
+                  "N": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "COC(OC)OC",
+                  "molecular_weight": 106.121,
+                  "heavy_atoms": 7,
+                  "rings": 0,
+                  "rotatable_bonds": 3,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 4,
+                    "O": 3
+                  }
+                },
+                {
+                  "smiles": "Nc1ccc(C(=O)O)cc1O",
+                  "molecular_weight": 153.137,
+                  "heavy_atoms": 11,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "N": 1,
+                    "C": 7,
+                    "O": 3
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            }
+          ],
+          "starting_materials": [
+            "C1COCCN1",
+            "COC(OC)OC",
+            "Clc1cc(Cl)cc(I)c1",
+            "Nc1ccc(C(=O)O)cc1O"
+          ],
+          "terminal_set_definition": "Case-specific literature starting-material boundary",
+          "constraints": {},
+          "tool_checks": {
+            "connected": true,
+            "all_precursor_branches_retained": true,
+            "terminal_closure": true
+          },
+          "evidence_availability": {
+            "supplier_quotes": "not_provided",
+            "experimental_conditions_and_yields": "not_provided"
+          },
+          "search_cost": 6.0
+        },
+        "input_sha256": "12e99bac8c7b1b33639920681757494fa4d829d7b06eb16af30bec571f5aa568",
+        "attempts": [
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 6.5,
+                "strategic_coherence": 7.0,
+                "route_efficiency": 6.0,
+                "starting_material_suitability": 7.5
+              },
+              "total_score": 6.7,
+              "rationale": "该路线以4-氨基-2-羟基苯甲酸为起始原料，经原甲酸三甲酯环化构建苯并噁唑核心，随后通过酰胺缩合引入吗啉基团，再与1,3-二氯-5-碘苯进行偶联（推测为Suzuki或类似交叉偶联，但缺乏有机硼试剂证据），最后酯水解得到目标羧酸。整体合成策略合理，但关键偶联步骤的可行性依赖于未提供的有机硼试剂或原位硼化条件，且酰胺化步骤的化学选择性（酚羟基存在下）需要验证。",
+              "strengths": [
+                "起始原料4-氨基-2-羟基苯甲酸结构简单，适合作为苯并噁唑构建前体。",
+                "苯并噁唑环化步骤（原甲酸三甲酯）为文献常见方法，可行性较高。",
+                "酰胺缩合步骤有正向模板匹配，表明结构一致性良好。",
+                "最终酯水解为标准转化，通常高产率。"
+              ],
+              "concerns": [
+                "偶联步骤（步骤2）中，1,3-二氯-5-碘苯作为亲电试剂，但未提供有机硼试剂或硼化条件，无法确认偶联类型（Suzuki、Negishi等），且缺乏实验条件和产率数据。",
+                "酰胺化步骤（步骤3）中，底物含有酚羟基，可能干扰酰胺化反应，需要选择性保护或使用温和条件，但未提供相关证据。",
+                "所有步骤均无实验条件、产率或供应商信息，无法评估实际可行性和成本。",
+                "步骤4的环化反应使用原甲酸三甲酯，但未提供酸催化剂等条件，且产物为苯并噁唑，需确认区域选择性。",
+                "整条路线未涉及保护基策略，酚羟基在后续步骤中的稳定性未知。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "偶联步骤缺乏有机硼试剂证据，无法确认反应类型和可行性；且未提供条件，可能因二氯代苯的位阻和电子效应导致偶联效率低。"
+                },
+                {
+                  "step": 3,
+                  "concern": "酰胺化步骤中酚羟基可能竞争反应，导致选择性差或需要额外保护/脱保护步骤，增加路线长度。"
+                },
+                {
+                  "step": 4,
+                  "concern": "环化步骤使用原甲酸三甲酯，但未提供酸催化剂和反应条件，且底物中氨基和羟基的相对反应性需验证。"
+                }
+              ]
+            },
+            "tool_feedback": [
+              "No precursor in this route contains boron; a Suzuki identification is unsupported."
+            ]
+          },
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 5.5,
+                "strategic_coherence": 6.5,
+                "route_efficiency": 5.5,
+                "starting_material_suitability": 7.5
+              },
+              "total_score": 6.05,
+              "rationale": "该路线以4-氨基-2-羟基苯甲酸为起始原料，经原甲酸三甲酯环化构建苯并噁唑核心，随后通过酰胺缩合引入吗啉基团，再与1,3-二氯-5-碘苯进行偶联，最后酯水解得到目标羧酸。工具检查确认路线中无任何前体含硼，因此步骤2不能认定为Suzuki偶联；该步骤的反应类型和可行性缺乏证据支持，是整条路线的关键不确定性。其余步骤在结构上合理，但均无实验条件、产率或供应商数据。",
+              "strengths": [
+                "起始原料4-氨基-2-羟基苯甲酸结构简单，适合作为苯并噁唑构建前体。",
+                "苯并噁唑环化步骤（原甲酸三甲酯）为文献常见方法，结构上可行。",
+                "酰胺缩合步骤有正向模板匹配，表明结构一致性良好。",
+                "最终酯水解为标准转化，通常可行。"
+              ],
+              "concerns": [
+                "工具确认路线中无含硼前体，步骤2不能认定为Suzuki偶联；该步骤的实际反应类型和可行性未知，缺乏实验条件和产率数据。",
+                "酰胺化步骤（步骤3）中底物含酚羟基，可能干扰酰胺化反应，需要选择性保护或温和条件，但未提供相关证据。",
+                "所有步骤均无实验条件、产率或供应商信息，无法评估实际可行性和成本。",
+                "步骤4的环化反应使用原甲酸三甲酯，但未提供酸催化剂等条件，且区域选择性需验证。",
+                "整条路线未涉及保护基策略，酚羟基在后续步骤中的稳定性未知。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "工具确认无含硼前体，不能认定为Suzuki偶联；该步骤反应类型和可行性未知，且1,3-二氯-5-碘苯的位阻和电子效应可能影响偶联效率。"
+                },
+                {
+                  "step": 3,
+                  "concern": "酰胺化步骤中酚羟基可能竞争反应，导致选择性差或需要额外保护/脱保护步骤，增加路线长度。"
+                },
+                {
+                  "step": 4,
+                  "concern": "环化步骤使用原甲酸三甲酯，但未提供酸催化剂和反应条件，且底物中氨基和羟基的相对反应性需验证。"
+                }
+              ]
+            },
+            "tool_feedback": []
+          }
+        ],
+        "output": {
+          "scores": {
+            "chemical_plausibility": 5.5,
+            "strategic_coherence": 6.5,
+            "route_efficiency": 5.5,
+            "starting_material_suitability": 7.5
+          },
+          "total_score": 6.05,
+          "rationale": "该路线以4-氨基-2-羟基苯甲酸为起始原料，经原甲酸三甲酯环化构建苯并噁唑核心，随后通过酰胺缩合引入吗啉基团，再与1,3-二氯-5-碘苯进行偶联，最后酯水解得到目标羧酸。工具检查确认路线中无任何前体含硼，因此步骤2不能认定为Suzuki偶联；该步骤的反应类型和可行性缺乏证据支持，是整条路线的关键不确定性。其余步骤在结构上合理，但均无实验条件、产率或供应商数据。",
+          "strengths": [
+            "起始原料4-氨基-2-羟基苯甲酸结构简单，适合作为苯并噁唑构建前体。",
+            "苯并噁唑环化步骤（原甲酸三甲酯）为文献常见方法，结构上可行。",
+            "酰胺缩合步骤有正向模板匹配，表明结构一致性良好。",
+            "最终酯水解为标准转化，通常可行。"
+          ],
+          "concerns": [
+            "工具确认路线中无含硼前体，步骤2不能认定为Suzuki偶联；该步骤的实际反应类型和可行性未知，缺乏实验条件和产率数据。",
+            "酰胺化步骤（步骤3）中底物含酚羟基，可能干扰酰胺化反应，需要选择性保护或温和条件，但未提供相关证据。",
+            "所有步骤均无实验条件、产率或供应商信息，无法评估实际可行性和成本。",
+            "步骤4的环化反应使用原甲酸三甲酯，但未提供酸催化剂等条件，且区域选择性需验证。",
+            "整条路线未涉及保护基策略，酚羟基在后续步骤中的稳定性未知。"
+          ],
+          "critical_steps": [
+            {
+              "step": 2,
+              "concern": "工具确认无含硼前体，不能认定为Suzuki偶联；该步骤反应类型和可行性未知，且1,3-二氯-5-碘苯的位阻和电子效应可能影响偶联效率。"
+            },
+            {
+              "step": 3,
+              "concern": "酰胺化步骤中酚羟基可能竞争反应，导致选择性差或需要额外保护/脱保护步骤，增加路线长度。"
+            },
+            {
+              "step": 4,
+              "concern": "环化步骤使用原甲酸三甲酯，但未提供酸催化剂和反应条件，且底物中氨基和羟基的相对反应性需验证。"
+            }
+          ]
+        }
+      },
+      {
+        "route_index": 1,
+        "input": {
+          "target": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+          "user_preferences": "综合评价整条路线的反应合理性、官能团相容性、路线效率和起始原料要求；保留额外候选路线。",
+          "steps": [
+            {
+              "step": 1,
+              "product": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+              "precursors": [
+                "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.2,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 6,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(O)c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1",
+                "molecular_weight": 308.12,
+                "heavy_atoms": 20,
+                "rings": 3,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 6,
+                "element_counts": {
+                  "O": 3,
+                  "C": 14,
+                  "N": 1,
+                  "Cl": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                  "molecular_weight": 377.227,
+                  "heavy_atoms": 25,
+                  "rings": 4,
+                  "rotatable_bonds": 2,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 10,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 18,
+                    "N": 2,
+                    "Cl": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 2,
+              "product": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+              "precursors": [
+                "Clc1cc(Cl)cc(I)c1",
+                "O=C(c1ccc2ncoc2c1)N1CCOCC1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.9666666666666667,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 870,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(c1ccc2nc(-c3cc(Cl)cc(Cl)c3)oc2c1)N1CCOCC1",
+                "molecular_weight": 377.227,
+                "heavy_atoms": 25,
+                "rings": 4,
+                "rotatable_bonds": 2,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 10,
+                "element_counts": {
+                  "O": 3,
+                  "C": 18,
+                  "N": 2,
+                  "Cl": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "Clc1cc(Cl)cc(I)c1",
+                  "molecular_weight": 272.9,
+                  "heavy_atoms": 9,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "Cl": 2,
+                    "C": 6,
+                    "I": 1
+                  }
+                },
+                {
+                  "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                  "molecular_weight": 232.239,
+                  "heavy_atoms": 17,
+                  "rings": 3,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 8,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 12,
+                    "N": 2
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 3,
+              "product": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+              "precursors": [
+                "C1COCCN1",
+                "O=C(Cl)c1ccc2ncoc2c1"
+              ],
+              "model_rank": 1,
+              "model_score": 0.5333333333333333,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 480,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(c1ccc2ncoc2c1)N1CCOCC1",
+                "molecular_weight": 232.239,
+                "heavy_atoms": 17,
+                "rings": 3,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 8,
+                "element_counts": {
+                  "O": 3,
+                  "C": 12,
+                  "N": 2
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "C1COCCN1",
+                  "molecular_weight": 87.122,
+                  "heavy_atoms": 6,
+                  "rings": 1,
+                  "rotatable_bonds": 0,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 4,
+                    "O": 1,
+                    "N": 1
+                  }
+                },
+                {
+                  "smiles": "O=C(Cl)c1ccc2ncoc2c1",
+                  "molecular_weight": 181.578,
+                  "heavy_atoms": 12,
+                  "rings": 2,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "O": 2,
+                    "C": 8,
+                    "Cl": 1,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 4,
+              "product": "O=C(Cl)c1ccc2ncoc2c1",
+              "precursors": [
+                "O=C(Cl)C(=O)Cl",
+                "O=C(O)c1ccc2ncoc2c1"
+              ],
+              "model_rank": 54,
+              "model_score": 0.0026222222222222224,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 236,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(Cl)c1ccc2ncoc2c1",
+                "molecular_weight": 181.578,
+                "heavy_atoms": 12,
+                "rings": 2,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "O": 2,
+                  "C": 8,
+                  "Cl": 1,
+                  "N": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "O=C(Cl)C(=O)Cl",
+                  "molecular_weight": 126.926,
+                  "heavy_atoms": 6,
+                  "rings": 0,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 0,
+                  "element_counts": {
+                    "O": 2,
+                    "C": 2,
+                    "Cl": 2
+                  }
+                },
+                {
+                  "smiles": "O=C(O)c1ccc2ncoc2c1",
+                  "molecular_weight": 163.132,
+                  "heavy_atoms": 12,
+                  "rings": 2,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "O": 3,
+                    "C": 8,
+                    "N": 1
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            },
+            {
+              "step": 5,
+              "product": "O=C(O)c1ccc2ncoc2c1",
+              "precursors": [
+                "COC(OC)OC",
+                "Nc1ccc(C(=O)O)cc1O"
+              ],
+              "model_rank": 2,
+              "model_score": 0.015555555555555555,
+              "model_source": "latest_case_fixed_core_generated_bank",
+              "generation_frequency": 14,
+              "structure_check": {
+                "structures_valid": true,
+                "forward_template_match": null,
+                "experimental_feasibility_verified": false,
+                "conditions_verified": false,
+                "template_name": null
+              },
+              "product_properties": {
+                "smiles": "O=C(O)c1ccc2ncoc2c1",
+                "molecular_weight": 163.132,
+                "heavy_atoms": 12,
+                "rings": 2,
+                "rotatable_bonds": 1,
+                "formal_charge": 0,
+                "radical_electrons": 0,
+                "ch_sites": 4,
+                "element_counts": {
+                  "O": 3,
+                  "C": 8,
+                  "N": 1
+                }
+              },
+              "precursor_properties": [
+                {
+                  "smiles": "COC(OC)OC",
+                  "molecular_weight": 106.121,
+                  "heavy_atoms": 7,
+                  "rings": 0,
+                  "rotatable_bonds": 3,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 4,
+                  "element_counts": {
+                    "C": 4,
+                    "O": 3
+                  }
+                },
+                {
+                  "smiles": "Nc1ccc(C(=O)O)cc1O",
+                  "molecular_weight": 153.137,
+                  "heavy_atoms": 11,
+                  "rings": 1,
+                  "rotatable_bonds": 1,
+                  "formal_charge": 0,
+                  "radical_electrons": 0,
+                  "ch_sites": 3,
+                  "element_counts": {
+                    "N": 1,
+                    "C": 7,
+                    "O": 3
+                  }
+                }
+              ],
+              "retrieved_tool_evidence": {}
+            }
+          ],
+          "starting_materials": [
+            "C1COCCN1",
+            "COC(OC)OC",
+            "Clc1cc(Cl)cc(I)c1",
+            "Nc1ccc(C(=O)O)cc1O",
+            "O=C(Cl)C(=O)Cl"
+          ],
+          "terminal_set_definition": "Case-specific literature starting-material boundary",
+          "constraints": {},
+          "tool_checks": {
+            "connected": true,
+            "all_precursor_branches_retained": true,
+            "terminal_closure": true
+          },
+          "evidence_availability": {
+            "supplier_quotes": "not_provided",
+            "experimental_conditions_and_yields": "not_provided"
+          },
+          "search_cost": 59.0
+        },
+        "input_sha256": "1a70ec492450ab24f5ac0e6d804df32e81607dc3373ef65082ae60c785b2ab46",
+        "attempts": [
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 6.5,
+                "strategic_coherence": 7.0,
+                "route_efficiency": 6.0,
+                "starting_material_suitability": 7.5
+              },
+              "total_score": 6.7,
+              "rationale": "该路线以5-氨基水杨酸为起始原料，经缩合环化构建苯并噁唑核心，随后依次进行酰氯化、吗啉酰胺化、与二氯碘苯的偶联以及酯水解得到目标产物。整体策略合理，但关键偶联步骤缺乏具体条件验证，且酰氯中间体稳定性可能影响后续步骤。",
+              "strengths": [
+                "起始原料均为简单易得的小分子，符合库存约束。",
+                "苯并噁唑环的构建采用原甲酸三甲酯与邻氨基酚的缩合，是经典可靠的方法。",
+                "酰胺化步骤使用酰氯与吗啉，反应可行性高。",
+                "最终水解步骤将酰胺转化为羧酸，与目标结构一致。"
+              ],
+              "concerns": [
+                "步骤2的偶联反应（二氯碘苯与苯并噁唑）缺乏具体条件，可能为Suzuki或直接芳基化，但无实验证据支持。",
+                "步骤4中酰氯中间体可能不稳定，且未提供反应条件，存在水解或副反应风险。",
+                "步骤1的酰胺化使用酰氯，但未说明碱和溶剂，可能影响收率。",
+                "整体路线未涉及保护基策略，但官能团相容性尚可。",
+                "所有步骤均无实验产率或条件数据，无法评估实际效率。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "偶联反应类型不明确，缺乏条件验证，可能无法实现或产率低。"
+                },
+                {
+                  "step": 4,
+                  "concern": "酰氯中间体的生成与后续反应条件未知，可能因水解或分解导致失败。"
+                }
+              ]
+            },
+            "tool_feedback": [
+              "Supplier availability or ease-of-preparation assertions have no supporting tool evidence; remove them."
+            ]
+          },
+          {
+            "output": {
+              "scores": {
+                "chemical_plausibility": 6.5,
+                "strategic_coherence": 7.0,
+                "route_efficiency": 6.0,
+                "starting_material_suitability": 7.0
+              },
+              "total_score": 6.625,
+              "rationale": "该路线以5-氨基水杨酸为起始原料，经缩合环化构建苯并噁唑核心，随后依次进行酰氯化、吗啉酰胺化、与二氯碘苯的偶联以及酯水解得到目标产物。整体策略合理，但关键偶联步骤缺乏具体条件验证，且酰氯中间体稳定性可能影响后续步骤。所有起始原料仅根据库存边界判断，未评估实际可得性。",
+              "strengths": [
+                "起始原料均为结构简单的小分子，符合库存约束。",
+                "苯并噁唑环的构建采用原甲酸三甲酯与邻氨基酚的缩合，是经典可靠的方法。",
+                "酰胺化步骤使用酰氯与吗啉，反应可行性高。",
+                "最终水解步骤将酰胺转化为羧酸，与目标结构一致。"
+              ],
+              "concerns": [
+                "步骤2的偶联反应（二氯碘苯与苯并噁唑）缺乏具体条件，可能为Suzuki或直接芳基化，但无实验证据支持。",
+                "步骤4中酰氯中间体可能不稳定，且未提供反应条件，存在水解或副反应风险。",
+                "步骤1的酰胺化使用酰氯，但未说明碱和溶剂，可能影响收率。",
+                "整体路线未涉及保护基策略，但官能团相容性尚可。",
+                "所有步骤均无实验产率或条件数据，无法评估实际效率。",
+                "未提供供应商证据，无法断言起始原料的商业可得性或易制备性。"
+              ],
+              "critical_steps": [
+                {
+                  "step": 2,
+                  "concern": "偶联反应类型不明确，缺乏条件验证，可能无法实现或产率低。"
+                },
+                {
+                  "step": 4,
+                  "concern": "酰氯中间体的生成与后续反应条件未知，可能因水解或分解导致失败。"
+                }
+              ]
+            },
+            "tool_feedback": []
+          }
+        ],
+        "output": {
+          "scores": {
+            "chemical_plausibility": 6.5,
+            "strategic_coherence": 7.0,
+            "route_efficiency": 6.0,
+            "starting_material_suitability": 7.0
+          },
+          "total_score": 6.625,
+          "rationale": "该路线以5-氨基水杨酸为起始原料，经缩合环化构建苯并噁唑核心，随后依次进行酰氯化、吗啉酰胺化、与二氯碘苯的偶联以及酯水解得到目标产物。整体策略合理，但关键偶联步骤缺乏具体条件验证，且酰氯中间体稳定性可能影响后续步骤。所有起始原料仅根据库存边界判断，未评估实际可得性。",
+          "strengths": [
+            "起始原料均为结构简单的小分子，符合库存约束。",
+            "苯并噁唑环的构建采用原甲酸三甲酯与邻氨基酚的缩合，是经典可靠的方法。",
+            "酰胺化步骤使用酰氯与吗啉，反应可行性高。",
+            "最终水解步骤将酰胺转化为羧酸，与目标结构一致。"
+          ],
+          "concerns": [
+            "步骤2的偶联反应（二氯碘苯与苯并噁唑）缺乏具体条件，可能为Suzuki或直接芳基化，但无实验证据支持。",
+            "步骤4中酰氯中间体可能不稳定，且未提供反应条件，存在水解或副反应风险。",
+            "步骤1的酰胺化使用酰氯，但未说明碱和溶剂，可能影响收率。",
+            "整体路线未涉及保护基策略，但官能团相容性尚可。",
+            "所有步骤均无实验产率或条件数据，无法评估实际效率。",
+            "未提供供应商证据，无法断言起始原料的商业可得性或易制备性。"
+          ],
+          "critical_steps": [
+            {
+              "step": 2,
+              "concern": "偶联反应类型不明确，缺乏条件验证，可能无法实现或产率低。"
+            },
+            {
+              "step": 4,
+              "concern": "酰氯中间体的生成与后续反应条件未知，可能因水解或分解导致失败。"
+            }
+          ]
+        }
+      }
+    ],
+    "errors": [],
+    "score_semantics": "LLM route evaluation, not a probability or yield",
+    "model": "deepseek-flash",
+    "original_primary_route_index": 1,
+    "usage": {
+      "prompt_tokens": 12236,
+      "completion_tokens": 2130
+    },
+    "seconds": 15.485,
+    "ranking_applied": true,
+    "ranked_original_indices": [
+      1,
+      0
+    ]
+  },
+  "route_selection_policy": "whole_route_llm_v1"
+}

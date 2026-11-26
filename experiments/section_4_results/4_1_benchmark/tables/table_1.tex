@@ -1,0 +1,123 @@
+\begin{table*}[!t]
+\caption{Top-$k$ exact-match accuracies (\%) of SpectraRetro and baseline models on CHRetro, evaluated on the full dataset and the small-scale evaluation subset. }
+\label{tab:full-small-comparison}
+\centering
+\vspace{3pt}
+
+\begingroup
+\fontsize{8.5}{10.5}\selectfont
+\setlength{\tabcolsep}{1.25pt}
+\renewcommand{\arraystretch}{1.14}
+
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{2.55cm}
+  >{\raggedright\arraybackslash}p{2.60cm}
+  *{12}{>{\centering\arraybackslash}X}}
+\toprule
+
+\rowcolor[gray]{0.90}
+& &
+\multicolumn{6}{c}{\textbf{Full dataset}} &
+\multicolumn{6}{c}{\textbf{Small-scale subset}} \\
+\cmidrule(lr){3-8}
+\cmidrule(lr){9-14}
+
+\rowcolor[gray]{0.90}
+& &
+\multicolumn{3}{c}{\fontsize{7.5}{9}\selectfont\textbf{\shortstack{Reaction class\\unknown}}} &
+\multicolumn{3}{c}{\fontsize{7.5}{9}\selectfont\textbf{\shortstack{Reaction class\\known}}} &
+\multicolumn{3}{c}{\fontsize{7.5}{9}\selectfont\textbf{\shortstack{Reaction class\\unknown}}} &
+\multicolumn{3}{c}{\fontsize{7.5}{9}\selectfont\textbf{\shortstack{Reaction class\\known}}} \\
+\cmidrule(lr){3-5}
+\cmidrule(lr){6-8}
+\cmidrule(lr){9-11}
+\cmidrule(lr){12-14}
+
+\rowcolor[gray]{0.90}
+\textbf{Method family} & \textbf{Model} &
+$k=1$ & $k=5$ & $k=10$ &
+$k=1$ & $k=5$ & $k=10$ &
+$k=1$ & $k=5$ & $k=10$ &
+$k=1$ & $k=5$ & $k=10$ \\
+\midrule
+
+\multirow{2}{=}{\textbf{\shortstack[l]{Template-Based\\Methods}}}
+& RetroSim~\cite{coley2017retrosim} &
+59.60 & 83.30 & 88.21 &
+66.26 & 89.04 & 91.70 &
+46.83 & 75.71 & 81.79 &
+57.08 & \textbf{84.04} & \textbf{88.50} \\
+
+& GLN~\cite{dai2019retrosynthesis} &
+66.30 & 82.43 & 85.97 &
+70.49 & 84.61 & 87.29 &
+56.44 & 73.78 & 77.24 &
+59.13 & 76.18 & 78.43 \\
+
+\addlinespace[5pt]
+
+\multirow{4}{=}{\textbf{\shortstack[l]{Semi-Template-\\Based Methods}}}
+& RetroXpert~\cite{yan2020retroxpert} &
+66.57 & 79.90 & 81.50 &
+69.68 & 84.52 & 85.79 &
+35.67 & 57.28 & 61.18 &
+42.60 & 66.32 & 70.46 \\
+
+& GraphRetro~\cite{somnath2021learning} &
+58.34 & 76.31 & 77.81 &
+62.08 & 78.03 & 78.81 &
+52.64 & 72.99 & 74.79 &
+57.85 & 75.71 & 77.03 \\
+
+& Graph2Edits~\cite{zhong2023graph2edits} &
+67.81 & 86.74 & 88.53 &
+72.21 & 87.95 & 88.95 &
+57.53 & \textbf{80.42} & \textbf{82.81} &
+63.35 & 83.81 & 85.65 \\
+
+& GDiffRetro~\cite{gdiffretro2025} &
+53.18 & 80.16 & 83.29 &
+57.20 & 83.20 & 85.80 &
+41.90 & 69.50 & 72.60 &
+45.90 & 72.50 & 75.10 \\
+
+\addlinespace[5pt]
+
+\multirow{4}{=}{\textbf{\shortstack[l]{Template-Free\\Methods}}}
+& Retroformer~\cite{wan2022retroformer} &
+59.33 & 78.69 & 82.04 &
+58.27 & 79.52 & 83.03 &
+46.68 & 66.92 & 70.57 &
+51.92 & 73.42 & 77.88 \\
+
+& TransGraphEdit~\cite{li2025graph} &
+61.60 & 82.16 & 84.42 &
+68.02 & 84.76 & 85.90 &
+51.75 & 76.94 & 80.04 &
+59.68 & 81.04 & 83.26 \\
+
+& RetroDiT~\cite{wang2026retrodit} &
+58.46 & 80.59 & 82.81 &
+58.04 & 85.55 & 88.48 &
+22.02 & 39.89 & 43.37 &
+27.31 & 49.08 & 51.14 \\
+
+& DiffER~\cite{current2025differ} &
+68.29 & 86.72 & 87.69 &
+71.74 & 89.38 & 89.99 &
+42.78 & 62.68 & 68.17 &
+43.71 & 63.44 & 68.96 \\
+
+\midrule
+
+\multicolumn{2}{l}{\textbf{SpectraRetro (ours)}} &
+\textbf{73.16} & \textbf{90.01} & \textbf{91.38} &
+\textbf{77.42} & \textbf{92.04} & \textbf{93.23} &
+\textbf{58.00} & 80.13 & 82.13 &
+\textbf{65.73} & 82.65 & 84.40 \\
+
+\bottomrule
+\end{tabularx}
+
+\endgroup
+\end{table*}

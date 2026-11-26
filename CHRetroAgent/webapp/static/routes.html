@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Compare SpectraRetro synthesis pathways, inspect chemical evidence, and discuss your route with CHRetroAgent.">
+  <title>Route Intelligence · CHRetroAgent</title>
+  <link rel="stylesheet" href="/multipage.css">
+  <link rel="stylesheet" href="/connected-route.css">
+  <link rel="stylesheet" href="/result-workspace.css">
+</head>
+<body>
+  <header class="topbar"></header>
+  <main class="page">
+    <div class="shell">
+      <nav class="stage-strip" aria-label="Planning workflow">
+        <a href="/workspace.html"><b>01 / PLANNER</b>Define your target</a>
+        <a class="current" href="/routes.html" aria-current="page"><b>02 / PATHWAYS</b>Explore the routes</a>
+        <a href="/ch-activation.html"><b>03 / SITE LAB</b>Inspect the chemistry</a>
+        <a href="/history.html"><b>04 / WORKSPACE</b>Compare & review</a>
+      </nav>
+      <section class="result-workspace"><div id="route-root" aria-live="polite">
+        <div class="empty"><h2>Opening your route report…</h2><p>Loading saved pathways and chemical evidence.</p></div>
+      </div><aside class="result-assistant"><section id="assistant-host" class="assistant-full result-chat" aria-label="LLM conversation for this route"></section><section class="panel execution-panel" id="tool-executions"><h3>Tool activity</h3><p class="field-note">Recorded tool executions will appear with the conversation.</p></section></aside></section>
+    </div>
+  </main>
+  <footer class="footer"></footer>
+  <script src="/core.js"></script>
+  <script src="/result-evidence.js"></script><script src="/connected-route.js"></script><script src="/route-suppliers.js"></script><script src="/routes-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,1083 @@
+{
+  "schema": "spectraretro.dft_summary.v1",
+  "created_utc": "2026-11-09T21:17:30.297606+00:00",
+  "state": "complete",
+  "complete": true,
+  "completion_scope": "34 fixed-geometry DFT singlepoints; Hirshfeld completion is recorded separately",
+  "full_analysis_complete": true,
+  "hirshfeld_state": "complete",
+  "valid_hirshfeld_structures": 17,
+  "expected_hirshfeld_structures": 17,
+  "hirshfeld_structures": {
+    "6584_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6584_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6584_off_target_N10": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6589_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6589_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6589_off_target_N10": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6675_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6675_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6675_off_target_N12": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6874_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6874_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6972_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6972_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6972_off_target_N18": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "6972_off_target_N9": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "7804_N_oxide": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    },
+    "7804_neutral": {
+      "status": "complete",
+      "detail": "Source SHA, geometry, populations, both grids and refinement replay passed"
+    }
+  },
+  "hirshfeld_errors": [],
+  "hirshfeld_method_and_software": {
+    "6584_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6584_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6584_off_target_N10": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6589_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6589_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6589_off_target_N10": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6675_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6675_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6675_off_target_N12": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6874_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6874_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6972_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6972_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6972_off_target_N18": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "6972_off_target_N9": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "7804_N_oxide": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    },
+    "7804_neutral": {
+      "pyscf_version": "2.15.0",
+      "native_module_sha256": "ddc94c567283416f7db9b9677bbf7564a37e07b335ddd5d2ff23276c6a1b5a3c",
+      "grid_levels": [
+        4,
+        5
+      ],
+      "selected_grid": 5,
+      "reference": "Neutral, spherically averaged atomic HF densities in the molecular orbital basis; native hf.init_guess_by_atom",
+      "charge_sum_tolerance": 0.0001,
+      "grid_charge_tolerance": 0.0001,
+      "grid_fukui_tolerance": 0.0001
+    }
+  },
+  "expected_structures": 17,
+  "valid_complete_structures": 17,
+  "expected_singlepoint_states": 34,
+  "valid_states_in_complete_structure_pairs": 34,
+  "observed_valid_state_records": 34,
+  "observed_valid_state_ids": [
+    "6584_N_oxide/neutral",
+    "6584_N_oxide/cation",
+    "6584_neutral/neutral",
+    "6584_neutral/cation",
+    "6584_off_target_N10/neutral",
+    "6584_off_target_N10/cation",
+    "6589_N_oxide/neutral",
+    "6589_N_oxide/cation",
+    "6589_neutral/neutral",
+    "6589_neutral/cation",
+    "6589_off_target_N10/neutral",
+    "6589_off_target_N10/cation",
+    "6675_N_oxide/neutral",
+    "6675_N_oxide/cation",
+    "6675_neutral/neutral",
+    "6675_neutral/cation",
+    "6675_off_target_N12/neutral",
+    "6675_off_target_N12/cation",
+    "6874_N_oxide/neutral",
+    "6874_N_oxide/cation",
+    "6874_neutral/neutral",
+    "6874_neutral/cation",
+    "6972_N_oxide/neutral",
+    "6972_N_oxide/cation",
+    "6972_neutral/neutral",
+    "6972_neutral/cation",
+    "6972_off_target_N18/neutral",
+    "6972_off_target_N18/cation",
+    "6972_off_target_N9/neutral",
+    "6972_off_target_N9/cation",
+    "7804_N_oxide/neutral",
+    "7804_N_oxide/cation",
+    "7804_neutral/neutral",
+    "7804_neutral/cation"
+  ],
+  "independent_parent_structures": 6,
+  "target_perturbations": 6,
+  "alternative_site_controls": 5,
+  "alternative_control_parent_structures": 4,
+  "geometry": "DFT single points at original GFN2-xTB optimized charge-zero geometry",
+  "populations": {
+    "meta_lowdin": "PySCF meta-Lowdin with ANO pre-orthogonalization",
+    "mulliken": "PySCF Mulliken",
+    "hirshfeld": "Native PySCF Hirshfeld on saved molecular density; neutral spherical atomic HF references, independently verified grid refinement"
+  },
+  "quantities": {
+    "q_contrast": "q(C2)-q(C5)",
+    "fminus": "q_cation-q_neutral at the same coordinates",
+    "fminus_contrast": "fminus(C2)-fminus(C5)",
+    "delta": "oxidation variant minus its neutral parent",
+    "model_margin": "logit(C2 exocyclic candidate bond)-logit(C5 exocyclic candidate bond)"
+  },
+  "partition_summaries": {
+    "meta_lowdin": {
+      "target_pairs_available": 6,
+      "target_pairs_expected": 6,
+      "target_parent_ids_available": [
+        6584,
+        6589,
+        6675,
+        6874,
+        6972,
+        7804
+      ],
+      "target_delta_q_contrast": {
+        "n_available": 6,
+        "positive": 0,
+        "negative": 6,
+        "zero": 0,
+        "mean": -0.1182755377689307,
+        "median": -0.11792645891485387,
+        "min": -0.12632900725033558,
+        "max": -0.1103514301808497
+      },
+      "target_delta_fminus_contrast": {
+        "n_available": 6,
+        "positive": 6,
+        "negative": 0,
+        "zero": 0,
+        "mean": 0.04842408819076353,
+        "median": 0.03709839490501432,
+        "min": 0.0203890417123187,
+        "max": 0.08852745259734451
+      },
+      "target_dft_vs_xtb_fminus_signs": {
+        "available_pairs": 6,
+        "same_sign": 6,
+        "opposite_sign": 0,
+        "zero_product": 0
+      },
+      "target_dft_vs_original_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "target_dft_vs_symmetric_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "alternative_control_pairs_available": 5,
+      "alternative_control_pairs_expected": 5,
+      "alternative_control_distinct_parents_available": 4,
+      "alternative_control_distinct_parents_expected": 4,
+      "target_minus_alternative_delta_fminus_contrast": {
+        "n_available": 5,
+        "positive": 5,
+        "negative": 0,
+        "zero": 0,
+        "mean": 0.04420579282209687,
+        "median": 0.03261353541230072,
+        "min": 0.014406723962878232,
+        "max": 0.09879006546751601
+      }
+    },
+    "mulliken": {
+      "target_pairs_available": 6,
+      "target_pairs_expected": 6,
+      "target_parent_ids_available": [
+        6584,
+        6589,
+        6675,
+        6874,
+        6972,
+        7804
+      ],
+      "target_delta_q_contrast": {
+        "n_available": 6,
+        "positive": 0,
+        "negative": 6,
+        "zero": 0,
+        "mean": -0.20678811681001555,
+        "median": -0.20392638467244195,
+        "min": -0.27835659006413493,
+        "max": -0.15283368131708475
+      },
+      "target_delta_fminus_contrast": {
+        "n_available": 6,
+        "positive": 6,
+        "negative": 0,
+        "zero": 0,
+        "mean": 0.028398789433086307,
+        "median": 0.028715367652740298,
+        "min": 0.0019305102998803392,
+        "max": 0.05331286603917551
+      },
+      "target_dft_vs_xtb_fminus_signs": {
+        "available_pairs": 6,
+        "same_sign": 6,
+        "opposite_sign": 0,
+        "zero_product": 0
+      },
+      "target_dft_vs_original_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "target_dft_vs_symmetric_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "alternative_control_pairs_available": 5,
+      "alternative_control_pairs_expected": 5,
+      "alternative_control_distinct_parents_available": 4,
+      "alternative_control_distinct_parents_expected": 4,
+      "target_minus_alternative_delta_fminus_contrast": {
+        "n_available": 5,
+        "positive": 2,
+        "negative": 3,
+        "zero": 0,
+        "mean": 0.010850242091821016,
+        "median": -0.0003115896536849405,
+        "min": -0.017473785059411107,
+        "max": 0.0672581991094896
+      }
+    },
+    "hirshfeld": {
+      "target_pairs_available": 6,
+      "target_pairs_expected": 6,
+      "target_parent_ids_available": [
+        6584,
+        6589,
+        6675,
+        6874,
+        6972,
+        7804
+      ],
+      "target_delta_q_contrast": {
+        "n_available": 6,
+        "positive": 0,
+        "negative": 6,
+        "zero": 0,
+        "mean": -0.028361408154734463,
+        "median": -0.02848697235626796,
+        "min": -0.030929883039336303,
+        "max": -0.025372369134870176
+      },
+      "target_delta_fminus_contrast": {
+        "n_available": 6,
+        "positive": 6,
+        "negative": 0,
+        "zero": 0,
+        "mean": 0.030433011253896414,
+        "median": 0.023877058230984183,
+        "min": 0.01573402211363284,
+        "max": 0.05246943659837555
+      },
+      "target_dft_vs_xtb_fminus_signs": {
+        "available_pairs": 6,
+        "same_sign": 6,
+        "opposite_sign": 0,
+        "zero_product": 0
+      },
+      "target_dft_vs_original_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "target_dft_vs_symmetric_model_signs": {
+        "available_pairs": 6,
+        "same_sign": 5,
+        "opposite_sign": 1,
+        "zero_product": 0
+      },
+      "alternative_control_pairs_available": 5,
+      "alternative_control_pairs_expected": 5,
+      "alternative_control_distinct_parents_available": 4,
+      "alternative_control_distinct_parents_expected": 4,
+      "target_minus_alternative_delta_fminus_contrast": {
+        "n_available": 5,
+        "positive": 5,
+        "negative": 0,
+        "zero": 0,
+        "mean": 0.02659145887366332,
+        "median": 0.019937092733780304,
+        "min": 0.011727637089811616,
+        "max": 0.05647035226736996
+      }
+    }
+  },
+  "structures": {
+    "6584_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6584_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6584_off_target_N10": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6589_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6589_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6589_off_target_N10": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6675_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6675_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6675_off_target_N12": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6874_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6874_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6972_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6972_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6972_off_target_N18": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "6972_off_target_N9": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "7804_N_oxide": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    },
+    "7804_neutral": {
+      "status": "complete",
+      "detail": "Two electronic states independently checked"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "run_method_and_software": {
+    "6584_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6584_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6584_off_target_N10": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6589_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6589_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6589_off_target_N10": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6675_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6675_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6675_off_target_N12": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6874_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6874_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6972_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6972_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6972_off_target_N18": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "6972_off_target_N9": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "7804_N_oxide": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    },
+    "7804_neutral": {
+      "functional": "PBE0",
+      "orbital_basis": "def2-tzvp",
+      "auxiliary_basis": "def2-universal-jkfit",
+      "grid_level": 4,
+      "pyscf_version": "2.15.0",
+      "numpy_version": "2.5.4",
+      "libxc_version": "7.1.2"
+    }
+  },
+  "input_sha256": {
+    "input_audit/structure_manifest.json": "258fac7e7f43a6c4656293d1f2c5e8a92a1f8af0ca23b1aab5b217a3418843f0",
+    "protocol.json": "4b9b16e1da2cbc18eb48d7661eee304667785f90abb7a408f9f876ade0a0cac3"
+  },
+  "raw_result_sha256": {
+    "runs/6584_N_oxide/result.json": "8a7bd8a22d837aa19f3e8da805bc0db00a0de81191835b95d3e49c27b7368ea3",
+    "runs/6584_N_oxide/protocol.json": "933edd6f54effb6bfe5de3b574c53624754bd5a8ef338938f892362224459627",
+    "runs/6584_N_oxide/atoms.json": "67acfd49e558febb00a5d27f3bdae373362f54d18bab5226593fea273aeafe65",
+    "runs/6584_N_oxide/neutral/molecule.json": "fb8272d3c241d9e6c90479679e4c5da4bb225b2dfd5a6d1a5721343096af4957",
+    "runs/6584_N_oxide/neutral/wavefunction.npz": "eadf752ca53c56fdecabc792a79f8e7632740b06a1e20e7b7aef8e67d33e2b8e",
+    "runs/6584_N_oxide/neutral/result.json": "323b55a0bd4a2f88c4e913a834efe4688f80ed75863309ab9c8b8c2f54d7cfbc",
+    "runs/6584_N_oxide/cation/molecule.json": "4e7a21c0db9a1749d1d508b5a29efa79081727a5136674c1d85d0e730718123e",
+    "runs/6584_N_oxide/cation/wavefunction.npz": "592978744f38b19c68608e29b1d2e7e187171c594a613b4c3b72c088dea84aa9",
+    "runs/6584_N_oxide/cation/result.json": "0a1518611278e963c15e6c7cd37472d175f4e68e0c501b9b0374a09c45d7245a",
+    "runs/6584_N_oxide/artifact_manifest.json": "4beb05b06172c28eafe6379a4efd5305ab32421299846007da4ca39a54ccc77a",
+    "hirshfeld/6584_N_oxide/result.json": "5e787ab46c607d3320e1120c9dc142835ac086995fc9c630c6d49dab908c2a32",
+    "hirshfeld/6584_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6584_N_oxide/source_binding.json": "40153b80e725af59a089163553310b82b55f839e0cd8ffe4cf592e7a45556315",
+    "hirshfeld/6584_N_oxide/grid_4.json": "dcea702326753831990a4f19ae77bbaf12316521edd97bf0a1f84b426644b494",
+    "hirshfeld/6584_N_oxide/grid_5.json": "e5c01248069969cdb33fe4966ae7e50b89e03df5c86f05ae5df893d62d31fc62",
+    "hirshfeld/6584_N_oxide/artifact_manifest.json": "4b1ee61c7d609aa66e209cca6e06aebe74cdc9111f0b6c1c5e82542fddb462d4",
+    "runs/6584_neutral/result.json": "8ab0d68c7aa5d36db7afa994819d200cd37a730798a4745841982942441fe898",
+    "runs/6584_neutral/protocol.json": "4caefd31cff4e1140880b8e3fe5b768b9146ba2217ea671b348935640bf50637",
+    "runs/6584_neutral/atoms.json": "427cfc227ab4cd4b72fbe2b5f3a092b67e2b154f59aa8659ceb997348790431a",
+    "runs/6584_neutral/neutral/molecule.json": "abad10a986326d35f515073a9f4225c1a78357bac1ec2428647067b1c3b3b01a",
+    "runs/6584_neutral/neutral/wavefunction.npz": "b99b2e807df1a460c854e574542a64a51d03364ebae5d3f65f1b6df169e4ef22",
+    "runs/6584_neutral/neutral/result.json": "48a84791d1319fc28c56c9cff0e81bd0d17e1196e1e17773155cb0bd00419a0b",
+    "runs/6584_neutral/cation/molecule.json": "c88b788cfe37bbe418464bb7fd0661dd4d55b00eaf413eca7c54a52319413704",
+    "runs/6584_neutral/cation/wavefunction.npz": "fa47611bb758bc18d7138abbd124ca7a6af338960f7522bc62bae3698c496296",
+    "runs/6584_neutral/cation/result.json": "1163dae0e32e645b2f652e6d6b4e03d97765ddb4c99dbf929dfd8f5c7c655997",
+    "runs/6584_neutral/artifact_manifest.json": "599f03de8d3321e4291d7294d5c17d0fe4495ff714fc9c356f1164d35b9a0454",
+    "hirshfeld/6584_neutral/result.json": "b6b87b9acba71a1a07cfda2e594281588f3d0b14e5007653eb090845a54f14d4",
+    "hirshfeld/6584_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6584_neutral/source_binding.json": "8147d903861609a4df0c57ee9dbc873dea289e6a0f051a355d6da99b6988ec1d",
+    "hirshfeld/6584_neutral/grid_4.json": "f494d8bf0e02eb29e6713af8cd92aeced0af5a7db4c681afa9b8754edffec72c",
+    "hirshfeld/6584_neutral/grid_5.json": "5afa96df65facde0e155607025dbe823eccf257bff90ea3f3f43a2329cb218d3",
+    "hirshfeld/6584_neutral/artifact_manifest.json": "50eb1f383601d450ed98720f2514abe6cf45acb0b959d8b81e42a918c5dade65",
+    "runs/6584_off_target_N10/result.json": "4be99b742e802caf6d71b2c8b04da0091efdcb2925c61978335aa47493b0981f",
+    "runs/6584_off_target_N10/protocol.json": "214e1a28ebe4081efdaa1cf0b86e73105928fab51da920dccf3b2af4cffcb4de",
+    "runs/6584_off_target_N10/atoms.json": "27cb6ebe94328bb8687a87186a498ea1304d73e6826c7580afc706be86a48ad7",
+    "runs/6584_off_target_N10/neutral/molecule.json": "763f0925821100721482d440cdd7566ae98413cb1984ab368ce510a88804b315",
+    "runs/6584_off_target_N10/neutral/wavefunction.npz": "fc5231d734bb30acb6cec0fca0e808376c5890a4ed4e3ed36bf0be8aaf81c6ae",
+    "runs/6584_off_target_N10/neutral/result.json": "be0a565a135d555f3cf2c8d78c06a4ecfc4d1aaeccac70cd2ca529ba2370f3a3",
+    "runs/6584_off_target_N10/cation/molecule.json": "f31d8196972ce09e6a69a79f57779e16ace6f7a33537409d5ceecc87e028f7dd",
+    "runs/6584_off_target_N10/cation/wavefunction.npz": "7b73d7efed1c5544ea944c106e6fffa000caedadba67168f0c4cab40834671ff",
+    "runs/6584_off_target_N10/cation/result.json": "61fffa0837ca323dda6ed9404934c7de39d5fc5dfa8ee63ef3540f0a13af431e",
+    "runs/6584_off_target_N10/artifact_manifest.json": "31c5b2a29e4848e08529567139f577771a3608d72fb3baf534635fa55c3d413d",
+    "hirshfeld/6584_off_target_N10/result.json": "e379fc3c5b153d9e52865a9a4cccddecc5df451fea990a8951d5af9156325b86",
+    "hirshfeld/6584_off_target_N10/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6584_off_target_N10/source_binding.json": "c77b98293deddc2a7ff33c218d277f57fee10d978b3bbea5243b96bc8a35090d",
+    "hirshfeld/6584_off_target_N10/grid_4.json": "3001ea80617d5d6f9b6adbb483c72129789b8309fc5efe752f5cfe8c85c57447",
+    "hirshfeld/6584_off_target_N10/grid_5.json": "6309d7969dffd45ce5297a4a20da6eefec2c7d8717b4ff748e808eb6aa3425a0",
+    "hirshfeld/6584_off_target_N10/artifact_manifest.json": "0e8c7182760a06dfe7d1a34d10243e35e454ab92828a2af7c1fdec9504cd8596",
+    "runs/6589_N_oxide/result.json": "df05a21524141add2c352d72a910153e457a5d7c68dc47f653f0bc4b2a5086a0",
+    "runs/6589_N_oxide/protocol.json": "c9dd4d1fb0c485e52223634005e0fb363714e9227a51d05d5ee4b1022c253bb0",
+    "runs/6589_N_oxide/atoms.json": "89483dc210f6d9c08002bc01b67d084501058edc5c357dfa4ac3dbf13aaefc3a",
+    "runs/6589_N_oxide/neutral/molecule.json": "d1f148f0a4ed1039befe79a97b659301a795a34b2623267fdc9f528e04235657",
+    "runs/6589_N_oxide/neutral/wavefunction.npz": "15afbd2830219789002ef58c1207fb6e87a75817539daa0746d38f33af66c705",
+    "runs/6589_N_oxide/neutral/result.json": "04e38bfeda23d11f8806f127aed8f7d9e9a3a78b82caf0da8ea8f5f04c2b93d4",
+    "runs/6589_N_oxide/cation/molecule.json": "debacdbf475f39bb2f7d20f72a61e1a969450d963b89bd12f27e588c42bc3957",
+    "runs/6589_N_oxide/cation/wavefunction.npz": "d872ff1c9e7ab9e9935bbd9d794f83246ab9e0d93c07821daa6be58197acc21e",
+    "runs/6589_N_oxide/cation/result.json": "9f5ddc1c49eee6ce4ad561e363bd8440ebb965330a105657ea282de1808155ed",
+    "runs/6589_N_oxide/artifact_manifest.json": "31c62198fbc9c8c8fbe9841301a593bd07e9a9167ef1dcc63cc8e77b25c7b845",
+    "hirshfeld/6589_N_oxide/result.json": "d26699c5d3fcdddf9fa82ba59c3298a7df033d4ca4cf863b141edcd2b1c155db",
+    "hirshfeld/6589_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6589_N_oxide/source_binding.json": "e8c3f212d3fbda40e06d689b8f0423de20bc75d2eb3e645e07f5152ab355a17b",
+    "hirshfeld/6589_N_oxide/grid_4.json": "e8e8218a63948929bcd061292e7f27fe906a3a3addcf9bdf3d8b71ba2042ce8a",
+    "hirshfeld/6589_N_oxide/grid_5.json": "5e23aa324adc5fb649c34a8072ede022a6dd8b3b9e7d9a6ea7a1014f6c2264a0",
+    "hirshfeld/6589_N_oxide/artifact_manifest.json": "a8e004e2d76f7555600564490d4e77f99321e11b91cc917260b138f99e7226b9",
+    "runs/6589_neutral/result.json": "6f330195c8b62d07439ef7a1e2f4b2abfa4660bf742e38ecd1234461fae0d9c9",
+    "runs/6589_neutral/protocol.json": "14830950434e60f1d1ceb9758b09b6d094e48293ac6762c5db94c0853b594484",
+    "runs/6589_neutral/atoms.json": "685aae2313a458fe1cc02192b6caada087caae6706d271758f98001991eb3bd7",
+    "runs/6589_neutral/neutral/molecule.json": "3a9e5c718062b90cd412d08907dd72f6389d219e235d51eee06cb684ff7735aa",
+    "runs/6589_neutral/neutral/wavefunction.npz": "7664f9668e840fbfaf319bdbeab69b4084655a9108fc52fc61826ad8b4b48897",
+    "runs/6589_neutral/neutral/result.json": "78cde0a06da80abe349b3895544de8ce3c5f1b578e4db207579bd9ffc2da8a79",
+    "runs/6589_neutral/cation/molecule.json": "854c28fa69939ce90d609173d50442f9dd0e113d0bcdd1f9e41a15274457b4c8",
+    "runs/6589_neutral/cation/wavefunction.npz": "b029b9809f82335ffb9e1261a56e218e4135f5c07e5aacc44000bef3c322ed17",
+    "runs/6589_neutral/cation/result.json": "61758c5cf51b4974077f98dda77a27d9f65a749bc717cfc6ec8e9f64af5b9ae2",
+    "runs/6589_neutral/artifact_manifest.json": "b89d6c2bbfa47e36f6c78f38c6a89c20bfa897cfbb8ab70e524f6cf4391e4fee",
+    "hirshfeld/6589_neutral/result.json": "53bb65c2dd936b86031809eecf6ca6cfd7287324fc3152e9f63a68d13ef58419",
+    "hirshfeld/6589_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6589_neutral/source_binding.json": "64bd288a310477d7c4a45aace9dab999cc0b96146e9750aab8413216a6b17691",
+    "hirshfeld/6589_neutral/grid_4.json": "793d7de2cbed58f0189a70bbf24e551fafea382cd3b7929614b7071d6104f0e8",
+    "hirshfeld/6589_neutral/grid_5.json": "98e18309c81a64e56239941b66570e20e32b91b25de14f98314cde52565a9031",
+    "hirshfeld/6589_neutral/artifact_manifest.json": "1f4bc49c6a832af0848082fd105481d40aaab6b4ff7031d854fdfcc38dc489c2",
+    "runs/6589_off_target_N10/result.json": "09fbde05236fe1c93a236e0a24571cbb45a04dc1e86f058a0c360753c49c28ce",
+    "runs/6589_off_target_N10/protocol.json": "da8364b16cec5ace29d79a00831a3859f96759073c97842616e662ad44aa8478",
+    "runs/6589_off_target_N10/atoms.json": "9a6041d14091b2e672afd522155bea2cdfe57e6e405140b7bc0629d4ab4e43b8",
+    "runs/6589_off_target_N10/neutral/molecule.json": "d84580e0f53258d5eec5caacb63dc43001e5a0d23c3a42e01e9e59de84497459",
+    "runs/6589_off_target_N10/neutral/wavefunction.npz": "0593bde9ebcdea975c6ccae8b4927316d62a8b533615c3a2b85827843d7a8649",
+    "runs/6589_off_target_N10/neutral/result.json": "e29a2718bf5e9a53a9702221df82795f7fda5729dd9231f3c1eaf3975a82f650",
+    "runs/6589_off_target_N10/cation/molecule.json": "6ee78d09c38c36badb0c3e343f2c148b2191392724dfad139bad8b5691e1a2ae",
+    "runs/6589_off_target_N10/cation/wavefunction.npz": "3f71f7796b4037d41b00f08d32e58978ca084acc4b7a4cdbbefbd480af19c907",
+    "runs/6589_off_target_N10/cation/result.json": "f63f9b187cee348569d3597ae42c88b473f32846ee99b418795ae66ed13a4d73",
+    "runs/6589_off_target_N10/artifact_manifest.json": "803d61efdd17ea3c979ee01b34d4ae7f7d42a056afa799f081b97e0fd1e68376",
+    "hirshfeld/6589_off_target_N10/result.json": "f379176158c0888022eb5f889c95264cb0352c5c0a9026e004542ac738111e53",
+    "hirshfeld/6589_off_target_N10/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6589_off_target_N10/source_binding.json": "62b8b1719eb380027e92a8161404c7f219325806619512979d28165c2c5a281d",
+    "hirshfeld/6589_off_target_N10/grid_4.json": "4e4b2daed0ae514f977c8296710850d79d2c9d9a83e0b5bb2db63165b4607353",
+    "hirshfeld/6589_off_target_N10/grid_5.json": "f5ce9ac5bccc437c4cf27ce09557597b91a110aea551ab8bfb5a6058000c654f",
+    "hirshfeld/6589_off_target_N10/artifact_manifest.json": "d065794eca37b8d7e225c0205917720733a77de9674cd3cec9dc7b1702a06151",
+    "runs/6675_N_oxide/result.json": "7726248cdfc33d3a0c86864a0865a57938727fd8f741aac177573ce6cac60e63",
+    "runs/6675_N_oxide/protocol.json": "0190458e5b526d63963e3ca62365148cf6fd5ead479fbfb1b9eb6be6be3d560c",
+    "runs/6675_N_oxide/atoms.json": "30d7415da350896dcd653ef4ca051ffc0e4430a47966c36d8669758dce7a77e7",
+    "runs/6675_N_oxide/neutral/molecule.json": "3db522db996ba0f708704a22f60594aa2e629a66ec6108accfa5a6195b7e2109",
+    "runs/6675_N_oxide/neutral/wavefunction.npz": "e6c3b7dfd394636ca9b6914e49693b7b4ab314f3c69b4a8b8ff1a8114887dd2e",
+    "runs/6675_N_oxide/neutral/result.json": "5cc352252b2eebd822a746b1101f0da0ebe3cafcb4cb91b2c232ac6228fd021b",
+    "runs/6675_N_oxide/cation/molecule.json": "f9f49c63728cd44e5e3d7c5f9be868035b4384bd515c14daf61eb84e738f5421",
+    "runs/6675_N_oxide/cation/wavefunction.npz": "b2074e4332e168f1b60de01c773348a99e17e6b2252d5bd116f726a64afae616",
+    "runs/6675_N_oxide/cation/result.json": "2d1105220c42e03fb0815466950772aa528d9d4617adec7d580e5a4002af4ad3",
+    "runs/6675_N_oxide/artifact_manifest.json": "033f0eebe65eba7368d2474920f0b93e9e0b0d2d9e485e53b1ab0c775d023db1",
+    "hirshfeld/6675_N_oxide/result.json": "a89836ec39daeaed2cd20fc7fde0fad7dd2b7e3aa83e9e104cbfc75e8f84682d",
+    "hirshfeld/6675_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6675_N_oxide/source_binding.json": "5f3c0ed4a323e53110804c97856eadc94057c952fc1e5c5d6a78eaaa39cf534b",
+    "hirshfeld/6675_N_oxide/grid_4.json": "89986c927663391068c585cb26737045d68c5c79050f742dc5b826f1224254b1",
+    "hirshfeld/6675_N_oxide/grid_5.json": "f18584579a0a9f1b3b58cb658445bb8b1f7e61d801799bd3f5d3221716667848",
+    "hirshfeld/6675_N_oxide/artifact_manifest.json": "1a8cfd7e4da3bb77c22cd4a2cd6df62ce5bd6861651081307b2c87f0a323cd74",
+    "runs/6675_neutral/result.json": "6cae92c10f5861a8c339c886633398ad88b583edb3e94452df84c63be741cb6b",
+    "runs/6675_neutral/protocol.json": "b820cd9dd94e67c2519d79487ff200ceed86ed430925a9692e8352de55f5a9b6",
+    "runs/6675_neutral/atoms.json": "08e63d4ea5f86cecb3adde2e5b197d9d20d21c480088ba60bc996b7fa60a5601",
+    "runs/6675_neutral/neutral/molecule.json": "0ce0bbfc2c7752de6f73c9d9195da95f8862544f494feae9ffc54044b9b42894",
+    "runs/6675_neutral/neutral/wavefunction.npz": "a8734c4cd9491850d15c112543047f9b34355ed1c1f4d143e614c1591d743633",
+    "runs/6675_neutral/neutral/result.json": "59e1cc479f725c75923af4a11cbd11b56bb57872f03532ae30fbdc8f482829b0",
+    "runs/6675_neutral/cation/molecule.json": "01968eae8a577b5964ae84b3c56b0c566e79730a9cad74e39171657a1e87af85",
+    "runs/6675_neutral/cation/wavefunction.npz": "722aefe7e5fcbe76288672060fc094d1271e527691e6f0c1416cab26ab6b09d8",
+    "runs/6675_neutral/cation/result.json": "3ab1d88da80419c041c9e62a35b6ef72dc5bb1f3653efbb4903696e7fba84765",
+    "runs/6675_neutral/artifact_manifest.json": "778af9808a0f8b4ee86ba5b6f3d3e502a7ee32a657b7b1f430b6ca19a886d91b",
+    "hirshfeld/6675_neutral/result.json": "e95d2598673e4db0f7d8c94854606676dc1e411527f522a3eee161163a197b40",
+    "hirshfeld/6675_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6675_neutral/source_binding.json": "1ee9af5cc3a7df960f8fc0576a0105c75131fce489b9e01f93c567013c8b3a4b",
+    "hirshfeld/6675_neutral/grid_4.json": "16016798b5791968443b648fdc8dbd62b6d01c1c2b30e83d62b65bf3b81116fc",
+    "hirshfeld/6675_neutral/grid_5.json": "7b9b744a5da5578e6f29c55033f08206799784d7976dc377363f87447a736c78",
+    "hirshfeld/6675_neutral/artifact_manifest.json": "07da97d587ca0cf90747e28658f90c577070580f0f5a56b0088feea524f2a21c",
+    "runs/6675_off_target_N12/result.json": "998e6bdfe63fb3776e7ba66487820371530d19b03431cfda758c85c7c78ed1c7",
+    "runs/6675_off_target_N12/protocol.json": "fdc15b3011f1e4d62ab66ede69e2d2d615091f1441c8d6958e66757957c94fc7",
+    "runs/6675_off_target_N12/atoms.json": "7148cf1c2abd62551b8f4304b6e89833f61c01b5403b2aec123df62df57a81be",
+    "runs/6675_off_target_N12/neutral/molecule.json": "e6e8f0e0cafdbe36d21a10879e5ac5c7d91ba695743fc7c23c2c5fe81ac1b7c3",
+    "runs/6675_off_target_N12/neutral/wavefunction.npz": "a5b71624dade499e033b965a29d2f492b2302196c77cbc8f12c834ee56aee8bf",
+    "runs/6675_off_target_N12/neutral/result.json": "87962a00e687a784866da5130b75d5d39f5bc4da8f563a72fbeff3509182db14",
+    "runs/6675_off_target_N12/cation/molecule.json": "a1f9944977cac19ed8d4f7f9920216e24a12660fcf9e35e1076d5bc7cee22c7a",
+    "runs/6675_off_target_N12/cation/wavefunction.npz": "59c8f51318e0ce13b2f51f93bacf6a71dea11f9b13f412ec04dd6f33da978c98",
+    "runs/6675_off_target_N12/cation/result.json": "f4aef0bd93c47bc2ef2ed98121ac76c869410ff1e313a39814962a0b28b2902e",
+    "runs/6675_off_target_N12/artifact_manifest.json": "64e3744324207232bec06699de77a651842fd8467725c22db89af456d5a4b69e",
+    "hirshfeld/6675_off_target_N12/result.json": "6d2345a2562fd4e11fe52a325de7df18ff59222abe085d990f7d13335a7eca34",
+    "hirshfeld/6675_off_target_N12/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6675_off_target_N12/source_binding.json": "8974ddf92cdb68f8324788cc36d9b9f9dacad8db1b776d940b00139f67266ce8",
+    "hirshfeld/6675_off_target_N12/grid_4.json": "443738a6bf2ae4ade6a180e492401be2f41123ff37af2dee6f982dc91de3123d",
+    "hirshfeld/6675_off_target_N12/grid_5.json": "0f6f49ed1f4f36285f69df5cbdb7446770f7a374a176b14da4284ba7d6059c07",
+    "hirshfeld/6675_off_target_N12/artifact_manifest.json": "88b6ea520af18b784e68dd7ec38ea240812ff5e20fa8541845021933934dcc83",
+    "runs/6874_N_oxide/result.json": "c1f707fefcc4d0c30ff0eb014f4be3e580caec371e0eb78263aa40bd92e56658",
+    "runs/6874_N_oxide/protocol.json": "edf735e94cd3b74f49e08a5501b23283359707cc283ef275b16820fa84524d22",
+    "runs/6874_N_oxide/atoms.json": "53f8a8589674589bea6cbb568e36ccaceed928f1687d5f29296288ffced0f5b0",
+    "runs/6874_N_oxide/neutral/molecule.json": "896a9c56fe30c1ee078c390119fa38c192075db30c430e5119c8031ade027c0a",
+    "runs/6874_N_oxide/neutral/wavefunction.npz": "70b30606fbf388d0adf07f1de89ae7cd3ad94c6dc4913dbfa9bf9e2ddf57390c",
+    "runs/6874_N_oxide/neutral/result.json": "c528598ce921737e0824b058fa514fd14ca776e8f1399ecb13c770bc4bfb9755",
+    "runs/6874_N_oxide/cation/molecule.json": "dc0835a279bac6484e3dc183ca933377be5fa8dd24e1b42b054d367de66242a2",
+    "runs/6874_N_oxide/cation/wavefunction.npz": "23530b83e838beb964ebd5d59a92cd8ed33f6861de8cc9ae91c4b07d6823e32a",
+    "runs/6874_N_oxide/cation/result.json": "6e84a982bdbd89c8a2e1ac44094510f4180b156d07b9a806dc9a92f44981b4f7",
+    "runs/6874_N_oxide/artifact_manifest.json": "03ed53135330380058468a7d52be6646be9600276df6403500430678fbe31b71",
+    "hirshfeld/6874_N_oxide/result.json": "fc0c8eedeece91f6e94e33dab737af0d7fcb5c99c6e37b041bfa1c18530a875c",
+    "hirshfeld/6874_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6874_N_oxide/source_binding.json": "08ea0f28f75d2efd78c6d839441f746e5b8355fdbd0d019cb2e4d89e70215ce0",
+    "hirshfeld/6874_N_oxide/grid_4.json": "359106292f4c48ef6b9e4c961b7aec6369fe9eca0ffb20f91edc22016716600d",
+    "hirshfeld/6874_N_oxide/grid_5.json": "11930a96023bbae8e823b835c6c0d8095418cc5a3e93bb15337656cebe1c81b8",
+    "hirshfeld/6874_N_oxide/artifact_manifest.json": "a616eab2d4ac879758a4a0198e897d03479baa7c6cf91e757e96d1b842814452",
+    "runs/6874_neutral/result.json": "052a9c58b0eb3786d8e5796124448f175b5dab7486b15a7d4595fdcfa01a51e3",
+    "runs/6874_neutral/protocol.json": "9750e03d55987f76e705c9130fc04fa6e8e029f099a3bb40e84f6dc721d677f6",
+    "runs/6874_neutral/atoms.json": "1c959b2d2be5e56886aad53856e100a357edf25f37d2e66126ed573cde28ef11",
+    "runs/6874_neutral/neutral/molecule.json": "752ec3c92050db45f30405c1d0c6dcab58f486c29c88ab704030711699a82cca",
+    "runs/6874_neutral/neutral/wavefunction.npz": "799233405eb0c78de97117aac413e4ca9dafe86501e983fc3fccaaa928f2fb48",
+    "runs/6874_neutral/neutral/result.json": "ea1aa500cfe060630dce5fa95a9db71fb90b5dfdcb7113aca2b264a41bdc16d2",
+    "runs/6874_neutral/cation/molecule.json": "5c9f8a759747a22c532438430f700cdab904adb2a652d132802bdd718a68752b",
+    "runs/6874_neutral/cation/wavefunction.npz": "44fb884cd259343628bf8d23da36543e258af0e259a99a97c7a40adc0f09d188",
+    "runs/6874_neutral/cation/result.json": "ca0f9efade8c4c78e37080e94ad9c2d1b90b972030c3a7f67d45b78b036da64e",
+    "runs/6874_neutral/artifact_manifest.json": "98946e8d72b76a659461de78f8c655992ce98e474c4fbb07e1a80865ebf50e6a",
+    "hirshfeld/6874_neutral/result.json": "4400adfc2f5732aa523b62c1d3f60d9c2d9ac2328cd1c1c015a929d3f05e4184",
+    "hirshfeld/6874_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6874_neutral/source_binding.json": "6fd9ad4136f0a1ef96b990e71e6b6f6a68cdfd5d53a181dc461c3993b09595da",
+    "hirshfeld/6874_neutral/grid_4.json": "7df977952c75d364a2ee2b9d0c0c788808013202777b98059d3997db2547ad00",
+    "hirshfeld/6874_neutral/grid_5.json": "715a95432d95a7cd3a14fa866a5e5c934b438382126d34cad27bc56b9a6acc0f",
+    "hirshfeld/6874_neutral/artifact_manifest.json": "b871d3bac7182c719082a72555a44f76b8bc545b448f198cf8b2301a2741fb6e",
+    "runs/6972_N_oxide/result.json": "1d93a75989cbbe6f886fd682104ac17772ad61ea39cb8aa064ddc93bcce737cb",
+    "runs/6972_N_oxide/protocol.json": "f0175ab30b6ada70ba6cf0ed8508b6bcbbcbb4e18c6b5be7571a03ff3efebda4",
+    "runs/6972_N_oxide/atoms.json": "b6f5ac401f75986e9eb55fa3703852f19ceb460ed80ee8af1fa7a52c6c5d25a9",
+    "runs/6972_N_oxide/neutral/molecule.json": "ebb0b61f4db5e97fc4204716a0c705ce9cdd506ff4d7dc73c9150e5a2703b2b0",
+    "runs/6972_N_oxide/neutral/wavefunction.npz": "60391fb61ecc1512086296030c77efaf74188f057030258121e5b444f5c3010a",
+    "runs/6972_N_oxide/neutral/result.json": "20af0fcf94a67a7d9961473ac0cd2baa9f54b58d66a2b5c09cc4bf89facc2b31",
+    "runs/6972_N_oxide/cation/molecule.json": "9f8128378aec6b8ac03a0e89292a91ba6cdadb80bd5993d76d4fa61fe44519fe",
+    "runs/6972_N_oxide/cation/wavefunction.npz": "2903c8ab4e9c07bdbf5640018f8c26b8cf1449960cf2ee7138beb340e3a4931e",
+    "runs/6972_N_oxide/cation/result.json": "888860b6cd73532f3e081109fc6a5ab0702c2a56721c8386188259b5a2de5a75",
+    "runs/6972_N_oxide/artifact_manifest.json": "3612e7614736e1d304045da89c22779bdfba9e40789da01f23bbdeb6a951e19b",
+    "hirshfeld/6972_N_oxide/result.json": "a8e0e98f8edcba2f04c658ac1deaf0950e667f319c2dc9f0f8cfaf07265183ba",
+    "hirshfeld/6972_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6972_N_oxide/source_binding.json": "c872dae5f3a20e145ce3e22d3d0572f81c6bd24aaf787dbbf05ee6c59bee2208",
+    "hirshfeld/6972_N_oxide/grid_4.json": "0174cb0484c0090f7c259b873eedbaa56ee1a17f89f5e9e44fc7fdb807a8d322",
+    "hirshfeld/6972_N_oxide/grid_5.json": "18e2d33893adf6c08fc65169320cb29b31120c598493e8b61fa2d7a922619c51",
+    "hirshfeld/6972_N_oxide/artifact_manifest.json": "f8e181f4a0741bd041db364c8cb6ce2ec29d619464f0d02f8a26d2b69f191ebb",
+    "runs/6972_neutral/result.json": "9d0cf5e85031dc055b7e391e17d27327846bb77b051d16c9cde53c2a7d51571a",
+    "runs/6972_neutral/protocol.json": "fa1e3d288c22b4af611d0e8f8d38480a4e8ac12986265446aa8b5455b80ce5f6",
+    "runs/6972_neutral/atoms.json": "58bc95642165b8949d1b44aa06ba05eaf08f14348cb0e69e17e9cb2ae44efe0f",
+    "runs/6972_neutral/neutral/molecule.json": "6b61d92b6d61ec340e85a8fbb3fa143c837385b413f8510e260796033b179f15",
+    "runs/6972_neutral/neutral/wavefunction.npz": "c2f0c9cfd9abd1b9ef1f932b93fd9f79dc05fe496f65a9adcae1cc55aeb64a7a",
+    "runs/6972_neutral/neutral/result.json": "bc297cd124bba69b8f87294498ae2db824aa87a84147115ffdfe36f353499ffb",
+    "runs/6972_neutral/cation/molecule.json": "68c2e6dbecdaf41ea2c4dee8af012160bbee29e2dbaf7b2c0967b391dcef48af",
+    "runs/6972_neutral/cation/wavefunction.npz": "dd02cd49478b50857cdc625601075eb4a308bb7fc1d44a569330f77a3e9f2016",
+    "runs/6972_neutral/cation/result.json": "e062074d8a8a481927f0c9a8e2ec4c3ca9b9cbf07a8aadf2d483f83af47c499a",
+    "runs/6972_neutral/artifact_manifest.json": "413a84630373c2400a61f233f3b046d01b949568652fa7b197620cf84259f5fd",
+    "hirshfeld/6972_neutral/result.json": "e38babcd296677af545c652d38b44b34082c411ea6da0235aeb52528e689de43",
+    "hirshfeld/6972_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6972_neutral/source_binding.json": "f74d11a7341305121bcec732da4472362ad602a79588ec6fe2a1e3e0bef74d41",
+    "hirshfeld/6972_neutral/grid_4.json": "3cddd3bcf99c4b07ee9ef19ffe012bd98765d7e8061a05b0e1c78d7207d5ff05",
+    "hirshfeld/6972_neutral/grid_5.json": "0ab53942cb0182ebd9f3141fe3ac04447a4f82351ebb6ece82fd9be4353e72ac",
+    "hirshfeld/6972_neutral/artifact_manifest.json": "2acf2544acffcf4861ccd44c324a43439b4c131f3cfc811c1361fb3645903911",
+    "runs/6972_off_target_N18/result.json": "f47f73c160dfb0f31f09240ebbc594219304bf78d8380514fffddf27673bc649",
+    "runs/6972_off_target_N18/protocol.json": "879d70c6ad05b93f893206d076a5cf3aae4da21f91654b9138e7c2f29e9620d4",
+    "runs/6972_off_target_N18/atoms.json": "7513a8e190b86bc8c5d8aa57067c5284ba2d62568864025a22b51cd3a42f3506",
+    "runs/6972_off_target_N18/neutral/molecule.json": "fdf1f1794842214546c1e94c80e5adaaf886012fd416e6969f04fcc987eb7820",
+    "runs/6972_off_target_N18/neutral/wavefunction.npz": "c6de10422f4f1f8f92ae6dff9afcf5c25257ab20c9e3a0e16bfbd97eff34a456",
+    "runs/6972_off_target_N18/neutral/result.json": "cc99cf907d02b2f039c6da949e5eec0192bf8c71b15df8cba1ac470138a1537d",
+    "runs/6972_off_target_N18/cation/molecule.json": "7d03ad7d6f472cf3b3517ce61573f5db45f9e89f7badfb517ea939ab8b6ed536",
+    "runs/6972_off_target_N18/cation/wavefunction.npz": "6ab92092b07df4cf51a0e8460efc511ef38172c29926d5633c9b0d18bdb3ef47",
+    "runs/6972_off_target_N18/cation/result.json": "da0ef2b0c01b6bc4760746b90e3f023e95b966ca697437d346f3a7509acd6868",
+    "runs/6972_off_target_N18/artifact_manifest.json": "42ac6dd808d10b78f7dbb0c5cab2349c463b9c2df1bc9fedd28d1f523b513359",
+    "hirshfeld/6972_off_target_N18/result.json": "5ea33a17c425ce547c68e09686d431e888cbcd8c9af715e0409f4f03a4cfe947",
+    "hirshfeld/6972_off_target_N18/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6972_off_target_N18/source_binding.json": "50da81a73d614921f39e6893d6d93bc65dfd25c105bba2046d01d4e273ea6271",
+    "hirshfeld/6972_off_target_N18/grid_4.json": "b237433aab529f3dfb746a7e23734503f9d44cb3a80f90807a798808c1bd3533",
+    "hirshfeld/6972_off_target_N18/grid_5.json": "3931456172c7e5fa514cb7b3c0170064859bc28c87886b0bfc2efc1362b05719",
+    "hirshfeld/6972_off_target_N18/artifact_manifest.json": "6c6cc5c355337e2327788473b99e1bdd2f8ab5888c3eda1d29b4c58c7a56b711",
+    "runs/6972_off_target_N9/result.json": "35fc9168e47f41ab0c950c6ecb828da4982c2d92fd36f62a8cdc7430fb80c1ff",
+    "runs/6972_off_target_N9/protocol.json": "43152b5dd93c5bf0f85ec49ab6f6659d932c76d88b355ff2486ca0f26ea35a3a",
+    "runs/6972_off_target_N9/atoms.json": "1839aa2afe62284cbf905fa8e6be379ed4ab7850678aaa6bab0f619b9e8e6afa",
+    "runs/6972_off_target_N9/neutral/molecule.json": "bdf55f0340bb0913effcf745f004a41ff582a6d651b50c1c801e076f391ddab7",
+    "runs/6972_off_target_N9/neutral/wavefunction.npz": "f577f041f4b5ee3acbbb107dc2e59c47160734093d1661d45e25111c5a9a7c5a",
+    "runs/6972_off_target_N9/neutral/result.json": "df0669145ade6b9b795b5fd6516af5bab6b59d693b9dac694c4325824c75c384",
+    "runs/6972_off_target_N9/cation/molecule.json": "24580373d6d1d6bdcb997caa86f76c7914a54ef6f285a7ff6408b2f23a403b34",
+    "runs/6972_off_target_N9/cation/wavefunction.npz": "8a1b590005109dfddbd50ad713b55425a748ee45d70058c9377921b6fedc097a",
+    "runs/6972_off_target_N9/cation/result.json": "15e1ee2a3c9b703905cf8aa77307d0aa69b9355baebdb7088b7770ce6b906d6b",
+    "runs/6972_off_target_N9/artifact_manifest.json": "3c89ec9c88a850abc9f12447795ae6b5447dc4578f0981d917eb4199b24e5f16",
+    "hirshfeld/6972_off_target_N9/result.json": "59ad43157b6915d7697044b8b8612ac2041ce1edc1e8ded4af57fbc597118c10",
+    "hirshfeld/6972_off_target_N9/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/6972_off_target_N9/source_binding.json": "ba33f13aaf02db58b63eacbc72bd06adfe80350faed78232372b38e9eeb85ad2",
+    "hirshfeld/6972_off_target_N9/grid_4.json": "36fca771b0221888c5219656f203713f46af06f02dc37a6f7a3e30cdbd2fb7b6",
+    "hirshfeld/6972_off_target_N9/grid_5.json": "3beec52f0f5ba226ea08ec3d4724a19c08357391d252d7005d9e49bb12cc1ede",
+    "hirshfeld/6972_off_target_N9/artifact_manifest.json": "c4c54b748f47e72c02ac79d810be6990be1da01a4afb5adc4c6b1980edf1c232",
+    "runs/7804_N_oxide/result.json": "88500ab55ce71e6cf969a35d43040c02a27f963f0a542656f53a15c40d80a492",
+    "runs/7804_N_oxide/protocol.json": "b766085aebd57f41768b8da68ff14c0cc03508a79d2e5b86d6b2a497fc6845ed",
+    "runs/7804_N_oxide/atoms.json": "f3f976cd5103786c6e2c715682ad6f1d11f06300cd6f9c9524c7448e59ce63d7",
+    "runs/7804_N_oxide/neutral/molecule.json": "071281f057df7e616337c77c8cda244cbd7f24e82a2d56657a5354f48dbbb691",
+    "runs/7804_N_oxide/neutral/wavefunction.npz": "f254c4f199a9178adbd47cbad65f433d7a0d9a994ae67901b3e18d56b8b3dc5b",
+    "runs/7804_N_oxide/neutral/result.json": "6dca84ac1becfd33678e1117a3d5ee27067ef8d3a298d180d1c6733945d12cd4",
+    "runs/7804_N_oxide/cation/molecule.json": "1094d937cb7ca5bd94974aa2718679be811ce74d55aa2f46541e58336cf5112b",
+    "runs/7804_N_oxide/cation/wavefunction.npz": "1f25b58c192d42f7db0864d35fc67c0b02361513e2a1e750df67716f6bd67149",
+    "runs/7804_N_oxide/cation/result.json": "4f7c17cf19104ee314ddc1b01d84d04eabeb2472eddf142a8a081f8074d21749",
+    "runs/7804_N_oxide/artifact_manifest.json": "27e21113c4f0e70ff337698bf2017a941ce54b1f9a9e79defccc1edf53deed01",
+    "hirshfeld/7804_N_oxide/result.json": "d4a16af670915ca324e191426e9a929ba1be26b4095d18a7bb97c4f470b41507",
+    "hirshfeld/7804_N_oxide/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/7804_N_oxide/source_binding.json": "316bc6edfa2ad9f02f78a9db167782b10c3ac82229ef2f668e0dbcaa65e44e3e",
+    "hirshfeld/7804_N_oxide/grid_4.json": "e7fed8520be666ba7e8049ddc98d2b964cf36d614bf25f939428f547a06e92a5",
+    "hirshfeld/7804_N_oxide/grid_5.json": "1536685fd5d27e320a37a9fdfa890c678a306f3cbcb85bb0d226fb96711ce8fd",
+    "hirshfeld/7804_N_oxide/artifact_manifest.json": "e0cc58c016237a3d3868348203a9c9d37db0b21fddbd501767f1f678e8a41e77",
+    "runs/7804_neutral/result.json": "7a9a39a820260247811e96f10a5059338ab75f225776e178b8024e5e4197629b",
+    "runs/7804_neutral/protocol.json": "157a8f9782b1556dc09106a84550d4db95964169be581c48c83f8df1ac1826f0",
+    "runs/7804_neutral/atoms.json": "5b71fb33e69dc600ed34d09814d0ff09d2cd39bcb1114d43b2d21f801cc3af5a",
+    "runs/7804_neutral/neutral/molecule.json": "b129bed79feb3b6514a67b2ede116e96b3eb66e49bc06d2d1962f5f3a41db73b",
+    "runs/7804_neutral/neutral/wavefunction.npz": "c9b548361e6e921a548796f19bccf9a3eafefb4ecd99421246881eb025203217",
+    "runs/7804_neutral/neutral/result.json": "87c84d4a27ef40daece4c565e5d9c23add8ec7967b4114c1cbb5be7916858bca",
+    "runs/7804_neutral/cation/molecule.json": "65e8ef7ea31db4ad13cb9ce8791b9473f1924fd42800d33f92542ef8e6c5d1bf",
+    "runs/7804_neutral/cation/wavefunction.npz": "5769c9d899defc30be7cc3fb566a2de1eeef4cf4fe55738dc083bcdf10b9c240",
+    "runs/7804_neutral/cation/result.json": "67eaf7ceccfc46df19758573879117a48f7b15829bb6608ad46f42835bac5e8e",
+    "runs/7804_neutral/artifact_manifest.json": "17ffe908f999f19bc592f9a68eed50f36fd1730ce66bacc4ae917db7437095eb",
+    "hirshfeld/7804_neutral/result.json": "74a7f860770741e732e0bc1a3d516c2e7370edca0a0a74bd3ea7cd77d8fb8091",
+    "hirshfeld/7804_neutral/protocol.json": "a3021652320fe6fb2ec0d28f87800542f2cfbae0dc320f06379ff70c44032a01",
+    "hirshfeld/7804_neutral/source_binding.json": "053a9daacdf6c43341a30ae096e83d8eb7e790883f302a433ad6e4287f873b1a",
+    "hirshfeld/7804_neutral/grid_4.json": "4f66cda51bdfdaee73c14cf7fe242442a99ccc8674ff0fc88b0c59781a22698b",
+    "hirshfeld/7804_neutral/grid_5.json": "efb6c2c52d9d562cc7112e7264d2b97b7333dd3b51c49d3ee0d1e429b884fac1",
+    "hirshfeld/7804_neutral/artifact_manifest.json": "bd55563fb9231a01f7fda054c6e511abde8d9f9943e1b3813f5911a248c0c1ca"
+  },
+  "summary_script_sha256": "118faa9b5a1aa9104b9e76cdf1f4d55189c23173583f31c8519e3faefa960e31",
+  "completion_gate": {
+    "all_17_structure_results_valid": true,
+    "all_34_states_valid": true,
+    "no_validation_errors": true,
+    "batch_protocol_available": true
+  },
+  "interpretation_notes": [
+    "Partial summaries use only explicitly listed available pairs; missing DFT values are blank, never zero.",
+    "The population methods are sensitivity readouts on the same electronic states, not independent replicates.",
+    "Hirshfeld values come from separately verified native density postprocessing. Missing or invalid Hirshfeld values are blank; the 34-singlepoint completion gate is separate.",
+    "Target and alternative controls sharing a parent are dependent; 17 structures do not give 17 independent reactions.",
+    "Original primary and later symmetric model scores are separate columns. Alternative-control comparisons use the common symmetric readout.",
+    "Signs and magnitudes are reported regardless of whether they support prior expectations; no outcome-based exclusion or p-value is applied.",
+    "Fixed-geometry electronic descriptors characterize model-input perturbations; these outputs contain no DFT geometry optimization, frequency, transition state or reaction-rate calculation."
+  ],
+  "derived_files_sha256": {
+    "per_structure.csv": "ece0a291843d878d74b5f989c7b7eb478b8f83acaf556afde2773a5828d6f21d",
+    "paired_electronic_comparison.csv": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da",
+    "alternative_N_controls.csv": "3d66abd88f8dd3b67accac18ac2e62fc001ea25bcd17943568fdf8696bca73f2"
+  }
+}

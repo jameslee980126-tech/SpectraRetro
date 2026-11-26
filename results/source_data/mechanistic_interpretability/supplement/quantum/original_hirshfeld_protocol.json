@@ -1,0 +1,24 @@
+{
+  "revision": "phase-original-anchor-bounded-children",
+  "method": "native PySCF Hirshfeld from saved molecular density matrices",
+  "molecular_scf_recomputed": false,
+  "workers": 4,
+  "threads_each": 8,
+  "memory_target_mb_each": 12000,
+  "grid_levels": [
+    4,
+    5
+  ],
+  "per_structure_wall_limit_seconds": 1200,
+  "postprocessing_budget_seconds": 7200,
+  "total_ultimate_deadline": 1794303363.9425921,
+  "child_shutdown_reserve_seconds": 5,
+  "summary_reserve_seconds": 30,
+  "launch_rule": "after complete molecular SCF queue and initial watchdog aggregation",
+  "source_script_sha256": "699fda6f91ee08c8415295ed2e7a5618390af2fe43e2dfd42155e52463c76817",
+  "controller_sha256": "45a5586704c7268d6143ef83c7a888ed4e6e85a497d9f403ea9a1434b8becd1d",
+  "reference": "neutral spherical atomic HF densities, native PySCF implementation",
+  "postprocessing_started_at": 1794257743.5805087,
+  "postprocessing_deadline": 1794264943.5805087,
+  "workers_deadline": 1794264913.5805087
+}

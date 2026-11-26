@@ -1,0 +1,19 @@
+{
+  "source_record": "failure_cases_chemical_review.json",
+  "source_sha256": "ef4eb1f094f426b9e0551fda133bdeecb547c314ddcab0457389aaec73eb5fa7",
+  "source_records_verified": 3,
+  "case_count": 3,
+  "reaction_ids": [
+    "test:008801",
+    "test:003419",
+    "test:006917"
+  ],
+  "output_sha256": "d8484e2abf0dd37461ea8397841d71af617b5627317cb3b857a35c665debbffa",
+  "derivation": "Exact string copies; two component strings are joined in their existing order with a dot. No molecular conversion or scoring is performed.",
+  "representations": {
+    "native": "Original decoded precursor component strings.",
+    "display_mapped": "Mapped structures used for the figures.",
+    "display_canonical": "Canonical structures after the display transformation described in Section S5.4."
+  },
+  "missing_position": "An empty reference_candidate_position together with reference_in_candidate_pool=false indicates that the reference set is absent from the candidate pool."
+}

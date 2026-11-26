@@ -1,0 +1,102 @@
+{
+  "training_source_onlyclass5": true,
+  "known_class_constant": 5,
+  "source_hashes": {
+    "train_aryl_disjoint_eval_table.csv": "8d309d1d6cfb188dc51a07119e39f8131fd5a48e7768e3810186e7f8d73fc455",
+    "eval_aryl_table.csv": "7aab0f9eab4b734405acdc9ed6418af132b801bb4d695c7a935d891a585d026d"
+  },
+  "input_feature_whitelist": [
+    "fragments",
+    "anchors",
+    "center1",
+    "center2",
+    "product",
+    "partner_fragments"
+  ],
+  "forbidden_target_features": [
+    "molecule",
+    "linker",
+    "linksize",
+    "_rxn_smiles",
+    "_stage2_key"
+  ],
+  "synthon_reconstruction": "New atoms preserve Z/formal-charge/aromaticity and known bonds only; source explicit H/radical/chirality/maps discarded; H/valence recomputed.",
+  "audit_labels_materialized": false,
+  "source_train_rows": 24915,
+  "train_rows_after_eval_product_exclusion": 24915,
+  "excluded_eval_product_overlap_rows": 0,
+  "eval_rows": 3342,
+  "eval_split_counts": {
+    "fit": 1933,
+    "audit": 714,
+    "dev": 695
+  },
+  "inner_validation_rows": 2554,
+  "fit_rows": 22361,
+  "labels": [
+    "NONE",
+    "ONE_C",
+    "ONE_O",
+    "ONE_N",
+    "ONE_F",
+    "ONE_S",
+    "ONE_Cl",
+    "ONE_Br",
+    "ONE_I",
+    "ONE_P",
+    "ONE_B",
+    "ONE_Si",
+    "ONE_Se",
+    "ONE_Sn",
+    "ONE_Zn",
+    "ONE_Cu",
+    "ONE_Mg",
+    "ONE_Li",
+    "ONE_Na",
+    "ONE_K",
+    "ONE_Ca",
+    "ONE_Al",
+    "ONE_Fe",
+    "ONE_Pd",
+    "ONE_As",
+    "ONE_Hg",
+    "ONE_OTHER",
+    "MULTI"
+  ],
+  "train_label_counts": {
+    "ONE_N": 102,
+    "NONE": 12440,
+    "ONE_Cl": 1286,
+    "ONE_Br": 5700,
+    "MULTI": 925,
+    "ONE_I": 4132,
+    "ONE_F": 288,
+    "ONE_O": 20,
+    "ONE_C": 22
+  },
+  "feature_dimensions": {
+    "local": 1536,
+    "context": 3584,
+    "context_descriptors": 3616
+  },
+  "arms": [
+    "local",
+    "context",
+    "context_descriptors",
+    "context_weighted"
+  ],
+  "seed": 0,
+  "hidden": [
+    512,
+    256
+  ],
+  "batch_size": 256,
+  "max_epochs": 100,
+  "patience": 10,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.1,
+  "weighted_arm": "sqrt inverse train frequency; clipped [0.5,3], normalized by full-fit mean weight. Main inference softmax(logits-logw).",
+  "sha_features": "7c5dec5ebb720b78c148af515c9b53f31c6bb18d27c2621f651c10ec44252de4"
+}

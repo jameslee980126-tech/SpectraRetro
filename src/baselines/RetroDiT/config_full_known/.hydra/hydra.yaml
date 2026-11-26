@@ -1,0 +1,194 @@
+hydra:
+  run:
+    dir: /root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/eval_best_step512
+  sweep:
+    dir: ${paths.log_dir}/${task_name}/multiruns/${now:%Y-%m-%d}_${now:%H-%M-%S}
+    subdir: ${hydra.job.num}
+  launcher:
+    _target_: hydra._internal.core_plugins.basic_launcher.BasicLauncher
+  sweeper:
+    _target_: hydra._internal.core_plugins.basic_sweeper.BasicSweeper
+    max_batch_size: null
+    params: null
+  help:
+    app_name: ${hydra.job.name}
+    header: '${hydra.help.app_name} is powered by Hydra.
+
+      '
+    footer: 'Powered by Hydra (https://hydra.cc)
+
+      Use --hydra-help to view Hydra specific help
+
+      '
+    template: '${hydra.help.header}
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (group=option)
+
+
+      $APP_CONFIG_GROUPS
+
+
+      == Config ==
+
+      Override anything in the config (foo.bar=value)
+
+
+      $CONFIG
+
+
+      ${hydra.help.footer}
+
+      '
+  hydra_help:
+    template: 'Hydra (${hydra.runtime.version})
+
+      See https://hydra.cc for more info.
+
+
+      == Flags ==
+
+      $FLAGS_HELP
+
+
+      == Configuration groups ==
+
+      Compose your configuration from those groups (For example, append hydra/job_logging=disabled
+      to command line)
+
+
+      $HYDRA_CONFIG_GROUPS
+
+
+      Use ''--cfg hydra'' to Show the Hydra config.
+
+      '
+    hydra_help: ???
+  hydra_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][HYDRA] %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+    root:
+      level: INFO
+      handlers:
+      - console
+    loggers:
+      logging_example:
+        level: DEBUG
+    disable_existing_loggers: false
+  job_logging:
+    version: 1
+    formatters:
+      simple:
+        format: '[%(asctime)s][%(name)s][%(levelname)s] - %(message)s'
+    handlers:
+      console:
+        class: logging.StreamHandler
+        formatter: simple
+        stream: ext://sys.stdout
+      file:
+        class: logging.FileHandler
+        formatter: simple
+        filename: ${hydra.runtime.output_dir}/${task_name}.log
+    root:
+      level: INFO
+      handlers:
+      - console
+      - file
+    disable_existing_loggers: false
+  env: {}
+  mode: RUN
+  searchpath: []
+  callbacks: {}
+  output_subdir: .hydra
+  overrides:
+    hydra:
+    - hydra.run.dir=/root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/eval_best_step512
+    - hydra.mode=RUN
+    task:
+    - experiment=retro
+    - data=uspto_50k
+    - +model/sde=dfm
+    - +model/net=graph_dit/8m
+    - data.data_root=/root/rivermind-data/retrodit_known/data/generative/uspto_50k
+    - data.graph_vocab=ch6_69pct_retrodit_known
+    - data.n_dummy=30
+    - data.max_n_len=250
+    - data.batch_size=64
+    - data.num_workers=0
+    - data.forward_syn_model=null
+    - data.cond_cfg.label.as_input=true
+    - data.cond_cfg.label.as_target=false
+    - data.cond_cfg.label.k_class=6
+    - data.external_perm_paths.test=/root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42/rc/predictions/test/retrodit_rc_ch6_known_seed42_strict_root_center_top7_root_top7_temp1p25_agg_split_edge.json
+    - model.sample_store.forward_syn_cfg=null
+    - trainer.accelerator=gpu
+    - trainer.devices=1
+    - trainer.num_nodes=1
+    - trainer.precision=bf16-mixed
+    - trainer.enable_progress_bar=false
+    - seed=42
+    - ~callbacks.rich_progress_bar
+    - ~logger
+    - task_name=retrodit_ch6_known_seed42_best_step512
+    - ckpt_path=/root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/train/checkpoints/best_top3acc_model_step512_acc0.9167.ckpt
+  job:
+    name: eval
+    chdir: null
+    override_dirname: +model/net=graph_dit/8m,+model/sde=dfm,ckpt_path=/root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/train/checkpoints/best_top3acc_model_step512_acc0.9167.ckpt,data.batch_size=64,data.cond_cfg.label.as_input=true,data.cond_cfg.label.as_target=false,data.cond_cfg.label.k_class=6,data.data_root=/root/rivermind-data/retrodit_known/data/generative/uspto_50k,data.external_perm_paths.test=/root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42/rc/predictions/test/retrodit_rc_ch6_known_seed42_strict_root_center_top7_root_top7_temp1p25_agg_split_edge.json,data.forward_syn_model=null,data.graph_vocab=ch6_69pct_retrodit_known,data.max_n_len=250,data.n_dummy=30,data.num_workers=0,data=uspto_50k,experiment=retro,model.sample_store.forward_syn_cfg=null,seed=42,task_name=retrodit_ch6_known_seed42_best_step512,trainer.accelerator=gpu,trainer.devices=1,trainer.enable_progress_bar=false,trainer.num_nodes=1,trainer.precision=bf16-mixed,~callbacks.rich_progress_bar,~logger
+    id: ???
+    num: ???
+    config_name: eval.yaml
+    env_set: {}
+    env_copy: []
+    config:
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        exclude_keys: []
+  runtime:
+    version: 1.3.2
+    version_base: '1.3'
+    cwd: /root/rivermind-data/retrodit_known/source/RetroDiT
+    config_sources:
+    - path: hydra.conf
+      schema: pkg
+      provider: hydra
+    - path: /root/rivermind-data/retrodit_known/source/RetroDiT/configs
+      schema: file
+      provider: main
+    - path: ''
+      schema: structured
+      provider: schema
+    output_dir: /root/rivermind-data/retrodit_known/runs/retrodit_ch6_known_seed42_formal/eval_best_step512
+    choices:
+      model/net: graph_dit/8m
+      model/sde: dfm
+      debug: null
+      local: default
+      hparams_search: null
+      experiment: retro
+      hydra: default
+      extras: default
+      paths: default
+      trainer: default
+      callbacks: default
+      model: retro_generative
+      data: uspto_50k
+      hydra/env: default
+      hydra/callbacks: null
+      hydra/job_logging: default
+      hydra/hydra_logging: default
+      hydra/hydra_help: default
+      hydra/help: default
+      hydra/sweeper: basic
+      hydra/launcher: basic
+      hydra/output: default
+  verbose: false

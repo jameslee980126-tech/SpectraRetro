@@ -1,0 +1,65 @@
+{
+  "scope": "reaction mining, source filtering, mapping and data-construction algorithms; exact frozen-data build binding is separately documented",
+  "files": [
+    {
+      "path": "src/spectraretro/data_preparation/analyze_ch_arylation_subclasses.py",
+      "sha256": "c15152165bf0545210ad43243c4eaf14c3325e9737bc0126cf7803463cef17db",
+      "bytes": 9848
+    },
+    {
+      "path": "src/spectraretro/data_preparation/build_three_ch_activation_deliverables.py",
+      "sha256": "96135f8859393179daddf7031600eba486d451b0aec720b3b19a5b6499e8f73d",
+      "bytes": 10319
+    },
+    {
+      "path": "src/spectraretro/data_preparation/clean_ch_activation_dataset.py",
+      "sha256": "b9706f3a7be10f8a7352bd72a6894d39a858b158b9e7fc6c40624b0d95da83ff",
+      "bytes": 14716
+    },
+    {
+      "path": "src/spectraretro/data_preparation/combine_local_ch_activation_mining.py",
+      "sha256": "a18c937a7fbbd6a9888ad938d3822e1ce00a51fee08ed64bff48573f7b91f77b",
+      "bytes": 11654
+    },
+    {
+      "path": "src/spectraretro/data_preparation/extract_ord_ch_activation.py",
+      "sha256": "98979175015e7d0a16b649b91bdb698fce8ac59de719ea01d4932bd51c7a80f6",
+      "bytes": 9898
+    },
+    {
+      "path": "src/spectraretro/data_preparation/extract_rxngraphormer_ch_func.py",
+      "sha256": "98c74d580899669b6bb576329b311b3a4159f8e79000eb0972bb6717293bf76f",
+      "bytes": 5841
+    },
+    {
+      "path": "src/spectraretro/data_preparation/filter_single_center_small_classes.py",
+      "sha256": "70260212778190cc529a38316e02b14c18af69f6a97bb7432345f010dde48c48",
+      "bytes": 7036
+    },
+    {
+      "path": "src/spectraretro/data_preparation/inspect_ord_metadata.py",
+      "sha256": "35200e1900f94e4d82e18cb3e34e24f7665743116a8b36e9973df6ae1328d313",
+      "bytes": 2662
+    },
+    {
+      "path": "src/spectraretro/data_preparation/inspect_ord_reactions.py",
+      "sha256": "60c407f66a8f38bd9d31a2db7f095c7079fe80cf76045067b13a83baa0e45dfe",
+      "bytes": 1056
+    },
+    {
+      "path": "src/spectraretro/data_preparation/map_unmapped_ch_activation_reactions.py",
+      "sha256": "d64f81596f7c4ad775eefc96ae11cd04e9f21c2a39e9ba872f47dbcdfbf00c41",
+      "bytes": 4098
+    },
+    {
+      "path": "src/spectraretro/data_preparation/mine_crd_mapped_parquet.py",
+      "sha256": "b2728b0d0b0f342280e43d1c329c6d546fe6d6f4cb8d7911aa3d1fedbe526ce6",
+      "bytes": 7808
+    },
+    {
+      "path": "src/spectraretro/data_preparation/mine_mapped_ch_activation.py",
+      "sha256": "cffb19021ba485fbdfbb3148096c24e9fa49e133ac75d370920c0aecd15871e3",
+      "bytes": 16133
+    }
+  ]
+}

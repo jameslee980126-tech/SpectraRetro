@@ -1,0 +1,19 @@
+split,class,count,stage
+train,1,19660,Stage 1 reactions
+train,2,11040,Stage 1 reactions
+train,3,14932,Stage 1 reactions
+train,4,4367,Stage 1 reactions
+train,5,12582,Stage 1 reactions
+train,6,11565,Stage 1 reactions
+eval,1,2470,Stage 1 reactions
+eval,2,1395,Stage 1 reactions
+eval,3,1851,Stage 1 reactions
+eval,4,522,Stage 1 reactions
+eval,5,1687,Stage 1 reactions
+eval,6,1470,Stage 1 reactions
+test,1,2438,Stage 1 reactions
+test,2,1371,Stage 1 reactions
+test,3,1882,Stage 1 reactions
+test,4,549,Stage 1 reactions
+test,5,1574,Stage 1 reactions
+test,6,1436,Stage 1 reactions

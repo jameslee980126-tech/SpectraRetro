@@ -1,0 +1,84 @@
+{
+  "protocol": "stage1_similarity_balanced_common_support_v4",
+  "seed": 20260912,
+  "unknown_class": true,
+  "dual_branch": false,
+  "comparators": [
+    "current FSpec product-only",
+    "original ordinary product RGCN without dual"
+  ],
+  "counts": {
+    "train": 18370,
+    "valid": 2400,
+    "test": 2400
+  },
+  "total_rows": 23170,
+  "source_total_rows": 92791,
+  "fraction": 0.24970094082400232,
+  "source_provenance": {
+    "train": {
+      "csv": "datasets/full/train.csv",
+      "csv_sha256": "957e27d354d6b82f6bc1eab1fda8f5ec365517bede2e4d31112c3677ca50f648",
+      "metadata": "source-record:purpose_audit/train_population.json",
+      "metadata_sha256": "c39146a8475bcbd3aa1e21e56b63efe075009b89d06d734e0828366170c0afd8",
+      "rows": 74146
+    },
+    "valid": {
+      "csv": "datasets/full/valid.csv",
+      "csv_sha256": "9731bd8cfa1e6865deea5b5498184a823e37908c570769d8d75a4b6152860503",
+      "metadata": "source-record:purpose_audit/valid_population.json",
+      "metadata_sha256": "192f222731ed052d8e0e6ee67cb6216e5612380c6e6fcc469a81136ff162bf82",
+      "rows": 9395
+    },
+    "test": {
+      "csv": "source-record:parent_data/test.csv",
+      "csv_sha256": "9fd0e110a733462561be5e1c3be01b45e7b4f2a9c2488d7a7646dc50f9a00de4",
+      "metadata": "source-record:purpose_audit/test_population.json",
+      "metadata_sha256": "e2936dd42ce1035b14c08954fcc8cef2fb3386f0104fa1379bd850f5386de702",
+      "rows": 9250
+    }
+  },
+  "selection_plan_sha256": "302c186bbed05c72a541b1b7dd3d7e179266c23e50eea085b5a0b480a9684ca3",
+  "build_script_sha256": "d5d567404aad7b01ddddc92de0164cf78097a4597cab09fdaf5ff93aa5d0f9f5",
+  "uses_model_predictions": false,
+  "historical_test_seen": true,
+  "old_overlap": {
+    "train": {
+      "old_rows": 18415,
+      "new_rows": 18370,
+      "overlap_rows": 4598,
+      "overlap_products": 3706,
+      "novel_to_previous_subset_rows": 13772,
+      "not_an_unseen_external_test": true
+    },
+    "valid": {
+      "old_rows": 2327,
+      "new_rows": 2400,
+      "overlap_rows": 594,
+      "overlap_products": 474,
+      "novel_to_previous_subset_rows": 1806,
+      "not_an_unseen_external_test": true
+    },
+    "test": {
+      "old_rows": 2288,
+      "new_rows": 2400,
+      "overlap_rows": 553,
+      "overlap_products": 442,
+      "novel_to_previous_subset_rows": 1847,
+      "not_an_unseen_external_test": true
+    }
+  },
+  "purpose": "balanced diagnostic; not an IID estimate of parent distribution",
+  "files": {
+    "test.csv": "d7f01a2d78656c37a698c4f9f9e64dec8f9ef3deeacaa0ca48bdcefc8d77b614",
+    "test_design.json": "a96284aee6a33557d817e32f1693d096a84e8a1c2698a33769aa56ef39d39ca0",
+    "test_index.csv": "b525da479cd8208366cd43f3d76afccfcadf42b385bd8f63230a9e4d77a8c810",
+    "thresholds.json": "5a100027d00c5431f8d8d97a8235cac3f45526b5a1fb255e407263c0d794a4ac",
+    "train.csv": "3cf1513137ee73d497af8a9bb2b49b87d47510cf534178424dbd902f60e50222",
+    "train_design.json": "83be156cd482463c255f7476cd3741f05543ce43aeb8e62ec239c7833dcb949c",
+    "train_index.csv": "ef7de4fcdda5ff172985d54afdf6f315a4883a75d5b50df9365d6142cfd16415",
+    "valid.csv": "08f0a52e76b1f30da1449828a54dca11d2ea3eefcc401b73c776202181da3b63",
+    "valid_design.json": "9fd42112a508d27bccb752198a397ea2f9fb00d06245bbd9110fc65f35d734f0",
+    "valid_index.csv": "9a4405e0d64d879b5384e6a1dfaf538eda7c6c91d3c06aac1bceeb23356c687b"
+  }
+}

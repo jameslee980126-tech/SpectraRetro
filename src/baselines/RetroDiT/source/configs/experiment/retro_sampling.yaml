@@ -1,0 +1,34 @@
+# @package _global_
+
+defaults:
+  - override /data: uspto_50k
+  - override /model: retro_generative
+  - override /logger: null
+  - override /callbacks: default
+  - _self_
+
+task_name: sampling_retro_test
+tags: 
+  - test
+  - ${data.graph_vocab}
+  - ${model.sde.name}
+  - ${model.net.model_desc}
+
+notes: "Testing trained retrosynthesis model"
+
+seed: 42
+
+
+ckpt_path: ???
+trainer:
+  deterministic: True
+  enable_progress_bar: True
+  
+
+test_mode: True
+train: False
+validate: False
+test: True
+
+save_predictions: True
+save_dir: ${paths.output_dir}/test_results/${now:%Y-%m-%d}_${now:%H-%M-%S}

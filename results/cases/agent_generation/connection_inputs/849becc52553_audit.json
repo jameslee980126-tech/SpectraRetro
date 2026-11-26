@@ -1,0 +1,23 @@
+{
+  "state": "complete",
+  "replayed_raw_samples": 1470,
+  "fragment_draw_slots": 1470,
+  "all_known_atoms_preserved": true,
+  "max_centered_coordinate_error_angstrom": 8.367164143763262e-07,
+  "all_decoder_results_replayed": true,
+  "all_step_counts_independently_recalculated": true,
+  "input_whitelist_passed": true,
+  "unknown_reference_fields_not_in_generation_inputs": true,
+  "inventory_not_called": true,
+  "report_sha256": "5b5e76a26ca6ec48b46192dc84b703a2f90273c981ce354926673b64f9b8dc53",
+  "protocol_sha256": "49f2abffdd8fe2d12cd112d01ccbba11e93296738649ab3db974166ccfb80b4c",
+  "auditor_sha256": "9c460eda4f60a5240554f7d34a24db159aecbdfe86f2e9742ed1d1746cfd50de",
+  "zero_only_covalent_steps": [
+    "NEMI-06",
+    "OSI-02"
+  ],
+  "fragment_counts": {
+    "zero_completion": 19,
+    "nonzero_completion": 30
+  }
+}

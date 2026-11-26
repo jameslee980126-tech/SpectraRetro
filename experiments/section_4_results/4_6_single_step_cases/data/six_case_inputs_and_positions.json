@@ -1,0 +1,1265 @@
+{
+  "input_hashes": {
+    "results/cases/single_step/record_01_case_evidence.json": "8c9434ae6a2662937a945cdabfdc1e5ff5818f0bdbfce2a8c0a1c7c1f830042a",
+    "results/cases/single_step/record_02_results.json": "51b17a717d1d32ee78c1ef45c6656e6a06fdf8de2af0c694b3767d7f5d991590",
+    "results/cases/single_step/record_03_results.json": "7273876f3c2a7879bd188153bda8814beaa236a66cc84fe034544132389be707",
+    "results/cases/single_step/record_04_results.json": "551676501a54e66ffdbbbda7abdd2c9d99a2a0de16d4d7182c80909597735811",
+    "results/cases/single_step/record_05_results.json": "4a16d3b5ede4346bc3617e981e0b0f3d5429851420baa9eacb9cc1b6b5cb1a73",
+    "results/cases/single_step/record_06_evidence.json": "d2d4afdf78ffc6a4a7ce40118ee4befbfc808946fc3ffde8aa2ee1bc7cc63917",
+    "results/cases/single_step/record_07_candidate_evidence.json": "5d175bd186c81647b3d1b52f18f7c9cdee1d20cc3a4dc03a4d11cd90bd9c0f92"
+  },
+  "inputs_unchanged": true,
+  "cases": [
+    {
+      "case_id": 10122,
+      "title": "Formylated arylpyrrole",
+      "product": "CCOc1c(OC)cccc1C(=O)c1cc(Cl)ccc1-n1ccc(C=O)c1",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            23,
+            24
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9008151888847351,
+          "rank": 1,
+          "is_reference": true
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            10,
+            11
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.07204441726207733,
+          "rank": 2,
+          "is_reference": false
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            11,
+            13
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.02611466869711876,
+          "rank": 3,
+          "is_reference": false
+        }
+      ],
+      "rank": 2,
+      "draw": {
+        "draw": 9,
+        "raw": [
+          "[C][C]OC1=C(O[C])[C]=[C][C]=C1C(=O)C1=C([C]=[C]C(=[C]1)Cl)N1[C]=[C][C]=[C]1",
+          "[C](=O)N([C])[C]"
+        ],
+        "precursors": [
+          "CCOc1c(OC)cccc1C(=O)c1cc(Cl)ccc1-n1cccc1",
+          "CN(C)C=O"
+        ],
+        "valid_set": "CCOc1c(OC)cccc1C(=O)c1cc(Cl)ccc1-n1cccc1.CN(C)C=O",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[24*]c1ccn(-c2ccc(Cl)cc2C(=O)c2cccc(OC)c2OCC)c1",
+        "[23*]C=O"
+      ],
+      "sizes": [
+        0,
+        3
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            26
+          ],
+          "anchor_product_index": 23,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 2,
+          "added_size": 0
+        },
+        {
+          "added_atom_indices": [
+            0,
+            1,
+            2
+          ],
+          "added_bond_indices": [
+            0,
+            1,
+            2
+          ],
+          "known_atom_mapping": [
+            3,
+            4
+          ],
+          "product_atom_indices": [
+            24,
+            25
+          ],
+          "anchor_product_index": 24,
+          "new_attachment_bonds": [
+            [
+              1,
+              3
+            ]
+          ],
+          "added_elements": {
+            "C": 2,
+            "N": 1
+          },
+          "equivalent_mapping_count": 1,
+          "added_size": 3
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          23,
+          24
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9008151888847351,
+        "rank": 1
+      },
+      "exact_pairs": 4,
+      "reference": "CCOc1c(OC)cccc1C(=O)c1cc(Cl)ccc1-n1cccc1.CN(C)C=O"
+    },
+    {
+      "case_id": 9616,
+      "title": "Benzofuran acylation",
+      "product": "CN1CCN(C(=O)OC(C)(C)C)C(C(=O)c2cc3cc(Cl)ccc3o2)C1",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            13,
+            15
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9419593811035156,
+          "rank": 1,
+          "is_reference": true
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            12,
+            13
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.055998269468545914,
+          "rank": 2,
+          "is_reference": false
+        }
+      ],
+      "rank": 1,
+      "draw": {
+        "draw": 8,
+        "raw": [
+          "[C]N1[C][C]N(C(=O)OC([C])([C])[C])[C](C(=O)N(O[C])[C])[C]1",
+          "[C]1=[C]C2=C([C]=[C]C(=[C]2)Cl)O1"
+        ],
+        "precursors": [
+          "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+          "Clc1ccc2occc2c1"
+        ],
+        "valid_set": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[15*]C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C",
+        "[13*]c1cc2cc(Cl)ccc2o1"
+      ],
+      "sizes": [
+        4,
+        0
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "added_bond_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "known_atom_mapping": [
+            9,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            6,
+            4,
+            5,
+            7
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            25
+          ],
+          "anchor_product_index": 13,
+          "new_attachment_bonds": [
+            [
+              2,
+              4
+            ]
+          ],
+          "added_elements": {
+            "C": 2,
+            "O": 1,
+            "N": 1
+          },
+          "equivalent_mapping_count": 6,
+          "added_size": 4
+        },
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            6,
+            7,
+            8,
+            9,
+            1,
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "product_atom_indices": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "anchor_product_index": 15,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 1,
+          "added_size": 0
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          13,
+          15
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9419593811035156,
+        "rank": 1
+      },
+      "exact_pairs": 8,
+      "reference": "CON(C)C(=O)C1CN(C)CCN1C(=O)OC(C)(C)C.Clc1ccc2occc2c1"
+    },
+    {
+      "case_id": 9773,
+      "title": "Morpholinophenyl acylfuran derivative",
+      "product": "COc1cc(-c2ccc(C(=O)C(OC)c3ccc(N4CCOCC4)cc3)o2)cc(OC)c1OC(=O)c1ccccc1",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            8,
+            9
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.99996018409729,
+          "rank": 1,
+          "is_reference": true
+        }
+      ],
+      "rank": 1,
+      "draw": {
+        "draw": 1,
+        "raw": [
+          "[C]OC1=C(C(=[C]C(=[C]1)C1=[C][C]=[C]O1)O[C])OC(=O)C1=[C][C]=[C][C]=[C]1",
+          "C(=O)([C](O[C])C1=[C][C]=C(N2[C][C]O[C][C]2)[C]=[C]1)N([C])O[C]"
+        ],
+        "precursors": [
+          "COc1cc(-c2ccco2)cc(OC)c1OC(=O)c1ccccc1",
+          "COC(C(=O)N(C)OC)c1ccc(N2CCOCC2)cc1"
+        ],
+        "valid_set": "COC(C(=O)N(C)OC)c1ccc(N2CCOCC2)cc1.COc1cc(-c2ccco2)cc(OC)c1OC(=O)c1ccccc1",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[9*]c1ccc(-c2cc(OC)c(OC(=O)c3ccccc3)c(OC)c2)o1",
+        "[8*]C(=O)C(OC)c1ccc(N2CCOCC2)cc1"
+      ],
+      "sizes": [
+        0,
+        4
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "anchor_product_index": 8,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 4,
+          "added_size": 0
+        },
+        {
+          "added_atom_indices": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "added_bond_indices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "known_atom_mapping": [
+            3,
+            4,
+            2,
+            1,
+            0,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "product_atom_indices": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "anchor_product_index": 9,
+          "new_attachment_bonds": [
+            [
+              3,
+              5
+            ]
+          ],
+          "added_elements": {
+            "N": 1,
+            "C": 2,
+            "O": 1
+          },
+          "equivalent_mapping_count": 4,
+          "added_size": 4
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          8,
+          9
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.99996018409729,
+        "rank": 1
+      },
+      "exact_pairs": 12,
+      "reference": "COC(C(=O)N(C)OC)c1ccc(N2CCOCC2)cc1.COc1cc(-c2ccco2)cc(OC)c1OC(=O)c1ccccc1"
+    },
+    {
+      "case_id": 9207,
+      "title": "Trifluoroacetyl diarylthiophene",
+      "product": "O=C(c1cc(-c2ccc(F)cc2)c(-c2ccc(F)cc2)s1)C(F)(F)F",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            1,
+            2
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.999795138835907,
+          "rank": 1,
+          "is_reference": true
+        }
+      ],
+      "rank": 1,
+      "draw": {
+        "draw": 15,
+        "raw": [
+          "O=C(C(F)(F)F)OC(=O)C(F)(F)F",
+          "[C]1=[C]C(=C(C2=[C][C]=C(F)[C]=[C]2)S1)C1=[C][C]=C(F)[C]=[C]1"
+        ],
+        "precursors": [
+          "O=C(OC(=O)C(F)(F)F)C(F)(F)F",
+          "Fc1ccc(-c2ccsc2-c2ccc(F)cc2)cc1"
+        ],
+        "valid_set": "Fc1ccc(-c2ccsc2-c2ccc(F)cc2)cc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[2*]C(=O)C(F)(F)F",
+        "[1*]c1cc(-c2ccc(F)cc2)c(-c2ccc(F)cc2)s1"
+      ],
+      "sizes": [
+        7,
+        0
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [
+            0,
+            1,
+            2,
+            9,
+            10,
+            11,
+            12
+          ],
+          "added_bond_indices": [
+            0,
+            1,
+            2,
+            8,
+            9,
+            10,
+            11
+          ],
+          "known_atom_mapping": [
+            4,
+            3,
+            5,
+            6,
+            7,
+            8
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            21,
+            22,
+            23,
+            24
+          ],
+          "anchor_product_index": 1,
+          "new_attachment_bonds": [
+            [
+              2,
+              3
+            ]
+          ],
+          "added_elements": {
+            "O": 2,
+            "C": 2,
+            "F": 3
+          },
+          "equivalent_mapping_count": 12,
+          "added_size": 7
+        },
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            18,
+            17,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            8
+          ],
+          "product_atom_indices": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "anchor_product_index": 2,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 4,
+          "added_size": 0
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          1,
+          2
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.999795138835907,
+        "rank": 1
+      },
+      "exact_pairs": 2,
+      "reference": "Fc1ccc(-c2ccsc2-c2ccc(F)cc2)cc1.O=C(OC(=O)C(F)(F)F)C(F)(F)F"
+    },
+    {
+      "case_id": 8987,
+      "title": "Tetrahydroindolizine carboxamide",
+      "product": "CCOC(=O)c1ccc(Cl)cc1-c1cc(C(=O)Nc2ccc(OCc3ccccc3)cc2)c2n1CCCC2",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            11,
+            12
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9182060360908508,
+          "rank": 1,
+          "is_reference": true
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            32,
+            37
+          ],
+          "in_ring": true,
+          "bond_type": "SINGLE",
+          "probability": 0.08161449432373047,
+          "rank": 2,
+          "is_reference": false
+        }
+      ],
+      "rank": 1,
+      "draw": {
+        "draw": 0,
+        "raw": [
+          "[C][C]OC(=O)C1=[C][C]=C(Cl)[C]=C1Br",
+          "[C]1=[C]C(=C2N1[C][C][C][C]2)C(=O)[N]C1=[C][C]=C([C]=[C]1)O[C]C1=[C][C]=[C][C]=[C]1"
+        ],
+        "precursors": [
+          "CCOC(=O)c1ccc(Cl)cc1Br",
+          "O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2"
+        ],
+        "valid_set": "CCOC(=O)c1ccc(Cl)cc1Br.O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[12*]c1cc(Cl)ccc1C(=O)OCC",
+        "[11*]c1cc(C(=O)Nc2ccc(OCc3ccccc3)cc2)c2n1CCCC2"
+      ],
+      "sizes": [
+        1,
+        0
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [
+            12
+          ],
+          "added_bond_indices": [
+            11
+          ],
+          "known_atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "anchor_product_index": 11,
+          "new_attachment_bonds": [
+            [
+              11,
+              12
+            ]
+          ],
+          "added_elements": {
+            "Br": 1
+          },
+          "equivalent_mapping_count": 1,
+          "added_size": 1
+        },
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            19,
+            18,
+            17,
+            1,
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            21,
+            20,
+            25,
+            24,
+            23,
+            22
+          ],
+          "product_atom_indices": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "anchor_product_index": 12,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 4,
+          "added_size": 0
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          11,
+          12
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9182060360908508,
+        "rank": 1
+      },
+      "exact_pairs": 13,
+      "reference": "CCOC(=O)c1ccc(Cl)cc1Br.O=C(Nc1ccc(OCc2ccccc2)cc1)c1ccn2c1CCCC2"
+    },
+    {
+      "case_id": 8719,
+      "title": "Benzoxazole-naphthyridine derivative",
+      "product": "CNc1ncc(-c2nc3cc(OCCSC)ccc3o2)c2cc(NC(=O)C3CC3)ncc12",
+      "shown": [
+        {
+          "kind": "bond",
+          "atom_indices": [
+            5,
+            6
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.9849861264228821,
+          "rank": 1,
+          "is_reference": true
+        },
+        {
+          "kind": "bond",
+          "atom_indices": [
+            23,
+            24
+          ],
+          "in_ring": false,
+          "bond_type": "SINGLE",
+          "probability": 0.014100315980613232,
+          "rank": 2,
+          "is_reference": false
+        }
+      ],
+      "rank": 2,
+      "draw": {
+        "draw": 9,
+        "raw": [
+          "[C][N]C1=N[C]=C(C2=[C]C(=N[C]=C12)[N]C(=O)[C]1[C][C]1)Br",
+          "[C]1=NC2=[C]C(=[C][C]=C2O1)O[C][C]S[C]"
+        ],
+        "precursors": [
+          "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12",
+          "CSCCOc1ccc2ocnc2c1"
+        ],
+        "valid_set": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1",
+        "reasons": [
+          null,
+          null
+        ]
+      },
+      "synthons": [
+        "[6*]c1cnc(NC)c2cnc(NC(=O)C3CC3)cc12",
+        "[5*]c1nc2cc(OCCSC)ccc2o1"
+      ],
+      "sizes": [
+        1,
+        0
+      ],
+      "highlights": [
+        {
+          "added_atom_indices": [
+            6
+          ],
+          "added_bond_indices": [
+            5
+          ],
+          "known_atom_mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "product_atom_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "anchor_product_index": 5,
+          "new_attachment_bonds": [
+            [
+              5,
+              6
+            ]
+          ],
+          "added_elements": {
+            "Br": 1
+          },
+          "equivalent_mapping_count": 2,
+          "added_size": 1
+        },
+        {
+          "added_atom_indices": [],
+          "added_bond_indices": [],
+          "known_atom_mapping": [
+            10,
+            11,
+            12,
+            13,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            6,
+            7,
+            8,
+            9
+          ],
+          "product_atom_indices": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "anchor_product_index": 6,
+          "new_attachment_bonds": [],
+          "added_elements": {},
+          "equivalent_mapping_count": 1,
+          "added_size": 0
+        }
+      ],
+      "center": {
+        "kind": "bond",
+        "atom_indices": [
+          5,
+          6
+        ],
+        "in_ring": false,
+        "bond_type": "SINGLE",
+        "probability": 0.9849861264228821,
+        "rank": 1
+      },
+      "exact_pairs": 3,
+      "reference": "CNc1ncc(Br)c2cc(NC(=O)C3CC3)ncc12.CSCCOc1ccc2ocnc2c1"
+    }
+  ],
+  "probability_labels": [
+    {
+      "case_id": 10122,
+      "atom_maps": null,
+      "atom_indices": [
+        23,
+        24
+      ],
+      "probability": 0.9008151888847351,
+      "display": "0.90",
+      "label_box": [
+        574.4474259883933,
+        79.44713048961954,
+        645.1974259883933,
+        124.44713048961954
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 30.44197887066049
+    },
+    {
+      "case_id": 10122,
+      "atom_maps": null,
+      "atom_indices": [
+        10,
+        11
+      ],
+      "probability": 0.07204441726207733,
+      "display": "0.07",
+      "label_box": [
+        322.3672631168529,
+        61.5430540401362,
+        393.1172631168529,
+        106.5430540401362
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 30.54838019834286
+    },
+    {
+      "case_id": 10122,
+      "atom_maps": null,
+      "atom_indices": [
+        11,
+        13
+      ],
+      "probability": 0.02611466869711876,
+      "display": "0.03",
+      "label_box": [
+        307.11563362869896,
+        144.6512303558323,
+        377.86563362869896,
+        189.6512303558323
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 30.70008706681685
+    },
+    {
+      "case_id": 9616,
+      "atom_maps": null,
+      "atom_indices": [
+        13,
+        15
+      ],
+      "probability": 0.9419593811035156,
+      "display": "0.94",
+      "label_box": [
+        361.87147100306805,
+        71.81086962932208,
+        432.62147100306805,
+        116.81086962932208
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 30.49976633517273
+    },
+    {
+      "case_id": 9616,
+      "atom_maps": null,
+      "atom_indices": [
+        12,
+        13
+      ],
+      "probability": 0.055998269468545914,
+      "display": "0.06",
+      "label_box": [
+        283.40322445507985,
+        119.4063905367382,
+        354.15322445507985,
+        164.4063905367382
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 30.601462803491888
+    },
+    {
+      "case_id": 9773,
+      "atom_maps": null,
+      "atom_indices": [
+        8,
+        9
+      ],
+      "probability": 0.99996018409729,
+      "display": "1.00",
+      "label_box": [
+        417.5175424875981,
+        54.551148181731776,
+        488.2675424875981,
+        99.55114818173178
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 20.952473065597243
+    },
+    {
+      "case_id": 9207,
+      "atom_maps": null,
+      "atom_indices": [
+        1,
+        2
+      ],
+      "probability": 0.999795138835907,
+      "display": "1.00",
+      "label_box": [
+        452.9058320436633,
+        74.31079889900167,
+        523.6558320436633,
+        119.31079889900167
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 26.548524471158196
+    },
+    {
+      "case_id": 8987,
+      "atom_maps": null,
+      "atom_indices": [
+        11,
+        12
+      ],
+      "probability": 0.9182060360908508,
+      "display": "0.92",
+      "label_box": [
+        169.60358130111356,
+        231.79329435358005,
+        240.35358130111356,
+        276.79329435358005
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 21.13573149755303
+    },
+    {
+      "case_id": 8987,
+      "atom_maps": null,
+      "atom_indices": [
+        32,
+        37
+      ],
+      "probability": 0.08161449432373047,
+      "display": "0.08",
+      "label_box": [
+        323.6816476983631,
+        296.7597916366537,
+        394.4316476983631,
+        341.7597916366537
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 15.853412167496643
+    },
+    {
+      "case_id": 8719,
+      "atom_maps": null,
+      "atom_indices": [
+        5,
+        6
+      ],
+      "probability": 0.9849861264228821,
+      "display": "0.98",
+      "label_box": [
+        410.3733070195239,
+        77.85684481098396,
+        481.1233070195239,
+        122.85684481098396
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 20.076532581839746
+    },
+    {
+      "case_id": 8719,
+      "atom_maps": null,
+      "atom_indices": [
+        23,
+        24
+      ],
+      "probability": 0.014100315980613232,
+      "display": "0.01",
+      "label_box": [
+        540.541600724367,
+        272.4937983893726,
+        611.291600724367,
+        317.4937983893726
+      ],
+      "chemical_bond_intersections": 0,
+      "leader_clearance": 19.770870575261874
+    }
+  ],
+  "highlight_definition": "Generated precursor atoms outside the anchor-consistent known synthon graph; all bonds involving these atoms",
+  "no_new_inference": true
+}

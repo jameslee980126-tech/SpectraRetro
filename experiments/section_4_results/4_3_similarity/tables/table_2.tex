@@ -1,0 +1,325 @@
+\begin{table*}[!tp]
+\centering
+\caption{Top-$k$ exact-match accuracies (\%) across similarity groups on the CHRetro test subset.}
+% 中文题注：不同模型在CHRetro测试子集各相似度组中的Top-k精确匹配准确率（%）。
+% 训练种子：0、1、2；每个相似度组包含800条测试反应。
+\label{tab:similarity_topk}
+
+\begingroup
+\fontsize{8.3}{10}\selectfont
+\setlength{\tabcolsep}{3pt}
+\setlength{\fboxsep}{0pt}
+\renewcommand{\arraystretch}{1.12}
+\providecommand{\srbest}[1]{{\bfseries #1}}
+
+\begin{tabularx}{\textwidth}{
+  >{\raggedright\arraybackslash}p{0.11\textwidth}
+  >{\raggedright\arraybackslash}p{0.15\textwidth}
+  >{\raggedright\arraybackslash}p{0.15\textwidth}
+  *{4}{>{\centering\arraybackslash}X}
+}
+
+% 表头上横线：取消横线下方的白色间距。
+\specialrule{\heavyrulewidth}{0pt}{0pt}
+
+% 用一个完整矩形填充灰色表头，避免单元格拼接缝。
+\multicolumn{7}{@{}l@{}}{%
+  \colorbox{gray!15}{%
+    \begin{tabularx}{\textwidth}{
+      >{\raggedright\arraybackslash}p{0.11\textwidth}
+      >{\raggedright\arraybackslash}p{0.15\textwidth}
+      >{\raggedright\arraybackslash}p{0.15\textwidth}
+      *{4}{>{\centering\arraybackslash}X}
+    }
+    \shortstack{Similarity\\group}
+    & \shortstack{Reaction\\class}
+    & Method & Top-1 & Top-3 & Top-5 & Top-10 \\
+    \end{tabularx}%
+  }%
+} \\
+% 表头下横线：取消横线上方的白色间距。
+\specialrule{\lightrulewidth}{0pt}{\belowrulesep}
+
+% ==================================================
+% High similarity: reaction class unknown
+% ==================================================
+\multirow{14}{*}{\shortstack{High\\similarity}}
+& \multirow{7}{*}{\shortstack{reaction class\\unknown}}
+& GLN~\cite{dai2019retrosynthesis}
+& \mbox{51.75\,$\pm\,0.38$}
+& \mbox{67.50\,$\pm\,1.11$}
+& \mbox{72.46\,$\pm\,0.97$}
+& \mbox{75.17\,$\pm\,0.19$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{41.00\,$\pm\,2.44$}
+& \mbox{58.04\,$\pm\,2.38$}
+& \mbox{62.38\,$\pm\,2.38$}
+& \mbox{66.79\,$\pm\,1.35$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{35.63\,$\pm\,3.90$}
+& \mbox{50.38\,$\pm\,4.81$}
+& \mbox{56.71\,$\pm\,4.47$}
+& \mbox{63.79\,$\pm\,3.47$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 38.50 & 61.63 & 71.75 & 79.88 \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{29.46\,$\pm\,3.11$}
+& \mbox{49.04\,$\pm\,2.14$}
+& \mbox{53.71\,$\pm\,1.99$}
+& \mbox{57.75\,$\pm\,1.80$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{20.07\,$\pm\,2.44$}
+& \mbox{34.88\,$\pm\,3.65$}
+& \mbox{40.09\,$\pm\,3.94$}
+& \mbox{44.68\,$\pm\,3.58$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \srbest{\mbox{53.21\,$\pmb{\pm}\,0.38$}}
+& \srbest{\mbox{76.92\,$\pmb{\pm}\,1.00$}}
+& \srbest{\mbox{80.50\,$\pmb{\pm}\,0.57$}}
+& \srbest{\mbox{82.33\,$\pmb{\pm}\,0.58$}} \\
+
+% High similarity: reaction class known
+\cmidrule(l){2-7}
+& \multirow{7}{*}{\shortstack{reaction class\\known}}
+& GLN~\cite{dai2019retrosynthesis}
+& \mbox{52.29\,$\pm\,0.89$}
+& \mbox{68.25\,$\pm\,0.94$}
+& \mbox{74.25\,$\pm\,0.54$}
+& \mbox{76.42\,$\pm\,0.19$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{46.83\,$\pm\,0.92$}
+& \mbox{67.04\,$\pm\,0.83$}
+& \mbox{70.00\,$\pm\,1.42$}
+& \mbox{75.08\,$\pm\,1.44$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{34.96\,$\pm\,6.60$}
+& \mbox{51.83\,$\pm\,6.63$}
+& \mbox{57.50\,$\pm\,5.50$}
+& \mbox{62.54\,$\pm\,4.53$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 49.00 & 73.25 & 82.13 & \srbest{86.50} \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{36.38\,$\pm\,1.63$}
+& \mbox{57.92\,$\pm\,3.00$}
+& \mbox{62.38\,$\pm\,3.58$}
+& \mbox{67.92\,$\pm\,2.13$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{25.82\,$\pm\,2.20$}
+& \mbox{45.22\,$\pm\,2.21$}
+& \mbox{51.52\,$\pm\,2.39$}
+& \mbox{54.44\,$\pm\,2.64$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \srbest{\mbox{61.21\,$\pmb{\pm}\,1.20$}}
+& \srbest{\mbox{78.58\,$\pmb{\pm}\,0.38$}}
+& \srbest{\mbox{82.38\,$\pmb{\pm}\,0.25$}}
+& \mbox{84.71\,$\pm\,0.40$} \\
+
+\midrule
+
+% ==================================================
+% Medium similarity: reaction class unknown
+% ==================================================
+\multirow{14}{*}{\shortstack{Medium\\similarity}}
+& \multirow{7}{*}{\shortstack{reaction class\\unknown}}
+& GLN~\cite{dai2019retrosynthesis}
+& \mbox{58.29\,$\pm\,1.00$}
+& \mbox{68.71\,$\pm\,1.38$}
+& \mbox{72.46\,$\pm\,0.51$}
+& \mbox{76.54\,$\pm\,0.31$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{49.83\,$\pm\,1.58$}
+& \mbox{65.63\,$\pm\,1.96$}
+& \mbox{70.46\,$\pm\,0.76$}
+& \mbox{74.08\,$\pm\,0.95$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{47.17\,$\pm\,4.29$}
+& \mbox{60.96\,$\pm\,2.56$}
+& \mbox{67.08\,$\pm\,2.65$}
+& \mbox{71.38\,$\pm\,2.05$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 51.13 & 72.50 & 78.88 & 83.25 \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{38.04\,$\pm\,2.44$}
+& \mbox{54.79\,$\pm\,1.76$}
+& \mbox{59.71\,$\pm\,0.51$}
+& \mbox{64.08\,$\pm\,0.59$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{20.71\,$\pm\,1.71$}
+& \mbox{33.71\,$\pm\,2.24$}
+& \mbox{37.71\,$\pm\,1.92$}
+& \mbox{41.13\,$\pm\,2.07$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \srbest{\mbox{60.50\,$\pmb{\pm}\,1.13$}}
+& \srbest{\mbox{79.79\,$\pmb{\pm}\,0.62$}}
+& \srbest{\mbox{82.92\,$\pmb{\pm}\,0.19$}}
+& \srbest{\mbox{85.42\,$\pmb{\pm}\,0.69$}} \\
+
+% Medium similarity: reaction class known
+\cmidrule(l){2-7}
+& \multirow{7}{*}{\shortstack{reaction class\\known}}
+& GLN~\cite{dai2019retrosynthesis}
+& \mbox{61.21\,$\pm\,2.27$}
+& \mbox{71.25\,$\pm\,0.13$}
+& \mbox{74.88\,$\pm\,0.13$}
+& \mbox{77.67\,$\pm\,0.26$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{54.58\,$\pm\,0.90$}
+& \mbox{72.00\,$\pm\,0.94$}
+& \mbox{76.42\,$\pm\,0.19$}
+& \mbox{80.88\,$\pm\,0.33$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{48.50\,$\pm\,7.73$}
+& \mbox{63.25\,$\pm\,7.19$}
+& \mbox{67.58\,$\pm\,5.75$}
+& \mbox{73.46\,$\pm\,4.88$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 61.63 & 81.88 & \srbest{86.13} & \srbest{90.50} \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{44.67\,$\pm\,3.57$}
+& \mbox{64.00\,$\pm\,2.14$}
+& \mbox{68.83\,$\pm\,2.15$}
+& \mbox{72.92\,$\pm\,1.44$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{26.88\,$\pm\,3.69$}
+& \mbox{42.17\,$\pm\,3.15$}
+& \mbox{45.42\,$\pm\,2.67$}
+& \mbox{47.42\,$\pm\,2.48$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \srbest{\mbox{69.71\,$\pmb{\pm}\,2.04$}}
+& \srbest{\mbox{83.13\,$\pmb{\pm}\,0.33$}}
+& \mbox{85.54\,$\pm\,0.26$}
+& \mbox{87.04\,$\pm\,0.14$} \\
+
+\midrule
+
+% ==================================================
+% Low similarity: reaction class unknown
+% ==================================================
+\multirow{14}{*}{\shortstack{Low\\similarity}}
+& \multirow{7}{*}{\shortstack{reaction class\\unknown}}
+& GLN~\cite{dai2019retrosynthesis}
+& \srbest{\mbox{59.29\,$\pmb{\pm}\,0.07$}}
+& \mbox{72.54\,$\pm\,1.23$}
+& \mbox{76.42\,$\pm\,0.88$}
+& \mbox{80.00\,$\pm\,0.22$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{49.21\,$\pm\,0.69$}
+& \mbox{64.71\,$\pm\,0.71$}
+& \mbox{67.92\,$\pm\,0.73$}
+& \mbox{70.83\,$\pm\,0.81$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{45.54\,$\pm\,2.69$}
+& \mbox{59.96\,$\pm\,2.18$}
+& \mbox{64.25\,$\pm\,2.29$}
+& \mbox{69.33\,$\pm\,2.67$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 50.38 & 69.00 & 76.25 & \srbest{82.13} \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{39.50\,$\pm\,3.60$}
+& \mbox{54.71\,$\pm\,2.32$}
+& \mbox{58.42\,$\pm\,1.82$}
+& \mbox{61.71\,$\pm\,2.31$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{25.28\,$\pm\,3.16$}
+& \mbox{38.13\,$\pm\,2.49$}
+& \mbox{41.89\,$\pm\,2.73$}
+& \mbox{44.31\,$\pm\,2.14$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \mbox{58.21\,$\pm\,0.83$}
+& \srbest{\mbox{73.83\,$\pmb{\pm}\,0.29$}}
+& \srbest{\mbox{77.04\,$\pmb{\pm}\,0.52$}}
+& \mbox{78.67\,$\pm\,0.62$} \\
+
+% Low similarity: reaction class known
+\cmidrule(l){2-7}
+& \multirow{7}{*}{\shortstack{reaction class\\known}}
+& GLN~\cite{dai2019retrosynthesis}
+& \srbest{\mbox{63.88\,$\pmb{\pm}\,0.82$}}
+& \mbox{76.63\,$\pm\,0.54$}
+& \mbox{79.42\,$\pm\,0.38$}
+& \mbox{81.21\,$\pm\,0.07$} \\
+
+& & Retroformer~\cite{wan2022retroformer}
+& \mbox{54.33\,$\pm\,1.26$}
+& \mbox{70.63\,$\pm\,1.19$}
+& \mbox{73.83\,$\pm\,0.69$}
+& \mbox{77.67\,$\pm\,0.47$} \\
+
+& & DiffER~\cite{current2025differ}
+& \mbox{47.67\,$\pm\,5.43$}
+& \mbox{60.96\,$\pm\,5.21$}
+& \mbox{65.25\,$\pm\,4.52$}
+& \mbox{70.88\,$\pm\,2.96$} \\
+
+& & RetroSim~\cite{coley2017retrosim}
+& 59.75 & \srbest{78.88} & \srbest{83.50} & \srbest{88.13} \\
+
+& & RetroXpert~\cite{yan2020retroxpert}
+& \mbox{46.75\,$\pm\,3.57$}
+& \mbox{63.75\,$\pm\,0.87$}
+& \mbox{67.75\,$\pm\,0.94$}
+& \mbox{70.54\,$\pm\,0.56$} \\
+
+& & RetroDiT~\cite{wang2026retrodit}
+& \mbox{29.24\,$\pm\,4.41$}
+& \mbox{47.35\,$\pm\,1.91$}
+& \mbox{50.31\,$\pm\,2.07$}
+& \mbox{51.56\,$\pm\,2.01$} \\
+
+\cmidrule(l){3-7}
+& & \textbf{SpectraRetro}
+& \mbox{63.83\,$\pm\,1.38$}
+& \mbox{75.75\,$\pm\,1.11$}
+& \mbox{79.46\,$\pm\,0.52$}
+& \mbox{81.29\,$\pm\,0.51$} \\
+
+\bottomrule
+\end{tabularx}
+
+\par\vspace{3pt}
+\begin{minipage}{\textwidth}
+\fontsize{7.5}{9}\selectfont
+SpectraRetro results are reported as mean $\pm$ sample standard
+deviation over three training seeds.
+Bold denotes the highest reported mean in each block.
+% 中文表注：SpectraRetro结果以三个训练种子的均值±样本标准差表示。
+% 粗体表示各分组中的最高报告均值。
+\end{minipage}
+
+\endgroup
+\end{table*}

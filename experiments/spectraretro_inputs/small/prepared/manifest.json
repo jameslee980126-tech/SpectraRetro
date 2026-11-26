@@ -1,0 +1,57 @@
+{
+  "state": "complete_test_inputs_only",
+  "rows": 4192,
+  "reactions": 2400,
+  "draws": 300,
+  "source_sha256": {
+    "source-record:stage2/similarity_test.pt": "6951a27c411d5bf051374dfe9598d15bdacd294e5ae74d8b68d0cf7e6c5d89c3",
+    "experiments/spectraretro_inputs/small/prepared/similarity_test_table.csv": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26",
+    "source-record:stage2/similarity_test_frag.sdf": "207f95729a2d6bb1c62a95f4c84c69f70065356d6835e425f2e8334f26fa7f77",
+    "source-record:stage2/similarity_test_condition_alignment.json": "fb5b92694e5141d11d98f0402bf322fe4437086de59bb9cb268986309b947b38",
+    "experiments/spectraretro_inputs/small/prepared/test_record_map.csv": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61",
+    "experiments/spectraretro_inputs/small/prepared/stage1_test_predictions.jsonl": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28",
+    "checkpoints/small/size_model.ckpt": "f80a63e202a3465fee0d618504adc531448b71b7f1df2103d7637dfa037a17b8",
+    "source-record:legacy_control/best_validation_probabilities.npz": "0c081fbcf3d953d3e87feb5c838c4cabb440d3698c51b5887625df3cf311de93",
+    "checkpoints/small/composition_prior.pt": "508245b708bbae5c16af7de5195c693141f6f45d9fe7d79abebbc78c2ad5b041",
+    "src/spectraretro/completion/cycle/unknown_compatibility/context_head.py": "8d8c9e7f65eefd00bacdefa23d7530c8f3ef426b15ef2ede4addabe4e5e2acfa",
+    "src/spectraretro/completion/cycle/unknown_compatibility/observable_feature_snapshot.py": "6f5e4a9f5117068ed5bdd6ed64be19c97bbb5ddc6c5471dbffd7b881bd8b3e27",
+    "source-record:full_dataset/prepare_inputs.py": "4ae93f344c3d85a2cd4cf2450d1a595917fe303ad51872c4ae3bb8748dc6a73c",
+    "source-record:size_tuning_local_20260922/model.py": "42863ea60bec47856f5256af1ff798603742570405699b5db43bdca752988592",
+    "source-record:size_tuning_local_20260922/common.py": "ed0c434acb8be196a9e31cc7c14426dc395581015131ba17278eb5c609f8255f"
+  },
+  "output_sha256": {
+    "batch_order.json": "cd91cab54bf6aa4eaca34c97d897af5cd537a8a8ee245963807d0462566bc429",
+    "observed_graph_unavailable.json": "29de12f2f11abc54157c7dfeda7092565933db0fc297266bdd09714408a95ded",
+    "shared_sizes_300.npz": "32d3276f926996514ef4b6582442b9a0fa156b4f8cd23a85d451f47863c8a876",
+    "stage1_test_predictions.jsonl": "2537166a9a874f5400cb5f095b1574979c1d10e0e42802886a6d8fce898d4c28",
+    "test_geometry.pt": "be2f149c92832b3f852e81ed9acc1e21ae8f739bbcd705a5bc80cc67729c758e",
+    "test_metadata.json": "5956324c460a37a1d21a2947e5c4f3ab93a36de035e5add5aea9b7ab48e9793f",
+    "test_prior.npz": "aee7dd985591c0a8ace3fdf9cef3e6b3f4328904bf1cdfaee3bc0869b57f6f83",
+    "test_size_probabilities.npz": "0130689ef9de9ba44819d67f7d4e8d12c633b6266f86f51f56d38258aadb1fe0",
+    "similarity_test_table.csv": "849db57f29c7c363d6ba419a7ac196ace8429d37a1a8db2362152de7b70cdb26",
+    "test_record_map.csv": "7081b1c6966789f7da6e2767b90720beea63f8223fc41593a23b238f50842f61"
+  },
+  "observed_graph_unavailable": [
+    {
+      "uuid": "5167",
+      "reason": "observed_condition_sdf_element_mismatch"
+    },
+    {
+      "uuid": "9950",
+      "reason": "observed_condition_sdf_element_mismatch"
+    }
+  ],
+  "composition_validation_probability_max_error": 0.0,
+  "size_validation_probability_max_error": 3.635883331298828e-06,
+  "composition_target_and_class_poison_invariant": true,
+  "test_targets_used_for_head_fit_or_selection": false,
+  "size_readout_caveat": "Inherited legacy mean pooling depends on full-record padding; unknown chemistry masked. Reference-conditioned evaluation, not product-only inference.",
+  "test_size_model_labels_passed": false,
+  "EDM_model_constructed": false,
+  "EDM_sampling_started": false,
+  "retrosynthesis_metrics_computed": false,
+  "trained_weights_selected": false,
+  "cuda_context_initialized": false,
+  "seconds": 32.203999999997905,
+  "preparation_code_sha256": "ff758dd1ae937ef08363b633c61da364d01ed019c5be2638bda9384d1f1c7093"
+}

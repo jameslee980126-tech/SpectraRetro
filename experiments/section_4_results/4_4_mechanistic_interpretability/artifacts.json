@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "experiment": "section_4_results/4_4_mechanistic_interpretability",
+  "paper_items": [
+    "Figure 4"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/chemical_preferences.csv",
+      "path": "results/chemical_preferences.csv",
+      "role": "Estimated preferences and interval bounds by reaction class and factor",
+      "kind": "original_file",
+      "bytes": 8224,
+      "sha256": "8b5aa9e03988f47d90663b24b0e8ce7d609eca89c44c835795944b9bbfeddda0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/descriptor_correlations.csv",
+      "path": "results/descriptor_correlations.csv",
+      "role": "Pairwise factor correlations and significance statistics",
+      "kind": "original_file",
+      "bytes": 12785,
+      "sha256": "5c000789ce9459d3a01eb009c2bdd40249d5a9b395fed6a41a1fd9298f67d2be"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/dft_alternative_N_controls.csv",
+      "path": "data/dft_alternative_N_controls.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 4795,
+      "sha256": "3d66abd88f8dd3b67accac18ac2e62fc001ea25bcd17943568fdf8696bca73f2"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/dft_paired_electronic_comparison.csv",
+      "path": "data/dft_paired_electronic_comparison.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 13286,
+      "sha256": "ccd5920c0cc97d5ab84b16263eb8caac8b5c8baf2d52b56309ea8934dc10c2da"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/dft_per_structure.csv",
+      "path": "data/dft_per_structure.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 17909,
+      "sha256": "ece0a291843d878d74b5f989c7b7eb478b8f83acaf556afde2773a5828d6f21d"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/electronic_all_perturbations.csv",
+      "path": "data/electronic_all_perturbations.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 2579,
+      "sha256": "fcb1e17c2060ff6c41c6da890bb2be96ff1c8d5fd7fd150457fe3dba164b4fe1"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/electronic_pairs.csv",
+      "path": "data/electronic_pairs.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 618,
+      "sha256": "2d3382cf57b15bfe77e62737c6708fe06c569ba2162aa44c877693435509e108"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/electronic_within_parent_controls.csv",
+      "path": "data/electronic_within_parent_controls.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 486,
+      "sha256": "e6e4966de757d91048e8f8f2d4775b59372a44c0df9149554535da4d7c92342e"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/factor_catalog.csv",
+      "path": "data/factor_catalog.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 4506,
+      "sha256": "f21520ee7a1ce8d45b116417e03eb21fcd895a4b47bb06129168e9eb1741307d"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/joined_38_fragments.csv",
+      "path": "data/joined_38_fragments.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 43386,
+      "sha256": "5dc86af54552d0b56bd9e4b84ad377f6780008ac17c555083566bf7612949494"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/main_figure_six_pairs.csv",
+      "path": "data/main_figure_six_pairs.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 2654,
+      "sha256": "eedf730b9c211e0be7042889c72fc6596f3ccf9536018fbc06f072ef3d039bec"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/mantel_associations.csv",
+      "path": "results/mantel_associations.csv",
+      "role": "Mantel correlations, permutation p-values and corrected q-values by class and factor",
+      "kind": "original_file",
+      "bytes": 8768,
+      "sha256": "e856027fa0fc9b133f9e5386bbeaa58cc0101f6e8acad1b0cb5b866596f29704"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_fragments.csv",
+      "path": "data/steric_fragments.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 5710,
+      "sha256": "932126d23756aa9284d6f6f03cd88109135b1c0fb99979b7e075dd7ec2e7409b"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_geometry_curves.csv",
+      "path": "data/steric_geometry_curves.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 65858,
+      "sha256": "2ea1a2753d894fb2e35bd67bbccc3ca749c74beb93d5d8c97e88fddf622aad50"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_leave_one_cluster_out.csv",
+      "path": "results/steric_leave_one_cluster_out.csv",
+      "role": "Mean steric response after omitting each fragment cluster",
+      "kind": "original_file",
+      "bytes": 1312,
+      "sha256": "b1543296628528ffd2416b052dde15c27e7e9c7a25c8642b2badbca47920bba3"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_orientations.csv",
+      "path": "data/steric_orientations.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 21244,
+      "sha256": "2699aee2204e344169b2bf074b469299d5317c3fd86a2de85e1a98f2fc552fc3"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_test_angle_replay.csv",
+      "path": "data/steric_test_angle_replay.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 153977,
+      "sha256": "e50f2b3fbbcdce07de251f53f6e96a2ec4d1c920722fdeb42bced02d0262a60f"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/steric_test_fragment_replay.csv",
+      "path": "data/steric_test_fragment_replay.csv",
+      "role": "Figure 4 chemical, spatial or electronic source observations",
+      "kind": "original_file",
+      "bytes": 12234,
+      "sha256": "1a75ca16963073dde3e1f299bb61bd8aeab10d2c734f17b71c2295d75bf62ff9"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/analysis_summary.json",
+      "path": "results/analysis_summary.json",
+      "role": "Recorded mechanistic analysis summary",
+      "kind": "original_file",
+      "bytes": 6409,
+      "sha256": "69f03781d926d9e0554fb29c94e4ade0a2df12a040118f98b7cfb889d01067b0"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/dft_summary.json",
+      "path": "results/dft_summary.json",
+      "role": "Recorded mechanistic analysis summary",
+      "kind": "original_file",
+      "bytes": 58574,
+      "sha256": "4db6e47ce5aab977a643c767033a0be3944d0a7a6531559b80e0fa51205af793"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/factor_summary.json",
+      "path": "results/factor_summary.json",
+      "role": "Recorded mechanistic analysis summary",
+      "kind": "original_file",
+      "bytes": 1166,
+      "sha256": "8780165a3211fbafb85b9ae8a94eeb70ddeae2d3305f5eaf612037271bea4e5e"
+    },
+    {
+      "source_path": "results/source_data/mechanistic_interpretability/outcome_link_summary.json",
+      "path": "results/outcome_link_summary.json",
+      "role": "Recorded mechanistic analysis summary",
+      "kind": "original_file",
+      "bytes": 8255,
+      "sha256": "b1d497a25da562c27f9e5946b7d829925faf424e2977928f59ee7d8d348bf5db"
+    },
+    {
+      "path": "figures/figure_4_mechanistic_context.png",
+      "source_path": "experiments/section_4_results/4_4_mechanistic_interpretability/figures/figure_4_mechanistic_context.png",
+      "role": "Figure 4: Mechanistic interpretation of reaction-center ranking and synthon completion",
+      "paper_item": "Figure 4",
+      "kind": "original_file",
+      "sha256": "1c8be609cd33c15f50af392d7c8dce7c1867a534a635f07698e1113017748eeb",
+      "bytes": 3367181,
+      "source_asset": "Fig/Figure_4.png"
+    }
+  ],
+  "shared_code": [
+    "scripts/reproduce_mechanistic_tables.py",
+    "results/source_data/mechanistic_interpretability/supplement/quantum/calculation_code"
+  ],
+  "shared_data": [
+    "results/source_data/mechanistic_interpretability"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

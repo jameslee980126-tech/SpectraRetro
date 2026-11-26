@@ -1,0 +1,171 @@
+{
+  "normalized_unique_products": 73522,
+  "descriptor_products": 73521,
+  "wildcard_products_excluded": 1,
+  "nonempty_scaffolds": 20710,
+  "acyclic_products": 1601,
+  "scaffold_definition": "RDKit Bemis–Murcko, atom/bond typed, stereochemistry ignored; empty acyclic scaffold excluded from richness count.",
+  "observed_product_elements": 16,
+  "element_incidence": {
+    "C": 73522,
+    "O": 64679,
+    "Br": 17691,
+    "Cl": 16265,
+    "N": 55068,
+    "S": 12554,
+    "F": 16170,
+    "I": 4089,
+    "Si": 1830,
+    "B": 79,
+    "P": 302,
+    "Se": 36,
+    "Sn": 7,
+    "Ge": 1,
+    "Na": 1,
+    "Te": 1,
+    "*": 1
+  },
+  "quantiles": {
+    "heavy_atoms": {
+      "0.0": 5.0,
+      "0.05": 11.0,
+      "0.25": 15.0,
+      "0.5": 19.0,
+      "0.75": 25.0,
+      "0.95": 36.0,
+      "1.0": 83.0
+    },
+    "rings": {
+      "0.0": 0.0,
+      "0.05": 1.0,
+      "0.25": 1.0,
+      "0.5": 2.0,
+      "0.75": 3.0,
+      "0.95": 5.0,
+      "1.0": 12.0
+    },
+    "rotatable_bonds": {
+      "0.0": 0.0,
+      "0.05": 0.0,
+      "0.25": 2.0,
+      "0.5": 3.0,
+      "0.75": 5.0,
+      "0.95": 9.0,
+      "1.0": 39.0
+    },
+    "fraction_csp3": {
+      "0.0": 0.0,
+      "0.05": 0.0,
+      "0.25": 0.1428571428571428,
+      "0.5": 0.2727272727272727,
+      "0.75": 0.4166666666666667,
+      "0.95": 0.6666666666666666,
+      "1.0": 1.0
+    },
+    "heteroatoms": {
+      "0.0": 0.0,
+      "0.05": 2.0,
+      "0.25": 4.0,
+      "0.5": 5.0,
+      "0.75": 7.0,
+      "0.95": 10.0,
+      "1.0": 32.0
+    }
+  },
+  "gallery": [
+    {
+      "label": "Aromatic heterocycles",
+      "category_products": 40071,
+      "scaffold": "c1ccncc1",
+      "scaffold_products_global": 2860,
+      "representative_product": "Cc1cccnc1"
+    },
+    {
+      "label": "Fused ring systems",
+      "category_products": 29469,
+      "scaffold": "c1ccc2[nH]ccc2c1",
+      "scaffold_products_global": 721,
+      "representative_product": "Brc1c[nH]c2ccccc12"
+    },
+    {
+      "label": "Saturated rings",
+      "category_products": 16962,
+      "scaffold": "C1CCCCC1",
+      "scaffold_products_global": 168,
+      "representative_product": "CC1(C=O)CCCCC1"
+    },
+    {
+      "label": "Spiro ring systems",
+      "category_products": 828,
+      "scaffold": "C1CCC2(CC1)OCCO2",
+      "scaffold_products_global": 22,
+      "representative_product": "CC1(C#N)CCC2(CC1)OCCO2"
+    },
+    {
+      "label": "Bridged ring systems",
+      "category_products": 793,
+      "scaffold": "c1ccc(C23CC4CC(CC(C4)C2)C3)cc1",
+      "scaffold_products_global": 26,
+      "representative_product": "c1ccc(C23CC4CC(CC(C4)C2)C3)cc1"
+    },
+    {
+      "label": "Multi-ring structures",
+      "category_products": 13414,
+      "scaffold": "C(#Cc1cnn2ccc(-c3ccccc3)nc12)c1ccccc1",
+      "scaffold_products_global": 71,
+      "representative_product": "Cc1cc(-c2ccc(Cl)cc2)nc2c(C#Cc3ccc(C(C)(C)O)cc3)cnn12"
+    }
+  ],
+  "class_diversity": [
+    {
+      "class_id": 1,
+      "reaction_records": 24568,
+      "products": 18631,
+      "nonempty_scaffolds": 5102,
+      "acyclic_products": 184
+    },
+    {
+      "class_id": 2,
+      "reaction_records": 13806,
+      "products": 11695,
+      "nonempty_scaffolds": 4068,
+      "acyclic_products": 308
+    },
+    {
+      "class_id": 3,
+      "reaction_records": 18665,
+      "products": 15636,
+      "nonempty_scaffolds": 5183,
+      "acyclic_products": 830
+    },
+    {
+      "class_id": 4,
+      "reaction_records": 5438,
+      "products": 4518,
+      "nonempty_scaffolds": 1520,
+      "acyclic_products": 41
+    },
+    {
+      "class_id": 5,
+      "reaction_records": 15843,
+      "products": 12646,
+      "nonempty_scaffolds": 5311,
+      "acyclic_products": 0
+    },
+    {
+      "class_id": 6,
+      "reaction_records": 14471,
+      "products": 10544,
+      "nonempty_scaffolds": 3019,
+      "acyclic_products": 242
+    }
+  ],
+  "input_sha256": {
+    "product_plot_data.csv": "160ed3023e51e272a5b8b267bb2da459532a062bc0b5aaf23ebe8cf827879f5d",
+    "reaction_plot_data.csv": "6d047835b39558cf589605f5440dbf2f6dfcbe364d1a8f08085ec2954bf86c81",
+    "figure_data_audit.json": "903570c51a8e74f06266532bfa1303254901b0d6fba5b8dbd45d421418fa1067"
+  },
+  "rdkit_version": "2026.03.1",
+  "gallery_selection": "Most frequent eligible, previously unused scaffold per declared category; ties resolved by canonical scaffold SMILES. Categories overlap; gallery is not a prevalence-balanced sample.",
+  "claim_scope": "Descriptive coverage within this dataset. No comparative superiority, natural-population representativeness, balance or leakage-free claim."
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "known",
+  "train": "datasets/full/train.csv",
+  "valid": "datasets/full/valid.csv",
+  "test": "datasets/full/test.csv",
+  "small": "datasets/small",
+  "geometry_and_prior": "experiments/spectraretro_inputs",
+  "evaluation": "experiments/section_4_results/4_1_benchmark/known-class/data/evaluation",
+  "center_predictions": "experiments/section_4_results/4_1_benchmark/known-class/data/center_predictions.jsonl"
+}

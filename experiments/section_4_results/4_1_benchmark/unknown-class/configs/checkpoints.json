@@ -1,0 +1,96 @@
+{
+  "mode": "unknown",
+  "checkpoints": [
+    {
+      "id": "unknown_completion_model",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/completion_model.pt",
+      "sha256": "b483918f9df9ccdf26b6d838ffbc0c4c8c9c0b129e01c0867fd9f57102c3fcf0",
+      "selected_epoch": 1580,
+      "completed_epochs": 1600,
+      "seed": 0,
+      "task": "synthon-conditioned 3D diffusion",
+      "mode": "unknown"
+    },
+    {
+      "id": "unknown_size_model",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/size_model.pt",
+      "sha256": "e0702f9cf5298fae1127e029953c3c77cb8847e6d3ef30ebcbbf264b12dd5718",
+      "selected_epoch": 42,
+      "completed_epochs": 1000,
+      "seed": 0,
+      "class_input": false,
+      "task": "fragment size",
+      "mode": "unknown"
+    },
+    {
+      "id": "unknown_DiffER_full_best_pkl",
+      "path": "results/baselines/native_runs/DiffER/full/unknown/best.pkl",
+      "sha256": "ed65f7a97d48f81a4ae0242f9f892ae0e0da3b880ce2b51eca9ac9ccabf2b2e9",
+      "bytes": 178081478,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "unknown_GLN_full_model_dump",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/GLN/full/model.dump",
+      "sha256": "df97fb53afedb332aac89044e9b6319951265748ea5d42cead59c24f8c364804",
+      "bytes": 3180493,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "unknown_RetroXpert_full_reaction_center_pt",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/RetroXpert/full/reaction_center.pt",
+      "sha256": "c96e096625719eb8e69db1e716bc004a6f2078fae2e2d6b213396e3a47419287",
+      "bytes": 10499667,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "unknown_RetroXpert_full_sequence_model_step100000_pt",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/baselines/RetroXpert/full/sequence_model_step100000.pt",
+      "sha256": "71fcb8756fd264dd005ae21afca4566c309eb6081f38882618319017e91d5ab8",
+      "bytes": 149979391,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "unknown_reaction_center",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/reaction_center.pth",
+      "sha256": "3493b56d5d8664a48df4ff6fe3183e26fca5ab163243150ccd56ee295f0672fd",
+      "bytes": 64293383,
+      "task": "full reaction center",
+      "mode": "unknown"
+    },
+    {
+      "id": "unknown_initial_model",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/initial_model.pt",
+      "sha256": "6c2ecc902bc16d0a5e76c75be6fb7b71034b5402836a69af64f7acf6599a3f00",
+      "bytes": 8441360,
+      "task": "see component scientific configuration"
+    },
+    {
+      "id": "unknown_small_seed0",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed0.pt",
+      "sha256": "54afc9d4bf1294f89f97b34fd2fbfa3406aaacd2b7b034e23631a13e30969597",
+      "bytes": 8442896,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 0,
+      "mode": "unknown"
+    },
+    {
+      "id": "unknown_small_seed1",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed1.pt",
+      "sha256": "ebe64fa0a0a0d878b32c072516a4d3488c87d3709f58c22e763e59c294b07831",
+      "bytes": 8440357,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 1,
+      "mode": "unknown"
+    },
+    {
+      "id": "unknown_small_seed2",
+      "path": "experiments/section_4_results/4_1_benchmark/unknown-class/checkpoints/small/seed2.pt",
+      "sha256": "0b3bfdba60378002018cee4006b5c4b18c74c3bad338a640727c408d8f180e7f",
+      "bytes": 8440357,
+      "task": "small synthon-conditioned 3D diffusion",
+      "seed": 2,
+      "mode": "unknown"
+    }
+  ]
+}

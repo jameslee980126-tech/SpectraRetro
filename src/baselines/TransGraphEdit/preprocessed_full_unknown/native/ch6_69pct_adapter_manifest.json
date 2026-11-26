@@ -1,0 +1,22 @@
+{
+  "adapter": "native TransGraphEdit preprocessing functions; external source unchanged",
+  "dataset": "C-H Arylation",
+  "known_class": true,
+  "max_steps": 9,
+  "source_hashes": {
+    "selected_train.csv": "957E27D354D6B82F6BC1EAB1FDA8F5EC365517BEDE2E4D31112C3677CA50F648",
+    "selected_eval.csv": "9731BD8CFA1E6865DEEA5B5498184A823E37908C570769D8D75A4B6152860503",
+    "selected_test.csv": "9FD0E110A733462561BE5E1C3BE01B45E7B4F2A9C2488D7A7646DC50F9A00DE4"
+  },
+  "source_rows": {
+    "train": 74146,
+    "valid": 9395,
+    "test": 9250
+  },
+  "native_rows": {
+    "train": 73229,
+    "valid": 9283,
+    "test": 9118
+  },
+  "vocabulary_source": "training split only"
+}

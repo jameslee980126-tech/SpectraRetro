@@ -1,0 +1,174 @@
+{
+  "model": "TransGraphEdit-known_class-seed0",
+  "beam_size": 10,
+  "partial_evaluation": false,
+  "artifacts": {
+    "predictions": "/root/rivermind-data/transgraphedit_similarity_paired_20260922/source/TransGraphEdit-main/experiments/C-H Arylation/with_rxn_class/22-09-2026--23-25-21/pred_results.txt",
+    "selected_test": "/root/rivermind-data/transgraphedit_similarity_paired_20260922/dataset/frozen/test.csv",
+    "selected_test_sha256": "D7F01A2D78656C37A698C4F9F9E64DEC8F9EF3DEEACAA0CA48BDCEFC8D77B614",
+    "native_test_file": "/root/rivermind-data/transgraphedit_similarity_paired_20260922/source/TransGraphEdit-main/data/C-H Arylation/test/test.file.kekulized"
+  },
+  "native_original": {
+    "evaluation_semantics": "original_TransGraphEdit-known_class-seed0_prediction_is_correct_flags",
+    "denominator": "native_preprocessing_successes_only",
+    "total_reactions": 2367,
+    "prediction_blocks_present": 2367,
+    "missing_prediction_blocks": 0,
+    "short_prediction_blocks": 35,
+    "missing_beam_candidates": 39,
+    "short_beam_policy": "unfilled ranks receive no hit credit",
+    "precursor_order": "ignored_by_python_set",
+    "duplicate_precursors": "collapsed_as_set",
+    "candidate_ranking": "original_beam_order",
+    "metrics": {
+      "Top-1": 0.6138572032108154,
+      "Top-3": 0.7989015631601183,
+      "Top-5": 0.8250950570342205,
+      "Top-10": 0.8436839881706801
+    },
+    "hits": {
+      "Top-1": 1453,
+      "Top-3": 1891,
+      "Top-5": 1953,
+      "Top-10": 1997
+    }
+  },
+  "legacy78_adapted_canonical": {
+    "evaluation_semantics": "reaction_instance_canonical_precursor_set_exact_match",
+    "reference_family": {
+      "result": "GDiffRetro old-flow Stage1 gate-on Top-1 78.02%",
+      "implementation": "code/known_class/stage2/fast_merge_eval.py",
+      "preserved_principles": [
+        "full precursor identity exact match",
+        "cumulative Top-k hit reporting",
+        "invalid predictions never count as correct"
+      ]
+    },
+    "model_aware_adaptations": {
+      "evaluation_unit": "2400 frozen reaction rows; product-group collapsing is not transferred because TransGraphEdit-known_class-seed0 emits one ranked list per reaction",
+      "stage1_gate": "not applicable; TransGraphEdit-known_class-seed0 is single-stage and has no comparable post-hoc center-rank gate",
+      "oracle_component_merge": "not applicable; predictions are complete precursor sets",
+      "candidate_ranking": "native beam order and original rank slots retained; canonical duplicates keep their first occurrence without compacting later candidates",
+      "native_preprocessing_failures": "counted as failures in the full denominator"
+    },
+    "canonicalization": {
+      "toolkit": "RDKit 2026.03.6",
+      "graph_sanitization": "enabled",
+      "atom_mapping": "removed",
+      "explicit_hydrogens": "removed",
+      "stereochemistry": "preserved",
+      "precursor_order": "ignored_by_sorting",
+      "duplicate_precursors": "collapsed_as_set",
+      "invalid_candidates": "no_hit_credit_original_rank_slot_preserved",
+      "duplicate_beam_candidates": "first_canonical_occurrence_retained_later_occurrences_consume_rank_slots"
+    },
+    "denominator": "all_frozen_test_reaction_rows",
+    "total_reactions": 2400,
+    "native_preprocessing_supported": 2367,
+    "native_preprocessing_failures": 33,
+    "unsupported_source_rows": [
+      855,
+      883,
+      906,
+      908,
+      939,
+      950,
+      1052,
+      1056,
+      1092,
+      1112,
+      1152,
+      1155,
+      1188,
+      1265,
+      1442,
+      1997,
+      2006,
+      2099,
+      2103,
+      2104,
+      2114,
+      2115,
+      2117,
+      2225,
+      2235,
+      2236,
+      2242,
+      2264,
+      2308,
+      2347,
+      2365,
+      2371,
+      2397
+    ],
+    "unsupported_by_class": {
+      "2": 1,
+      "3": 13,
+      "4": 1,
+      "6": 18
+    },
+    "prediction_blocks_present": 2367,
+    "missing_prediction_blocks": 0,
+    "short_prediction_blocks": 35,
+    "missing_beam_candidates": 39,
+    "short_beam_policy": "unfilled ranks receive no hit credit",
+    "invalid_prediction_occurrences": 883,
+    "duplicate_canonical_prediction_occurrences": 2236,
+    "metrics": {
+      "Top-1": 0.6054166666666667,
+      "Top-3": 0.7879166666666667,
+      "Top-5": 0.81375,
+      "Top-10": 0.8320833333333333
+    },
+    "hits": {
+      "Top-1": 1453,
+      "Top-3": 1891,
+      "Top-5": 1953,
+      "Top-10": 1997
+    },
+    "per_class": {
+      "1": {
+        "total_reactions": 531,
+        "Top-1": 0.6497175141242938,
+        "Top-3": 0.8568738229755178,
+        "Top-5": 0.8888888888888888,
+        "Top-10": 0.8907721280602636
+      },
+      "2": {
+        "total_reactions": 342,
+        "Top-1": 0.6812865497076024,
+        "Top-3": 0.8157894736842105,
+        "Top-5": 0.8333333333333334,
+        "Top-10": 0.8508771929824561
+      },
+      "3": {
+        "total_reactions": 393,
+        "Top-1": 0.5318066157760815,
+        "Top-3": 0.6590330788804071,
+        "Top-5": 0.6946564885496184,
+        "Top-10": 0.727735368956743
+      },
+      "4": {
+        "total_reactions": 252,
+        "Top-1": 0.6190476190476191,
+        "Top-3": 0.6626984126984127,
+        "Top-5": 0.6666666666666666,
+        "Top-10": 0.6825396825396826
+      },
+      "5": {
+        "total_reactions": 477,
+        "Top-1": 0.5073375262054507,
+        "Top-3": 0.8238993710691824,
+        "Top-5": 0.8427672955974843,
+        "Top-10": 0.8637316561844863
+      },
+      "6": {
+        "total_reactions": 405,
+        "Top-1": 0.6617283950617284,
+        "Top-3": 0.8345679012345679,
+        "Top-5": 0.8716049382716049,
+        "Top-10": 0.8962962962962963
+      }
+    }
+  }
+}

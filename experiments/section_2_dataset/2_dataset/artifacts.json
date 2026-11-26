@@ -1,0 +1,148 @@
+{
+  "schema_version": 2,
+  "experiment": "section_2_dataset/2_dataset",
+  "paper_items": [
+    "Figure 1",
+    "Figure 2"
+  ],
+  "path_base": "current_experiment_directory",
+  "source_path_base": "repository_root",
+  "files": [
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure2_selected_reactions.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure2_selected_reactions.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 4033116,
+      "sha256": "335512ff2818832efafeacf24c43e22dd79e49c2edc9bfc432d81cef32d547d6",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure2_nodes.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure2_nodes.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 2154156,
+      "sha256": "fdb73817b38a20650b469b33bc9e2a74cbe2e7d61de163a82cd09e46013501eb",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure2_edges.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure2_edges.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 128058,
+      "sha256": "3d82f716a2c66711e9d5fc81ae406e3b9b4e5cbd21eabf98f58af851defa8378",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure2_node_coordinates.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure2_node_coordinates.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 525610,
+      "sha256": "327844741e3f748f6e8123264a95eb1d7a3e0bbcd6bb318872cd582bec2f7c27",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/figure3_reaction_weighted_descriptors.csv",
+      "path": "../../../datasets/supplementary_data/figure3_reaction_weighted_descriptors.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 19630275,
+      "sha256": "36fe1f2b7fc911f4a4e2d2f460ff62ac24215f497231da6e53d4eba7b5a473f7",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/figure3_unique_product_descriptors.csv",
+      "path": "../../../datasets/supplementary_data/figure3_unique_product_descriptors.csv",
+      "role": "Figure 2 observations and molecular descriptors",
+      "kind": "original_file",
+      "bytes": 9870374,
+      "sha256": "a557d7eb310283c54336b0626446e44dccda08c07866151bdad7daddf3e4fafa",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/figure3_property_summary.csv",
+      "path": "../../../results/supporting_information/source_data_figures/figure3_property_summary.csv",
+      "role": "Recorded dataset summary",
+      "kind": "original_file",
+      "bytes": 351,
+      "sha256": "d823b3445d92571d86a6efc7f60fc8c8c909b08bc07cf7ef4331423a4aedce7a",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "results/supporting_information/source_data_figures/tableS1_split_family_counts.csv",
+      "path": "../../../results/supporting_information/source_data_figures/tableS1_split_family_counts.csv",
+      "role": "Recorded dataset summary",
+      "kind": "original_file",
+      "bytes": 592,
+      "sha256": "8270d3c56f3761f142e24e5988308f502000b6bf8379992592e0facd83df55d1",
+      "storage": "repository_reference"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_class_mapping.json",
+      "path": "configs/dataset_class_mapping.json",
+      "role": "Reaction-family definitions or frozen subset selection",
+      "kind": "original_file",
+      "bytes": 745,
+      "sha256": "486d37a707fa00ee4d1b05dc403a7ea4ddd29562d398ca267093dbade45d597d"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_selection_plan.json",
+      "path": "configs/dataset_small_selection_plan.json",
+      "role": "Reaction-family definitions or frozen subset selection",
+      "kind": "original_file",
+      "bytes": 1710,
+      "sha256": "302c186bbed05c72a541b1b7dd3d7e179266c23e50eea085b5a0b480a9684ca3"
+    },
+    {
+      "source_path": "datasets/supplementary_data/dataset_small_thresholds.json",
+      "path": "configs/dataset_small_thresholds.json",
+      "role": "Reaction-family definitions or frozen subset selection",
+      "kind": "original_file",
+      "bytes": 442,
+      "sha256": "5a100027d00c5431f8d8d97a8235cac3f45526b5a1fb255e407263c0d794a4ac"
+    },
+    {
+      "source_path": "datasets/split_summary.json",
+      "path": "results/split_summary.json",
+      "role": "Frozen split counts and identities",
+      "kind": "original_file",
+      "bytes": 2885,
+      "sha256": "3111c24d71dae13277134e9d957766ba2231fc55914afe7714aff4f9a68e0d60"
+    },
+    {
+      "path": "figures/figure_1_retrosynthetic_overview.png",
+      "source_path": "experiments/section_2_dataset/2_dataset/figures/figure_1_retrosynthetic_overview.png",
+      "role": "Figure 1: Retrosynthetic overview of CHRetroAgent and SpectraRetro",
+      "paper_item": "Figure 1",
+      "kind": "original_file",
+      "sha256": "5c9c1ea40df60056409395b6cdd95abfa6da3dfca9009f6a948045d0160b6b7f",
+      "bytes": 4051852,
+      "source_asset": "Fig/Figure_1.png"
+    },
+    {
+      "path": "figures/figure_2_chretro_dataset_overview.png",
+      "source_path": "experiments/section_2_dataset/2_dataset/figures/figure_2_chretro_dataset_overview.png",
+      "role": "Figure 2: Chemical coverage and physicochemical diversity of CHRetro",
+      "paper_item": "Figure 2",
+      "kind": "original_file",
+      "sha256": "ceea0bb7ab2f09ac8d3a794ef00165dc8071dbb3cb842353eba5fd8173ff3b3a",
+      "bytes": 3338304,
+      "source_asset": "Fig/Figure_2.png"
+    }
+  ],
+  "shared_code": [
+    "src/data_preparation",
+    "scripts/data/export_frozen_subset.py",
+    "datasets/supplementary_data/dataset_structural_mining.py"
+  ],
+  "shared_data": [
+    "datasets/full",
+    "datasets/small",
+    "datasets/supplementary_data/dataset_class_mapping.json"
+  ],
+  "checkpoint_index": null,
+  "usage": "Paths are relative to this experiment directory. Run commands from the repository root."
+}

@@ -1,0 +1,104 @@
+{
+  "members": [
+    {
+      "path": "atom_list.txt",
+      "bytes": 58,
+      "sha256": "10aca32e54759e6eb088b1206010fa66952851dfe9a9b0e4f29a2874952c5bd9"
+    },
+    {
+      "path": "cano_smiles.pkl",
+      "bytes": 25483321,
+      "sha256": "d6ce51b1956a66c1c41b4c0a37e8d0333fb9063d6d5e61982999dff62f448c86"
+    },
+    {
+      "path": "graph_smiles.bin",
+      "bytes": 41437916,
+      "sha256": "91ab51754cbbfc60fd114f8a8255472bc2daca5908bc3a5fd9cfd8b2e15a1765"
+    },
+    {
+      "path": "graph_smiles.fp2",
+      "bytes": 18854416,
+      "sha256": "d2d063f1b802cc91ff43b6cfc5790fa11ccaf68dd429a2c7973b945bb716f31f"
+    },
+    {
+      "path": "graph_smiles.names",
+      "bytes": 4383747,
+      "sha256": "bfa3c994bba8a2c52eb331f9e3406f94c0194e846ba9195cc4c46083c7ed6b10"
+    },
+    {
+      "path": "tpl-default/cano_smarts.pkl",
+      "bytes": 3280176,
+      "sha256": "c7e59066173adda3501e9a2e2c27470d60139fe6e1607084e5540023b519bc65"
+    },
+    {
+      "path": "tpl-default/graph_smarts.bin",
+      "bytes": 2504216,
+      "sha256": "bebb6b8b0ac63bf4cb1ed93226914e6ecf91578e4c54be2fe46230c4b8e91335"
+    },
+    {
+      "path": "tpl-default/graph_smarts.fp2",
+      "bytes": 1300792,
+      "sha256": "a9802145c48c56073e5eb196effb114f1cda72737ba6f5589e6b6e6ebdb4bc0a"
+    },
+    {
+      "path": "tpl-default/graph_smarts.names",
+      "bytes": 1198947,
+      "sha256": "d4fb238707083ea1ae82aa21fb1c419ea253ccae3560dc2bf213eb050d74defd"
+    },
+    {
+      "path": "tpl-default/np-1/neg_graphs-part-0.bin",
+      "bytes": 975630704,
+      "sha256": "0a9ebbac77ae424831a8c818f06fe7f758b9916e291667c890495444bbf36d2f"
+    },
+    {
+      "path": "tpl-default/np-1/neg_graphs-part-0.fp2",
+      "bytes": 429721160,
+      "sha256": "f4fdb320d0bb5b62e6d23a29e4aabe5f377dffb529fef5163346f28ae10926da"
+    },
+    {
+      "path": "tpl-default/np-1/neg_graphs-part-0.names",
+      "bytes": 105699874,
+      "sha256": "73c4cd0b976adf4ad7ca87ae1a57465021aee4ba16b4c028a9cb2a2e019e006b"
+    },
+    {
+      "path": "tpl-default/np-1/neg_reacts-part-0.csv",
+      "bytes": 119038266,
+      "sha256": "188899e68d39a583ec3009f0c87de3f7201db5113b8b2af117f2678f6ab1ff24"
+    },
+    {
+      "path": "tpl-default/np-1/pos_tpls-part-0.csv",
+      "bytes": 3449778,
+      "sha256": "9a2702b1d6862a920d9686693cc33d44ef76caf0cbf81f0c1fcd1ebbae47c468"
+    },
+    {
+      "path": "tpl-default/np-1/test-prod_center_maps-part-0.csv",
+      "bytes": 1158538,
+      "sha256": "d53aaca8dcff4638e2522548c9448c18f6125118e42442f68618a67ba5292c2a"
+    },
+    {
+      "path": "tpl-default/np-1/train-prod_center_maps-part-0.csv",
+      "bytes": 9311323,
+      "sha256": "f18835dca1492d661c07c0c012703916f763754dec16593b3b4036c0b1e992e0"
+    },
+    {
+      "path": "tpl-default/np-1/val-prod_center_maps-part-0.csv",
+      "bytes": 1175432,
+      "sha256": "2ca96868474751b207ee84366fc50b4169fce0f0a0389fed836f0cbbd8672058"
+    },
+    {
+      "path": "tpl-default/prod_cano_smarts.txt",
+      "bytes": 881990,
+      "sha256": "0f61eb5205dac40240abfb892bf3741764fa482d631595170a52aa4aa632c766"
+    },
+    {
+      "path": "tpl-default/react_cano_smarts.txt",
+      "bytes": 322272,
+      "sha256": "7be4e30da17f4bb018f8795a765301f891c13d0fc8c111f2b2643f483e7eadb3"
+    },
+    {
+      "path": "tpl-default/templates.csv",
+      "bytes": 2907931,
+      "sha256": "184ba016191d768b4dacc0f48499dc23ba30829017f741ef624d7640ea8ac43c"
+    }
+  ]
+}

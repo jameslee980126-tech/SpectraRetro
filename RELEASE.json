@@ -1,0 +1,28 @@
+{
+  "name": "SpectraRetro",
+  "main_figures": 5,
+  "main_tables": 3,
+  "supplementary_figures": 8,
+  "supplementary_tables": 26,
+  "experiment_guides": 18,
+  "paper_map": "docs/paper_map.json",
+  "experiment_manifest": "experiments/manifest.json",
+  "checkpoint_registry": "checkpoints/WEIGHTS.json",
+  "checkpoint_guide": "docs/guides/checkpoints.md",
+  "class_mode_workflows": {
+    "known": "src/spectraretro/known-class/run.py",
+    "unknown": "src/spectraretro/unknown-class/run.py"
+  },
+  "full_benchmark_workflow": {
+    "entry": "src/spectraretro/run.py",
+    "guide": "src/spectraretro/README.md",
+    "experiment": "section_4_results/4_1_benchmark",
+    "commands": {
+      "known": "python src/spectraretro/known-class/run.py",
+      "unknown": "python src/spectraretro/unknown-class/run.py"
+    }
+  },
+  "version": "0.1.0",
+  "repository_url": "https://github.com/jameslee980126-tech/SpectraRetro",
+  "verification_scope": "Checksums of distributed files, checkpoint identities, reaction-level score recounts and two-reaction inference in each class setting. Individual experiment pages specify figure and table coverage."
+}
